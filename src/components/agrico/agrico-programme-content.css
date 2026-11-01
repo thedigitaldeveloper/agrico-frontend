@@ -72,8 +72,9 @@
 }
 .ag-publication-toc ol {
   column-count: 2;
-  column-gap: 32px;
-  padding-left: 20px;
+  column-gap: 36px;
+  list-style: decimal !important;
+  padding-left: 22px !important;
   margin: 0;
 }
 @media (max-width: 768px) {
@@ -82,9 +83,18 @@
   }
 }
 .ag-publication-toc li {
+  display: list-item !important;
+  list-style-type: decimal !important;
+  padding-left: 4px;
   margin-bottom: 8px;
   font-size: 13.5px;
   line-height: 1.5;
+  break-inside: avoid;
+}
+.ag-publication-toc li::marker {
+  color: #215945;
+  font-weight: 700;
+  font-size: 13px;
 }
 .ag-publication-toc a {
   color: #215945;

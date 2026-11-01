@@ -46,7 +46,7 @@ function ContentSection({ section, doc }: { section: PublicationSection; doc: Pu
 
 export function AgricoPublicationContent({ doc }: { doc: PublicationDocument }) {
 const isUniversity = doc.kind === "University" || doc.kind === "UniversityTab";
-return <article className="ag-publication-body" data-agrico-document={doc.path}><nav className="ag-publication-toc" aria-label="Table of contents"><p className="ag-eyebrow">On this page</p><h2>Find what you need</h2><ol>{doc.toc.map(item => <li key={item.id}><a href={'#' + item.id}>{item.title}</a></li>)}</ol></nav>{doc.sections.map(section => <ContentSection key={section.id} section={section} doc={doc} />)}
+return <article className="ag-publication-body" data-agrico-document={doc.path}><nav className="ag-publication-toc" aria-label="Table of Contents"><p className="ag-eyebrow">On this page</p><h2>Table of Contents</h2><ol>{doc.toc.map(item => <li key={item.id}><a href={'#' + item.id}>{item.title}</a></li>)}</ol></nav>{doc.sections.map(section => <ContentSection key={section.id} section={section} doc={doc} />)}
       {!isUniversity && !!doc.related_universities.length && <section className="ag-publication-section"><h2>Explore relevant institutions</h2><PublicationCards cards={doc.related_universities} /></section>}
       {!isUniversity && !!doc.related_posts.length && <section className="ag-publication-section"><h2>Continue your reading</h2><PublicationCards cards={doc.related_posts} /></section>}
     </article>;

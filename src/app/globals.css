@@ -298,6 +298,26 @@
   gap: 10px !important;
 }
 
+.ag-publication-toc ol,
+.ag-publication-sources {
+  list-style: decimal !important;
+  padding-left: 22px !important;
+}
+
+.ag-publication-toc li,
+.ag-publication-sources li {
+  display: list-item !important;
+  list-style-type: decimal !important;
+  padding-left: 4px !important;
+}
+
+.ag-publication-toc li::marker,
+.ag-publication-sources li::marker {
+  color: #215945;
+  font-weight: 700;
+  font-size: 13px;
+}
+
 .ag-pc-checklist li::before,
 .ag-pc-eligibility-list li::before {
   content: none !important;
