@@ -20,12 +20,28 @@
       "Students gain hands-on commercial experience through case studies, market surveys, agribusiness incubator visits, and field attachments. During the final year under the Student READY framework, students complete a semester of corporate in-plant internship with seed companies, fertiliser firms, food processing enterprises, or agricultural commodity exchanges."
     ],
     "highlights": [
-      { "label": "Duration", "value": "4 years / 8 semesters" },
-      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
-      { "label": "Industry exposure", "value": "Corporate in-plant internship & market survey modules" },
-      { "label": "Key focus", "value": "Supply chain, agri-input marketing, commodity trading, finance" }
+      {
+        "label": "Duration",
+        "value": "4 years / 8 semesters"
+      },
+      {
+        "label": "Curriculum framework",
+        "value": "ICAR Sixth Deans Committee"
+      },
+      {
+        "label": "Industry exposure",
+        "value": "Corporate in-plant internship & market survey modules"
+      },
+      {
+        "label": "Key focus",
+        "value": "Supply chain, agri-input marketing, commodity trading, finance"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Class 12 science or agriculture students with a strong interest in commerce, marketing, finance, and corporate management within food and farm sectors",
@@ -96,7 +112,10 @@
         "description": "Working with farmer producer companies and primary agricultural credit societies to study collective procurement, aggregation, and direct market linkages."
       }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -105,19 +124,26 @@
       "Age of candidate must be at least 16 years as of 31 August of the admission year for ICAR quota seats.",
       "Select state agricultural universities and private institutions also permit Class 12 commerce students with mathematics to apply for specific agribusiness streams."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
       {
         "name": "CUET-UG (ICAR Quota)",
         "description": "Conducted by NTA for admission to participating agricultural universities under ICAR quota counselling.",
-        "source_ids": ["s2"]
+        "source_ids": [
+          "s2"
+        ]
       },
       {
         "name": "State Agricultural University Entrance / Counselling",
         "description": "State-level counselling conducted by state agricultural universities or state CET authorities (e.g. TNAU, PAU, ANGRAU, SKRAU).",
-        "source_ids": ["s3"]
+        "source_ids": [
+          "s3"
+        ]
       },
       {
         "name": "University-Specific Merit / Test",
@@ -140,10 +166,22 @@
       }
     ],
     "steps": [
-      { "title": "Check University Prospectus", "text": "Confirm whether the university offers B.Sc. Agribusiness Management and check its entrance exam criteria." },
-      { "title": "Appear for Entrance", "text": "Take CUET-UG or the state agricultural university entrance test." },
-      { "title": "Register for Counselling", "text": "Submit application and choice preferences during university or state counselling." },
-      { "title": "Verification & Fee Payment", "text": "Complete certificate verification and pay initial semester fees to confirm the seat." }
+      {
+        "title": "Check University Prospectus",
+        "text": "Confirm whether the university offers B.Sc. Agribusiness Management and check its entrance exam criteria."
+      },
+      {
+        "title": "Appear for Entrance",
+        "text": "Take CUET-UG or the state agricultural university entrance test."
+      },
+      {
+        "title": "Register for Counselling",
+        "text": "Submit application and choice preferences during university or state counselling."
+      },
+      {
+        "title": "Verification & Fee Payment",
+        "text": "Complete certificate verification and pay initial semester fees to confirm the seat."
+      }
     ],
     "documents": [
       "Class 10 and 12 marksheets and certificates",
@@ -152,7 +190,10 @@
       "Domicile certificate (for state quota seats)",
       "Transfer and migration certificates"
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "State agricultural university tuition fees range from ₹25,000 to ₹60,000 per year for subsidised seats. In private and deemed universities, tuition fees range from ₹80,000 to ₹2,20,000 per year. Hostel, mess, and travel during field attachments are payable extra.",
@@ -163,12 +204,30 @@
     "heading": "Career pathways and corporate placements",
     "intro": "The modernisation of agricultural supply chains, expansion of organized food retail, growth of FPOs, and booming AgriTech investments have created robust career pathways for graduates with dual expertise in agriculture and business.",
     "roles": [
-      { "title": "Agri-Input Sales & Marketing Executive", "description": "Manages territory sales, dealer networks, and product demonstration campaigns for seed, fertiliser, and pesticide firms." },
-      { "title": "Commodity Procurement Officer", "description": "Handles field sourcing, quality assessment, and procurement of grains, oilseeds, and pulses for agro-processing corporations." },
-      { "title": "Agricultural Supply Chain & Logistics Analyst", "description": "Manages warehousing, cold chain movements, inventory optimization, and distribution routes." },
-      { "title": "Rural Credit / Banking Officer", "description": "Evaluates agricultural loan applications, crop credit limits, and farm infrastructure financing for commercial and rural banks." },
-      { "title": "FPO Chief Executive Officer (CEO)", "description": "Manages business operations, collective purchasing, and forward market linkages for Farmer Producer Companies." },
-      { "title": "AgriTech Business Development Executive", "description": "Drives client onboarding, farmer adoption, and digital marketplace operations for AgriTech startups." }
+      {
+        "title": "Agri-Input Sales & Marketing Executive",
+        "description": "Manages territory sales, dealer networks, and product demonstration campaigns for seed, fertiliser, and pesticide firms."
+      },
+      {
+        "title": "Commodity Procurement Officer",
+        "description": "Handles field sourcing, quality assessment, and procurement of grains, oilseeds, and pulses for agro-processing corporations."
+      },
+      {
+        "title": "Agricultural Supply Chain & Logistics Analyst",
+        "description": "Manages warehousing, cold chain movements, inventory optimization, and distribution routes."
+      },
+      {
+        "title": "Rural Credit / Banking Officer",
+        "description": "Evaluates agricultural loan applications, crop credit limits, and farm infrastructure financing for commercial and rural banks."
+      },
+      {
+        "title": "FPO Chief Executive Officer (CEO)",
+        "description": "Manages business operations, collective purchasing, and forward market linkages for Farmer Producer Companies."
+      },
+      {
+        "title": "AgriTech Business Development Executive",
+        "description": "Drives client onboarding, farmer adoption, and digital marketplace operations for AgriTech startups."
+      }
     ],
     "sectors": [
       "Agrochemical & Crop Protection Multinationals (Bayer, Syngenta, UPL)",
@@ -190,7 +249,10 @@
       "Postgraduate Diploma in Rural Management (PGDRM)",
       "M.Sc. Supply Chain & Logistics Management"
     ],
-    "source_ids": ["s1", "s4"]
+    "source_ids": [
+      "s1",
+      "s4"
+    ]
   },
   "skills": [
     "Market survey design and consumer behavior analysis",
@@ -219,7 +281,7 @@
     }
   ],
   "seo": {
-    "title": "B.Sc. Agribusiness Management — Syllabus, Eligibility, Careers & Colleges",
+    "title": "B.Sc. Agribusiness: Syllabus, Eligibility & Careers",
     "description": "Complete guide to B.Sc. (Hons.) Agribusiness Management: ICAR curriculum, 4-year subjects, eligibility, admission routes, careers, and top colleges in India.",
     "keywords": [
       "BSc Agribusiness Management",
@@ -243,7 +305,11 @@
       "kind": "regulator",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "overview", "who_should_apply"]
+      "supports": [
+        "curriculum",
+        "overview",
+        "who_should_apply"
+      ]
     },
     {
       "id": "s2",
@@ -252,7 +318,10 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["eligibility", "admission"]
+      "supports": [
+        "eligibility",
+        "admission"
+      ]
     },
     {
       "id": "s3",
@@ -261,7 +330,11 @@
       "kind": "affiliating_university",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "practical_learning", "overview"]
+      "supports": [
+        "curriculum",
+        "practical_learning",
+        "overview"
+      ]
     },
     {
       "id": "s4",
@@ -270,7 +343,9 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["careers"]
+      "supports": [
+        "careers"
+      ]
     }
   ],
   "verification_gaps": [],

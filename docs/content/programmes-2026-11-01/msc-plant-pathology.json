@@ -20,13 +20,32 @@
       "The curriculum provides extensive laboratory and field training across mycology (fungal taxonomy and biology), plant virology, plant bacteriology, disease physiology, molecular diagnostics (PCR, RT-PCR, ELISA), disease forecasting, chemical fungicides, and biological control agents like Trichoderma and Pseudomonas."
     ],
     "highlights": [
-      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
-      { "label": "Total credits (ICAR BSMA)", "value": "70 credits (with 30 thesis research credits)" },
-      { "label": "Typical entry qualification", "value": "4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture" },
-      { "label": "National entrance examination", "value": "ICAR AIEEA (PG) in the Plant Science / Plant Pathology group" },
-      { "label": "Core laboratory areas", "value": "Pathogen isolation, molecular detection (PCR/ELISA), fungicide bioassays and culture collections" }
+      {
+        "label": "Normal duration",
+        "value": "2 academic years (4 semesters)"
+      },
+      {
+        "label": "Total credits (ICAR BSMA)",
+        "value": "70 credits (with 30 thesis research credits)"
+      },
+      {
+        "label": "Typical entry qualification",
+        "value": "4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture"
+      },
+      {
+        "label": "National entrance examination",
+        "value": "ICAR AIEEA (PG) in the Plant Science / Plant Pathology group"
+      },
+      {
+        "label": "Core laboratory areas",
+        "value": "Pathogen isolation, molecular detection (PCR/ELISA), fungicide bioassays and culture collections"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Agriculture and horticulture graduates fascinated by plant disease symptoms, microscopic examination and microbiological lab techniques",
@@ -41,32 +60,73 @@
       {
         "stage": "Major core courses (Compulsory Plant Pathology)",
         "focus": "Core organism groups, principles of pathogenesis and disease management.",
-        "courses": ["Mycology & Fungal Plant Pathogens", "Plant Bacteriology", "Plant Virology", "Principles of Plant Pathology", "Detection & Diagnosis of Plant Pathogens"]
+        "courses": [
+          "Mycology & Fungal Plant Pathogens",
+          "Plant Bacteriology",
+          "Plant Virology",
+          "Principles of Plant Pathology",
+          "Detection & Diagnosis of Plant Pathogens"
+        ]
       },
       {
         "stage": "Major elective courses (Specialised Pathology)",
         "focus": "Crop-specific diseases, epidemiology, fungicides and biocontrol agents.",
-        "courses": ["Diseases of Field & Medicinal Crops", "Diseases of Fruits, Vegetables & Ornamentals", "Epidemiology & Forecasting of Plant Diseases", "Chemicals & Bioagents in Plant Disease Management", "Post-Harvest Diseases of Agricultural Commodities", "Ecology of Soil-Borne Plant Pathogens", "Mushroom Production Technology", "Seed Health Testing & Certification"]
+        "courses": [
+          "Diseases of Field & Medicinal Crops",
+          "Diseases of Fruits, Vegetables & Ornamentals",
+          "Epidemiology & Forecasting of Plant Diseases",
+          "Chemicals & Bioagents in Plant Disease Management",
+          "Post-Harvest Diseases of Agricultural Commodities",
+          "Ecology of Soil-Borne Plant Pathogens",
+          "Mushroom Production Technology",
+          "Seed Health Testing & Certification"
+        ]
       },
       {
         "stage": "Minor and supporting courses",
         "focus": "Microbiology, plant breeding, biotechnology and statistics.",
-        "courses": ["Agricultural Microbiology", "Breeding for Disease Resistance", "Statistical Methods for Applied Sciences", "Experimental Designs & Bio-statistical Packages"]
+        "courses": [
+          "Agricultural Microbiology",
+          "Breeding for Disease Resistance",
+          "Statistical Methods for Applied Sciences",
+          "Experimental Designs & Bio-statistical Packages"
+        ]
       },
       {
         "stage": "Common courses, seminar & master's thesis",
         "focus": "Research tools, scientific communication, ethics, seminar presentation and 30-credit dissertation.",
-        "courses": ["Library & Information Services", "Technical Writing & Scientific Communication", "Intellectual Property & Bioethics in Agriculture", "Master's Seminar (1 credit)", "Master's Research / Thesis (30 credits)"]
+        "courses": [
+          "Library & Information Services",
+          "Technical Writing & Scientific Communication",
+          "Intellectual Property & Bioethics in Agriculture",
+          "Master's Seminar (1 credit)",
+          "Master's Research / Thesis (30 credits)"
+        ]
       }
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Pure culture isolation & pathogen identification", "description": "Isolating fungal and bacterial pathogens from infected leaf, stem and root tissues, culturing on synthetic media, and microscopic classification." },
-      { "name": "Molecular & serological diagnostics", "description": "Conducting DNA extraction, polymerase chain reaction (PCR) amplification, gel electrophoresis and ELISA assays for viral and bacterial identification." },
-      { "name": "Fungicide bioassays & poison food technique", "description": "Evaluating the efficacy of systemic and contact fungicides against fungal mycelial growth using the poisoned food technique to determine EC50 values." },
-      { "name": "Controlled pot & field disease screening", "description": "Artificial inoculation of pathogen inoculum to evaluate crop germplasm for resistance against rusts, wilts, smuts and blights." }
+      {
+        "name": "Pure culture isolation & pathogen identification",
+        "description": "Isolating fungal and bacterial pathogens from infected leaf, stem and root tissues, culturing on synthetic media, and microscopic classification."
+      },
+      {
+        "name": "Molecular & serological diagnostics",
+        "description": "Conducting DNA extraction, polymerase chain reaction (PCR) amplification, gel electrophoresis and ELISA assays for viral and bacterial identification."
+      },
+      {
+        "name": "Fungicide bioassays & poison food technique",
+        "description": "Evaluating the efficacy of systemic and contact fungicides against fungal mycelial growth using the poisoned food technique to determine EC50 values."
+      },
+      {
+        "name": "Controlled pot & field disease screening",
+        "description": "Artificial inoculation of pathogen inoculum to evaluate crop germplasm for resistance against rusts, wilts, smuts and blights."
+      }
     ],
-    "source_ids": ["s1", "s2"]
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
   },
   "eligibility": {
     "points": [
@@ -74,22 +134,60 @@
       "Minimum required grade point average: 6.0 out of 10.0 OGPA (or 60% aggregate) for General, OBC, and EWS candidates; 5.0 out of 10.0 OGPA (or 50% aggregate) for SC, ST, and PwD candidates.",
       "Final semester students awaiting results may apply provisionally, provided proof of completion is submitted at the time of final admission counselling."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "ICAR AIEEA (PG)", "description": "All-India competitive entrance exam conducted by NTA for admission to master's seats in central agricultural universities, ICAR deemed institutes, and state agricultural university quotas.", "source_ids": ["s3"] },
-      { "name": "State Agricultural University PG Entrances", "description": "State exams such as UPCATET (UP), MCAER (Maharashtra), Rajasthan Pre-PG, and state university entrance portals for state domicile seats.", "source_ids": ["s1"] },
-      { "name": "Private Agricultural Universities", "description": "Institutions offering ICAR-aligned curricula admit through university-level tests or merit-based screening.", "source_ids": ["s1"] }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "description": "All-India competitive entrance exam conducted by NTA for admission to master's seats in central agricultural universities, ICAR deemed institutes, and state agricultural university quotas.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "State Agricultural University PG Entrances",
+        "description": "State exams such as UPCATET (UP), MCAER (Maharashtra), Rajasthan Pre-PG, and state university entrance portals for state domicile seats.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "name": "Private Agricultural Universities",
+        "description": "Institutions offering ICAR-aligned curricula admit through university-level tests or merit-based screening.",
+        "source_ids": [
+          "s1"
+        ]
+      }
     ],
     "exams": [
-      { "name": "ICAR AIEEA (PG - Plant Science)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/ICAR/", "note": "2-hour computer-based exam covering plant pathology, microbiology, genetics, and agricultural botany." }
+      {
+        "name": "ICAR AIEEA (PG - Plant Science)",
+        "conducting_body": "National Testing Agency (NTA)",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "note": "2-hour computer-based exam covering plant pathology, microbiology, genetics, and agricultural botany."
+      }
     ],
     "steps": [
-      { "title": "Check eligibility criteria", "text": "Review the current ICAR AIEEA (PG) Information Bulletin for qualification requirements in the Plant Science group." },
-      { "title": "Register online", "text": "Submit the online application on the NTA ICAR portal and pay the examination fee before the deadline." },
-      { "title": "Appear for AIEEA (PG)", "text": "Take the nationwide CBT testing your grasp of plant pathology, general agriculture and allied biological sciences." },
-      { "title": "Counselling & choice locking", "text": "Participate in online counselling to select your preferred university and Department of Plant Pathology based on your all-India rank." }
+      {
+        "title": "Check eligibility criteria",
+        "text": "Review the current ICAR AIEEA (PG) Information Bulletin for qualification requirements in the Plant Science group."
+      },
+      {
+        "title": "Register online",
+        "text": "Submit the online application on the NTA ICAR portal and pay the examination fee before the deadline."
+      },
+      {
+        "title": "Appear for AIEEA (PG)",
+        "text": "Take the nationwide CBT testing your grasp of plant pathology, general agriculture and allied biological sciences."
+      },
+      {
+        "title": "Counselling & choice locking",
+        "text": "Participate in online counselling to select your preferred university and Department of Plant Pathology based on your all-India rank."
+      }
     ],
     "documents": [
       "B.Sc. Agriculture / Horticulture degree certificate and transcript",
@@ -99,14 +197,32 @@
       "Domicile certificate as required by state institutions",
       "Character certificate and college leaving / migration certificate"
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "State Agricultural Universities and ICAR institutes provide subsidized higher education with annual tuition fees typically between ₹15,000 and ₹35,000 for government quota seats. Students securing high ranks through ICAR AIEEA (PG) receive the ICAR PG Scholarship / National Talent Scholarship with monthly financial support. Private universities charge annual tuition between ₹60,000 and ₹1,40,000. Laboratory consumables and accommodation charges vary by campus.",
     "observed_examples": [
-      { "institution": "State Agricultural Universities (e.g. GBPUAT, TNAU, PAU)", "amount_inr": 26000, "period": "Per academic year", "academic_year": "2024-25" },
-      { "institution": "ICAR Deemed Universities (IARI New Delhi)", "amount_inr": 16000, "period": "Per academic year", "academic_year": "2024-25" },
-      { "institution": "Accredited Private Universities", "amount_inr": 85000, "period": "Per academic year", "academic_year": "2024-25" }
+      {
+        "institution": "State Agricultural Universities (e.g. GBPUAT, TNAU, PAU)",
+        "amount_inr": 26000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      },
+      {
+        "institution": "ICAR Deemed Universities (IARI New Delhi)",
+        "amount_inr": 16000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      },
+      {
+        "institution": "Accredited Private Universities",
+        "amount_inr": 85000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      }
     ],
     "verification": "Refer to the specific fee structure published in the admitting university's postgraduate admission bulletin."
   },
@@ -114,12 +230,30 @@
     "heading": "Career pathways in research, diagnostics, regulatory and agro-industry",
     "intro": "Postgraduates in Plant Pathology possess specialized skills essential for crop loss mitigation, seed health compliance, mushroom production, and pesticide development.",
     "roles": [
-      { "title": "Scientist (Plant Pathology) via ARS", "description": "Lead research projects on crop disease resistance, pathogen genomics, epidemiology and climate-resilient management at ICAR research centres." },
-      { "title": "Assistant Professor / KVK Subject Matter Specialist", "description": "Educate undergraduate agricultural students and provide diagnostic field advisories to farmers facing disease outbreaks." },
-      { "title": "Plant Quarantine & Inspection Officer", "description": "Ensure consignments of imported seeds, plants and agricultural produce are free from foreign pathogens under the Plant Quarantine (Regulation of Import into India) Order." },
-      { "title": "Seed Health Analyst & Certification Officer", "description": "Conduct seed testing for seed-borne fungal, bacterial and viral pathogens in state seed certification labs and multinational seed corporations." },
-      { "title": "Fungicide Product Development Specialist", "description": "Direct bio-efficacy trials, resistance monitoring studies and registration dossiers for novel fungicidal molecules and biologicals." },
-      { "title": "Commercial Mushroom Cultivation Consultant", "description": "Design commercial spawn production facilities, compost formulations and environmental control systems for button, oyster and medicinal mushrooms." }
+      {
+        "title": "Scientist (Plant Pathology) via ARS",
+        "description": "Lead research projects on crop disease resistance, pathogen genomics, epidemiology and climate-resilient management at ICAR research centres."
+      },
+      {
+        "title": "Assistant Professor / KVK Subject Matter Specialist",
+        "description": "Educate undergraduate agricultural students and provide diagnostic field advisories to farmers facing disease outbreaks."
+      },
+      {
+        "title": "Plant Quarantine & Inspection Officer",
+        "description": "Ensure consignments of imported seeds, plants and agricultural produce are free from foreign pathogens under the Plant Quarantine (Regulation of Import into India) Order."
+      },
+      {
+        "title": "Seed Health Analyst & Certification Officer",
+        "description": "Conduct seed testing for seed-borne fungal, bacterial and viral pathogens in state seed certification labs and multinational seed corporations."
+      },
+      {
+        "title": "Fungicide Product Development Specialist",
+        "description": "Direct bio-efficacy trials, resistance monitoring studies and registration dossiers for novel fungicidal molecules and biologicals."
+      },
+      {
+        "title": "Commercial Mushroom Cultivation Consultant",
+        "description": "Design commercial spawn production facilities, compost formulations and environmental control systems for button, oyster and medicinal mushrooms."
+      }
     ],
     "sectors": [
       "ICAR institutes, State Agricultural Universities and CSIR laboratories",
@@ -166,14 +300,36 @@
     }
   ],
   "seo": {
-    "title": "M.Sc. Agriculture Plant Pathology: Syllabus, ICAR PG Exam, Fees & Careers",
+    "title": "M.Sc. Plant Pathology: ICAR Syllabus, Jobs & Scope",
     "description": "Complete guide to M.Sc. Plant Pathology in India: ICAR BSMA syllabus, eligibility, AIEEA-PG entrance, research thesis, career scope and ASRB NET path.",
-    "keywords": ["msc plant pathology", "msc agriculture plant pathology", "icar aieea pg plant science", "plant pathology syllabus", "asrb net plant pathology", "plant quarantine jobs"]
+    "keywords": [
+      "msc plant pathology",
+      "msc agriculture plant pathology",
+      "icar aieea pg plant science",
+      "plant pathology syllabus",
+      "asrb net plant pathology",
+      "plant quarantine jobs"
+    ]
   },
   "sources": [
-    { "id": "s1", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Plant Protection (Plant Pathology)", "kind": "regulator" },
-    { "id": "s2", "url": "https://tnau.ac.in/masters/", "title": "Tamil Nadu Agricultural University - Department of Plant Pathology PG Programme", "kind": "university_portal" },
-    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+    {
+      "id": "s1",
+      "url": "https://icar.gov.in/",
+      "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Plant Protection (Plant Pathology)",
+      "kind": "regulator"
+    },
+    {
+      "id": "s2",
+      "url": "https://tnau.ac.in/masters/",
+      "title": "Tamil Nadu Agricultural University - Department of Plant Pathology PG Programme",
+      "kind": "university_portal"
+    },
+    {
+      "id": "s3",
+      "url": "https://exams.nta.ac.in/ICAR/",
+      "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin",
+      "kind": "exam_portal"
+    }
   ],
   "editorial_status": "verified"
 }

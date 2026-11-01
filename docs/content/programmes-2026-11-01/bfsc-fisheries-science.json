@@ -20,12 +20,28 @@
       "Practical training is central to the curriculum, utilizing university fish farms, shrimp hatcheries, research vessels, and processing plants. Under the final-year Student READY scheme, students complete Rural Fisheries Work Experience (RFWE) and an intensive in-plant internship with commercial processing plants or hatcheries."
     ],
     "highlights": [
-      { "label": "Duration", "value": "4 years / 8 semesters" },
-      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
-      { "label": "Practical modules", "value": "Student READY: RFWE & in-plant commercial seafood training" },
-      { "label": "National entrance", "value": "CUET-UG (ICAR all-India quota) & State CETs" }
+      {
+        "label": "Duration",
+        "value": "4 years / 8 semesters"
+      },
+      {
+        "label": "Curriculum framework",
+        "value": "ICAR Sixth Deans Committee"
+      },
+      {
+        "label": "Practical modules",
+        "value": "Student READY: RFWE & in-plant commercial seafood training"
+      },
+      {
+        "label": "National entrance",
+        "value": "CUET-UG (ICAR all-India quota) & State CETs"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Class 12 science students with Biology, Chemistry, and Physics interested in marine science, aquatic ecosystems, and aquaculture technology",
@@ -98,7 +114,10 @@
         "description": "Living among coastal and inland fishing communities to study socioeconomic conditions, fish landing centers, auction dynamics, and co-operative societies."
       }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -107,19 +126,26 @@
       "Minimum age of 16 years as of 31 August of the admission year for ICAR quota seats.",
       "State-specific domicile conditions apply for state fisheries university quota admissions."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
       {
         "name": "CUET-UG (ICAR All-India Quota)",
         "description": "Conducted by NTA with online ICAR seat allotment for all-India quota seats in state fisheries and agricultural universities.",
-        "source_ids": ["s2"]
+        "source_ids": [
+          "s2"
+        ]
       },
       {
         "name": "State Fisheries / Agricultural University Counselling",
         "description": "State-level admission via state CETs (e.g. KEAM in Kerala for KUFOS, TNJFU counselling in Tamil Nadu, AP EAPCET, TS EAMCET, KCET).",
-        "source_ids": ["s3"]
+        "source_ids": [
+          "s3"
+        ]
       }
     ],
     "exams": [
@@ -137,10 +163,22 @@
       }
     ],
     "steps": [
-      { "title": "Check Eligibility", "text": "Ensure you have Physics, Chemistry, and Biology in 10+2." },
-      { "title": "Appear for Entrance", "text": "Take CUET-UG (PCB domain) or your state common entrance test." },
-      { "title": "Apply for Counselling", "text": "Register on the ICAR portal or respective state fisheries university portal." },
-      { "title": "Seat Allotment & Document Verification", "text": "Verify academic certificates, pay fees, and report to the fisheries college campus." }
+      {
+        "title": "Check Eligibility",
+        "text": "Ensure you have Physics, Chemistry, and Biology in 10+2."
+      },
+      {
+        "title": "Appear for Entrance",
+        "text": "Take CUET-UG (PCB domain) or your state common entrance test."
+      },
+      {
+        "title": "Apply for Counselling",
+        "text": "Register on the ICAR portal or respective state fisheries university portal."
+      },
+      {
+        "title": "Seat Allotment & Document Verification",
+        "text": "Verify academic certificates, pay fees, and report to the fisheries college campus."
+      }
     ],
     "documents": [
       "Class 10 and 12 marksheet and certificates",
@@ -149,7 +187,10 @@
       "Domicile certificate for state quota seats",
       "Transfer and conduct certificates"
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "State fisheries universities (e.g. KUFOS, TNJFU, WBUAFS, CoF Mangalore) offer government-subsidised tuition fees ranging between ₹18,000 to ₹45,000 per academic year. In self-financing quotas or private universities, fees range from ₹80,000 to ₹2,20,000 per year. Hostel, vessel training, and mess fees are charged separately.",
@@ -160,12 +201,30 @@
     "heading": "Career pathways in aquaculture, exports, and administration",
     "intro": "India's seafood exports exceed ₹60,000 crore annually, driven by shrimp and fish farming. This generates strong demand for fisheries graduates across commercial hatcheries, seafood export units, feed manufacturing, and government departments.",
     "roles": [
-      { "title": "Fisheries Development Officer (FDO)", "description": "State government fisheries department officer overseeing fish seed production, reservoir leasing, fishermen welfare schemes, and aquaculture subsidies." },
-      { "title": "Aquaculture Farm & Hatchery Manager", "description": "Manages commercial shrimp or fish breeding, water quality monitoring, bio-security, and larval rearing operations." },
-      { "title": "Quality Control (QC) & HACCP Technologist", "description": "Inspects seafood quality, cold storage temperatures, microbial compliance, and export documentation in processing plants." },
-      { "title": "Feed Formulation & Sales Specialist", "description": "Provides technical advisory and distribution services for commercial aquatic feed and probiotics companies." },
-      { "title": "Technical Officer (MPEDA / NFDB)", "description": "Government technical official supporting seafood export promotion, cold storage development, and coastal aquaculture licensing." },
-      { "title": "Fisheries Field Officer / Bank Technical Officer", "description": "Assesses loan proposals for fishing boats, cold storage units, fish ponds, and intensive aquaculture projects." }
+      {
+        "title": "Fisheries Development Officer (FDO)",
+        "description": "State government fisheries department officer overseeing fish seed production, reservoir leasing, fishermen welfare schemes, and aquaculture subsidies."
+      },
+      {
+        "title": "Aquaculture Farm & Hatchery Manager",
+        "description": "Manages commercial shrimp or fish breeding, water quality monitoring, bio-security, and larval rearing operations."
+      },
+      {
+        "title": "Quality Control (QC) & HACCP Technologist",
+        "description": "Inspects seafood quality, cold storage temperatures, microbial compliance, and export documentation in processing plants."
+      },
+      {
+        "title": "Feed Formulation & Sales Specialist",
+        "description": "Provides technical advisory and distribution services for commercial aquatic feed and probiotics companies."
+      },
+      {
+        "title": "Technical Officer (MPEDA / NFDB)",
+        "description": "Government technical official supporting seafood export promotion, cold storage development, and coastal aquaculture licensing."
+      },
+      {
+        "title": "Fisheries Field Officer / Bank Technical Officer",
+        "description": "Assesses loan proposals for fishing boats, cold storage units, fish ponds, and intensive aquaculture projects."
+      }
     ],
     "sectors": [
       "Commercial Shrimp & Fish Hatcheries",
@@ -187,7 +246,10 @@
       "Ph.D. in Fisheries Science (at ICAR-CIFE Mumbai and state fisheries universities)",
       "MBA in Agribusiness / Seafood Management"
     ],
-    "source_ids": ["s1", "s4"]
+    "source_ids": [
+      "s1",
+      "s4"
+    ]
   },
   "skills": [
     "Induced fish breeding and larval hatchery management",
@@ -216,7 +278,7 @@
     }
   ],
   "seo": {
-    "title": "B.F.Sc. Fisheries Science — Syllabus, Eligibility, Careers & Colleges",
+    "title": "B.F.Sc. Fisheries Science: Syllabus, Eligibility & Jobs",
     "description": "Complete guide to Bachelor of Fisheries Science (B.F.Sc.): ICAR curriculum, 4-year syllabus, CUET eligibility, aquaculture careers, and top fisheries universities in India.",
     "keywords": [
       "BFSc Fisheries Science",
@@ -240,7 +302,11 @@
       "kind": "regulator",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "overview", "who_should_apply"]
+      "supports": [
+        "curriculum",
+        "overview",
+        "who_should_apply"
+      ]
     },
     {
       "id": "s2",
@@ -249,7 +315,10 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["eligibility", "admission"]
+      "supports": [
+        "eligibility",
+        "admission"
+      ]
     },
     {
       "id": "s3",
@@ -258,7 +327,11 @@
       "kind": "affiliating_university",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "practical_learning", "overview"]
+      "supports": [
+        "curriculum",
+        "practical_learning",
+        "overview"
+      ]
     },
     {
       "id": "s4",
@@ -267,7 +340,9 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["careers"]
+      "supports": [
+        "careers"
+      ]
     }
   ],
   "verification_gaps": [],

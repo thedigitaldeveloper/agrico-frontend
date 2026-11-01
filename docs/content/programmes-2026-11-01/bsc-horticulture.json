@@ -20,12 +20,28 @@
       "In the final year, students undergo Rural Horticultural Work Experience (RHWE) and the Experiential Learning Programme (ELP) under the Student READY scheme, operating commercial enterprise units such as commercial floriculture, nursery production, or fruit and vegetable processing on an earn-while-you-learn basis."
     ],
     "highlights": [
-      { "label": "Duration", "value": "4 years / 8 semesters" },
-      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
-      { "label": "Final-year practical component", "value": "Student READY: RHWE, nursery and protected cultivation ELP" },
-      { "label": "National entrance", "value": "CUET-UG for ICAR all-India quota seats" }
+      {
+        "label": "Duration",
+        "value": "4 years / 8 semesters"
+      },
+      {
+        "label": "Curriculum framework",
+        "value": "ICAR Sixth Deans Committee"
+      },
+      {
+        "label": "Final-year practical component",
+        "value": "Student READY: RHWE, nursery and protected cultivation ELP"
+      },
+      {
+        "label": "National entrance",
+        "value": "CUET-UG for ICAR all-India quota seats"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Students with Physics, Chemistry, Biology/Mathematics or Agriculture in Class 12 interested in plant production, genetics, and horticultural sciences",
@@ -98,7 +114,10 @@
         "description": "Hands-on mastery of budding, grafting, layering, pruning, training, potting mixtures, and certified nursery raising on university research farms."
       }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -107,19 +126,26 @@
       "Candidates must be at least 16 years of age on 31 August of the admission year for ICAR quota admissions.",
       "State-specific domicile and eligibility rules apply for state quota seats in state horticultural and agricultural universities (e.g. Dr YSRHU in Andhra Pradesh, SKLTSHU in Telangana, Dr YSPUHF in Himachal Pradesh)."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
       {
         "name": "CUET-UG (ICAR All-India Quota)",
         "description": "Online national testing conducted by NTA followed by ICAR central counselling for 20% all-India quota seats in state universities and 100% seats in central universities.",
-        "source_ids": ["s2"]
+        "source_ids": [
+          "s2"
+        ]
       },
       {
         "name": "State Horticultural / Agricultural Entrance Examinations",
         "description": "State-level counselling based on state CETs such as AP EAPCET, TS EAMCET, KCET, MHT-CET, UPCATET, BCECE, or KEAM for 80% state quota seats.",
-        "source_ids": ["s3"]
+        "source_ids": [
+          "s3"
+        ]
       },
       {
         "name": "Direct / University-Level Entrance",
@@ -142,10 +168,22 @@
       }
     ],
     "steps": [
-      { "title": "Check Entrance Criteria", "text": "Verify whether your chosen universities admit via CUET-UG (ICAR quota) or through state CET counselling." },
-      { "title": "Appear for Entrance", "text": "Take the relevant national or state entrance test with appropriate domain subjects (PCB/PCM/PCA)." },
-      { "title": "Register for Online Counselling", "text": "Submit choice preferences for horticulture colleges and campuses during the official counselling window." },
-      { "title": "Document Verification & Fee Payment", "text": "Verify academic certificates, category proof, and pay admission fees at the allotted college." }
+      {
+        "title": "Check Entrance Criteria",
+        "text": "Verify whether your chosen universities admit via CUET-UG (ICAR quota) or through state CET counselling."
+      },
+      {
+        "title": "Appear for Entrance",
+        "text": "Take the relevant national or state entrance test with appropriate domain subjects (PCB/PCM/PCA)."
+      },
+      {
+        "title": "Register for Online Counselling",
+        "text": "Submit choice preferences for horticulture colleges and campuses during the official counselling window."
+      },
+      {
+        "title": "Document Verification & Fee Payment",
+        "text": "Verify academic certificates, category proof, and pay admission fees at the allotted college."
+      }
     ],
     "documents": [
       "Class 10 and Class 12 marksheet and passing certificates",
@@ -154,7 +192,10 @@
       "Domicile certificate for state quota seats",
       "Transfer and character certificate from previous institution"
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "Fees vary significantly between government state horticultural universities and private institutions. State horticultural universities offer subsidised tuition (typically ₹15,000 to ₹45,000 per year for regular government quota seats), whereas private universities and self-financing quotas range between ₹80,000 to ₹2,50,000 per year. Hostel, mess, and examination fees are charged separately.",
@@ -165,12 +206,30 @@
     "heading": "Career opportunities and professional pathways",
     "intro": "India is the second-largest producer of fruits and vegetables globally, creating substantial employment across precision farming, seed production, post-harvest supply chains, government agricultural departments, and landscape development.",
     "roles": [
-      { "title": "Horticulture Development Officer (HDO)", "description": "State government department officer implementing agricultural development schemes, orchard subsidies, and grower advisory services." },
-      { "title": "Plantation & Estate Manager", "description": "Supervises operations on commercial tea, coffee, rubber, cardamom, or oil palm estates." },
-      { "title": "Greenhouse / Polyhouse Production Specialist", "description": "Manages high-tech protected cultivation of exotic vegetables, cut flowers, and strawberry crops." },
-      { "title": "Landscape Designer & Urban Horticulturist", "description": "Plans and manages urban landscaping, golf courses, botanical gardens, and residential greenscapes." },
-      { "title": "Post-Harvest & Cold Chain Executive", "description": "Oversees grading, cold storage, packaging, and supply-chain logistics for retail chains and export firms." },
-      { "title": "Seed Production Specialist", "description": "Oversees hybrid seed production, quality testing, and field certification for seed multinationals." }
+      {
+        "title": "Horticulture Development Officer (HDO)",
+        "description": "State government department officer implementing agricultural development schemes, orchard subsidies, and grower advisory services."
+      },
+      {
+        "title": "Plantation & Estate Manager",
+        "description": "Supervises operations on commercial tea, coffee, rubber, cardamom, or oil palm estates."
+      },
+      {
+        "title": "Greenhouse / Polyhouse Production Specialist",
+        "description": "Manages high-tech protected cultivation of exotic vegetables, cut flowers, and strawberry crops."
+      },
+      {
+        "title": "Landscape Designer & Urban Horticulturist",
+        "description": "Plans and manages urban landscaping, golf courses, botanical gardens, and residential greenscapes."
+      },
+      {
+        "title": "Post-Harvest & Cold Chain Executive",
+        "description": "Oversees grading, cold storage, packaging, and supply-chain logistics for retail chains and export firms."
+      },
+      {
+        "title": "Seed Production Specialist",
+        "description": "Oversees hybrid seed production, quality testing, and field certification for seed multinationals."
+      }
     ],
     "sectors": [
       "State Horticulture & Agriculture Departments",
@@ -194,7 +253,10 @@
       "M.Sc. Post-Harvest Management",
       "MBA Agribusiness Management"
     ],
-    "source_ids": ["s1", "s4"]
+    "source_ids": [
+      "s1",
+      "s4"
+    ]
   },
   "skills": [
     "Plant propagation methods (grafting, budding, micropropagation)",
@@ -227,7 +289,7 @@
     }
   ],
   "seo": {
-    "title": "B.Sc. Horticulture — Curriculum, Eligibility, Fees & Colleges",
+    "title": "B.Sc. Horticulture: Syllabus, Eligibility & Colleges",
     "description": "Explore B.Sc. (Hons.) Horticulture: ICAR curriculum, 4-year syllabus, eligibility, entrance exams (CUET), careers, and top horticulture universities.",
     "keywords": [
       "BSc Horticulture",
@@ -253,7 +315,11 @@
       "kind": "regulator",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "overview", "who_should_apply"]
+      "supports": [
+        "curriculum",
+        "overview",
+        "who_should_apply"
+      ]
     },
     {
       "id": "s2",
@@ -262,7 +328,10 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["eligibility", "admission"]
+      "supports": [
+        "eligibility",
+        "admission"
+      ]
     },
     {
       "id": "s3",
@@ -271,7 +340,11 @@
       "kind": "affiliating_university",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "practical_learning", "overview"]
+      "supports": [
+        "curriculum",
+        "practical_learning",
+        "overview"
+      ]
     },
     {
       "id": "s4",
@@ -280,7 +353,9 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["careers"]
+      "supports": [
+        "careers"
+      ]
     }
   ],
   "verification_gaps": [],

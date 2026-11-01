@@ -111,20 +111,68 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
   const content = getProgrammeContent(slug);
   const guide = getProgrammeGuide(slug);
   if (content) {
+    const courseSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'Course',
+      name: content.name,
+      description: content.hero?.summary || content.seo?.description,
+      provider: {
+        '@type': 'EducationalOrganization',
+        name: 'Agrico Agricultural Education Portal',
+        sameAs: 'https://agrico.in',
+      },
+      educationalCredentialAwarded: content.name,
+      timeRequired: content.duration || 'P4Y',
+      hasCourseInstance: {
+        '@type': 'CourseInstance',
+        courseMode: content.mode || 'Full-time, campus-based',
+      },
+    };
+
+    const faqSchema = content.faqs?.length
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: content.faqs.map((f) => ({
+            '@type': 'Question',
+            name: f.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: f.answer,
+            },
+          })),
+        }
+      : null;
+
+    const trail = [
+      { name: 'Home', path: '/' },
+      { name: 'Programmes', path: '/#programmes' },
+      { name: content.short_name || content.name, path: `/${slug}` },
+    ];
+
     return (
-      <AgricoProgrammeDetail
-        model={contentProgrammeModel(
-          content,
-          programmeUniversities(slug),
-          (content.related || [])
-            .flatMap((item) => {
-              const doc = getProgrammeContent(item);
-              return doc ? [doc] : [];
-            })
-            .slice(0, 3),
-          guide
-        )}
-      />
+      <>
+        <JsonLdGraph
+          items={[
+            breadcrumbSchema(trail),
+            courseSchema,
+            ...(faqSchema ? [faqSchema] : []),
+          ]}
+        />
+        <AgricoProgrammeDetail
+          model={contentProgrammeModel(
+            content,
+            programmeUniversities(slug),
+            (content.related || [])
+              .flatMap((item) => {
+                const doc = getProgrammeContent(item);
+                return doc ? [doc] : [];
+              })
+              .slice(0, 3),
+            guide
+          )}
+        />
+      </>
     );
   }
   if (guide) {

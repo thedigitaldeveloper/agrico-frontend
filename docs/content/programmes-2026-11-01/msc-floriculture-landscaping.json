@@ -20,12 +20,30 @@
       "Naming differs: the ICAR Horticulture group lists 'Floriculture and Landscaping Architecture', TNAU and Dr YSPUHF advertise 'Floriculture and Landscaping', and some university departments use 'Landscape Architecture'. TNAU offers the programme at Coimbatore and Periyakulam, and Dr YSPUHF at Nauni and Neri."
     ],
     "highlights": [
-      { "label": "Faculty", "value": "Horticulture (Horticultural Sciences BSMA group)" },
-      { "label": "Credit structure (ICAR BSMA)", "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30" },
-      { "label": "National entrance", "value": "ICAR AIEEA (PG), Horticulture subject group" },
-      { "label": "Alternative title", "value": "Floriculture and Landscape Architecture (varies by university)" }
+      {
+        "label": "Faculty",
+        "value": "Horticulture (Horticultural Sciences BSMA group)"
+      },
+      {
+        "label": "Credit structure (ICAR BSMA)",
+        "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30"
+      },
+      {
+        "label": "National entrance",
+        "value": "ICAR AIEEA (PG), Horticulture subject group"
+      },
+      {
+        "label": "Alternative title",
+        "value": "Floriculture and Landscape Architecture (varies by university)"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3", "s4", "s5"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
   },
   "who_should_apply": [
     "Horticulture graduates who enjoyed ornamental gardening, nursery and flower crop practicals.",
@@ -77,12 +95,27 @@
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Thesis research", "description": "A supervised project on a flower crop, ornamental plant or landscape topic, usually begun after first-year coursework and defended at a final viva voce." },
-      { "name": "Protected structures and nursery work", "description": "Practicals in polyhouses, shade nets and ornamental nurseries on propagation, crop scheduling and quality management." },
-      { "name": "Landscape design exercises", "description": "Planning garden and landscape layouts, increasingly with design software where the course includes CAD." },
-      { "name": "Study tours and seminars", "description": "Visits to flower farms, gardens and research stations, plus seminars, at universities that schedule them." }
+      {
+        "name": "Thesis research",
+        "description": "A supervised project on a flower crop, ornamental plant or landscape topic, usually begun after first-year coursework and defended at a final viva voce."
+      },
+      {
+        "name": "Protected structures and nursery work",
+        "description": "Practicals in polyhouses, shade nets and ornamental nurseries on propagation, crop scheduling and quality management."
+      },
+      {
+        "name": "Landscape design exercises",
+        "description": "Planning garden and landscape layouts, increasingly with design software where the course includes CAD."
+      },
+      {
+        "name": "Study tours and seminars",
+        "description": "Visits to flower farms, gardens and research stations, plus seminars, at universities that schedule them."
+      }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -91,26 +124,76 @@
       "Final-year students can usually apply provisionally if they complete the degree with required marks by the admission deadline.",
       "University seats carry their own OGPA, domicile and reservation rules, which differ by state."
     ],
-    "source_ids": ["s2", "s5", "s6"]
+    "source_ids": [
+      "s2",
+      "s5",
+      "s6"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "ICAR AIEEA (PG)", "description": "National NTA-conducted test for ICAR's share of master's seats in agricultural universities and for ICAR deemed university seats; rank also decides ICAR PG scholarship eligibility.", "source_ids": ["s2", "s5"] },
-      { "name": "University PG entrance test", "description": "Universities fill their other seats through their own entrance tests or merit lists; Dr YSPUHF, for example, used PGET scores in the 2023 cycle.", "source_ids": ["s5", "s6"] },
-      { "name": "Self-financing and other quotas", "description": "Some universities run self-financing, sports or in-service seats under separate rules in the prospectus.", "source_ids": ["s5"] }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "description": "National NTA-conducted test for ICAR's share of master's seats in agricultural universities and for ICAR deemed university seats; rank also decides ICAR PG scholarship eligibility.",
+        "source_ids": [
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "name": "University PG entrance test",
+        "description": "Universities fill their other seats through their own entrance tests or merit lists; Dr YSPUHF, for example, used PGET scores in the 2023 cycle.",
+        "source_ids": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "name": "Self-financing and other quotas",
+        "description": "Some universities run self-financing, sports or in-service seats under separate rules in the prospectus.",
+        "source_ids": [
+          "s5"
+        ]
+      }
     ],
     "exams": [
-      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test with a Horticulture subject paper; pattern and dates change by year." },
-      { "name": "University PG entrance tests", "conducting_body": "Individual agricultural/horticultural universities", "url": null, "note": "Syllabus and weightage vary by university." }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "conducting_body": "National Testing Agency (NTA) for ICAR",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "note": "Computer-based test with a Horticulture subject paper; pattern and dates change by year."
+      },
+      {
+        "name": "University PG entrance tests",
+        "conducting_body": "Individual agricultural/horticultural universities",
+        "url": null,
+        "note": "Syllabus and weightage vary by university."
+      }
     ],
     "steps": [
-      { "title": "Check eligibility", "text": "Compare your degree and OGPA with the ICAR bulletin and target university prospectuses, noting the exact programme title each uses." },
-      { "title": "Register for entrance tests", "text": "Apply for ICAR AIEEA (PG) through NTA and for chosen universities' PG entrance tests." },
-      { "title": "Attend counselling", "text": "Use your rank in ICAR online counselling or university counselling to pick the subject and institution." },
-      { "title": "Complete admission", "text": "Report with original documents and fees at the allotted university within the deadline." }
+      {
+        "title": "Check eligibility",
+        "text": "Compare your degree and OGPA with the ICAR bulletin and target university prospectuses, noting the exact programme title each uses."
+      },
+      {
+        "title": "Register for entrance tests",
+        "text": "Apply for ICAR AIEEA (PG) through NTA and for chosen universities' PG entrance tests."
+      },
+      {
+        "title": "Attend counselling",
+        "text": "Use your rank in ICAR online counselling or university counselling to pick the subject and institution."
+      },
+      {
+        "title": "Complete admission",
+        "text": "Report with original documents and fees at the allotted university within the deadline."
+      }
     ],
     "documents": [],
-    "source_ids": ["s2", "s5", "s6"]
+    "source_ids": [
+      "s2",
+      "s5",
+      "s6"
+    ]
   },
   "fees": {
     "summary": "Fees differ between universities and seat categories. Regular seats at state agricultural and horticultural universities are usually cheaper than self-financing seats, ICAR-quota and state-quota fees may differ, and hostel and exam charges are separate. No figures are given because no dated official fee schedule was verified; consult the current prospectus.",
@@ -121,11 +204,26 @@
     "heading": "Careers in flowers, nurseries and landscapes",
     "intro": "Graduates find work in public horticulture, research and the ornamental plant industry, and some set up their own nursery, landscaping or floral businesses. A Ph.D. or national eligibility test opens teaching and research routes. Recruitment rules vary by employer and state, and selection is competitive.",
     "roles": [
-      { "title": "Horticulture officer", "description": "Implements state horticulture schemes, including floriculture and nursery programmes, through the state department." },
-      { "title": "Subject matter specialist (horticulture) at a KVK", "description": "Runs demonstrations and training for growers, including flower crop production." },
-      { "title": "Landscape horticulturist or garden supervisor", "description": "Plans and maintains gardens, campuses, parks and turf areas for public bodies or private firms." },
-      { "title": "Nursery or flower farm manager", "description": "Manages propagation, crop scheduling and quality for ornamental nurseries and cut-flower units." },
-      { "title": "Research fellow or associate", "description": "Supports funded floriculture research in universities and ICAR institutes." }
+      {
+        "title": "Horticulture officer",
+        "description": "Implements state horticulture schemes, including floriculture and nursery programmes, through the state department."
+      },
+      {
+        "title": "Subject matter specialist (horticulture) at a KVK",
+        "description": "Runs demonstrations and training for growers, including flower crop production."
+      },
+      {
+        "title": "Landscape horticulturist or garden supervisor",
+        "description": "Plans and maintains gardens, campuses, parks and turf areas for public bodies or private firms."
+      },
+      {
+        "title": "Nursery or flower farm manager",
+        "description": "Manages propagation, crop scheduling and quality for ornamental nurseries and cut-flower units."
+      },
+      {
+        "title": "Research fellow or associate",
+        "description": "Supports funded floriculture research in universities and ICAR institutes."
+      }
     ],
     "sectors": [
       "State horticulture departments",
@@ -144,7 +242,10 @@
       "Ph.D. in Floriculture and Landscaping (via ICAR AICE-JRF/SRF (PhD) or university entrance)",
       "Ph.D. in allied horticulture disciplines, subject to university rules"
     ],
-    "source_ids": ["s3", "s7"]
+    "source_ids": [
+      "s3",
+      "s7"
+    ]
   },
   "skills": [
     "Commercial cut- and loose-flower production",
@@ -154,16 +255,63 @@
     "Experimental design, analysis and scientific writing"
   ],
   "faqs": [
-    { "question": "Who can apply for M.Sc. Floriculture and Landscaping?", "answer": "Mainly horticulture graduates; some universities also accept B.Sc. (Hons.) Agriculture. The ICAR AIEEA (PG) bulletin and each prospectus list accepted degrees and minimum OGPA.", "source_ids": ["s2"] },
-    { "question": "Is it the same as Floriculture and Landscape Architecture?", "answer": "Broadly yes. The ICAR Horticulture group uses 'Floriculture and Landscaping Architecture', while universities use either 'Floriculture and Landscaping' or 'Landscape Architecture' in the title. Check the exact name in each university's list.", "source_ids": ["s2", "s3", "s5"] },
-    { "question": "Which entrance exams apply?", "answer": "ICAR AIEEA (PG), conducted by NTA, for ICAR-quota and ICAR deemed university seats, and university-level PG entrance tests or merit lists for other seats.", "source_ids": ["s2", "s5"] },
-    { "question": "Does the course include landscape design?", "answer": "Yes. Ornamental gardening and landscaping is a core area, and the BSMA course areas also cover turf management, interiorscaping and computer-aided landscape design. Coverage depends on the university.", "source_ids": ["s1"] },
-    { "question": "How much research is involved?", "answer": "Thesis research carries 30 of the 70 credits in the ICAR BSMA framework and is usually done in the second year under a major adviser.", "source_ids": ["s1", "s3"] },
-    { "question": "What careers can I pursue?", "answer": "Options include state horticulture posts, KVK roles, landscaping and nursery management, cut-flower farm management, research fellowships and running a floriculture business.", "source_ids": ["s3"] },
-    { "question": "Can I go on to a Ph.D. or teaching?", "answer": "Yes. Ph.D. admission is through ICAR AICE-JRF/SRF (PhD) or university tests, and Floriculture and Landscaping is listed as an ASRB NET discipline for assistant professor eligibility.", "source_ids": ["s2", "s7"] }
+    {
+      "question": "Who can apply for M.Sc. Floriculture and Landscaping?",
+      "answer": "Mainly horticulture graduates; some universities also accept B.Sc. (Hons.) Agriculture. The ICAR AIEEA (PG) bulletin and each prospectus list accepted degrees and minimum OGPA.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is it the same as Floriculture and Landscape Architecture?",
+      "answer": "Broadly yes. The ICAR Horticulture group uses 'Floriculture and Landscaping Architecture', while universities use either 'Floriculture and Landscaping' or 'Landscape Architecture' in the title. Check the exact name in each university's list.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "question": "Which entrance exams apply?",
+      "answer": "ICAR AIEEA (PG), conducted by NTA, for ICAR-quota and ICAR deemed university seats, and university-level PG entrance tests or merit lists for other seats.",
+      "source_ids": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "question": "Does the course include landscape design?",
+      "answer": "Yes. Ornamental gardening and landscaping is a core area, and the BSMA course areas also cover turf management, interiorscaping and computer-aided landscape design. Coverage depends on the university.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How much research is involved?",
+      "answer": "Thesis research carries 30 of the 70 credits in the ICAR BSMA framework and is usually done in the second year under a major adviser.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "What careers can I pursue?",
+      "answer": "Options include state horticulture posts, KVK roles, landscaping and nursery management, cut-flower farm management, research fellowships and running a floriculture business.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Can I go on to a Ph.D. or teaching?",
+      "answer": "Yes. Ph.D. admission is through ICAR AICE-JRF/SRF (PhD) or university tests, and Floriculture and Landscaping is listed as an ASRB NET discipline for assistant professor eligibility.",
+      "source_ids": [
+        "s2",
+        "s7"
+      ]
+    }
   ],
   "seo": {
-    "title": "M.Sc. Floriculture & Landscaping: Eligibility, Admission",
+    "title": "M.Sc. Floriculture: Syllabus, Eligibility & Careers",
     "description": "M.Sc. (Horticulture) Floriculture and Landscaping: ICAR BSMA courses, eligibility, ICAR AIEEA-PG admission, thesis research, careers and Ph.D. routes.",
     "keywords": [
       "M.Sc. Floriculture and Landscaping",
@@ -174,24 +322,146 @@
       "landscaping master's India"
     ]
   },
-  "related": ["bsc-horticulture", "msc-fruit-science", "msc-vegetable-science"],
+  "related": [
+    "bsc-horticulture",
+    "msc-fruit-science",
+    "msc-vegetable-science"
+  ],
   "sources": [
-    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Horticultural Sciences", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct access to icar.org.in was blocked by a permission prompt; course areas and the 70-credit split were seen in search excerpts citing ICAR and university BSMA documents. Exact PDF URL not confirmed." },
-    { "id": "s2", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "eligibility", "admission", "faqs"], "notes": "Direct fetch failed with a TLS certificate error; Horticulture group listing 'Floriculture and Landscaping Architecture' seen in search excerpts referencing the NTA bulletin." },
-    { "id": "s3", "url": "https://tnau.ac.in/m-sc-hort-in-floriculture-and-landscaping/", "title": "TNAU - M.Sc. (Hort) in Floriculture and Landscaping", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "careers", "faqs"], "notes": "Institution-specific: designed following ICAR guidelines; 70 credits with 30 for thesis; offered at HC&RI Coimbatore and Periyakulam. Career section on the page was a placeholder." },
-    { "id": "s4", "url": "https://tnau.ac.in/masters/", "title": "TNAU School of Post Graduate Studies - Masters programmes", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview"], "notes": null },
-    { "id": "s5", "url": "https://www.uhf.ac.in/adm-pg", "title": "Dr YSP University of Horticulture and Forestry - Master's programme admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "eligibility", "admission", "faqs"], "notes": "Lists M.Sc. (Hort.) Floriculture & Landscaping at Nauni and Neri; 30% of normal seats for ICAR; PGET-2023 basis (may be outdated)." },
-    { "id": "s6", "url": "https://www.uhf.ac.in/admissions", "title": "Dr YSPUHF - About admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["eligibility", "admission"], "notes": null },
-    { "id": "s7", "url": "https://www.asrb.org.in/", "title": "Agricultural Scientists Recruitment Board (ASRB)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers", "faqs"], "notes": "Site timed out; Floriculture and Landscaping as an ASRB NET discipline seen only in secondary search excerpts." }
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Horticultural Sciences",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "faqs"
+      ],
+      "notes": "Direct access to icar.org.in was blocked by a permission prompt; course areas and the 70-credit split were seen in search excerpts citing ICAR and university BSMA documents. Exact PDF URL not confirmed."
+    },
+    {
+      "id": "s2",
+      "url": "https://exams.nta.ac.in/ICAR/",
+      "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "eligibility",
+        "admission",
+        "faqs"
+      ],
+      "notes": "Direct fetch failed with a TLS certificate error; Horticulture group listing 'Floriculture and Landscaping Architecture' seen in search excerpts referencing the NTA bulletin."
+    },
+    {
+      "id": "s3",
+      "url": "https://tnau.ac.in/m-sc-hort-in-floriculture-and-landscaping/",
+      "title": "TNAU - M.Sc. (Hort) in Floriculture and Landscaping",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "careers",
+        "faqs"
+      ],
+      "notes": "Institution-specific: designed following ICAR guidelines; 70 credits with 30 for thesis; offered at HC&RI Coimbatore and Periyakulam. Career section on the page was a placeholder."
+    },
+    {
+      "id": "s4",
+      "url": "https://tnau.ac.in/masters/",
+      "title": "TNAU School of Post Graduate Studies - Masters programmes",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview"
+      ],
+      "notes": null
+    },
+    {
+      "id": "s5",
+      "url": "https://www.uhf.ac.in/adm-pg",
+      "title": "Dr YSP University of Horticulture and Forestry - Master's programme admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "eligibility",
+        "admission",
+        "faqs"
+      ],
+      "notes": "Lists M.Sc. (Hort.) Floriculture & Landscaping at Nauni and Neri; 30% of normal seats for ICAR; PGET-2023 basis (may be outdated)."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.uhf.ac.in/admissions",
+      "title": "Dr YSPUHF - About admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "eligibility",
+        "admission"
+      ],
+      "notes": null
+    },
+    {
+      "id": "s7",
+      "url": "https://www.asrb.org.in/",
+      "title": "Agricultural Scientists Recruitment Board (ASRB)",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "careers",
+        "faqs"
+      ],
+      "notes": "Site timed out; Floriculture and Landscaping as an ASRB NET discipline seen only in secondary search excerpts."
+    }
   ],
   "verification_gaps": [
-    { "field": "curriculum.structure", "reason": "ICAR BSMA Horticulture PDF not opened (icar.org.in blocked); course areas, including CAD for landscaping, paraphrased from search excerpts.", "next_source": "ICAR BSMA Horticultural Sciences PG syllabus PDF" },
-    { "field": "eligibility.points", "reason": "Category-wise minimum OGPA and qualifying-degree list not verified from the current bulletin.", "next_source": "Current NTA ICAR AIEEA (PG) information bulletin" },
-    { "field": "admission.exams", "reason": "Current exam pattern, ICAR seat share and scholarship rules not confirmed from an official page.", "next_source": "https://exams.nta.ac.in/ICAR/" },
-    { "field": "admission.documents", "reason": "No official document checklist read.", "next_source": "University PG prospectus / ICAR counselling brochure" },
-    { "field": "fees.observed_examples", "reason": "No dated official fee schedule verified.", "next_source": "Current PG prospectus of TNAU, Dr YSPUHF, PAU" },
-    { "field": "careers.roles", "reason": "TNAU's career section for this programme was a placeholder; roles are general sector descriptions not drawn from an official list.", "next_source": "University department pages or placement reports" },
-    { "field": "careers.public_sector_routes", "reason": "ASRB NET discipline name not read from ASRB directly.", "next_source": "Latest ASRB NET notification" }
+    {
+      "field": "curriculum.structure",
+      "reason": "ICAR BSMA Horticulture PDF not opened (icar.org.in blocked); course areas, including CAD for landscaping, paraphrased from search excerpts.",
+      "next_source": "ICAR BSMA Horticultural Sciences PG syllabus PDF"
+    },
+    {
+      "field": "eligibility.points",
+      "reason": "Category-wise minimum OGPA and qualifying-degree list not verified from the current bulletin.",
+      "next_source": "Current NTA ICAR AIEEA (PG) information bulletin"
+    },
+    {
+      "field": "admission.exams",
+      "reason": "Current exam pattern, ICAR seat share and scholarship rules not confirmed from an official page.",
+      "next_source": "https://exams.nta.ac.in/ICAR/"
+    },
+    {
+      "field": "admission.documents",
+      "reason": "No official document checklist read.",
+      "next_source": "University PG prospectus / ICAR counselling brochure"
+    },
+    {
+      "field": "fees.observed_examples",
+      "reason": "No dated official fee schedule verified.",
+      "next_source": "Current PG prospectus of TNAU, Dr YSPUHF, PAU"
+    },
+    {
+      "field": "careers.roles",
+      "reason": "TNAU's career section for this programme was a placeholder; roles are general sector descriptions not drawn from an official list.",
+      "next_source": "University department pages or placement reports"
+    },
+    {
+      "field": "careers.public_sector_routes",
+      "reason": "ASRB NET discipline name not read from ASRB directly.",
+      "next_source": "Latest ASRB NET notification"
+    }
   ],
   "editorial_status": "research_draft"
 }

@@ -20,12 +20,29 @@
       "The degree is offered by state agricultural universities, central agricultural universities, ICAR deemed universities, and general and private universities with agriculture faculties. Seats, admission rules, fees and course titles depend on the institution. Applicants should check each university's current prospectus and ICAR accreditation status before applying."
     ],
     "highlights": [
-      { "label": "Duration", "value": "4 years / 8 semesters" },
-      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee (NEP 2020-aligned)" },
-      { "label": "Final-year practical component", "value": "Student READY: RAWE, experiential learning, attachments" },
-      { "label": "Common national route", "value": "CUET-UG scores used for ICAR quota seats (2025 cycle)" }
+      {
+        "label": "Duration",
+        "value": "4 years / 8 semesters"
+      },
+      {
+        "label": "Curriculum framework",
+        "value": "ICAR Sixth Deans Committee (NEP 2020-aligned)"
+      },
+      {
+        "label": "Final-year practical component",
+        "value": "Student READY: RAWE, experiential learning, attachments"
+      },
+      {
+        "label": "Common national route",
+        "value": "CUET-UG scores used for ICAR quota seats (2025 cycle)"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3", "s5"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s5"
+    ]
   },
   "who_should_apply": [
     "Students who studied biology, agriculture or mathematics in Class 12 alongside physics and chemistry and want to apply science to food production",
@@ -41,27 +58,65 @@
       {
         "stage": "Years 1-2: Foundations",
         "focus": "Basic sciences and introductory agricultural disciplines alongside common and skill-enhancement courses.",
-        "courses": ["Fundamentals of agronomy", "Fundamentals of soil science", "Introductory crop physiology and plant biochemistry", "Fundamentals of genetics", "Fundamentals of entomology and plant pathology", "Fundamentals of horticulture", "Agricultural economics and rural sociology basics", "Agricultural meteorology"]
+        "courses": [
+          "Fundamentals of agronomy",
+          "Fundamentals of soil science",
+          "Introductory crop physiology and plant biochemistry",
+          "Fundamentals of genetics",
+          "Fundamentals of entomology and plant pathology",
+          "Fundamentals of horticulture",
+          "Agricultural economics and rural sociology basics",
+          "Agricultural meteorology"
+        ]
       },
       {
         "stage": "Years 2-3: Core production and protection",
         "focus": "Applied courses on crops, soils, pests, diseases, breeding, farm machinery and markets.",
-        "courses": ["Field and horticultural crop production", "Soil fertility and nutrient management", "Principles of plant breeding and seed technology", "Insect pest and disease management", "Water management and irrigation", "Farm machinery and power", "Agricultural marketing, finance and farm management", "Extension methods and communication"]
+        "courses": [
+          "Field and horticultural crop production",
+          "Soil fertility and nutrient management",
+          "Principles of plant breeding and seed technology",
+          "Insect pest and disease management",
+          "Water management and irrigation",
+          "Farm machinery and power",
+          "Agricultural marketing, finance and farm management",
+          "Extension methods and communication"
+        ]
       },
       {
         "stage": "Year 4: Student READY",
         "focus": "Mostly practical work in villages, institutional farms, industry and enterprise modules.",
-        "courses": ["Rural Agricultural Work Experience (RAWE)", "Experiential Learning Programme modules", "Industry or institutional attachment", "Project work"]
+        "courses": [
+          "Rural Agricultural Work Experience (RAWE)",
+          "Experiential Learning Programme modules",
+          "Industry or institutional attachment",
+          "Project work"
+        ]
       }
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Rural Agricultural Work Experience (RAWE)", "description": "Students are attached to villages and partner agencies to study farming systems, diagnose field problems and take part in extension activities with farmers." },
-      { "name": "Experiential Learning Programme (ELP)", "description": "Small teams run a production or service unit, such as seed production, biofertiliser or biocontrol inputs, protected cultivation or value addition, from planning through to sale." },
-      { "name": "Industry / institutional attachment", "description": "Short placements with agri-input, seed, processing or research organisations to see how work is done outside the campus." },
-      { "name": "Farm and laboratory practicals", "description": "Regular field practicals on instructional farms and laboratory classes run alongside the theory courses from the first year." }
+      {
+        "name": "Rural Agricultural Work Experience (RAWE)",
+        "description": "Students are attached to villages and partner agencies to study farming systems, diagnose field problems and take part in extension activities with farmers."
+      },
+      {
+        "name": "Experiential Learning Programme (ELP)",
+        "description": "Small teams run a production or service unit, such as seed production, biofertiliser or biocontrol inputs, protected cultivation or value addition, from planning through to sale."
+      },
+      {
+        "name": "Industry / institutional attachment",
+        "description": "Short placements with agri-input, seed, processing or research organisations to see how work is done outside the campus."
+      },
+      {
+        "name": "Farm and laboratory practicals",
+        "description": "Regular field practicals on instructional farms and laboratory classes run alongside the theory courses from the first year."
+      }
     ],
-    "source_ids": ["s1", "s5"]
+    "source_ids": [
+      "s1",
+      "s5"
+    ]
   },
   "eligibility": {
     "points": [
@@ -71,30 +126,77 @@
       "ICAR-quota candidates had to be at least 16 years old on the cut-off date stated in the bulletin (31 August of the admission year in the 2025 cycle).",
       "State-quota seats follow state rules. Subject combinations, domicile requirements, reservation and minimum marks vary by state and university. Some states also run separate entry routes for agriculture diploma holders."
     ],
-    "source_ids": ["s3", "s2", "s6"]
+    "source_ids": [
+      "s3",
+      "s2",
+      "s6"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "CUET-UG (ICAR quota seats)", "description": "ICAR uses CUET-UG scores, with the test run by NTA, to fill its all-India quota through online counselling. In the 2025 cycle this covered 20% of seats in participating state agricultural universities and all seats in ICAR deemed universities and central agricultural universities.", "source_ids": ["s2", "s3"] },
-      { "name": "State agricultural entrance / counselling", "description": "Most remaining seats go through state processes. Depending on the state, this means a state entrance test, a common engineering-and-agriculture test, or merit in Class 12 marks. For example, ANGRAU (Andhra Pradesh) published 2026 counselling for B.Sc. (Hons) Agriculture using AP EAPCET ranks and, separately, AP AGRICET ranks.", "source_ids": ["s6"] },
-      { "name": "University entrance or merit", "description": "Private and deemed universities with agriculture faculties usually admit through their own entrance test or qualifying-exam merit. Check whether the programme is ICAR-accredited before applying.", "source_ids": [] }
+      {
+        "name": "CUET-UG (ICAR quota seats)",
+        "description": "ICAR uses CUET-UG scores, with the test run by NTA, to fill its all-India quota through online counselling. In the 2025 cycle this covered 20% of seats in participating state agricultural universities and all seats in ICAR deemed universities and central agricultural universities.",
+        "source_ids": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "name": "State agricultural entrance / counselling",
+        "description": "Most remaining seats go through state processes. Depending on the state, this means a state entrance test, a common engineering-and-agriculture test, or merit in Class 12 marks. For example, ANGRAU (Andhra Pradesh) published 2026 counselling for B.Sc. (Hons) Agriculture using AP EAPCET ranks and, separately, AP AGRICET ranks.",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "University entrance or merit",
+        "description": "Private and deemed universities with agriculture faculties usually admit through their own entrance test or qualifying-exam merit. Check whether the programme is ICAR-accredited before applying.",
+        "source_ids": []
+      }
     ],
     "exams": [
-      { "name": "CUET-UG", "conducting_body": "NTA", "url": "https://cuet.nta.nic.in/", "note": "Used for ICAR all-India quota counselling. Pick domain subjects that match your Class 12 subjects." },
-      { "name": "State-level agriculture or common entrance tests", "conducting_body": "State authorities / agricultural universities", "url": null, "note": "Names and patterns differ by state, for example AP EAPCET and AP AGRICET in Andhra Pradesh." }
+      {
+        "name": "CUET-UG",
+        "conducting_body": "NTA",
+        "url": "https://cuet.nta.nic.in/",
+        "note": "Used for ICAR all-India quota counselling. Pick domain subjects that match your Class 12 subjects."
+      },
+      {
+        "name": "State-level agriculture or common entrance tests",
+        "conducting_body": "State authorities / agricultural universities",
+        "url": null,
+        "note": "Names and patterns differ by state, for example AP EAPCET and AP AGRICET in Andhra Pradesh."
+      }
     ],
     "steps": [
-      { "title": "Shortlist routes", "text": "Decide whether you are applying for ICAR quota seats, your home-state seats, private universities, or more than one." },
-      { "title": "Match CUET subjects to Class 12", "text": "If you are taking CUET-UG, choose domain subjects that match the core subjects on your Class 12 marksheet." },
-      { "title": "Register for counselling", "text": "After results, register separately for ICAR counselling and any state counselling, fill in your choices, and track the round schedules." },
-      { "title": "Verify documents and report", "text": "Complete document verification, pay the seat acceptance or admission fee within the deadline, and report to the allotted college." }
+      {
+        "title": "Shortlist routes",
+        "text": "Decide whether you are applying for ICAR quota seats, your home-state seats, private universities, or more than one."
+      },
+      {
+        "title": "Match CUET subjects to Class 12",
+        "text": "If you are taking CUET-UG, choose domain subjects that match the core subjects on your Class 12 marksheet."
+      },
+      {
+        "title": "Register for counselling",
+        "text": "After results, register separately for ICAR counselling and any state counselling, fill in your choices, and track the round schedules."
+      },
+      {
+        "title": "Verify documents and report",
+        "text": "Complete document verification, pay the seat acceptance or admission fee within the deadline, and report to the allotted college."
+      }
     ],
     "documents": [
       "Class 10 and Class 12 marksheets and certificates are usually requested",
       "Category, EWS or PwBD certificates where a reservation is claimed",
       "Domicile or nativity proof for state-quota seats"
     ],
-    "source_ids": ["s2", "s3", "s6"]
+    "source_ids": [
+      "s2",
+      "s3",
+      "s6"
+    ]
   },
   "fees": {
     "summary": "Fees differ widely. State agricultural universities generally charge government-regulated fees, which still differ between states and between government and self-financing seats. Private and deemed universities set their own fees, and these are often much higher. Hostel, mess, RAWE travel and examination charges may be billed separately. Use the current official fee notice of each institution.",
@@ -105,16 +207,50 @@
     "heading": "Where agriculture graduates work",
     "intro": "Graduates work in farm advisory, input supply, banking, research support and food businesses, and some start their own ventures. Government jobs are filled through competitive recruitment, and postgraduate study opens research and teaching roles. Outcomes depend on the individual, the institution and recruitment cycles.",
     "roles": [
-      { "title": "Agriculture officer / extension officer", "description": "Works with state agriculture departments to deliver schemes, advisories and demonstrations to farmers." },
-      { "title": "Agricultural field officer (banking)", "description": "Assesses and monitors farm and rural loans for banks." },
-      { "title": "Agri-input sales and technical executive", "description": "Supports dealers and farmers on seeds, fertilisers and crop-protection products." },
-      { "title": "Seed production and quality staff", "description": "Organises seed multiplication, field inspection and quality testing for seed companies or agencies." },
-      { "title": "Agri-clinic or agri-business entrepreneur", "description": "Runs an advisory, input, nursery or value-addition enterprise." }
+      {
+        "title": "Agriculture officer / extension officer",
+        "description": "Works with state agriculture departments to deliver schemes, advisories and demonstrations to farmers."
+      },
+      {
+        "title": "Agricultural field officer (banking)",
+        "description": "Assesses and monitors farm and rural loans for banks."
+      },
+      {
+        "title": "Agri-input sales and technical executive",
+        "description": "Supports dealers and farmers on seeds, fertilisers and crop-protection products."
+      },
+      {
+        "title": "Seed production and quality staff",
+        "description": "Organises seed multiplication, field inspection and quality testing for seed companies or agencies."
+      },
+      {
+        "title": "Agri-clinic or agri-business entrepreneur",
+        "description": "Runs an advisory, input, nursery or value-addition enterprise."
+      }
     ],
-    "sectors": ["State agriculture departments", "Banks and rural finance", "Seed, fertiliser and agrochemical companies", "Food processing", "Research institutes and Krishi Vigyan Kendras", "Agri-tech and advisory services"],
-    "public_sector_routes": ["IBPS Specialist Officer – Agricultural Field Officer", "State public service commission agriculture officer examinations", "ICAR AIEEA (PG) for postgraduate admission and fellowships", "ASRB NET after a relevant master's degree (for teaching eligibility)"],
-    "higher_study": ["M.Sc. (Agriculture) in agronomy, soil science, entomology, plant pathology, genetics and plant breeding, agricultural economics, extension and other disciplines", "MBA / PG diploma in agribusiness management", "M.Sc. in biotechnology, environmental science or remote sensing", "Ph.D. after a master's degree"],
-    "source_ids": ["s5"]
+    "sectors": [
+      "State agriculture departments",
+      "Banks and rural finance",
+      "Seed, fertiliser and agrochemical companies",
+      "Food processing",
+      "Research institutes and Krishi Vigyan Kendras",
+      "Agri-tech and advisory services"
+    ],
+    "public_sector_routes": [
+      "IBPS Specialist Officer – Agricultural Field Officer",
+      "State public service commission agriculture officer examinations",
+      "ICAR AIEEA (PG) for postgraduate admission and fellowships",
+      "ASRB NET after a relevant master's degree (for teaching eligibility)"
+    ],
+    "higher_study": [
+      "M.Sc. (Agriculture) in agronomy, soil science, entomology, plant pathology, genetics and plant breeding, agricultural economics, extension and other disciplines",
+      "MBA / PG diploma in agribusiness management",
+      "M.Sc. in biotechnology, environmental science or remote sensing",
+      "Ph.D. after a master's degree"
+    ],
+    "source_ids": [
+      "s5"
+    ]
   },
   "skills": [
     "Crop planning and field management",
@@ -125,32 +261,166 @@
     "Running a small agri-enterprise unit"
   ],
   "faqs": [
-    { "question": "Can I apply with PCM instead of PCB?", "answer": "Under the ICAR-quota CUET route in the 2025 cycle, any three of Physics, Chemistry, Mathematics, Biology and Agriculture could qualify, so PCM was accepted, provided you took the same subjects in CUET. State and private universities may set different subject rules, so check each prospectus.", "source_ids": ["s3"] },
-    { "question": "Is CUET compulsory for B.Sc. Agriculture?", "answer": "Only for ICAR all-India quota seats and for institutions that fill seats through CUET. Most state-quota seats are filled through state entrance tests or state merit counselling, and private universities run their own processes.", "source_ids": ["s2", "s3", "s6"] },
-    { "question": "What is RAWE?", "answer": "Rural Agricultural Work Experience is the village-attachment part of the final-year Student READY programme. Students work with farm families and local agencies to understand field conditions and support extension activities.", "source_ids": ["s1"] },
-    { "question": "Is B.Sc. (Hons.) Agriculture the same as a three-year B.Sc. in agriculture?", "answer": "No. The ICAR-model degree is a four-year professional programme. Some public-sector notifications, such as banking agricultural field officer posts, ask for a four-year degree, so check the duration and accreditation of any programme you are considering.", "source_ids": ["s1"] },
-    { "question": "What can I study after B.Sc. Agriculture?", "answer": "Common options are an M.Sc. (Agriculture) in a specialised discipline, admission to which ICAR's national PG entrance and university tests support, or an MBA or PG diploma in agribusiness. A Ph.D. can follow later.", "source_ids": ["s5"] },
-    { "question": "Do all universities follow the same syllabus?", "answer": "Most agricultural universities base their syllabus on the ICAR Deans Committee recommendations, but they adapt course titles, credits and timing. Your university's academic regulations are the final reference.", "source_ids": ["s1"] }
+    {
+      "question": "Can I apply with PCM instead of PCB?",
+      "answer": "Under the ICAR-quota CUET route in the 2025 cycle, any three of Physics, Chemistry, Mathematics, Biology and Agriculture could qualify, so PCM was accepted, provided you took the same subjects in CUET. State and private universities may set different subject rules, so check each prospectus.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is CUET compulsory for B.Sc. Agriculture?",
+      "answer": "Only for ICAR all-India quota seats and for institutions that fill seats through CUET. Most state-quota seats are filled through state entrance tests or state merit counselling, and private universities run their own processes.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "question": "What is RAWE?",
+      "answer": "Rural Agricultural Work Experience is the village-attachment part of the final-year Student READY programme. Students work with farm families and local agencies to understand field conditions and support extension activities.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Is B.Sc. (Hons.) Agriculture the same as a three-year B.Sc. in agriculture?",
+      "answer": "No. The ICAR-model degree is a four-year professional programme. Some public-sector notifications, such as banking agricultural field officer posts, ask for a four-year degree, so check the duration and accreditation of any programme you are considering.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What can I study after B.Sc. Agriculture?",
+      "answer": "Common options are an M.Sc. (Agriculture) in a specialised discipline, admission to which ICAR's national PG entrance and university tests support, or an MBA or PG diploma in agribusiness. A Ph.D. can follow later.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Do all universities follow the same syllabus?",
+      "answer": "Most agricultural universities base their syllabus on the ICAR Deans Committee recommendations, but they adapt course titles, credits and timing. Your university's academic regulations are the final reference.",
+      "source_ids": [
+        "s1"
+      ]
+    }
   ],
   "seo": {
-    "title": "B.Sc. (Hons.) Agriculture: Course, Eligibility & Admission",
+    "title": "B.Sc. (Hons.) Agriculture: Course, Eligibility & Jobs",
     "description": "B.Sc. (Hons.) Agriculture explained: 4-year ICAR-model curriculum, RAWE and Student READY, CUET and state admission routes, eligibility and careers.",
-    "keywords": ["B.Sc. Agriculture course details", "B.Sc. Hons Agriculture eligibility", "B.Sc. Agriculture admission CUET ICAR", "RAWE Student READY", "B.Sc. Agriculture syllabus ICAR", "agriculture degree after 12th"]
+    "keywords": [
+      "B.Sc. Agriculture course details",
+      "B.Sc. Hons Agriculture eligibility",
+      "B.Sc. Agriculture admission CUET ICAR",
+      "RAWE Student READY",
+      "B.Sc. Agriculture syllabus ICAR",
+      "agriculture degree after 12th"
+    ]
   },
-  "related": ["bsc-horticulture", "diploma-agriculture", "msc-agronomy", "bsc-agribusiness"],
+  "related": [
+    "bsc-horticulture",
+    "diploma-agriculture",
+    "msc-agronomy",
+    "bsc-agribusiness"
+  ],
   "sources": [
-    { "id": "s1", "url": "https://ebook.icar.org.in/index.php/bookprocess/catalog/book/15", "title": "Sixth Deans' Committee Report (Volume I) – ICAR e-book catalogue", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "URL appeared in a search excerpt, but the direct fetch was blocked by a permission prompt. Curriculum details here rely on search summaries of the report and SAU adaptations, not on a full reading." },
-    { "id": "s2", "url": "https://cuet.nta.nic.in/", "title": "Common University Entrance Test (CUET-UG) – NTA", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["admission", "eligibility"], "notes": "Portal read on 2026-11-01. It links the CUET-UG 2026 information bulletin and score card. ICAR-specific rules were not read from the bulletin text." },
-    { "id": "s3", "url": "https://icar.org.in/", "title": "ICAR – CUET (ICAR-UG) admission notices (search excerpts)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["eligibility", "admission", "faqs"], "notes": "Search summaries attributed to icar.org.in and nta.nic.in notices for the 2025 cycle: 20%/100% seat scope, 50%/40% aggregate, subject matching and minimum age 16. The exact notice URL was not captured. Re-verify against the current bulletin." },
-    { "id": "s5", "url": "https://tnau.ac.in/b-sc-hons-agriculture/", "title": "B.Sc. (Hons.) Agriculture – Tamil Nadu Agricultural University", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "careers", "faqs"], "notes": "Institution-specific example; page undated." },
-    { "id": "s6", "url": "https://angrau.ac.in/", "title": "Acharya N.G. Ranga Agricultural University – homepage notices", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["admission", "eligibility"], "notes": "Homepage notices for AY 2026-27 list B.Sc. (Hons) Agriculture counselling using AP EAPCET 2026 and AP AGRICET 2026 ranks. Example of a state route only." }
+    {
+      "id": "s1",
+      "url": "https://ebook.icar.org.in/index.php/bookprocess/catalog/book/15",
+      "title": "Sixth Deans' Committee Report (Volume I) – ICAR e-book catalogue",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "faqs"
+      ],
+      "notes": "URL appeared in a search excerpt, but the direct fetch was blocked by a permission prompt. Curriculum details here rely on search summaries of the report and SAU adaptations, not on a full reading."
+    },
+    {
+      "id": "s2",
+      "url": "https://cuet.nta.nic.in/",
+      "title": "Common University Entrance Test (CUET-UG) – NTA",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "admission",
+        "eligibility"
+      ],
+      "notes": "Portal read on 2026-11-01. It links the CUET-UG 2026 information bulletin and score card. ICAR-specific rules were not read from the bulletin text."
+    },
+    {
+      "id": "s3",
+      "url": "https://icar.org.in/",
+      "title": "ICAR – CUET (ICAR-UG) admission notices (search excerpts)",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "eligibility",
+        "admission",
+        "faqs"
+      ],
+      "notes": "Search summaries attributed to icar.org.in and nta.nic.in notices for the 2025 cycle: 20%/100% seat scope, 50%/40% aggregate, subject matching and minimum age 16. The exact notice URL was not captured. Re-verify against the current bulletin."
+    },
+    {
+      "id": "s5",
+      "url": "https://tnau.ac.in/b-sc-hons-agriculture/",
+      "title": "B.Sc. (Hons.) Agriculture – Tamil Nadu Agricultural University",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "careers",
+        "faqs"
+      ],
+      "notes": "Institution-specific example; page undated."
+    },
+    {
+      "id": "s6",
+      "url": "https://angrau.ac.in/",
+      "title": "Acharya N.G. Ranga Agricultural University – homepage notices",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "admission",
+        "eligibility"
+      ],
+      "notes": "Homepage notices for AY 2026-27 list B.Sc. (Hons) Agriculture counselling using AP EAPCET 2026 and AP AGRICET 2026 ranks. Example of a state route only."
+    }
   ],
   "verification_gaps": [
-    { "field": "curriculum.structure", "reason": "Course names come from search summaries of the Sixth Deans Committee report and SAU syllabi. The report itself could not be opened (permission prompt denied).", "next_source": "ICAR Sixth Deans Committee Report Vol. I (ebook.icar.org.in) B.Sc. (Hons.) Agriculture course layout" },
-    { "field": "duration_note", "reason": "Total credits (secondary sources suggest about 167 college credits plus online credits) and exact exit-option rules were not confirmed from ICAR text.", "next_source": "ICAR Sixth Deans Committee Report Vol. I" },
-    { "field": "eligibility.points", "reason": "ICAR-quota eligibility is dated to the 2025 cycle from search excerpts. The 2026 bulletin PDF was downloaded but its text could not be extracted.", "next_source": "Current CUET-UG information bulletin (ICAR section) and ICAR counselling brochure" },
-    { "field": "fees.observed_examples", "reason": "No official dated fee notice was reviewed.", "next_source": "Fee schedules in SAU UG prospectuses for the current academic year" },
-    { "field": "careers.public_sector_routes", "reason": "IBPS AFO four-year degree requirement taken from secondary search summaries, not the IBPS notification.", "next_source": "Latest IBPS CRP-SPL notification (ibps.in)" }
+    {
+      "field": "curriculum.structure",
+      "reason": "Course names come from search summaries of the Sixth Deans Committee report and SAU syllabi. The report itself could not be opened (permission prompt denied).",
+      "next_source": "ICAR Sixth Deans Committee Report Vol. I (ebook.icar.org.in) B.Sc. (Hons.) Agriculture course layout"
+    },
+    {
+      "field": "duration_note",
+      "reason": "Total credits (secondary sources suggest about 167 college credits plus online credits) and exact exit-option rules were not confirmed from ICAR text.",
+      "next_source": "ICAR Sixth Deans Committee Report Vol. I"
+    },
+    {
+      "field": "eligibility.points",
+      "reason": "ICAR-quota eligibility is dated to the 2025 cycle from search excerpts. The 2026 bulletin PDF was downloaded but its text could not be extracted.",
+      "next_source": "Current CUET-UG information bulletin (ICAR section) and ICAR counselling brochure"
+    },
+    {
+      "field": "fees.observed_examples",
+      "reason": "No official dated fee notice was reviewed.",
+      "next_source": "Fee schedules in SAU UG prospectuses for the current academic year"
+    },
+    {
+      "field": "careers.public_sector_routes",
+      "reason": "IBPS AFO four-year degree requirement taken from secondary search summaries, not the IBPS notification.",
+      "next_source": "Latest IBPS CRP-SPL notification (ibps.in)"
+    }
   ],
   "editorial_status": "research_draft"
 }

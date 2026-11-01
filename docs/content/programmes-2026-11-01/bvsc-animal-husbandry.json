@@ -20,12 +20,28 @@
       "Practical clinical training takes place in Veterinary Clinical Complex (VCC) teaching hospitals and Instructional Livestock Farm Complexes (ILFC). In the final year, students complete a compulsory 12-month rotating internship spanning clinical practice, mobile veterinary clinics, slaughterhouse meat inspection, zoo / wildlife exposure, and farm placements."
     ],
     "highlights": [
-      { "label": "Duration", "value": "5.5 years (4.5 years + 1-year rotating internship)" },
-      { "label": "Statutory council", "value": "Veterinary Council of India (VCI)" },
-      { "label": "National entrance", "value": "NEET-UG (Mandatory for all admissions in India)" },
-      { "label": "Professional registration", "value": "Registration with State Veterinary Council & VCI" }
+      {
+        "label": "Duration",
+        "value": "5.5 years (4.5 years + 1-year rotating internship)"
+      },
+      {
+        "label": "Statutory council",
+        "value": "Veterinary Council of India (VCI)"
+      },
+      {
+        "label": "National entrance",
+        "value": "NEET-UG (Mandatory for all admissions in India)"
+      },
+      {
+        "label": "Professional registration",
+        "value": "Registration with State Veterinary Council & VCI"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Class 12 biology students passionate about animal health, clinical surgery, companion animal medicine, and wildlife conservation",
@@ -113,7 +129,10 @@
         "description": "One full calendar year of clinical postings across state veterinary hospitals, disease diagnostic laboratories, dairy processing plants, and zoo reserves."
       }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -123,19 +142,27 @@
       "Must have attained the minimum age of 17 years on or before 31 December of the year of admission.",
       "Specific physical fitness standards for handling large animals apply."
     ],
-    "source_ids": ["s1", "s2"]
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
   },
   "admission": {
     "routes": [
       {
         "name": "Veterinary Council of India (VCI) 15% All-India Quota",
         "description": "Centralized online counselling conducted by VCI based on NEET-UG All-India Ranks for 15% seats across all recognised government veterinary colleges in India.",
-        "source_ids": ["s1", "s2"]
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
       },
       {
         "name": "State Veterinary Counselling (85% State Quota)",
         "description": "Conducted by respective state veterinary universities or state CET boards based on NEET-UG merit scores for state domicile candidates.",
-        "source_ids": ["s3"]
+        "source_ids": [
+          "s3"
+        ]
       }
     ],
     "exams": [
@@ -147,10 +174,22 @@
       }
     ],
     "steps": [
-      { "title": "Appear for NEET-UG", "text": "Register, appear, and qualify in NEET-UG with qualifying percentile." },
-      { "title": "Register for VCI / State Counselling", "text": "Register for 15% all-India counselling on the official VCI portal and for 85% state quota on your home-state veterinary university portal." },
-      { "title": "Choice Filling & Locking", "text": "Fill preferences of veterinary colleges based on rank and seat matrix." },
-      { "title": "Physical Reporting & Verification", "text": "Complete medical fitness examination, document scrutiny, and fee payment at the allotted veterinary college." }
+      {
+        "title": "Appear for NEET-UG",
+        "text": "Register, appear, and qualify in NEET-UG with qualifying percentile."
+      },
+      {
+        "title": "Register for VCI / State Counselling",
+        "text": "Register for 15% all-India counselling on the official VCI portal and for 85% state quota on your home-state veterinary university portal."
+      },
+      {
+        "title": "Choice Filling & Locking",
+        "text": "Fill preferences of veterinary colleges based on rank and seat matrix."
+      },
+      {
+        "title": "Physical Reporting & Verification",
+        "text": "Complete medical fitness examination, document scrutiny, and fee payment at the allotted veterinary college."
+      }
     ],
     "documents": [
       "Class 10 and 12 marksheet and passing certificates",
@@ -160,7 +199,10 @@
       "State domicile certificate for state quota seats",
       "Medical fitness certificate as per VCI format"
     ],
-    "source_ids": ["s1", "s2"]
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
   },
   "fees": {
     "summary": "Tuition fees in government state veterinary universities (such as TANUVAS, GADVASU, LUVAS, MAFSU) are heavily subsidised, generally ranging from ₹20,000 to ₹55,000 per academic year. In private veterinary colleges approved by VCI, annual fees range between ₹3,50,000 to ₹6,50,000 under state quota and higher under management quotas. Interns receive a monthly stipend during their 12-month internship as per university/state norms.",
@@ -171,12 +213,30 @@
     "heading": "Professional veterinary careers in healthcare, defense, and industry",
     "intro": "B.V.Sc. & A.H. graduates become licensed veterinary doctors. The veterinary profession offers diverse opportunities in government animal husbandry departments, the armed forces, companion animal clinics, pharmaceutical research, and commercial dairy and poultry industries.",
     "roles": [
-      { "title": "Veterinary Assistant Surgeon (VAS) / Veterinary Officer", "description": "Class-I / Gazetted medical officer in state animal husbandry departments running veterinary dispensaries and artificial insemination centres." },
-      { "title": "Remount Veterinary Corps (RVC) Officer", "description": "Commissioned officer (Captain) in the Indian Army responsible for the breeding, healthcare, and training of army horses, mules, and military working dogs." },
-      { "title": "Small Animal / Companion Veterinary Practitioner", "description": "Independent veterinary clinical practitioner treating domestic pets, performing surgeries, and providing preventative animal healthcare." },
-      { "title": "Dairy & Poultry Technical Consultant", "description": "Veterinary doctor supervising flock health, bio-security, vaccination, and nutrition in industrial poultry and dairy enterprises." },
-      { "title": "Wildlife & Zoo Veterinarian", "description": "Specialist providing healthcare, chemical immobilization, disease surveillance, and breeding management for captive and wild animals." },
-      { "title": "Quarantine / Food Safety Inspection Officer", "description": "Government officer checking livestock imports, animal disease outbreaks, and abattoir meat inspection at ports and borders." }
+      {
+        "title": "Veterinary Assistant Surgeon (VAS) / Veterinary Officer",
+        "description": "Class-I / Gazetted medical officer in state animal husbandry departments running veterinary dispensaries and artificial insemination centres."
+      },
+      {
+        "title": "Remount Veterinary Corps (RVC) Officer",
+        "description": "Commissioned officer (Captain) in the Indian Army responsible for the breeding, healthcare, and training of army horses, mules, and military working dogs."
+      },
+      {
+        "title": "Small Animal / Companion Veterinary Practitioner",
+        "description": "Independent veterinary clinical practitioner treating domestic pets, performing surgeries, and providing preventative animal healthcare."
+      },
+      {
+        "title": "Dairy & Poultry Technical Consultant",
+        "description": "Veterinary doctor supervising flock health, bio-security, vaccination, and nutrition in industrial poultry and dairy enterprises."
+      },
+      {
+        "title": "Wildlife & Zoo Veterinarian",
+        "description": "Specialist providing healthcare, chemical immobilization, disease surveillance, and breeding management for captive and wild animals."
+      },
+      {
+        "title": "Quarantine / Food Safety Inspection Officer",
+        "description": "Government officer checking livestock imports, animal disease outbreaks, and abattoir meat inspection at ports and borders."
+      }
     ],
     "sectors": [
       "State Government Animal Husbandry Departments",
@@ -198,7 +258,10 @@
       "Ph.D. in Veterinary & Animal Sciences",
       "Post-Graduate Diplomas in Small Animal Practice / Wild Animal Health"
     ],
-    "source_ids": ["s1", "s4"]
+    "source_ids": [
+      "s1",
+      "s4"
+    ]
   },
   "skills": [
     "Veterinary diagnostic clinical examination and case history taking",
@@ -227,7 +290,7 @@
     }
   ],
   "seo": {
-    "title": "B.V.Sc. & A.H. — Veterinary Degree, NEET Eligibility, Syllabus & Colleges",
+    "title": "B.V.Sc. & A.H.: Veterinary Degree, Syllabus & NEET",
     "description": "Complete guide to B.V.Sc. & A.H. (Bachelor of Veterinary Science): VCI regulations, 5.5-year syllabus, NEET eligibility, counselling, internship, and top veterinary universities.",
     "keywords": [
       "BVSc and AH",
@@ -251,7 +314,11 @@
       "kind": "regulator",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "overview", "eligibility"]
+      "supports": [
+        "curriculum",
+        "overview",
+        "eligibility"
+      ]
     },
     {
       "id": "s2",
@@ -260,7 +327,10 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["admission", "eligibility"]
+      "supports": [
+        "admission",
+        "eligibility"
+      ]
     },
     {
       "id": "s3",
@@ -269,7 +339,11 @@
       "kind": "affiliating_university",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "practical_learning", "overview"]
+      "supports": [
+        "curriculum",
+        "practical_learning",
+        "overview"
+      ]
     },
     {
       "id": "s4",
@@ -278,7 +352,9 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["careers"]
+      "supports": [
+        "careers"
+      ]
     }
   ],
   "verification_gaps": [],

@@ -20,13 +20,32 @@
       "The curriculum covers advanced microeconomic theory, macroeconomic policy, agricultural production economics, farm business management, econometric modelling using software packages (STATA, R, SPSS), agricultural marketing and price analysis, rural finance and microcredit, natural resource and environmental economics, and international trade regulations under the WTO."
     ],
     "highlights": [
-      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
-      { "label": "Total credits (ICAR BSMA)", "value": "70 credits (including 30 thesis research credits)" },
-      { "label": "Typical entry qualification", "value": "4-year B.Sc. (Hons.) Agriculture or allied 4-year degree (Horticulture, Forestry, Agribusiness)" },
-      { "label": "National entrance examination", "value": "ICAR AIEEA (PG) in the Social Sciences subject group" },
-      { "label": "Analytical software tools", "value": "Econometric modelling using STATA, R, SPSS and advanced Excel" }
+      {
+        "label": "Normal duration",
+        "value": "2 academic years (4 semesters)"
+      },
+      {
+        "label": "Total credits (ICAR BSMA)",
+        "value": "70 credits (including 30 thesis research credits)"
+      },
+      {
+        "label": "Typical entry qualification",
+        "value": "4-year B.Sc. (Hons.) Agriculture or allied 4-year degree (Horticulture, Forestry, Agribusiness)"
+      },
+      {
+        "label": "National entrance examination",
+        "value": "ICAR AIEEA (PG) in the Social Sciences subject group"
+      },
+      {
+        "label": "Analytical software tools",
+        "value": "Econometric modelling using STATA, R, SPSS and advanced Excel"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Agriculture and allied graduates who have a strong aptitude for mathematics, statistics, data analytics and economic thinking",
@@ -41,32 +60,72 @@
       {
         "stage": "Major core courses (Compulsory Agricultural Economics)",
         "focus": "Foundational economic theory, production economics and quantitative analysis.",
-        "courses": ["Microeconomic Theory & Applications", "Macroeconomics & Agricultural Policy", "Agricultural Production Economics", "Agricultural Marketing & Price Analysis", "Econometrics & Quantitative Modelling"]
+        "courses": [
+          "Microeconomic Theory & Applications",
+          "Macroeconomics & Agricultural Policy",
+          "Agricultural Production Economics",
+          "Agricultural Marketing & Price Analysis",
+          "Econometrics & Quantitative Modelling"
+        ]
       },
       {
         "stage": "Major elective courses (Specialised Economics)",
         "focus": "Finance, farm management, natural resources and international trade.",
-        "courses": ["Agricultural Finance & Project Management", "Farm Business Management & Planning", "Natural Resource & Environmental Economics", "International Trade in Agricultural Commodities", "Linear Programming & Optimization Techniques", "Rural Financial Markets & Microfinance", "Supply Chain Management in Agriculture"]
+        "courses": [
+          "Agricultural Finance & Project Management",
+          "Farm Business Management & Planning",
+          "Natural Resource & Environmental Economics",
+          "International Trade in Agricultural Commodities",
+          "Linear Programming & Optimization Techniques",
+          "Rural Financial Markets & Microfinance",
+          "Supply Chain Management in Agriculture"
+        ]
       },
       {
         "stage": "Minor and supporting courses",
         "focus": "Applied statistics, agricultural extension and computer software.",
-        "courses": ["Statistical Methods for Social Sciences", "Sampling Techniques & Survey Methodologies", "Agricultural Extension Systems & Rural Change", "Data Analysis Using Statistical Software (STATA / R)"]
+        "courses": [
+          "Statistical Methods for Social Sciences",
+          "Sampling Techniques & Survey Methodologies",
+          "Agricultural Extension Systems & Rural Change",
+          "Data Analysis Using Statistical Software (STATA / R)"
+        ]
       },
       {
         "stage": "Common skills, seminar & master's thesis",
         "focus": "Research methodology, ethics, literature seminar and 30-credit dissertation.",
-        "courses": ["Library & Information Services", "Technical Writing & Scientific Communication", "Intellectual Property Rights in Agriculture", "Master's Seminar (1 credit)", "Master's Research / Thesis (30 credits)"]
+        "courses": [
+          "Library & Information Services",
+          "Technical Writing & Scientific Communication",
+          "Intellectual Property Rights in Agriculture",
+          "Master's Seminar (1 credit)",
+          "Master's Research / Thesis (30 credits)"
+        ]
       }
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Farm survey design & field data collection", "description": "Designing structured questionnaires, conducting primary farmer interviews in rural villages, and collecting farm budget, input-cost and yield data." },
-      { "name": "Econometric & regression analysis", "description": "Using software packages (R, STATA, SPSS) to run multiple regression, Cobb-Douglas production functions, time-series forecasting and price volatility analysis." },
-      { "name": "Market yard (APMC Mandi) studies", "description": "Observing electronic auction systems (e-NAM), recording mandi arrivals, calculating price spreads and assessing marketing margins across intermediary channels." },
-      { "name": "Supervised master's research thesis", "description": "Independent empirical research on an agricultural economics problem—such as crop insurance uptake, groundwater economics, value chain analysis or impact assessment of government schemes." }
+      {
+        "name": "Farm survey design & field data collection",
+        "description": "Designing structured questionnaires, conducting primary farmer interviews in rural villages, and collecting farm budget, input-cost and yield data."
+      },
+      {
+        "name": "Econometric & regression analysis",
+        "description": "Using software packages (R, STATA, SPSS) to run multiple regression, Cobb-Douglas production functions, time-series forecasting and price volatility analysis."
+      },
+      {
+        "name": "Market yard (APMC Mandi) studies",
+        "description": "Observing electronic auction systems (e-NAM), recording mandi arrivals, calculating price spreads and assessing marketing margins across intermediary channels."
+      },
+      {
+        "name": "Supervised master's research thesis",
+        "description": "Independent empirical research on an agricultural economics problem—such as crop insurance uptake, groundwater economics, value chain analysis or impact assessment of government schemes."
+      }
     ],
-    "source_ids": ["s1", "s2"]
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
   },
   "eligibility": {
     "points": [
@@ -74,22 +133,60 @@
       "Minimum required grade point average: 6.0/10.0 OGPA (or 60% aggregate) for General, OBC and EWS candidates; 5.0/10.0 OGPA (or 50% aggregate) for SC, ST and PwD candidates.",
       "Final semester students may apply provisionally, provided they submit qualifying marksheets at the time of final admission counselling."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "ICAR AIEEA (PG - Social Sciences)", "description": "National entrance examination conducted by NTA for all-India quota seats in State Agricultural Universities, Central Universities, and ICAR deemed institutes (such as IARI New Delhi and NDRI Karnal).", "source_ids": ["s3"] },
-      { "name": "State Agricultural University PG Entrances", "description": "Conducted by state bodies such as UPCATET (UP), MCAER (Maharashtra), OUAT (Odisha), Rajasthan Pre-PG, and state agricultural university portals.", "source_ids": ["s1"] },
-      { "name": "Private Agricultural Universities", "description": "Admissions conducted through university-level tests or merit screening aligned with ICAR standards.", "source_ids": ["s1"] }
+      {
+        "name": "ICAR AIEEA (PG - Social Sciences)",
+        "description": "National entrance examination conducted by NTA for all-India quota seats in State Agricultural Universities, Central Universities, and ICAR deemed institutes (such as IARI New Delhi and NDRI Karnal).",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "State Agricultural University PG Entrances",
+        "description": "Conducted by state bodies such as UPCATET (UP), MCAER (Maharashtra), OUAT (Odisha), Rajasthan Pre-PG, and state agricultural university portals.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "name": "Private Agricultural Universities",
+        "description": "Admissions conducted through university-level tests or merit screening aligned with ICAR standards.",
+        "source_ids": [
+          "s1"
+        ]
+      }
     ],
     "exams": [
-      { "name": "ICAR AIEEA (PG - Social Sciences)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based exam testing Agricultural Economics, Agricultural Extension, Agricultural Statistics, and general agriculture fundamentals." }
+      {
+        "name": "ICAR AIEEA (PG - Social Sciences)",
+        "conducting_body": "National Testing Agency (NTA)",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "note": "Computer-based exam testing Agricultural Economics, Agricultural Extension, Agricultural Statistics, and general agriculture fundamentals."
+      }
     ],
     "steps": [
-      { "title": "Check Social Sciences eligibility", "text": "Verify your degree eligibility under the Social Sciences / Agricultural Economics subject group in the ICAR AIEEA (PG) Information Bulletin." },
-      { "title": "Complete online application", "text": "Register on the NTA ICAR portal, upload documents and select examination centre preferences." },
-      { "title": "Appear for entrance examination", "text": "Take the 120-question, 2-hour CBT assessing economic principles, farm management, statistics and current rural developments." },
-      { "title": "Participate in online counselling", "text": "Select participating agricultural universities and departments of Agricultural Economics based on merit rank." }
+      {
+        "title": "Check Social Sciences eligibility",
+        "text": "Verify your degree eligibility under the Social Sciences / Agricultural Economics subject group in the ICAR AIEEA (PG) Information Bulletin."
+      },
+      {
+        "title": "Complete online application",
+        "text": "Register on the NTA ICAR portal, upload documents and select examination centre preferences."
+      },
+      {
+        "title": "Appear for entrance examination",
+        "text": "Take the 120-question, 2-hour CBT assessing economic principles, farm management, statistics and current rural developments."
+      },
+      {
+        "title": "Participate in online counselling",
+        "text": "Select participating agricultural universities and departments of Agricultural Economics based on merit rank."
+      }
     ],
     "documents": [
       "B.Sc. Agriculture / allied degree certificate and transcripts",
@@ -99,14 +196,32 @@
       "Domicile certificate for state quota seats",
       "Transfer and conduct certificates"
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "State Agricultural Universities and ICAR institutes provide highly subsidised education with annual tuition fees typically ranging between ₹14,000 and ₹30,000 for merit quota seats. Candidates admitted via ICAR AIEEA (PG) with top ranks receive the ICAR PG Scholarship / National Talent Scholarship with monthly financial allowances. Private agricultural universities charge between ₹60,000 and ₹1,35,000 per academic year. Computer lab and accommodation charges are billed as per actual university rules.",
     "observed_examples": [
-      { "institution": "State Agricultural Universities (e.g. TNAU, PAU, GBPUAT)", "amount_inr": 25000, "period": "Per academic year", "academic_year": "2024-25" },
-      { "institution": "ICAR Deemed Universities (IARI New Delhi)", "amount_inr": 16000, "period": "Per academic year", "academic_year": "2024-25" },
-      { "institution": "Accredited Private Universities", "amount_inr": 85000, "period": "Per academic year", "academic_year": "2024-25" }
+      {
+        "institution": "State Agricultural Universities (e.g. TNAU, PAU, GBPUAT)",
+        "amount_inr": 25000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      },
+      {
+        "institution": "ICAR Deemed Universities (IARI New Delhi)",
+        "amount_inr": 16000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      },
+      {
+        "institution": "Accredited Private Universities",
+        "amount_inr": 85000,
+        "period": "Per academic year",
+        "academic_year": "2024-25"
+      }
     ],
     "verification": "Refer to the specific fee structure published in the admitting university's postgraduate admission bulletin."
   },
@@ -114,12 +229,30 @@
     "heading": "Professional roles in banking, economic research, policy and commodities",
     "intro": "Agricultural Economics postgraduates possess unique quantitative and socio-economic skills, making them highly versatile across public policy institutions, financial banks, research think-tanks and commodity corporations.",
     "roles": [
-      { "title": "Scientist (Agricultural Economics) via ARS", "description": "Lead socio-economic impact studies, farm income assessments, technology adoption evaluations and policy analyses at ICAR research institutes (NIAP, IARI, CRIDA)." },
-      { "title": "Assistant Manager / Economist at NABARD & RBI", "description": "Appraise rural credit schemes, assess Priority Sector Lending (PSL) performance, analyze rural credit flow and formulate state potential-linked credit plans (PLP)." },
-      { "title": "Agricultural Field Officer / Credit Analyst in Commercial Banks", "description": "Appraise agricultural loan portfolios, evaluate agro-processing project feasibility reports, and monitor farm credit recovery across regional rural branches." },
-      { "title": "Commodity Research Analyst", "description": "Analyze crop acreage forecasts, domestic arrivals, export-import trends and price volatility for commodity exchanges (NCDEX, MCX), brokerage houses and agribusiness conglomerates." },
-      { "title": "Assistant Professor / KVK Subject Matter Specialist", "description": "Teach undergraduate and master's courses in agricultural economics and farm management, and conduct village surveys for technology adoption." },
-      { "title": "Policy Researcher at Think Tanks (IFPRI / RIS / NITI Aayog)", "description": "Conduct quantitative economic research on food security, crop insurance schemes (PMFBY), irrigation investments and rural labour transitions." }
+      {
+        "title": "Scientist (Agricultural Economics) via ARS",
+        "description": "Lead socio-economic impact studies, farm income assessments, technology adoption evaluations and policy analyses at ICAR research institutes (NIAP, IARI, CRIDA)."
+      },
+      {
+        "title": "Assistant Manager / Economist at NABARD & RBI",
+        "description": "Appraise rural credit schemes, assess Priority Sector Lending (PSL) performance, analyze rural credit flow and formulate state potential-linked credit plans (PLP)."
+      },
+      {
+        "title": "Agricultural Field Officer / Credit Analyst in Commercial Banks",
+        "description": "Appraise agricultural loan portfolios, evaluate agro-processing project feasibility reports, and monitor farm credit recovery across regional rural branches."
+      },
+      {
+        "title": "Commodity Research Analyst",
+        "description": "Analyze crop acreage forecasts, domestic arrivals, export-import trends and price volatility for commodity exchanges (NCDEX, MCX), brokerage houses and agribusiness conglomerates."
+      },
+      {
+        "title": "Assistant Professor / KVK Subject Matter Specialist",
+        "description": "Teach undergraduate and master's courses in agricultural economics and farm management, and conduct village surveys for technology adoption."
+      },
+      {
+        "title": "Policy Researcher at Think Tanks (IFPRI / RIS / NITI Aayog)",
+        "description": "Conduct quantitative economic research on food security, crop insurance schemes (PMFBY), irrigation investments and rural labour transitions."
+      }
     ],
     "sectors": [
       "Public and private commercial banks (SBI, HDFC, ICICI, PNB) and Regional Rural Banks (RRBs)",
@@ -167,14 +300,36 @@
     }
   ],
   "seo": {
-    "title": "M.Sc. Agricultural Economics: BSMA Syllabus, ICAR PG Exam, Banking Jobs & Scope",
+    "title": "M.Sc. Agricultural Economics: BSMA Syllabus & Scope",
     "description": "Comprehensive guide to M.Sc. Agricultural Economics: ICAR BSMA syllabus, eligibility, AIEEA-PG entrance, econometrics training, NABARD/banking careers and ASRB NET.",
-    "keywords": ["msc agricultural economics", "agricultural economics syllabus", "icar aieea pg social sciences", "nabard grade a agricultural economics", "asrb net agricultural economics", "agri economics scope"]
+    "keywords": [
+      "msc agricultural economics",
+      "agricultural economics syllabus",
+      "icar aieea pg social sciences",
+      "nabard grade a agricultural economics",
+      "asrb net agricultural economics",
+      "agri economics scope"
+    ]
   },
   "sources": [
-    { "id": "s1", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Social Sciences (Agricultural Economics)", "kind": "regulator" },
-    { "id": "s2", "url": "https://tnau.ac.in/masters/", "title": "Tamil Nadu Agricultural University - Department of Agricultural Economics", "kind": "university_portal" },
-    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+    {
+      "id": "s1",
+      "url": "https://icar.gov.in/",
+      "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Social Sciences (Agricultural Economics)",
+      "kind": "regulator"
+    },
+    {
+      "id": "s2",
+      "url": "https://tnau.ac.in/masters/",
+      "title": "Tamil Nadu Agricultural University - Department of Agricultural Economics",
+      "kind": "university_portal"
+    },
+    {
+      "id": "s3",
+      "url": "https://exams.nta.ac.in/ICAR/",
+      "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin",
+      "kind": "exam_portal"
+    }
   ],
   "editorial_status": "verified"
 }

@@ -20,12 +20,28 @@
       "During the four years, students acquire rigorous technical competencies in CAD design, workshop manufacturing, hydraulic circuits, digital sensor integration, and land surveying. In the final year, students complete a semester of in-plant industrial internship with farm machinery, irrigation, or food processing manufacturers under the Student READY scheme."
     ],
     "highlights": [
-      { "label": "Duration", "value": "4 years / 8 semesters" },
-      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee & AICTE aligned" },
-      { "label": "Technical focus", "value": "Farm machinery, precision irrigation, food processing, agri-drones" },
-      { "label": "National entrance", "value": "CUET-UG (ICAR quota) & State Engineering CETs / JEE Main" }
+      {
+        "label": "Duration",
+        "value": "4 years / 8 semesters"
+      },
+      {
+        "label": "Curriculum framework",
+        "value": "ICAR Sixth Deans Committee & AICTE aligned"
+      },
+      {
+        "label": "Technical focus",
+        "value": "Farm machinery, precision irrigation, food processing, agri-drones"
+      },
+      {
+        "label": "National entrance",
+        "value": "CUET-UG (ICAR quota) & State Engineering CETs / JEE Main"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "who_should_apply": [
     "Students with Physics, Chemistry, and Mathematics (PCM) in Class 12 who want to pursue an engineering career dedicated to sustainable food systems and mechanisation",
@@ -98,7 +114,10 @@
         "description": "Hands-on survey and design of automated micro-irrigation networks, soil infiltration tests, contour bunding layout, and GIS watershed delineation."
       }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -107,19 +126,26 @@
       "Mathematics is compulsory for admission into B.Tech. Agricultural Engineering across all agricultural universities.",
       "Candidates must have attained a minimum age of 16 years as of 31 August of the admission year for ICAR quota seats."
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "admission": {
     "routes": [
       {
         "name": "CUET-UG (ICAR All-India Quota)",
         "description": "NTA-administered entrance examination for ICAR all-India quota seats (PCM domain subjects required).",
-        "source_ids": ["s2"]
+        "source_ids": [
+          "s2"
+        ]
       },
       {
         "name": "State Engineering / Agricultural Entrance (CET / EAPCET / KEAM)",
         "description": "State engineering admission counselling (e.g. AP EAPCET, TS EAMCET, KCET, MHT-CET, WBJEE, UPCATET) for state quota engineering seats.",
-        "source_ids": ["s3"]
+        "source_ids": [
+          "s3"
+        ]
       },
       {
         "name": "JEE Main / University Entrance",
@@ -148,10 +174,22 @@
       }
     ],
     "steps": [
-      { "title": "Check Mathematics Eligibility", "text": "Ensure you have Physics, Chemistry, and Mathematics in Class 12." },
-      { "title": "Appear for Entrance Examination", "text": "Register for CUET-UG (with PCM domain) or state engineering CET." },
-      { "title": "Participate in Engineering Counselling", "text": "Fill choices for Agricultural Engineering colleges and branches during national or state seat allocation." },
-      { "title": "Document Verification & Joining", "text": "Complete document validation, pay the seat acceptance fee, and report to the engineering college campus." }
+      {
+        "title": "Check Mathematics Eligibility",
+        "text": "Ensure you have Physics, Chemistry, and Mathematics in Class 12."
+      },
+      {
+        "title": "Appear for Entrance Examination",
+        "text": "Register for CUET-UG (with PCM domain) or state engineering CET."
+      },
+      {
+        "title": "Participate in Engineering Counselling",
+        "text": "Fill choices for Agricultural Engineering colleges and branches during national or state seat allocation."
+      },
+      {
+        "title": "Document Verification & Joining",
+        "text": "Complete document validation, pay the seat acceptance fee, and report to the engineering college campus."
+      }
     ],
     "documents": [
       "Class 10 and 12 marksheet and passing certificates with Mathematics",
@@ -160,7 +198,10 @@
       "Category certificate (SC/ST/OBC-NCL/EWS/PwBD) where applicable",
       "Medical fitness and character certificates"
     ],
-    "source_ids": ["s2", "s3"]
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
   },
   "fees": {
     "summary": "Tuition fees in state agricultural university engineering colleges are government-subsidised, ranging between ₹25,000 to ₹65,000 per year. In private universities and self-financing engineering institutes, tuition ranges from ₹90,000 to ₹2,50,000 annually. Hostel, workshop safety kits, and mess charges are payable separately.",
@@ -171,12 +212,30 @@
     "heading": "Career pathways in engineering, technology, and governance",
     "intro": "Agricultural engineers play a vital role in food security and environmental conservation. Demand has increased rapidly with the growth of precision agriculture, automated machinery, drone-based surveying, and commercial food supply chains.",
     "roles": [
-      { "title": "Design & R&D Engineer (Farm Machinery)", "description": "Designs tractors, implements, automated seeders, and smart harvesters for agricultural equipment companies." },
-      { "title": "Irrigation Systems Engineer", "description": "Plans, calculates hydraulic layouts, and installs micro-irrigation, telemetry fertigation, and solar pumping networks." },
-      { "title": "Food Process & Cold Chain Engineer", "description": "Oversees grain elevators, fruit grading lines, dairy plants, and automated packaging systems." },
-      { "title": "Agricultural Drone Specialist", "description": "Manages drone telemetry, aerial crop health multispectral mapping, and automated pesticide spraying operations." },
-      { "title": "Assistant Engineer (Irrigation / Agricultural Engineering)", "description": "State government engineer managing watershed structures, farm mechanisation subsidies, and rural soil conservation projects." },
-      { "title": "Technical Officer / Banking Agricultural Engineer", "description": "Appraises agricultural machinery loans, warehouse infrastructure financing, and rural industrial projects in commercial banks." }
+      {
+        "title": "Design & R&D Engineer (Farm Machinery)",
+        "description": "Designs tractors, implements, automated seeders, and smart harvesters for agricultural equipment companies."
+      },
+      {
+        "title": "Irrigation Systems Engineer",
+        "description": "Plans, calculates hydraulic layouts, and installs micro-irrigation, telemetry fertigation, and solar pumping networks."
+      },
+      {
+        "title": "Food Process & Cold Chain Engineer",
+        "description": "Oversees grain elevators, fruit grading lines, dairy plants, and automated packaging systems."
+      },
+      {
+        "title": "Agricultural Drone Specialist",
+        "description": "Manages drone telemetry, aerial crop health multispectral mapping, and automated pesticide spraying operations."
+      },
+      {
+        "title": "Assistant Engineer (Irrigation / Agricultural Engineering)",
+        "description": "State government engineer managing watershed structures, farm mechanisation subsidies, and rural soil conservation projects."
+      },
+      {
+        "title": "Technical Officer / Banking Agricultural Engineer",
+        "description": "Appraises agricultural machinery loans, warehouse infrastructure financing, and rural industrial projects in commercial banks."
+      }
     ],
     "sectors": [
       "Farm Equipment & Tractor Manufacturers (Mahindra, John Deere, TAFE, Escorts)",
@@ -201,7 +260,10 @@
       "MBA Agribusiness Management",
       "M.S. / Ph.D. in Biosystems & Precision Engineering"
     ],
-    "source_ids": ["s1", "s4"]
+    "source_ids": [
+      "s1",
+      "s4"
+    ]
   },
   "skills": [
     "Computer-Aided Design (CAD) for farm machinery components",
@@ -234,7 +296,7 @@
     }
   ],
   "seo": {
-    "title": "B.Tech. Agricultural Engineering — Syllabus, Eligibility, Careers & Colleges",
+    "title": "B.Tech. Agricultural Engineering: Syllabus & Colleges",
     "description": "Comprehensive guide to B.Tech. Agricultural Engineering: ICAR & AICTE curriculum, 4-year subjects, eligibility (PCM), entrance exams, careers, and top colleges.",
     "keywords": [
       "BTech Agricultural Engineering",
@@ -259,7 +321,11 @@
       "kind": "regulator",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "overview", "who_should_apply"]
+      "supports": [
+        "curriculum",
+        "overview",
+        "who_should_apply"
+      ]
     },
     {
       "id": "s2",
@@ -268,7 +334,10 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["eligibility", "admission"]
+      "supports": [
+        "eligibility",
+        "admission"
+      ]
     },
     {
       "id": "s3",
@@ -277,7 +346,11 @@
       "kind": "affiliating_university",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["curriculum", "practical_learning", "overview"]
+      "supports": [
+        "curriculum",
+        "practical_learning",
+        "overview"
+      ]
     },
     {
       "id": "s4",
@@ -286,7 +359,9 @@
       "kind": "official",
       "access": "page_read",
       "checked_on": "2026-11-01",
-      "supports": ["careers"]
+      "supports": [
+        "careers"
+      ]
     }
   ],
   "verification_gaps": [],

@@ -20,13 +20,33 @@
       "The revised syllabus also adds newer topics such as conservation agriculture, precision farming, protected and soilless cultivation, and the use of GIS, GPS and remote sensing. Course codes, elective menus and the minor subjects available differ from one university to another."
     ],
     "highlights": [
-      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
-      { "label": "Total credits (ICAR BSMA framework)", "value": "70, including 30 thesis research credits" },
-      { "label": "Typical entry degree", "value": "B.Sc. (Hons.) Agriculture or an accepted allied four-year degree" },
-      { "label": "National entrance", "value": "ICAR AIEEA (PG), conducted by NTA, Agronomy subject group" },
-      { "label": "Next step", "value": "Ph.D. Agronomy (ICAR AICE-JRF/SRF or university entrance)" }
+      {
+        "label": "Normal duration",
+        "value": "2 academic years (4 semesters)"
+      },
+      {
+        "label": "Total credits (ICAR BSMA framework)",
+        "value": "70, including 30 thesis research credits"
+      },
+      {
+        "label": "Typical entry degree",
+        "value": "B.Sc. (Hons.) Agriculture or an accepted allied four-year degree"
+      },
+      {
+        "label": "National entrance",
+        "value": "ICAR AIEEA (PG), conducted by NTA, Agronomy subject group"
+      },
+      {
+        "label": "Next step",
+        "value": "Ph.D. Agronomy (ICAR AICE-JRF/SRF or university entrance)"
+      }
     ],
-    "source_ids": ["s1", "s2", "s3", "s4"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
   },
   "who_should_apply": [
     "Agriculture graduates who enjoyed field crop production, farming systems and on-farm experiments during the undergraduate programme",
@@ -42,31 +62,73 @@
       {
         "stage": "Core agronomy (major) courses",
         "focus": "Compulsory courses that cover the scientific basis of crop production and input management.",
-        "courses": ["Modern Concepts in Crop Production", "Principles and Practices of Soil Fertility and Nutrient Management", "Principles and Practices of Weed Management", "Principles and Practices of Water Management"]
+        "courses": [
+          "Modern Concepts in Crop Production",
+          "Principles and Practices of Soil Fertility and Nutrient Management",
+          "Principles and Practices of Weed Management",
+          "Principles and Practices of Water Management"
+        ]
       },
       {
         "stage": "Optional major courses",
         "focus": "Electives on specific crop groups and production systems, chosen with the advisory committee.",
-        "courses": ["Conservation Agriculture", "Agronomy of Major Cereals and Pulses", "Agronomy of Oilseed, Fibre and Sugar Crops", "Agronomy of Fodder and Forage Crops", "Agrostology and Agro-forestry", "Cropping Systems and Sustainable Agriculture", "Dryland Farming and Watershed Management", "Principles and Practices of Organic Farming"]
+        "courses": [
+          "Conservation Agriculture",
+          "Agronomy of Major Cereals and Pulses",
+          "Agronomy of Oilseed, Fibre and Sugar Crops",
+          "Agronomy of Fodder and Forage Crops",
+          "Agrostology and Agro-forestry",
+          "Cropping Systems and Sustainable Agriculture",
+          "Dryland Farming and Watershed Management",
+          "Principles and Practices of Organic Farming"
+        ]
       },
       {
         "stage": "Minor and supporting courses",
         "focus": "Related subjects such as soil science and plant physiology, plus statistics for designing and analysing experiments.",
-        "courses": ["Management of Problem Soils and Waters", "Soil Erosion and Conservation", "Plant Water Relations and Mineral Nutrition", "Statistical Methods for Applied Sciences", "Experimental Designs", "Data Analysis Using Statistical Packages"]
+        "courses": [
+          "Management of Problem Soils and Waters",
+          "Soil Erosion and Conservation",
+          "Plant Water Relations and Mineral Nutrition",
+          "Statistical Methods for Applied Sciences",
+          "Experimental Designs",
+          "Data Analysis Using Statistical Packages"
+        ]
       },
       {
         "stage": "Common courses, seminar and thesis",
         "focus": "Research-skills courses common to all master's students, one seminar and a 30-credit research thesis.",
-        "courses": ["Library and Information Services", "Technical Writing and Communication Skills", "Intellectual Property and its Management in Agriculture", "Basic Concepts in Laboratory Techniques", "Agricultural Research, Research Ethics and Rural Development Programmes", "Master's Seminar", "Master's Research (thesis)"]
+        "courses": [
+          "Library and Information Services",
+          "Technical Writing and Communication Skills",
+          "Intellectual Property and its Management in Agriculture",
+          "Basic Concepts in Laboratory Techniques",
+          "Agricultural Research, Research Ethics and Rural Development Programmes",
+          "Master's Seminar",
+          "Master's Research (thesis)"
+        ]
       }
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Thesis research", "description": "Each student plans and runs an experiment, often on the university research farm, under an advisor and advisory committee, then writes and defends a thesis." },
-      { "name": "Practical classes", "description": "Most agronomy courses carry practical credits covering field layout, nutrient and water budgeting, weed surveys and crop growth measurements." },
-      { "name": "Master's seminar", "description": "A one-credit seminar in which the student reviews recent literature on a topic and presents it to the department." }
+      {
+        "name": "Thesis research",
+        "description": "Each student plans and runs an experiment, often on the university research farm, under an advisor and advisory committee, then writes and defends a thesis."
+      },
+      {
+        "name": "Practical classes",
+        "description": "Most agronomy courses carry practical credits covering field layout, nutrient and water budgeting, weed surveys and crop growth measurements."
+      },
+      {
+        "name": "Master's seminar",
+        "description": "A one-credit seminar in which the student reviews recent literature on a topic and presents it to the department."
+      }
     ],
-    "source_ids": ["s1", "s2", "s3"]
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -75,25 +137,65 @@
       "For ICAR quota seats, the bachelor's degree is generally expected to be from an institution and programme that meet ICAR's norms; requirements vary, so confirm in the current bulletin.",
       "Final-year students can usually apply provisionally but must show the completed degree by the date the admitting university specifies."
     ],
-    "source_ids": ["s2", "s4"]
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "ICAR AIEEA (PG)", "description": "A national entrance test conducted by NTA on behalf of ICAR. Its merit list is used for ICAR's all-India quota seats in agricultural universities and for ICAR PG scholarships. Candidates choose a major subject group; Agronomy has its own group.", "source_ids": ["s4"] },
-      { "name": "State agricultural university entrance or merit", "description": "Seats outside the ICAR quota in state agricultural universities are filled through the university's or state's own entrance test, interview or merit process, which differs by state.", "source_ids": ["s2"] },
-      { "name": "Private and other universities", "description": "Private universities that follow the ICAR syllabus usually run their own entrance test or admit on merit; procedures and seat numbers are set by each institution.", "source_ids": ["s2"] }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "description": "A national entrance test conducted by NTA on behalf of ICAR. Its merit list is used for ICAR's all-India quota seats in agricultural universities and for ICAR PG scholarships. Candidates choose a major subject group; Agronomy has its own group.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "State agricultural university entrance or merit",
+        "description": "Seats outside the ICAR quota in state agricultural universities are filled through the university's or state's own entrance test, interview or merit process, which differs by state.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Private and other universities",
+        "description": "Private universities that follow the ICAR syllabus usually run their own entrance test or admit on merit; procedures and seat numbers are set by each institution.",
+        "source_ids": [
+          "s2"
+        ]
+      }
     ],
     "exams": [
-      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based multiple-choice test in the chosen subject group. Secondary reports of recent cycles describe 120 questions in 2 hours with negative marking; confirm the pattern in that year's information bulletin." }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "conducting_body": "National Testing Agency (NTA) for ICAR",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "note": "Computer-based multiple-choice test in the chosen subject group. Secondary reports of recent cycles describe 120 questions in 2 hours with negative marking; confirm the pattern in that year's information bulletin."
+      }
     ],
     "steps": [
-      { "title": "Check subject-wise eligibility", "text": "Read the current ICAR AIEEA (PG) bulletin and your target universities' prospectuses to confirm that your bachelor's degree qualifies for agronomy." },
-      { "title": "Register for the entrance", "text": "Apply online for ICAR AIEEA (PG) under the Agronomy subject group and for any state or university entrance you also intend to take." },
-      { "title": "Take the test and follow counselling", "text": "After results, register for ICAR online counselling or the relevant university counselling and fill in university and subject choices." },
-      { "title": "Report for admission", "text": "Complete document verification and fee payment at the allotted university within the notified dates." }
+      {
+        "title": "Check subject-wise eligibility",
+        "text": "Read the current ICAR AIEEA (PG) bulletin and your target universities' prospectuses to confirm that your bachelor's degree qualifies for agronomy."
+      },
+      {
+        "title": "Register for the entrance",
+        "text": "Apply online for ICAR AIEEA (PG) under the Agronomy subject group and for any state or university entrance you also intend to take."
+      },
+      {
+        "title": "Take the test and follow counselling",
+        "text": "After results, register for ICAR online counselling or the relevant university counselling and fill in university and subject choices."
+      },
+      {
+        "title": "Report for admission",
+        "text": "Complete document verification and fee payment at the allotted university within the notified dates."
+      }
     ],
     "documents": [],
-    "source_ids": ["s4"]
+    "source_ids": [
+      "s4"
+    ]
   },
   "fees": {
     "summary": "Fees for M.Sc. Agronomy vary widely. State agricultural universities usually charge much less than private universities, and some universities charge different amounts to ICAR quota, state quota, out-of-state and NRI or management seats. Hostel and examination charges are often billed separately. Students admitted through ICAR AIEEA (PG) may be eligible for an ICAR PG scholarship under that year's rules. Check the current fee notice of the admitting university.",
@@ -104,16 +206,49 @@
     "heading": "Where an agronomy master's can lead",
     "intro": "Agronomy postgraduates work wherever crop production decisions are made: in research stations, extension systems, input companies and farm advisory services. Many continue to a Ph.D. Government routes usually need separate competitive exams, so the degree is a qualification for applying rather than a guarantee of selection.",
     "roles": [
-      { "title": "Research associate or senior research fellow", "description": "Supports field trials on crop varieties, nutrients, irrigation or weed control in ICAR institutes, universities or funded projects." },
-      { "title": "Agronomist in agri-input or seed companies", "description": "Plans demonstration plots and advises farmers and dealers on crop management for the company's products." },
-      { "title": "Subject matter specialist (agronomy)", "description": "Delivers crop production training and on-farm trials, for example at Krishi Vigyan Kendras, subject to recruitment rules." },
-      { "title": "Farm or plantation manager", "description": "Manages crop planning, input use and labour on large farms, estates or contract-farming operations." },
-      { "title": "Assistant professor or scientist (with further qualifications)", "description": "Teaching and research posts generally also require qualifying ASRB or UGC NET and often a Ph.D." }
+      {
+        "title": "Research associate or senior research fellow",
+        "description": "Supports field trials on crop varieties, nutrients, irrigation or weed control in ICAR institutes, universities or funded projects."
+      },
+      {
+        "title": "Agronomist in agri-input or seed companies",
+        "description": "Plans demonstration plots and advises farmers and dealers on crop management for the company's products."
+      },
+      {
+        "title": "Subject matter specialist (agronomy)",
+        "description": "Delivers crop production training and on-farm trials, for example at Krishi Vigyan Kendras, subject to recruitment rules."
+      },
+      {
+        "title": "Farm or plantation manager",
+        "description": "Manages crop planning, input use and labour on large farms, estates or contract-farming operations."
+      },
+      {
+        "title": "Assistant professor or scientist (with further qualifications)",
+        "description": "Teaching and research posts generally also require qualifying ASRB or UGC NET and often a Ph.D."
+      }
     ],
-    "sectors": ["Agricultural research and education", "State agriculture departments and extension", "Seeds, fertilisers and crop protection industry", "Irrigation and watershed programmes", "Agri-tech and farm advisory services", "Banking and rural credit"],
-    "public_sector_routes": ["ASRB NET (Agronomy) for lecturer or assistant professor eligibility in agricultural universities", "ASRB Agricultural Research Service (ARS) examination for scientist posts in ICAR", "State public service commission agriculture officer recruitment", "IBPS Agricultural Field Officer (Specialist Officer) recruitment"],
-    "higher_study": ["Ph.D. Agronomy", "Ph.D. in allied areas such as Agricultural Meteorology, Water Science or Organic Farming where eligibility allows"],
-    "source_ids": ["s5", "s6"]
+    "sectors": [
+      "Agricultural research and education",
+      "State agriculture departments and extension",
+      "Seeds, fertilisers and crop protection industry",
+      "Irrigation and watershed programmes",
+      "Agri-tech and farm advisory services",
+      "Banking and rural credit"
+    ],
+    "public_sector_routes": [
+      "ASRB NET (Agronomy) for lecturer or assistant professor eligibility in agricultural universities",
+      "ASRB Agricultural Research Service (ARS) examination for scientist posts in ICAR",
+      "State public service commission agriculture officer recruitment",
+      "IBPS Agricultural Field Officer (Specialist Officer) recruitment"
+    ],
+    "higher_study": [
+      "Ph.D. Agronomy",
+      "Ph.D. in allied areas such as Agricultural Meteorology, Water Science or Organic Farming where eligibility allows"
+    ],
+    "source_ids": [
+      "s5",
+      "s6"
+    ]
   },
   "skills": [
     "Designing and laying out field experiments and analysing them statistically",
@@ -123,34 +258,183 @@
     "Writing technical reports and presenting research findings"
   ],
   "faqs": [
-    { "question": "Who is eligible for M.Sc. Agronomy?", "answer": "Normally graduates of the four-year B.Sc. (Hons.) Agriculture. Some universities and the ICAR bulletin list additional allied degrees, and a minimum grade point average applies, so check the current subject-wise eligibility rules.", "source_ids": ["s2", "s4"] },
-    { "question": "Which entrance exam do I need?", "answer": "ICAR AIEEA (PG), run by NTA, is used for ICAR quota seats and ICAR PG scholarships. Other seats are filled through state or university entrance tests or merit, depending on the institution.", "source_ids": ["s4"] },
-    { "question": "How long is the course and how is it structured?", "answer": "Two years over four semesters. Under the ICAR framework, students earn 70 credits: 40 from major, minor, supporting and common courses plus a seminar, and 30 from thesis research.", "source_ids": ["s1", "s2"] },
-    { "question": "Is a thesis compulsory?", "answer": "Yes. Thesis research carries 30 of the 70 credits in the ICAR framework, and the student must submit and defend a thesis before the degree is awarded.", "source_ids": ["s2", "s3"] },
-    { "question": "What jobs can I apply for after M.Sc. Agronomy?", "answer": "Research project positions, agronomist roles in seed and input companies, farm management and extension roles, and government posts through competitive exams such as state agriculture officer or IBPS AFO recruitment.", "source_ids": ["s6"] },
-    { "question": "Can I do a Ph.D. after this degree?", "answer": "Yes. Ph.D. Agronomy admissions in agricultural universities use ICAR AICE-JRF/SRF (Ph.D.) for ICAR seats and fellowships, along with university-level processes.", "source_ids": ["s4"] }
+    {
+      "question": "Who is eligible for M.Sc. Agronomy?",
+      "answer": "Normally graduates of the four-year B.Sc. (Hons.) Agriculture. Some universities and the ICAR bulletin list additional allied degrees, and a minimum grade point average applies, so check the current subject-wise eligibility rules.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "Which entrance exam do I need?",
+      "answer": "ICAR AIEEA (PG), run by NTA, is used for ICAR quota seats and ICAR PG scholarships. Other seats are filled through state or university entrance tests or merit, depending on the institution.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "How long is the course and how is it structured?",
+      "answer": "Two years over four semesters. Under the ICAR framework, students earn 70 credits: 40 from major, minor, supporting and common courses plus a seminar, and 30 from thesis research.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "Is a thesis compulsory?",
+      "answer": "Yes. Thesis research carries 30 of the 70 credits in the ICAR framework, and the student must submit and defend a thesis before the degree is awarded.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "What jobs can I apply for after M.Sc. Agronomy?",
+      "answer": "Research project positions, agronomist roles in seed and input companies, farm management and extension roles, and government posts through competitive exams such as state agriculture officer or IBPS AFO recruitment.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "Can I do a Ph.D. after this degree?",
+      "answer": "Yes. Ph.D. Agronomy admissions in agricultural universities use ICAR AICE-JRF/SRF (Ph.D.) for ICAR seats and fellowships, along with university-level processes.",
+      "source_ids": [
+        "s4"
+      ]
+    }
   ],
   "seo": {
-    "title": "M.Sc. Agronomy: Course Details, Eligibility & Admission",
+    "title": "M.Sc. Agronomy: Course Details, Syllabus & Admission",
     "description": "M.Sc. (Agriculture) Agronomy explained: ICAR syllabus, 70-credit structure, eligibility, ICAR AIEEA (PG) admission, careers and higher study options in India.",
-    "keywords": ["M.Sc. Agronomy", "M.Sc. Agriculture Agronomy syllabus", "M.Sc. Agronomy eligibility", "ICAR AIEEA PG Agronomy", "M.Sc. Agronomy admission", "agronomy postgraduate course India"]
+    "keywords": [
+      "M.Sc. Agronomy",
+      "M.Sc. Agriculture Agronomy syllabus",
+      "M.Sc. Agronomy eligibility",
+      "ICAR AIEEA PG Agronomy",
+      "M.Sc. Agronomy admission",
+      "agronomy postgraduate course India"
+    ]
   },
-  "related": ["msc-soil-science", "phd-agronomy", "msc-genetics-plant-breeding", "bsc-agriculture"],
+  "related": [
+    "msc-soil-science",
+    "phd-agronomy",
+    "msc-genetics-plant-breeding",
+    "bsc-agriculture"
+  ],
   "sources": [
-    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Restructured and revised syllabi of post-graduate programmes (BSMA)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct page read was denied by the research environment; BSMA framework details were confirmed from a university document that reproduces it (s2)." },
-    { "id": "s2", "url": "https://cutm.ac.in/", "title": "Academic Regulations for PG Degree Programme (M.Sc.) as per ICAR BSMA 2009 and 2021 - Centurion University of Technology and Management", "kind": "affiliating_university", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "eligibility", "duration", "faqs"], "notes": "PDF reached via a search redirect; exact file path not captured. States 70 credits (20 major, 8 minor, 6 supporting, 5 common, 1 seminar, 30 thesis), 4-10 semester residence, and lists Agronomy under the Physical Science BSMA committee. Eligibility thresholds in it are CUTM-specific." },
-    { "id": "s3", "url": "https://cutm.ac.in/", "title": "PG Degree Programme Syllabus as per BSMA, ICAR - M.Sc. (Agri.) Agronomy (2022), Centurion University", "kind": "affiliating_university", "access": "page_read", "checked_on": "2026-11-01", "supports": ["curriculum"], "notes": "PDF reached via a search redirect; course titles and core-course markings taken from its course framework table. Other universities may differ." },
-    { "id": "s4", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) and AICE-JRF/SRF (Ph.D.)", "kind": "official", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["admission", "eligibility", "faqs"], "notes": "Page could not be fetched (TLS certificate error); facts about subject groups and purpose of the exam come from search excerpts. Exam pattern figures are from secondary reports and need bulletin confirmation." },
-    { "id": "s5", "url": "https://www.iari.res.in/en/post-graduate-system.php", "title": "ICAR-IARI - The Graduate School System", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["careers"], "notes": "Confirms IARI has been a deemed university since 1958 awarding M.Sc. and Ph.D. degrees in agricultural sciences." },
-    { "id": "s6", "url": "https://asrb.gov.in/", "title": "Agricultural Scientists Recruitment Board - NET and ARS notifications", "kind": "official", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers"], "notes": "Discipline list and master's-degree eligibility for NET seen only in search excerpts; confirm in the current notification." }
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR - Restructured and revised syllabi of post-graduate programmes (BSMA)",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "faqs"
+      ],
+      "notes": "Direct page read was denied by the research environment; BSMA framework details were confirmed from a university document that reproduces it (s2)."
+    },
+    {
+      "id": "s2",
+      "url": "https://cutm.ac.in/",
+      "title": "Academic Regulations for PG Degree Programme (M.Sc.) as per ICAR BSMA 2009 and 2021 - Centurion University of Technology and Management",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "eligibility",
+        "duration",
+        "faqs"
+      ],
+      "notes": "PDF reached via a search redirect; exact file path not captured. States 70 credits (20 major, 8 minor, 6 supporting, 5 common, 1 seminar, 30 thesis), 4-10 semester residence, and lists Agronomy under the Physical Science BSMA committee. Eligibility thresholds in it are CUTM-specific."
+    },
+    {
+      "id": "s3",
+      "url": "https://cutm.ac.in/",
+      "title": "PG Degree Programme Syllabus as per BSMA, ICAR - M.Sc. (Agri.) Agronomy (2022), Centurion University",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "curriculum"
+      ],
+      "notes": "PDF reached via a search redirect; course titles and core-course markings taken from its course framework table. Other universities may differ."
+    },
+    {
+      "id": "s4",
+      "url": "https://exams.nta.ac.in/ICAR/",
+      "title": "NTA - ICAR AIEEA (PG) and AICE-JRF/SRF (Ph.D.)",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "admission",
+        "eligibility",
+        "faqs"
+      ],
+      "notes": "Page could not be fetched (TLS certificate error); facts about subject groups and purpose of the exam come from search excerpts. Exam pattern figures are from secondary reports and need bulletin confirmation."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.iari.res.in/en/post-graduate-system.php",
+      "title": "ICAR-IARI - The Graduate School System",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "careers"
+      ],
+      "notes": "Confirms IARI has been a deemed university since 1958 awarding M.Sc. and Ph.D. degrees in agricultural sciences."
+    },
+    {
+      "id": "s6",
+      "url": "https://asrb.gov.in/",
+      "title": "Agricultural Scientists Recruitment Board - NET and ARS notifications",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "careers"
+      ],
+      "notes": "Discipline list and master's-degree eligibility for NET seen only in search excerpts; confirm in the current notification."
+    }
   ],
   "verification_gaps": [
-    { "field": "eligibility.points", "reason": "Exact minimum OGPA/percentage and full list of accepted bachelor's degrees for Agronomy in the latest ICAR AIEEA (PG) bulletin not read directly (NTA page unreachable, PDF not text-extractable).", "next_source": "Current ICAR AIEEA (PG) information bulletin on exams.nta.ac.in/ICAR" },
-    { "field": "admission.exams[0].note", "reason": "Question count, duration and marking scheme come from secondary reports only.", "next_source": "Current ICAR AIEEA (PG) information bulletin" },
-    { "field": "admission.routes", "reason": "Share of SAU seats filled through ICAR quota not confirmed from an official source for the current year.", "next_source": "ICAR AIEEA (PG) bulletin / ICAR counselling brochure" },
-    { "field": "admission.documents", "reason": "No official document checklist was read.", "next_source": "ICAR counselling brochure for the admission year" },
-    { "field": "fees.observed_examples", "reason": "No official dated fee notice was read.", "next_source": "Fee notices of selected SAUs and private universities" },
-    { "field": "curriculum.structure", "reason": "Course list taken from one university's BSMA-based syllabus; the ICAR BSMA volume itself could not be opened.", "next_source": "ICAR BSMA restructured PG syllabus (Agronomy) on icar.org.in" }
+    {
+      "field": "eligibility.points",
+      "reason": "Exact minimum OGPA/percentage and full list of accepted bachelor's degrees for Agronomy in the latest ICAR AIEEA (PG) bulletin not read directly (NTA page unreachable, PDF not text-extractable).",
+      "next_source": "Current ICAR AIEEA (PG) information bulletin on exams.nta.ac.in/ICAR"
+    },
+    {
+      "field": "admission.exams[0].note",
+      "reason": "Question count, duration and marking scheme come from secondary reports only.",
+      "next_source": "Current ICAR AIEEA (PG) information bulletin"
+    },
+    {
+      "field": "admission.routes",
+      "reason": "Share of SAU seats filled through ICAR quota not confirmed from an official source for the current year.",
+      "next_source": "ICAR AIEEA (PG) bulletin / ICAR counselling brochure"
+    },
+    {
+      "field": "admission.documents",
+      "reason": "No official document checklist was read.",
+      "next_source": "ICAR counselling brochure for the admission year"
+    },
+    {
+      "field": "fees.observed_examples",
+      "reason": "No official dated fee notice was read.",
+      "next_source": "Fee notices of selected SAUs and private universities"
+    },
+    {
+      "field": "curriculum.structure",
+      "reason": "Course list taken from one university's BSMA-based syllabus; the ICAR BSMA volume itself could not be opened.",
+      "next_source": "ICAR BSMA restructured PG syllabus (Agronomy) on icar.org.in"
+    }
   ],
   "editorial_status": "research_draft"
 }

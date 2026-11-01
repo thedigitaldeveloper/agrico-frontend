@@ -20,12 +20,29 @@
       "The degree is widely available. TNAU offers it at its Coimbatore and Periyakulam horticulture colleges, and Dr YSP University of Horticulture and Forestry lists it at Nauni and Neri. Research themes follow local conditions, for example off-season and temperate vegetable seed production in hill regions or tropical vegetables and protected cultivation in the plains."
     ],
     "highlights": [
-      { "label": "Faculty", "value": "Horticulture (Horticultural Sciences BSMA group)" },
-      { "label": "Credit structure (ICAR BSMA)", "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30" },
-      { "label": "National entrance", "value": "ICAR AIEEA (PG), Horticulture subject group" },
-      { "label": "Also known as", "value": "Olericulture" }
+      {
+        "label": "Faculty",
+        "value": "Horticulture (Horticultural Sciences BSMA group)"
+      },
+      {
+        "label": "Credit structure (ICAR BSMA)",
+        "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30"
+      },
+      {
+        "label": "National entrance",
+        "value": "ICAR AIEEA (PG), Horticulture subject group"
+      },
+      {
+        "label": "Also known as",
+        "value": "Olericulture"
+      }
     ],
-    "source_ids": ["s1", "s3", "s4", "s5"]
+    "source_ids": [
+      "s1",
+      "s3",
+      "s4",
+      "s5"
+    ]
   },
   "who_should_apply": [
     "Horticulture or agriculture graduates drawn to vegetable breeding, hybrid development and seed technology.",
@@ -76,11 +93,23 @@
     ],
     "specialisations": [],
     "practical_learning": [
-      { "name": "Thesis research", "description": "A supervised study, usually started after first-year coursework, designed with a major adviser and advisory committee and defended in a final viva voce." },
-      { "name": "Field and protected-structure practicals", "description": "Work in university vegetable fields, polyhouses and seed plots on crop raising, hybridisation and seed handling." },
-      { "name": "Exposure visits and seminars", "description": "Visits to research stations and seed farms, plus departmental seminars, at universities that schedule them." }
+      {
+        "name": "Thesis research",
+        "description": "A supervised study, usually started after first-year coursework, designed with a major adviser and advisory committee and defended in a final viva voce."
+      },
+      {
+        "name": "Field and protected-structure practicals",
+        "description": "Work in university vegetable fields, polyhouses and seed plots on crop raising, hybridisation and seed handling."
+      },
+      {
+        "name": "Exposure visits and seminars",
+        "description": "Visits to research stations and seed farms, plus departmental seminars, at universities that schedule them."
+      }
     ],
-    "source_ids": ["s1", "s3"]
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
   },
   "eligibility": {
     "points": [
@@ -89,26 +118,76 @@
       "Final-year students can usually apply provisionally, provided they finish the degree with the required marks by the admission deadline.",
       "University seats follow their own minimum OGPA, domicile and reservation rules, which differ by state."
     ],
-    "source_ids": ["s2", "s5", "s6"]
+    "source_ids": [
+      "s2",
+      "s5",
+      "s6"
+    ]
   },
   "admission": {
     "routes": [
-      { "name": "ICAR AIEEA (PG)", "description": "National NTA-run test for ICAR's share of master's seats in agricultural universities and for ICAR deemed university seats; rank also governs the ICAR PG scholarship.", "source_ids": ["s2", "s5"] },
-      { "name": "University PG entrance test", "description": "Remaining seats are usually filled through the university's own entrance test or merit list. Dr YSPUHF, for example, used PGET scores in the 2023 cycle.", "source_ids": ["s5", "s6"] },
-      { "name": "Self-financing and other quotas", "description": "Some universities offer self-financing, sports or in-service seats with separate rules published in the prospectus.", "source_ids": ["s5"] }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "description": "National NTA-run test for ICAR's share of master's seats in agricultural universities and for ICAR deemed university seats; rank also governs the ICAR PG scholarship.",
+        "source_ids": [
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "name": "University PG entrance test",
+        "description": "Remaining seats are usually filled through the university's own entrance test or merit list. Dr YSPUHF, for example, used PGET scores in the 2023 cycle.",
+        "source_ids": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "name": "Self-financing and other quotas",
+        "description": "Some universities offer self-financing, sports or in-service seats with separate rules published in the prospectus.",
+        "source_ids": [
+          "s5"
+        ]
+      }
     ],
     "exams": [
-      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test with a Horticulture subject paper; pattern and dates change by year." },
-      { "name": "University PG entrance tests", "conducting_body": "Individual agricultural/horticultural universities", "url": null, "note": "Syllabi and selection weightage vary by university." }
+      {
+        "name": "ICAR AIEEA (PG)",
+        "conducting_body": "National Testing Agency (NTA) for ICAR",
+        "url": "https://exams.nta.ac.in/ICAR/",
+        "note": "Computer-based test with a Horticulture subject paper; pattern and dates change by year."
+      },
+      {
+        "name": "University PG entrance tests",
+        "conducting_body": "Individual agricultural/horticultural universities",
+        "url": null,
+        "note": "Syllabi and selection weightage vary by university."
+      }
     ],
     "steps": [
-      { "title": "Check eligibility", "text": "Match your degree and OGPA against the ICAR bulletin and the prospectus of each target university." },
-      { "title": "Register for entrance tests", "text": "Apply for ICAR AIEEA (PG) through NTA and for the PG entrance tests of chosen universities." },
-      { "title": "Attend counselling", "text": "Use your rank in ICAR online counselling or university counselling to select subject and institution." },
-      { "title": "Complete admission", "text": "Report with original documents and pay fees at the allotted university before the deadline." }
+      {
+        "title": "Check eligibility",
+        "text": "Match your degree and OGPA against the ICAR bulletin and the prospectus of each target university."
+      },
+      {
+        "title": "Register for entrance tests",
+        "text": "Apply for ICAR AIEEA (PG) through NTA and for the PG entrance tests of chosen universities."
+      },
+      {
+        "title": "Attend counselling",
+        "text": "Use your rank in ICAR online counselling or university counselling to select subject and institution."
+      },
+      {
+        "title": "Complete admission",
+        "text": "Report with original documents and pay fees at the allotted university before the deadline."
+      }
     ],
     "documents": [],
-    "source_ids": ["s2", "s5", "s6"]
+    "source_ids": [
+      "s2",
+      "s5",
+      "s6"
+    ]
   },
   "fees": {
     "summary": "Fees vary with the university and seat type. Regular seats at state agricultural and horticultural universities usually cost less than self-financing seats, and ICAR-quota, state-quota and non-resident fees may be set differently. Hostel, mess and examination charges are extra. No figures are listed because no dated official fee schedule was verified; check the current prospectus.",
@@ -119,11 +198,26 @@
     "heading": "Career directions after Vegetable Science",
     "intro": "The degree supports careers in public horticulture, research and the vegetable seed and production industry. Many graduates continue to a Ph.D. or prepare for national eligibility and scientist recruitment tests. Recruitment rules differ by employer and state, and selection is competitive.",
     "roles": [
-      { "title": "Horticulture officer / assistant director of horticulture", "description": "Runs state horticulture schemes and grower support programmes; TNAU lists this among career options for its graduates." },
-      { "title": "Subject matter specialist (horticulture) at a KVK", "description": "Conducts trials, demonstrations and farmer training on vegetable production." },
-      { "title": "Vegetable breeder or seed production executive", "description": "Works on variety and hybrid development or seed multiplication in private seed companies." },
-      { "title": "Research fellow or associate", "description": "Supports funded vegetable research projects in universities and ICAR institutes." },
-      { "title": "Protected-cultivation entrepreneur or farm manager", "description": "Manages polyhouse, net-house or hydroponic production of high-value vegetables." }
+      {
+        "title": "Horticulture officer / assistant director of horticulture",
+        "description": "Runs state horticulture schemes and grower support programmes; TNAU lists this among career options for its graduates."
+      },
+      {
+        "title": "Subject matter specialist (horticulture) at a KVK",
+        "description": "Conducts trials, demonstrations and farmer training on vegetable production."
+      },
+      {
+        "title": "Vegetable breeder or seed production executive",
+        "description": "Works on variety and hybrid development or seed multiplication in private seed companies."
+      },
+      {
+        "title": "Research fellow or associate",
+        "description": "Supports funded vegetable research projects in universities and ICAR institutes."
+      },
+      {
+        "title": "Protected-cultivation entrepreneur or farm manager",
+        "description": "Manages polyhouse, net-house or hydroponic production of high-value vegetables."
+      }
     ],
     "sectors": [
       "State horticulture departments",
@@ -142,7 +236,10 @@
       "Ph.D. in Vegetable Science (via ICAR AICE-JRF/SRF (PhD) or university entrance)",
       "Ph.D. in seed science and technology or related disciplines, subject to university rules"
     ],
-    "source_ids": ["s3", "s7"]
+    "source_ids": [
+      "s3",
+      "s7"
+    ]
   },
   "skills": [
     "Vegetable hybridisation and breeding methods",
@@ -152,16 +249,61 @@
     "Research writing and presentation"
   ],
   "faqs": [
-    { "question": "Who is eligible for M.Sc. Vegetable Science?", "answer": "Horticulture graduates are the main intake, and some universities also accept B.Sc. (Hons.) Agriculture. The exact degree list and minimum OGPA are published in the ICAR AIEEA (PG) bulletin and each university's prospectus.", "source_ids": ["s2"] },
-    { "question": "How do I get admission?", "answer": "Through ICAR AIEEA (PG), run by NTA, for ICAR-quota and ICAR deemed university seats, or through the university's own PG entrance or merit process for its remaining seats.", "source_ids": ["s2", "s5"] },
-    { "question": "Is Vegetable Science the same as Olericulture?", "answer": "Yes. Olericulture is the traditional name, and ICAR notices often list the subject as 'Vegetable Science / Olericulture'.", "source_ids": ["s2"] },
-    { "question": "What does the coursework include?", "answer": "Production of cool- and warm-season vegetables, vegetable breeding, seed production and protected cultivation are typical major areas, supported by statistics and related subjects. Titles vary by university.", "source_ids": ["s1"] },
-    { "question": "How much of the degree is research?", "answer": "In the ICAR BSMA framework, 30 of the 70 credits go to thesis research, normally carried out in the second year under an adviser.", "source_ids": ["s1", "s3"] },
-    { "question": "What jobs suit Vegetable Science graduates?", "answer": "Options include state horticulture posts, KVK subject matter specialist roles, breeder or seed roles in private companies, research fellowships and protected-cultivation enterprises.", "source_ids": ["s3"] },
-    { "question": "Can I pursue a Ph.D. afterwards?", "answer": "Yes. Ph.D. admission is through ICAR AICE-JRF/SRF (PhD) or university entrance tests, and Vegetable Science is also an ASRB NET discipline for teaching eligibility.", "source_ids": ["s2", "s7"] }
+    {
+      "question": "Who is eligible for M.Sc. Vegetable Science?",
+      "answer": "Horticulture graduates are the main intake, and some universities also accept B.Sc. (Hons.) Agriculture. The exact degree list and minimum OGPA are published in the ICAR AIEEA (PG) bulletin and each university's prospectus.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How do I get admission?",
+      "answer": "Through ICAR AIEEA (PG), run by NTA, for ICAR-quota and ICAR deemed university seats, or through the university's own PG entrance or merit process for its remaining seats.",
+      "source_ids": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "question": "Is Vegetable Science the same as Olericulture?",
+      "answer": "Yes. Olericulture is the traditional name, and ICAR notices often list the subject as 'Vegetable Science / Olericulture'.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What does the coursework include?",
+      "answer": "Production of cool- and warm-season vegetables, vegetable breeding, seed production and protected cultivation are typical major areas, supported by statistics and related subjects. Titles vary by university.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How much of the degree is research?",
+      "answer": "In the ICAR BSMA framework, 30 of the 70 credits go to thesis research, normally carried out in the second year under an adviser.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "What jobs suit Vegetable Science graduates?",
+      "answer": "Options include state horticulture posts, KVK subject matter specialist roles, breeder or seed roles in private companies, research fellowships and protected-cultivation enterprises.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Can I pursue a Ph.D. afterwards?",
+      "answer": "Yes. Ph.D. admission is through ICAR AICE-JRF/SRF (PhD) or university entrance tests, and Vegetable Science is also an ASRB NET discipline for teaching eligibility.",
+      "source_ids": [
+        "s2",
+        "s7"
+      ]
+    }
   ],
   "seo": {
-    "title": "M.Sc. Vegetable Science: Course, Eligibility & Admission",
+    "title": "M.Sc. Vegetable Science: Course, Syllabus & Careers",
     "description": "M.Sc. (Horticulture) Vegetable Science guide: ICAR BSMA courses, eligibility, ICAR AIEEA-PG admission, thesis research, seed-industry careers and Ph.D. options.",
     "keywords": [
       "M.Sc. Vegetable Science",
@@ -172,23 +314,139 @@
       "Vegetable breeding master's"
     ]
   },
-  "related": ["bsc-horticulture", "msc-fruit-science", "msc-floriculture-landscaping", "msc-genetics-plant-breeding"],
+  "related": [
+    "bsc-horticulture",
+    "msc-fruit-science",
+    "msc-floriculture-landscaping",
+    "msc-genetics-plant-breeding"
+  ],
   "sources": [
-    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Horticultural Sciences", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct access to icar.org.in was blocked by a permission prompt; course areas and the 70-credit split were seen in search excerpts citing ICAR and university BSMA documents. Exact PDF URL not confirmed." },
-    { "id": "s2", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["eligibility", "admission", "faqs"], "notes": "Direct fetch failed with a TLS certificate error; Horticulture group listing 'Vegetable Science / Olericulture' seen in search excerpts referencing the NTA bulletin. Year-specific details not confirmed." },
-    { "id": "s3", "url": "https://tnau.ac.in/m-sc-hort-in-vegetable-science/", "title": "TNAU - M.Sc. (Hort.) in Vegetable Science", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "careers"], "notes": "Institution-specific: offered at HC&RI Coimbatore and Periyakulam; page lists career options and 30 thesis credits." },
-    { "id": "s4", "url": "https://tnau.ac.in/masters/", "title": "TNAU School of Post Graduate Studies - Masters programmes", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview"], "notes": null },
-    { "id": "s5", "url": "https://www.uhf.ac.in/adm-pg", "title": "Dr YSP University of Horticulture and Forestry - Master's programme admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "eligibility", "admission"], "notes": "Lists M.Sc. (Hort.) Vegetable Science at Nauni and Neri; 30% of normal seats for ICAR; PGET-2023 basis (may be outdated)." },
-    { "id": "s6", "url": "https://www.uhf.ac.in/admissions", "title": "Dr YSPUHF - About admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["eligibility", "admission"], "notes": null },
-    { "id": "s7", "url": "https://www.asrb.org.in/", "title": "Agricultural Scientists Recruitment Board (ASRB)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers", "faqs"], "notes": "Site timed out; Vegetable Science as an ASRB NET discipline seen only in secondary search excerpts. Confirm with current notification." }
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Horticultural Sciences",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "faqs"
+      ],
+      "notes": "Direct access to icar.org.in was blocked by a permission prompt; course areas and the 70-credit split were seen in search excerpts citing ICAR and university BSMA documents. Exact PDF URL not confirmed."
+    },
+    {
+      "id": "s2",
+      "url": "https://exams.nta.ac.in/ICAR/",
+      "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "eligibility",
+        "admission",
+        "faqs"
+      ],
+      "notes": "Direct fetch failed with a TLS certificate error; Horticulture group listing 'Vegetable Science / Olericulture' seen in search excerpts referencing the NTA bulletin. Year-specific details not confirmed."
+    },
+    {
+      "id": "s3",
+      "url": "https://tnau.ac.in/m-sc-hort-in-vegetable-science/",
+      "title": "TNAU - M.Sc. (Hort.) in Vegetable Science",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "curriculum",
+        "careers"
+      ],
+      "notes": "Institution-specific: offered at HC&RI Coimbatore and Periyakulam; page lists career options and 30 thesis credits."
+    },
+    {
+      "id": "s4",
+      "url": "https://tnau.ac.in/masters/",
+      "title": "TNAU School of Post Graduate Studies - Masters programmes",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview"
+      ],
+      "notes": null
+    },
+    {
+      "id": "s5",
+      "url": "https://www.uhf.ac.in/adm-pg",
+      "title": "Dr YSP University of Horticulture and Forestry - Master's programme admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "overview",
+        "eligibility",
+        "admission"
+      ],
+      "notes": "Lists M.Sc. (Hort.) Vegetable Science at Nauni and Neri; 30% of normal seats for ICAR; PGET-2023 basis (may be outdated)."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.uhf.ac.in/admissions",
+      "title": "Dr YSPUHF - About admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "eligibility",
+        "admission"
+      ],
+      "notes": null
+    },
+    {
+      "id": "s7",
+      "url": "https://www.asrb.org.in/",
+      "title": "Agricultural Scientists Recruitment Board (ASRB)",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-11-01",
+      "supports": [
+        "careers",
+        "faqs"
+      ],
+      "notes": "Site timed out; Vegetable Science as an ASRB NET discipline seen only in secondary search excerpts. Confirm with current notification."
+    }
   ],
   "verification_gaps": [
-    { "field": "curriculum.structure", "reason": "ICAR BSMA Horticulture PDF not opened (icar.org.in blocked); course areas paraphrased from search excerpts.", "next_source": "ICAR BSMA Horticultural Sciences PG syllabus PDF" },
-    { "field": "eligibility.points", "reason": "Category-wise minimum OGPA and full qualifying-degree list for the Horticulture group not verified from the current bulletin.", "next_source": "Current NTA ICAR AIEEA (PG) information bulletin" },
-    { "field": "admission.exams", "reason": "Current exam pattern, ICAR seat share and scholarship rules not confirmed from an official page.", "next_source": "https://exams.nta.ac.in/ICAR/" },
-    { "field": "admission.documents", "reason": "No official document checklist read.", "next_source": "University PG prospectus / ICAR counselling brochure" },
-    { "field": "fees.observed_examples", "reason": "No dated official fee schedule verified.", "next_source": "Current PG prospectus of TNAU, Dr YSPUHF, PAU" },
-    { "field": "careers.public_sector_routes", "reason": "ASRB NET discipline list not read from ASRB directly.", "next_source": "Latest ASRB NET notification" }
+    {
+      "field": "curriculum.structure",
+      "reason": "ICAR BSMA Horticulture PDF not opened (icar.org.in blocked); course areas paraphrased from search excerpts.",
+      "next_source": "ICAR BSMA Horticultural Sciences PG syllabus PDF"
+    },
+    {
+      "field": "eligibility.points",
+      "reason": "Category-wise minimum OGPA and full qualifying-degree list for the Horticulture group not verified from the current bulletin.",
+      "next_source": "Current NTA ICAR AIEEA (PG) information bulletin"
+    },
+    {
+      "field": "admission.exams",
+      "reason": "Current exam pattern, ICAR seat share and scholarship rules not confirmed from an official page.",
+      "next_source": "https://exams.nta.ac.in/ICAR/"
+    },
+    {
+      "field": "admission.documents",
+      "reason": "No official document checklist read.",
+      "next_source": "University PG prospectus / ICAR counselling brochure"
+    },
+    {
+      "field": "fees.observed_examples",
+      "reason": "No dated official fee schedule verified.",
+      "next_source": "Current PG prospectus of TNAU, Dr YSPUHF, PAU"
+    },
+    {
+      "field": "careers.public_sector_routes",
+      "reason": "ASRB NET discipline list not read from ASRB directly.",
+      "next_source": "Latest ASRB NET notification"
+    }
   ],
   "editorial_status": "research_draft"
 }
