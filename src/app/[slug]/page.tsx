@@ -56,13 +56,7 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
   const { slug } = await params;
   const path = `/${slug}`;
 
-  // 1. Check if Researched Agrico Programme Content / Guide
-  const content = getProgrammeContent(slug);
-  const guide = getProgrammeGuide(slug);
-  if (content) return buildMetadata({ title: content.seo?.title || `${content.name} — Curriculum, Eligibility & Admission`, description: content.seo?.description || content.hero?.summary, path });
-  if (guide) return buildMetadata({ title: `${guide.name} — Curriculum, Eligibility & University Options`, description: guide.description, path });
-
-  // 2. Check if Program
+  // 1. Dynamic Priority: Strapi CMS Program
   const program = await getProgramBySlug(slug);
   if (program) {
     const programDisplayName =
@@ -70,11 +64,17 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
 
     return buildMetadata({
       seo: program.seo,
-      title: `${programDisplayName} — Fees, Duration, Eligibility & Top Colleges`,
-      description: `Everything about ${programDisplayName}: fees, duration, eligibility, entrance exams, syllabus and the top approved universities that offer it.`,
+      title: program.seo?.metaTitle || `${programDisplayName} — Fees, Duration, Eligibility & Top Colleges`,
+      description: program.seo?.metaDescription || `Everything about ${programDisplayName}: fees, duration, eligibility, entrance exams, syllabus and the top approved universities that offer it.`,
       path,
     });
   }
+
+  // 2. Fallback: Researched Agrico Programme Content / Guide
+  const content = getProgrammeContent(slug);
+  const guide = getProgrammeGuide(slug);
+  if (content) return buildMetadata({ title: content.seo?.title || `${content.name} — Curriculum, Eligibility & Admission`, description: content.seo?.description || content.hero?.summary, path });
+  if (guide) return buildMetadata({ title: `${guide.name} — Curriculum, Eligibility & University Options`, description: guide.description, path });
 
   // 2. Check if Course
   const course = await getCourseBySlug(slug);
@@ -107,7 +107,25 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
 export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) {
   const { slug } = await params;
 
-  // 1. Priority: Researched Agrico Programme Content or Guide
+  // 1. Dynamic Priority: Strapi CMS Program
+  const program = await getProgramBySlug(slug);
+  if (program) {
+    const [section, related] = await Promise.all([
+      getFirstContentSection('program', slug),
+      listRelatedPrograms(program),
+    ]);
+
+    return (
+      <ProgramDetailView
+        program={program}
+        section={section}
+        activeSlug={null}
+        related={related}
+      />
+    );
+  }
+
+  // 2. Fallback: Researched Agrico Programme Content or Guide
   const content = getProgrammeContent(slug);
   const guide = getProgrammeGuide(slug);
   if (content) {
@@ -177,24 +195,6 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
   }
   if (guide) {
     return <AgricoProgrammeDetail model={guideProgrammeModel(guide)} />;
-  }
-
-  // 2. Try rendering Program
-  const program = await getProgramBySlug(slug);
-  if (program) {
-    const [section, related] = await Promise.all([
-      getFirstContentSection('program', slug),
-      listRelatedPrograms(program),
-    ]);
-
-    return (
-      <ProgramDetailView
-        program={program}
-        section={section}
-        activeSlug={null}
-        related={related}
-      />
-    );
   }
 
   // 2. Try rendering Course
