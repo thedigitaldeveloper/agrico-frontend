@@ -51,7 +51,19 @@ function Closing() {
 }
 
 export function AgricoProgrammeDetail({ model }: { model: ProgrammeModel }) {
-  const links = model.sections.length > 1 ? model.sections.map((s, index) => ({ id: s.secondary_slug || s.slug, label: s.display_name || s.name || s.slug, href: index === 0 ? model.path : model.offering ? model.path + '?section=' + encodeURIComponent(s.secondary_slug || s.slug) + '#overview' : model.path + '/' + (s.secondary_slug || s.slug) })) : (model.content ? PROGRAMME_CONTENT_LINKS : [
+  const hasAuthored = Boolean(model.section?.content?.length);
+  const links = model.sections.length > 1 ? model.sections.map((s, index) => ({ id: s.secondary_slug || s.slug, label: s.display_name || s.name || s.slug, href: index === 0 ? model.path : model.offering ? model.path + '?section=' + encodeURIComponent(s.secondary_slug || s.slug) + '#overview' : model.path + '/' + (s.secondary_slug || s.slug) })) : (model.content ? PROGRAMME_CONTENT_LINKS : hasAuthored ? [
+    ['overview', 'Overview'],
+    ['quick-facts', 'Quick facts'],
+    ['curriculum-syllabus', 'Curriculum'],
+    ['practical-learning', 'Practicals'],
+    ['eligibility-criteria', 'Eligibility'],
+    ['admission-process', 'Admission'],
+    ['fee-structure', 'Fees'],
+    ['colleges-universities', 'Colleges'],
+    ['career-opportunities', 'Careers'],
+    ['faqs', 'FAQs'],
+  ] as const : [
     ['overview', 'Overview'], ['curriculum', 'Curriculum'], ['eligibility', 'Eligibility'], ['universities', 'Universities'], ['careers', 'Career pathways'], ['faqs', 'FAQs'],
   ] as const).map(([id, label]) => ({ id, label, href: '#' + id }));
   const facts = [{ icon: GraduationCap, label: 'Study level', value: model.level }, { icon: Clock3, label: 'Duration', value: model.duration }, { icon: Building2, label: 'Learning format', value: model.mode }, { icon: Sprout, label: 'Study focus', value: model.focus }].filter(item => item.value);
@@ -59,15 +71,19 @@ export function AgricoProgrammeDetail({ model }: { model: ProgrammeModel }) {
     <section className="ag-detail-hero"><div className="ag-container"><Crumbs name={model.name} /><div className="ag-detail-hero__grid"><div>
       <p className="ag-eyebrow">{model.content?.hero?.eyebrow || 'Agriculture education · Programme guide'}</p><h1>{model.name}</h1>
       {model.offeredAt && <Link className="ag-detail-offered-at" href={model.universityPath!}><Building2 size={17} />At {model.offeredAt}<ArrowRight size={15} /></Link>}
-      <p className="ag-detail-hero__description">{model.description}</p><div className="ag-detail-hero__actions"><DetailAskButton>Get programme guidance</DetailAskButton><a href="#curriculum" className="ag-text-link">Explore the curriculum<ArrowRight size={16} /></a></div>
+      <p className="ag-detail-hero__description">{model.description}</p><div className="ag-detail-hero__actions"><DetailAskButton>Get programme guidance</DetailAskButton><a href="#curriculum-syllabus" className="ag-text-link">Explore the curriculum<ArrowRight size={16} /></a></div>
       <p className="ag-detail-hero__note"><BookOpen size={15} />Understand your degree. Plan your next step.</p>
     </div><div className="ag-detail-hero__visual"><Image src="/images/agrico/agritech-workshop.png" alt="Illustrative agriculture technology learning scene with students examining a teaching drone" fill preload sizes="(max-width: 760px) 100vw, 43vw" /><span><FlaskConical size={18} />Learning through science &amp; technology</span></div></div></div></section>
     <div className="ag-detail-fact-strip"><div className="ag-container">{facts.map(fact => <div key={fact.label}><fact.icon size={25} strokeWidth={1.5} /><span><small>{fact.label}</small><strong>{fact.value}</strong></span></div>)}</div></div>
     <DetailNavigation links={links} current={model.activeSlug} label="Programme sections" />
     <div className="ag-container ag-detail-layout"><article className="ag-detail-main">
-      {model.content ? <ProgrammeContentSections model={model} /> : <>
+      {model.content ? <ProgrammeContentSections model={model} /> : hasAuthored ? (
+        <div className="ag-detail-authored">
+          <SectionBody section={model.section} heading={model.section?.heading || model.section?.display_name || model.section?.name} />
+        </div>
+      ) : <>
       <section id="overview" className="ag-detail-section">{heading('Know your programme', 'A degree built around your interests.')}
-        {model.section?.content?.length ? <div className="ag-detail-authored"><SectionBody section={model.section} heading={model.section.heading || model.section.display_name || model.section.name} /></div> : <>{model.richDescription?.length ? <div className="ag-detail-lead"><RichText content={model.richDescription} /></div> : <p className="ag-detail-lead">{model.description}</p>}<div className="ag-detail-overview-grid"><div><BookOpen size={24} /><h3>What you’ll study</h3><p>{model.subjects}</p></div><div><FlaskConical size={24} /><h3>How you’ll learn</h3><p>Explore the balance of classroom study, practical work and projects in your university’s curriculum.</p></div><div><Leaf size={24} /><h3>Where it could lead</h3><p>{model.careers}</p></div></div></>}{!!model.highlights?.length && <dl className="ag-detail-university-facts">{model.highlights.map(item => <div key={item.key}><dt>{item.key}</dt><dd>{item.value}</dd></div>)}</dl>}
+        <>{model.richDescription?.length ? <div className="ag-detail-lead"><RichText content={model.richDescription} /></div> : <p className="ag-detail-lead">{model.description}</p>}<div className="ag-detail-overview-grid"><div><BookOpen size={24} /><h3>What you’ll study</h3><p>{model.subjects}</p></div><div><FlaskConical size={24} /><h3>How you’ll learn</h3><p>Explore the balance of classroom study, practical work and projects in your university’s curriculum.</p></div><div><Leaf size={24} /><h3>Where it could lead</h3><p>{model.careers}</p></div></div></>{!!model.highlights?.length && <dl className="ag-detail-university-facts">{model.highlights.map(item => <div key={item.key}><dt>{item.key}</dt><dd>{item.value}</dd></div>)}</dl>}
       </section>
       <section id="curriculum" className="ag-detail-section">{heading('Subjects & practical learning', 'Explore what’s behind the degree.')}<p>Use these study areas as a starting point, then read the curriculum from your chosen university.</p><div className="ag-detail-topic-grid">{model.topics.map(topic => <article key={topic.title}><AcademicArt cell={topic.art} /><h3>{topic.title}</h3><p>{topic.description}</p></article>)}</div>{model.resources.some(r => /syllabus/i.test(r.name)) && <a className="ag-text-link" href={model.resources.find(r => /syllabus/i.test(r.name))!.href} target="_blank" rel="noopener noreferrer">View programme syllabus<ArrowRight size={15} /></a>}</section>
       <section id="eligibility" className="ag-detail-section ag-detail-admission-section">{heading('Before you apply', 'Find your route into the programme.')}<div className="ag-detail-admission-grid"><div><h3>Eligibility &amp; entry requirements</h3><ul className="ag-detail-checklist">{(model.eligibility.length ? model.eligibility : ['Check the university’s current qualifying examination and academic criteria.', 'Confirm the accepted admission route and documents for your programme.']).map(text => <li key={text}><Check size={17} /><span>{text}</span></li>)}</ul>{model.exams.length > 0 && <div className="ag-detail-exam-tags">{model.exams.map(exam => <Link key={exam.href} href={exam.href}>{exam.name}<ArrowRight size={14} /></Link>)}</div>}</div><div><h3>Your application, step by step</h3><Journey /></div></div></section>

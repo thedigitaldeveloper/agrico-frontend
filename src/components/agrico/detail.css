@@ -1,4 +1,5 @@
 /* The approved agriculture palette, with distinct programme and campus layouts. */
+@import './agrico-programme-content.css';
 html:has(.ag-detail) { scroll-padding-top: 0; }
 .ag-detail {
   --color-brand-50: #f1f6ec; --color-brand-100: #e5eeda; --color-brand-200: #d1e0c9;

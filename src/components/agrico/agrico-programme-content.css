@@ -1,0 +1,529 @@
+/* Agrico Programme HTML Publication & Rich Content CSS */
+
+.ag-programme-publication,
+.ag-detail-authored {
+  font-family: var(--font-dm-sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif);
+  color: #17382d;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1.65;
+  box-sizing: border-box;
+}
+
+.ag-programme-publication *,
+.ag-detail-authored * {
+  box-sizing: border-box;
+}
+
+/* Breadcrumbs inside publication */
+.ag-publication-breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  font-size: 12px;
+  color: #557265;
+}
+.ag-publication-breadcrumbs li + li::before {
+  content: "/";
+  margin-right: 8px;
+  color: #9cb2a5;
+}
+.ag-publication-breadcrumbs a {
+  color: #215945;
+  text-decoration: none;
+}
+.ag-publication-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+/* Section Headings & Eyebrows */
+.ag-eyebrow {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #26634c;
+  margin-bottom: 8px;
+}
+
+/* Table of Contents Box */
+.ag-publication-toc {
+  background: #f4f8f2;
+  border: 1px solid #d5e3d2;
+  border-radius: 12px;
+  padding: 22px 26px;
+  margin: 16px 0 36px;
+}
+.ag-publication-toc .ag-eyebrow {
+  margin-bottom: 4px;
+}
+.ag-publication-toc h2 {
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 0 14px;
+  color: #103428;
+  letter-spacing: -0.01em;
+}
+.ag-publication-toc ol {
+  column-count: 2;
+  column-gap: 32px;
+  padding-left: 20px;
+  margin: 0;
+}
+@media (max-width: 768px) {
+  .ag-publication-toc ol {
+    column-count: 1;
+  }
+}
+.ag-publication-toc li {
+  margin-bottom: 8px;
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+.ag-publication-toc a {
+  color: #215945;
+  text-decoration: none;
+  font-weight: 550;
+  transition: color 0.15s;
+}
+.ag-publication-toc a:hover {
+  text-decoration: underline;
+  color: #0b251c;
+}
+
+/* Publication Sections */
+.ag-publication-section {
+  margin-bottom: 42px;
+  border-bottom: 1px solid #e6efe4;
+  padding-bottom: 34px;
+  scroll-margin-top: 130px;
+}
+.ag-publication-section:last-of-type {
+  border-bottom: none;
+}
+.ag-publication-section h2 {
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 750;
+  color: #103428;
+  margin: 0 0 16px;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+.ag-publication-section h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #173f32;
+  margin: 22px 0 10px;
+}
+.ag-publication-section p {
+  font-size: 14.5px;
+  color: #3b5448;
+  line-height: 1.75;
+  margin: 10px 0 16px;
+}
+
+/* Highlights Grid */
+.ag-pc-highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin: 24px 0;
+}
+.ag-pc-highlight-card {
+  background: #f4f8f2;
+  border: 1px solid #d8e5d3;
+  border-radius: 10px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ag-pc-highlight-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #557465;
+  letter-spacing: 0.05em;
+}
+.ag-pc-highlight-val {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #103428;
+  margin-top: 6px;
+  line-height: 1.4;
+}
+
+/* Key Facts & Entrance Examination Tables - Robust Multi-column Styling */
+.ag-publication-table {
+  overflow-x: auto;
+  margin: 22px 0 28px;
+  border: 1px solid #d4e3d1;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(18, 55, 44, 0.04);
+}
+.ag-publication-table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13.5px;
+  line-height: 1.6;
+  table-layout: auto;
+  min-width: 600px;
+}
+.ag-publication-table thead th {
+  background: #eaf2e7;
+  font-weight: 700;
+  color: #10382b;
+  padding: 14px 18px;
+  border-bottom: 2px solid #d0e2cc;
+  white-space: nowrap;
+}
+.ag-publication-table tbody th,
+.ag-publication-table tbody td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #edf4eb;
+  vertical-align: top;
+}
+.ag-publication-table tbody tr:last-child th,
+.ag-publication-table tbody tr:last-child td {
+  border-bottom: none;
+}
+/* Left column (Header parameter) - prevent vertical word stacking */
+.ag-publication-table tbody th {
+  width: 250px;
+  min-width: 220px;
+  max-width: 280px;
+  font-weight: 650;
+  color: #123d2e;
+  background: #fbfdfa;
+  border-right: 1px solid #edf4eb;
+}
+.ag-publication-table tbody th span {
+  display: block;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.ag-publication-table tbody td {
+  color: #385145;
+}
+.ag-publication-table tbody tr:hover {
+  background: #f8faf6;
+}
+
+/* Curriculum Stage Timeline */
+.ag-pc-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 22px 0;
+}
+.ag-pc-stage-card {
+  background: #fff;
+  border: 1px solid #dbe6d8;
+  border-radius: 10px;
+  padding: 20px 22px;
+  box-shadow: 0 1px 3px rgba(18, 55, 44, 0.03);
+}
+.ag-pc-stage-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 750;
+  background: #e0eee4;
+  color: #154c39;
+  padding: 3px 10px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.ag-pc-stage-card h3 {
+  font-size: 16.5px;
+  color: #103428;
+  margin: 0 0 6px;
+}
+.ag-pc-stage-focus {
+  font-size: 13.5px;
+  color: #557063;
+  margin: 0 0 12px;
+  line-height: 1.55;
+}
+.ag-pc-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+.ag-pc-chip {
+  background: #f2f7f0;
+  border: 1px solid #d7e6d3;
+  color: #1b4b39;
+  font-size: 12.5px;
+  font-weight: 550;
+  padding: 5px 12px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+/* Checklists (Who should apply / Eligibility) */
+.ag-pc-checklist,
+.ag-pc-eligibility-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 14px 0;
+  display: grid;
+  gap: 10px;
+}
+.ag-pc-checklist li,
+.ag-pc-eligibility-list li {
+  position: relative;
+  padding-left: 28px;
+  font-size: 14px;
+  color: #334d41;
+  line-height: 1.6;
+}
+.ag-pc-checklist li::before,
+.ag-pc-eligibility-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 4px;
+  top: 0;
+  color: #215945;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+/* Practical Learning, Admission Routes & Career Roles Grids */
+.ag-pc-practical-grid,
+.ag-pc-routes-grid,
+.ag-pc-roles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.ag-pc-practical-item,
+.ag-pc-route-card,
+.ag-pc-role-card {
+  background: #fff;
+  border: 1px solid #dce8da;
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-shadow: 0 1px 3px rgba(18, 55, 44, 0.03);
+}
+.ag-pc-practical-item h3,
+.ag-pc-route-card h3,
+.ag-pc-role-card h3 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #11382b;
+  margin: 0 0 8px;
+}
+.ag-pc-practical-item p,
+.ag-pc-route-card p,
+.ag-pc-role-card p {
+  font-size: 13.5px;
+  color: #496356;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Steps list */
+.ag-pc-steps-list {
+  background: #f7faf5;
+  border: 1px solid #d9e6d6;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 22px 0;
+}
+.ag-pc-steps-list h3 {
+  margin: 0 0 14px;
+  font-size: 16px;
+  color: #11382b;
+}
+.ag-pc-steps-list ol {
+  padding-left: 20px;
+  margin: 0;
+  display: grid;
+  gap: 10px;
+}
+.ag-pc-steps-list li {
+  font-size: 13.5px;
+  color: #385145;
+  line-height: 1.6;
+}
+.ag-pc-steps-list strong {
+  color: #103428;
+}
+
+/* Fee notice alert */
+.ag-pc-fee-alert {
+  background: #faf7ec;
+  border: 1px solid #e7ddb5;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-top: 18px;
+  font-size: 13px;
+  color: #57481c;
+  line-height: 1.6;
+}
+.ag-pc-fee-alert strong {
+  color: #403410;
+}
+
+/* University Cards Grid */
+.ag-publication-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 22px 0;
+}
+.ag-publication-card {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid #d7e4d4;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none !important;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.ag-publication-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(18, 55, 44, 0.08);
+  border-color: #a9caa4;
+}
+.ag-publication-card-logo {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.ag-publication-card-logo img {
+  max-height: 48px;
+  max-width: 140px;
+  object-fit: contain;
+}
+.ag-publication-card-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  background: #e6f0e4;
+  font-weight: 800;
+  font-size: 16px;
+  color: #174f3b;
+}
+.ag-publication-card h3 {
+  font-size: 15.5px;
+  font-weight: 700;
+  color: #103428;
+  margin: 0 0 6px;
+  line-height: 1.35;
+}
+.ag-publication-card p {
+  font-size: 12.5px;
+  color: #5c7467;
+  margin: 0 0 14px;
+}
+.ag-publication-card .ag-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #215945;
+  font-weight: 650;
+  text-decoration: underline;
+  margin-top: auto;
+}
+
+/* Public Sector & Govt Recruitments */
+.ag-pc-public-routes {
+  background: #f7faf5;
+  border: 1px solid #d9e6d6;
+  border-radius: 10px;
+  padding: 20px 24px;
+  margin: 22px 0;
+}
+.ag-pc-public-routes h3 {
+  margin: 0 0 12px;
+  font-size: 15.5px;
+  color: #11382b;
+}
+.ag-pc-public-routes ul {
+  padding-left: 20px;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+.ag-pc-public-routes li {
+  font-size: 13.5px;
+  color: #385145;
+}
+
+/* FAQs Accordion */
+.ag-detail-faqs details {
+  background: #fff;
+  border: 1px solid #dbe6d8;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: border-color 0.15s;
+}
+.ag-detail-faqs details[open] {
+  border-color: #b5ceb2;
+}
+.ag-detail-faqs summary {
+  padding: 15px 18px;
+  font-weight: 650;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14.5px;
+  color: #103428;
+}
+.ag-detail-faqs summary::-webkit-details-marker {
+  display: none;
+}
+.ag-detail-faqs details p {
+  padding: 0 18px 16px;
+  margin: 0;
+  font-size: 13.5px;
+  color: #3e584c;
+  line-height: 1.65;
+}
+
+/* Official Sources Citation */
+.ag-publication-sources {
+  padding-left: 20px;
+  margin: 14px 0 0;
+  font-size: 12.5px;
+  color: #557063;
+}
+.ag-publication-sources li {
+  margin-bottom: 12px;
+}
+.ag-publication-sources a {
+  color: #215945;
+  font-weight: 650;
+  text-decoration: underline;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.ag-publication-sources p {
+  margin: 3px 0 0;
+  font-size: 11.5px;
+  color: #728c7f;
+}
