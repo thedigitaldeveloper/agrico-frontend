@@ -12,7 +12,12 @@ import { GuideArt } from './guide-art';
 import { AcademicArt } from './academic-art';
 import { programmeGuidePath, UNIVERSITY_GUIDES } from './detail-catalogue';
 
-type DialogContent = { type: 'programme'; id: string } | { type: 'guide'; id: string } | { type: 'comparison' } | { type: 'universities' };
+type DialogContent =
+  | { type: 'programme'; id: string }
+  | { type: 'guide'; id: string }
+  | { type: 'comparison' }
+  | { type: 'universities' }
+  | { type: 'enquiry'; programmeId?: string; sourceTitle?: string };
 const levels: StudyLevel[] = ['Undergraduate', 'Postgraduate', 'Diploma'];
 const normalise = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
@@ -101,6 +106,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
   const [interest, setInterest] = useState('');
   const [announcement, setAnnouncement] = useState('');
   const [dialog, setDialog] = useState<DialogContent | null>(null);
+  const [previousDialog, setPreviousDialog] = useState<DialogContent | null>(null);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const active = PROGRAMMES.find(course => course.id === activeId) ?? PROGRAMMES[1];
   const visibleCourses = PROGRAMMES.filter(course => course.level === level || (level === 'Undergraduate' && course.id === 'agribusiness'));
@@ -262,13 +268,15 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     if (compareIds.length === 1) { setAnnouncement('Select one more programme to compare your choices.'); scrollToSection('programmes'); }
     else setDialog({ type: 'comparison' });
   };
-  const requestGuidance = (id?: string) => {
+  const requestGuidance = (id?: string, sourceTitle?: string) => {
+    if (dialog && dialog.type !== 'enquiry') {
+      setPreviousDialog(dialog);
+    }
     if (id) setInterest(id);
-    if (dialogRef.current?.open) dialogRef.current.close();
-    setDialog(null);
-    window.requestAnimationFrame(() => {
-      scrollToSection('guidance');
-      document.getElementById('ag-full-name')?.focus({ preventScroll: true });
+    setDialog({
+      type: 'enquiry',
+      programmeId: id,
+      sourceTitle: sourceTitle || (id ? PROGRAMMES.find(p => p.id === id)?.name : undefined),
     });
   };
   const viewCourse = (course: AgricultureProgramme, className = 'ag-button') => {
@@ -288,7 +296,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
   const displayUpdates = useMemo(() => {
     const cmsPosts = [...(data?.news ?? []), ...(data?.articles ?? []), ...(data?.blogs ?? [])];
     if (cmsPosts.length > 0) {
-      const fallbackImages = ['/images/agrico/nursery-learning.png', '/images/agrico/agritech-workshop.png', '/images/agrico/hero-drone-research.png'];
+      const fallbackImages = ['/images/agrico/nursery-learning.png', '/images/agrico/agritech-workshop.png', '/images/agrico/hero-campus.png'];
       return cmsPosts.slice(0, 3).map((item, index) => ({
         title: item.title,
         category: item.category || 'Education update',
@@ -381,6 +389,9 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
             <button type="button" onClick={() => chooseCourse('engineering', true)}>Agri Engineering</button>
             <button type="button" onClick={() => chooseCourse('horticulture', true)}>Horticulture</button>
             <button type="button" onClick={() => chooseCourse('agribusiness', true)}>Agribusiness</button>
+            <button type="button" className="ag-hero__counsel-tag" onClick={() => requestGuidance(undefined, 'Hero Counselling')}>
+              <Sprout size={13} /> Free Counselling
+            </button>
           </div>
         </div>
 
@@ -470,7 +481,20 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section className="ag-help-strip" aria-label="How Agrico helps you"><div className="ag-container ag-help-strip__inner">
       <Eyebrow>How Agrico<br />helps you</Eyebrow>
-      {serviceItems.map(item => <a key={item.title} href={item.href} className="ag-service"><span className="ag-service__icon"><item.icon size={29} strokeWidth={1.65} /></span><span><strong>{item.title}</strong><small>{item.text}</small></span></a>)}
+      {serviceItems.map(item => (
+        <a
+          key={item.title}
+          href={item.href}
+          className="ag-service"
+          onClick={item.href === '#guidance' ? (e) => {
+            e.preventDefault();
+            requestGuidance(undefined, 'Admission Guidance');
+          } : undefined}
+        >
+          <span className="ag-service__icon"><item.icon size={29} strokeWidth={1.65} /></span>
+          <span><strong>{item.title}</strong><small>{item.text}</small></span>
+        </a>
+      ))}
     </div></section>
 
     <section id="programmes" className="ag-section ag-programmes" aria-labelledby="ag-programme-title"><div className="ag-container">
@@ -481,7 +505,24 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
         <article className="ag-course-panel" aria-label={active.name}>
           <div className="ag-course-panel__heading"><h3>{active.name}</h3><p className="ag-meta"><span>{active.level}</span><span>{active.duration}</span><span>Campus learning</span></p><p>{active.description}</p></div>
           <div className="ag-subject-grid">{active.topics.map(topic => <div className="ag-subject" key={topic.title}><AcademicArt cell={topic.art} /><h4>{topic.title}</h4><p>{topic.description}</p></div>)}</div>
-          <div className="ag-course-panel__actions">{viewCourse(active)}<label className="ag-check"><input type="checkbox" checked={compareIds.includes(active.id)} onChange={() => toggleComparison(active.id)} /><span>Add to compare</span></label></div>
+          <div className="ag-course-panel__actions">
+            {viewCourse(active)}
+            <button
+              type="button"
+              className="ag-button ag-button--sage"
+              onClick={() => requestGuidance(active.id, active.name)}
+            >
+              Get guidance <ArrowRight size={15} />
+            </button>
+            <label className="ag-check">
+              <input
+                type="checkbox"
+                checked={compareIds.includes(active.id)}
+                onChange={() => toggleComparison(active.id)}
+              />
+              <span>Add to compare</span>
+            </label>
+          </div>
         </article>
       </div>
       <p className="ag-live-message" role="status" aria-live="polite">{announcement}{compareIds.length > 0 && <> <button type="button" className="ag-inline-button" onClick={openComparison}>Compare {compareIds.length} selected <ArrowRight size={14} /></button> <button className="ag-inline-button" type="button" onClick={() => { setCompareIds([]); setAnnouncement('Comparison selection cleared.'); }}>Clear</button></>}</p>
@@ -580,17 +621,61 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container"><div className="ag-section-heading"><div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div><Link href="/articles" className="ag-text-link">View more updates <ArrowRight size={16} /></Link></div><div className="ag-updates-grid">{displayUpdates.map(post => <article className="ag-update-card" key={post.title}><div className="ag-update-image"><Image src={post.image} alt={post.alt} fill sizes="(max-width: 600px) 35vw, 220px" /></div><div className="ag-update-copy"><span className="ag-tag">{post.category}</span><h3>{post.title}</h3><p>{post.text}</p><Link className="ag-text-link" href={post.href}>Read update <ArrowRight size={15} /></Link></div></article>)}</div></div></section>
 
-    <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{faqList.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div></div></section>
+    <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{faqList.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div>
+      <div className="ag-faq-cta">
+        <div>
+          <strong>Still have questions about agriculture admissions or universities?</strong>
+          <p>Talk directly with our experienced education counsellors.</p>
+        </div>
+        <button type="button" className="ag-button ag-button--primary" onClick={() => requestGuidance(undefined, 'FAQ Admission Support')}>
+          Request free counselling <ArrowRight size={15} />
+        </button>
+      </div>
+    </div></section>
 
     <section id="guidance" className="ag-section ag-counselling" aria-labelledby="ag-guidance-title"><div className="ag-container"><Eyebrow>Admission counselling</Eyebrow><h2 id="ag-guidance-title">Talk through your next step.</h2><div className="ag-counselling__grid"><AgricoCallbackForm interest={interest} setInterest={setInterest} catalogue={catalogue} /><div className="ag-counselling__copy"><h3>Get personalised guidance on programmes, universities and your admission journey.</h3><p>Our counsellors can help you understand your options, answer your questions and plan your next steps with clarity.</p></div><div className="ag-counselling__art"><span className="ag-counselling-label">B.Sc. Agriculture <ArrowLeftRight size={15} /> Agricultural Engineering</span><AcademicArt cell={5} /></div></div></div></section>
 
-    <dialog ref={dialogRef} className="ag-dialog" aria-labelledby="ag-dialog-title" onCancel={() => setDialog(null)} onClose={() => setDialog(null)} onClick={event => { if (event.target === event.currentTarget) setDialog(null); }}><div className="ag-dialog__content"><button type="button" className="ag-dialog-close ag-icon-button" aria-label="Close details" onClick={() => setDialog(null)}><X size={22} /></button>
-      {dialogCourse && <><Eyebrow>Programme guide</Eyebrow><h2 id="ag-dialog-title">{dialogCourse.name}</h2><p className="ag-dialog-lead">{dialogCourse.description}</p><div className="ag-dialog-tags"><span className="ag-tag">{dialogCourse.level}</span><span className="ag-tag">{dialogCourse.duration}</span></div><dl className="ag-dialog-facts">{comparisonRows.map(row => <div key={row.key}><dt>{row.label}</dt><dd>{dialogCourse[row.key]}</dd></div>)}</dl><h3>What to check before applying</h3><p>Review the current curriculum, practical facilities, eligibility, fees and admission process with your chosen university. Requirements and study opportunities vary between institutions.</p><a className="ag-text-link" href={dialogCourse.source} target="_blank" rel="noopener noreferrer">Official programme information <ArrowRight size={16} /></a><div className="ag-dialog-actions"><button className="ag-button" onClick={() => requestGuidance(dialogCourse.id)}>Get programme guidance <ArrowRight size={16} /></button><button className="ag-button ag-button--outline" onClick={() => { toggleComparison(dialogCourse.id); setDialog(null); }}>Add to comparison <Plus size={16} /></button></div></>}
-      {dialogGuide && <><Eyebrow>Student guide</Eyebrow><h2 id="ag-dialog-title">{dialogGuide.title}</h2><p className="ag-dialog-lead">{dialogGuide.description}</p>{dialogGuide.sections.map(section => <section className="ag-reading-section" key={section.title}><h3>{section.title}</h3><p>{section.text}</p></section>)}<a className="ag-text-link" href={dialogGuide.source} target="_blank" rel="noopener noreferrer">Explore official education information <ArrowRight size={16} /></a><div className="ag-dialog-actions"><button className="ag-button" onClick={() => requestGuidance()}>Talk to a counsellor <ArrowRight size={16} /></button></div></>}
-      {dialogGuide?.id === 'counselling' && <div className="ag-official-resources"><h3>Official admission resources</h3>{ADMISSION_RESOURCES.map(resource => <a key={resource.title} href={resource.href} target="_blank" rel="noopener noreferrer"><span><strong>{resource.title}</strong><small>{resource.description}</small></span><ArrowRight size={17} /></a>)}</div>}
-      {dialog?.type === 'comparison' && <><Eyebrow>Programme comparison</Eyebrow><h2 id="ag-dialog-title">Compare your study pathways.</h2><div className="ag-full-comparison"><table><thead><tr><th>What to compare</th>{selectedCourses.map(course => <th key={course.id}>{course.name}</th>)}</tr></thead><tbody><tr><th>Study level</th>{selectedCourses.map(course => <td key={course.id}>{course.level}</td>)}</tr>{comparisonRows.map(row => <tr key={row.key}><th>{row.label}</th>{selectedCourses.map(course => <td key={course.id}>{course[row.key]}</td>)}</tr>)}<tr><th>Admission details</th>{selectedCourses.map(course => <td key={course.id}><a href={course.source} target="_blank" rel="noopener noreferrer">Official requirements ↗</a></td>)}</tr></tbody></table></div><p className="ag-dialog-note">Use this as a starting point, then check programme-specific details with the university.</p><button className="ag-button" onClick={() => requestGuidance()}>Discuss your options <ArrowRight size={16} /></button></>}
-      {dialog?.type === 'universities' && <><Eyebrow>Your university shortlist</Eyebrow><h2 id="ag-dialog-title">Compare your university options.</h2><div className="ag-university-modal-grid">{officialUniversities.filter(university => selectedUniversities.includes(university.id)).map(university => <article key={university.id}><span className="ag-university-mark">{university.mark}</span><h3>{university.name}</h3><p><MapPin size={15} />{university.state}</p><ul><li>Review the programme curriculum</li><li>Explore laboratories and campus facilities</li><li>Check current fees and eligibility</li><li>Confirm the official admission process</li></ul><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined} className="ag-text-link">View university <ArrowRight size={15} /></a></article>)}</div><button className="ag-button" onClick={() => requestGuidance()}>Get help with your shortlist <ArrowRight size={16} /></button></>}
-    </div></dialog>
+    <dialog
+      ref={dialogRef}
+      className={`ag-dialog ${dialog?.type === 'enquiry' ? 'ag-dialog--enquiry' : ''}`}
+      aria-labelledby="ag-dialog-title"
+      onCancel={() => { setDialog(null); setPreviousDialog(null); }}
+      onClose={() => { setDialog(null); setPreviousDialog(null); }}
+      onClick={event => { if (event.target === event.currentTarget) { setDialog(null); setPreviousDialog(null); } }}
+    >
+      <div className="ag-dialog__content">
+        <button
+          type="button"
+          className="ag-dialog-close ag-icon-button"
+          aria-label="Close details"
+          onClick={() => { setDialog(null); setPreviousDialog(null); }}
+        >
+          <X size={20} />
+        </button>
+
+        {dialog?.type === 'enquiry' && (
+          <AgricoModalEnquiryForm
+            initialProgrammeId={dialog.programmeId || interest}
+            sourceTitle={dialog.sourceTitle}
+            catalogue={catalogue}
+            hasBack={Boolean(previousDialog)}
+            onBack={previousDialog ? () => {
+              setDialog(previousDialog);
+              setPreviousDialog(null);
+            } : undefined}
+            onClose={() => {
+              setDialog(null);
+              setPreviousDialog(null);
+            }}
+          />
+        )}
+        {dialogCourse && <><Eyebrow>Programme guide</Eyebrow><h2 id="ag-dialog-title">{dialogCourse.name}</h2><p className="ag-dialog-lead">{dialogCourse.description}</p><div className="ag-dialog-tags"><span className="ag-tag">{dialogCourse.level}</span><span className="ag-tag">{dialogCourse.duration}</span></div><dl className="ag-dialog-facts">{comparisonRows.map(row => <div key={row.key}><dt>{row.label}</dt><dd>{dialogCourse[row.key]}</dd></div>)}</dl><h3>What to check before applying</h3><p>Review the current curriculum, practical facilities, eligibility, fees and admission process with your chosen university. Requirements and study opportunities vary between institutions.</p><a className="ag-text-link" href={dialogCourse.source} target="_blank" rel="noopener noreferrer">Official programme information <ArrowRight size={16} /></a><div className="ag-dialog-actions"><button className="ag-button" onClick={() => requestGuidance(dialogCourse.id, dialogCourse.name)}>Get programme guidance <ArrowRight size={16} /></button><button className="ag-button ag-button--outline" onClick={() => { toggleComparison(dialogCourse.id); setDialog(null); }}>Add to comparison <Plus size={16} /></button></div></>}
+        {dialogGuide && <><Eyebrow>Student guide</Eyebrow><h2 id="ag-dialog-title">{dialogGuide.title}</h2><p className="ag-dialog-lead">{dialogGuide.description}</p>{dialogGuide.sections.map(section => <section className="ag-reading-section" key={section.title}><h3>{section.title}</h3><p>{section.text}</p></section>)}<a className="ag-text-link" href={dialogGuide.source} target="_blank" rel="noopener noreferrer">Explore official education information <ArrowRight size={16} /></a><div className="ag-dialog-actions"><button className="ag-button" onClick={() => requestGuidance(undefined, dialogGuide.title)}>Talk to a counsellor <ArrowRight size={16} /></button></div></>}
+        {dialogGuide?.id === 'counselling' && <div className="ag-official-resources"><h3>Official admission resources</h3>{ADMISSION_RESOURCES.map(resource => <a key={resource.title} href={resource.href} target="_blank" rel="noopener noreferrer"><span><strong>{resource.title}</strong><small>{resource.description}</small></span><ArrowRight size={17} /></a>)}</div>}
+        {dialog?.type === 'comparison' && <><Eyebrow>Programme comparison</Eyebrow><h2 id="ag-dialog-title">Compare your study pathways.</h2><div className="ag-full-comparison"><table><thead><tr><th>What to compare</th>{selectedCourses.map(course => <th key={course.id}>{course.name}</th>)}</tr></thead><tbody><tr><th>Study level</th>{selectedCourses.map(course => <td key={course.id}>{course.level}</td>)}</tr>{comparisonRows.map(row => <tr key={row.key}><th>{row.label}</th>{selectedCourses.map(course => <td key={course.id}>{course[row.key]}</td>)}</tr>)}<tr><th>Admission details</th>{selectedCourses.map(course => <td key={course.id}><a href={course.source} target="_blank" rel="noopener noreferrer">Official requirements ↗</a></td>)}</tr></tbody></table></div><p className="ag-dialog-note">Use this as a starting point, then check programme-specific details with the university.</p><button className="ag-button" onClick={() => requestGuidance(undefined, 'Programme Comparison')}>Discuss your options <ArrowRight size={16} /></button></>}
+        {dialog?.type === 'universities' && <><Eyebrow>Your university shortlist</Eyebrow><h2 id="ag-dialog-title">Compare your university options.</h2><div className="ag-university-modal-grid">{officialUniversities.filter(university => selectedUniversities.includes(university.id)).map(university => <article key={university.id}><span className="ag-university-mark">{university.mark}</span><h3>{university.name}</h3><p><MapPin size={15} />{university.state}</p><ul><li>Review the programme curriculum</li><li>Explore laboratories and campus facilities</li><li>Check current fees and eligibility</li><li>Confirm the official admission process</li></ul><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined} className="ag-text-link">View university <ArrowRight size={15} /></a></article>)}</div><button className="ag-button" onClick={() => requestGuidance(undefined, 'University Shortlist')}>Get help with your shortlist <ArrowRight size={16} /></button></>}
+      </div>
+    </dialog>
   </div>;
 }
 
@@ -607,4 +692,192 @@ function AgricoCallbackForm({ interest, setInterest, catalogue }: { interest: st
     {state.message && <p id="ag-form-status" className="ag-form-status" role="alert">{state.message}</p>}
     <button type="submit" className="ag-button" disabled={pending}>{pending ? <><LoaderCircle size={16} className="ag-spin" />Sending your request…</> : <>Request a callback <ArrowRight size={15} /></>}</button>
   </form>;
+}
+
+function AgricoModalEnquiryForm({
+  initialProgrammeId,
+  sourceTitle,
+  catalogue,
+  onClose,
+  onBack,
+  hasBack,
+}: {
+  initialProgrammeId?: string;
+  sourceTitle?: string;
+  catalogue: Offering[];
+  onClose: () => void;
+  onBack?: () => void;
+  hasBack?: boolean;
+}) {
+  const [interest, setInterest] = useState(initialProgrammeId || '');
+  const [state, action, pending] = useActionState<FormState, FormData>(submitEnquiry, { status: 'idle', message: '' });
+  const selected = PROGRAMMES.find(p => p.id === interest);
+  const offering = selected ? catalogue.find(item => courseMatches(selected, item.degree + ' ' + item.fullName)) : null;
+  const invalid = (field: string) => state.invalid?.includes(field);
+
+  if (state.status === 'success') {
+    return (
+      <div className="ag-modal-success" role="status">
+        <div className="ag-modal-success__icon">
+          <CheckCircle2 size={44} />
+        </div>
+        <h3>Request Received!</h3>
+        <p className="ag-modal-success__lead">
+          {state.message || 'Thanks for reaching out!'}
+        </p>
+        <p className="ag-modal-success__desc">
+          An Agrico agriculture education counsellor will contact you shortly on your provided mobile number to help with your admission questions.
+        </p>
+        <div className="ag-modal-success__details">
+          {selected && <div><strong>Selected Programme:</strong> {selected.name} ({selected.level})</div>}
+          <div><strong>Next step:</strong> Keep your academic qualifications and questions ready for your counselling session.</div>
+        </div>
+        <button type="button" className="ag-button ag-button--primary" onClick={onClose}>
+          Done <CheckCircle2 size={16} />
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="ag-modal-enquiry">
+      {hasBack && onBack && (
+        <button type="button" className="ag-modal-back-btn" onClick={onBack}>
+          <ChevronLeft size={16} /> Back to details
+        </button>
+      )}
+
+      <div className="ag-modal-enquiry__header">
+        <span className="ag-modal-enquiry__badge">
+          <Sprout size={14} /> Free Admission Guidance
+        </span>
+        <h2 id="ag-dialog-title">
+          {sourceTitle ? `Enquire for ${sourceTitle}` : 'Speak with an Agriculture Counsellor'}
+        </h2>
+        <p className="ag-modal-enquiry__sub">
+          Get personalised clarity on curriculum, ICAR recognition, university cut-offs, fee structures, and application timelines.
+        </p>
+      </div>
+
+      <form action={action} className="ag-modal-form" aria-busy={pending}>
+        <input type="hidden" name="source" value="homepage-modal-callback" />
+        <input type="hidden" name="program" value={offering?.programSlug || interest || ''} />
+        <input type="hidden" name="university" value="" />
+        <input
+          type="hidden"
+          name="message"
+          value={
+            selected
+              ? `Agrico modal enquiry: ${selected.name} (${sourceTitle || 'General'})`
+              : `Agrico agriculture admission enquiry: ${sourceTitle || 'General'}`
+          }
+        />
+
+        <div className="ag-modal-form__grid">
+          <label className="ag-modal-field">
+            <span className="ag-modal-label">Your full name <span className="ag-req">*</span></span>
+            <input
+              name="name"
+              type="text"
+              autoComplete="name"
+              placeholder="e.g. Rahul Sharma"
+              required
+              minLength={2}
+              maxLength={120}
+              aria-invalid={invalid('name')}
+            />
+            {invalid('name') && <span className="ag-field-err">Please enter your full name</span>}
+          </label>
+
+          <label className="ag-modal-field">
+            <span className="ag-modal-label">Mobile number <span className="ag-req">*</span></span>
+            <div className="ag-phone-input-wrap">
+              <span className="ag-phone-prefix">+91</span>
+              <input
+                name="phone"
+                type="tel"
+                inputMode="tel"
+                autoComplete="tel"
+                placeholder="10-digit mobile number"
+                required
+                minLength={8}
+                maxLength={15}
+                aria-invalid={invalid('phone')}
+              />
+            </div>
+            {invalid('phone') && <span className="ag-field-err">Please enter a valid mobile number</span>}
+          </label>
+
+          <label className="ag-modal-field ag-modal-field--full">
+            <span className="ag-modal-label">Programme of interest</span>
+            <select
+              name="interest"
+              value={interest}
+              onChange={e => setInterest(e.target.value)}
+              className="ag-modal-select"
+            >
+              <option value="">General Agriculture Guidance</option>
+              {PROGRAMMES.map(course => (
+                <option key={course.id} value={course.id}>
+                  {course.name} ({course.level})
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="ag-modal-field">
+            <span className="ag-modal-label">Your city / state <small className="ag-opt">(Optional)</small></span>
+            <input
+              name="city"
+              type="text"
+              placeholder="e.g. Ludhiana, Punjab"
+              maxLength={80}
+            />
+          </label>
+
+          <label className="ag-modal-field">
+            <span className="ag-modal-label">Email address <small className="ag-opt">(Optional)</small></span>
+            <input
+              name="email"
+              type="email"
+              autoComplete="email"
+              placeholder="e.g. student@gmail.com"
+              aria-invalid={invalid('email')}
+            />
+            {invalid('email') && <span className="ag-field-err">Please enter a valid email</span>}
+          </label>
+        </div>
+
+        <label className="ag-modal-consent">
+          <input type="checkbox" name="consent" defaultChecked required aria-invalid={invalid('consent')} />
+          <span>
+            I agree to receive counselling assistance &amp; admission updates from Agrico. <Link href="/privacy-policy" target="_blank">Privacy policy</Link>
+          </span>
+        </label>
+
+        {state.message && (
+          <p className="ag-form-status--modal" role="alert">
+            {state.message}
+          </p>
+        )}
+
+        <div className="ag-modal-actions">
+          <button type="submit" className="ag-button ag-button--primary ag-modal-submit" disabled={pending}>
+            {pending ? (
+              <>
+                <LoaderCircle size={16} className="ag-spin" /> Submitting request…
+              </>
+            ) : (
+              <>
+                Request Free Counselling <ArrowRight size={16} />
+              </>
+            )}
+          </button>
+          <button type="button" className="ag-button ag-button--outline" onClick={onClose}>
+            Cancel
+          </button>
+        </div>
+      </form>
+    </div>
+  );
 }
