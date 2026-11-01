@@ -33,17 +33,21 @@ export function ProgramDetailView({ program, section, activeSlug, related }: {
 
   const faqLd = faqs.length ? faqSchema(faqs) : null;
 
+  const isSubTab = Boolean(activeSlug && activeSlug !== 'overview' && (section?.display_name || section?.name));
+  const breadcrumbTrail = [
+    { name: 'Home', path: '/' },
+    { name: 'Programmes', path: '/#programmes' },
+    { name: model.name, path: model.path },
+    ...(isSubTab ? [{ name: section!.display_name || section!.name!, path: `${model.path}/${activeSlug}` }] : []),
+  ];
+
   return (
     <>
       <JsonLdGraph
         items={[
           courseSchema,
           programSchema(program),
-          breadcrumbSchema([
-            { name: 'Home', path: '/' },
-            { name: 'Programmes', path: '/#programmes' },
-            { name: model.name, path: model.path },
-          ]),
+          breadcrumbSchema(breadcrumbTrail),
           ...(faqLd ? [faqLd] : []),
           customSchema(section?.seo ?? program.seo),
         ]}

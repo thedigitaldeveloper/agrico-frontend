@@ -119,7 +119,7 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
       <ProgramDetailView
         program={program}
         section={section}
-        activeSlug={null}
+        activeSlug="overview"
         related={related}
       />
     );

@@ -289,3 +289,88 @@
 .animate-marquee-infinite:hover {
   animation-play-state: paused;
 }
+
+
+/* Bulletproof Agrico Publication & Programme Table Styling */
+.ag-publication-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+  margin: 20px 0 28px !important;
+  border: 1px solid #d4e3d1 !important;
+  border-radius: 8px !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 3px rgba(18, 55, 44, 0.04);
+}
+
+.ag-publication-table table {
+  width: 100% !important;
+  border-collapse: collapse !important;
+  text-align: left !important;
+  font-size: 13.5px !important;
+  line-height: 1.6 !important;
+  min-width: 580px !important;
+  margin: 0 !important;
+}
+
+.ag-publication-table thead th {
+  background: #eaf2e7 !important;
+  font-weight: 700 !important;
+  color: #10382b !important;
+  padding: 13px 18px !important;
+  border-bottom: 2px solid #ccd8c2 !important;
+  border-right: 1px solid #e1ecde !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  overflow-wrap: normal !important;
+  hyphens: none !important;
+  font-size: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.04em !important;
+}
+
+.ag-publication-table thead th:last-child {
+  border-right: none !important;
+}
+
+.ag-publication-table tbody th,
+.ag-publication-table tbody td {
+  padding: 13px 18px !important;
+  border-bottom: 1px solid #edf4eb !important;
+  border-right: 1px solid #edf4eb !important;
+  vertical-align: top !important;
+}
+
+.ag-publication-table tbody th {
+  width: 250px !important;
+  min-width: 220px !important;
+  max-width: 280px !important;
+  font-weight: 650 !important;
+  color: #123d2e !important;
+  background: #fbfdfa !important;
+  white-space: nowrap !important;
+  word-break: keep-all !important;
+  overflow-wrap: normal !important;
+  hyphens: none !important;
+}
+
+.ag-publication-table tbody td {
+  color: #385145 !important;
+  background: #ffffff !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}
+
+.ag-publication-table tbody td:last-child {
+  border-right: none !important;
+}
+
+.ag-publication-table tbody tr:last-child th,
+.ag-publication-table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+.ag-publication-table tbody tr:hover td {
+  background: #f8faf6 !important;
+}
