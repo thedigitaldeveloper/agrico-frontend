@@ -22,6 +22,7 @@ const navigation = [
 ];
 
 function AgricoHeader() {
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [openNav, setOpenNav] = useState<string | null>(null);
   const menuRef = useRef<HTMLDialogElement>(null);
@@ -48,14 +49,42 @@ function AgricoHeader() {
       </nav>
       <form action="/#programmes" className="ag-header-search" role="search"><Search size={15} /><input name="q" aria-label="Search programmes and universities" placeholder="Search programmes, universities…" /></form>
       <Link href="/login" className="ag-sign-in">Sign in</Link>
-      <a href="/#guidance" className="ag-button ag-header-cta">Talk to a counsellor</a>
+      <button
+        type="button"
+        className="ag-button ag-header-cta"
+        onClick={() => {
+          if (pathname === '/') {
+            window.dispatchEvent(new CustomEvent('agrico:open-enquiry', { detail: { sourceTitle: 'Header Counselling' } }));
+          } else {
+            window.location.href = '/#guidance';
+          }
+        }}
+      >
+        Talk to a counsellor
+      </button>
       <button ref={triggerRef} className="ag-mobile-trigger ag-icon-button" aria-label="Open navigation" aria-expanded={menuOpen} aria-controls="ag-mobile-menu" onClick={() => setMenuOpen(true)}><Menu size={23} /></button>
     </div>
     <dialog ref={menuRef} id="ag-mobile-menu" className="ag-mobile-menu" aria-label="Navigation" onCancel={closeMenu} onClose={() => setMenuOpen(false)} onClick={event => { if (event.target === event.currentTarget) closeMenu(); }}>
       <div className="ag-mobile-menu__top"><Link href="/" onClick={closeMenu}><AgricoBrand /></Link><button className="ag-icon-button" aria-label="Close navigation" onClick={closeMenu}><X size={22} /></button></div>
       <form action="/#programmes" role="search" className="ag-mobile-search" onSubmit={closeMenu}><input name="q" placeholder="Search programmes or universities" aria-label="Mobile search" /><button className="ag-icon-button" aria-label="Search"><Search size={19} /></button></form>
       <nav aria-label="Mobile navigation">{navigation.map(item => <div key={item.label}><Link href={item.href} onClick={closeMenu}>{item.label}<ArrowRight size={17} /></Link>{item.items && <div className="ag-mobile-sublinks">{item.items.map(([label, href]) => <Link key={label} href={href} onClick={closeMenu}>{label}</Link>)}</div>}</div>)}</nav>
-      <Link className="ag-button" href="/login" onClick={closeMenu}>Student sign in <ArrowRight size={16} /></Link>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '14px' }}>
+        <button
+          type="button"
+          className="ag-button"
+          onClick={() => {
+            closeMenu();
+            if (pathname === '/') {
+              window.dispatchEvent(new CustomEvent('agrico:open-enquiry', { detail: { sourceTitle: 'Mobile Nav Counselling' } }));
+            } else {
+              window.location.href = '/#guidance';
+            }
+          }}
+        >
+          Talk to a counsellor <ArrowRight size={16} />
+        </button>
+        <Link className="ag-button ag-button--outline" href="/login" onClick={closeMenu}>Student sign in <ArrowRight size={16} /></Link>
+      </div>
     </dialog>
   </header>;
 }
