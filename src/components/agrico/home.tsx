@@ -15,6 +15,18 @@ import { programmeGuidePath, UNIVERSITY_GUIDES } from './detail-catalogue';
 type DialogContent = { type: 'programme'; id: string } | { type: 'guide'; id: string } | { type: 'comparison' } | { type: 'universities' };
 const levels: StudyLevel[] = ['Undergraduate', 'Postgraduate', 'Diploma'];
 const normalise = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+
+interface OfficialUniversityItem {
+  id: string;
+  mark: string;
+  name: string;
+  state: string;
+  location: string;
+  source: string;
+  href: string;
+  external: boolean;
+  match: string[];
+}
 function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
 }
@@ -27,6 +39,39 @@ const courseMatches = (course: AgricultureProgramme, value: string) => {
   if (course.id === 'diploma') return text.includes('diploma') && text.includes('agricultur');
   return text.includes('agricultur') && !/engineer|business|diploma|agronom|m sc/.test(text);
 };
+
+function getUniversityMark(name: string): string {
+  if (/Lovely Professional/i.test(name)) return 'LPU';
+  if (/Chandigarh/i.test(name)) return 'CU';
+  if (/Vellore/i.test(name)) return 'VIT';
+  if (/SRM/i.test(name)) return 'SRM';
+  if (/SGT/i.test(name)) return 'SGT';
+  if (/GD Goenka/i.test(name)) return 'GDG';
+  if (/GLA/i.test(name)) return 'GLA';
+  if (/Centurion/i.test(name)) return 'CUTM';
+  if (/Amrita/i.test(name)) return 'AVV';
+  if (/Suresh Gyan Vihar/i.test(name)) return 'SGVU';
+  if (/Vivekananda Global/i.test(name)) return 'VGU';
+  if (/Adhiparasakthi/i.test(name)) return 'AAC';
+  if (/Adhiyamaan/i.test(name)) return 'ACAR';
+  if (/Khalsa/i.test(name)) return 'KCA';
+  if (/Shri Guru Ram Rai/i.test(name)) return 'SGRRU';
+  if (/Siksha/i.test(name)) return 'SOA';
+  if (/RKDF/i.test(name)) return 'RKDF';
+  if (/RNB/i.test(name)) return 'RNB';
+  if (/ITM/i.test(name)) return 'ITM';
+  if (/Malla Reddy/i.test(name)) return 'MRU';
+  if (/Sri Sri/i.test(name)) return 'SSU';
+  if (/Punjab Agricultural/i.test(name)) return 'PAU';
+  if (/Tamil Nadu Agricultural/i.test(name)) return 'TNAU';
+  if (/Indian Agricultural Research/i.test(name)) return 'IARI';
+
+  const words = name.replace(/[^a-zA-Z0-9\s]/g, '').split(/\s+/).filter(w => !/^(of|and|the|in|for|deemed|to|be|college|university|institute|sciences|technology|research)$/i.test(w));
+  if (words.length >= 2) {
+    return words.slice(0, 4).map(w => w[0].toUpperCase()).join('');
+  }
+  return name.replace(/[^a-zA-Z0-9]/g, '').slice(0, 4).toUpperCase();
+}
 
 function Eyebrow({ children, light = false }: { children: ReactNode; light?: boolean }) {
   return <p className={'ag-eyebrow' + (light ? ' ag-eyebrow--light' : '')}>{children}</p>;
@@ -52,11 +97,75 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
   const visibleCourses = PROGRAMMES.filter(course => course.level === level || (level === 'Undergraduate' && course.id === 'agribusiness'));
   const catalogue = data?.catalogue ?? [];
   const selectedCourses = compareIds.length === 2 ? PROGRAMMES.filter(course => compareIds.includes(course.id)) : PROGRAMMES.slice(0, 2);
-  const officialUniversities = UNIVERSITIES.map(university => {
-    const published = data?.universityOptions.find(option => university.match.some(term => normalise(option.name).includes(term)));
-    const guide = UNIVERSITY_GUIDES.find(item => item.name === university.name);
-    return { ...university, href: '/university/' + (published?.slug || guide?.slug || university.id), external: false };
-  });
+
+  const officialUniversities = useMemo<OfficialUniversityItem[]>(() => {
+    if (data?.universities && data.universities.length > 0) {
+      return data.universities.map(u => {
+        const parts = u.location ? u.location.split(',').map(s => s.trim()) : [];
+        const state = parts.length > 1 ? parts[parts.length - 1] : parts[0] || 'India';
+        const mark = getUniversityMark(u.name);
+        return {
+          id: u.slug,
+          mark,
+          name: u.name,
+          state,
+          location: u.location,
+          source: '/university/' + u.slug,
+          href: '/university/' + u.slug,
+          external: false,
+          match: [normalise(u.name), normalise(mark), normalise(state)],
+        };
+      });
+    }
+    return UNIVERSITIES.map(university => {
+      const published = data?.universityOptions.find(option => university.match.some(term => normalise(option.name).includes(term)));
+      const guide = UNIVERSITY_GUIDES.find(item => item.name === university.name);
+      return {
+        id: university.id,
+        mark: university.mark,
+        name: university.name,
+        state: university.state,
+        location: university.state,
+        source: university.source,
+        href: '/university/' + (published?.slug || guide?.slug || university.id),
+        external: false,
+        match: [...university.match],
+      };
+    });
+  }, [data?.universities, data?.universityOptions]);
+
+  const [selectedState, setSelectedState] = useState('All');
+  const [directorySearch, setDirectorySearch] = useState('');
+  const [showAllUniversities, setShowAllUniversities] = useState(false);
+
+  const availableStates = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const u of officialUniversities) {
+      counts.set(u.state, (counts.get(u.state) || 0) + 1);
+    }
+    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    return ['All', ...sorted.map(([st]) => st)];
+  }, [officialUniversities]);
+
+  const filteredUniversities = useMemo(() => {
+    let list = officialUniversities;
+    if (selectedState !== 'All') {
+      list = list.filter(u => u.state.toLowerCase() === selectedState.toLowerCase());
+    }
+    if (directorySearch.trim()) {
+      const q = normalise(directorySearch);
+      list = list.filter(u => normalise(u.name + ' ' + u.state + ' ' + (u.location || '')).includes(q));
+    }
+    return list;
+  }, [officialUniversities, selectedState, directorySearch]);
+
+  const displayedUniversities = useMemo(() => {
+    if (showAllUniversities || selectedState !== 'All' || directorySearch.trim()) {
+      return filteredUniversities;
+    }
+    return filteredUniversities.slice(0, 8);
+  }, [filteredUniversities, showAllUniversities, selectedState, directorySearch]);
+
   const courseOffering = (course: AgricultureProgramme) => catalogue.find(offering => courseMatches(course, offering.degree + ' ' + offering.fullName + ' ' + offering.program));
   const [leftCourse, rightCourse] = selectedCourses;
 
@@ -175,9 +284,28 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     const text = normalise(submittedQuery);
     return {
       courses: PROGRAMMES.filter(course => normalise(course.name + ' ' + course.navName + ' ' + course.subjects).includes(text)),
-      universities: UNIVERSITIES.filter(university => normalise(university.name + ' ' + university.mark + ' ' + university.state).includes(text)),
+      universities: officialUniversities.filter(university => normalise(university.name + ' ' + university.mark + ' ' + university.state + ' ' + (university.location || '')).includes(text)),
     };
-  }, [submittedQuery]);
+  }, [submittedQuery, officialUniversities]);
+
+  const displayUpdates = useMemo(() => {
+    const cmsPosts = [...(data?.news ?? []), ...(data?.articles ?? []), ...(data?.blogs ?? [])];
+    if (cmsPosts.length > 0) {
+      const fallbackImages = ['/images/agrico/nursery-learning.png', '/images/agrico/agritech-workshop.png', '/images/agrico/hero-drone-research.png'];
+      return cmsPosts.slice(0, 3).map((item, index) => ({
+        title: item.title,
+        category: item.category || 'Education update',
+        text: item.summary || 'Read the full guide on admissions, practical learning and curriculum insights.',
+        image: item.image || fallbackImages[index % fallbackImages.length],
+        alt: item.imageAlt || item.title,
+        href: item.href,
+      }));
+    }
+    return [
+      { category: 'Learning', title: 'Precision learning and student projects', text: 'How hands-on projects and real-world learning help students build practical skills in agriculture.', image: '/images/agrico/nursery-learning.png', alt: 'University students studying plants in a teaching greenhouse', href: '/articles' },
+      { category: 'Campus insight', title: 'Exploring agricultural engineering', text: 'A closer look at how university labs and field projects help students understand real-world agricultural challenges.', image: '/images/agrico/agritech-workshop.png', alt: 'Engineering students learning with a teaching drone in a laboratory', href: '/articles' },
+    ];
+  }, [data?.news, data?.articles, data?.blogs]);
   const dialogCourse = dialog?.type === 'programme' ? PROGRAMMES.find(course => course.id === dialog.id) : null;
   const dialogGuide = dialog?.type === 'guide' ? GUIDES.find(guide => guide.id === dialog.id) : null;
   const comparisonRows: { label: string; key: 'focus' | 'subjects' | 'practical' | 'careers'; icon: typeof BookOpen }[] = [
@@ -343,14 +471,95 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     </div></section>
 
     <section id="universities" className="ag-section ag-universities" aria-labelledby="ag-universities-title"><div className="ag-container ag-university-layout">
-      <div><div className="ag-section-heading"><div><Eyebrow>University directory</Eyebrow><h2 id="ag-universities-title">Find the right campus for your course.</h2></div></div>
-        <div className="ag-university-directory">{officialUniversities.map(university => <article className="ag-university-row" key={university.id}>
-          <label className="ag-university-select"><input type="checkbox" aria-label={'Compare ' + university.name} checked={selectedUniversities.includes(university.id)} onChange={() => toggleUniversity(university.id)} /></label>
-          <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
-          <div className="ag-university-row__identity"><h3>{university.name}</h3><p>{university.state}</p></div>
-          <div className="ag-university-links"><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined}>Programmes</a><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined}>Campus profile</a><a href={university.source} target="_blank" rel="noopener noreferrer">Admissions</a></div>
-          <a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined} className="ag-university-view">View university <ArrowRight size={16} /></a>
-        </article>)}</div>
+      <div>
+        <div className="ag-section-heading">
+          <div>
+            <Eyebrow>University directory</Eyebrow>
+            <h2 id="ag-universities-title">Find the right campus for your course.</h2>
+          </div>
+        </div>
+
+        {availableStates.length > 2 && (
+          <div className="ag-university-toolbar">
+            <div className="ag-state-pills" role="tablist" aria-label="Filter universities by state">
+              {availableStates.slice(0, 7).map(st => (
+                <button
+                  type="button"
+                  key={st}
+                  role="tab"
+                  aria-selected={selectedState === st}
+                  className={`ag-state-pill ${selectedState === st ? 'is-active' : ''}`}
+                  onClick={() => setSelectedState(st)}
+                >
+                  {st} {st !== 'All' ? `(${officialUniversities.filter(u => u.state === st).length})` : `(${officialUniversities.length})`}
+                </button>
+              ))}
+            </div>
+
+            <div className="ag-directory-search">
+              <Search size={14} aria-hidden="true" />
+              <input
+                type="text"
+                placeholder="Search campus or city…"
+                value={directorySearch}
+                onChange={e => setDirectorySearch(e.target.value)}
+                aria-label="Filter university list"
+              />
+              {directorySearch && (
+                <button type="button" className="ag-clear-btn" onClick={() => setDirectorySearch('')} aria-label="Clear search">
+                  <X size={13} />
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+
+        <div className="ag-university-directory">
+          {displayedUniversities.length === 0 ? (
+            <div className="ag-directory-empty">
+              <p>No universities found matching <strong>“{directorySearch}”</strong>.</p>
+              <button type="button" className="ag-inline-button" onClick={() => { setDirectorySearch(''); setSelectedState('All'); }}>Clear filters</button>
+            </div>
+          ) : (
+            displayedUniversities.map(university => (
+              <article className="ag-university-row" key={university.id}>
+                <label className="ag-university-select">
+                  <input
+                    type="checkbox"
+                    aria-label={'Compare ' + university.name}
+                    checked={selectedUniversities.includes(university.id)}
+                    onChange={() => toggleUniversity(university.id)}
+                  />
+                </label>
+                <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
+                <div className="ag-university-row__identity">
+                  <h3>{university.name}</h3>
+                  <p>{university.location || university.state}</p>
+                </div>
+                <div className="ag-university-links">
+                  <Link href={`${university.href}#courses`}>Programmes</Link>
+                  <Link href={university.href}>Campus profile</Link>
+                  <Link href={`${university.href}#admission`}>Admissions</Link>
+                </div>
+                <Link href={university.href} className="ag-university-view">
+                  View university <ArrowRight size={16} />
+                </Link>
+              </article>
+            ))
+          )}
+
+          {filteredUniversities.length > 8 && selectedState === 'All' && !directorySearch.trim() && (
+            <div className="ag-directory-footer">
+              <button
+                type="button"
+                className="ag-directory-more-btn"
+                onClick={() => setShowAllUniversities(!showAllUniversities)}
+              >
+                {showAllUniversities ? 'Show fewer institutions ↑' : `Explore all ${filteredUniversities.length} agriculture universities ↓`}
+              </button>
+            </div>
+          )}
+        </div>
         {selectedUniversities.length > 0 && <div className="ag-university-selection" role="status"><span>{selectedUniversities.length} {selectedUniversities.length === 1 ? 'university' : 'universities'} selected</span><button className="ag-text-link" onClick={() => setDialog({ type: 'universities' })} disabled={selectedUniversities.length < 2}>Compare selected <ArrowRight size={15} /></button><button className="ag-inline-button" onClick={() => setSelectedUniversities([])}>Clear</button></div>}
       </div>
       <aside className="ag-campus-check"><h3>Look beyond the name.</h3><p>Choose a university that fits your learning style and goals. Here are some key things to explore:</p><button onClick={() => setDialog({ type: 'guide', id: 'university-learning' })}><BookOpen size={23} /><span>Curriculum</span><ArrowRight size={15} /></button><a href="#learning"><FlaskConical size={23} /><span>Practical learning</span><ArrowRight size={15} /></a><button onClick={() => setDialog({ type: 'guide', id: 'university-learning' })}><Building2 size={23} /><span>Facilities</span><ArrowRight size={15} /></button></aside>
@@ -402,13 +611,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section id="guides" className="ag-section ag-guides" aria-labelledby="ag-guides-title"><div className="ag-container"><Eyebrow>Student guides</Eyebrow><h2 id="ag-guides-title">Build a clearer shortlist.</h2><div className="ag-guide-grid">{GUIDES.map(guide => <article className="ag-guide-card" key={guide.id}><span className="ag-guide-number">{guide.number}</span><h3>{guide.title}</h3><p>{guide.description}</p><GuideArt variant={guide.id} /><TextButton onClick={() => setDialog({ type: 'guide', id: guide.id })}>Read guide</TextButton></article>)}</div></div></section>
 
-    <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container"><div className="ag-section-heading"><div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div><Link href="/news" className="ag-text-link">View more updates <ArrowRight size={16} /></Link></div><div className="ag-updates-grid">{[
-      { category: 'Learning', title: 'Precision learning and student projects', text: 'How hands-on projects and real-world learning help students build practical skills in agriculture.', image: '/images/agrico/nursery-learning.png', alt: 'University students studying plants in a teaching greenhouse', href: 'https://www.iari.res.in/files/Latest-News/Precision_Agriculture_Concludes_04022026.pdf' },
-      { category: 'Campus insight', title: 'Exploring agricultural engineering', text: 'A closer look at how university labs and field projects help students understand real-world agricultural challenges.', image: '/images/agrico/agritech-workshop.png', alt: 'Engineering students learning with a teaching drone in a laboratory', href: 'https://tnau.ac.in/b-tech-agricultural-engineering/' },
-    ].map((post, index) => {
-      const published = data?.news[index];
-      return <article className="ag-update-card" key={post.title}><div className="ag-update-image"><Image src={published?.image || post.image} alt={published?.imageAlt || post.alt} fill sizes="(max-width: 600px) 35vw, 220px" /></div><div className="ag-update-copy"><span className="ag-tag">{published?.category || post.category}</span><h3>{published?.title || post.title}</h3><p>{published?.summary || post.text}</p><a className="ag-text-link" href={published?.href || post.href} target={published ? undefined : '_blank'} rel={published ? undefined : 'noopener noreferrer'}>Read update <ArrowRight size={15} /></a></div></article>;
-    })}</div></div></section>
+    <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container"><div className="ag-section-heading"><div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div><Link href="/articles" className="ag-text-link">View more updates <ArrowRight size={16} /></Link></div><div className="ag-updates-grid">{displayUpdates.map(post => <article className="ag-update-card" key={post.title}><div className="ag-update-image"><Image src={post.image} alt={post.alt} fill sizes="(max-width: 600px) 35vw, 220px" /></div><div className="ag-update-copy"><span className="ag-tag">{post.category}</span><h3>{post.title}</h3><p>{post.text}</p><Link className="ag-text-link" href={post.href}>Read update <ArrowRight size={15} /></Link></div></article>)}</div></div></section>
 
     <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{FAQS.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div></div></section>
 

@@ -98,6 +98,7 @@ export interface RsHomeData {
   testimonials: TestimonialCard[];
   news: HomePost[];
   blogs: HomePost[];
+  articles?: HomePost[];
   slides: HomeSlide[];
   faqs: Array<{ question: string; answer: string }>;
   steps: Array<Pick<StepCard, 'title' | 'description'> & Partial<Omit<StepCard, 'title' | 'description'>>>;

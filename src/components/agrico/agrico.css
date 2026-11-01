@@ -501,6 +501,19 @@
 .ag-universities { padding-top: 16px; padding-bottom: 18px; background: linear-gradient(110deg, #fff, #f7faf7); }
 .ag-university-layout { display: grid; grid-template-columns: minmax(0, 1fr) 275px; gap: 20px; }
 .ag-university-layout > div { min-width: 0; }
+.ag-university-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 12px; }
+.ag-state-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+.ag-state-pill { padding: 5px 12px; border: 1px solid var(--ag-line); border-radius: 20px; background: #fff; color: var(--ag-text); font-size: 11.5px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
+.ag-state-pill:hover { background: #f2f7f3; border-color: #bcd4c4; }
+.ag-state-pill.is-active { background: var(--ag-green); color: #fff; border-color: var(--ag-green); }
+.ag-directory-search { display: flex; align-items: center; gap: 8px; padding: 5px 12px; border: 1px solid var(--ag-line); border-radius: 6px; background: #fff; font-size: 12px; min-width: 210px; }
+.ag-directory-search input { border: 0; outline: none; font-size: 12px; width: 100%; background: transparent; color: var(--ag-ink); }
+.ag-clear-btn { border: 0; background: transparent; color: var(--ag-muted); cursor: pointer; padding: 2px; display: grid; place-items: center; }
+.ag-directory-empty { padding: 32px 20px; text-align: center; color: var(--ag-muted); font-size: 13px; }
+.ag-directory-empty p { margin-bottom: 10px; }
+.ag-directory-footer { display: flex; justify-content: center; align-items: center; padding: 12px; border-top: 1px solid var(--ag-line); background: #fafcfa; }
+.ag-directory-more-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 20px; border: 1px solid #c9decb; border-radius: 6px; background: #fff; color: var(--ag-green); font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
+.ag-directory-more-btn:hover { background: #eef5ef; border-color: var(--ag-green); }
 .ag-university-directory { border: 1px solid var(--ag-line); border-radius: 7px; overflow: hidden; background: #fff; }
 .ag-university-row { display: grid; grid-template-columns: 20px 82px minmax(150px, 1.1fr) auto auto; align-items: center; column-gap: 14px; min-height: 75px; padding: 5px 17px; }
 .ag-university-row + .ag-university-row { border-top: 1px solid var(--ag-line); }

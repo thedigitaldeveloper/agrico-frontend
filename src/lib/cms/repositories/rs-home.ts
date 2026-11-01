@@ -23,12 +23,12 @@ function selectedOfferings(selections: HomeOfferingSelection[], catalogue: Offer
     return [item];
   });
 }
-const post = (p: BlogCard, section: 'news' | 'blogs') => {
+const post = (p: BlogCard, section: 'news' | 'blogs' | 'articles') => {
   const image = resolveImage(p.thumbnail || p.image);
   return {
     id: p.documentId, title: p.name, summary: p.description || '', date: p.dateTime,
     image: image?.src || null, imageAlt: image?.alt || '',
-    category: p.tags?.[0]?.name || (section === 'blogs' ? 'RS blog' : 'Education update'),
+    category: p.tags?.[0]?.name || (section === 'blogs' ? 'RS blog' : section === 'articles' ? 'Article' : 'Education update'),
     href: '/' + section + '/' + p.slug,
   };
 };
@@ -51,30 +51,37 @@ export async function getRsHomeData(): Promise<RsHomeData> {
   const home = await getHomePageData();
   const feed = async (section: 'news' | 'blogs', ids: string[]) => home.sectionVisibility[section] === false ? [] : home.sectionDisplay[section] === 'curated'
     ? (await curatedRecords<BlogCard>('/blogs', ids, 'blog')).filter(item => item.type && (BLOG_SECTIONS[section] as readonly string[]).includes(item.type))
-    : cmsFetchOptional(async () => (await listBlogs({ section, pageSize: 3 })).posts, []);
-  const [catalogueData, news, blogs, mentors, testimonials] = await Promise.all([
+    : cmsFetchOptional(async () => (await listBlogs({ section, pageSize: 6 })).posts, []);
+  const [catalogueData, news, blogs, mentors, testimonials, articles] = await Promise.all([
     getRsCatalogue(),
     feed('news', home.selectedNews),
     feed('blogs', home.selectedBlogs),
     home.sectionVisibility.mentors !== true ? [] : home.sectionDisplay.mentors === 'curated' ? curatedRecords<MentorCard>('/mentor-profiles', home.selectedMentors, 'mentor-profile') : cmsFetchOptional(async () => (await listMentors({ pageSize: 6 })).mentors, []),
     home.sectionVisibility.testimonials !== true ? [] : home.sectionDisplay.testimonials === 'curated' ? curatedRecords<TestimonialCard>('/testimonials', home.selectedTestimonials, 'testimonial') : listTestimonials(9),
+    cmsFetchOptional(async () => (await listBlogs({ section: 'articles', pageSize: 6 })).posts, []),
   ]);
   const { programs: validPrograms, universities: validUniversities, offerings: catalogue } = catalogueData;
   const universityMap = new Map(validUniversities.map(university => [university.slug, university]));
   const spotlight = resolveSelection(home.spotlightOffering, catalogue);
   const spotlightImage = resolveImage(home.spotlightOffering?.image);
+
+  const targetUniversities = home.featuredUniversities.length > 0
+    ? home.featuredUniversities.flatMap(selection => {
+        const university = universityMap.get(selection.slug);
+        return university ? [university] : [];
+      })
+    : validUniversities;
+
   return {
     home,
     catalogue,
     programmeChoices: [...new Set(validPrograms.map(program => program.course?.name?.trim() || program.name.trim()))],
     offerings: selectedOfferings(home.featuredOfferings, catalogue),
-    universities: home.featuredUniversities.flatMap(selection => {
-      const university = universityMap.get(selection.slug);
-      if (!university) return [];
+    universities: targetUniversities.map(university => {
       const image = resolveImage(university.image);
       const universityOfferings = catalogue.filter(item => item.universitySlug === university.slug);
       const rating = university.rating == null ? NaN : Number(university.rating);
-      return [{
+      return {
         id: university.documentId, name: university.name, slug: university.slug,
         location: [university.city, university.state].filter(Boolean).join(', '),
         logo: resolveImage(university.logo)?.src || null,
@@ -88,7 +95,7 @@ export async function getRsHomeData(): Promise<RsHomeData> {
         establishedYear: university.established_year ? String(university.established_year) : university.establish?.slice(0, 4) || '',
         rating: Number.isFinite(rating) && rating > 0 && rating <= 5 ? rating : null,
         programmeCount: universityOfferings.length,
-      }];
+      };
     }),
     universityOptions: validUniversities.map(({ documentId, name, slug }) => ({ documentId, name, slug })),
     spotlight: spotlight ? {
@@ -99,8 +106,9 @@ export async function getRsHomeData(): Promise<RsHomeData> {
     } : null,
     comparisonOfferings: selectedOfferings(home.comparisonOfferings, catalogue),
     mentors, testimonials,
-    news: news.map(item => post(item, 'news')),
-    blogs: blogs.map(item => post(item, 'blogs')),
+    news: news.map(p => post(p, 'news')),
+    blogs: blogs.map(p => post(p, 'blogs')),
+    articles: articles.map(p => post(p, 'articles')),
     slides: home.slides.map(slide => {
       const picture = slide.media.kind === 'image' ? slide.media.picture
         : slide.media.kind === 'video' || slide.media.kind === 'youtube' ? slide.media.poster : null;
