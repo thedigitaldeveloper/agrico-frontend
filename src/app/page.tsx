@@ -18,9 +18,10 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function HomePage({ searchParams }: { searchParams: Promise<{ q?: string | string[] }> }) {
   const [data, params] = await Promise.all([getRsHomeData().catch(() => null), searchParams]);
   const query = typeof params.q === 'string' ? params.q : '';
+  const faqs = data?.faqs && data.faqs.length > 0 ? data.faqs : FAQS;
   return (
     <>
-      <JsonLdGraph items={[faqSchema(FAQS)]} />
+      <JsonLdGraph items={[faqSchema(faqs)]} />
       <AgricoHome data={data} initialQuery={query} />
     </>
   );

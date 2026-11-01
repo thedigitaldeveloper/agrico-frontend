@@ -16,6 +16,15 @@ type DialogContent = { type: 'programme'; id: string } | { type: 'guide'; id: st
 const levels: StudyLevel[] = ['Undergraduate', 'Postgraduate', 'Diploma'];
 const normalise = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 
+const SERVICE_ICONS: Record<string, typeof BookOpen> = {
+  BookOpen,
+  Building2,
+  UsersRound,
+  Compass,
+  Sprout,
+  FlaskConical,
+};
+
 interface OfficialUniversityItem {
   id: string;
   mark: string;
@@ -294,6 +303,30 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       { category: 'Campus insight', title: 'Exploring agricultural engineering', text: 'A closer look at how university labs and field projects help students understand real-world agricultural challenges.', image: '/images/agrico/agritech-workshop.png', alt: 'Engineering students learning with a teaching drone in a laboratory', href: '/articles' },
     ];
   }, [data?.news, data?.articles, data?.blogs]);
+
+  const serviceItems = useMemo(() => {
+    if (data?.home?.serviceLinks && data.home.serviceLinks.length > 0) {
+      return data.home.serviceLinks.map(s => ({
+        icon: (s.iconName && SERVICE_ICONS[s.iconName]) || BookOpen,
+        title: s.title,
+        text: s.description,
+        href: s.href,
+      }));
+    }
+    return [
+      { icon: BookOpen, title: 'Explore programmes', text: 'Discover agriculture and agritech degrees that match your interests.', href: '#programmes' },
+      { icon: Building2, title: 'Compare universities', text: 'Look at programmes, campus life and admission details side by side.', href: '#universities' },
+      { icon: UsersRound, title: 'Admission guidance', text: 'Get expert support at every step of your application journey.', href: '#guidance' },
+    ];
+  }, [data?.home?.serviceLinks]);
+
+  const faqList = useMemo(() => {
+    if (data?.faqs && data.faqs.length > 0) {
+      return data.faqs;
+    }
+    return FAQS;
+  }, [data?.faqs]);
+
   const dialogCourse = dialog?.type === 'programme' ? PROGRAMMES.find(course => course.id === dialog.id) : null;
   const dialogGuide = dialog?.type === 'guide' ? GUIDES.find(guide => guide.id === dialog.id) : null;
   const comparisonRows: { label: string; key: 'focus' | 'subjects' | 'practical' | 'careers'; icon: typeof BookOpen }[] = [
@@ -437,11 +470,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section className="ag-help-strip" aria-label="How Agrico helps you"><div className="ag-container ag-help-strip__inner">
       <Eyebrow>How Agrico<br />helps you</Eyebrow>
-      {[
-        { icon: BookOpen, title: 'Explore programmes', text: 'Discover agriculture and agritech degrees that match your interests.', href: '#programmes' },
-        { icon: Building2, title: 'Compare universities', text: 'Look at programmes, campus life and admission details side by side.', href: '#universities' },
-        { icon: UsersRound, title: 'Admission guidance', text: 'Get expert support at every step of your application journey.', href: '#guidance' },
-      ].map(item => <a key={item.title} href={item.href} className="ag-service"><span className="ag-service__icon"><item.icon size={29} strokeWidth={1.65} /></span><span><strong>{item.title}</strong><small>{item.text}</small></span></a>)}
+      {serviceItems.map(item => <a key={item.title} href={item.href} className="ag-service"><span className="ag-service__icon"><item.icon size={29} strokeWidth={1.65} /></span><span><strong>{item.title}</strong><small>{item.text}</small></span></a>)}
     </div></section>
 
     <section id="programmes" className="ag-section ag-programmes" aria-labelledby="ag-programme-title"><div className="ag-container">
@@ -551,7 +580,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container"><div className="ag-section-heading"><div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div><Link href="/articles" className="ag-text-link">View more updates <ArrowRight size={16} /></Link></div><div className="ag-updates-grid">{displayUpdates.map(post => <article className="ag-update-card" key={post.title}><div className="ag-update-image"><Image src={post.image} alt={post.alt} fill sizes="(max-width: 600px) 35vw, 220px" /></div><div className="ag-update-copy"><span className="ag-tag">{post.category}</span><h3>{post.title}</h3><p>{post.text}</p><Link className="ag-text-link" href={post.href}>Read update <ArrowRight size={15} /></Link></div></article>)}</div></div></section>
 
-    <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{FAQS.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div></div></section>
+    <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{faqList.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div></div></section>
 
     <section id="guidance" className="ag-section ag-counselling" aria-labelledby="ag-guidance-title"><div className="ag-container"><Eyebrow>Admission counselling</Eyebrow><h2 id="ag-guidance-title">Talk through your next step.</h2><div className="ag-counselling__grid"><AgricoCallbackForm interest={interest} setInterest={setInterest} catalogue={catalogue} /><div className="ag-counselling__copy"><h3>Get personalised guidance on programmes, universities and your admission journey.</h3><p>Our counsellors can help you understand your options, answer your questions and plan your next steps with clarity.</p></div><div className="ag-counselling__art"><span className="ag-counselling-label">B.Sc. Agriculture <ArrowLeftRight size={15} /> Agricultural Engineering</span><AcademicArt cell={5} /></div></div></div></section>
 
