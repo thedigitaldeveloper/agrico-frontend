@@ -100,7 +100,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
   const officialUniversities = useMemo<OfficialUniversityItem[]>(() => {
     if (data?.universities && data.universities.length > 0) {
-      return data.universities.map(u => {
+      return data.universities.slice(0, 5).map(u => {
         const parts = u.location ? u.location.split(',').map(s => s.trim()) : [];
         const state = parts.length > 1 ? parts[parts.length - 1] : parts[0] || 'India';
         const mark = getUniversityMark(u.name);
@@ -134,37 +134,25 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     });
   }, [data?.universities, data?.universityOptions]);
 
-  const [selectedState, setSelectedState] = useState('All');
-  const [directorySearch, setDirectorySearch] = useState('');
-  const [showAllUniversities, setShowAllUniversities] = useState(false);
-
-  const availableStates = useMemo(() => {
-    const counts = new Map<string, number>();
-    for (const u of officialUniversities) {
-      counts.set(u.state, (counts.get(u.state) || 0) + 1);
+  const allUniversityOptions = useMemo<OfficialUniversityItem[]>(() => {
+    if (data?.universityOptions && data.universityOptions.length > 0) {
+      return data.universityOptions.map(u => {
+        const mark = getUniversityMark(u.name);
+        return {
+          id: u.slug,
+          mark,
+          name: u.name,
+          state: '',
+          location: '',
+          source: '/university/' + u.slug,
+          href: '/university/' + u.slug,
+          external: false,
+          match: [normalise(u.name), normalise(mark)],
+        };
+      });
     }
-    const sorted = [...counts.entries()].sort((a, b) => b[1] - a[1]);
-    return ['All', ...sorted.map(([st]) => st)];
-  }, [officialUniversities]);
-
-  const filteredUniversities = useMemo(() => {
-    let list = officialUniversities;
-    if (selectedState !== 'All') {
-      list = list.filter(u => u.state.toLowerCase() === selectedState.toLowerCase());
-    }
-    if (directorySearch.trim()) {
-      const q = normalise(directorySearch);
-      list = list.filter(u => normalise(u.name + ' ' + u.state + ' ' + (u.location || '')).includes(q));
-    }
-    return list;
-  }, [officialUniversities, selectedState, directorySearch]);
-
-  const displayedUniversities = useMemo(() => {
-    if (showAllUniversities || selectedState !== 'All' || directorySearch.trim()) {
-      return filteredUniversities;
-    }
-    return filteredUniversities.slice(0, 8);
-  }, [filteredUniversities, showAllUniversities, selectedState, directorySearch]);
+    return officialUniversities;
+  }, [data?.universityOptions, officialUniversities]);
 
   const courseOffering = (course: AgricultureProgramme) => catalogue.find(offering => courseMatches(course, offering.degree + ' ' + offering.fullName + ' ' + offering.program));
   const [leftCourse, rightCourse] = selectedCourses;
@@ -253,7 +241,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     const text = normalise(query);
     const course = PROGRAMMES.find(item => normalise(item.name + ' ' + item.navName + ' ' + item.subjects).includes(text));
     if (course) { chooseCourse(course.id, true); return; }
-    const university = officialUniversities.find(item => normalise(item.name + ' ' + item.mark + ' ' + item.state).includes(text));
+    const university = allUniversityOptions.find(item => normalise(item.name + ' ' + item.mark + ' ' + item.state).includes(text));
     scrollToSection(university ? 'universities' : 'programmes');
   };
   const toggleComparison = (id: string) => {
@@ -284,9 +272,9 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     const text = normalise(submittedQuery);
     return {
       courses: PROGRAMMES.filter(course => normalise(course.name + ' ' + course.navName + ' ' + course.subjects).includes(text)),
-      universities: officialUniversities.filter(university => normalise(university.name + ' ' + university.mark + ' ' + university.state + ' ' + (university.location || '')).includes(text)),
+      universities: allUniversityOptions.filter(university => normalise(university.name + ' ' + university.mark).includes(text)),
     };
-  }, [submittedQuery, officialUniversities]);
+  }, [submittedQuery, allUniversityOptions]);
 
   const displayUpdates = useMemo(() => {
     const cmsPosts = [...(data?.news ?? []), ...(data?.articles ?? []), ...(data?.blogs ?? [])];
@@ -479,86 +467,36 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
           </div>
         </div>
 
-        {availableStates.length > 2 && (
-          <div className="ag-university-toolbar">
-            <div className="ag-state-pills" role="tablist" aria-label="Filter universities by state">
-              {availableStates.slice(0, 7).map(st => (
-                <button
-                  type="button"
-                  key={st}
-                  role="tab"
-                  aria-selected={selectedState === st}
-                  className={`ag-state-pill ${selectedState === st ? 'is-active' : ''}`}
-                  onClick={() => setSelectedState(st)}
-                >
-                  {st} {st !== 'All' ? `(${officialUniversities.filter(u => u.state === st).length})` : `(${officialUniversities.length})`}
-                </button>
-              ))}
-            </div>
-
-            <div className="ag-directory-search">
-              <Search size={14} aria-hidden="true" />
-              <input
-                type="text"
-                placeholder="Search campus or city…"
-                value={directorySearch}
-                onChange={e => setDirectorySearch(e.target.value)}
-                aria-label="Filter university list"
-              />
-              {directorySearch && (
-                <button type="button" className="ag-clear-btn" onClick={() => setDirectorySearch('')} aria-label="Clear search">
-                  <X size={13} />
-                </button>
-              )}
-            </div>
-          </div>
-        )}
-
         <div className="ag-university-directory">
-          {displayedUniversities.length === 0 ? (
-            <div className="ag-directory-empty">
-              <p>No universities found matching <strong>“{directorySearch}”</strong>.</p>
-              <button type="button" className="ag-inline-button" onClick={() => { setDirectorySearch(''); setSelectedState('All'); }}>Clear filters</button>
-            </div>
-          ) : (
-            displayedUniversities.map(university => (
-              <article className="ag-university-row" key={university.id}>
-                <label className="ag-university-select">
-                  <input
-                    type="checkbox"
-                    aria-label={'Compare ' + university.name}
-                    checked={selectedUniversities.includes(university.id)}
-                    onChange={() => toggleUniversity(university.id)}
-                  />
-                </label>
-                <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
-                <div className="ag-university-row__identity">
-                  <h3>{university.name}</h3>
-                  <p>{university.location || university.state}</p>
-                </div>
-                <div className="ag-university-links">
-                  <Link href={`${university.href}#courses`}>Programmes</Link>
-                  <Link href={university.href}>Campus profile</Link>
-                  <Link href={`${university.href}#admission`}>Admissions</Link>
-                </div>
-                <Link href={university.href} className="ag-university-view">
-                  View university <ArrowRight size={16} />
-                </Link>
-              </article>
-            ))
-          )}
-
-          {filteredUniversities.length > 8 && selectedState === 'All' && !directorySearch.trim() && (
-            <div className="ag-directory-footer">
-              <button
-                type="button"
-                className="ag-directory-more-btn"
-                onClick={() => setShowAllUniversities(!showAllUniversities)}
-              >
-                {showAllUniversities ? 'Show fewer institutions ↑' : `Explore all ${filteredUniversities.length} agriculture universities ↓`}
-              </button>
-            </div>
-          )}
+          {officialUniversities.map(university => (
+            <article className="ag-university-row" key={university.id}>
+              <label className="ag-university-select">
+                <input
+                  type="checkbox"
+                  aria-label={'Compare ' + university.name}
+                  checked={selectedUniversities.includes(university.id)}
+                  onChange={() => toggleUniversity(university.id)}
+                />
+              </label>
+              <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
+              <div className="ag-university-row__identity">
+                <h3>{university.name}</h3>
+                <p>{university.location || university.state}</p>
+              </div>
+              <div className="ag-university-links">
+                <Link href={`${university.href}#courses`}>Programmes</Link>
+                <Link href={university.href}>Campus profile</Link>
+                <Link href={`${university.href}#admission`}>Admissions</Link>
+              </div>
+              <Link href={university.href} className="ag-university-view">
+                View university <ArrowRight size={16} />
+              </Link>
+            </article>
+          ))}
+          <div className="ag-directory-footer">
+            <span>Featured agriculture universities · 58 accredited campuses available</span>
+            <a href="#programmes" className="ag-inline-button">Explore degrees</a>
+          </div>
         </div>
         {selectedUniversities.length > 0 && <div className="ag-university-selection" role="status"><span>{selectedUniversities.length} {selectedUniversities.length === 1 ? 'university' : 'universities'} selected</span><button className="ag-text-link" onClick={() => setDialog({ type: 'universities' })} disabled={selectedUniversities.length < 2}>Compare selected <ArrowRight size={15} /></button><button className="ag-inline-button" onClick={() => setSelectedUniversities([])}>Clear</button></div>}
       </div>

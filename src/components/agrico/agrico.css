@@ -511,9 +511,8 @@
 .ag-clear-btn { border: 0; background: transparent; color: var(--ag-muted); cursor: pointer; padding: 2px; display: grid; place-items: center; }
 .ag-directory-empty { padding: 32px 20px; text-align: center; color: var(--ag-muted); font-size: 13px; }
 .ag-directory-empty p { margin-bottom: 10px; }
-.ag-directory-footer { display: flex; justify-content: center; align-items: center; padding: 12px; border-top: 1px solid var(--ag-line); background: #fafcfa; }
-.ag-directory-more-btn { display: inline-flex; align-items: center; gap: 8px; padding: 8px 20px; border: 1px solid #c9decb; border-radius: 6px; background: #fff; color: var(--ag-green); font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.15s ease; }
-.ag-directory-more-btn:hover { background: #eef5ef; border-color: var(--ag-green); }
+.ag-directory-footer { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; padding: 12px 18px; border-top: 1px solid var(--ag-line); background: #fafcfa; font-size: 11.5px; color: var(--ag-muted); }
+.ag-directory-footer a { font-size: 11.5px; color: var(--ag-green); text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
 .ag-university-directory { border: 1px solid var(--ag-line); border-radius: 7px; overflow: hidden; background: #fff; }
 .ag-university-row { display: grid; grid-template-columns: 20px 82px minmax(150px, 1.1fr) auto auto; align-items: center; column-gap: 14px; min-height: 75px; padding: 5px 17px; }
 .ag-university-row + .ag-university-row { border-top: 1px solid var(--ag-line); }

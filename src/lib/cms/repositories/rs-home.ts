@@ -65,12 +65,12 @@ export async function getRsHomeData(): Promise<RsHomeData> {
   const spotlight = resolveSelection(home.spotlightOffering, catalogue);
   const spotlightImage = resolveImage(home.spotlightOffering?.image);
 
-  const targetUniversities = home.featuredUniversities.length > 0
+  const targetUniversities = (home.featuredUniversities.length > 0
     ? home.featuredUniversities.flatMap(selection => {
         const university = universityMap.get(selection.slug);
         return university ? [university] : [];
       })
-    : validUniversities;
+    : validUniversities).slice(0, 5);
 
   return {
     home,
