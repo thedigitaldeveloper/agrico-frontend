@@ -298,6 +298,20 @@
   gap: 10px !important;
 }
 
+.ag-pc-checklist li::before,
+.ag-pc-eligibility-list li::before {
+  content: none !important;
+  display: none !important;
+}
+
+.ag-pc-checklist li,
+.ag-pc-eligibility-list li {
+  padding-left: 0 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+  gap: 12px !important;
+}
+
 .ag-publication-table {
   width: 100% !important;
   max-width: 100% !important;

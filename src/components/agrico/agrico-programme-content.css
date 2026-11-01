@@ -280,29 +280,41 @@
 /* Checklists (Who should apply / Eligibility) */
 .ag-pc-checklist,
 .ag-pc-eligibility-list {
-  list-style: none;
-  padding-left: 0;
-  margin: 14px 0;
-  display: grid;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 16px 0 24px !important;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 .ag-pc-checklist li,
 .ag-pc-eligibility-list li {
   position: relative;
-  padding-left: 28px;
-  font-size: 14px;
-  color: #334d41;
-  line-height: 1.6;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding-left: 0 !important;
+  font-size: 14px !important;
+  color: #304d3f !important;
+  line-height: 1.65 !important;
+  margin: 0 !important;
 }
 .ag-pc-checklist li::before,
 .ag-pc-eligibility-list li::before {
-  content: "✓";
-  position: absolute;
-  left: 4px;
-  top: 0;
-  color: #215945;
-  font-weight: 800;
-  font-size: 15px;
+  content: none !important;
+  display: none !important;
+}
+.ag-pc-check-icon {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #e0eee4;
+  color: #1e664d;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
 }
 
 /* Practical Learning, Admission Routes & Career Roles Grids */
