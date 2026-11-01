@@ -115,33 +115,62 @@
 
 /* Publication Sections */
 .ag-publication-section {
-  margin-bottom: 42px;
-  border-bottom: 1px solid #e6efe4;
-  padding-bottom: 34px;
+  margin: 0 !important;
+  border-bottom: 1px solid #dce6d8 !important;
+  padding: 24px 0 !important;
   scroll-margin-top: 130px;
 }
+.ag-publication-section:first-of-type {
+  padding-top: 8px !important;
+}
 .ag-publication-section:last-of-type {
-  border-bottom: none;
+  border-bottom: none !important;
+  padding-bottom: 8px !important;
+}
+.ag-publication-section > :last-child {
+  margin-bottom: 0 !important;
 }
 .ag-publication-section h2 {
-  font-size: clamp(22px, 2.2vw, 28px);
+  font-size: clamp(21px, 2.1vw, 27px);
   font-weight: 750;
   color: #103428;
-  margin: 0 0 16px;
+  margin: 0 0 12px;
   letter-spacing: -0.02em;
   line-height: 1.25;
 }
 .ag-publication-section h3 {
-  font-size: 17px;
+  font-size: 16.5px;
   font-weight: 700;
   color: #173f32;
-  margin: 22px 0 10px;
+  margin: 18px 0 8px;
 }
 .ag-publication-section p {
   font-size: 14.5px;
   color: #3b5448;
   line-height: 1.75;
-  margin: 10px 0 16px;
+  margin: 8px 0 14px;
+}
+.ag-publication-subsection {
+  margin: 12px 0;
+  padding: 16px 20px;
+  background: #f7faf5;
+  border: 1px solid #dbe6d8;
+  border-left: 4px solid #124b3b;
+  border-radius: 8px;
+}
+.ag-publication-subsection h3 {
+  margin: 0 0 6px !important;
+  font-size: 15.5px !important;
+  color: #103428 !important;
+}
+.ag-publication-subsection p {
+  margin: 6px 0 0 !important;
+  font-size: 13.5px !important;
+  line-height: 1.7 !important;
+}
+.ag-publication-subsection p:last-child,
+.ag-publication-subsection ul:last-child {
+  margin-bottom: 0 !important;
 }
 
 /* Highlights Grid - Balanced 2x2 Layout */

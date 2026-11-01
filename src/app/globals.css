@@ -407,7 +407,7 @@ dialog:not([open]),
   max-width: 100% !important;
   overflow-x: auto !important;
   -webkit-overflow-scrolling: touch;
-  margin: 20px 0 28px !important;
+  margin: 14px 0 !important;
   border: 1px solid #d4e3d1 !important;
   border-radius: 8px !important;
   background: #ffffff !important;
@@ -489,3 +489,17 @@ dialog:not([open]),
 .ag-publication-table tbody tr:hover td {
   background: #f8faf6 !important;
 }
+
+.ag-detail-nav > div > div { scrollbar-width: none !important; -ms-overflow-style: none !important; }
+.ag-detail-nav > div > div::-webkit-scrollbar { display: none !important; }
+.ag-publication-toc { margin: 0 0 22px !important; padding: 20px 24px !important; border-radius: 8px !important; }
+.ag-publication-section { margin: 0 !important; padding: 24px 0 !important; border-bottom: 1px solid #dce5d4 !important; }
+.ag-publication-section:first-of-type { padding-top: 8px !important; }
+.ag-publication-section:last-of-type { border-bottom: none !important; padding-bottom: 8px !important; }
+.ag-publication-section > :last-child { margin-bottom: 0 !important; }
+.ag-publication-section h2 { margin: 0 0 12px !important; }
+.ag-publication-subsection { margin: 12px 0 !important; padding: 16px 20px !important; background: #f7faf5 !important; border: 1px solid #dbe6d8 !important; border-left: 4px solid #124b3b !important; border-radius: 8px !important; }
+.ag-publication-subsection h3 { margin: 0 0 6px !important; font-size: 15.5px !important; color: #103428 !important; }
+.ag-publication-subsection p { margin: 6px 0 0 !important; font-size: 13.5px !important; line-height: 1.7 !important; }
+.ag-publication-subsection p:last-child, .ag-publication-subsection ul:last-child { margin-bottom: 0 !important; }
+.ag-detail-authored .ag-publication-cards:has(> .ag-publication-card:only-child), .ag-publication-body .ag-publication-cards:has(> .ag-publication-card:only-child) { grid-template-columns: 1fr !important; }

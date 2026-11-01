@@ -45,9 +45,10 @@ html:has(.ag-detail) { scroll-padding-top: 0; }
 .ag-detail-fact-strip small { display: block; margin-bottom: 3px; color: #728075; font-size: 10px; }
 .ag-detail-fact-strip strong { display: block; font-size: 13px; font-weight: 650; line-height: 1.5; }
 .ag-detail-nav { position: sticky; z-index: 30; top: 55px; background: #fffffff7; border-bottom: 1px solid var(--ag-line); backdrop-filter: blur(10px); }
-.ag-detail-nav > div { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
-.ag-detail-nav > div > div { display: flex; min-width: 0; gap: 29px; overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
-.ag-detail-nav a { display: inline-flex; align-items: center; min-height: 57px; flex-shrink: 0; padding-block: 13px; border-bottom: 3px solid transparent; color: #607368; font-size: 12px; font-weight: 600; white-space: nowrap; }
+.ag-detail-nav > div { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.ag-detail-nav > div > div { display: flex; min-width: 0; gap: clamp(14px, 1.5vw, 22px); overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: none; -ms-overflow-style: none; }
+.ag-detail-nav > div > div::-webkit-scrollbar { display: none; }
+.ag-detail-nav a { display: inline-flex; align-items: center; min-height: 54px; flex-shrink: 0; padding-block: 12px; border-bottom: 3px solid transparent; color: #607368; font-size: 12px; font-weight: 600; white-space: nowrap; }
 .ag-detail-nav a[aria-current] { border-bottom-color: var(--ag-green); color: var(--ag-green); }
 .ag-detail-nav .ag-button { min-height: 34px; padding: 8px 15px; font-size: 11px !important; }
 .ag-detail-layout { display: grid; grid-template-columns: minmax(0, 1fr) 326px; align-items: start; gap: 35px; padding-top: 29px; padding-bottom: 22px; }
