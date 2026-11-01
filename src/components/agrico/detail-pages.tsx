@@ -10,6 +10,8 @@ import { DetailAskButton, DetailExplorer, DetailLeadForm, DetailNavigation, Deta
 import { feeText, type ProgrammeModel, type UniversityModel } from './detail-models';
 import { PROGRAMME_CONTENT_LINKS, ProgrammeContentSections } from './programme-content-sections';
 import './detail.css';
+import './publication.css';
+import './agrico-programme-content.css';
 
 const heading = (eyebrow: string, title: string) => <div className="ag-detail-section-heading"><p className="ag-eyebrow">{eyebrow}</p><h2>{title}</h2></div>;
 const admissionSteps = [
@@ -69,7 +71,11 @@ function Closing() {
 export function AgricoProgrammeDetail({ model }: { model: ProgrammeModel }) {
   const hasAuthored = Boolean(model.section?.content?.length);
   const activeSection = model.sections.find(s => (s.secondary_slug || s.slug) === model.activeSlug);
-  const activeTabLabel = model.activeSlug && model.activeSlug !== 'overview' ? (activeSection?.display_name || activeSection?.name || model.section?.display_name) : undefined;
+  const isSubTab = Boolean(model.activeSlug && model.activeSlug !== 'overview');
+  const activeTabLabel = isSubTab ? (activeSection?.display_name || activeSection?.name || model.section?.display_name) : undefined;
+  const heroTitle = isSubTab && model.section?.heading ? model.section.heading : model.name;
+  const heroDescription = isSubTab && model.section?.seo?.metaDescription ? model.section.seo.metaDescription : model.description;
+  const heroEyebrow = isSubTab && activeTabLabel ? `Agriculture education · ${activeTabLabel}` : (model.content?.hero?.eyebrow || 'Agriculture education · Programme guide');
 
   const links = model.sections.length > 1 ? model.sections.map((s, index) => ({
     id: s.secondary_slug || s.slug,
@@ -89,17 +95,17 @@ export function AgricoProgrammeDetail({ model }: { model: ProgrammeModel }) {
   const facts = [{ icon: GraduationCap, label: 'Study level', value: model.level }, { icon: Clock3, label: 'Duration', value: model.duration }, { icon: Building2, label: 'Learning format', value: model.mode }, { icon: Sprout, label: 'Study focus', value: model.focus }].filter(item => item.value);
   return <DetailProvider context={model.context} kind="programme">
     <section className="ag-detail-hero"><div className="ag-container"><Crumbs name={model.name} tabLabel={activeTabLabel} parentPath={model.path} /><div className="ag-detail-hero__grid"><div>
-      <p className="ag-eyebrow">{model.content?.hero?.eyebrow || 'Agriculture education · Programme guide'}</p><h1>{model.name}</h1>
+      <p className="ag-eyebrow">{heroEyebrow}</p><h1>{heroTitle}</h1>
       {model.offeredAt && <Link className="ag-detail-offered-at" href={model.universityPath!}><Building2 size={17} />At {model.offeredAt}<ArrowRight size={15} /></Link>}
-      <p className="ag-detail-hero__description">{model.description}</p><div className="ag-detail-hero__actions"><DetailAskButton>Get programme guidance</DetailAskButton>{model.sections.length > 1 ? <Link href={model.path + '/curriculum'} className="ag-text-link">Explore the curriculum<ArrowRight size={16} /></Link> : <a href="#curriculum-syllabus" className="ag-text-link">Explore the curriculum<ArrowRight size={16} /></a>}</div>
+      <p className="ag-detail-hero__description">{heroDescription}</p><div className="ag-detail-hero__actions"><DetailAskButton>Get programme guidance</DetailAskButton>{model.sections.length > 1 ? <Link href={isSubTab ? model.path : model.path + '/curriculum'} className="ag-text-link">{isSubTab ? 'Back to full overview' : 'Explore the curriculum'}<ArrowRight size={16} /></Link> : <a href="#curriculum-syllabus" className="ag-text-link">Explore the curriculum<ArrowRight size={16} /></a>}</div>
       <p className="ag-detail-hero__note"><BookOpen size={15} />Understand your degree. Plan your next step.</p>
     </div><div className="ag-detail-hero__visual"><Image src="/images/agrico/agritech-workshop.png" alt="Illustrative agriculture technology learning scene with students examining a teaching drone" fill preload sizes="(max-width: 760px) 100vw, 43vw" /><span><FlaskConical size={18} />Learning through science &amp; technology</span></div></div></div></section>
     <div className="ag-detail-fact-strip"><div className="ag-container">{facts.map(fact => <div key={fact.label}><fact.icon size={25} strokeWidth={1.5} /><span><small>{fact.label}</small><strong>{fact.value}</strong></span></div>)}</div></div>
     <DetailNavigation links={links} current={model.activeSlug} label="Programme sections" />
     <div className="ag-container ag-detail-layout"><article className="ag-detail-main">
       {model.content ? <ProgrammeContentSections model={model} /> : hasAuthored ? (
-        <div className="ag-detail-authored">
-          <SectionBody section={model.section} heading={model.section?.heading || model.section?.display_name || model.section?.name} />
+        <div className="ag-detail-authored ag-publication-body">
+          <SectionBody section={model.section} />
         </div>
       ) : <>
       <section id="overview" className="ag-detail-section">{heading('Know your programme', 'A degree built around your interests.')}

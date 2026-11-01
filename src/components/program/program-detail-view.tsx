@@ -9,8 +9,8 @@ import { getProgrammeContent } from '@/lib/agrico/programme-content';
 export function ProgramDetailView({ program, section, activeSlug, related }: {
   program: ProgramDetail; section: ContentSection | null; activeSlug: string | null; related: ProgramCard[];
 }) {
-  const model = cmsProgrammeModel(program, section, related, activeSlug);
   const researched = getProgrammeContent(program.slug);
+  const model = cmsProgrammeModel(program, section, related, activeSlug, researched);
   const faqs = researched?.faqs || [];
 
   const courseSchema = {

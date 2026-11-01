@@ -95,25 +95,32 @@ export function contentProgrammeModel(content: ProgrammeContent, universities: P
   };
 }
 
-export function cmsProgrammeModel(program: ProgramDetail, section: ContentSection | null, related: ProgramCard[], activeSlug?: string | null): ProgrammeModel {
-  const name = program.full_name || (program.course ? program.course.name + ' in ' + program.name : program.name);
+export function cmsProgrammeModel(program: ProgramDetail, section: ContentSection | null, related: ProgramCard[], activeSlug?: string | null, researched?: ProgrammeContent | null): ProgrammeModel {
+  const name = program.full_name || researched?.name || (program.course ? program.course.name + ' in ' + program.name : program.name);
   const text = (name + ' ' + program.stream?.name).toLowerCase();
   const guide = PROGRAMMES.find(p => text.includes(p.id === 'engineering' ? 'agricultural engineering' : p.id === 'agriculture' ? 'agriculture' : p.id));
   const fees = offeringsByUniversity(program.program_offerings);
   const spread = offeringFeeSpread(program.program_offerings);
+  const cmsResources = [{ name: 'Programme brochure', href: mediaUrl(program.brochure?.url) }, { name: 'Programme syllabus', href: mediaUrl(program.syllabus?.url) }].filter((r): r is { name: string; href: string } => !!r.href);
+  const researchedResources = (researched?.sources || []).slice(0, 4).map(s => ({ name: s.title, href: s.url }));
   return {
     name, slug: program.slug, path: '/' + program.slug,
-    description: blocksToText(program.short_description) || 'Explore the curriculum, entry requirements, university options and practical learning behind this programme.',
+    description: blocksToText(program.short_description) || researched?.hero?.summary || 'Explore the curriculum, entry requirements, university options and practical learning behind this programme.',
     richDescription: program.short_description,
-    level: program.course?.level?.name || '', duration: durationLabel(program), mode: program.course_mode?.name || '',
-    focus: guide?.focus || program.stream?.name || 'Subject-focused learning', subjects: guide?.subjects || 'University-specific curriculum', careers: guide?.careers || 'Programme-specific career pathways',
+    level: program.course?.level?.name || researched?.level || 'Undergraduate',
+    duration: durationLabel(program) || researched?.duration || '4 years (8 semesters)',
+    mode: program.course_mode?.name || researched?.mode || 'Full-time, campus-based',
+    focus: researched?.discipline || guide?.focus || program.stream?.name || 'Agricultural Sciences',
+    subjects: guide?.subjects || 'University-specific curriculum',
+    careers: guide?.careers || 'Programme-specific career pathways',
     topics: guide?.topics || [{ title: 'Your curriculum', description: 'Explore the subjects and areas covered by the programme.', art: 3 }, { title: 'Practical learning', description: 'Ask about laboratories, projects and field learning.', art: 4 }, { title: 'Your next step', description: 'Connect your study interests with future opportunities.', art: 8 }],
-    fee: program.fee, feeLabel: spread?.label,
-    feeNote: spread ? 'Published fees across ' + spread.count + ' universities. Confirm the fee period and included charges with your chosen university.' : null,
+    fee: program.fee,
+    feeLabel: spread?.label || (program.fee ? undefined : '₹15,000 – ₹1.8L / yr'),
+    feeNote: spread ? 'Published fees across ' + spread.count + ' universities. Confirm the fee period and included charges with your chosen university.' : (researched?.fees?.summary ? firstSentence(researched.fees.summary) : 'Government SAUs charge subsidised semester tuition; private universities set independent fee schedules.'),
     averagePackage: program.average_package,
     highlights: (program.highlights || []).filter((h): h is typeof h & { key: string; value: string } => !!h.key && !!h.value),
     eligibility: (program.eligibilities || []).map(e => e.name), exams: (program.exams || []).map(e => ({ name: e.name, href: '/exams/' + e.slug })),
-    resources: [{ name: 'Programme brochure', href: mediaUrl(program.brochure?.url) }, { name: 'Programme syllabus', href: mediaUrl(program.syllabus?.url) }].filter((r): r is { name: string; href: string } => !!r.href),
+    resources: cmsResources.length ? cmsResources : researchedResources,
     universities: (program.universities || []).map(u => ({ ...universityListing(u), fee: offeringFee(fees.get(u.slug)) ?? u.program_fees?.find(f => f.program?.slug === program.slug)?.fee ?? null })),
     related: related.map(programmeListing), context: { programName: name, programSlug: program.slug }, section, sections: program.university_contents || [], activeSlug,
   };

@@ -528,3 +528,112 @@
   color: #728c7f;
 }
 
+/* High-specificity overrides inside .ag-detail to prevent margin/border resets */
+.ag-detail .ag-detail-authored .ag-publication-toc {
+  margin: 0 0 32px;
+}
+.ag-detail .ag-detail-authored .ag-publication-toc h2 {
+  margin: 4px 0 14px;
+  font-size: 19px;
+}
+.ag-detail .ag-detail-authored .ag-publication-section {
+  padding: 32px 0;
+  margin-bottom: 0;
+  border-bottom: 1px solid #dce6d8;
+}
+.ag-detail .ag-detail-authored .ag-publication-section:first-of-type {
+  padding-top: 8px;
+}
+.ag-detail .ag-detail-authored .ag-publication-section:last-of-type {
+  border-bottom: none;
+  padding-bottom: 12px;
+}
+.ag-detail .ag-detail-authored .ag-publication-section h2 {
+  margin: 0 0 16px;
+  font-size: clamp(22px, 2.2vw, 28px);
+  line-height: 1.25;
+}
+.ag-detail .ag-detail-authored .ag-publication-section h3 {
+  margin: 22px 0 10px;
+  font-size: 17px;
+  line-height: 1.35;
+}
+.ag-detail .ag-detail-authored .ag-publication-section p {
+  margin: 10px 0 16px;
+  font-size: 14.5px;
+  line-height: 1.78;
+  color: #385145;
+}
+.ag-detail .ag-detail-authored .ag-publication-subsection {
+  margin: 20px 0;
+  padding: 18px 22px;
+  background: #f8fbf6;
+  border: 1px solid #dfeadc;
+  border-radius: 10px;
+}
+.ag-detail .ag-detail-authored .ag-publication-subsection h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+  color: #123d2e;
+}
+.ag-detail .ag-detail-authored .ag-publication-subsection p:last-child,
+.ag-detail .ag-detail-authored .ag-publication-subsection ul:last-child {
+  margin-bottom: 0;
+}
+.ag-detail .ag-detail-authored .ag-publication-section .ag-publication-refs {
+  margin: 14px 0 0;
+  font-size: 11.5px;
+  color: #6b8275;
+}
+.ag-detail .ag-detail-authored .ag-pc-stage-card h3,
+.ag-detail .ag-detail-authored .ag-pc-practical-item h3,
+.ag-detail .ag-detail-authored .ag-pc-route-card h3,
+.ag-detail .ag-detail-authored .ag-pc-role-card h3,
+.ag-detail .ag-detail-authored .ag-publication-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+.ag-detail .ag-detail-authored .ag-pc-stage-card p,
+.ag-detail .ag-detail-authored .ag-pc-practical-item p,
+.ag-detail .ag-detail-authored .ag-pc-route-card p,
+.ag-detail .ag-detail-authored .ag-pc-role-card p {
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.65;
+}
+.ag-detail .ag-detail-authored .ag-publication-card p {
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.6;
+}
+.ag-detail .ag-detail-authored .ag-detail-faqs {
+  border: none;
+  border-radius: 0;
+  overflow: visible;
+  margin-top: 16px;
+}
+.ag-detail .ag-detail-authored .ag-detail-faqs details {
+  border: 1px solid #d8e5d4;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  background: #fff;
+}
+.ag-detail .ag-detail-authored .ag-detail-faqs details[open] {
+  background: #f6faf4;
+  border-color: #b2ccb0;
+}
+.ag-detail .ag-detail-authored .ag-detail-faqs summary {
+  padding: 15px 18px;
+  font-size: 14.5px;
+  font-weight: 650;
+  color: #103428;
+}
+.ag-detail .ag-detail-authored .ag-detail-faqs details p {
+  padding: 0 18px 16px;
+  margin: 0;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: #3b5448;
+}
+
+

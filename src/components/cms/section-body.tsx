@@ -79,6 +79,9 @@ export function SectionBody({
   const hasFaqSection = blocks.some(isFaqSection);
   const isFaqTab = (section?.secondary_slug || section?.slug || '').toLowerCase().includes('faq');
   const badge = getSectionBadge(section);
+  if (blocks.length > 0 && blocks.every((b) => isHtmlSection(b) || isCustomSection(b))) {
+    return <div className="w-full">{blocks.map((b) => isHtmlSection(b) ? <HtmlSection key={`${b.__component}-${b.id}`} block={b} /> : <CustomSection key={`${b.__component}-${b.id}`} block={b} />)}</div>;
+  }
 
   return (
     <div className="w-full space-y-7">
