@@ -298,6 +298,14 @@
   gap: 10px !important;
 }
 
+#sources-review,
+.ag-publication-refs,
+.ag-publication-sources,
+.ag-pc-sources-block,
+.ag-publication-toc li:has(a[href="#sources-review"]) {
+  display: none !important;
+}
+
 .ag-eyebrow--light {
   color: #e3eee6 !important;
 }

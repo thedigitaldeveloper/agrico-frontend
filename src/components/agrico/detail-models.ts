@@ -109,7 +109,6 @@ export function cmsProgrammeModel(program: ProgramDetail, section: ContentSectio
   const fees = offeringsByUniversity(program.program_offerings);
   const spread = offeringFeeSpread(program.program_offerings);
   const cmsResources = [{ name: 'Programme brochure', href: mediaUrl(program.brochure?.url) }, { name: 'Programme syllabus', href: mediaUrl(program.syllabus?.url) }].filter((r): r is { name: string; href: string } => !!r.href);
-  const researchedResources = (researched?.sources || []).slice(0, 4).map(s => ({ name: s.title, href: s.url }));
   return {
     name, slug: program.slug, path: '/' + program.slug,
     description: blocksToText(program.short_description) || researched?.hero?.summary || 'Explore the curriculum, entry requirements, university options and practical learning behind this programme.',
@@ -127,7 +126,7 @@ export function cmsProgrammeModel(program: ProgramDetail, section: ContentSectio
     averagePackage: program.average_package,
     highlights: (program.highlights || []).filter((h): h is typeof h & { key: string; value: string } => !!h.key && !!h.value),
     eligibility: (program.eligibilities || []).map(e => e.name), exams: (program.exams || []).map(e => ({ name: e.name, href: '/exams/' + e.slug })),
-    resources: cmsResources.length ? cmsResources : researchedResources,
+    resources: cmsResources,
     universities: (program.universities || []).map(u => ({ ...universityListing(u), fee: offeringFee(fees.get(u.slug)) ?? u.program_fees?.find(f => f.program?.slug === program.slug)?.fee ?? null })),
     related: related.map(programmeListing), context: { programName: name, programSlug: program.slug }, section, sections: program.university_contents || [], activeSlug,
   };

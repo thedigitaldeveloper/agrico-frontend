@@ -13,9 +13,8 @@ function Inline({ text }: { text: string }) {
     return match[2].startsWith('/') ? <Link key={index} href={match[2]}>{match[1]}</Link> : <a key={index} href={match[2]} target="_blank" rel="noopener noreferrer">{match[1]}</a>;
   })}</>;
 }
-function References({ ids, sources }: { ids?: string[]; sources: PublicationSource[] }) {
-  const known = (ids || []).filter(id => sources.some(source => source.id === id));
-  return known.length ? <p className="ag-publication-refs">Sources: {known.map(id => <a href={'#source-' + id} key={id}>[{sources.findIndex(source => source.id === id) + 1}]</a>)}</p> : null;
+function References(_props: { ids?: string[]; sources: PublicationSource[] }) {
+  return null;
 }
 export function PublicationCards({ cards }: { cards: PublicationCard[] }) {
   return <div className="ag-publication-cards">{cards.map(card => {
@@ -28,6 +27,7 @@ export function PublicationCards({ cards }: { cards: PublicationCard[] }) {
   })}</div>;
 }
 function ContentSection({ section, doc }: { section: PublicationSection; doc: PublicationDocument }) {
+  if (section.id === 'sources-review') return null;
   return <section id={section.id} className="ag-publication-section">
     <h2>{section.heading}</h2>
     {section.paragraphs.map((text, index) => <p key={index}><Inline text={text} /></p>)}
@@ -46,7 +46,7 @@ function ContentSection({ section, doc }: { section: PublicationSection; doc: Pu
 
 export function AgricoPublicationContent({ doc }: { doc: PublicationDocument }) {
 const isUniversity = doc.kind === "University" || doc.kind === "UniversityTab";
-return <article className="ag-publication-body" data-agrico-document={doc.path}><nav className="ag-publication-toc" aria-label="Table of Contents"><p className="ag-eyebrow">On this page</p><h2>Table of Contents</h2><ol>{doc.toc.map(item => <li key={item.id}><a href={'#' + item.id}>{item.title}</a></li>)}</ol></nav>{doc.sections.map(section => <ContentSection key={section.id} section={section} doc={doc} />)}
+return <article className="ag-publication-body" data-agrico-document={doc.path}><nav className="ag-publication-toc" aria-label="Table of Contents"><p className="ag-eyebrow">On this page</p><h2>Table of Contents</h2><ol>{doc.toc.filter(item => item.id !== 'sources-review').map(item => <li key={item.id}><a href={'#' + item.id}>{item.title}</a></li>)}</ol></nav>{doc.sections.filter(section => section.id !== 'sources-review').map(section => <ContentSection key={section.id} section={section} doc={doc} />)}
       {!isUniversity && !!doc.related_universities.length && <section className="ag-publication-section"><h2>Explore relevant institutions</h2><PublicationCards cards={doc.related_universities} /></section>}
       {!isUniversity && !!doc.related_posts.length && <section className="ag-publication-section"><h2>Continue your reading</h2><PublicationCards cards={doc.related_posts} /></section>}
     </article>;
