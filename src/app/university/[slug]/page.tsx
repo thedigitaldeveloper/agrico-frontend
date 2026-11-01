@@ -66,7 +66,7 @@ export default async function UniversityPage({ params }: PageProps<'/university/
   if (authored) {
     const section = university ? await cmsFetchOptional(() => getContentSection('university', slug, 'overview'), null) : null;
     const state = publicationHtmlState(withRelatedEditorial(authored, (university?.editorial_posts || []).filter(post => post.publishedAt).map(post => ({ title: post.name, path: canonicalPostPath(post), description: post.description || '', kind: post.type || 'Article' }))), section, university?.university_contents);
-    return <AgricoPublicationPage doc={state.doc} htmlBlock={state.htmlBlock} />;
+    return <AgricoPublicationPage doc={state.doc} htmlBlock={state.htmlBlock} university={university} />;
   }
   if (!university) {
     const guide = getUniversityGuide(slug);

@@ -32,7 +32,8 @@ async function getAuthoredTab(slug: string, section: string) {
   const imported = parent?.tab_pages?.find(doc => doc.tab_slug === section);
   const doc = isPublicationDocument(imported, slug) ? { ...imported, indexing: imported.indexing || prepared.indexing } : prepared;
   const content = university ? await cmsFetchOptional(() => getContentSection('university', slug, section), null) : null;
-  return publicationHtmlState(doc, content, university?.university_contents);
+  const state = publicationHtmlState(doc, content, university?.university_contents);
+  return { ...state, university };
 }
 
 /**
@@ -72,7 +73,7 @@ export default async function UniversitySectionPage({
 }: PageProps<'/university/[slug]/[section]'>) {
   const { slug, section: sectionSlug } = await params;
   const authored = await getAuthoredTab(slug, sectionSlug);
-  if (authored) return <AgricoPublicationPage doc={authored.doc} htmlBlock={authored.htmlBlock} />;
+  if (authored) return <AgricoPublicationPage doc={authored.doc} htmlBlock={authored.htmlBlock} university={authored.university} />;
 
   const [university, section] = await Promise.all([
     getUniversityBySlug(slug),

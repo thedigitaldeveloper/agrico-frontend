@@ -26,7 +26,7 @@ export interface PublicationDocument {
   indexing?: { index: boolean; reviewed_on: string; reasons: string[] };
   tab_slug?: string; tab_label?: string; parent_path?: string; parent_title?: string;
   tabs?: { id: string; label: string; href: string }[]; tab_pages?: PublicationDocument[];
-  eyebrow?: string; identity?: { kind: string; short_name?: string; city: string; state: string; ownership: string; website: string; admissions_url?: string };
+  eyebrow?: string; identity?: { kind: string; short_name?: string; city: string; state: string; ownership: string; established?: number | string | null; parent_university?: string | null; website: string; admissions_url?: string };
   hero_media?: PublicationImage[]; sections: PublicationSection[]; toc: { id: string; title: string }[];
   faqs: { question: string; answer: string; source_ids?: string[] }[]; sources: PublicationSource[];
   related_universities: PublicationCard[]; related_posts: PublicationCard[];
