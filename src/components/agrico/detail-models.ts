@@ -61,7 +61,14 @@ export function guideProgrammeModel(guide: AgricultureProgramme): ProgrammeModel
 }
 
 const ART_CYCLE = [6, 1, 3, 4, 2, 0, 7, 8];
-const firstSentence = (text?: string) => (text || '').split(/(?<=\.)\s/)[0] || '';
+const firstSentence = (text?: string) => {
+  if (!text) return '';
+  const sentences = text.split(/(?<=\.)\s+/);
+  if (sentences[0] && sentences[0].length < 45 && sentences[1]) {
+    return `${sentences[0]} ${sentences[1]}`;
+  }
+  return sentences[0] || '';
+};
 
 /**
  * Builds a programme page from researched content. The editorial guide (when the

@@ -51,6 +51,12 @@
   color: #26634c;
   margin-bottom: 8px;
 }
+.ag-eyebrow--light {
+  color: #e3eee6 !important;
+}
+.ag-eyebrow--light::before {
+  background: #d8e8c6 !important;
+}
 
 /* Table of Contents Box */
 .ag-publication-toc {
@@ -138,12 +144,17 @@
   margin: 10px 0 16px;
 }
 
-/* Highlights Grid */
+/* Highlights Grid - Balanced 2x2 Layout */
 .ag-pc-highlights-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
   margin: 24px 0;
+}
+@media (max-width: 640px) {
+  .ag-pc-highlights-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .ag-pc-highlight-card {
   background: #f4f8f2;
@@ -152,7 +163,7 @@
   padding: 16px 18px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .ag-pc-highlight-label {
   display: block;
@@ -332,9 +343,16 @@
 .ag-pc-routes-grid,
 .ag-pc-roles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   margin: 20px 0;
+}
+@media (max-width: 640px) {
+  .ag-pc-practical-grid,
+  .ag-pc-routes-grid,
+  .ag-pc-roles-grid {
+    grid-template-columns: 1fr;
+  }
 }
 .ag-pc-practical-item,
 .ag-pc-route-card,
@@ -405,12 +423,17 @@
   color: #403410;
 }
 
-/* University Cards Grid */
+/* University & Related Cards Grid - Balanced 2-Column Layout */
 .ag-publication-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   margin: 22px 0;
+}
+@media (max-width: 640px) {
+  .ag-publication-cards {
+    grid-template-columns: 1fr;
+  }
 }
 .ag-publication-card {
   display: flex;
