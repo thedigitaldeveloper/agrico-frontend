@@ -1,0 +1,3138 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Institutions1–20 only; individual profile JSON files; aggregate/publication/CMS not changed",
+  "original_gaps": 157,
+  "original_gap_statuses": {
+    "not_verified": 103,
+    "resolved": 36,
+    "partial": 18
+  },
+  "remaining_gap_records": 123,
+  "validation_errors": [],
+  "fee_evidence": {
+    "original_numeric_profiles": 4,
+    "current_numeric_profiles": 6,
+    "new_quotes": [
+      "KCVAS UniversityQuota2026–27:180000INR tuition/sixmonths; othercharges separate",
+      "Eternal:45600firstsemester/40600secondonwards; exactundatedofficialtable,academic_year:null"
+    ],
+    "updated_quote": "KhalsaCollegeAmritsarBScAgriculturePart-I2026–27:120210INR,not historical2024–25 price"
+  },
+  "critical_findings": [
+    {
+      "institution_id": 6,
+      "issue": "Former pushkaram.in domain currently serves unrelated betting/login content",
+      "action": "Master website setnull; source URLs preserved but markeduntrusted_current_domain; admissionCTA switched to verifiedTNAUroute. Uncorroborated brochure-only current claims removed/qualified."
+    },
+    {
+      "institution_id": 19,
+      "issue": "CurrentCUadmissions2027–28 catalogue didnotestablish domesticBScAgricultureoffering",
+      "action": "Current programme availability remainsunverified; no generalCUscholarship/placement/fee numbers transferred toAgriculture."
+    },
+    {
+      "institution_ids": [
+        14,
+        16
+      ],
+      "issue": "RecordedICARtermsend8November2026",
+      "action": "No independentlyverifiedrenewal found; originalregulatorterms preserved."
+    }
+  ],
+  "documents_visually_read": [
+    "ACAR scholarship details PNG cddade11d60279fa.png",
+    "ANGRAU revised30Oct2026 noticep3:angrau-oct30-fees-page3.png",
+    "GADVASU2026–27 KCVAS feesphysicalp31/printedp13:gadvasu-kcvas-fees-2026.png",
+    "KhalsaCollege2026–27 feesp46:khalsa-fees-page1.png",
+    "KhalsaCollege2026–27 admission procedure:khalsa-admission-page1.png"
+  ],
+  "notes": [
+    "All20 original gap lists were checked against official entry points; inaccessible or insufficiently dated evidence remainsnot_verified,not invented.",
+    "TNAU2026–27brochurelinkedfromofficialportalreturned403toordinarypublicrequest; no authentication or access-control bypass attempted.",
+    "Website-scholarship support cells and historical policy are labelled with verification_scope/current_policy_verified flags for indexingreview.",
+    "Research snapshots are source evidence only,not aCMSimport or independentimagelicence."
+  ],
+  "institutions": [
+    {
+      "institution_id": 1,
+      "institution": "Adhiparasakthi Agricultural College",
+      "profile_file": "batch-01/01-adhiparasakthi-agricultural-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 8,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Official contact details and UG admission checklist refreshed."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.apachc.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.apachc.in/ac/admission-procedure.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.apachc.in/ac/faculty.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.apachc.in/ac/about-the-college.html",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.apachc.in/ac/bsc-agriculture.html",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://www.apachc.in/ac/admission-procedure.html",
+          "access": "page_read",
+          "note": "Read successfully on 31 October 2026; UG requirements and verification checklist are distinct from PG/Diploma requirements."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.apachc.in/ac/faculty.html",
+          "access": "page_read",
+          "note": "The teaching-employee list supplies names and qualifications but does not assign a professorial rank to every member."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://www.apachc.in/ac/faculty.html"
+          ],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "admissions",
+          "original_reason": "Official admission-procedure URL returned a fetch/cache error.",
+          "status": "resolved",
+          "resolution": "Previously inaccessible admission-procedure page read; application stages and exact UG document checklist added.",
+          "supporting_urls": [
+            "https://www.apachc.in/ac/bsc-agriculture.html",
+            "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+            "https://www.apachc.in/ac/admission-procedure.html"
+          ],
+          "attempted_primary_url": "https://www.apachc.in/ac/admission-procedure.html"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.apachc.in/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Exact institutional admission-procedure page now retrieved.",
+          "supporting_urls": [
+            "https://www.apachc.in/ac/admission-procedure.html"
+          ],
+          "attempted_primary_url": "https://www.apachc.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://www.apachc.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://www.apachc.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://www.apachc.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://www.apachc.in/"
+        },
+        {
+          "field": "identity.established",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://www.apachc.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 2,
+      "institution": "Adhiyamaan College of Agriculture and Research",
+      "profile_file": "batch-01/02-adhiyamaan-college-of-agriculture-and-research.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Scholarship image interpreted with scheme scope and limitations."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://acar.ac.in/index/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://acar.ac.in/index/ug-programme/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://acar.ac.in/index/faculty/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://acar.ac.in/index/placements/",
+          "status": null,
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://acar.ac.in/index/faculty/",
+          "access": "page_read",
+          "note": "Selected named roles from the currently published divisional directory; no claim that this is a complete appointment record."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png",
+          "access": "page_read",
+          "note": "Image visually read 31 October. Lists reported scholarship categories and student counts for 2022–25 cohorts, not individual eligibility, award amounts or a current application deadline."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://acar.ac.in/index/ug-programme/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://acar.ac.in/index/ug-programme/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "The UG page has a Scholarship heading, but readable scheme terms were not supplied; an image alone was not treated as verified eligibility.",
+          "status": "partial",
+          "resolution": "The signed scholarship image has now been read and its scheme names are documented; current eligibility, award amounts, exclusions and renewal terms are not supplied by that sheet.",
+          "supporting_urls": [
+            "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png"
+          ],
+          "attempted_primary_url": "https://acar.ac.in/index/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://acar.ac.in/index/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://acar.ac.in/index/faculty/"
+          ],
+          "attempted_primary_url": "https://acar.ac.in/index/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://acar.ac.in/index/ug-programme/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://acar.ac.in/index/ug-programme/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://acar.ac.in/index/ug-programme/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "The signed scholarship image has now been read and its scheme names are documented; current eligibility, award amounts, exclusions and renewal terms are not supplied by that sheet.",
+          "next_source": "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://acar.ac.in/index/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://acar.ac.in/index/ug-programme/"
+        }
+      ]
+    },
+    {
+      "institution_id": 3,
+      "institution": "J.K.K. Munirajah College of Agricultural Science",
+      "profile_file": "batch-01/03-j-k-k-munirajah-college-of-agricultural-science.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 11,
+      "remaining_gap_count": 8,
+      "changes": [
+        "Recovered official contact details and verified Admissions navigation target through JavaScript rendering."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://jkkmcas.org/",
+          "status": null,
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://jkkmcas.org/academics/departments/crop-management",
+          "status": null,
+          "error": "HTTP Error 406: Not Acceptable"
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s2",
+          "url": "https://jkkmcas.org/",
+          "access": "page_read",
+          "note": "JavaScript-rendered public homepage read 31 October; subsidiary pages still returned empty or short error bodies during this pass."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "identity.name",
+          "original_reason": "Official site uses singular Science; audited regulator row uses Sciences. Both spellings are documented rather than silently harmonising the regulator record.",
+          "status": "resolved",
+          "resolution": "Current official rendered homepage consistently uses singularScience; public-facing name and the regulator’s preserved literal name are both identified without altering audit membership.",
+          "supporting_urls": [
+            "https://jkkmcas.org/"
+          ],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "sources",
+          "original_reason": "Official homepage had no readable body and department fetch failed; facts here rely on explicitly logged official search excerpts.",
+          "status": "partial",
+          "resolution": "Official homepage body and contact information now read using Chrome. Admission, faculty, academics and campus subroutes returned empty bodies or client-side errors, so their missing details remain unverified.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://jkkmcas.org/academics/departments/crop-management"
+        },
+        {
+          "field": "identity.phone",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official rendered homepage gives office04285-298080 and admissions mobile contacts.",
+          "supporting_urls": [
+            "https://jkkmcas.org/"
+          ],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official rendered homepage lists deanjkkmcas@tnau.ac.in and jkkmcas@gmail.com.",
+          "supporting_urls": [
+            "https://jkkmcas.org/"
+          ],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "partial",
+          "resolution": "Rendered official navigation identifies /admissions, but the destination supplied no readable admission detail in this pass.",
+          "supporting_urls": [
+            "https://jkkmcas.org/"
+          ],
+          "attempted_primary_url": "https://jkkmcas.org/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://jkkmcas.org/"
+        },
+        {
+          "field": "sources",
+          "reason": "Official homepage body and contact information now read using Chrome. Admission, faculty, academics and campus subroutes returned empty bodies or client-side errors, so their missing details remain unverified.",
+          "next_source": "https://jkkmcas.org/admissions"
+        },
+        {
+          "field": "identity.admissions_url",
+          "reason": "Rendered official navigation identifies /admissions, but the destination supplied no readable admission detail in this pass.",
+          "next_source": "https://jkkmcas.org/admissions"
+        }
+      ]
+    },
+    {
+      "institution_id": 4,
+      "institution": "JSA College of Agriculture and Technology",
+      "profile_file": "batch-01/04-jsa-college-of-agriculture-and-technology.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 8,
+      "remaining_gap_count": 6,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Recovered programme duration, subject/category table, welfare and alumni evidence through JavaScript rendering."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.jsaagri.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.jsaagri.in/eligibility",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s5",
+          "url": "https://www.jsaagri.in/eligibility",
+          "access": "page_read",
+          "note": "College page displays academic subject groups and category thresholds but no dated TNAU prospectus citation; confirm intake-year changes before applying."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://www.jsaagri.in/faculty/cropManagement",
+          "access": "page_read",
+          "note": "Read in Chrome 31 October; specific departmental roles and qualifications shown."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.jsaagri.in/courses",
+          "access": "page_read",
+          "note": "Read rendered courses page; UG 4 years/8 semesters and PG 2 years/4 semesters. Additional listed courses are not represented as ICAR-accredited."
+        },
+        {
+          "id": "r31_3",
+          "url": "https://www.jsaagri.in/placements",
+          "access": "page_read",
+          "note": "Undated B.Sc. Agriculture alumni examples mix employment, self-employment and higher study; no cohort denominator, salary or placement rate established."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "partial",
+          "resolution": "Named agriculture graduate destination examples are now sourced; no dated cohort, eligible-student denominator or salary definitions establish a placement rate.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://www.jsaagri.in/faculty/cropManagement"
+          ],
+          "attempted_primary_url": "https://www.jsaagri.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "partial",
+          "resolution": "College subject-group and category-mark tables have been read. The body is undated and other procedure text still references2022, so the applicable2026–27/next-intake TNAU prospectus must confirm the thresholds.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "programmes",
+          "original_reason": "Homepage advertises horticulture and three agriculture MSc specialisations, but detailed current approvals, durations and eligibility were not verified; they are not presented as ICAR-covered degrees.",
+          "status": "partial",
+          "resolution": "Courses page now confirms four-year BScHorticulture and two-year MScAgronomy, Genetics&PlantBreeding and SoilScience&AgriculturalChemistry as additional website-listed offerings; their separate approvals, current admission eligibility and ICAR coverage are not established.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/"
+        },
+        {
+          "field": "sources",
+          "original_reason": "Official pages returned JavaScript-only shells; profile uses explicitly logged indexed official excerpts.",
+          "status": "resolved",
+          "resolution": "Official course, eligibility, welfare, faculty and outcomes pages successfully read after JavaScript rendering.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jsaagri.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://www.jsaagri.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "Named agriculture graduate destination examples are now sourced; no dated cohort, eligible-student denominator or salary definitions establish a placement rate.",
+          "next_source": "https://www.jsaagri.in/placements"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "College subject-group and category-mark tables have been read. The body is undated and other procedure text still references 2022, so the applicable 2026–27/next-intake TNAU prospectus must confirm the thresholds.",
+          "next_source": "https://www.jsaagri.in/eligibility"
+        },
+        {
+          "field": "programmes",
+          "reason": "Courses page now confirms four-year BScHorticulture and two-year M.Sc. Agronomy, Genetics & Plant Breeding and Soil Science & Agricultural Chemistry as additional website-listed offerings; their separate approvals, current admission eligibility and ICAR coverage are not established.",
+          "next_source": "https://www.jsaagri.in/courses"
+        }
+      ]
+    },
+    {
+      "institution_id": 5,
+      "institution": "PGP College of Agricultural Sciences",
+      "profile_file": "batch-01/05-pgp-college-of-agricultural-sciences.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 4,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Verified public institution email added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://pgpagricollege.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://pgpagricollege.ac.in/admission/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://pgpagricollege.ac.in/departmental-faculty/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://pgpagricollege.ac.in/contact/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s2",
+          "url": "https://pgpagricollege.ac.in/",
+          "access": "page_read",
+          "note": "Public page HTML supplies its institution email via the site’s standard email-protection encoding; decoded as deanpgpcas@tnau.ac.in."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://pgpagricollege.ac.in/departmental-faculty/",
+          "access": "page_read",
+          "note": "Selected named heads/teachers from official page read 31 October."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/admission/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://pgpagricollege.ac.in/departmental-faculty/"
+          ],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/admission/"
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Public official page HTML supplies deanpgpcas@tnau.ac.in; institution address decoded from standard visible-contact email protection.",
+          "supporting_urls": [
+            "https://pgpagricollege.ac.in/"
+          ],
+          "attempted_primary_url": "https://pgpagricollege.ac.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://pgpagricollege.ac.in/admission/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://pgpagricollege.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://pgpagricollege.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://pgpagricollege.ac.in/admission/"
+        }
+      ]
+    },
+    {
+      "institution_id": 6,
+      "institution": "Pushkaram College of Agriculture Sciences",
+      "profile_file": "batch-01/06-pushkaram-college-of-agriculture-sciences.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 11,
+      "remaining_gap_count": 13,
+      "changes": [
+        "Quarantined unrelated former college domain and replaced admission CTA with verified TNAU route."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://pushkaram.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://pushkaram.in/contact-us/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://tnau.ucanapply.com/",
+          "access": "page_read",
+          "note": "Verified authority route for affiliated-college applicants; not a claim that applications remain open."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.address",
+          "original_reason": "The audit includes postcode 322303; the TNAU 2024–25 prospectus gives 622303. Current postal details need confirmation.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "campus.facilities",
+          "original_reason": "Official homepages timed out; historical brochure fetch returned 404, so current facilities cannot be established.",
+          "status": "partial",
+          "resolution": "The former college domain now contains unrelated betting material. Historical college newsletters demonstrate past activities, but no current campus-facility availability or capacity can be verified from that domain.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "programmes.0.duration",
+          "original_reason": "A current course-specific institutional duration page was not retrieved.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.phone",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "partial",
+          "resolution": "TNAU’s verified affiliated-college application route is now supplied. A currently verified college-specific admission contact/page remains unavailable.",
+          "supporting_urls": [
+            "https://tnau.ucanapply.com/"
+          ],
+          "attempted_primary_url": "https://pushkaram.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.address",
+          "reason": "The audit includes postcode 322303; the TNAU 2024–25 prospectus gives 622303. Current postal details need confirmation.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "The former college domain now contains unrelated betting material. Historical college newsletters demonstrate past activities, but no current campus-facility availability or capacity can be verified from that domain.",
+          "next_source": "https://tnau.ac.in/"
+        },
+        {
+          "field": "programmes.0.duration",
+          "reason": "A current course-specific institutional duration page was not retrieved.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.phone",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://pushkaram.in/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "reason": "TNAU’s verified affiliated-college application route is now supplied. A currently verified college-specific admission contact/page remains unavailable.",
+          "next_source": "https://tnau.ucanapply.com/"
+        },
+        {
+          "field": "identity.website",
+          "reason": "The historical college domain serves unrelated betting/login material. Alternate college domain hosts historical PDFs, but its current official homepage/contact was not verified.",
+          "next_source": "https://tnau.ac.in/"
+        },
+        {
+          "field": "identity.established",
+          "reason": "The former establishment-year statement relied on a historical brochure at a domain that now serves unrelated material. No independently corroborated founding year is published here.",
+          "next_source": "https://tnau.ac.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 7,
+      "institution": "The Indian Agriculture College",
+      "profile_file": "batch-01/07-the-indian-agriculture-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Named academic staff and source-linked roles added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://tiac.rajas.edu/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tiac.rajas.edu/admission-open/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tiac.rajas.edu/campus/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://tiac.rajas.edu/faculty/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://tiac.rajas.edu/faculty/",
+          "access": "page_read",
+          "note": "Published faculty roles distinguish visiting/guest faculty from assistant professors; selected exact roles only."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://tiac.rajas.edu/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://tiac.rajas.edu/faculty/"
+          ],
+          "attempted_primary_url": "https://tiac.rajas.edu/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "campus.facilities",
+          "original_reason": "The read campus page is primarily a gallery; facility capacity and current access were not documented.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://tiac.rajas.edu/campus/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://tiac.rajas.edu/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://tiac.rajas.edu/admission-open/"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "The read campus page is primarily a gallery; facility capacity and current access were not documented.",
+          "next_source": "https://tiac.rajas.edu/campus/"
+        }
+      ]
+    },
+    {
+      "institution_id": 8,
+      "institution": "Palar Agricultural College",
+      "profile_file": "batch-01/08-palar-agricultural-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Named agronomy faculty and documented scholarship-support role added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://palaragri.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://palaragri.ac.in/admission/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://palaragri.ac.in/faculties-agronomy/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://palaragri.ac.in/scholarship-cell/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://palaragri.ac.in/faculties-agronomy/",
+          "access": "page_read",
+          "note": "Undated official subject-directory page; the names are shown as agronomy faculty, without inferred professorial ranks or a total staffing claim."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://palaragri.ac.in/scholarship-cell/",
+          "access": "page_read",
+          "note": "Describes application guidance and documentation support, not a grant amount or award policy."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "The official admission page says fees follow Government of Tamil Nadu prescriptions but provides no verified dated numeric schedule.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://palaragri.ac.in/admission/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://palaragri.ac.in/admission/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "partial",
+          "resolution": "A documented Scholarship Cell and its application-support function are now sourced. Dated award rules, individual scheme eligibility and grant amounts remain unverified.",
+          "supporting_urls": [
+            "https://palaragri.ac.in/",
+            "https://palaragri.ac.in/scholarship-cell/"
+          ],
+          "attempted_primary_url": "https://palaragri.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://palaragri.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://palaragri.ac.in/faculties-agronomy/"
+          ],
+          "attempted_primary_url": "https://palaragri.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://palaragri.ac.in/admission/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "The official admission page says fees follow Government of Tamil Nadu prescriptions but provides no verified dated numeric schedule.",
+          "next_source": "https://palaragri.ac.in/admission/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://palaragri.ac.in/admission/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "A documented Scholarship Cell and its application-support function are now sourced. Dated award rules, individual scheme eligibility and grant amounts remain unverified.",
+          "next_source": "https://palaragri.ac.in/scholarship-cell/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://palaragri.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://palaragri.ac.in/admission/"
+        }
+      ]
+    },
+    {
+      "institution_id": 9,
+      "institution": "Thanthai Roever Institute of Agriculture and Rural Development",
+      "profile_file": "batch-01/09-thanthai-roever-institute-of-agriculture-and-rural-development.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "Dated outcome examples and clearly scoped semester-registration notice added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://roeveragri.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://roeveragri.ac.in/admission/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://roeveragri.ac.in/about-us/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://roeveragri.ac.in/facilities/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://roeveragri.ac.in/academics/crop-management/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://roeveragri.ac.in/placement/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s6",
+          "url": "https://roeveragri.ac.in/placement/",
+          "access": "page_read",
+          "note": "26 named entries mix public/private employment and other destinations; no graduating cohort denominator, salary definitions or a measured placement percentage."
+        },
+        {
+          "id": "media_logo",
+          "url": "https://roeveragri.ac.in/",
+          "access": "page_read",
+          "note": "Homepage announces 21 October 2026 registration for the 2024 batch IVsemester and 2025 batch IIIsemester; this is an enrolled-student academic event, not fresh-admission availability."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://roeveragri.ac.in/academics/crop-management/",
+          "access": "page_read",
+          "note": "Official named teaching roles and qualifications, accessed 31 October."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://roeveragri.ac.in/admission/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://roeveragri.ac.in/admission/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "partial",
+          "resolution": "A dated2025–26 named outcome list is now verified. It does not give the eligible graduating denominator or salary definitions needed for an agriculture placement rate.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://roeveragri.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://roeveragri.ac.in/academics/crop-management/"
+          ],
+          "attempted_primary_url": "https://roeveragri.ac.in/"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "1994 refers to diploma education. Website history says BSc began in 2008, while a historical TNAU MoU excerpt refers to 2015–16 affiliation; degree history needs reconciliation.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://roeveragri.ac.in/about-us/"
+        },
+        {
+          "field": "campus.facilities",
+          "original_reason": "The facilities page mixes undated arrangements with older 2018 examples and computing specifications; current capacities need confirmation.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://roeveragri.ac.in/facilities/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://roeveragri.ac.in/admission/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://roeveragri.ac.in/admission/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated 2025–26 named outcome list is now verified. It does not give the eligible graduating denominator or salary definitions needed for an agriculture placement rate.",
+          "next_source": "https://roeveragri.ac.in/placement/"
+        },
+        {
+          "field": "identity.established",
+          "reason": "1994 refers to diploma education. Website history says BSc began in 2008, while a historical TNAU MoU excerpt refers to 2015–16 affiliation; degree history needs reconciliation.",
+          "next_source": "https://roeveragri.ac.in/about-us/"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "The facilities page mixes undated arrangements with older 2018 examples and computing specifications; current capacities need confirmation.",
+          "next_source": "https://roeveragri.ac.in/facilities/"
+        }
+      ]
+    },
+    {
+      "institution_id": 10,
+      "institution": "Udai Pratap College",
+      "profile_file": "batch-01/10-udai-pratap-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 10,
+      "remaining_gap_count": 6,
+      "changes": [
+        "Named academic staff and source-linked roles added.",
+        "College-year milestone, office contact, Agriculture Dean and2026application dates/documents verified."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://upcollege.ac.in/Home",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://upcollege.ac.in/about/faculty",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://upcollege.ac.in/about/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s3",
+          "url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+          "access": "page_read",
+          "note": "Printed pages 5–7 contain application dates, entrance instructions, degree duration and uploaded-document requirements. Dates are historical and subject to later college amendments."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://upcollege.ac.in/about/contact",
+          "access": "page_read",
+          "note": "Current official contact page gives college address and office telephone."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.upcollege.ac.in/about/history",
+          "access": "page_read",
+          "note": "Separates 1909 school origin,1921 intermediate status and 1949 degree-college elevation."
+        },
+        {
+          "id": "r31_3",
+          "url": "https://upcollege.ac.in/about/faculty",
+          "access": "page_read",
+          "note": "Names the Agriculture Dean and subject departments; no complete agriculture teacher roster or qualifications supplied."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "resolved",
+          "resolution": "2026–27 brochure supplies16–25June2026application window, retained as historical dates without implying present vacancies.",
+          "supporting_urls": [
+            "https://upcollege.ac.in/Home",
+            "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+            "https://www.upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=17042026"
+          ],
+          "attempted_primary_url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://upcollege.ac.in/about/faculty"
+          ],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "Institutional school origin and college establishment are distinct; a precise college founding year was not resolved from the sources read.",
+          "status": "resolved",
+          "resolution": "Official history distinguishes1909school origin from1949degree-college foundation.",
+          "supporting_urls": [
+            "https://upcollege.ac.in/about/contact",
+            "https://www.upcollege.ac.in/about/history"
+          ],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "programmes",
+          "original_reason": "Additional MSc agriculture/horticulture courses appear in the official prospectus, but their full current eligibility/duration information was not verified; no extra accredited scope is inferred.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+        },
+        {
+          "field": "identity.address",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official contact page supplies precise street/locality and postal address.",
+          "supporting_urls": [
+            "https://upcollege.ac.in/about/contact",
+            "https://www.upcollege.ac.in/about/history"
+          ],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "identity.phone",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://upcollege.ac.in/Home"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "programmes",
+          "reason": "Additional MSc agriculture/horticulture courses appear in the official prospectus, but their full current eligibility/duration information was not verified; no extra accredited scope is inferred.",
+          "next_source": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+        },
+        {
+          "field": "identity.phone",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://upcollege.ac.in/Home"
+        },
+        {
+          "field": "identity.email",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://upcollege.ac.in/Home"
+        }
+      ]
+    },
+    {
+      "institution_id": 11,
+      "institution": "SBVR Agricultural College",
+      "profile_file": "batch-01/11-sbvr-agricultural-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 7,
+      "remaining_gap_count": 4,
+      "changes": [
+        "Current ANGRAU route schedule, document guidance and annual convener fee recency added.",
+        "Named academic staff and source-linked roles added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.sbvr.in/agriculturecollege/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.sbvr.in/agriculturecollege/academics/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.sbvr.in/agriculturecollege/faculty/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "access": "page_read",
+          "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.sbvr.in/agriculturecollege/faculty/",
+          "access": "page_read",
+          "note": "Selected current website entries distinguish faculty heads from retired guest professors; no appointment-year or guaranteed supervision claim."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "resolved",
+          "resolution": "Official30October2026revised manual-counselling notice supplies forthcoming2–11November2026route schedule for registered candidates.",
+          "supporting_urls": [
+            "https://www.sbvr.in/agriculturecollege/academics/",
+            "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+            "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf"
+          ],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/academics/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://www.sbvr.in/agriculturecollege/faculty/"
+          ],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "admissions",
+          "original_reason": "College pages show an intake of 150, ANGRAU directory 120 and ICAR audited row 72. These refer to different records and are not resolved as current seats.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "College and university directory list different Associate Deans; no current incumbent asserted.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://www.sbvr.in/agriculturecollege/faculty/"
+          ],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "original_reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.sbvr.in/agriculturecollege/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://www.sbvr.in/agriculturecollege/"
+        },
+        {
+          "field": "admissions",
+          "reason": "College pages show an intake of 150, ANGRAU directory 120 and ICAR audited row 72. These refer to different records and are not resolved as current seats.",
+          "next_source": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "next_source": "https://www.sbvr.in/agriculturecollege/"
+        }
+      ]
+    },
+    {
+      "institution_id": 12,
+      "institution": "N.S. Agricultural College",
+      "profile_file": "batch-01/12-n-s-agricultural-college.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 4,
+      "changes": [
+        "Current ANGRAU route schedule, document guidance and annual convener fee recency added.",
+        "Named academic staff and source-linked roles added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nsagri.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nsagri.ac.in/admissions-apply",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://nsagri.ac.in/faculty",
+          "status": null,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "access": "page_read",
+          "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://nsagri.ac.in/faculty-directory",
+          "access": "page_read",
+          "note": "Selected named academic leaders and qualifications; the website’s total staffing headline is not treated as a guaranteed cohort supervision ratio."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "resolved",
+          "resolution": "Official30October2026revised manual-counselling notice supplies forthcoming2–11November2026route schedule for registered candidates.",
+          "supporting_urls": [
+            "https://nsagri.ac.in/admissions-apply",
+            "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+            "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf"
+          ],
+          "attempted_primary_url": "https://nsagri.ac.in/admissions-apply"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://nsagri.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://nsagri.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "resolved",
+          "resolution": "Official named teaching/academic-role listing read on31October; selected listed members and exact roles added.",
+          "supporting_urls": [
+            "https://nsagri.ac.in/faculty-directory"
+          ],
+          "attempted_primary_url": "https://nsagri.ac.in/"
+        },
+        {
+          "field": "admissions",
+          "original_reason": "College site describes 156 seats including multiple categories; university directory shows 120 and audited ICAR scope 72. No real-time intake asserted.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "original_reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://nsagri.ac.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://nsagri.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://nsagri.ac.in/"
+        },
+        {
+          "field": "admissions",
+          "reason": "College site describes 156 seats including multiple categories; university directory shows 120 and audited ICAR scope 72. No real-time intake asserted.",
+          "next_source": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "next_source": "https://nsagri.ac.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 13,
+      "institution": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "profile_file": "batch-01/13-sri-krishnadevaraya-college-of-agricultural-sciences.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 7,
+      "remaining_gap_count": 6,
+      "changes": [
+        "Current ANGRAU route schedule, document guidance and annual convener fee recency added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://skcas.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://skcas.ac.in/admissions/",
+          "status": null,
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+          "access": "page_read",
+          "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "resolved",
+          "resolution": "Official30October2026revised manual-counselling notice supplies forthcoming2–11November2026route schedule for registered candidates.",
+          "supporting_urls": [
+            "https://skcas.ac.in/",
+            "https://www.skcas.ac.in/content/raw/Downloads/Web%20Options.pdf",
+            "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+            "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf"
+          ],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.0.duration",
+          "original_reason": "No explicit current degree-duration statement captured from the official pages read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "original_reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://skcas.ac.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://skcas.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.0.duration",
+          "reason": "No explicit current degree-duration statement captured from the official pages read.",
+          "next_source": "https://skcas.ac.in/"
+        },
+        {
+          "field": "identity.admissions_url",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://skcas.ac.in/"
+        },
+        {
+          "field": "programmes.fees.actual_management_and_living_costs",
+          "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+          "next_source": "https://skcas.ac.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 14,
+      "institution": "Khalsa College of Veterinary and Animal Sciences",
+      "profile_file": "batch-01/14-khalsa-college-of-veterinary-and-animal-sciences.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 6,
+      "remaining_gap_count": 2,
+      "changes": [
+        "Recovered2026–27 KCVAS tuition, charges, quota-specific scholarship rule and historical milestones."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://kcvas.com/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.gadvasu.in/page/admission-ug-2026-27",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.gadvasu.in/Welcome/download/document/225",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.gadvasu.in/Welcome/download/document/225",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://www.gadvasu.in/Welcome/download/document/225",
+          "access": "page_read",
+          "note": "BinaryPDF recovered and read; physicalPDFpage 31/printedpage 13 fee table visually checked. KCVAS amounts are six-monthly tuition, with other charges and entry-time totals separately labelled."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.kcvas.com/index.php/",
+          "access": "page_read",
+          "note": "College site distinguishes 2009 establishment from 2010 university affiliation/first intake."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A university-hosted quota-specific tuition table was read, but a confidently dated academic-year tuition schedule was not established. Obtain the 2026–27 KCVAS fee statement for the exact quota.",
+          "status": "resolved",
+          "resolution": "Dated2026–27 university prospectus recovered, with exact KCVAS quota-specific six-month tuition and separate charges visually confirmed.",
+          "supporting_urls": [
+            "https://www.gadvasu.in/Welcome/download/document/225"
+          ],
+          "attempted_primary_url": "https://www.gadvasu.in/page/admission-ug-2026-27"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "resolved",
+          "resolution": "Dated2026–27prospectus explicitly states SC/ST eligible Post-Matric UniversityQuota treatment; no general award extrapolated.",
+          "supporting_urls": [
+            "https://www.gadvasu.in/page/ug-fee-structure/85/3047",
+            "https://www.gadvasu.in/Welcome/download/document/225"
+          ],
+          "attempted_primary_url": "https://kcvas.com/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://kcvas.com/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "original_reason": "Audited term expires 8 November 2026, shortly after this research date. Renewal was not verified.",
+          "status": "not_verified",
+          "resolution": "Recorded ICAR term ends8November2026. Targeted official-source recheck on31October found no separately verified renewal decision; do not extend the recorded term.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://kcvas.com/"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "College describes establishment in 2009 and affiliation in 2010; historical university material describes start in 2010. These are kept as separate milestones.",
+          "status": "resolved",
+          "resolution": "College history identifies establishment2009; first intake/affiliation2010 retained as separate milestone.",
+          "supporting_urls": [
+            "https://www.kcvas.com/index.php/"
+          ],
+          "attempted_primary_url": "https://kcvas.com/"
+        },
+        {
+          "field": "sources",
+          "original_reason": "The official 2026–27 prospectus download returned unsupported application/octet-stream; readable university admission pages were used instead.",
+          "status": "resolved",
+          "resolution": "Previously unsupported octet-stream download recovered as a leading-newline PDF and read fully; selected fee table rendered and verified.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.gadvasu.in/Welcome/download/document/225"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://kcvas.com/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "reason": "Recorded ICAR term ends 8 November 2026. Targeted official-source recheck on 31 October found no separately verified renewal decision; do not extend the recorded term.",
+          "next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes"
+        }
+      ]
+    },
+    {
+      "institution_id": 15,
+      "institution": "Khalsa College, Amritsar",
+      "profile_file": "batch-01/15-khalsa-college-amritsar.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 9,
+      "remaining_gap_count": 7,
+      "changes": [
+        "Image-only2026–27 fee and admission documents visually recovered; current fee replaces historical quote."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://khalsacollege.edu.in/",
+          "status": null,
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s5",
+          "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+          "access": "page_read",
+          "note": "Image-only officialPDF visually read; page 1/printedprospectusp 46 rows 46–49 distinguish all four B.Sc. Agriculture years and instalments."
+        },
+        {
+          "id": "s6",
+          "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+          "access": "page_read",
+          "note": "Image-only admission page visually read; Punjab portal registration steps verified. Agriculture entrance/result/admission dates are explicitly marked To be Notified Later."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "Historical official 2024–25 prospectus figure. It is not a 2026 quote and not the total degree cost; obtain the current itemised schedule.",
+          "status": "resolved",
+          "resolution": "Both old historical-fee and image-unreadable gaps resolved by visually reading the dated2026–27 schedule with year/instalment scope.",
+          "supporting_urls": [
+            "https://khalsacollege.edu.in/images/feestructure.pdf"
+          ],
+          "attempted_primary_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "partial",
+          "resolution": "The2026–27 admission-procedure document is readable after rendering, but BScAgriculture test/result/admission dates are explicitly To be Notified Later. No current closing date is invented.",
+          "supporting_urls": [
+            "https://khalsacollege.edu.in/",
+            "https://khalsacollege.edu.in/images/feestructure.pdf",
+            "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+          ],
+          "attempted_primary_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "2024–25 fee is historical; 2026–27 linked fee PDF is image-only and no readable current amount was verified.",
+          "status": "resolved",
+          "resolution": "Both old historical-fee and image-unreadable gaps resolved by visually reading the dated2026–27 schedule with year/instalment scope.",
+          "supporting_urls": [
+            "https://khalsacollege.edu.in/images/feestructure.pdf"
+          ],
+          "attempted_primary_url": "https://khalsacollege.edu.in/images/feestructure.pdf"
+        },
+        {
+          "field": "admissions.eligibility_points",
+          "original_reason": "Linked current admission procedure PDF had no readable text; current subject thresholds remain unverified.",
+          "status": "partial",
+          "resolution": "The current admission-procedure PDF has now been visually read and its registration stages are documented, but it does not contain the agriculture subject/marks threshold matrix.",
+          "supporting_urls": [
+            "https://khalsacollege.edu.in/",
+            "https://khalsacollege.edu.in/images/feestructure.pdf",
+            "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+          ],
+          "attempted_primary_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "identity.address",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://khalsacollege.edu.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "The 2026–27 admission-procedure document is readable after rendering, but B.Sc. Agriculture test/result/admission dates are explicitly To be Notified Later. No current closing date is invented.",
+          "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://khalsacollege.edu.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "admissions.eligibility_points",
+          "reason": "The current admission-procedure PDF has now been visually read and its registration stages are documented, but it does not contain the agriculture subject/marks threshold matrix.",
+          "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+        },
+        {
+          "field": "identity.address",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://khalsacollege.edu.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 16,
+      "institution": "G H Raisoni University, Chhindwara",
+      "profile_file": "batch-01/16-g-h-raisoni-university-chhindwara.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 8,
+      "remaining_gap_count": 8,
+      "changes": [
+        "Accreditation renewal/source avenues rechecked; no unverified numeric or faculty claims added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://ghru.edu.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://admissions.ghru.edu.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ghru.edu.in/bsc-agriculture",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ghru.edu.in/contact",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ghru.edu.in/bsc-agriculture",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ghru.edu.in/scholarship",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://ghru.edu.in/contact",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://admissions.ghru.edu.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://admissions.ghru.edu.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "original_reason": "The audited term ends 8 November 2026; no renewal was verified.",
+          "status": "not_verified",
+          "resolution": "Recorded ICAR term ends8November2026. Targeted official-source recheck on31October found no separately verified renewal decision; do not extend the recorded term.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/bsc-agriculture"
+        },
+        {
+          "field": "identity",
+          "original_reason": "The audited name says Chhindwara while the current official contact page uses Pandhurna district; the audited identity is retained and current contact wording is recorded.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/contact"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://ghru.edu.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://admissions.ghru.edu.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://admissions.ghru.edu.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://ghru.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://ghru.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://ghru.edu.in/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "reason": "Recorded ICAR term ends 8 November 2026. Targeted official-source recheck on 31 October found no separately verified renewal decision; do not extend the recorded term.",
+          "next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes"
+        },
+        {
+          "field": "identity",
+          "reason": "The audited name says Chhindwara while the current official contact page uses Pandhurna district; the audited identity is retained and current contact wording is recorded.",
+          "next_source": "https://ghru.edu.in/contact"
+        },
+        {
+          "field": "identity.established",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://ghru.edu.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 17,
+      "institution": "Jagan Nath University, Jaipur",
+      "profile_file": "batch-01/17-jagan-nath-university-jaipur.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 7,
+      "remaining_gap_count": 5,
+      "changes": [
+        "Verified official admissions phone/email added without mixing Jaipur and NCR institutions."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.jagannathuniversity.org/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.jagannathuniversity.org/admissions/cuet",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.jagannathuniversity.org/faculties/agriculture",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.jagannathuniversity.org/faculties/agriculture/bsc-hons-agriculture",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.jagannathuniversity.org/contact-us",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://www.jagannathuniversity.org/contact-us",
+          "access": "page_read",
+          "note": "MainChaksu andSitapura campus addresses separated; use the official admissions contact for intended teaching location."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "The verified Jaipur 2026–27 programme document did not supply a readable agriculture fee amount. Fees from the similarly named NCR/Haryana university are not transferable.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jagannathuniversity.org/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jagannathuniversity.org/"
+        },
+        {
+          "field": "admissions",
+          "original_reason": "Programme list says JET/ICAR while official CUET page maps agriculture; admissions must explain the applicable seat/channel rules.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jagannathuniversity.org/admissions/cuet"
+        },
+        {
+          "field": "identity.phone",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official contact page lists+91 6377991003 and+91 9560907246.",
+          "supporting_urls": [
+            "https://www.jagannathuniversity.org/contact-us"
+          ],
+          "attempted_primary_url": "https://www.jagannathuniversity.org/"
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official contact page lists admission@jagannathuniversity.org and info@jagannathuniversity.org.",
+          "supporting_urls": [
+            "https://www.jagannathuniversity.org/contact-us"
+          ],
+          "attempted_primary_url": "https://www.jagannathuniversity.org/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "The verified Jaipur 2026–27 programme document did not supply a readable agriculture fee amount. Fees from the similarly named NCR/Haryana university are not transferable.",
+          "next_source": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://www.jagannathuniversity.org/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://www.jagannathuniversity.org/"
+        },
+        {
+          "field": "admissions",
+          "reason": "Programme list says JET/ICAR while official CUET page maps agriculture; admissions must explain the applicable seat/channel rules.",
+          "next_source": "https://www.jagannathuniversity.org/admissions/cuet"
+        }
+      ]
+    },
+    {
+      "institution_id": 18,
+      "institution": "Jaipur National University",
+      "profile_file": "batch-01/18-jaipur-national-university.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 9,
+      "remaining_gap_count": 8,
+      "changes": [
+        "Verified establishment year, sourced institutional address and carefully scoped practical/training details added."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.jnujaipur.ac.in/",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://apply.jnujaipur.ac.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.jnujaipur.ac.in/scholarships",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.jnujaipur.ac.in/contact-us",
+          "status": null,
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "r31_1",
+          "url": "https://www.jnujaipur.ac.in/about-the-university",
+          "access": "page_read",
+          "note": "Official about page explicitly states 22 October 2007."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://www.jnujaipur.ac.in/public/uploads/image/1402imguf_ssr.pdf",
+          "access": "search_excerpt",
+          "note": "Historical 2022 self-study report supplies university address; not a fresh department address or contact appointment record."
+        },
+        {
+          "id": "r31_3",
+          "url": "https://www.jnujaipur.ac.in/admissions/faq",
+          "access": "page_read",
+          "note": "Agriculture FAQ contains stale accreditation text conflicting with newer ICAR listing; only its clearly labelled learning/outcome examples are used, not the outdated regulator claim."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "The official page displays ₹75,100 tuition but does not establish a clear academic year and charging period. The amount is not converted into an annual or total-degree fee; lab/library costs are stated separately.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://apply.jnujaipur.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://apply.jnujaipur.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "partial",
+          "resolution": "The official agriculture FAQ now supplies named employment/training examples, but no dated cohort denominator, current-year outcome report or salary definitions.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "recognition",
+          "original_reason": "Live course FAQ says the first cohort has not graduated and accreditation cannot yet be applied for, conflicting with the newer audited ICAR term. Treat as stale website text.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture"
+        },
+        {
+          "field": "campus.facilities",
+          "original_reason": "Current agriculture-specific facility capacities were not established from sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official institutional history explicitly identifies22October2007.",
+          "supporting_urls": [
+            "https://www.jnujaipur.ac.in/about-the-university",
+            "https://www.jnujaipur.ac.in/public/uploads/image/1402imguf_ssr.pdf"
+          ],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "identity.address",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "partial",
+          "resolution": "Official self-study record supplies the institutional Jagatpura address, now added with historical-source context; current agriculture teaching-campus assignment should still be confirmed.",
+          "supporting_urls": [
+            "https://www.jnujaipur.ac.in/about-the-university",
+            "https://www.jnujaipur.ac.in/public/uploads/image/1402imguf_ssr.pdf"
+          ],
+          "attempted_primary_url": "https://www.jnujaipur.ac.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "The official page displays ₹75,100 tuition but does not establish a clear academic year and charging period. The amount is not converted into an annual or total-degree fee; lab/library costs are stated separately.",
+          "next_source": "https://apply.jnujaipur.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://apply.jnujaipur.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "The official agriculture FAQ now supplies named employment/training examples, but no dated cohort denominator, current-year outcome report or salary definitions.",
+          "next_source": "https://www.jnujaipur.ac.in/admissions/faq"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://www.jnujaipur.ac.in/"
+        },
+        {
+          "field": "recognition",
+          "reason": "Live course FAQ says the first cohort has not graduated and accreditation cannot yet be applied for, conflicting with the newer audited ICAR term. Treat as stale website text.",
+          "next_source": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "Current agriculture-specific facility capacities were not established from sources read.",
+          "next_source": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences"
+        },
+        {
+          "field": "identity.address",
+          "reason": "Official self-study record supplies the institutional Jagatpura address, now added with historical-source context; current agriculture teaching-campus assignment should still be confirmed.",
+          "next_source": "https://www.jnujaipur.ac.in/contact-us"
+        }
+      ]
+    },
+    {
+      "institution_id": 19,
+      "institution": "Chandigarh University",
+      "profile_file": "batch-01/19-chandigarh-university.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 13,
+      "remaining_gap_count": 10,
+      "changes": [
+        "Current admissions-cycle status and official contact identity clarified; programme availability remains unverified."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://www.cuchd.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cuchd.in/admissions/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cuchd.in/academics/institutes.php",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cuchd.in/contact/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cuchd.in/admissions/course-fee.php",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://www.cuchd.in/scholarship/",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s3",
+          "url": "https://www.cuchd.in/admissions/",
+          "access": "page_read",
+          "note": "The page now explicitly promotes CUCET 2027/admissions 2027–28. A current domestic B.Sc. Agriculture offering was not established in the general catalogue."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://www.cuchd.in/contact/",
+          "access": "page_read",
+          "note": "Current official contact page lists Punjab campus address and university admissions helplines; no agriculture-specific department is inferred."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "programmes.0",
+          "original_reason": "A current domestic B.Sc. Agriculture offering page, intake confirmation, duration and programme regulations were not located after targeted official searches.",
+          "status": "partial",
+          "resolution": "The official current admissions/catalogue pages promote2027–28 but do not establish a domestic BScAgriculture offering, current intake, duration or programme regulations. Historic ICAR membership does not establish present admissions.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "original_reason": "Workbook names university broadly, but ICAR meeting proceedings explicitly limit approval to BSc Agriculture and do not accredit the institute. Audit membership preserved.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf"
+        },
+        {
+          "field": "campus",
+          "original_reason": "Current agriculture teaching facilities and student access were not verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/academics/institutes.php"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "identity.address",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official contact page establishes university Punjab campus address.",
+          "supporting_urls": [
+            "https://www.cuchd.in/contact/"
+          ],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "identity.phone",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official current contact page establishes admissions helpline1800121288800.",
+          "supporting_urls": [
+            "https://www.cuchd.in/contact/"
+          ],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "No sufficiently clear official value was established in the sources read.",
+          "status": "resolved",
+          "resolution": "Official current contact page establishes admissions@cumail.in.",
+          "supporting_urls": [
+            "https://www.cuchd.in/contact/"
+          ],
+          "attempted_primary_url": "https://www.cuchd.in/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+          "next_source": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "next_source": "https://www.cuchd.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://www.cuchd.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+          "next_source": "https://www.cuchd.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+          "next_source": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "programmes.0",
+          "reason": "The official current admissions/catalogue pages promote 2027–28 but do not establish a domestic B.Sc. Agriculture offering, current intake, duration or programme regulations. Historic ICAR membership does not establish present admissions.",
+          "next_source": "https://www.cuchd.in/admissions/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "reason": "Workbook names university broadly, but ICAR meeting proceedings explicitly limit approval to BSc Agriculture and do not accredit the institute. Audit membership preserved.",
+          "next_source": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf"
+        },
+        {
+          "field": "campus",
+          "reason": "Current agriculture teaching facilities and student access were not verified.",
+          "next_source": "https://www.cuchd.in/academics/institutes.php"
+        },
+        {
+          "field": "identity.established",
+          "reason": "No sufficiently clear official value was established in the sources read.",
+          "next_source": "https://www.cuchd.in/"
+        }
+      ]
+    },
+    {
+      "institution_id": 20,
+      "institution": "Eternal University",
+      "profile_file": "batch-01/20-eternal-university.json",
+      "checked_on": "2026-10-31",
+      "original_gap_count": 7,
+      "remaining_gap_count": 7,
+      "changes": [
+        "Exact undated semester fees and historical scholarship rules added with current-year limits; mismatched eligibility selector not treated as evidence."
+      ],
+      "source_attempts": [
+        {
+          "url": "https://eternaluniversity.edu.in/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://portal.eternaluniversity.edu.in/register",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/apec?category=undergraduate&course=course-BACHELOR-PROGRAMME-22",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/college/aca",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://barusahib.org/our-universities/",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/fee",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/content/university-scholarships",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/ContactUs",
+          "status": 200,
+          "error": null
+        },
+        {
+          "url": "https://eternaluniversity.edu.in/docs/final-prospectus-1to75-changes1(1)om23.9.2623.48FINALPPT(1)(3)38om9.55(1)(3)FINAL15.24.pdf",
+          "status": 200,
+          "error": null
+        }
+      ],
+      "new_or_rechecked_sources": [
+        {
+          "id": "s2",
+          "url": "https://eternaluniversity.edu.in/college/aca",
+          "access": "page_read",
+          "note": "Undated programme table gives agriculture-specific criteria and fees; the generic chooser’s mismatched display is not used as a newer agriculture rule."
+        },
+        {
+          "id": "r31_1",
+          "url": "https://eternaluniversity.edu.in/fee",
+          "access": "page_read",
+          "note": "Undated fee table distinguishes first semester from second semester onward; no current intake-year applicability inferred."
+        },
+        {
+          "id": "r31_2",
+          "url": "https://eternaluniversity.edu.in/content/university-scholarships",
+          "access": "page_read",
+          "note": "The page’s dated tuition concession rules expressly cover newly admitted UG/PG students in 2024–25. Historical first-semester policy, not a current award offer."
+        }
+      ],
+      "original_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "original_reason": "The college page publishes first-semester and later-semester amounts, but the applicable academic year and full charge inclusions are not explicit. No undated amount is presented as a verified 2026 quote.",
+          "status": "partial",
+          "resolution": "Exact first/later semester amounts and refundable-caution note are now verified on the official fee page. The table is undated; intake-year applicability and a complete current charge statement remain unverified.",
+          "supporting_urls": [
+            "https://eternaluniversity.edu.in/fee"
+          ],
+          "attempted_primary_url": "https://portal.eternaluniversity.edu.in/register"
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://portal.eternaluniversity.edu.in/register"
+        },
+        {
+          "field": "scholarships.schemes",
+          "original_reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+          "status": "partial",
+          "resolution": "Dated2024–25 merit-concession criteria now documented as historical. No2026–27 ornext-intake renewal/award policy was verified.",
+          "supporting_urls": [
+            "https://eternaluniversity.edu.in/JoinNow.html",
+            "https://eternaluniversity.edu.in/content/university-scholarships"
+          ],
+          "attempted_primary_url": "https://eternaluniversity.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://eternaluniversity.edu.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "original_reason": "2026–27 indexed eligibility page gives 45% for specified reserved categories; older college page gives 40%. Current prospectus confirmation required.",
+          "status": "partial",
+          "resolution": "Undated agriculture-college table confirms50%general/40%specified categories,while the programme chooser did not reliably map the agriculture selection to its criteria. Current intake-year category thresholds remain unverified.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://eternaluniversity.edu.in/apec?category=undergraduate&course=course-BACHELOR-PROGRAMME-22"
+        },
+        {
+          "field": "programmes.0.duration",
+          "original_reason": "No explicit current undergraduate duration statement captured in the sources read.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://eternaluniversity.edu.in/college/aca"
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "Sponsoring-organisation page uses 2008–09 and cites 2009 legislation; exact single foundation year not harmonised.",
+          "status": "not_verified",
+          "resolution": "No sufficiently scoped official evidence was established in this pass; the original factual gap remains explicit.",
+          "supporting_urls": [],
+          "attempted_primary_url": "https://barusahib.org/our-universities/"
+        }
+      ],
+      "remaining_gaps": [
+        {
+          "field": "programmes.0.fees",
+          "reason": "Exact first/later semester amounts and refundable-caution note are now verified on the official fee page. The table is undated; intake-year applicability and a complete current charge statement remain unverified.",
+          "next_source": "https://eternaluniversity.edu.in/fee"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+          "next_source": "https://portal.eternaluniversity.edu.in/register"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Dated 2024–25 merit-concession criteria now documented as historical. No 2026–27 ornext-intake renewal/award policy was verified.",
+          "next_source": "https://eternaluniversity.edu.in/content/university-scholarships"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+          "next_source": "https://eternaluniversity.edu.in/"
+        },
+        {
+          "field": "programmes.0.eligibility",
+          "reason": "Undated agriculture-college table confirms 50%general/40%specified categories, while the programme chooser did not reliably map the agriculture selection to its criteria. Current intake-year category thresholds remain unverified.",
+          "next_source": "https://eternaluniversity.edu.in/college/aca"
+        },
+        {
+          "field": "programmes.0.duration",
+          "reason": "No explicit current undergraduate duration statement captured in the sources read.",
+          "next_source": "https://eternaluniversity.edu.in/college/aca"
+        },
+        {
+          "field": "identity.established",
+          "reason": "Sponsoring-organisation page uses 2008–09 and cites 2009 legislation; exact single foundation year not harmonised.",
+          "next_source": "https://barusahib.org/our-universities/"
+        }
+      ]
+    }
+  ]
+}

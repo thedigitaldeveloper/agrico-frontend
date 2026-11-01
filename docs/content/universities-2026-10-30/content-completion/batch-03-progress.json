@@ -1,0 +1,357 @@
+{
+  "checked_on": "2026-10-31",
+  "changes": [
+    {
+      "institution_id": 41,
+      "institution": "The Neotia University",
+      "field": "faculty.people",
+      "status": "partial",
+      "summary": "Filled six named official agriculture directory entries; effective appointment dates remain unstated.",
+      "evidence_urls": [
+        "https://www.tnu.in/faculty/"
+      ]
+    },
+    {
+      "institution_id": 41,
+      "institution": "The Neotia University",
+      "field": "admissions.dates",
+      "status": "partial",
+      "summary": "Identified 2027–28 banner; no exact intake deadline established.",
+      "evidence_urls": [
+        "https://www.tnu.in/faculty/",
+        "https://www.tnu.in/course/b-sc-hons-agriculture-colleges-in-kolkata/"
+      ]
+    },
+    {
+      "institution_id": 42,
+      "institution": "Centurion University of Technology and Management, Odisha",
+      "field": "programmes.eligibility",
+      "status": "resolved",
+      "summary": "Filled the previously missing MBA Agribusiness entry qualification from the programme page; test and intake criteria retain their source limits.",
+      "evidence_urls": [
+        "https://cutm.ac.in/courses/master-in-business-administration-in-agribusiness-management"
+      ]
+    },
+    {
+      "institution_id": 42,
+      "institution": "Centurion University of Technology and Management, Odisha",
+      "field": "scholarships.schemes",
+      "status": "partial",
+      "summary": "Added explicitly applicable B.Tech Agri policy; B.Sc./M.Sc./Fisheries applicability and renewal remain unverified.",
+      "evidence_urls": [
+        "https://cutm.ac.in/scholarship-loans/"
+      ]
+    },
+    {
+      "institution_id": 45,
+      "institution": "Integral University, Lucknow",
+      "field": "programmes.fees",
+      "status": "partial",
+      "summary": "Recorded sourced undated annual amount without treating it as a current intake quote.",
+      "evidence_urls": [
+        "https://www.iul.ac.in/admissioninfo/FeeInd.aspx"
+      ]
+    },
+    {
+      "institution_id": 46,
+      "institution": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "field": "admissions.dates",
+      "status": "resolved",
+      "summary": "Added current revised November2026 ANGRAU channel schedule, preserving registration, rank and vacancy scope.",
+      "evidence_urls": [
+        "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf"
+      ]
+    },
+    {
+      "institution_id": 47,
+      "institution": "Sri Satya Sai University of Technology and Medical Sciences",
+      "field": "programmes.fees",
+      "status": "partial",
+      "summary": "Recorded official undated annual tuition with explicit source-year limit.",
+      "evidence_urls": [
+        "https://sssutms.co.in/cms/Website/Admission/FeesStructure"
+      ]
+    },
+    {
+      "institution_id": 48,
+      "institution": "GLA University",
+      "field": "programmes.mode",
+      "status": "resolved",
+      "summary": "Filled explicit full-time mode from the official faculty description.",
+      "evidence_urls": [
+        "https://www.gla.ac.in/academics/department-of-agriculture-science"
+      ]
+    },
+    {
+      "institution_id": 48,
+      "institution": "GLA University",
+      "field": "faculty.people",
+      "status": "partial",
+      "summary": "Added six named official agriculture faculty members; effective appointment dates remain unstated.",
+      "evidence_urls": [
+        "https://www.gla.ac.in/academics/department-of-agriculture-science"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "identity.phone",
+      "status": "resolved",
+      "summary": "Replaced old directory-only contact gap with official homepage helpline numbers.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "identity.admissions_url",
+      "status": "partial",
+      "summary": "Exact official portal identified; portal access remains blocked.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/",
+        "https://admission.arunachaluniversity.ac.in/"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "scholarships.schemes",
+      "status": "partial",
+      "summary": "Replaced blank policy section with official application rules and a clearly historical deadline; individual programme award remains unverified.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/pages/scholarship"
+      ]
+    },
+    {
+      "institution_id": 53,
+      "institution": "SR University",
+      "field": "programmes.fees.academic_year",
+      "status": "partial",
+      "summary": "Filled sourced per-semester tuition; the academic-year gap remains.",
+      "evidence_urls": [
+        "https://sru.edu.in/fee-scholarship/"
+      ]
+    },
+    {
+      "institution_id": 53,
+      "institution": "SR University",
+      "field": "faculty.people",
+      "status": "partial",
+      "summary": "Added six source-listed agriculture teachers and roles; effective appointment dates remain unstated.",
+      "evidence_urls": [
+        "https://www.sru.edu.in/faculty/deptFaculties/agriculture"
+      ]
+    },
+    {
+      "institution_id": 54,
+      "institution": "Malla Reddy University",
+      "field": "campus.facilities",
+      "status": "resolved",
+      "summary": "Recovered a readable official inventory rather than relying on inaccessible linked PDFs.",
+      "evidence_urls": [
+        "https://www.mallareddyuniversity.ac.in/infrastructure-soa"
+      ]
+    },
+    {
+      "institution_id": 57,
+      "institution": "RNB Global University",
+      "field": "faculty.people",
+      "status": "partial",
+      "summary": "Added a teacher whose official profile explicitly establishes the agriculture discipline; appointment-effective date remains unstated.",
+      "evidence_urls": [
+        "https://www.rnbglobal.edu.in/faculty-details/tribhuwan-singh-rajpurohit"
+      ]
+    },
+    {
+      "institution_id": 41,
+      "institution": "The Neotia University",
+      "field": "placements.statistics",
+      "status": "resolved",
+      "summary": "Added dated NIRF 2025 Agriculture and Allied Sectors cohort outcomes with group, year and median-salary denominator.",
+      "evidence_urls": [
+        "https://www.tnu.in/wp-content/uploads/2025/02/All-Report-MHRD-National-Institutional-Ranking-Framework-NIRF-AGRICULTURE.pdf"
+      ]
+    },
+    {
+      "institution_id": 42,
+      "institution": "Centurion University of Technology and Management, Odisha",
+      "field": "placements.statistics",
+      "status": "resolved",
+      "summary": "Added dated NIRF 2026 Agriculture and Allied Sectors cohort outcomes with group, year and median-salary denominator.",
+      "evidence_urls": [
+        "https://cutm.ac.in/wp-content/uploads/about/nirf/2026/AGRICULTURE.pdf"
+      ]
+    },
+    {
+      "institution_id": 43,
+      "institution": "Lovely Professional University",
+      "field": "placements.statistics",
+      "status": "resolved",
+      "summary": "Added dated NIRF 2026 Agriculture and Allied Sectors cohort outcomes with group, year and median-salary denominator.",
+      "evidence_urls": [
+        "https://www.lpu.in/downloads/nirf/2026/Agriculture.pdf"
+      ]
+    },
+    {
+      "institution_id": 44,
+      "institution": "Kalasalingam Academy of Research and Education",
+      "field": "placements.statistics",
+      "status": "resolved",
+      "summary": "Added dated NIRF 2026 Agriculture and Allied Sectors cohort outcomes with group, year and median-salary denominator.",
+      "evidence_urls": [
+        "https://www.kalasalingam.ac.in/wp-content/uploads/2026/04/NIRF-2026-Agriculture.pdf"
+      ]
+    },
+    {
+      "institution_id": 44,
+      "institution": "Kalasalingam Academy of Research and Education",
+      "field": "faculty.people",
+      "status": "resolved",
+      "summary": "Replaced the undated course-page subset with six staff and joining dates from the NIRF 2026 agriculture submission. No programme delivery mode was inferred from regular staff appointments.",
+      "evidence_urls": [
+        "https://www.kalasalingam.ac.in/wp-content/uploads/2026/04/NIRF-2026-Agriculture.pdf"
+      ]
+    },
+    {
+      "institution_id": 51,
+      "institution": "Guru Kashi University",
+      "field": "faculty.people",
+      "status": "partial",
+      "summary": "Added seven named agriculture teachers from the live official roster; its effective date remains unknown.",
+      "evidence_urls": [
+        "https://www.gku.ac.in/faculty/faculty-of-agriculture/faculty"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "programmes.duration",
+      "status": "resolved",
+      "summary": "Filled explicit four-year/eight-semester duration from the official 2026–27 agriculture table.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "programmes.fees",
+      "status": "resolved",
+      "summary": "Filled dated annual ₹90,000 agriculture fee without borrowing adjacent programme charges.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "identity.email",
+      "status": "resolved",
+      "summary": "Confirmed the university public email in the current official prospectus.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "programmes.eligibility",
+      "status": "partial",
+      "summary": "Added current prospectus entry qualifications; minimum marks and selection rules remain unstated.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf"
+      ]
+    },
+    {
+      "institution_id": 52,
+      "institution": "Arunachal University of Studies",
+      "field": "scholarships.schemes",
+      "status": "partial",
+      "summary": "Added conditional agriculture APST assistance, with income ceiling and award limit; renewal and exact granting scheme remain unknown.",
+      "evidence_urls": [
+        "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf"
+      ]
+    },
+    {
+      "institution_id": 49,
+      "institution": "Shri Shivaji Agriculture College, Amravati",
+      "field": "identity.phone",
+      "status": "resolved",
+      "summary": "Replaced placeholder-only gap with the official 2026–27 named admissions nodal contact, explicitly scoped to that role.",
+      "evidence_urls": [
+        "https://mail.mcaer.org/documents/MAURB/print%20UG%20Prospectus26-27%20english.pdf"
+      ]
+    },
+    {
+      "institution_id": 49,
+      "institution": "Shri Shivaji Agriculture College, Amravati",
+      "field": "programmes.eligibility",
+      "status": "resolved",
+      "summary": "Replaced legacy undated eligibility with the official 2026–27 subject, minimum-mark and entrance framework.",
+      "evidence_urls": [
+        "https://mail.mcaer.org/documents/MAURB/print%20UG%20Prospectus26-27%20english.pdf"
+      ]
+    },
+    {
+      "institution_id": 49,
+      "institution": "Shri Shivaji Agriculture College, Amravati",
+      "field": "programmes.mode",
+      "status": "resolved",
+      "summary": "Filled explicit full-time mode and eight-semester duration from the official state prospectus.",
+      "evidence_urls": [
+        "https://mail.mcaer.org/documents/MAURB/print%20UG%20Prospectus26-27%20english.pdf"
+      ]
+    },
+    {
+      "institution_id": 49,
+      "institution": "Shri Shivaji Agriculture College, Amravati",
+      "field": "admissions.dates",
+      "status": "resolved",
+      "summary": "Added the official dated 2026–27 state calendar, explicitly identifying its expired cutoff rather than advertising open admission.",
+      "evidence_urls": [
+        "https://mail.mcaer.org/documents/MAURB/AGRI_UG_CAP_SCHEDULE_2026_2027_English.pdf"
+      ]
+    },
+    {
+      "institution_id": 46,
+      "institution": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "field": "identity.phone",
+      "status": "resolved",
+      "summary": "Confirmed two college-specific admissions contact numbers in the official 2026–27 ANGRAU brochure.",
+      "evidence_urls": [
+        "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf"
+      ]
+    },
+    {
+      "institution_id": 50,
+      "institution": "Siksha ‘O’ Anusandhan",
+      "field": "programmes.admission_route",
+      "status": "resolved",
+      "summary": "Filled agriculture-specific SAAT 2026 selection-route text for the existing nine programmes, retaining PG exemption/specialisation limits.",
+      "evidence_urls": [
+        "https://www.admission.soa.ac.in/merit-list-2026"
+      ]
+    },
+    {
+      "institution_id": 50,
+      "institution": "Siksha ‘O’ Anusandhan",
+      "field": "admissions.dates",
+      "status": "partial",
+      "summary": "Added two official agriculture result events, explicitly historical; a current application deadline remains unknown.",
+      "evidence_urls": [
+        "https://www.admission.soa.ac.in/important-admission-dates-soa"
+      ]
+    },
+    {
+      "institution_id": 57,
+      "institution": "RNB Global University",
+      "field": "admissions.dates",
+      "status": "partial",
+      "summary": "Recorded the official historical closing date and contradictory open banner without treating either as proof of a current seat.",
+      "evidence_urls": [
+        "https://www.rnbglobal.edu.in/admission-procedure"
+      ]
+    }
+  ]
+}

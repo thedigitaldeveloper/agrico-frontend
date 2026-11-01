@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-11T20:12:25.979Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "buildId": "M7ac0KA22uD0uKZgZV-ie",
+  "sourceHashes": {
+    "src/app/news/page.tsx": "797bcc9e1f2ace898dff6e661824868df1090cf75235165db7964c1c20c48cf2",
+    "src/app/blogs/page.tsx": "16b37eb8dbe0e07bb20c3f0f3d1aca9ac38ad236acbcbbd1a67878b94859198a",
+    "src/app/exams/page.tsx": "28b6ac06ead937f89f7bb15f859888bef921653c07490f6f0e90c70a0509f8b7",
+    "src/app/scholarships/page.tsx": "155ed4fb9a1e6a8228ccdb3e77b2689f4ef88ae9969152902bdc334f4f018ab4",
+    "src/app/search/page.tsx": "42330ed8ee10253b46e461cca9d71f362351dada1bb898850ae317283fae1378",
+    "src/app/login/page.tsx": "06d8b1dd2a318a9bb2769f65af2082b5687fb232c580d9ea987ce53405a69c77",
+    "src/app/register/page.tsx": "d8d78cd1884a6d96fa3d44df81bdd45a5e4e89df2d8dc6e40bb08fd06561348b",
+    "src/components/ui/listing.css": "1b7860d230233ddf4c5581482fda30cb3674cb29d8bb67d18a1aa57c906912ab",
+    "src/components/blog/post-listing.tsx": "4959f077c8e4fb05901061a0969f759d63e478ec51594b5d595291f3e9af5e92",
+    "src/components/blog/post-card.tsx": "fb103ba7c3a8f7066a135fd980c3edd9e404b8a5340bb643c0eb52d432487037",
+    "src/components/rs/auth-shell.tsx": "72a71711de69a74a073706a2d49b3bd88b74b83c3cfb056c58b49f9338623b39",
+    "src/components/auth/auth-forms.tsx": "6e8116e8fd24f2653b381f3cd6afa21f0117ea90c67df45d11c2b39f8d9ad2dc",
+    "src/app/rs.css": "ea72e03e6e6e9608e94e926646aa95a3a46a40c529fc818e99c19e2a41dd3e5b"
+  },
+  "expected": {},
+  "checks": [
+    "Public GET routes only; no forms submitted; offscreen lazy images not required to load."
+  ],
+  "routes": [
+    {
+      "key": "register",
+      "path": "/register",
+      "width": 390,
+      "status": 200,
+      "title": "Create your student account | RS Education",
+      "controls": [
+        {
+          "label": "username",
+          "width": 354,
+          "height": 49
+        },
+        {
+          "label": "email",
+          "width": 354,
+          "height": 49
+        },
+        {
+          "label": "phone",
+          "width": 354,
+          "height": 49
+        },
+        {
+          "label": "password",
+          "width": 354,
+          "height": 49
+        },
+        {
+          "label": "Show password",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "city",
+          "width": 320,
+          "height": 49
+        },
+        {
+          "label": "state",
+          "width": 320,
+          "height": 49
+        },
+        {
+          "label": "course",
+          "width": 320,
+          "height": 49
+        },
+        {
+          "label": "Create student account",
+          "width": 354,
+          "height": 44
+        }
+      ],
+      "formSubmitted": false,
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 1080.15625,
+          "bottom": 1793.03125,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 91,
+          "bottom": 1010.15625,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 137,
+          "bottom": 224.375,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 3
+    }
+  ],
+  "destinationChecks": [],
+  "browserErrors": [],
+  "failedResponses": [],
+  "blockedMutations": [],
+  "defects": [
+    {
+      "route": "/login",
+      "width": 390,
+      "error": "TimeoutError: page.waitForFunction: Timeout 12000ms exceeded.",
+      "stack": "page.waitForFunction: Timeout 12000ms exceeded.\n    at visibleImages (D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:54:16)\n    at async D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:164:24"
+    }
+  ]
+}

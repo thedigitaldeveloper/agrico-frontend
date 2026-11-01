@@ -1,0 +1,267 @@
+/* The extra hero class makes these local overrides independent of CSS chunk order. */
+.rs-home .rs-hero.rs-hero-compact .rs-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 32px;
+  min-height: 365px;
+  padding-block: 14px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-copy {
+  width: 100%;
+  max-width: 740px;
+  min-width: 0;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-copy > .rs-eyebrow {
+  font-size: 9px;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+.rs-home .rs-hero.rs-hero-compact h1 {
+  font-size: clamp(48px, 4.17vw, 60px);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+.rs-home .rs-hero.rs-hero-compact h1::after {
+  width: 100px;
+  margin-top: 7px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-description {
+  font-size: 18px;
+  line-height: 1.35;
+  max-width: 530px;
+  margin-bottom: 14px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-finder {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 540px;
+  padding: 12px 14px;
+  gap: 8px;
+  border-radius: 6px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-finder > #rs-finder-label {
+  font-size: 12px;
+  line-height: 1.3;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-tabs {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 7px;
+  padding: 0 0 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  scrollbar-width: thin;
+  scroll-snap-type: x proximity;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button {
+  min-height: 44px;
+  min-width: max-content;
+  flex: 0 0 auto;
+  padding: 9px 16px;
+  border: 1px solid #e6ded5;
+  border-radius: 6px;
+  background: #fcfaf5;
+  font-size: 13px;
+  line-height: 1.2;
+  scroll-snap-align: start;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button[aria-pressed="true"] {
+  border-color: #a22334;
+  background: #a22334;
+  color: #fff;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button:focus-visible {
+  outline: 2px solid #a22334;
+  outline-offset: 2px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-finder > .rs-finder-hint {
+  font-size: 12px;
+  line-height: 1.4;
+  margin: 0;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 18px;
+  max-width: 540px;
+  margin-top: 4px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-actions,
+.rs-home .rs-hero.rs-hero-compact .rs-hero-controls {
+  margin: 0;
+  gap: 8px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-actions {
+  gap: 4px 15px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-actions .rs-text-link {
+  min-height: 26px;
+  font-size: 12px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-controls button {
+  min-width: 44px;
+  min-height: 44px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  align-self: end;
+  justify-self: end;
+  width: 100%;
+  max-width: 350px;
+  min-width: 0;
+  margin: 0;
+  padding: 14px 16px;
+  border-radius: 8px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer > .rs-eyebrow {
+  font-size: 9px;
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-offering-identity {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  padding: 0;
+  border: 0;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-offering-logo {
+  width: 48px;
+  height: 48px;
+  max-width: 48px;
+  flex: 0 0 48px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-offering-university-name {
+  margin: 0;
+  min-height: 0;
+  font-size: 15px;
+  line-height: 1.3;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer h2 {
+  font-size: 32px;
+  line-height: 1.06;
+  margin: 8px 0 4px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-inline-facts {
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 8px 0 11px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-inline-facts > span + span {
+  padding-left: 12px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-offer > .rs-button {
+  min-height: 44px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+.rs-home .rs-hero.rs-hero-compact .rs-hero-university-link {
+  min-height: 25px;
+  margin-top: 3px;
+  font-size: 12px;
+}
+.rs-home .rs-hero.rs-hero-compact:not(:has(.rs-hero-offer)) .rs-hero-copy {
+  grid-column: 1 / -1;
+}
+@media (min-width: 641px) and (max-width: 900px) {
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-grid {
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, .9fr);
+    gap: 22px;
+    min-height: 380px;
+    padding-block: 16px;
+  }
+  .rs-home .rs-hero.rs-hero-compact h1 {
+    font-size: clamp(34px, 4.7vw, 40px);
+    line-height: 1.02;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-description {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-finder {
+    grid-template-columns: 1fr;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-finder > .rs-button {
+    width: 100%;
+    min-height: 44px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-offer {
+    padding: 13px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-offer h2 {
+    font-size: 29px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-offer .rs-offering-university-name {
+    font-size: 14px;
+  }
+}
+@media (max-width: 640px) {
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-grid {
+    display: block;
+    min-height: 0;
+    padding-block: 18px 16px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-copy > .rs-eyebrow {
+    font-size: 8px;
+    margin-bottom: 6px;
+  }
+  .rs-home .rs-hero.rs-hero-compact h1 {
+    font-size: clamp(36px, 9.3vw, 42px);
+    line-height: 1.02;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-description {
+    font-size: 16px;
+    line-height: 1.35;
+    margin-bottom: 12px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-finder {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 6px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button {
+    min-height: 44px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-finder > .rs-button {
+    min-height: 44px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-media {
+    left: 0;
+    height: 305px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-media::after {
+    background: linear-gradient(180deg, var(--rs-ivory), #fcfaf540 20%, transparent 48%);
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-offer {
+    width: 100%;
+    max-width: none;
+    margin-top: 18px;
+    padding: 14px 16px;
+  }
+  .rs-home .rs-hero.rs-hero-compact .rs-hero-controls button {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .rs-home .rs-hero.rs-hero-compact:not(:has(.rs-hero-media :is(img, video, iframe))) .rs-hero-offer {
+    margin-top: 12px;
+  }
+  .rs-home .rs-hero.rs-hero-compact:has(.rs-hero-media :is(img, video, iframe)):not(:has(.rs-hero-offer)) .rs-hero-grid {
+    padding-bottom: 130px;
+  }
+}

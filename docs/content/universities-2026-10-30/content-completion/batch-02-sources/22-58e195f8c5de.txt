@@ -1,0 +1,278 @@
+Sri Sri University, Cuttack, Odisha | COMMON UNIVERSITY ENTRANCE TEST (CUET-UG) 2025 | India
+Search
+Search
+Accessibility Tools
+Accessibility Tools
+Color Contrast
+High Contrast
+Normal Contrast
+Highlight Links
+Invert
+Saturation
+Text Size
+Font Size Increase
+Font Size Decrease
+Normal Font
+Text Spacing
+Line Height
+Other controls
+Hide Images
+Big Cursor
+भारत सरकार
+/
+Government of India
+शिक्षा मंत्रालय
+/
+Ministry of Education
+/
+Department of Higher Education
+COMMON UNIVERSITY ENTRANCE TEST (UG)
+Menu Toggle
+More
+Home
+About NTA
+Information
+Information Bulletin
+Syllabus
+Universities
+Archive
+2025
+Public Notices
+Information Bulletin
+Syllabus
+Universities
+FAQ
+Contact Us
+NTA Help Desk
+Payment Related
+Close
+Home
+Sri Sri University, Cuttack, Odisha
+Share on Facebook
+Share on X (formerly Twitter)
+Share on Linkedin
+Sri Sri University, Cuttack, Odisha
+Important Note:
+The applicants shall ensure that they have read and understood the eligibility criteria, qualification/ other conditions, and understand the minimum required subjects of the program opted of the respective university for CUET (UG) - 2025 examination.
+NTA or the respective university will not be under any circumstances held responsible for the selection of the subjects, opted program, or eligibility criteria/ conditions.
+The applicant shall ensure to select the language, domain-specific subjects and general test as per the respective university / programme.
+You are requested to visit the respective university website and confirm the eligibility criteria and other details.
+.header-section {
+        background-color: black;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        gap: 0;
+        justify-content: flex-start;
+    }
+    .header-section span:first-child {
+        color: white;
+        margin-right: 4px !important;
+        font-size: 20px;
+        line-height: 0.9;
+    }
+    .header-section span:last-child {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: -5px !important;
+        letter-spacing: -0.5px; /* Compress text slightly */
+    }
+
+    .cuet-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    }
+    .cuet-table-header {
+        background-color: #1A4B84;
+        color: white;
+        font-weight: bold;
+    }
+    .cuet-table-header th {
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+    .cuet-table-row td {
+        padding: 10px;
+        border: 1px solid #ddd;
+        font-weight: bold;
+        color: #666;
+    }
+    .cuet-table-row:nth-child(even) {
+        background-color: #f0f0f0;
+    }
+    .sno-column {
+        width: 48px !important;
+        min-width: 48px !important;
+        max-width: 48px !important;
+        overflow: hidden;
+        text-align: center;
+    }
+📋
+Programme(s) Information
+S.No.
+Degree
+Programme/ Course Offered
+Subjects
+Eligibility for the Programme
+1
+AYURVEDACHARYA (Bachelor OF AYURVEDIC MEDICINE AND SURGERY)
+BAMS
+Physics, Chemistry & Biology
+10+2 Examination from science stream with PCB combination from a recognized Board with a minimum of 50% score with qualifying NEET Exam.
+2
+B Arch
+B Arch
+Physics, Chemistry & Mathematics
+10+2 examination with at least 50% aggregate marks in Physics, Chemistry & Mathematics and also at least 50% marks in aggregate of the 10+2 level examination or passed 10+3 Diploma Examination with Mathematics as compulsory subject with at least 50% marks in aggregate. NATA / JEE Paper 2.
+3
+B.A.
+B.A. (Hons.) English
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+4
+B.Com
+B.Com. (Hons.)
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+5
+B.Sc.
+B.Sc. in Osteopathy
+Physics, Chemistry, Biology
+10+2 with 50 % marks in PCB group (Physics, Chemistry, Biology)
+6
+B.Sc.
+B.Sc. (Hons.) Agriculture
+Physics, Chemistry, Biology/ Mathematics
+10+2 examination (science with PCB/PCM combinations) from a recognized board with a minimum score of 50%
+7
+B.Sc.
+B.Sc. (Hons.) Horticulture
+Physics, Chemistry, Biology/ Mathematics
+10+2 examination (science with PCB/PCM) from a recognized board with a minimum of 50% score
+8
+B.Sc.
+B.Sc. (Hons.) Agribusiness
+General Test
+10+2 examination (Any stream) from a recognized board with a minimum of 50% score
+9
+B.Sc.
+B.Sc. (Hons.) Food, Nutrition and Dietetics
+Physics, Chemistry, Biology/ Mathematics
+10+2 examination (science with PCB/PCM) from a recognized board with a minimum of 50% score
+10
+B.Sc.
+B.Sc. (Hons.) Physics
+Physics
+10+2 or equivalent degree with 50 % marks in Physics
+11
+B.Sc.
+BSc (Hons.) Computer Science
+Mathematics
+10+2 examination from a recognized board with a minimum of 50% score (* Math Compulsory)
+12
+B.Sc.
+B Sc. Nursing
+Physics, Chemistry, Biology & English
+Minimum age is 17 years. (as on 31st December of the admission year) The upper age limit is 35 yrs. Minimum Educational Qualification 10+2 with a minimum of 45% marks in Physics, Chemistry and Biology taken together and passed in English individually.Candidates are also eligible from State Open School recognized by State Government and National Institute of Open School (NIOS) recognized by Central Government having Science subjects and English only. English is a compulsory subject in 10+2 for being eligible for admission to B.Sc. (Nursing). Candidates belongs to SC/ST/OBC the marks obtained in 3 core subjects shall be 40% instead of 45% for General category candidates. Candidate shall be medically fit. Married candidates are also eligible for admission.
+13
+B.Sc.
+B.Sc.(Hons.) Psychology (Contemplative Studies)
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+14
+B.Tech
+B. Tech. in Electrical Engineering- Specialization: Electric Vehicle Technology (Electrical)
+Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship
+Passed 10+2 examination with Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship as per table 8.4 of AICTE Approval Process Handbook 2024-27, Agriculture stream (for Agriculture Engineering) Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together. OR Passed D.Voc. Stream in the same or allied sector. (The University will offer suitable bridge courses such as Mathematics, Physics, Engineering drawing, etc., for the students coming from diverse backgrounds to prepare Level playing field and desired learning outcomes of the programme)
+15
+B.Tech
+B. Tech in CSE - Specialization in Cyber Security & Cyber Defense.
+Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship
+Passed 10+2 examination with Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship as per table 8.4 of AICTE Approval Process Handbook 2024-27, Agriculture stream (for Agriculture Engineering) Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together. OR Passed D.Voc. Stream in the same or allied sector. (The University will offer suitable bridge courses such as Mathematics, Physics, Engineering drawing, etc., for the students coming from diverse backgrounds to prepare Level playing field and desired learning outcomes of the programme)
+16
+B.Tech
+B. Tech in CSE - Specialization in Artificial Intelligence & Machine Learning
+Physics, Chemistry & Mathematics
+10+2 examination or equivalent in PCM stream from a recognized board with a minimum of 50% aggregate and 45% for reserved category with rank in SSU CET /JEE (Main) / OJEE/ Any other State Level & National Entrance Test. Math should be a compulsory subject.
+17
+B.Tech
+B. Tech. in Electronics & Communication Engineering (Specialization: VLSI Design, PCB Design, Chip Design and Embedded Artificial Intelligence)
+Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship
+Passed 10+2 examination with Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship as per table 8.4 of AICTE Approval Process Handbook 2024-27, Agriculture stream (for Agriculture Engineering) Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together. OR Passed D.Voc. Stream in the same or allied sector. (The University will offer suitable bridge courses such as Mathematics, Physics, Engineering drawing, etc., for the students coming from diverse backgrounds to prepare Level playing field and desired learning outcomes of the programme)
+18
+B.Tech
+B. Tech. in Mechatronics-Specialization: Electric Vehicle Technology (Mechanical)
+Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship
+Passed 10+2 examination with Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship as per table 8.4 of AICTE Approval Process Handbook 2024-27, Agriculture stream (for Agriculture Engineering) Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together. OR Passed D.Voc. Stream in the same or allied sector. (The University will offer suitable bridge courses such as Mathematics, Physics, Engineering drawing, etc., for the students coming from diverse backgrounds to prepare Level playing field and desired learning outcomes of the programme)
+19
+B.Tech
+B. Tech. in Computer Science Engineering (Specialization: JAVA Full stack and Python Full stack)
+Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship
+Passed 10+2 examination with Physics/ Mathematics/ Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies/ Entrepreneurship as per table 8.4 of AICTE Approval Process Handbook 2024-27, Agriculture stream (for Agriculture Engineering) Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together. OR Passed D.Voc. Stream in the same or allied sector. (The University will offer suitable bridge courses such as Mathematics, Physics, Engineering drawing, etc., for the students coming from diverse backgrounds to prepare Level playing field and desired learning outcomes of the programme)
+20
+B.Tech.
+B. Tech in CSE - Specialization in Data Science
+Physics, Chemistry & Mathematics
+45% In PCM at +2 Sc Level / 45% in total at +2 Sc level with rank in SSU CET /JEE (Main) / OJEE/ Any other State Level & National Entrance Test
+21
+BB.A.
+BBA
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+22
+BCA
+BCA
+Mathematics and Statistics
+Class 12 (Any stream) with Mathematics or Statistics as one of the main subjects with an aggregate of 50% (45% for SC/ ST category candidates).
+23
+BFA
+Bachelor of Fine Arts
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+24
+BPA
+BPA (Odissi Dance)
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+25
+BPA
+BPA Hindustani Vocal
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+26
+Bachelor of Interior Design (BID)
+Bachelor of Interior Design (BID)
+General Test
+10+2 examination or equivalent from any stream from a recognized board with a minimum of 50% score
+27
+Bachelor of Naturopathy and Yogic Science (BNYS)
+Bachelor of Naturopathy and Yogic Science (BNYS)
+Physics, Chemistry & Biology
+10+2 Examination from science stream with PCB combination from a recognized Board with a minimum of 50% score and 45% for reserved category
+28
+Bachelor of Physical Education and Sports (BPES)
+Bachelor of Physical Education and Sports (BPES)
+General Test
+10+2 with 50% marks (5% relaxation in case of Participation in games at National/ International level recognized by IOA or students belonging to SC/ST category
+29
+Integrated M.Sc. in Osteopathy
+Integrated M.Sc. in Osteopathy
+Physics, Chemistry, Biology
+10+2 with 50 % marks in PCB group (Physics, Chemistry, Biology)
+Copyright Policy
+Hyperlink Policy
+Privacy Policy
+Terms and Conditions
+Help
+Content Owned and Maintained by                                National Testing Agency
+Designed, Developed and hosted by
+National Informatics Centre
+,
+Ministry of Electronics & Information Technology
+, Government of India
+Last Updated:
+Oct 12, 2026

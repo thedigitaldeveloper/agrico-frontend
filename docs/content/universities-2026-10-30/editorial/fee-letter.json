@@ -1,0 +1,68 @@
+{
+  "id": "fee-letter",
+  "cms_type": "Blog",
+  "slug": "reading-an-agriculture-fee-letter",
+  "title": "Reading an agriculture fee letter before paying",
+  "description": "Read fee periods, deposits, scholarship deductions and exclusions in an agriculture admission offer, with a clearly labelled worked budget.",
+  "summary": "Before paying, turn the fee letter into a timetable of amounts due. Separate recurring costs from deposits, calculate the same period for every option and ask the issuing institution to resolve unclear items in writing.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "match-the-letter",
+      "heading": "Check that the letter belongs to your offer",
+      "paragraphs": [
+        "Start with your name or application number, the degree, teaching campus, intake year and seat category. Check the issuing office, issue date and payment deadline. A general fee sheet can help explain charges, but it may not establish the amount payable against your particular admission offer. Ask which document governs if the letter and website show different amounts.",
+        "For example, [Raffles University](/university/raffles-university) publishes a 2026–27 fee index. Use the current agriculture schedule behind that index when seeking a quote. At [Palar Agricultural College](/university/palar-agricultural-college), ask the office to identify the applicable admission channel and written fee schedule. Avoid treating an undated statement about prescribed fees as an itemised bill."
+      ]
+    },
+    {
+      "id": "find-the-unit",
+      "heading": "Find the period attached to every number",
+      "paragraphs": [
+        "Mark each charge as per semester, per year, one time or refundable deposit. Then check how many payments occur during the course. A semester tuition amount and an annual tuition amount cannot be compared directly. Nor should a total described as programme fee be assumed to include accommodation, examinations or transport without an explicit definition.",
+        "Ask whether later-year charges are fixed, scheduled to rise or subject to a future notice. Where the answer is uncertain, keep a separate allowance rather than presenting a four-year multiplication as a guaranteed total. Our [agriculture fee budget guide](/articles/agriculture-fee-budget) explains how to align tuition periods and living costs across colleges."
+      ]
+    },
+    {
+      "id": "illustrative-budget",
+      "heading": "Work through a first-year example",
+      "paragraphs": [
+        "The following figures are illustrative arithmetic only. They are not quoted fees for any institution. Suppose tuition is ₹60,000 each semester, compulsory academic charges are ₹10,000 a year, a refundable deposit is ₹5,000 once and hostel plus mess is ₹80,000 a year. The first-year cash requirement is ₹2,15,000 before travel and personal spending.",
+        "The deposit still needs cash even if it may later be returned under the applicable terms. The example also assumes two semesters and a complete year of accommodation. Ask whether hostel payment covers vacations, whether mess charges can vary and whether a scholarship is credited before the bill falls due."
+      ],
+      "table": {"columns":["Illustrative item","Calculation","First-year cash"],"rows":[["Tuition","₹60,000 × 2 semesters","₹1,20,000"],["Compulsory academic charges","₹10,000 × 1 year","₹10,000"],["Refundable deposit","One-time payment","₹5,000"],["Hostel and mess","₹80,000 × 1 year","₹80,000"],["Total before other spending","Sum of the four items","₹2,15,000"]]}
+    },
+    {
+      "id": "read-exclusions-and-concessions",
+      "heading": "Read exclusions before subtracting a concession",
+      "paragraphs": [
+        "A tuition concession may leave other charges untouched. Ask for the eligible fee base, award amount, covered semesters and renewal terms. A pending scholarship application should stay outside the confirmed payable calculation. Read [scholarship conditions](/blogs/agriculture-scholarship-conditions) before using a discount to decide whether the course is affordable.",
+        "[The Neotia University](/university/the-neotia-university) labels its 2026–27 fee schedule and notes extra residential and transport charges. [Lovely Professional University](/university/lovely-professional-university) describes scholarships with programme and admission-phase differences. These examples explain why a headline figure needs its supporting terms; they do not establish an award or a net bill for you."
+      ]
+    },
+    {
+      "id": "close-the-payment-loop",
+      "heading": "Create a payment record you can reconcile",
+      "paragraphs": [
+        "Before transferring money, use the payment instructions reached from the official institution website or applicant portal. Confirm the beneficiary, payment reference and receipt process with the issuing office. If any cancellation or deposit-return term matters to your decision, request the applicable written policy and dates; do not infer a refund from the word refundable alone."
+      ],
+      "bullets": ["Save the dated offer, itemised schedule and any written correction.","Record what is due now and the balance due later.","Separate confirmed concessions from applications still awaiting approval.","Save the receipt and check that the applicant account shows the payment.","Keep the cancellation policy and deposit-return conditions with the same records."]
+    }
+  ],
+  "faqs": [
+    {"question":"Is a refundable deposit part of the budget?","answer":"Yes. Include it in the cash needed at admission, while recording it separately from recurring costs. Return timing and deductions depend on the institution's written terms."},
+    {"question":"Can I multiply the first semester fee by eight?","answer":"Only as an explicitly qualified estimate after checking the course structure. One-time charges, later-year revisions, residential costs and concessions can make that calculation incomplete."},
+    {"question":"What should I do when two official documents disagree?","answer":"Ask the issuing office for a dated clarification identifying your programme, intake and category. Keep both documents and the correction before relying on the amount."}
+  ],
+  "related_institution_ids": [39, 8, 41, 43],
+  "related_topic_ids": ["fee-budget", "scholarship-questions", "counselling-prep"],
+  "sources": [
+    {"id":"raffles-fee-index","title":"Raffles University: fee structure 2026–27","url":"https://rafflesuniversity.edu.in/fee-structure","checked_on":"2026-10-30","note":"Official HTML fee index read; supports current-schedule example in match-the-letter. No fee amount copied or inferred."},
+    {"id":"palar-admission","title":"Palar Agricultural College: admission procedure","url":"https://palaragri.ac.in/admission/","checked_on":"2026-10-30","note":"Official undated page states TNAU counselling and direct college channels and refers to government-prescribed fees; it does not supply a dated itemised amount."},
+    {"id":"tnu-fees-2026","title":"The Neotia University: Indian-student fee structure 2026–27","url":"https://www.tnu.in/admissions/fee-structure/indian-students-2/","checked_on":"2026-10-30","note":"Official schedule read; supports residential/transport exclusions in read-exclusions-and-concessions. No real tuition amount reused."},
+    {"id":"lpu-scholarships","title":"Lovely Professional University: scholarships","url":"https://www.lpu.in/scholarship/scholarship.php","checked_on":"2026-10-30","note":"Official page read; supports programme and admission-phase variation only. No individual award or renewal threshold inferred."}
+  ],
+  "verification_notes": ["All numerical amounts in the worked example are explicitly illustrative, independent of actual institutional fees.","Arithmetic checked: 60,000 × 2 + 10,000 + 5,000 + 80,000 = 215,000.","Payment and refund paragraphs are verification questions and recordkeeping guidance, not legal or financial assurances.","LPU's live programme page now carries 2027 wording; no 2026 fee amount has been taken from that page."]
+}

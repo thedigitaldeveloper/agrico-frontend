@@ -1,0 +1,31 @@
+{
+  "checked_on": "2026-10-31",
+  "base": "http://localhost:3005",
+  "checks": [
+    "Unknown curated university tabs and unknown states return 404/noindex without requiring a working CMS",
+    "Article image context without credit links, editorial policy and representative mobile layouts render with no broken above-fold images",
+    "Audit reader contains all 123 deferred tabs and 58 institution backlogs, with working filtering and 320–1440px layouts"
+  ],
+  "lab_measurements": [
+    {
+      "route": "/university/rnb-global-university/course-fee",
+      "viewport": "390x844",
+      "lcp_ms": 524,
+      "cls": 0
+    },
+    {
+      "route": "/articles/agriculture-fee-budget",
+      "viewport": "390x844",
+      "lcp_ms": 244,
+      "cls": 0
+    },
+    {
+      "route": "/editorial-policy",
+      "viewport": "390x844",
+      "lcp_ms": 148,
+      "cls": 0
+    }
+  ],
+  "measurement_limits": "A local unthrottled Chromium observation, not Lighthouse, field Core Web Vitals or real-user INP. Do not use these numbers as a live performance guarantee.",
+  "errors": []
+}

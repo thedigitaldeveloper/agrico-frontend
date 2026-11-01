@@ -1,0 +1,4868 @@
+[
+  {
+    "id": "27:admission-process",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "admission-process",
+    "tab_label": "Admission Process",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/admission-process",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Admissions",
+    "meta_title": "Bhupal Nobles' University | Admission Process",
+    "description": "Plan an application to Bhupal Nobles' University by checking the exact qualification, selection route and intake-year notice for B.Sc. (Hons.) Agriculture.",
+    "summary": "Plan an application to Bhupal Nobles' University by checking the exact qualification, selection route and intake-year notice for B.Sc. (Hons.) Agriculture.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Admission Process · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "admission-route",
+        "heading": "Which admission route applies?",
+        "paragraphs": [
+          "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying."
+        ],
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+        }
+      },
+      {
+        "id": "admission-contacts",
+        "heading": "Official channels and public contact details",
+        "paragraphs": [
+          "Use the official channel for the exact programme and quota. Institution contacts below are public source details; ask the office to confirm the intended intake before applying."
+        ],
+        "table": {
+          "columns": [
+            "Contact / channel",
+            "Published information"
+          ],
+          "rows": [
+            [
+              "Admission information",
+              "[Official admission channel](https://www.bnuniversity.ac.in/Admission_Guidlines)"
+            ],
+            [
+              "Institution website",
+              "[Institution website](https://www.bnuniversity.ac.in/)"
+            ],
+            [
+              "Public telephone",
+              "0294-2414498"
+            ],
+            [
+              "Public email",
+              "deanag@bnuniversity.ac.in"
+            ]
+          ]
+        },
+        "source_ids": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "id": "programme-eligibility",
+        "heading": "Programme-wise eligibility and selection",
+        "paragraphs": [
+          "The following requirements belong to the named programme. A university-wide entrance or eligibility statement should not be transferred to every degree."
+        ],
+        "table": {
+          "columns": [
+            "Programme",
+            "Published entry requirements",
+            "Admission / selection route"
+          ],
+          "rows": [
+            [
+              "[B.Sc. (Hons.) Agriculture](/bsc-agriculture)",
+              "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+              "Request the programme-specific selection rules."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "application-steps",
+        "heading": "Application steps for this institution",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "Obtain the information bulletin",
+            "paragraphs": [
+              "The university instructs applicants to read the bulletin before filling the form."
+            ]
+          },
+          {
+            "heading": "Complete the application carefully",
+            "paragraphs": [
+              "The guidelines state that incomplete forms will not be accepted and final admission requires university approval."
+            ]
+          }
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "id": "documents-and-dates",
+        "heading": "Documents and dated notices",
+        "paragraphs": [
+          "The source lists the following documents. Check originals, acceptable formats and any quota-specific certificates against the current notice."
+        ],
+        "bullets": [
+          "Class X and XII mark sheets, photograph and signature for upload under the common form instructions.",
+          "A valid email address and mobile number for registration/login."
+        ],
+        "subsections": [
+          {
+            "heading": "Current application dates",
+            "paragraphs": [
+              "No current opening or closing date is quoted here without a verified dated notice. Follow the official admission link for the intended session."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "admission-costs",
+        "heading": "Check the offer before paying",
+        "paragraphs": [
+          "Read [Bhupal Nobles' University courses and fees](/university/bhupal-nobles-university/course-fee) for source-specific amounts and charge scope. Check whether a concession is actually covered by the [scholarship policy](/university/bhupal-nobles-university/scholarship). An offer should identify your programme, campus, fee category and reporting requirements."
+        ]
+      },
+      {
+        "id": "admission-reading",
+        "heading": "Understand the route behind your application",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Prepare for agriculture admission counselling",
+            "path": "/blogs/prepare-for-agriculture-counselling",
+            "description": "Prepare a route-specific agriculture counselling folder, check subjects and certificates, order preferences and track official allotment instructions.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Admission Process: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "admission-route",
+        "title": "Which admission route applies?"
+      },
+      {
+        "id": "admission-contacts",
+        "title": "Official channels and public contact details"
+      },
+      {
+        "id": "programme-eligibility",
+        "title": "Programme-wise eligibility and selection"
+      },
+      {
+        "id": "application-steps",
+        "title": "Application steps for this institution"
+      },
+      {
+        "id": "documents-and-dates",
+        "title": "Documents and dated notices"
+      },
+      {
+        "id": "admission-costs",
+        "title": "Check the offer before paying"
+      },
+      {
+        "id": "admission-reading",
+        "title": "Understand the route behind your application"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Admission Process: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How does admission to BNU work?",
+        "answer": "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying. Obtain the information bulletin: The university instructs applicants to read the bulletin before filling the form. Complete the application carefully: The guidelines state that incomplete forms will not be accepted and final admission requires university approval.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "Which application documents does BNU list?",
+        "answer": "Class X and XII mark sheets, photograph and signature for upload under the common form instructions.; A valid email address and mobile number for registration/login.. Check the applicable notice for originals, formats and category-specific certificates.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "Which dated admission notices are recorded for BNU?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://www.bnuniversity.ac.in/Admission_Guidlines; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      },
+      {
+        "question": "Does submitting a form make admission final?",
+        "answer": "The university guidelines state that finalisation requires its approval.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:course-fee",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "course-fee",
+    "tab_label": "Courses & Fees",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/course-fee",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Courses and Fees",
+    "meta_title": "Bhupal Nobles' University | Courses & Fees",
+    "description": "Compare Bhupal Nobles' University programmes, their duration and the fee period, source session and category behind each published amount. Unknown current prices are left unquoted.",
+    "summary": "Compare Bhupal Nobles' University programmes, their duration and the fee period, source session and category behind each published amount. Unknown current prices are left unquoted.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Courses & Fees · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "programme-fee-table",
+        "heading": "Programmes, duration and sourced fees",
+        "paragraphs": [
+          "A semester price and an annual or total-course amount are different measures. The table retains the original period and session; do not assume the same price applies to another intake or quota."
+        ],
+        "table": {
+          "columns": [
+            "Programme",
+            "Duration / level",
+            "Published amount and session",
+            "What the figure covers"
+          ],
+          "rows": [
+            [
+              "B.Sc. (Hons.) Agriculture",
+              "4 years · Undergraduate",
+              "Current amount not verified",
+              "A dated fee schedule for the intended admission year has not been verified."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programme-fee-notes",
+        "heading": "Fee categories, inclusions and exclusions",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "B.Sc. (Hons.) Agriculture",
+            "paragraphs": [
+              "A dated fee schedule for the intended admission year has not been verified."
+            ],
+            "source_ids": []
+          }
+        ]
+      },
+      {
+        "id": "study-and-entry",
+        "heading": "What each programme involves",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "B.Sc. (Hons.) Agriculture",
+            "paragraphs": [
+              "The official table lists B.Sc. Agriculture with Hindi and English media; the audited ICAR label includes Honours."
+            ],
+            "source_ids": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+        }
+      },
+      {
+        "id": "total-cost-checks",
+        "heading": "Build a cost statement for your own offer",
+        "paragraphs": [
+          "Use the published charge notes above, then request anything not confirmed. The following table is a set of budgeting questions; it is not a claim that every listed charge is imposed by Bhupal Nobles' University."
+        ],
+        "table": {
+          "columns": [
+            "Cost item",
+            "What to confirm"
+          ],
+          "rows": [
+            [
+              "Tuition / course fee",
+              "Applicable programme, quota, session and payment period"
+            ],
+            [
+              "Compulsory academic charges",
+              "Whether examinations, registration, laboratory or other charges are included"
+            ],
+            [
+              "One-time amounts",
+              "Whether a deposit or admission charge applies and the written refund terms"
+            ],
+            [
+              "Living and travel",
+              "Actual accommodation, meals, transport and personal costs for your arrangements"
+            ],
+            [
+              "Scholarship adjustment",
+              "Which charges an approved award covers and when it is credited"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fee-next-steps",
+        "heading": "Compare eligibility and scholarship conditions",
+        "paragraphs": [
+          "Check [admission requirements](/university/bhupal-nobles-university/admission-process) before comparing offers. Read the [scholarship conditions](/university/bhupal-nobles-university/scholarship) separately: eligibility for an award and a confirmed net payable amount are different facts."
+        ],
+        "post_cards": [
+          {
+            "title": "How to compare agriculture fees, quotas and living costs",
+            "path": "/articles/agriculture-fee-budget",
+            "description": "Compare agriculture tuition by academic year, semester and quota, then add compulsory charges, deposits, hostel, mess and travel to your budget.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Reading an agriculture fee letter before paying",
+            "path": "/blogs/reading-an-agriculture-fee-letter",
+            "description": "Read fee periods, deposits, scholarship deductions and exclusions in an agriculture admission offer, with a clearly labelled worked budget.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Courses & Fees: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "programme-fee-table",
+        "title": "Programmes, duration and sourced fees"
+      },
+      {
+        "id": "programme-fee-notes",
+        "title": "Fee categories, inclusions and exclusions"
+      },
+      {
+        "id": "study-and-entry",
+        "title": "What each programme involves"
+      },
+      {
+        "id": "total-cost-checks",
+        "title": "Build a cost statement for your own offer"
+      },
+      {
+        "id": "fee-next-steps",
+        "title": "Compare eligibility and scholarship conditions"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Courses & Fees: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How long is B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "4 years. The official table lists B.Sc. Agriculture with Hindi and English media; the audited ICAR label includes Honours.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "What scholarship information is available for BNU?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:scholarship",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "scholarship",
+    "tab_label": "Scholarships",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/scholarship",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Scholarships",
+    "meta_title": "Bhupal Nobles' University | Scholarships",
+    "description": "Read the sourced scholarship position for Bhupal Nobles' University, including programme applicability, covered charges and the conditions to confirm before budgeting.",
+    "summary": "Read the sourced scholarship position for Bhupal Nobles' University, including programme applicability, covered charges and the conditions to confirm before budgeting.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Scholarships · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "scholarship-position",
+        "heading": "What is documented for this institution?",
+        "paragraphs": [
+          "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile."
+        ],
+        "source_ids": []
+      },
+      {
+        "id": "listed-scholarship-schemes",
+        "heading": "Schemes and policy details",
+        "paragraphs": [
+          "No verified programme-applicable award schedule is reproduced here. A general university advertisement is not sufficient evidence that a particular agriculture or allied degree is included."
+        ],
+        "subsections": []
+      },
+      {
+        "id": "award-cost-scope",
+        "heading": "Which part of the cost could an award cover?",
+        "paragraphs": [
+          "Start with the actual [programme fee and charge notes](/university/bhupal-nobles-university/course-fee). Ask whether an offered concession covers tuition alone or any other charge; do not subtract it from the whole cost without written confirmation."
+        ],
+        "table": {
+          "columns": [
+            "Question for the admissions / scholarship office",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Does this scheme name my exact degree and intake?",
+              "B.Sc. (Hons.) Agriculture"
+            ],
+            [
+              "What is the award basis and written approval process?",
+              "An eligibility category does not by itself confirm an award."
+            ],
+            [
+              "What are the renewal conditions?",
+              "Budget for subsequent years using the actual continuation rules."
+            ],
+            [
+              "Can awards be combined?",
+              "Do not add separate advertised concessions unless the policy permits it."
+            ],
+            [
+              "When is the amount adjusted?",
+              "The timing of a credit can affect the amount initially payable."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "scholarship-request",
+        "heading": "Prepare a programme-specific request",
+        "paragraphs": [
+          "Identify your proposed qualification at Bhupal Nobles' University, intended intake and fee category. Ask for the scheme document, application procedure, assessment date, documentary requirements and award letter. Only submit the documents the applicable policy actually asks for."
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+        },
+        "post_cards": [
+          {
+            "title": "Check agriculture scholarship conditions before budgeting",
+            "path": "/blogs/agriculture-scholarship-conditions",
+            "description": "Check programme exclusions, award letters, eligible tuition, renewal and payment timing before putting an agriculture scholarship into your budget.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Scholarships: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "scholarship-position",
+        "title": "What is documented for this institution?"
+      },
+      {
+        "id": "listed-scholarship-schemes",
+        "title": "Schemes and policy details"
+      },
+      {
+        "id": "award-cost-scope",
+        "title": "Which part of the cost could an award cover?"
+      },
+      {
+        "id": "scholarship-request",
+        "title": "Prepare a programme-specific request"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Scholarships: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What scholarship information is available for BNU?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:training-and-placements",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "training-and-placements",
+    "tab_label": "Training & Placements",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/training-and-placements",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Training and Placements",
+    "meta_title": "Bhupal Nobles' University | Training & Placements",
+    "description": "Explore Bhupal Nobles' University career preparation and the available evidence on training and outcomes. Educational exposure is kept separate from verified placement figures.",
+    "summary": "Explore Bhupal Nobles' University career preparation and the available evidence on training and outcomes. Educational exposure is kept separate from verified placement figures.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Training & Placements · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "career-support-evidence",
+        "heading": "Career support and reported outcomes",
+        "paragraphs": [
+          "Bhupal Nobles' University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation."
+        ],
+        "source_ids": [
+          "o31_nirf2026"
+        ],
+        "bullets": []
+      },
+      {
+        "id": "reported-graduate-cohorts",
+        "heading": "Reported graduate outcomes by programme category",
+        "paragraphs": [
+          "These rows retain the reporting year and programme category supplied by the source. They describe a past graduating cohort; do not transfer a category-wide median to every specialisation or an individual offer."
+        ],
+        "table": {
+          "columns": [
+            "Reporting year / programme category",
+            "Graduated in minimum time",
+            "Placed",
+            "Higher studies",
+            "Median annual salary of placed graduates"
+          ],
+          "rows": [
+            [
+              "2024-25 · UG four-year programme category",
+              "54",
+              "12",
+              "15",
+              "₹3,00,000"
+            ],
+            [
+              "2024-25 · PG two-year programme category",
+              "5",
+              "2",
+              "1",
+              "₹2,50,000"
+            ]
+          ]
+        },
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "id": "practical-training",
+        "heading": "Learning experiences connected with preparation",
+        "paragraphs": [
+          "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here."
+        ],
+        "source_ids": [
+          "s2",
+          "s4"
+        ],
+        "bullets": []
+      },
+      {
+        "id": "recruiter-information",
+        "heading": "Recruiter and outcome evidence",
+        "paragraphs": [
+          "No verified programme-specific recruiter list is presented here. Do not read a university-wide company logo wall as a placement result for the exact degree you plan to join."
+        ],
+        "bullets": [],
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "id": "placement-report-checks",
+        "heading": "How to assess a placement claim",
+        "paragraphs": [
+          "For B.Sc. (Hons.) Agriculture, ask for a report that matches the course, campus and graduating batch. Compare outcomes on the same basis rather than using an isolated maximum package."
+        ],
+        "table": {
+          "columns": [
+            "Evidence to request",
+            "What to read"
+          ],
+          "rows": [
+            [
+              "Cohort and reporting year",
+              "Which programme, campus and graduating batch the report covers"
+            ],
+            [
+              "Eligible students and offers",
+              "How the institution defines participation and reported placement"
+            ],
+            [
+              "Roles and employers",
+              "Whether the work and qualification requirements match the degree"
+            ],
+            [
+              "Salary description",
+              "Whether a quoted figure is median, average, highest or another measure"
+            ],
+            [
+              "Internship versus employment",
+              "Whether an experience is curricular training, a paid internship or a final job offer"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "career-pathway-reading",
+        "heading": "Connect programme choice with your next step",
+        "paragraphs": [
+          "Read the [programme and fee details](/university/bhupal-nobles-university/course-fee) and [practical facilities](/university/bhupal-nobles-university/infrastructure) together. A university course is preparation for possible next steps; the sources here do not promise a job or salary."
+        ],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+            "path": "/articles/bsc-agriculture-vs-agricultural-engineering",
+            "description": "Compare agriculture science and agricultural engineering through official curricula, subject eligibility, practical work and further-study questions.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Plan an agriculture study pathway after Class 12",
+            "path": "/blogs/agriculture-study-plan-after-class-12",
+            "description": "Connect your Class 12 subjects and interests with agriculture degrees, practical learning and further study, without relying on salary promises.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Training & Placements: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "career-support-evidence",
+        "title": "Career support and reported outcomes"
+      },
+      {
+        "id": "reported-graduate-cohorts",
+        "title": "Reported graduate outcomes by programme category"
+      },
+      {
+        "id": "practical-training",
+        "title": "Learning experiences connected with preparation"
+      },
+      {
+        "id": "recruiter-information",
+        "title": "Recruiter and outcome evidence"
+      },
+      {
+        "id": "placement-report-checks",
+        "title": "How to assess a placement claim"
+      },
+      {
+        "id": "career-pathway-reading",
+        "title": "Connect programme choice with your next step"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Training & Placements: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What training and outcome evidence is available for BNU?",
+        "answer": "Bhupal Nobles' University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "question": "What practical learning is described at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "Which employers or training organisations are named for BNU?",
+        "answer": "The available sources do not establish a programme-specific recruiter list for B.Sc. (Hons.) Agriculture. The documented preparation consists of The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "o31_nirf2026",
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "Which teaching facilities are documented at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:cut-off",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "cut-off",
+    "tab_label": "Eligibility & Cut-offs",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/cut-off",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Eligibility and Cut-off Information",
+    "meta_title": "Bhupal Nobles' University | Eligibility & Cut-offs",
+    "description": "Check programme-wise eligibility and admission-route information for Bhupal Nobles' University. Minimum qualifying criteria and a round-specific closing rank are kept separate.",
+    "summary": "Check programme-wise eligibility and admission-route information for Bhupal Nobles' University. Minimum qualifying criteria and a round-specific closing rank are kept separate.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Eligibility & Cut-offs · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cutoff-evidence",
+        "heading": "What can be confirmed from the available sources?",
+        "paragraphs": [
+          "The sourced entry requirements below are available for comparison. A complete institution-specific, category-wise closing-rank table has not been verified in this content set, so no closing scores are invented or borrowed from another publisher."
+        ]
+      },
+      {
+        "id": "programme-qualifying-criteria",
+        "heading": "Minimum eligibility and accepted selection route",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Programme",
+            "Sourced qualification / subjects",
+            "Selection route to confirm"
+          ],
+          "rows": [
+            [
+              "[B.Sc. (Hons.) Agriculture](/bsc-agriculture)",
+              "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+              "Request the programme-specific selection rules."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "eligibility-versus-cutoff",
+        "heading": "Minimum eligibility and closing rank answer different questions",
+        "paragraphs": [
+          "A qualifying subject or minimum academic threshold determines whether an applicant can be considered under the applicable rules. A closing rank or score describes a particular selection list, counselling round or category. One should not be substituted for the other."
+        ],
+        "table": {
+          "columns": [
+            "If a number is described as…",
+            "Check these details before using it"
+          ],
+          "rows": [
+            [
+              "Minimum academic marks",
+              "Qualifying examination, subjects, category and intake-year rule"
+            ],
+            [
+              "Entrance qualifying score",
+              "Named examination and its relevant year/category instructions"
+            ],
+            [
+              "Closing rank or score",
+              "Exact institution, programme, round, quota, category and year"
+            ],
+            [
+              "An older admission figure",
+              "Its historical context; do not label it as the current cutoff"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "selection-context",
+        "heading": "Which rules should you read for your programme?",
+        "paragraphs": [
+          "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying.",
+          "Follow [the admission process for Bhupal Nobles' University](/university/bhupal-nobles-university/admission-process) and the official notice. Seat availability and document verification remain separate from meeting a qualifying threshold."
+        ],
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+        }
+      },
+      {
+        "id": "cutoff-shortlist",
+        "heading": "Use the evidence in a shortlist",
+        "paragraphs": [
+          "Record your programme, subject combination and relevant category before comparing options. If an official closing list is provided, match every label to your application; avoid predictions based only on another student’s admission or an unsourced portal table."
+        ],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Prepare for agriculture admission counselling",
+            "path": "/blogs/prepare-for-agriculture-counselling",
+            "description": "Prepare a route-specific agriculture counselling folder, check subjects and certificates, order preferences and track official allotment instructions.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Eligibility & Cut-offs: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "cutoff-evidence",
+        "title": "What can be confirmed from the available sources?"
+      },
+      {
+        "id": "programme-qualifying-criteria",
+        "title": "Minimum eligibility and accepted selection route"
+      },
+      {
+        "id": "eligibility-versus-cutoff",
+        "title": "Minimum eligibility and closing rank answer different questions"
+      },
+      {
+        "id": "selection-context",
+        "title": "Which rules should you read for your programme?"
+      },
+      {
+        "id": "cutoff-shortlist",
+        "title": "Use the evidence in a shortlist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Eligibility & Cut-offs: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "Is a programme-specific closing rank available for BNU?",
+        "answer": "A named-programme, category and round closing list is not verified here. The published entry requirements are B.Sc. (Hons.) Agriculture: Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.. These requirements are not a closing rank.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "How does admission to BNU work?",
+        "answer": "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying. Obtain the information bulletin: The university instructs applicants to read the bulletin before filling the form. Complete the application carefully: The guidelines state that incomplete forms will not be accepted and final admission requires university approval.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "Which dated admission notices are recorded for BNU?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://www.bnuniversity.ac.in/Admission_Guidlines; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:infrastructure",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "infrastructure",
+    "tab_label": "Infrastructure",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/infrastructure",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Infrastructure and Learning Facilities",
+    "meta_title": "Bhupal Nobles' University | Infrastructure",
+    "description": "Read the documented learning facilities and practical setting for Bhupal Nobles' University in Udaipur, Rajasthan, with source-linked campus and academic imagery.",
+    "summary": "Read the documented learning facilities and practical setting for Bhupal Nobles' University in Udaipur, Rajasthan, with source-linked campus and academic imagery.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Infrastructure · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "learning-setting",
+        "heading": "The documented academic setting",
+        "paragraphs": [
+          "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here."
+        ],
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "id": "practical-access",
+        "heading": "Practical learning and student access",
+        "paragraphs": [
+          "For B.Sc. (Hons.) Agriculture, the usefulness of a facility depends on actual teaching access, supervision and the programme timetable. The documented learning activities are listed below; ask the department about your own cohort’s arrangements."
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "id": "faculty-and-teaching",
+        "heading": "People and supervision",
+        "paragraphs": [
+          "Selected staff listed as currently working in the NIRF 2026 Agriculture and Allied Sectors submission are shown here. The dated filing is a staffing snapshot rather than a guarantee of unchanged appointments."
+        ],
+        "bullets": [
+          "Dr. Dilip Singh · Dean / Principal / Director category in the NIRF 2026 agriculture filing",
+          "Dr. Garima Babel · Associate Dean",
+          "Dr. Jaipal Singh · Assistant Professor",
+          "Dr. Fateh Lal Sharma · Professor",
+          "Dr. Pratap Singh Rao · Professor",
+          "Dr. Shilpa Rathore · Associate Professor"
+        ],
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "id": "facilities-in-images",
+        "heading": "Campus and academic images",
+        "paragraphs": [],
+        "images": [
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+            "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+            "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+            "background": "light",
+            "width": 1920,
+            "height": 734
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-next",
+        "heading": "Compare the setting with your study needs",
+        "paragraphs": [
+          "View the full [photo gallery](/university/bhupal-nobles-university/gallery), then read [campus-life planning](/university/bhupal-nobles-university/campus-life). Images illustrate the named setting; they do not by themselves establish the current availability or teaching access of every facility."
+        ],
+        "post_cards": [
+          {
+            "title": "Compare two agriculture campuses using a useful checklist",
+            "path": "/blogs/compare-agriculture-campuses",
+            "description": "Compare agriculture campuses through practical teaching, supervision, living costs, travel and evidence, with a worksheet for families.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Infrastructure: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "learning-setting",
+        "title": "The documented academic setting"
+      },
+      {
+        "id": "practical-access",
+        "title": "Practical learning and student access"
+      },
+      {
+        "id": "faculty-and-teaching",
+        "title": "People and supervision"
+      },
+      {
+        "id": "facilities-in-images",
+        "title": "Campus and academic images"
+      },
+      {
+        "id": "infrastructure-next",
+        "title": "Compare the setting with your study needs"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Infrastructure: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which teaching facilities are documented at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "What practical learning is described at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "Who is listed in the teaching information for BNU?",
+        "answer": "Selected staff listed as currently working in the NIRF 2026 Agriculture and Allied Sectors submission are shown here. The dated filing is a staffing snapshot rather than a guarantee of unchanged appointments. Dr. Dilip Singh · Dean / Principal / Director category in the NIRF 2026 agriculture filing; Dr. Garima Babel · Associate Dean; Dr. Jaipal Singh · Assistant Professor; Dr. Fateh Lal Sharma · Professor; Dr. Pratap Singh Rao · Professor; Dr. Shilpa Rathore · Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "question": "Where is BNU located?",
+        "answer": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:campus-life",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "campus-life",
+    "tab_label": "Campus Life",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/campus-life",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Campus Life and Student Planning",
+    "meta_title": "Bhupal Nobles' University | Campus Life",
+    "description": "Plan the student experience at Bhupal Nobles' University around its location, documented learning setting and the accommodation, travel and support details relevant to your own study plan.",
+    "summary": "Plan the student experience at Bhupal Nobles' University around its location, documented learning setting and the accommodation, travel and support details relevant to your own study plan.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Campus Life · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "campus-location",
+        "heading": "Where will you study?",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Planning detail",
+            "Source information"
+          ],
+          "rows": [
+            [
+              "Institution",
+              "Bhupal Nobles' University"
+            ],
+            [
+              "Study location",
+              "Udaipur, Rajasthan"
+            ],
+            [
+              "Programmes covered",
+              "B.Sc. (Hons.) Agriculture"
+            ],
+            [
+              "Address",
+              "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "documented-student-setting",
+        "heading": "What is documented about the setting?",
+        "paragraphs": [
+          "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here."
+        ],
+        "source_ids": [
+          "s2",
+          "s4"
+        ],
+        "subsections": []
+      },
+      {
+        "id": "learning-week",
+        "heading": "How could the programme shape your week?",
+        "paragraphs": [
+          "Read the actual practical components for B.Sc. (Hons.) Agriculture alongside the academic timetable. Field work, laboratory sessions or clinical teaching may affect daily travel and preparation; confirm the arrangements rather than inferring them from a campus photograph."
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "id": "student-arrangements",
+        "heading": "Accommodation, travel and support: what to confirm",
+        "paragraphs": [
+          "For your own offer, confirm room availability, residential costs and travel arrangements that are not specified above."
+        ],
+        "table": {
+          "columns": [
+            "Your planning question",
+            "Information to request"
+          ],
+          "rows": [
+            [
+              "Where will I live?",
+              "Whether institutional accommodation is available to your category, room options and applicable rules"
+            ],
+            [
+              "What will living cost?",
+              "Written accommodation and meal charges, deposits and included services"
+            ],
+            [
+              "How will I travel?",
+              "Actual travel time, transport arrangements and access to the teaching location"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "campus-life-next",
+        "heading": "Build a visit or enquiry checklist",
+        "paragraphs": [
+          "Take your own programme requirements to the visit or admissions discussion. Compare the [learning infrastructure](/university/bhupal-nobles-university/infrastructure), [complete cost scope](/university/bhupal-nobles-university/course-fee) and [campus photographs](/university/bhupal-nobles-university/gallery) before choosing."
+        ],
+        "post_cards": [
+          {
+            "title": "Compare two agriculture campuses using a useful checklist",
+            "path": "/blogs/compare-agriculture-campuses",
+            "description": "Compare agriculture campuses through practical teaching, supervision, living costs, travel and evidence, with a worksheet for families.",
+            "kind": "Blog"
+          },
+          {
+            "title": "Questions to ask before choosing an agriculture college",
+            "path": "/blogs/questions-before-choosing-agriculture-college",
+            "description": "Ask better questions about agriculture degrees, practical teaching, accreditation, fees and student support before making a college decision.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Campus Life: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "campus-location",
+        "title": "Where will you study?"
+      },
+      {
+        "id": "documented-student-setting",
+        "title": "What is documented about the setting?"
+      },
+      {
+        "id": "learning-week",
+        "title": "How could the programme shape your week?"
+      },
+      {
+        "id": "student-arrangements",
+        "title": "Accommodation, travel and support: what to confirm"
+      },
+      {
+        "id": "campus-life-next",
+        "title": "Build a visit or enquiry checklist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Campus Life: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Where is BNU located?",
+        "answer": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+        "source_ids": []
+      },
+      {
+        "question": "What student facilities are documented for BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here. Accommodation availability, meal charges and transport arrangements for your entry year still need direct confirmation.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "What practical learning is described at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:gallery",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "gallery",
+    "tab_label": "Gallery",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/gallery",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Campus and Academic Photo Gallery",
+    "meta_title": "Bhupal Nobles' University | Gallery",
+    "description": "View campus and academic photographs associated with Bhupal Nobles' University, then connect the pictured setting with the documented programme and facilities.",
+    "summary": "View campus and academic photographs associated with Bhupal Nobles' University, then connect the pictured setting with the documented programme and facilities.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Gallery · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "campus-photo-gallery",
+        "heading": "Campus and academic photo gallery",
+        "paragraphs": [
+          "Read the captions to identify the building, activity or event pictured at Bhupal Nobles' University. The facilities and practical-learning details below provide the academic context."
+        ],
+        "images": [
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+            "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+            "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+            "background": "light",
+            "width": 1920,
+            "height": 734
+          }
+        ]
+      },
+      {
+        "id": "read-the-setting",
+        "heading": "Understand the academic context",
+        "paragraphs": [
+          "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here."
+        ],
+        "source_ids": [
+          "s2",
+          "s4"
+        ],
+        "bullets": []
+      },
+      {
+        "id": "gallery-next",
+        "heading": "Continue beyond the photographs",
+        "paragraphs": [
+          "Read the [documented infrastructure](/university/bhupal-nobles-university/infrastructure) and [campus-life planning information](/university/bhupal-nobles-university/campus-life). Ask about the precise programme and location you intend to join; do not assume a general university image is evidence of every departmental facility."
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Gallery: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "campus-photo-gallery",
+        "title": "Campus and academic photo gallery"
+      },
+      {
+        "id": "read-the-setting",
+        "title": "Understand the academic context"
+      },
+      {
+        "id": "gallery-next",
+        "title": "Continue beyond the photographs"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "Gallery: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is shown in the BNU photo gallery?",
+        "answer": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "source_ids": []
+      },
+      {
+        "question": "Where is BNU located?",
+        "answer": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+        "source_ids": []
+      },
+      {
+        "question": "What practical learning is described at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "Where can I read about facilities beyond the BNU photographs?",
+        "answer": "The [infrastructure page](/university/bhupal-nobles-university/infrastructure) explains the documented teaching setting. Read [campus life](/university/bhupal-nobles-university/campus-life) for student arrangements; a general campus image does not confirm access to every facility.",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:news-and-notifications",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "news-and-notifications",
+    "tab_label": "News & Notices",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/news-and-notifications",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Admission News and Official Notices",
+    "meta_title": "Bhupal Nobles' University | News & Notices",
+    "description": "Find sourced admission notices associated with Bhupal Nobles' University, distinguish historical events from current application windows, and follow the institution’s official update channel",
+    "summary": "Find sourced admission notices associated with Bhupal Nobles' University, distinguish historical events from current application windows, and follow the institution’s official update channel.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "News & Notices · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "verified-news",
+        "heading": "Sourced news and notices",
+        "paragraphs": [
+          "For a new application opening, revised deadline or fee notice, use the official admission channel for Bhupal Nobles' University. Any dated events below retain their original session and event dates."
+        ],
+        "post_cards": []
+      },
+      {
+        "id": "dated-institution-notices",
+        "heading": "Dated events in the institution research",
+        "paragraphs": [
+          "No verified dated admission event is quoted from this profile. Do not treat the editorial review date as the institution’s notice or announcement date."
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "id": "official-update-channel",
+        "heading": "Where to check a new announcement",
+        "paragraphs": [
+          "Use the official link for Bhupal Nobles' University. Match the programme, campus, intake year and applicable quota when reading a notice. If a later notice changes a date or rule, use the authority’s latest applicable instructions."
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+        },
+        "table": {
+          "columns": [
+            "Programme covered here",
+            "Admission route / next check"
+          ],
+          "rows": [
+            [
+              "B.Sc. (Hons.) Agriculture",
+              "Request the current programme-specific admission notice."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "act-on-a-notice",
+        "heading": "Turn a notice into an application checklist",
+        "paragraphs": [
+          "Read [the admission process](/university/bhupal-nobles-university/admission-process) and [the relevant fee scope](/university/bhupal-nobles-university/course-fee) before paying or reporting. Retain the complete official notice and any programme-specific amendments, rather than relying on a headline or forwarded screenshot."
+        ],
+        "post_cards": [
+          {
+            "title": "How to compare agriculture fees, quotas and living costs",
+            "path": "/articles/agriculture-fee-budget",
+            "description": "Compare agriculture tuition by academic year, semester and quota, then add compulsory charges, deposits, hostel, mess and travel to your budget.",
+            "kind": "Articles"
+          },
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+            "path": "/articles/bsc-agriculture-vs-agricultural-engineering",
+            "description": "Compare agriculture science and agricultural engineering through official curricula, subject eligibility, practical work and further-study questions.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "News & Notices: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "verified-news",
+        "title": "Sourced news and notices"
+      },
+      {
+        "id": "dated-institution-notices",
+        "title": "Dated events in the institution research"
+      },
+      {
+        "id": "official-update-channel",
+        "title": "Where to check a new announcement"
+      },
+      {
+        "id": "act-on-a-notice",
+        "title": "Turn a notice into an application checklist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "News & Notices: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which dated admission notices are recorded for BNU?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://www.bnuniversity.ac.in/Admission_Guidlines; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "How does admission to BNU work?",
+        "answer": "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying. Obtain the information bulletin: The university instructs applicants to read the bulletin before filling the form. Complete the application carefully: The guidelines state that incomplete forms will not be accepted and final admission requires university approval.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      },
+      {
+        "question": "Which agriculture or allied programmes are covered at BNU?",
+        "answer": "This profile covers B.Sc. (Hons.) Agriculture. The [courses and fees table](/university/bhupal-nobles-university/course-fee) separates the qualifications and published fee periods.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "27:faqs",
+    "institution_id": 27,
+    "kind": "UniversityTab",
+    "slug": "bhupal-nobles-university",
+    "tab_slug": "faqs",
+    "tab_label": "FAQs",
+    "parent_path": "/university/bhupal-nobles-university",
+    "parent_title": "Bhupal Nobles' University",
+    "path": "/university/bhupal-nobles-university/faqs",
+    "name": "Bhupal Nobles' University",
+    "title": "Bhupal Nobles' University: Frequently Asked Questions",
+    "meta_title": "Bhupal Nobles' University | FAQs",
+    "description": "Answers to applicant questions about Bhupal Nobles' University, its programmes, source-specific fees, admission checks and documented learning setting.",
+    "summary": "Answers to applicant questions about Bhupal Nobles' University, its programmes, source-specific fees, admission checks and documented learning setting.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "FAQs · Agriculture and allied study",
+    "identity": {
+      "kind": "private_university",
+      "short_name": "BNU",
+      "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "established": 2015,
+      "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+      "parent_university": null,
+      "website": "https://www.bnuniversity.ac.in/",
+      "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "phone": "0294-2414498",
+      "email": "deanag@bnuniversity.ac.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/bhupal-nobles-university/logo.png",
+        "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+        "background": "light",
+        "width": 166,
+        "height": 195
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/bhupal-nobles-university/campus-01.jpg",
+        "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+        "background": "light",
+        "width": 1920,
+        "height": 734
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/bhupal-nobles-university"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/bhupal-nobles-university/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/bhupal-nobles-university/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/bhupal-nobles-university/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/bhupal-nobles-university/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/bhupal-nobles-university/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/bhupal-nobles-university/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/bhupal-nobles-university/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/bhupal-nobles-university/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/bhupal-nobles-university/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/bhupal-nobles-university/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "questions-in-context",
+        "heading": "Use the answer for the exact programme and session",
+        "paragraphs": [
+          "Find answers about B.Sc. (Hons.) Agriculture, entry requirements, fee periods, practical study and student facilities. Follow the subject-page links for detailed tables and application steps."
+        ]
+      },
+      {
+        "id": "faq-subject-pages",
+        "heading": "Find a detailed answer by subject",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Question area",
+            "Detailed page"
+          ],
+          "rows": [
+            [
+              "Entry subjects and selection",
+              "[Admission process](/university/bhupal-nobles-university/admission-process)"
+            ],
+            [
+              "Fee period, category and inclusions",
+              "[Courses and fees](/university/bhupal-nobles-university/course-fee)"
+            ],
+            [
+              "Award applicability and conditions",
+              "[Scholarships](/university/bhupal-nobles-university/scholarship)"
+            ],
+            [
+              "Minimum eligibility and selection lists",
+              "[Eligibility and cut-off information](/university/bhupal-nobles-university/cut-off)"
+            ],
+            [
+              "Facilities and student setting",
+              "[Infrastructure](/university/bhupal-nobles-university/infrastructure) · [Campus life](/university/bhupal-nobles-university/campus-life)"
+            ],
+            [
+              "Training and outcomes",
+              "[Training and placements](/university/bhupal-nobles-university/training-and-placements)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to Bhupal Nobles' University",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "Bhupal Nobles' University: plan an agriculture application",
+            "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+            "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "FAQs: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "questions-in-context",
+        "title": "Use the answer for the exact programme and session"
+      },
+      {
+        "id": "faq-subject-pages",
+        "title": "Find a detailed answer by subject"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to Bhupal Nobles' University"
+      },
+      {
+        "id": "faqs",
+        "title": "FAQs: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which unit appears in Bhupal Nobles' ICAR entry?",
+        "answer": "The audited register names B.N. College of Agriculture and lists B.Sc. (Hons.) Agriculture.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "question": "What is the published course duration?",
+        "answer": "The university’s agriculture table gives four years.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "question": "Which teaching languages are listed?",
+        "answer": "The official table identifies Hindi and English. Confirm how individual classes and examinations are delivered.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "question": "What school qualification is shown?",
+        "answer": "The undated course table lists 10+2 Science or Agriculture with 45%. An intake-specific rule is still needed.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "question": "Does submitting a form make admission final?",
+        "answer": "The university guidelines state that finalisation requires its approval.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "question": "Which agriculture or allied programmes are covered at BNU?",
+        "answer": "This profile covers B.Sc. (Hons.) Agriculture. The [courses and fees table](/university/bhupal-nobles-university/course-fee) separates the qualifications and published fee periods.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "How long is B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "4 years. The official table lists B.Sc. Agriculture with Hindi and English media; the audited ICAR label includes Honours.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at BNU?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How does admission to BNU work?",
+        "answer": "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying. Obtain the information bulletin: The university instructs applicants to read the bulletin before filling the form. Complete the application carefully: The guidelines state that incomplete forms will not be accepted and final admission requires university approval.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      },
+      {
+        "question": "What is the recorded ICAR scope for BNU?",
+        "answer": "B.N. College of Agriculture: B. Sc. (Hons.) Agriculture (Intake- 60)*, recorded term 2022-10-11 to 2027-10-10. This entry applies to the named unit and programme.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "question": "What practical learning is described at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "Which teaching facilities are documented at BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "What student facilities are documented for BNU?",
+        "answer": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here. Accommodation availability, meal charges and transport arrangements for your entry year still need direct confirmation.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "question": "What scholarship information is available for BNU?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "What training and outcome evidence is available for BNU?",
+        "answer": "Bhupal Nobles' University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "question": "How can I contact BNU about an application?",
+        "answer": "Published phone: 0294-2414498. Published email: deanag@bnuniversity.ac.in. Official admissions: https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "source_ids": []
+      },
+      {
+        "question": "Which dated admission notices are recorded for BNU?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://www.bnuniversity.ac.in/Admission_Guidlines; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "o31_online",
+          "o31_instructions"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://www.bnuniversity.ac.in/Courses",
+        "title": "Agriculture course table and university identity",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview",
+          "programmes"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+        "title": "University admission guidelines",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "admissions"
+        ],
+        "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+      },
+      {
+        "id": "s4",
+        "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+        "title": "Faculty of Agriculture profile",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus",
+          "faculty"
+        ],
+        "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+      },
+      {
+        "id": "o31_online",
+        "title": "Bhupal Nobles University admission registration 2026-27",
+        "url": "https://www.bnuniversity.ac.in/Online-Admission",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+      },
+      {
+        "id": "o31_instructions",
+        "title": "Bhupal Nobles official application instructions",
+        "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Undated common online-application instructions linked by the2026-27 registration page."
+      },
+      {
+        "id": "o31_nirf2026",
+        "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+        "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+        "kind": "official",
+        "checked_on": "2026-10-31",
+        "access": "page_read",
+        "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "Bhupal Nobles' University: plan an agriculture application",
+        "path": "/articles/bhupal-nobles-university-agriculture-application-plan-guide",
+        "description": "Use the documented programmes, learning activities and admission route at Bhupal Nobles' University to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  }
+]

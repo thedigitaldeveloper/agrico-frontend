@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-11T19:46:32.354Z",
+  "sourceHashes": {
+    "src/components/rs/content-carousel.tsx": "95e60377ef0ffe59917eb0b95efe805d7c267c3ef8c596c67cc0e77b89dcb3c0",
+    "src/components/rs/content-carousel.css": "ac5603a926742c05bbcfc4c3c7185fc4d1681a94f1ea9e00dfd93e675384ff9b",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [],
+  "errors": [],
+  "geometryAtFailure": {
+    "left": 3,
+    "max": 1728,
+    "order": [
+      "item-1",
+      "item-2",
+      "item-3",
+      "item-4",
+      "item-5",
+      "item-6",
+      "item-7"
+    ],
+    "visible": [
+      "item-2",
+      "item-3"
+    ],
+    "overflow": false
+  },
+  "controlsAtFailure": [
+    {
+      "label": "Previous editorial selections",
+      "disabled": false
+    },
+    {
+      "label": "Next editorial selections",
+      "disabled": false
+    }
+  ],
+  "error": "TimeoutError: page.waitForFunction: Timeout 12000ms exceeded.",
+  "stack": "page.waitForFunction: Timeout 12000ms exceeded.\n    at waitVisible (D:\\rs-education-frontend\\scripts\\verify-content-carousel.cjs:64:14)\n    at checkMode (D:\\rs-education-frontend\\scripts\\verify-content-carousel.cjs:125:9)\n    at async D:\\rs-education-frontend\\scripts\\verify-content-carousel.cjs:204:21"
+}

@@ -1,0 +1,506 @@
+{
+  "id": 21,
+  "slug": "aks-university",
+  "name": "AKS University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "AKSU",
+    "ownership": "Private university",
+    "city": "Satna",
+    "state": "Madhya Pradesh",
+    "established": 2011,
+    "address": "AKS University, Sherganj, Panna Road, Satna, Madhya Pradesh 485001",
+    "parent_university": null,
+    "website": "https://www.aksuniversity.ac.in/",
+    "admissions_url": "https://admission.aksuniversity.ac.in/",
+    "phone": "+91 8889207776",
+    "email": "Info@aksuniversity.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "AKS University",
+    "summary": "AKS University in Satna offers agriculture through its Faculty of Agriculture Science and Technology. Its published curriculum spans crop science, horticulture and agricultural engineering, while the Department of Agronomy connects teaching with crop research and extension work.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Crop science within a wider agricultural faculty",
+    "paragraphs": [
+      "The undergraduate agriculture course at AKS sits within a faculty that also publishes curricula for agricultural engineering, food technology and several postgraduate agricultural subjects. This allows applicants to distinguish a broad first degree from later specialist study rather than treating every agriculture-related course as the same qualification.",
+      "The agronomy department dates its establishment to 2014. Its published teaching and research interests include crop production, soil management and weed control. The department also describes farmer training and field demonstrations, giving a concrete extension context to academic work. Applicants can progress from the broad undergraduate degree to specialist agronomy study, subject to the published qualification and practical-work requirements."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "AKS University, Satna, M.P."
+      },
+      {
+        "label": "Location",
+        "value": "Satna, Madhya Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The published curriculum introduces soil science, agronomy, horticulture, genetics, plant pathology and agricultural economics.",
+      "eligibility": "2026-27: 12th PCM/PCB/Agriculture stream with at least 60%.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 55000,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Base fee. Published General/OBC university scholarship reduces this to INR 48,000; category conditions and additional charges need confirmation. Non-refundable registration INR 4,900.",
+        "verification": "verified",
+        "source_ids": [
+          "s7"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3",
+        "s7"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Specialist study builds on an agriculture degree and focuses on crop production and management.",
+      "eligibility": "2026-27: B.Sc. Agriculture with at least 60%, including RAWE and experiential work.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 42000,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Base fee. Published General/OBC scholarship reduces this to INR 40,000; registration INR 4,900 separately.",
+        "verification": "verified",
+        "source_ids": [
+          "s7"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s7"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "AKS links an online admission portal and publishes a 2026-27 fee-and-eligibility table. Applicants can compare the base semester fee with the university’s category-specific scholarship columns before requesting their final offer.",
+    "eligibility_points": [
+      "2026-27 B.Sc. Agriculture requires 60% in 12th PCM/PCB/Agriculture.",
+      "M.Sc. Agronomy requires B.Sc. Agriculture with 60%, RAWE and experiential work."
+    ],
+    "steps": [
+      {
+        "title": "Check the course requirements",
+        "text": "Read the published agriculture qualification and any selection requirement under the university ordinance."
+      },
+      {
+        "title": "Complete the application",
+        "text": "AKS accepts its online form or an offline form obtained through the admissions office."
+      },
+      {
+        "title": "Submit the required records",
+        "text": "Provide qualifying records and identity/transfer/character documents from the official common checklist."
+      },
+      {
+        "title": "Confirm admission and enrolment",
+        "text": "After the admissions section issues confirmation, complete the specified payment, registration and enrolment formalities."
+      }
+    ],
+    "documents": [
+      "Educational certificates and qualifying mark sheets for Class X, XII and the applicable UG/PG qualification.",
+      "Aadhaar or the specified identity proof.",
+      "Passport-size photographs.",
+      "Transfer certificate and character certificate."
+    ],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s7",
+      "o31_process"
+    ]
+  },
+  "campus": {
+    "heading": "Agronomy, research and farmer extension",
+    "intro": "The agronomy department reports practical training alongside classroom teaching. Its extension activities include workshops, field visits and demonstrations intended to connect university knowledge with farming practice.",
+    "facilities": [
+      {
+        "name": "Faculty teaching laboratories",
+        "description": "The faculty lists soil and water conservation, farm machinery, irrigation and remote-sensing laboratories; several support agricultural-engineering teaching.",
+        "source_ids": [
+          "r2_faculty_facilities"
+        ]
+      },
+      {
+        "name": "Field and protected-cultivation training",
+        "description": "An experimental learning field, micro-irrigation training setup and polyhouse appear in the faculty list.",
+        "source_ids": [
+          "r2_faculty_facilities"
+        ]
+      },
+      {
+        "name": "Food-processing incubation",
+        "description": "The faculty identifies a food-processing and preservation incubation centre.",
+        "source_ids": [
+          "r2_faculty_facilities"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Department-led farmer training and demonstrations are described on the agronomy page.",
+      "The B.Sc. curriculum assigns practical credit to subjects including soil science, crop physiology and entomology."
+    ],
+    "source_ids": [
+      "s2",
+      "s5",
+      "r2_faculty_facilities"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The 2026-27 table gives a General/OBC university scholarship of INR 7,000 per semester for B.Sc. Agriculture and INR 2,000 for M.Sc. Agronomy. Confirm award and continuation conditions before relying on the reduced payable fee.",
+    "schemes": [
+      {
+        "name": "University scholarship: General/OBC fee table",
+        "details": "Published semester reductions for the listed agriculture courses; individual eligibility is subject to university confirmation.",
+        "source_ids": [
+          "s7"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The agronomy department describes campus recruitment, career counselling and preparation for interviews and CV writing. These are support activities; the checked page does not supply a dated agriculture placement rate or salary distribution.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists AKS University, Satna, M.P. for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "AKS University, Satna, M.P.",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture  \n(Intake- 240)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A29:G29"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The Agronomy department names Dr. Dheerendra Prasad Chaturvedi as its head. This selected entry comes from the undated departmental page checked on 31 October 2026; a complete current staffing certificate was not established.",
+    "people": [
+      {
+        "name": "Dr. Dheerendra Prasad Chaturvedi",
+        "role": "Head of Department, Agronomy",
+        "qualification": "M.Sc. (Ag.) Agronomy; Ph.D. Agronomy",
+        "source_ids": [
+          "r2_faculty_agronomy"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_faculty_agronomy"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which AKS agriculture degree appears in the ICAR register?",
+      "answer": "The audited entry names B.Sc. (Hons.) Agriculture for 11 October 2022 to 10 October 2027.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How long is the undergraduate agriculture course?",
+      "answer": "The university admissions listing gives four years.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "Does AKS offer postgraduate agronomy?",
+      "answer": "Yes. Its agronomy department lists a two-year M.Sc. requiring a B.Sc. Agriculture qualification.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What does the agriculture curriculum cover?",
+      "answer": "The published course structure includes crops, soils, horticulture, plant health and agricultural economics, with theory and practical credits.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "What is the B.Sc. Agriculture fee for 2026-27?",
+      "answer": "The official table gives INR 55,000 per semester before its General/OBC scholarship; that column shows INR 48,000 payable. Registration is separate.",
+      "source_ids": [
+        "s7"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "AKS University | Agriculture courses and admissions",
+    "description": "Explore AKS University agriculture courses in Satna, practical learning, admissions evidence and the exact ICAR programme scope, with fee verification notes.",
+    "keywords": [
+      "AKS University agriculture",
+      "AKS University admissions",
+      "AKS University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.aksuniversity.ac.in/sites/default/files/2024-04/akseblcock1.jpg",
+    "logo_url": "https://www.aksuniversity.ac.in/sites/default/files/AKSU-Logo.png",
+    "campus_alt": "AKS University academic block beside a landscaped internal road at Satna",
+    "caption": "AKS University academic block beside a landscaped internal road at Satna",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/aks-university/logo.png",
+    "local_campus_image": "media/aks-university/campus-plain.jpg",
+    "local_gallery": [
+      "media/aks-university/campus-plain.jpg",
+      "media/aks-university/campus_primary.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.aksuniversity.ac.in/Department-of-Agronomy",
+      "title": "Department of Agronomy",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.MSc",
+        "campus",
+        "placements",
+        "identity.contact"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://fast.aksuniversity.ac.in/obe-curriculum/",
+      "title": "Faculty outcome-based curricula",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "url": "https://aksu.aksforms.com/",
+      "title": "AKS University admissions course listing",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [],
+      "notes": "Vendor-hosted admissions listing discovered in search; official linking was not established. Not used for final course or fee facts; dated official university schedule supersedes it."
+    },
+    {
+      "id": "s5",
+      "url": "https://aksuniversity.in/naac/OBE/FAST/B.Sc_Hons_Ag.pdf",
+      "title": "B.Sc. Agriculture curriculum book",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.summary",
+        "campus.practical_learning"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "url": "https://iqac.aksuniversity.ac.in/nep-2020-implementation-by-aksu/",
+      "title": "NEP implementation and university contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s7",
+      "url": "https://www.aksuniversity.ac.in/latest-fee-structure",
+      "title": "Latest fee structure 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "programmes.eligibility",
+        "admissions",
+        "scholarships"
+      ],
+      "notes": "Dated 2026-27 official university page supersedes undated third-party-hosted admissions listing."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.aksuniversity.ac.in/",
+      "title": "AKS University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/aks-university/logo.png. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.aksuniversity.ac.in/",
+      "title": "AKS University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/aks-university/campus-plain.jpg. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.aksuniversity.ac.in/",
+      "title": "AKS University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/aks-university/campus_primary.jpg. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "o31_process",
+      "title": "AKS University official admission process",
+      "url": "https://www.aksuniversity.ac.in/admission-Process",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "University-wide process checked 31 October 2026; separate programme selection deadlines remain to be confirmed."
+    },
+    {
+      "id": "r2_faculty_agronomy",
+      "title": "AKS Agronomy department: head and teaching",
+      "url": "https://fast.aksuniversity.ac.in/department-of-agronomy/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faculty",
+        "campus"
+      ],
+      "notes": "Undated department listing checked on 31 October 2026; selected teacher rather than a dated complete roster."
+    },
+    {
+      "id": "r2_faculty_facilities",
+      "title": "AKS Faculty of Agriculture Science and Technology facilities",
+      "url": "https://www.aksuniversity.ac.in/Faculty-of-Agriculture-Science-and-Technology",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities"
+      ],
+      "notes": "Faculty-level list includes agricultural-engineering resources; identical access for every B.Sc. cohort is not inferred."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "faculty.people",
+      "reason": "A named Agronomy HOD is verified in the undated official directory; a dated complete current agriculture staff roster remains unverified.",
+      "next_source": "https://www.aksuniversity.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.aksuniversity.ac.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "Procedural steps and common documents are verified; programme-specific selection notice and deadlines remain unverified.",
+      "next_source": "https://admission.aksuniversity.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admission.aksuniversity.ac.in/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.aksuniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Replaced generic applicant-preparation steps with the official application and enrolment flow.",
+      "Added a named Agronomy HOD and three scoped faculty facility entries."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

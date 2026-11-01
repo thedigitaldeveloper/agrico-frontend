@@ -1,0 +1,3742 @@
+{
+  "checked_on": "2026-10-31",
+  "institutions": [
+    {
+      "id": 21,
+      "name": "AKS University",
+      "file": "batch-02/21-aks-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Replaced generic applicant-preparation steps with the official application and enrolment flow."
+      ],
+      "gap_reviews": [
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.aksuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.aksuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://admission.aksuniversity.ac.in/",
+          "status": "partial",
+          "finding": "Procedural steps and common documents are verified; programme-specific selection notice and deadlines remain unverified.",
+          "supporting_urls": [
+            "https://www.aksuniversity.ac.in/Department-of-Agronomy",
+            "https://www.aksuniversity.ac.in/latest-fee-structure",
+            "https://www.aksuniversity.ac.in/admission-Process"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://admission.aksuniversity.ac.in/",
+          "status": "resolved",
+          "finding": "Official admissions page now supplies the university-wide supporting-document list; programme/claim-specific additions remain subject to the offer.",
+          "supporting_urls": [
+            "https://www.aksuniversity.ac.in/Department-of-Agronomy",
+            "https://www.aksuniversity.ac.in/latest-fee-structure",
+            "https://www.aksuniversity.ac.in/admission-Process"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admission.aksuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.aksuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.aksuniversity.ac.in/",
+          "http_status": 200,
+          "evidence_file": "21-603a6b192b2b",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/Department-of-Agronomy",
+          "http_status": 200,
+          "evidence_file": "21-fb5bab656015",
+          "error": null
+        },
+        {
+          "url": "https://fast.aksuniversity.ac.in/obe-curriculum/",
+          "http_status": 200,
+          "evidence_file": "21-70db3cdd4ab5",
+          "error": null
+        },
+        {
+          "url": "https://aksu.aksforms.com/",
+          "http_status": 200,
+          "evidence_file": "21-d130274de731",
+          "error": null
+        },
+        {
+          "url": "https://aksuniversity.in/naac/OBE/FAST/B.Sc_Hons_Ag.pdf",
+          "http_status": 200,
+          "evidence_file": "21-51790fa14cf6",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://iqac.aksuniversity.ac.in/nep-2020-implementation-by-aksu/",
+          "http_status": null,
+          "evidence_file": "21-e60f4343bae5",
+          "error": "HTTP Error 503: Service Unavailable"
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/latest-fee-structure",
+          "http_status": 200,
+          "evidence_file": "21-6678022bd056",
+          "error": null
+        },
+        {
+          "url": "https://admission.aksuniversity.ac.in/",
+          "http_status": 200,
+          "evidence_file": "21-bcba5f5cd49e",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/Faculty-of-Performing-Arts",
+          "http_status": null,
+          "evidence_file": "21-6cd37d005243",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://aksuniversity.com/sites/default/files/2025-05/Code%20of%20conduct%20faculty.pdf",
+          "http_status": 200,
+          "evidence_file": "21-046940f1f995",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/Scholarship",
+          "http_status": 200,
+          "evidence_file": "21-925d518cff6a",
+          "error": null
+        },
+        {
+          "url": "https://fast.aksuniversity.ac.in/faculty-staff/",
+          "http_status": 200,
+          "evidence_file": "21-1f76272a42f8",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/latest-fee-structure#main-content",
+          "http_status": 200,
+          "evidence_file": "21-01f18100733c",
+          "error": null
+        },
+        {
+          "url": "https://admission.aksuniversity.ac.in/#/Online_Admission",
+          "http_status": 200,
+          "evidence_file": "21-670810dff944",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/admission-Process",
+          "http_status": 200,
+          "evidence_file": "21-00daa23bea68",
+          "error": null
+        },
+        {
+          "url": "https://www.aksuniversity.ac.inhttps://www.aksuniversity.org/admissions",
+          "http_status": null,
+          "evidence_file": "21-9a7691c1c15a",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ],
+      "new_source_urls": [
+        "https://www.aksuniversity.ac.in/admission-Process"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 6,
+      "remaining_gaps": 5
+    },
+    {
+      "id": 22,
+      "name": "Sri Sri University",
+      "file": "batch-02/22-sri-sri-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 7 named academic staff entries with scope/date labels.",
+        "Replaced the one-person roster with named leadership and subject faculty from the recovered official directory.",
+        "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+        "B.Sc. (Hons.) Horticulture: added source-specific fee amount with period and session status.",
+        "B.Sc. (Hons.) Agribusiness: added source-specific fee amount with period and session status.",
+        "Recovered all three original programme fact sheets, including full-time mode, exact undated semester tuition and an explicit Agribusiness eligibility conflict."
+      ],
+      "gap_reviews": [
+        {
+          "field": "sources.official_page_read",
+          "original_reason": "Institution-specific official pages and PDFs were attempted but returned HTTP 403. University facts rely on logged official search excerpts; NTA page was fully read.",
+          "original_next_source": "https://srisriuniversity.edu.in/faculty-of-agriculture/",
+          "status": "resolved",
+          "finding": "Institutional agriculture, admissions and faculty HTML pages were successfully downloaded and read directly; the earlier access-only limitation no longer applies to these pages.",
+          "supporting_urls": [
+            "https://srisriuniversity.edu.in/faculty-of-agriculture-teachers/",
+            "https://srisriuniversity.edu.in/faculty-of-agriculture/",
+            "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+            "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+            "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/",
+            "https://srisriuniversity.edu.in/scholarship-support-division/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees.2026-27",
+          "original_reason": "Only the dated 2023-27 cohort fee table was verified, not a 2026-27 schedule.",
+          "original_next_source": "https://srisriuniversity.edu.in/",
+          "status": "partial",
+          "finding": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established.",
+          "supporting_urls": [
+            "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+            "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+            "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://srisriuniversity.edu.in/",
+          "status": "partial",
+          "finding": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established.",
+          "supporting_urls": [
+            "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+            "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+            "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://srisriuniversity.edu.in/",
+          "status": "partial",
+          "finding": "Official university-wide scholarship support is now described; dated agriculture-specific award rules remain unverified.",
+          "supporting_urls": [
+            "https://srisriuniversity.edu.in/scholarship-support-division/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://srisriuniversity.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "Page labels 2026-27 but shows application opening on 1 November 2026 after July/August 2026 final admission dates. Current calendar is unresolved.",
+          "original_next_source": "https://srisriuniversity.edu.in/admission-process/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://srisriuniversity.edu.in/admission-process/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://srisriuniversity.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://srisriuniversity.edu.in/",
+          "http_status": 200,
+          "evidence_file": "22-ed5ac8722512",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/wp-content/uploads/2025/11/SDG2-REPORT-2024.pdf",
+          "http_status": 200,
+          "evidence_file": "22-dc1240c3d76a",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/wp-content/uploads/2025/11/SDG2-2.5.4.pdf",
+          "http_status": 200,
+          "evidence_file": "22-f691959357f7",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://cuet.nta.nic.in/sri-sri-university-cuttack-odisha/",
+          "http_status": 200,
+          "evidence_file": "22-58e195f8c5de",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/wp-content/uploads/2023/07/7.-BSc-Agriculture.pdf",
+          "http_status": 200,
+          "evidence_file": "22-16cbe6bbbeeb",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/faculty-of-agriculture-teachers/",
+          "http_status": 200,
+          "evidence_file": "22-e2be0c565186",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/faculty-of-agriculture/",
+          "http_status": 200,
+          "evidence_file": "22-b48ed7b084d4",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/wp-content/uploads/2023/01/SSR-Cycle-1.pdf",
+          "http_status": 200,
+          "evidence_file": "22-cf913e88696c",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/admission-process/",
+          "http_status": 200,
+          "evidence_file": "22-b44b3bef88f6",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/feedback-by-faculty/",
+          "http_status": 200,
+          "evidence_file": "22-f39fffc3797b",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/wp-content/uploads/2026/04/Notification-on-Last-Date-of-Fees-Payment-of-Odd-Semester-2026-27-scaled.jpg",
+          "http_status": 200,
+          "evidence_file": "22-4db54c7fa420",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/registration/pay_fees.php",
+          "http_status": 200,
+          "evidence_file": "22-fefa71d13145",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/payment-of-fees/",
+          "http_status": 200,
+          "evidence_file": "22-942991dc2b68",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/nirf",
+          "http_status": null,
+          "evidence_file": "22-8adf0a3aa374",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/our-faculty/",
+          "http_status": 200,
+          "evidence_file": "22-46eacefa4116",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/faculty-engineering-technology/niat-upskillng/",
+          "http_status": 200,
+          "evidence_file": "22-7fd6a1e2d6e4",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/faculty-of-architecture/",
+          "http_status": 200,
+          "evidence_file": "22-845a6a83582c",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+          "http_status": 200,
+          "evidence_file": "22-30846579293f",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+          "http_status": 200,
+          "evidence_file": "22-1f399dde67d3",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/",
+          "http_status": 200,
+          "evidence_file": "22-9b314ecd2bfa",
+          "error": null
+        },
+        {
+          "url": "https://srisriuniversity.edu.in/scholarship-support-division/",
+          "http_status": 200,
+          "evidence_file": "22-723963a1bd26",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://srisriuniversity.edu.in/faculty-of-agriculture-teachers/",
+        "https://srisriuniversity.edu.in/faculty-of-agriculture/",
+        "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+        "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+        "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/",
+        "https://srisriuniversity.edu.in/scholarship-support-division/"
+      ],
+      "newly_identified_gaps": [
+        {
+          "field": "programmes.eligibility.agribusiness",
+          "reason": "The undated official Agribusiness fact sheet requires science PCB/PCM with 50%, while the NTA 2025 listing accepts any 10+2 stream with 50%. The intended intake rule remains unresolved.",
+          "next_source": "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/"
+        }
+      ],
+      "original_gaps": 8,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 23,
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+      "file": "batch-02/23-janardan-rai-nagar-rajasthan-vidyapeeth.json",
+      "checked_on": "2026-10-31",
+      "changes": [],
+      "gap_reviews": [
+        {
+          "field": "programmes.additional_specialisations",
+          "original_reason": "The school lists more agricultural M.Sc. and doctoral subjects; a complete intake-specific prospectus with entry requirements is needed before expanding course rows.",
+          "original_next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://agriculture.jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://agriculture.jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://agriculture.jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://jrnrvu.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://jrnrvu.edu.in/",
+          "http_status": 200,
+          "evidence_file": "23-6d16b3b675ce",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php",
+          "http_status": 200,
+          "evidence_file": "23-395ca298de01",
+          "error": null
+        },
+        {
+          "url": "https://agriculture.jrnrvu.edu.in/",
+          "http_status": 200,
+          "evidence_file": "23-4998c9c655f0",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/about.php",
+          "http_status": 200,
+          "evidence_file": "23-bb9f452ffb99",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/faculty-of-science.php",
+          "http_status": 200,
+          "evidence_file": "23-9a12b00c81db",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/faculty-of-law.php",
+          "http_status": 200,
+          "evidence_file": "23-40723e3d0d9f",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/oldweb/wp-content/uploads/2024/08/faculty-details.pdf",
+          "http_status": 200,
+          "evidence_file": "23-a6ebbcd49244",
+          "error": null
+        },
+        {
+          "url": "http://news.jrnrvu.edu.in/updates/ph-d-admissions-open-2026-27-apply-now/",
+          "http_status": 200,
+          "evidence_file": "23-e18732556c93",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/Faculty-of-Management-Studies",
+          "http_status": 200,
+          "evidence_file": "23-910b3234ebae",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/Faculty-of-Computer-Science-and-IT",
+          "http_status": 200,
+          "evidence_file": "23-2bed1113324c",
+          "error": null
+        },
+        {
+          "url": "https://jrnrvu.edu.in/Faculty-of-Social-Sciences-and-Humanities",
+          "http_status": 200,
+          "evidence_file": "23-1e2c4f7649f6",
+          "error": null
+        },
+        {
+          "url": "http://news.jrnrvu.edu.in/uncategorized/rajasthan-vidyapeeth-homeopathic-medical-college-announces-bhms-admissions-2026-27-key-dates-cut-offs-and-process/",
+          "http_status": 200,
+          "evidence_file": "23-6672aa1d6792",
+          "error": null
+        }
+      ],
+      "new_source_urls": [],
+      "newly_identified_gaps": [],
+      "original_gaps": 9,
+      "remaining_gaps": 9
+    },
+    {
+      "id": 24,
+      "name": "Sanskriti University",
+      "file": "batch-02/24-sanskriti-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added supported general scholarship categories and conditions without importing engineering/MBA percentages."
+      ],
+      "gap_reviews": [
+        {
+          "field": "sources.s3",
+          "original_reason": "The 20 MB brochure could not be fully fetched by web tooling; current fees and criteria were read from its indexed official search excerpt.",
+          "original_next_source": "https://www.sanskriti.edu.in/pdf/brochure.pdf",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.sanskriti.edu.in/",
+          "status": "partial",
+          "finding": "General official policy categories and exclusions now recorded; dated agriculture-specific award applicability remains unverified.",
+          "supporting_urls": [
+            "https://www.sanskriti.edu.in/admissions/scholarship.php"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.sanskriti.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.sanskriti.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+          "status": "resolved",
+          "finding": "Official common reporting checklist is now recorded; the programme offer may specify additional documents.",
+          "supporting_urls": [
+            "https://www.sanskriti.edu.in/pdf/brochure.pdf",
+            "https://www.sanskriti.edu.in/admissions/admission-procedure.php"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.sanskriti.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.sanskriti.edu.in/",
+          "http_status": null,
+          "evidence_file": "24-9fa52ea50ea2",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/agriculture.php",
+          "http_status": null,
+          "evidence_file": "24-90acc9b30ccd",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/pdf/brochure.pdf",
+          "http_status": null,
+          "evidence_file": "24-3e4175acddee",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/m-new-assets/ug-program/bsc-agriculture.php",
+          "http_status": null,
+          "evidence_file": "24-599460434800",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+          "http_status": null,
+          "evidence_file": "24-f24ffb84626b",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/about-us/the-university.php",
+          "http_status": null,
+          "evidence_file": "24-c0c774d091b0",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/pdf/DETAILS-TEACHING-STAFF.pdf",
+          "http_status": null,
+          "evidence_file": "24-ae22a1834c00",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sanskriti.edu.in/admissions/scholarship.php",
+          "http_status": null,
+          "evidence_file": "24-c17d0d1609f0",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ],
+      "new_source_urls": [
+        "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+        "https://www.sanskriti.edu.in/admissions/scholarship.php"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 7,
+      "remaining_gaps": 6
+    },
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "file": "batch-02/25-vivekananda-global-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Filled admissions checklist/reporting-date content and historical scholarship conditions."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.admission_route",
+          "original_reason": "UG page says JET appearance mandatory; overview lists JET/VGUCET. An intake-specific clarification is required.",
+          "original_next_source": "https://vgu.ac.in/admission",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://vgu.ac.in/",
+          "status": "partial",
+          "finding": "Added dated historical 2025-26 policy conditions; current 2026-27 agriculture applicability remains unverified.",
+          "supporting_urls": [
+            "https://vgu.ac.in/admission/scholarship"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://vgu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://vgu.ac.in/admission/ug-admission",
+          "status": "resolved",
+          "finding": "2026-27 UG admissions page supplies the actual common document and ABC/APAAR requirements.",
+          "supporting_urls": [
+            "https://vgu.ac.in/admission/ug-admission",
+            "https://vgu.ac.in/admission"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://vgu.ac.in/admission/ug-admission",
+          "status": "partial",
+          "finding": "The 24 July 2026 reporting event is now recorded; a separate agriculture-specific application/counselling deadline was not established.",
+          "supporting_urls": [
+            "https://vgu.ac.in/admission/ug-admission",
+            "https://vgu.ac.in/admission"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://vgu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://vgu.ac.in/",
+          "http_status": 200,
+          "evidence_file": "25-07def2113515",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/ug-admission",
+          "http_status": 200,
+          "evidence_file": "25-885cb49b0927",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/agriculture",
+          "http_status": 200,
+          "evidence_file": "25-d21290d1cdf3",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission",
+          "http_status": 200,
+          "evidence_file": "25-46f473983291",
+          "error": null
+        },
+        {
+          "url": "https://forms.vgu.ac.in/Vgu/vgu/",
+          "http_status": 200,
+          "evidence_file": "25-395b91f9b951",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/faculty-dashboard/public/",
+          "http_status": 200,
+          "evidence_file": "25-94a8b41cdc0a",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/fee-structure",
+          "http_status": 200,
+          "evidence_file": "25-4156c122d9d3",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/scholarship",
+          "http_status": 200,
+          "evidence_file": "25-5f7447127caa",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/phd-admission",
+          "http_status": 200,
+          "evidence_file": "25-765f9185bb94",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/pg-admission",
+          "http_status": 200,
+          "evidence_file": "25-fa86b5d1c48c",
+          "error": null
+        },
+        {
+          "url": "https://vgu.ac.in/admission/diploma-admission",
+          "http_status": null,
+          "evidence_file": "25-efcb2465688a",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ],
+      "new_source_urls": [
+        "https://vgu.ac.in/admission/ug-admission",
+        "https://vgu.ac.in/admission/scholarship"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 6,
+      "remaining_gaps": 5
+    },
+    {
+      "id": 26,
+      "name": "SGT University",
+      "file": "batch-02/26-sgt-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+        "M.Sc. (Agriculture) Agronomy: added source-specific fee amount with period and session status.",
+        "Added 1 scoped NIRF agriculture placement/higher-study cohort rows.",
+        "Added 5 named academic staff entries with scope/date labels."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.eligibility",
+          "original_reason": "Current undated B.Sc. eligibility box says 50%, its FAQ says 50-60%, and 2024-25 table says 60%. Obtain the signed 2026-27 rule.",
+          "original_next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://sgtuniversity.ac.in/",
+          "status": "partial",
+          "finding": "Official programme-specific annual amounts are recorded with year null; a dated current-intake schedule remains unverified.",
+          "supporting_urls": [
+            "https://sgtuniversity.ac.in/admissions/prgmData/agri"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://sgtuniversity.ac.in/",
+          "status": "partial",
+          "finding": "Agriculture-specific Agronomy exclusion is verified; dated intake-year B.Sc./Agronomy award terms remain unverified.",
+          "supporting_urls": [
+            "https://sgtuniversity.ac.in/admissions/masters-in-agriculture/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://sgtuniversity.ac.in/",
+          "status": "resolved",
+          "finding": "Added selected named agriculture staff and roles from the dated NIRF 2026 faculty table.",
+          "supporting_urls": [
+            "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://sgtuniversity.ac.in/",
+          "status": "resolved",
+          "finding": "Added dated Agriculture and Allied Sectors NIRF 2026 programme-duration cohort outcomes, with graduating denominator and median definition.",
+          "supporting_urls": [
+            "https://sgtuniversity.ac.in/agri/programmes/bsc-in-agriculture",
+            "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "identity.email",
+          "original_reason": "Official contact page obscured email text in the accessible rendering; no address was guessed.",
+          "original_next_source": "https://sgtuniversity.ac.in/contact-us",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://sgtuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://sgtuniversity.ac.in/",
+          "http_status": 200,
+          "evidence_file": "26-4468b0bf0286",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/agri/programmes/bsc-in-agriculture",
+          "http_status": 200,
+          "evidence_file": "26-12f080e2afc7",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/admissions/prgmData/agri",
+          "http_status": 200,
+          "evidence_file": "26-895512f01fa1",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/assets/docs/fees/agricultural-science.pdf",
+          "http_status": 200,
+          "evidence_file": "26-d68fa8901f17",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+          "http_status": 200,
+          "evidence_file": "26-73f7ec4d8600",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/about/our-university",
+          "http_status": 200,
+          "evidence_file": "26-601620891d47",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/contact-us",
+          "http_status": 200,
+          "evidence_file": "26-c78e0fb944cc",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/about/docs/scholarship-policy-2026-27-I.pdf",
+          "http_status": null,
+          "evidence_file": "26-b4b6d52b61fc",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/about/nirf.html",
+          "http_status": 200,
+          "evidence_file": "26-3121952c38aa",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/#facultySection",
+          "http_status": 200,
+          "evidence_file": "26-c10e7282b663",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/faculty-listing.html",
+          "http_status": 200,
+          "evidence_file": "26-8865c65678f5",
+          "error": null
+        },
+        {
+          "url": "https://iqac1.sgtuniversity.ac.in/feedback.html",
+          "http_status": 200,
+          "evidence_file": "26-3790d0979f30",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/assets/docs/Admission-Withdrawal-Cancellation-and-Fee-Refund-Policy-2023-24-for-New-Admissions-1-3-2.pdf",
+          "http_status": 200,
+          "evidence_file": "26-ed57f8a01009",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/admissions/admit-for-mbbs-bams-bds.html",
+          "http_status": 200,
+          "evidence_file": "26-4950fd0f3277",
+          "error": null
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/admissions/admit-for-md-ms-mds.html",
+          "http_status": 200,
+          "evidence_file": "26-18843c0e0bb5",
+          "error": null
+        },
+        {
+          "url": "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf",
+          "http_status": null,
+          "evidence_file": "26-66532da218ca",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://sgtuniversity.ac.in/admissions/masters-in-agriculture/",
+          "http_status": null,
+          "evidence_file": "26-9f7d9b5318ce",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf",
+          "http_status": 200,
+          "evidence_file": "26-66532da218ca",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://sgtuniversity.ac.in/admissions/prgmData/agri",
+        "https://sgtuniversity.ac.in/admissions/masters-in-agriculture/",
+        "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 10,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 27,
+      "name": "Bhupal Nobles' University",
+      "file": "batch-02/27-bhupal-nobles-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added actual registration and upload requirements and documented the misleading/broken fee target.",
+        "Added 2 scoped NIRF agriculture placement/higher-study cohort rows.",
+        "Added 6 named academic staff entries with scope/date labels."
+      ],
+      "gap_reviews": [
+        {
+          "field": "campus.facilities",
+          "original_reason": "No detailed current agricultural facility inventory was verified on the checked official pages.",
+          "original_next_source": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.bnuniversity.ac.in/",
+          "status": "partial",
+          "finding": "The purported2026-27 fee link was checked and found to target a missing2020-21 PDF. No current agriculture amount was recovered.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.bnuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.bnuniversity.ac.in/",
+          "status": "resolved",
+          "finding": "Added dated Agriculture and Allied Sectors NIRF 2026 programme-duration cohort outcomes, with graduating denominator and median definition.",
+          "supporting_urls": [
+            "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+          "status": "partial",
+          "finding": "Linked common instructions identify marksheets/photo/signature; a programme-specific current checklist remains unverified.",
+          "supporting_urls": [
+            "https://www.bnuniversity.ac.in/Admission_Guidlines",
+            "https://www.bnuniversity.ac.in/Online-Admission",
+            "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.bnuniversity.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.bnuniversity.ac.in/",
+          "http_status": 200,
+          "evidence_file": "27-5e76aa1547c3",
+          "error": null
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/Courses",
+          "http_status": 200,
+          "evidence_file": "27-f60d8e70a52b",
+          "error": null
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+          "http_status": 200,
+          "evidence_file": "27-0799fe8709a3",
+          "error": null
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+          "http_status": 200,
+          "evidence_file": "27-baf6dcbccc05",
+          "error": null
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/NIRF/agriculture BHUPAL NOBLES' UNIVERSITY20260219--5.pdf",
+          "http_status": null,
+          "evidence_file": "27-54e1fe8cdf7c",
+          "error": "URL can't contain control characters. \"/NIRF/agriculture BHUPAL NOBLES' UNIVERSITY20260219--5.pdf\" (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Agriculture",
+          "http_status": null,
+          "evidence_file": "27-e2fd55a6584f",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Agriculture' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Commerce %26 Management",
+          "http_status": null,
+          "evidence_file": "27-e9db32635116",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Commerce %26 Management' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Physical Education",
+          "http_status": null,
+          "evidence_file": "27-84096ca4e8bf",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Physical Education' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Law",
+          "http_status": null,
+          "evidence_file": "27-194f5840d3be",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Law' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Social Sciences %26 Humanities",
+          "http_status": null,
+          "evidence_file": "27-edb3df2471fd",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Social Sciences %26 Humanities' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Science&q=Chemistry",
+          "http_status": null,
+          "evidence_file": "27-7366a0c079fb",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Science&q=Chemistry' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty of Science&q=Botany",
+          "http_status": null,
+          "evidence_file": "27-5c7fddad2ceb",
+          "error": "URL can't contain control characters. '/FacultyProfile?p=Faculty of Science&q=Botany' (found at least ' ')"
+        },
+        {
+          "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+          "http_status": 200,
+          "evidence_file": "27-c5069b63e167",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://www.bnuniversity.ac.in/Online-Admission",
+        "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+        "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 8,
+      "remaining_gaps": 7
+    },
+    {
+      "id": 28,
+      "name": "Karunya Institute of Technology and Sciences",
+      "file": "batch-02/28-karunya-institute-of-technology-and-sciences.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 2 scoped NIRF agriculture placement/higher-study cohort rows.",
+        "Added 5 named academic staff entries with scope/date labels.",
+        "Preserved separate2027 KEE admissions wording and2026 historical fee session while enriching career/faculty evidence."
+      ],
+      "gap_reviews": [
+        {
+          "field": "recognition.ICAR_postgraduate_claim",
+          "original_reason": "School webpage claims B.Sc. and M.Sc. accreditation; audited 2026 row names only B.Sc. Agriculture. Later regulator evidence is required.",
+          "original_next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.eligibility",
+          "original_reason": "Official academics page and brochure differ on eligible school subjects and routes.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "resolved",
+          "finding": "Added dated NIRF2026 agriculture roster entries, cross-checked against the public agriculture directory.",
+          "supporting_urls": [
+            "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf",
+            "https://www.karunya.edu/school-of-agricultural-sciences/faculty/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "resolved",
+          "finding": "Added dated Agriculture and Allied Sectors NIRF 2026 programme-duration cohort outcomes, with graduating denominator and median definition.",
+          "supporting_urls": [
+            "https://www.karunya.edu/school-of-agricultural-sciences/",
+            "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://admissions.karunya.edu/campaign/admissions/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admissions.karunya.edu/campaign/admissions/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.karunya.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.karunya.edu/",
+          "http_status": 200,
+          "evidence_file": "28-269f5b37ce18",
+          "error": null
+        },
+        {
+          "url": "https://www.karunya.edu/school-of-agricultural-sciences/",
+          "http_status": 200,
+          "evidence_file": "28-2f447702c6a5",
+          "error": null
+        },
+        {
+          "url": "https://www.karunya.edu/agriculture/academics/",
+          "http_status": 200,
+          "evidence_file": "28-d7100051a049",
+          "error": null
+        },
+        {
+          "url": "https://karunya.edu/sites/default/files/img/agriculture/B.ScAgricultureBrochure26.pdf",
+          "http_status": 200,
+          "evidence_file": "28-6742b814de29",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://www.karunya.edu/sites/default/files/img/2023/agricuture/1%20M.Sc.%20%28Agri.%29%20in%20Agronomy.pdf",
+          "http_status": 200,
+          "evidence_file": "28-486c8dbc67c3",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://admissions.karunya.edu/sites/admissions/files/uploads/content/Fee/B.Sc.(Hons.)AgricultureFeeStructure2026-27.pdf",
+          "http_status": null,
+          "evidence_file": "28-b5bfa582710f",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://karunya.edu/sites/default/files/img/2022/IQAC/NAAC%20SSR.pdf",
+          "http_status": 200,
+          "evidence_file": "28-ca1bb250c422",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://admissions.karunya.edu/campaign/admissions/",
+          "http_status": 200,
+          "evidence_file": "28-c9c66dd48321",
+          "error": null
+        },
+        {
+          "url": "https://admissions.karunya.edu/ug",
+          "http_status": 200,
+          "evidence_file": "28-b16292d9df03",
+          "error": null
+        },
+        {
+          "url": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes",
+          "http_status": 200,
+          "evidence_file": "28-bc26f82c2d39",
+          "error": null
+        },
+        {
+          "url": "https://www.karunya.edu/faculty-and-staff",
+          "http_status": 200,
+          "evidence_file": "28-b346beba961b",
+          "error": null
+        },
+        {
+          "url": "https://www.karunya.edu/sites/default/files/img/hr/Faculty Ad 2025.jpeg",
+          "http_status": null,
+          "evidence_file": "28-04ee4c10f40c",
+          "error": "URL can't contain control characters. '/sites/default/files/img/hr/Faculty Ad 2025.jpeg' (found at least ' ')"
+        },
+        {
+          "url": "https://www.karunya.edu/nirf",
+          "http_status": 200,
+          "evidence_file": "28-53085e9be7e4",
+          "error": null
+        },
+        {
+          "url": "https://karunya.edu/feedback",
+          "http_status": null,
+          "evidence_file": "28-a5e3d94c9fc3",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.karunya.edu/school-of-agricultural-sciences/faculty",
+          "http_status": null,
+          "evidence_file": "28-504028423c03",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://karunya.edu/agriculture/research-scholars",
+          "http_status": null,
+          "evidence_file": "28-1ba9b8c64ae1",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://karunya.edu/agriculture/Awards/Faculty",
+          "http_status": null,
+          "evidence_file": "28-a0c737c3c83c",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://karunya.edu/agriculture/Feedback/Process",
+          "http_status": null,
+          "evidence_file": "28-847690569979",
+          "error": "<urlopen error _ssl.c:993: The handshake operation timed out>"
+        },
+        {
+          "url": "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf",
+          "http_status": null,
+          "evidence_file": "28-341735525a3e",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.karunya.edu/school-of-agricultural-sciences/faculty/",
+          "http_status": null,
+          "evidence_file": "28-0e33ac84333c",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf",
+          "http_status": 200,
+          "evidence_file": "28-341735525a3e",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf",
+        "https://www.karunya.edu/school-of-agricultural-sciences/faculty/"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 10,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 29,
+      "name": "Suresh Gyan Vihar University",
+      "file": "batch-02/29-suresh-gyan-vihar-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added concrete enterprise units and brochure-scoped field-learning activities while excluding old ranking and market-leadership claims."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://admissions.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://admissions.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admissions.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.gyanvihar.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.gyanvihar.org/",
+          "http_status": 200,
+          "evidence_file": "29-c99401067580",
+          "error": null
+        },
+        {
+          "url": "https://agriculture.gyanvihar.org/",
+          "http_status": 200,
+          "evidence_file": "29-c1ff754f02e5",
+          "error": null
+        },
+        {
+          "url": "https://www.gyanvihar.org/school/agriculture",
+          "http_status": 200,
+          "evidence_file": "29-b0c654af6e30",
+          "error": null
+        },
+        {
+          "url": "https://www.gyanvihar.org/school/agriculture/farmer-student-faculty-interaction",
+          "http_status": 200,
+          "evidence_file": "29-d0209de6a963",
+          "error": null
+        },
+        {
+          "url": "https://admissions.gyanvihar.org/",
+          "http_status": 200,
+          "evidence_file": "29-23c7d07da280",
+          "error": null
+        },
+        {
+          "url": "https://www.gyanvihar.org/nirf",
+          "http_status": null,
+          "evidence_file": "29-a823a834222f",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://www.gyanvihar.org/fees-structure",
+          "http_status": null,
+          "evidence_file": "29-da0523c3bd33",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gyanvihar.org/wp-content/uploads/attach/sgvu-scholarships.pdf",
+          "http_status": null,
+          "evidence_file": "29-0aa21af8678c",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gyanvihar.org/admission",
+          "http_status": null,
+          "evidence_file": "29-e20b7eab93bf",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admissions.gyanvihar.org/#tab1default",
+          "http_status": null,
+          "evidence_file": "29-257b00decba8",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admissions.gyanvihar.org/#tab2default",
+          "http_status": null,
+          "evidence_file": "29-29b088286082",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://sgvu.edu.in/admission-procedure",
+          "http_status": null,
+          "evidence_file": "29-c88ba78a6b16",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gyanvihar.org/uploads/Agriculture_Broucher_3_5319523b60.pdf",
+          "http_status": 200,
+          "evidence_file": "29-0286aba1c0b0",
+          "error": null
+        },
+        {
+          "url": "https://www.gyanvihar.org/fees-structure",
+          "http_status": 200,
+          "evidence_file": "29-da0523c3bd33",
+          "error": null
+        },
+        {
+          "url": "https://agriculture.gyanvihar.org/img/gyan-vihar-scholership.pdf",
+          "http_status": 200,
+          "evidence_file": "29-f9375dbf9b1d",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://www.gyanvihar.org/uploads/Agriculture_Broucher_3_5319523b60.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 8,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 30,
+      "name": "GD Goenka University",
+      "file": "batch-02/30-gd-goenka-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+        "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+        "M.Sc. Horticulture — Vegetable Science: added source-specific fee amount with period and session status."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.gdgoenkauniversity.com/",
+          "status": "partial",
+          "finding": "All three listed programmes now have source-specific annual amounts, but the official table is undated; current-year confirmation remains open.",
+          "supporting_urls": [
+            "https://www.gdgoenkauniversity.com/admissions/fee-structure"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://applications.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://applications.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://applications.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.gdgoenkauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.gdgoenkauniversity.com/",
+          "http_status": 200,
+          "evidence_file": "30-3d45d7401e5f",
+          "error": null
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/course/bsc-hons-agriculture",
+          "http_status": 200,
+          "evidence_file": "30-d69b13086555",
+          "error": null
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/school/school-of-agricultural-sciences",
+          "http_status": 200,
+          "evidence_file": "30-e5df350520a7",
+          "error": null
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/admissions/fee-structure",
+          "http_status": 200,
+          "evidence_file": "30-823c314603d3",
+          "error": null
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/siteassets/pdf/strategic-plan.pdf",
+          "http_status": 200,
+          "evidence_file": "30-dbc2d9723418",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://applications.gdgoenkauniversity.com/",
+          "http_status": 200,
+          "evidence_file": "30-a30f7be79a84",
+          "error": null
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/research-and-development/phd-scholars",
+          "http_status": null,
+          "evidence_file": "30-f8fa78900a23",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/admissions/scholarships",
+          "http_status": null,
+          "evidence_file": "30-c9a25458a103",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/admissions/hostel-transport-fee-structure",
+          "http_status": null,
+          "evidence_file": "30-ab00f93a64af",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/internationalisation/faculty-exchange",
+          "http_status": null,
+          "evidence_file": "30-cd2ba180558f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/iiqa/feedback-analysis",
+          "http_status": null,
+          "evidence_file": "30-7a2e4cae631e",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/nirf",
+          "http_status": null,
+          "evidence_file": "30-d342d25c1061",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/school/school-of-agricultural-sciences/faculty",
+          "http_status": null,
+          "evidence_file": "30-50c318e0c25f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/course/bsc-hons-agriculture#fee-structure",
+          "http_status": null,
+          "evidence_file": "30-1f1b3f02be16",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ],
+      "new_source_urls": [
+        "https://www.gdgoenkauniversity.com/admissions/fee-structure"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 8,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 31,
+      "name": "Shri Guru Ram Rai University",
+      "file": "batch-02/31-shri-guru-ram-rai-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 8 named academic staff entries with scope/date labels.",
+        "Expanded agriculture academic leadership with eight source-backed entries.",
+        "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+        "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+        "M.Sc. Agriculture — Horticulture: added source-specific fee amount with period and session status."
+      ],
+      "gap_reviews": [
+        {
+          "field": "campus.area",
+          "original_reason": "School page gives both 30+ hectares and 25 acres without defining different sites.",
+          "original_next_source": "https://www.sgrru.ac.in/sgrrsas",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.admission_route",
+          "original_reason": "2025 prospectus states entrance test; undated course page says university norms. Current selection rule needs confirmation.",
+          "original_next_source": "https://admissions.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.sgrru.ac.in/",
+          "status": "resolved",
+          "finding": "All three listed programmes now have directly read, session-labelled 2026-2027 official schedules. Whole-course totals and Uttarakhand/other-state categories are distinguished.",
+          "supporting_urls": [
+            "https://www.sgrru.ac.in/uploads/prospectus/88crsfile_BSC-AGRICULTURE.jpg",
+            "https://www.sgrru.ac.in/uploads/prospectus/33crsfile_MSC-AGRICULTURE-AGRONOMY.jpg",
+            "https://www.sgrru.ac.in/uploads/prospectus/34crsfile_MSC-AGRICULTURE-HOLTICULTURE.jpg"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://admissions.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://admissions.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admissions.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.sgrru.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.sgrru.ac.in/",
+          "http_status": 200,
+          "evidence_file": "31-1ccdaf196169",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/bsc-hons-agriculture-course",
+          "http_status": 200,
+          "evidence_file": "31-82cc1b48245a",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/sgrrsas",
+          "http_status": 200,
+          "evidence_file": "31-1318fd83179b",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/Uploads/image/1288imguf_Prospectus-2025.pdf",
+          "http_status": 200,
+          "evidence_file": "31-6dd3de796b0a",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/sgrru-fee-structure",
+          "http_status": 200,
+          "evidence_file": "31-a1a043d5ff69",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/statutorybodies/SGRR%20University%20Ordinance.pdf",
+          "http_status": 200,
+          "evidence_file": "31-a6f4dc2b9fb7",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/contact-us/",
+          "http_status": 200,
+          "evidence_file": "31-206425c7c524",
+          "error": null
+        },
+        {
+          "url": "https://admissions.sgrru.ac.in/",
+          "http_status": 200,
+          "evidence_file": "31-f4c8efe1a42b",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/sgrru-faculty",
+          "http_status": null,
+          "evidence_file": "31-573e92cbd84f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/Prospectus-SGRR-2026-2027.pdf",
+          "http_status": null,
+          "evidence_file": "31-541a69fc4d01",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/Uploads/image/1473imguf_Admission-withdrawal-and-Fee-Refund-Policy.pdf",
+          "http_status": null,
+          "evidence_file": "31-54850ff7e040",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/feedback",
+          "http_status": null,
+          "evidence_file": "31-4d53e2a3ee8f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "http://fees.sgrru.ac.in/",
+          "http_status": null,
+          "evidence_file": "31-37abf6053a95",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/nirf",
+          "http_status": null,
+          "evidence_file": "31-e810eee35a1b",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/FeePrint.aspx?CourseId=88&Download=1",
+          "http_status": null,
+          "evidence_file": "31-eef05dfbd801",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/Uploads/Files/1277ef_AdmissionOpenforAllCourses,AcademicSession2026–27.pdf",
+          "http_status": null,
+          "evidence_file": "31-2ccd977348e9",
+          "error": "'ascii' codec can't encode character '\\u2013' in position 72: ordinal not in range(128)"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/88crsfile_BSC-AGRICULTURE.jpg",
+          "http_status": null,
+          "evidence_file": "31-174ef220cadd",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/33crsfile_MSC-AGRICULTURE-AGRONOMY.jpg",
+          "http_status": null,
+          "evidence_file": "31-d6518bfde987",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/34crsfile_MSC-AGRICULTURE-HOLTICULTURE.jpg",
+          "http_status": null,
+          "evidence_file": "31-8b3328f6a83f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/88crsfile_BSC-AGRICULTURE.jpg",
+          "http_status": 200,
+          "evidence_file": "31-174ef220cadd",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/33crsfile_MSC-AGRICULTURE-AGRONOMY.jpg",
+          "http_status": 200,
+          "evidence_file": "31-d6518bfde987",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/prospectus/34crsfile_MSC-AGRICULTURE-HOLTICULTURE.jpg",
+          "http_status": 200,
+          "evidence_file": "31-8b3328f6a83f",
+          "error": null
+        },
+        {
+          "url": "https://www.sgrru.ac.in/uploads/Prospectus-SGRR-2026-2027.pdf",
+          "http_status": 200,
+          "evidence_file": "31-541a69fc4d01",
+          "error": "Cannot find Root object in pdf"
+        }
+      ],
+      "new_source_urls": [
+        "https://www.sgrru.ac.in/sgrrsas",
+        "https://www.sgrru.ac.in/uploads/prospectus/88crsfile_BSC-AGRICULTURE.jpg",
+        "https://www.sgrru.ac.in/uploads/prospectus/33crsfile_MSC-AGRICULTURE-AGRONOMY.jpg",
+        "https://www.sgrru.ac.in/uploads/prospectus/34crsfile_MSC-AGRICULTURE-HOLTICULTURE.jpg"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 9,
+      "remaining_gaps": 8
+    },
+    {
+      "id": 32,
+      "name": "Vellore Institute of Technology",
+      "file": "batch-02/32-vellore-institute-of-technology.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Expanded the programme-specific application document list and retained portal age/nationality rules."
+      ],
+      "gap_reviews": [
+        {
+          "field": "faculty.people",
+          "original_reason": "Dean roster page was last updated June 2025; confirm appointment before publishing as current.",
+          "original_next_source": "https://vit.ac.in/schools/vaial/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://vit.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://vit.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://vit.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://vit.ac.in/",
+          "http_status": 200,
+          "evidence_file": "32-a6d157f79f9a",
+          "error": null
+        },
+        {
+          "url": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login",
+          "http_status": 200,
+          "evidence_file": "32-43c0820000d8",
+          "error": null
+        },
+        {
+          "url": "https://vit.ac.in/schools/vaial/",
+          "http_status": 200,
+          "evidence_file": "32-1d352e2198a4",
+          "error": null
+        },
+        {
+          "url": "https://vit.ac.in/news-gallery/uhet-scholarship-distribution-2026",
+          "http_status": null,
+          "evidence_file": "32-242dd46db974",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admissions.vit.ac.in/btechforeignapplication/login?utm_source=V0Y7S5X0&utm_campaign=btechforeign2026",
+          "http_status": null,
+          "evidence_file": "32-b9ba06db6705",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://vit.ac.in/files/prospectus/VITREE-2026-Hall_Ticket_Download_Steps.pdf",
+          "http_status": null,
+          "evidence_file": "32-6c4e8d445012",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://vit.ac.in/national-institutional-ranking-framework-nirf",
+          "http_status": null,
+          "evidence_file": "32-c8cc12248c20",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://vit.ac.in/academics-feedback",
+          "http_status": null,
+          "evidence_file": "32-b5e67fe99a35",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://vit.ac.in/faculty",
+          "http_status": null,
+          "evidence_file": "32-6298762dec3a",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.nirfindia.org/",
+          "http_status": null,
+          "evidence_file": "32-cc89dd163c30",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://vit.ac.in/news-gallery/uhet-scholarship-application-release-ads",
+          "http_status": null,
+          "evidence_file": "32-c0fdf3f946f9",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ],
+      "new_source_urls": [
+        "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 5,
+      "remaining_gaps": 5
+    },
+    {
+      "id": 33,
+      "name": "SRM Institute of Science and Technology",
+      "file": "batch-02/33-srm-institute-of-science-and-technology.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Resolved the 2026 undergraduate eligibility ambiguity by reading the complete degree-specific text; retained historical portal limits as historical evidence only."
+      ],
+      "gap_reviews": [
+        {
+          "field": "identity.address",
+          "original_reason": "Regulator and older portal use Kattankulathur; recent college materials give Baburayanpettai. Full current postal address needs confirmation.",
+          "original_next_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.eligibility",
+          "original_reason": "2026 landing page contains an apparently misplaced horticulture eligibility accordion. Confirm the degree-specific entry rule.",
+          "original_next_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "status": "resolved",
+          "finding": "The recovered 2026 page explicitly applies its 50% aggregate and seven academic subject groups/vocational route to both Agriculture and Horticulture. The earlier apparent accordion ambiguity is resolved by the full text.",
+          "supporting_urls": [
+            "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+            "https://webstor.srmist.edu.in/web_assets/downloads/2026/national-workshop-on-python-for-statistical-applications-in-agriculture-brochure.pdf",
+            "https://applications.srmist.edu.in/agricultural-sciences-form"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.srmist.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.srmist.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.srmist.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.srmist.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "status": "partial",
+          "finding": "Current 2026 course-specific qualification requirements and application link are now read directly; the historical 2024 form does not establish current selection, documents or deadlines.",
+          "supporting_urls": [
+            "https://applications.srmist.edu.in/agricultural-sciences-form",
+            "https://admissions.srmist.edu.in/srmistonline/agriapplication"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.srmist.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.srmist.edu.in/",
+          "http_status": null,
+          "evidence_file": "33-3e7f0de6574d",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://webstor.srmist.edu.in/web_assets/downloads/2026/national-workshop-on-python-for-statistical-applications-in-agriculture-brochure.pdf",
+          "http_status": null,
+          "evidence_file": "33-d57fa58e1f98",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://webstor.srmist.edu.in/web_assets/downloads/2024/icar-accreditation-ssr-college.pdf",
+          "http_status": null,
+          "evidence_file": "33-3a76f0b57aa7",
+          "error": "The read operation timed out"
+        },
+        {
+          "url": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "http_status": 200,
+          "evidence_file": "33-b0897d998da0",
+          "error": null
+        },
+        {
+          "url": "https://admissions.srmist.edu.in/srmistonline/agriapplication",
+          "http_status": 200,
+          "evidence_file": "33-d5896c8db696",
+          "error": null
+        },
+        {
+          "url": "https://webstor.srmist.edu.in/web_assets/downloads/2024/srmist-university-brochure-2024-25.pdf",
+          "http_status": 200,
+          "evidence_file": "33-e532036f9a4d",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://webstor.srmist.edu.in/web_assets/downloads/2026/flipbook/srmist-institutional-development-plan/files/basic-html/page9.html",
+          "http_status": 200,
+          "evidence_file": "33-75f9bae6dc0c",
+          "error": null
+        },
+        {
+          "url": "https://admissions.srmist.edu.in/srmistonline/agriapplication#carouselExampleInterval",
+          "http_status": null,
+          "evidence_file": "33-3d4cfced0b12",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.srmist.edu.in/admission-india/agricultural-science/",
+          "http_status": null,
+          "evidence_file": "33-9234facd77be",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.srmist.edu.in/admission-india/agricultural-science/",
+          "http_status": null,
+          "evidence_file": "33-9234facd77be",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "new_source_urls": [
+        "https://applications.srmist.edu.in/agricultural-sciences-form",
+        "https://admissions.srmist.edu.in/srmistonline/agriapplication"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 10,
+      "remaining_gaps": 9
+    },
+    {
+      "id": 34,
+      "name": "Rabindranath Tagore University",
+      "file": "batch-02/34-rabindranath-tagore-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://rntu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://rntu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://rntu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://rntu.ac.in/admission",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://rntu.ac.in/admission",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://rntu.ac.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://rntu.ac.in/",
+          "http_status": 200,
+          "evidence_file": "34-4d3b8296cb9e",
+          "error": null
+        },
+        {
+          "url": "https://rntu.ac.in/courses/prog-bachelor-of-science-honours-agriculture",
+          "http_status": 200,
+          "evidence_file": "34-56b7105ce24a",
+          "error": null
+        },
+        {
+          "url": "https://rntu.ac.in/academics/faculty-of-agriculture",
+          "http_status": 200,
+          "evidence_file": "34-f3e042f49754",
+          "error": null
+        },
+        {
+          "url": "https://rntu.ac.in/admission",
+          "http_status": 200,
+          "evidence_file": "34-66b69995d364",
+          "error": null
+        },
+        {
+          "url": "https://rntu.ac.in/studentlife/student-handbook",
+          "http_status": 200,
+          "evidence_file": "34-b07abd9c7969",
+          "error": null
+        },
+        {
+          "url": "https://rntu.ac.in/importantlink/NIRF",
+          "http_status": null,
+          "evidence_file": "34-210c9ca70b10",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rntu.ac.in/academics/faculty-of-medical-sciences",
+          "http_status": null,
+          "evidence_file": "34-1d4d33539002",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rntu.ac.in/academics/faculty-of-bachelor-of-vocational",
+          "http_status": null,
+          "evidence_file": "34-35296f1a703b",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rntu.ac.in/admissions/scholarship",
+          "http_status": null,
+          "evidence_file": "34-06a6186aa2e8",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rntu.ac.in/admin/public/uploads/media/CRIG Project Application faculty.pdf",
+          "http_status": null,
+          "evidence_file": "34-5426dd22eed1",
+          "error": "URL can't contain control characters. '/admin/public/uploads/media/CRIG Project Application faculty.pdf' (found at least ' ')"
+        },
+        {
+          "url": "https://rntu.ac.in/admin/public/uploads/media/Faculty Projects Guidelines.pdf",
+          "http_status": null,
+          "evidence_file": "34-cd16d5824aba",
+          "error": "URL can't contain control characters. '/admin/public/uploads/media/Faculty Projects Guidelines.pdf' (found at least ' ')"
+        },
+        {
+          "url": "https://rntu.ac.in/admin/public/uploads/images/medias/Grievance Redressal Policy for Research Scholars.pdf",
+          "http_status": null,
+          "evidence_file": "34-0c0d7a6c6d80",
+          "error": "URL can't contain control characters. '/admin/public/uploads/images/medias/Grievance Redressal Policy for Research Scholars.pdf' (found at least ' ')"
+        },
+        {
+          "url": "https://rntu.ac.in/https://rntu.ac.in/admin/public/uploads/images/medias/Grievance Redressal Policy for Research Scholars.pdf",
+          "http_status": null,
+          "evidence_file": "34-042fa2e4e80d",
+          "error": "URL can't contain control characters. '/https://rntu.ac.in/admin/public/uploads/images/medias/Grievance Redressal Policy for Research Scholars.pdf' (found at least ' ')"
+        }
+      ],
+      "new_source_urls": [],
+      "newly_identified_gaps": [],
+      "original_gaps": 6,
+      "remaining_gaps": 6
+    },
+    {
+      "id": 35,
+      "name": "GIET University",
+      "file": "batch-02/35-giet-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 1 scoped NIRF agriculture placement/higher-study cohort rows.",
+        "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+        "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+        "Added 6 named academic staff entries with scope/date labels."
+      ],
+      "gap_reviews": [
+        {
+          "field": "admissions.year_consistency",
+          "original_reason": "Entrance page combines a 2027 banner, 2026-27 body and 2020 fee note; obtain intake-specific prospectus.",
+          "original_next_source": "https://www.giet.edu/admissions/gietee/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.giet.edu/",
+          "status": "partial",
+          "finding": "Historical 2024-25 B.Sc. and combined M.Sc. Agriculture amounts are now recorded; the current schedule and Horticulture-specific price remain unverified.",
+          "supporting_urls": [
+            "https://www.giet.edu/wp-content/uploads/2025/05/FEES-STRUCTRUCTURE-FOR-2024-OF-GIETU-GUNUPUR.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.giet.edu/",
+          "status": "partial",
+          "finding": "Official policy scope is now documented, including B.Tech-only exclusions; dated agriculture award conditions remain unverified.",
+          "supporting_urls": [
+            "https://www.giet.edu/admissions/scholarships/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.giet.edu/",
+          "status": "resolved",
+          "finding": "Added selected named currently-working faculty from the dated NIRF 2026 Agriculture and Allied Sectors table.",
+          "supporting_urls": [
+            "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.giet.edu/",
+          "status": "resolved",
+          "finding": "Added dated Agriculture and Allied Sectors NIRF 2026 programme-duration cohort outcomes, with graduating denominator and median definition.",
+          "supporting_urls": [
+            "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://www.giet.edu/admissions/gietee/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://www.giet.edu/admissions/gietee/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://www.giet.edu/admissions/gietee/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.giet.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.giet.edu/",
+          "http_status": 200,
+          "evidence_file": "35-abcdc21a88d4",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/schools/school-of-agriculture/",
+          "http_status": 200,
+          "evidence_file": "35-a5af1816370b",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/schools/school-of-agriculture/infrastructure/instructional-farms/",
+          "http_status": 200,
+          "evidence_file": "35-2391ee8b09ce",
+          "error": null
+        },
+        {
+          "url": "https://ag.giet.edu/index.php/programme/",
+          "http_status": 200,
+          "evidence_file": "35-dcc95a198e72",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/admissions/gietee/",
+          "http_status": 200,
+          "evidence_file": "35-8480fcb5f42d",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/wp-content/uploads/2020/04/2020-Eligibility-Criteria.pdf",
+          "http_status": 200,
+          "evidence_file": "35-812244a5b8b2",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://www.giet.edu/news/farmers-exposure-visit-and-farmer-scientist-interaction-programme/",
+          "http_status": 200,
+          "evidence_file": "35-2b2338d343ca",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/admissions/programmes-fee-structure/",
+          "http_status": 200,
+          "evidence_file": "35-a2fab8c5658f",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/about-giet/",
+          "http_status": 200,
+          "evidence_file": "35-263bf498b343",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/mhrd-nirf-ranking/",
+          "http_status": null,
+          "evidence_file": "35-baa5ecc3d3ca",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/faculty/",
+          "http_status": null,
+          "evidence_file": "35-13fc0676d4a3",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/admissions/scholarships/",
+          "http_status": null,
+          "evidence_file": "35-bfa6db41d278",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/wp-content/uploads/2025/05/FEES-STRUCTRUCTURE-FOR-2024-OF-GIETU-GUNUPUR.pdf",
+          "http_status": null,
+          "evidence_file": "35-6838d35197cd",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admission.giet.edu/",
+          "http_status": null,
+          "evidence_file": "35-4b1e58f97e97",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/admissions/",
+          "http_status": null,
+          "evidence_file": "35-957786766e43",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "http://admission.giet.edu/",
+          "http_status": null,
+          "evidence_file": "35-6759d0fab61f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/admissions/application-process/",
+          "http_status": null,
+          "evidence_file": "35-ba9425f8a773",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf",
+          "http_status": null,
+          "evidence_file": "35-9ad8d70cd7a8",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/mou-bscag/",
+          "http_status": null,
+          "evidence_file": "35-12cd2718cd0a",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf",
+          "http_status": 200,
+          "evidence_file": "35-9ad8d70cd7a8",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/wp-content/uploads/2025/05/FEES-STRUCTRUCTURE-FOR-2024-OF-GIETU-GUNUPUR.pdf",
+          "http_status": 200,
+          "evidence_file": "35-6838d35197cd",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/admissions/application-process/",
+          "http_status": 200,
+          "evidence_file": "35-ba9425f8a773",
+          "error": null
+        },
+        {
+          "url": "https://www.giet.edu/courses/m-sc-horticulture/",
+          "http_status": 200,
+          "evidence_file": "35-02dab0dd99e2",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf",
+        "https://www.giet.edu/admissions/scholarships/",
+        "https://www.giet.edu/wp-content/uploads/2025/05/FEES-STRUCTRUCTURE-FOR-2024-OF-GIETU-GUNUPUR.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 9,
+      "remaining_gaps": 7
+    },
+    {
+      "id": 36,
+      "name": "RNT College of Agriculture",
+      "file": "batch-02/36-rnt-college-of-agriculture.json",
+      "checked_on": "2026-10-31",
+      "changes": [],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees",
+          "original_reason": "Linked official fee page timed out; no dated 2026-27 agriculture fees verified.",
+          "original_next_source": "https://rntagcollege.edu.in/fee.html",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "Linked staff page timed out.",
+          "original_next_source": "https://rntagcollege.edu.in/staff.html",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "campus.facilities",
+          "original_reason": "Farm page gives no usable inventory or current operational detail.",
+          "original_next_source": "https://rntagcollege.edu.in/farm.html",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "identity.established",
+          "original_reason": "An authoritative exact value was not verified after official-page and targeted search checks.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://rntagcollege.edu.in/Onlineadm.html",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://rntagcollege.edu.in/Onlineadm.html",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://rntagcollege.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://rntagcollege.edu.in/",
+          "http_status": null,
+          "evidence_file": "36-43060b14df4a",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/course.html",
+          "http_status": null,
+          "evidence_file": "36-7a0ccc235e5b",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+          "http_status": 200,
+          "evidence_file": "36-fd9171112705",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/contact.html",
+          "http_status": null,
+          "evidence_file": "36-af8b9a916ec1",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/farm.html",
+          "http_status": null,
+          "evidence_file": "36-b1657e126fa0",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/message.html",
+          "http_status": null,
+          "evidence_file": "36-47c068a2b7d7",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/fee.html",
+          "http_status": null,
+          "evidence_file": "36-43c8cd2a4d52",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/staff.html",
+          "http_status": null,
+          "evidence_file": "36-d698650a0f01",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/Onlineadm.html",
+          "http_status": null,
+          "evidence_file": "36-cfee5488243f",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/staff.html",
+          "http_status": null,
+          "evidence_file": "36-d698650a0f01",
+          "error": "HTTP Error 406: Not Acceptable"
+        },
+        {
+          "url": "https://rntagcollege.edu.in/fee.html",
+          "http_status": null,
+          "evidence_file": "36-43c8cd2a4d52",
+          "error": "HTTP Error 406: Not Acceptable"
+        }
+      ],
+      "new_source_urls": [],
+      "newly_identified_gaps": [],
+      "original_gaps": 12,
+      "remaining_gaps": 12
+    },
+    {
+      "id": 37,
+      "name": "Amrita Vishwa Vidyapeetham",
+      "file": "batch-02/37-amrita-vishwa-vidyapeetham.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added counselling verification requirements while preserving the published subject-eligibility contradiction."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees.2026-27",
+          "original_reason": "Explicit tuition table remains labelled 2025-26 although hostel/mess headings say 2026-27.",
+          "original_next_source": "https://www.amrita.edu/program/bsc-hons-agriculture/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.eligibility",
+          "original_reason": "Main course criteria list PCMB/PCB/PCM, while FAQ uses PCB. Obtain current AEEL course-specific rule.",
+          "original_next_source": "https://www.amrita.edu/admissions/aeel/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://www.amrita.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.amrita.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://www.amrita.edu/admissions/aeel/",
+          "status": "partial",
+          "finding": "Original-certificate and candidate/guardian counselling requirements are now sourced; a complete currentAEEL document checklist is still not established.",
+          "supporting_urls": [
+            "https://www.amrita.edu/program/bsc-hons-agriculture/",
+            "https://www.amrita.edu/admissions/aeel/"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://www.amrita.edu/admissions/aeel/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.amrita.edu/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.amrita.edu/",
+          "http_status": 200,
+          "evidence_file": "37-322cdce9ec0f",
+          "error": null
+        },
+        {
+          "url": "https://www.amrita.edu/program/bsc-hons-agriculture/",
+          "http_status": 200,
+          "evidence_file": "37-44bbbe482790",
+          "error": null
+        },
+        {
+          "url": "https://www.amrita.edu/school/agriculture/",
+          "http_status": 200,
+          "evidence_file": "37-c31b3bde7b61",
+          "error": null
+        },
+        {
+          "url": "https://www.amrita.edu/admissions/aeel/",
+          "http_status": 200,
+          "evidence_file": "37-0701d982e6e6",
+          "error": null
+        },
+        {
+          "url": "https://webfiles.amrita.edu/2023/04/brochure-school-agricultural-sciences.pdf",
+          "http_status": 200,
+          "evidence_file": "37-f094ebf4c6aa",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://webfiles.amrita.edu/2022/05/proforma-institution-eminence-deemed-to-be-university.pdf",
+          "http_status": 200,
+          "evidence_file": "37-9c03dd4bae1f",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://webfiles.amrita.edu/2026/06/annual-fee-hostel-mess-2026-2027-coimbatore.pdf",
+          "http_status": null,
+          "evidence_file": "37-0abf94bb3800",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/faculty/",
+          "http_status": null,
+          "evidence_file": "37-65964e136850",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/news/dr-prema-nedungadi-honoured-with-careers360-faculty-research-award/",
+          "http_status": null,
+          "evidence_file": "37-5f61a338d1f2",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://scholar.google.co.in/citations?view_op=view_org&hl=en&org=1628360162380345289",
+          "http_status": null,
+          "evidence_file": "37-0062c90948ef",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/nirf",
+          "http_status": null,
+          "evidence_file": "37-3364eba23e6f",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/school/agriculture/faculty/",
+          "http_status": null,
+          "evidence_file": "37-7b3be40aa13e",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/faculty/sudheeshmv",
+          "http_status": null,
+          "evidence_file": "37-a4420d497ac3",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.amrita.edu/news/amrita-ranks-among-indias-top-10-universities-and-top-10-medical-colleges-in-nirf-2025/",
+          "http_status": null,
+          "evidence_file": "37-9004c151a634",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        }
+      ],
+      "new_source_urls": [
+        "https://www.amrita.edu/program/bsc-hons-agriculture/"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 7,
+      "remaining_gaps": 7
+    },
+    {
+      "id": 38,
+      "name": "Tantia University",
+      "file": "batch-02/38-tantia-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+        "M.Sc. Agriculture — Genetics and Plant Breeding: added source-specific fee amount with period and session status."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.fees.2026-27",
+          "original_reason": "Latest verified dated fee evidence was 2025-26; the 2026-27 schedule was not verified.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "programmes.fees",
+          "original_reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "partial",
+          "finding": "Both missing PG amounts are now sourced to2025-26; a dated2026-27 schedule remains unavailable.",
+          "supporting_urls": [
+            "https://tantiauniversity.com/public/uploads/brochure.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://tantiauniversity.com/Admission-Overview",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://tantiauniversity.com/Admission-Overview",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://tantiauniversity.com/Admission-Overview",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://tantiauniversity.com/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://tantiauniversity.com/",
+          "http_status": null,
+          "evidence_file": "38-2b66c1140699",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://tantiauniversity.com/Program",
+          "http_status": null,
+          "evidence_file": "38-88260ba15b24",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://foag.tantiauniversity.com/page/about-college",
+          "http_status": null,
+          "evidence_file": "38-ca77cce45c6e",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://tantiauniversity.com/public/uploads/brochure.pdf",
+          "http_status": 200,
+          "evidence_file": "38-4bc8ab3c39db",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://tantiauniversity.com/Admission-Overview",
+          "http_status": null,
+          "evidence_file": "38-4b3530c997eb",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://foag.tantiauniversity.com/?page=Contact_Us",
+          "http_status": null,
+          "evidence_file": "38-d2f200910e65",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "url": "https://www.tantiauniversity.com/wp-admin/uploads/minutes/sgrc_2022.pdf",
+          "http_status": null,
+          "evidence_file": "38-4da0497671da",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "new_source_urls": [
+        "https://tantiauniversity.com/public/uploads/brochure.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 9,
+      "remaining_gaps": 9
+    },
+    {
+      "id": 39,
+      "name": "Raffles University",
+      "file": "batch-02/39-raffles-university.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 6 named academic staff entries with scope/date labels."
+      ],
+      "gap_reviews": [
+        {
+          "field": "programmes.admission_route",
+          "original_reason": "General Situation Test/interview procedure and historical agriculture JET notice need reconciliation for current intake.",
+          "original_next_source": "https://rafflesuniversity.edu.in/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://rafflesuniversity.edu.in/",
+          "status": "partial",
+          "finding": "Named agriculture roster entries and subject roles are now verified on the official page; a separately dated current staffing publication is not established.",
+          "supporting_urls": [
+            "https://rafflesuniversity.edu.in/faculty-agricultural"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://rafflesuniversity.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions",
+          "original_reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+          "original_next_source": "https://rafflesuniversity.edu.in/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://rafflesuniversity.edu.in/admission-procedure",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://rafflesuniversity.edu.in/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://rafflesuniversity.edu.in/",
+          "http_status": 200,
+          "evidence_file": "39-14c9435bb3d5",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/programs-agricultural",
+          "http_status": 200,
+          "evidence_file": "39-8cf811a71482",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/school-of-agricultural",
+          "http_status": 200,
+          "evidence_file": "39-ad33bff87992",
+          "error": null
+        },
+        {
+          "url": "https://mail.rafflesuniversity.edu.in/pdf/2025/Fees%20Structure%2025-26%20(2).pdf",
+          "http_status": 200,
+          "evidence_file": "39-e490b99ce9c7",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/admission-procedure",
+          "http_status": 200,
+          "evidence_file": "39-552386039478",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/pdf/agri/ICAR_SSR_compliance%20report-04-11-2023.pdf",
+          "http_status": 200,
+          "evidence_file": "39-34a4aeb2941b",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/faqs",
+          "http_status": 200,
+          "evidence_file": "39-42fd26b7714f",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/fee-structure",
+          "http_status": 200,
+          "evidence_file": "39-2a5e560c9307",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/naac/c1/RJUNGN105535.pdf",
+          "http_status": 200,
+          "evidence_file": "39-56c3df3d6f05",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/pdf/2026/Fee%20Structure.pdf",
+          "http_status": 200,
+          "evidence_file": "39-c0742c79a4f1",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/pdf/2026/Fee Structure.pdf",
+          "http_status": null,
+          "evidence_file": "39-7db32038fbea",
+          "error": "URL can't contain control characters. '/pdf/2026/Fee Structure.pdf' (found at least ' ')"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/nirf",
+          "http_status": null,
+          "evidence_file": "39-2737fa61ebbf",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/feedback-form-students",
+          "http_status": null,
+          "evidence_file": "39-046bbf1d6305",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/scholarship",
+          "http_status": null,
+          "evidence_file": "39-e7c29b743f97",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/fee-research",
+          "http_status": null,
+          "evidence_file": "39-089459eeee6a",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/current-scholars",
+          "http_status": null,
+          "evidence_file": "39-f54637931221",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/faculty-agricultural",
+          "http_status": null,
+          "evidence_file": "39-3689f1cd6380",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "http://rafflesuniversity.edu.in/scholarship",
+          "http_status": null,
+          "evidence_file": "39-9dce741858e1",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/faculty-agricultural",
+          "http_status": 200,
+          "evidence_file": "39-3689f1cd6380",
+          "error": null
+        },
+        {
+          "url": "https://rafflesuniversity.edu.in/dean-agricultural",
+          "http_status": 200,
+          "evidence_file": "39-2d36288576b2",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://rafflesuniversity.edu.in/faculty-agricultural"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 6,
+      "remaining_gaps": 6
+    },
+    {
+      "id": 40,
+      "name": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+      "file": "batch-02/40-maharishi-markandeshwar-mullana.json",
+      "checked_on": "2026-10-31",
+      "changes": [
+        "Added 9 named academic staff entries with scope/date labels.",
+        "Added report-scoped agriculture faculty and career-support coordination without relabelling older report context as current outcomes."
+      ],
+      "gap_reviews": [
+        {
+          "field": "admissions.application_procedure",
+          "original_reason": "Current main course pages expose no readable application process. Historical 2024-25 landing page cannot establish 2026 procedure.",
+          "original_next_source": "https://www.mmumullana.org/course/bsc-hons-agriculture/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "scholarships",
+          "original_reason": "No dated agriculture-applicable award rules were verified.",
+          "original_next_source": "https://www.mmumullana.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "faculty.people",
+          "original_reason": "A dated current agriculture staff roster was not verified.",
+          "original_next_source": "https://www.mmumullana.org/",
+          "status": "partial",
+          "finding": "The official self-study report now supplies named subject faculty; its mixed/older academic context does not establish a dated current roster.",
+          "supporting_urls": [
+            "https://www.mmumullana.org/wp-content/uploads/2026/05/SSR-Agriculture-MMDU.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "placements.statistics",
+          "original_reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+          "original_next_source": "https://www.mmumullana.org/",
+          "status": "partial",
+          "finding": "Agriculture-specific placement coordination is now described from the official report; no dated cohort/denominator/salary outcome was established.",
+          "supporting_urls": [
+            "https://www.mmumullana.org/wp-content/uploads/2026/05/SSR-Agriculture-MMDU.pdf"
+          ],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.documents",
+          "original_reason": "No current programme-specific document checklist was verified.",
+          "original_next_source": "https://admission.mmumullana.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "admissions.dates",
+          "original_reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+          "original_next_source": "https://admission.mmumullana.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "original_reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+          "original_next_source": "https://www.mmumullana.org/",
+          "status": "not_verified",
+          "finding": "The checked material did not establish this requested dated/programme-specific fact. Existing uncertainty is retained; this is not proof that no suitable source exists.",
+          "supporting_urls": [],
+          "checked_pages_note": "Institution-level attempt log below records pages requested, not supporting evidence for an absent claim."
+        }
+      ],
+      "checked_pages": [
+        {
+          "url": "https://www.mmumullana.org/",
+          "http_status": 200,
+          "evidence_file": "40-86870bb88371",
+          "error": null
+        },
+        {
+          "url": "https://www.mmumullana.org/wp-content/uploads/2026/04/MM%28DU%29%20Information%20Booklet%20%282026-27%29.pdf",
+          "http_status": 200,
+          "evidence_file": "40-4d90487a47c0",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://web.mm-edu.in/uploads/pdf_mullana/L1_67789_161932.pdf",
+          "http_status": 200,
+          "evidence_file": "40-0741ab7acadf",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://www.mmumullana.org/wp-content/uploads/2026/05/SSR-Agriculture-MMDU.pdf",
+          "http_status": 200,
+          "evidence_file": "40-31ab93bfe43c",
+          "error": "No module named 'pymupdf'"
+        },
+        {
+          "url": "https://blog.mmumullana.org/vision-2047-the-blueprint-for-indian-agricultures-new-era/",
+          "http_status": null,
+          "evidence_file": "40-565afc11cbe5",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.mmumullana.org/admission/agriculture.html",
+          "http_status": 200,
+          "evidence_file": "40-fe23dffc399e",
+          "error": null
+        },
+        {
+          "url": "https://blog.mmumullana.org/category/education/agriculture/",
+          "http_status": null,
+          "evidence_file": "40-c56bf41f37fb",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://onlineprograms.mmumullana.org/contact-us.html",
+          "http_status": 200,
+          "evidence_file": "40-41b18b290d4c",
+          "error": null
+        },
+        {
+          "url": "https://api.mmumullana.org/uploads/pdf/L1_1_80_177151.pdf",
+          "http_status": null,
+          "evidence_file": "40-38e22350deaf",
+          "error": "HTTP Error 404: Not Found"
+        },
+        {
+          "url": "https://www.mmumullana.org/course/bsc-hons-agriculture/",
+          "http_status": 200,
+          "evidence_file": "40-3f8a103dcf9d",
+          "error": null
+        },
+        {
+          "url": "https://admission.mmumullana.org/",
+          "http_status": 200,
+          "evidence_file": "40-b42c1d849f8e",
+          "error": null
+        },
+        {
+          "url": "https://www.mmumullana.org/admission/index.html",
+          "http_status": null,
+          "evidence_file": "40-1ba85d49ee58",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admission.mmumullana.org/#hero-4",
+          "http_status": null,
+          "evidence_file": "40-7b39b76f98f8",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admission.mmumullana.org/#tab1default",
+          "http_status": null,
+          "evidence_file": "40-611d50fe6649",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://admission.mmumullana.org/#tab2default",
+          "http_status": null,
+          "evidence_file": "40-dc8babb0b658",
+          "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+        },
+        {
+          "url": "https://www.mmumullana.org/course/bsc-hons-agriculture/",
+          "http_status": 200,
+          "evidence_file": "40-3f8a103dcf9d",
+          "error": null
+        }
+      ],
+      "new_source_urls": [
+        "https://www.mmumullana.org/wp-content/uploads/2026/05/SSR-Agriculture-MMDU.pdf"
+      ],
+      "newly_identified_gaps": [],
+      "original_gaps": 7,
+      "remaining_gaps": 7
+    }
+  ],
+  "source_access_note": "All original gaps for all 20 institutions were re-reviewed. Download attempts, successful source reads and unresolved claims are separate. HTTP success alone is not proof of a fact; not finding evidence in the checked material is not proof that no such report or roster exists. Raw requests/results are preserved in source indexes.",
+  "summary": {
+    "institutions": 20,
+    "profiles_enriched": 17,
+    "original_gaps": 160,
+    "resolved": 13,
+    "partial": 20,
+    "not_verified": 127
+  }
+}

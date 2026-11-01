@@ -1,0 +1,583 @@
+{
+  "id": 45,
+  "slug": "integral-university",
+  "source_page": "https://www.iul.ac.in/Default.aspx",
+  "candidates": [
+    {
+      "url": "https://www.iul.ac.in/AdmissionInfo/images/Admission1.jpg?format=webp",
+      "kind": "meta",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/logo_circle.PNG",
+      "kind": "link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/logo_circle.ico",
+      "kind": "link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/IntegralUniversityLogo.png?v=114122&format=webp",
+      "kind": "img:src",
+      "alt": "best university in lucknow",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/IntegralUniversityLogo.png?v=116133&format=webp",
+      "kind": "img:src",
+      "alt": "best university in lucknow",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/aboutusimage.jpeg?v=190&format=webp",
+      "kind": "img:src",
+      "alt": "integral university about us image",
+      "context": "img-responsive hidden-xs    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Menu/Students.png?v=195&format=webp",
+      "kind": "img:src",
+      "alt": "integral students",
+      "context": "img-responsive hidden-xs    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Menu/Research.png?v=194&format=webp",
+      "kind": "img:src",
+      "alt": "integral research",
+      "context": "img-responsive hidden-xs    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Menu/Resources.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "integral resources",
+      "context": "img-responsive hidden-xs    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/IU_InspiringExcellence.png?v=195&format=webp",
+      "kind": "img:src",
+      "alt": "Integral university inspiring excellence",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-ZL4-20261018161703397.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-S7Y-20261027135750261.jpg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-BJ0-20260930131313071.jpeg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-2FU-20260921215121444.jpeg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-L6Z-20260922172529693.jpg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-VKV-20261018162531702.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-GOW-20260921011121604.jpeg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-Z92-20261015175523385.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-S2V-20261009183424504.jpg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-8OL-20261019235802750.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-OU6-20261019005336834.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-EBA-20261015173638632.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-YRH-20260921154821170.jpeg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-C6E-20261019001929742.jpeg?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-MGJ-20261009182755964.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/timesimages/Administration-Events-NOK-20261019005734332.png?v=196&format=webp",
+      "kind": "img:src",
+      "alt": "Integral TIMES",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-DDP-20261003152513717.png?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-YRR-20261003152938772.png?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-F62-20261015012624995.jpeg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-CC8-20261019001112506.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-6K7-20261019230905847.jpeg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-MKD-20261029105443858.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-08N-20261018234154018.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-YPO-20261019000913135.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-67N-20260921151117216.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in//CMS/Events/images/Administration-Events-DF2-20261029151644617.jpg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://iul.ac.in/DWC/Events/images/Administration-134330178189997093hospital 2 copy.jpeg?v=197&format=webp",
+      "kind": "img:src",
+      "alt": "Event Poster",
+      "context": "event-bg-img    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/new.gif",
+      "kind": "img:src",
+      "alt": "new",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/Elephant.jpg?v=199&format=webp",
+      "kind": "img:src",
+      "alt": "Wildlife Safety",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/BrainTumor.jpg?v=1910&format=webp",
+      "kind": "img:src",
+      "alt": "Brain Tumor",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/Synthesis_of_Nanomaterials.PNG?v=199&format=webp",
+      "kind": "img:src",
+      "alt": "Nanomaterials",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/Endosomally.jpg?v=1911&format=webp",
+      "kind": "img:src",
+      "alt": "Endosomally Localized",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/Nigella.JPG?v=1912&format=webp",
+      "kind": "img:src",
+      "alt": "Nigella Sativa",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Research/Anthraquinone.jpg?v=1913&format=webp",
+      "kind": "img:src",
+      "alt": "Anthraquinone Derivative",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Allana.png?v=1992&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/tcs.png?v=1993&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/OPPO_Logo.png?v=1994&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/CSC.png?v=1995&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Reliance-Jio-Logo.png?v=1996&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Fresche-logo.png??v=1997&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/infosys-logo-PNG.png?v=1998&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Aon%20Hewitt.png??v=1999&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Samsung_Logo.svg.png?v=1990&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Amazon_logo.png?v=1991&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Al%20Turah.png?v=1992&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/daffodil.png?v=1993&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Sopra%20Steria.png?v=1994&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Ericsson.png?v=1995&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/deloittelogo.png?v=1996&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/DXC.png?v=1996&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/Optmus.png?v=1997&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Companies%20Logos/ANGLO%20EASTERN.png?v=1998&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Academic Block-I.JPG?v=1701&format=webp",
+      "kind": "img:src",
+      "alt": "Acdemic Block 1",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Academic Block-I.JPG?v=1801&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Administrative Block.JPG?v=1702&format=webp",
+      "kind": "img:src",
+      "alt": "Administrative Block",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Administrative Block.JPG?v=1703&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Academic Block-II.jpg?v=1704&format=webp",
+      "kind": "img:src",
+      "alt": "Civil Block",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Academic Block-II.jpg?v=1705&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/IIMS&R.JPG?v=1706&format=webp",
+      "kind": "img:src",
+      "alt": "Medical Block",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/IIMS&R.JPG?v=1707&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Pharmacy.jpg?v=1708&format=webp",
+      "kind": "img:src",
+      "alt": "Pharmacy Block",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Pharmacy.jpg?v=1709&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Library -IIII.JPG?v=1711&format=webp",
+      "kind": "img:src",
+      "alt": "Library",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Library -IIII.JPG?v=1712&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Girls Hostel.JPG?v=1713&format=webp",
+      "kind": "img:src",
+      "alt": "Girls Hostel",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Girls Hostel.JPG?v=1715&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Boys Hostel.JPG?v=1716&format=webp",
+      "kind": "img:src",
+      "alt": "Boys Hostel",
+      "context": "img-responsive    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Buildings/Big/Boys Hostel.jpg?v=1717&format=webp",
+      "kind": "image-link",
+      "alt": "",
+      "context": "btn btn-template-transparent-primary    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/close-icon.png?=3435",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   25 "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/NAAC2024.jpeg?v=1733&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/NAAC2025.jpg?v=1738&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/NAAC2026.jpeg?v=17310&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://images.dmca.com/Badges/_dmca_premi_badge_4.png?ID=e154e6cf-aec8-4754-af37-e74ac266dc82",
+      "kind": "img:src",
+      "alt": "DMCA.com Protection Status",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/close-icon.png?=3434",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   25 "
+    },
+    {
+      "url": "https://iul.ac.in/img/ili.jpg?v=1601&format=webp",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://www.iul.ac.in/img/slider/Salider2.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/slider/Salider1.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/slider/Salider.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/BlurredLogoNew.jpg?format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/hqdefault.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/YOne.PNG?v=1011&format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/YTwo.jpg?v=1014&format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/YThree.PNG?v=1013&format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/YFour.PNG?v=1014&format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/img/Campus.PNG?v=1015&format=webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.iul.ac.in/iulImg/frontYT3.PNG",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checked_on": "2026-10-30",
+  "checks": [
+    "All 156 selected originals decode in Chrome, including full SVG logos and embedded photographic SVGs",
+    "Media search, no-results and complete-collection filter behave correctly",
+    "All 58 SEO briefs, 13 sections, 16 topic briefs and TOC targets render",
+    "No document overflow at 320, 390, 768, 1024 or 1440px for either reader"
+  ],
+  "errors": [],
+  "decoded_images": 156
+}

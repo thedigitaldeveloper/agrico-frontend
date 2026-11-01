@@ -1,0 +1,575 @@
+{
+  "id": 9,
+  "slug": "thanthai-roever-institute-of-agriculture-and-rural-development",
+  "name": "Thanthai Roever Institute of Agriculture and Rural Development",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "TRIARD",
+    "ownership": "Private college run by St. John Sangam Trust within the Roever group",
+    "city": "Valikandapuram",
+    "state": "Tamil Nadu",
+    "established": 1994,
+    "address": "Valikandapuram, Perambalur 621115, Tamil Nadu",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://roeveragri.ac.in/",
+    "admissions_url": "https://roeveragri.ac.in/admission/",
+    "phone": "+91 97509 70155",
+    "email": "deantriard@tnau.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Thanthai Roever Institute of Agriculture and Rural Development",
+    "summary": "TRIARD is a St. John Sangam Trust agriculture college at Valikandapuram in Perambalur district. Its educational history begins with diploma study in 1994, followed by degree teaching. The college is affiliated to TNAU, and its audited ICAR agriculture entry runs through March 2031.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture and rural development at Valikandapuram",
+    "paragraphs": [
+      "Thanthai Roever Institute of Agriculture and Rural Development belongs to the Roever educational group and is run by St. John Sangam Trust. Its history records agriculture diploma teaching from 1994 and horticulture diploma teaching from 2001, with degree education developed later.",
+      "At Valikandapuram, the college describes 51.97 hectares, or 128.4 acres, used for practical learning and a crop cafeteria. Students considering the agriculture degree can ask how crop observations and field assignments connect with laboratory teaching. TRIARD also publishes scholarship-cell support and named graduate destinations, which applicants can discuss alongside a current prospectus and a recent cohort report."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2031-03-15"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The official admission page describes a four-year B.Sc. (Hons.) Agriculture. Its published subject combinations centre on Physics, Chemistry and biological sciences, but the page includes a 2025–26 form and older portal guidance.",
+      "eligibility": "Historical official admission page: 10+2 with the listed science combinations, including Physics, Chemistry and Biology or Botany/Zoology. Current subject equivalence and minimum marks must be checked in the entry-year TNAU prospectus.",
+      "admission_route": "The college states TNAU online application is mandatory for both counselling and management admission; the page contains older portal references.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Thanthai Roever Institute of Agriculture and Rural Development for 2026-03-16 to 2031-03-15. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying through TNAU counselling",
+    "intro": "TRIARD’s published procedure directs both counselling and management applicants to TNAU registration. Because the page combines older instructions with a 2025–26 form, its stated application charges and links are not adopted as current.",
+    "eligibility_points": [
+      "A recognised 10+2 science qualification is described in the historical college admission page.",
+      "Confirm the current TNAU subject combinations and category thresholds before applying."
+    ],
+    "steps": [
+      {
+        "title": "Register with TNAU",
+        "text": "Submit a single online application."
+      },
+      {
+        "title": "Set course preferences",
+        "text": "Order eligible college and course combinations."
+      },
+      {
+        "title": "Follow counselling",
+        "text": "General-quota counselling runs online; special-reservation sessions may be offline."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "Historical semester registration for 2024 and 2025 UG batches; not a new-admission window",
+        "date": "2026-10-21",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "media_logo"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "tnau_faq_2026",
+      "media_logo"
+    ],
+    "route_scope": "These steps describe the TNAU counselling channel. Any separate college-management route must be checked independently."
+  },
+  "campus": {
+    "heading": "A crop cafeteria and practical teaching land",
+    "intro": "TRIARD describes agricultural land used for practical teaching and a crop cafeteria. Its facilities page lists a college library, language laboratory, laboratories and residential arrangements, but includes older details that should be reconfirmed before making accommodation plans.",
+    "facilities": [
+      {
+        "name": "Crop cafeteria",
+        "description": "The about page describes a crop cafeteria for observing crop varieties.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Language laboratory",
+        "description": "The facilities page describes English listening, speaking, reading and writing practice.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Library",
+        "description": "A college library is described on the official facilities page.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The college identifies practical training land and a crop cafeteria as part of agricultural learning."
+    ],
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "TRIARD’s Scholarship Cell describes help with government applications, verification and renewals. The official page lists post-matric and community schemes, but does not establish an individual award amount or current eligibility for every agriculture student.",
+    "schemes": [
+      {
+        "name": "Post-matric and community scholarship application support",
+        "details": "The cell lists post-matric, BC/MBC/DNC, SC/ST and other schemes. Eligibility and availability depend on the current funding authority rules; amounts were not verified.",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "TRIARD’s 2025–26 outcomes table names graduates and their roles in banks, public agencies and agricultural businesses. Examples include agricultural/rural-development roles at Indian Bank and Punjab National Bank and research work at CARDS, TNAU. It is a list of reported outcomes, not a cohort-wide placement percentage or salary report.",
+    "statistics": [],
+    "recruiters": [
+      {
+        "name": "2025–26 graduate destinations reported by the college",
+        "description": "The named table includes Indian Bank, Punjab National Bank, Federal Bank, Cotton Corporation of India and Sathyam Kissan Care. These destinations are not represented as a guaranteed campus-recruiter list.",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Thanthai Roever Institute of Agriculture and Rural Development and the programme labels below from 2026-03-16 through 2031-03-15. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Thanthai Roever Institute of Agriculture and Rural Development",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+        ],
+        "valid_from": "2026-03-16",
+        "valid_until": "2031-03-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A16:G16"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "TRIARD’s crop-management page supplies named teachers and subject responsibilities. These selected entries provide a source-linked view of the academic team rather than an inferred campus-wide staffing total.",
+    "people": [
+      {
+        "name": "Dr. K. Wahab",
+        "role": "Senior Professor and Head, Crop Management",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Mrs. C. Parameswari",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "qualification": "M.Sc. Agriculture",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. R. Raja Priya",
+        "role": "Assistant Professor, Agronomy",
+        "qualification": "M.Sc. Agriculture; Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. M. Palanisamy",
+        "role": "Assistant Professor, Agricultural Microbiology",
+        "qualification": "M.Sc. Agriculture",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. A. Saravanan",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "qualification": "B.Sc. Agriculture; M.Sc. Agriculture; Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is TRIARD an independent university?",
+      "answer": "No. The audited entry identifies a private college affiliated to TNAU.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What does the 1994 establishment date refer to?",
+      "answer": "The college’s history dates the start of agriculture diploma courses to 1994. Degree education developed later.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What practical land is described?",
+      "answer": "The official about page describes 51.97 hectares, or 128.4 acres, and a crop cafeteria for observing varieties.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Are the website’s admission fees current?",
+      "answer": "The admission page includes older guidance and a 2025–26 form. No application charge is presented here as a verified 2026 fee.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does TRIARD publish placement evidence?",
+      "answer": "It publishes named 2025–26 destinations and vacancy notices, but not a verified agriculture placement rate or salary distribution in the material read.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for TRIARD?",
+      "answer": "Historical official admission page: 10+2 with the listed science combinations, including Physics, Chemistry and Biology or Botany/Zoology. Current subject equivalence and minimum marks must be checked in the entry-year TNAU prospectus.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at TRIARD?",
+      "answer": "4 years. ",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for TRIARD?",
+      "answer": "TRIARD’s crop-management page supplies named teachers and subject responsibilities. These selected entries provide a source-linked view of the academic team rather than an inferred campus-wide staffing total. Dr. K. Wahab — Senior Professor and Head, Crop Management — Ph.D.; Mrs. C. Parameswari — Assistant Professor, Soil Science and Agricultural Chemistry — M.Sc. Agriculture; Dr. R. Raja Priya — Assistant Professor, Agronomy — M.Sc. Agriculture; Ph.D..",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which scholarship or support information is published for TRIARD?",
+      "answer": "TRIARD’s Scholarship Cell describes help with government applications, verification and renewals. The official page lists post-matric and community schemes, but does not establish an individual award amount or current eligibility for every agriculture student. The cell lists post-matric, BC/MBC/DNC, SC/ST and other schemes. Eligibility and availability depend on the current funding authority rules; amounts were not verified.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Where is the official application information for TRIARD?",
+      "answer": "https://roeveragri.ac.in/admission/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3",
+        "tnau_faq_2026",
+        "media_logo"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Thanthai Roever Institute of Agriculture and Rural Development | Agriculture Courses & Admissions",
+    "description": "Explore TRIARD in Perambalur: agriculture degree study, TNAU affiliation, crop-cafeteria learning, scholarship support and the audited ICAR programme term.",
+    "keywords": [
+      "Thanthai Roever Institute of Agriculture and Rural Development",
+      "TRIARD agriculture",
+      "Valikandapuram agriculture admission",
+      "B.Sc. (Hons.) Agriculture Thanthai Roever Institute of Agriculture and Rural Development"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://roeveragri.ac.in/wp-content/uploads/2020/09/biochemistry-lab.jpg",
+    "logo_url": "https://roeveragri.ac.in/wp-content/uploads/elementor/thumbs/logo-agricultural-rcdag475ud0wk3a5i67mytzcxrpmf8avgxgnw6zmi8.png",
+    "campus_alt": "TRIARD students conducting practical work in the biochemistry laboratory",
+    "caption": "TRIARD students conducting practical work in the biochemistry laboratory",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_card_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/thanthai-roever-institute-of-agriculture-and-rural-development/logo.png",
+    "local_card_logo": "media/thanthai-roever-institute-of-agriculture-and-rural-development/card-logo.png",
+    "local_campus_image": "media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-biochemistry-lab.jpg",
+    "local_gallery": [
+      "media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-biochemistry-lab.jpg",
+      "media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-library.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://roeveragri.ac.in/about-us/",
+      "title": "About TRIARD",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "faqs.1",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://roeveragri.ac.in/admission/",
+      "title": "TRIARD admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Page includes 2025–26 form and older title/portal references; historical guidance, not verified 2026 rules."
+    },
+    {
+      "id": "s4",
+      "url": "https://roeveragri.ac.in/facilities/",
+      "title": "TRIARD facilities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.1",
+        "campus.facilities.2",
+        "overview"
+      ],
+      "notes": "Undated inventory contains 2018 activities and older computing specifications; capacities not treated as current."
+    },
+    {
+      "id": "s5",
+      "url": "https://roeveragri.ac.in/scholarship-cell/",
+      "title": "Scholarship Cell",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "scholarships",
+        "scholarships.schemes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://roeveragri.ac.in/placement/",
+      "title": "TRIARD placement records",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "placements"
+      ],
+      "notes": "Includes a 2025–26 named destination list; no cohort denominator or independently verified salaries.",
+      "note": "26 named entries mix public/private employment and other destinations; no graduating cohort denominator, salary definitions or a measured placement percentage."
+    },
+    {
+      "id": "tnau_faq_2026",
+      "url": "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+      "title": "TNAU and Annamalai University combined admissions FAQs 2026–2027",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.steps"
+      ],
+      "notes": "Public PDF linked by the official TNAU 2026–27 portal; downloaded and text-read, with cover and counselling page visually inspected. Pages 2–4 and 19 support the TNAU counselling channel. Does not establish college-specific fees or management-quota availability."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://roeveragri.ac.in/",
+      "title": "Thanthai Roever Institute of Agriculture and Rural Development — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/thanthai-roever-institute-of-agriculture-and-rural-development/logo.png. Official TRIARD website identifies the institute separately from the Roever group; its facilities page supplies named library and biochemistry-lab photographs.",
+      "note": "Homepage announces 21 October 2026 registration for the 2024 batch IVsemester and 2025 batch IIIsemester; this is an enrolled-student academic event, not fresh-admission availability."
+    },
+    {
+      "id": "media_card_logo",
+      "url": "https://roeveragri.ac.in/",
+      "title": "Thanthai Roever Institute of Agriculture and Rural Development — card logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/thanthai-roever-institute-of-agriculture-and-rural-development/card-logo.png. Official TRIARD website identifies the institute separately from the Roever group; its facilities page supplies named library and biochemistry-lab photographs."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://roeveragri.ac.in/facilities/",
+      "title": "Thanthai Roever Institute of Agriculture and Rural Development — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-biochemistry-lab.jpg. Official TRIARD website identifies the institute separately from the Roever group; its facilities page supplies named library and biochemistry-lab photographs."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://roeveragri.ac.in/facilities/",
+      "title": "Thanthai Roever Institute of Agriculture and Rural Development — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-library.jpg. Official TRIARD website identifies the institute separately from the Roever group; its facilities page supplies named library and biochemistry-lab photographs."
+    },
+    {
+      "id": "r31_1",
+      "title": "TRIARD crop-management faculty",
+      "url": "https://roeveragri.ac.in/academics/crop-management/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Official named teaching roles and qualifications, accessed 31 October."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://roeveragri.ac.in/admission/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://roeveragri.ac.in/admission/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated 2025–26 named outcome list is now verified. It does not give the eligible graduating denominator or salary definitions needed for an agriculture placement rate.",
+      "next_source": "https://roeveragri.ac.in/placement/"
+    },
+    {
+      "field": "identity.established",
+      "reason": "1994 refers to diploma education. Website history says BSc began in 2008, while a historical TNAU MoU excerpt refers to 2015–16 affiliation; degree history needs reconciliation.",
+      "next_source": "https://roeveragri.ac.in/about-us/"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "The facilities page mixes undated arrangements with older 2018 examples and computing specifications; current capacities need confirmation.",
+      "next_source": "https://roeveragri.ac.in/facilities/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/09-thanthai-roever-institute-of-agriculture-and-rural-development.json",
+  "audit_name": "Thanthai Roever Institute of Agriculture and Rural Development",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

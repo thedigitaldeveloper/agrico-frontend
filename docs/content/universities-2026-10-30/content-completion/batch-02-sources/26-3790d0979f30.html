@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>SGT University IQAC – Enhancing Academic Excellence & Institutional Quality</title>
+<meta name="description" content="Explore the Internal Quality Assurance Cell (IQAC) at SGT University, Gurugram. Committed to continuous quality enhancement, the IQAC fosters academic excellence, effective governance, and holistic development through innovative initiatives and strategic planning.">
+<meta name="keywords" content="IQSC, SGT IQSC, SGT University IQAC, Internal Quality Assurance Cell, academic excellence, quality enhancement, NAAC A+ accredited, faculty development, institutional quality, governance, outcome-based education, student feedback system">
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #0d47a1;
+      --accent: #00d2ff;
+      --glass-bg: rgba(255, 255, 255, 0.75);
+      --glass-border: rgba(255, 255, 255, 0.5);
+      --gradient-bg: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+    }
+
+    body {
+      font-family: 'Urbanist', sans-serif;
+      background: var(--gradient-bg);
+      color: #333;
+      overflow-x: hidden;
+    }
+
+    /* Abstract Background Blob */
+    .blob {
+      position: absolute;
+      top: 0;
+      left: 0;
+      fill: #149ddd;
+      width: 50vmax;
+      z-index: -1;
+      animation: move 10s ease-in-out infinite;
+      transform-origin: 50% 50%;
+      opacity: 0.05;
+    }
+
+    @keyframes move {
+      0%   { transform: scale(1) translate(10px, -30px); }
+      38%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+      40%  { transform: scale(0.8, 1) translate(80vw, 30vh) rotate(160deg); }
+      78%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+      80%  { transform: scale(1.3) translate(0vw, 50vh) rotate(-20deg); }
+      100% { transform: scale(1) translate(10px, -30px); }
+    }
+
+    /* Section Headers */
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .section-header h2 {
+      font-weight: 800;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .section-header p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #666;
+    }
+
+    /* --- HERO CARD (2024-25) --- */
+    .hero-report-card {
+      background: linear-gradient(120deg, #2980b9, #2c3e50); /* Dark Professional Gradient */
+      border-radius: 20px;
+      padding: 40px;
+      color: white;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      transition: transform 0.3s;
+    }
+
+    .hero-report-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .hero-bg-icon {
+      position: absolute;
+      right: -20px;
+      bottom: -40px;
+      font-size: 12rem;
+      opacity: 0.1;
+      color: white;
+      transform: rotate(-15deg);
+    }
+
+    .btn-hero {
+      background: white;
+      color: #2c3e50;
+      padding: 12px 35px;
+      border-radius: 50px;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      transition: all 0.3s;
+      margin-top: 20px;
+    }
+    .btn-hero:hover {
+      background: var(--accent);
+      color: white;
+      box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+    }
+
+    /* --- ARCHIVE CARDS (Older Years) --- */
+    .archive-card {
+      background: white;
+      border-radius: 16px;
+      padding: 25px;
+      border: 1px solid rgba(0,0,0,0.05);
+      transition: all 0.3s;
+      height: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .archive-card:hover {
+      border-color: var(--primary);
+      box-shadow: 0 10px 30px rgba(13, 71, 161, 0.08);
+    }
+
+    .archive-year {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #444;
+    }
+    
+    .btn-archive {
+      margin-top: 15px;
+      color: var(--primary);
+      font-weight: 600;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: 0.3s;
+    }
+    .btn-archive:hover {
+      border-bottom-color: var(--primary);
+    }
+
+    /* --- PERSONA CARDS (Forms) --- */
+    .persona-card {
+      background: var(--glass-bg);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      display: block;
+      height: 100%;
+    }
+
+    .persona-icon-box {
+      width: 70px;
+      height: 70px;
+      background: #eef2f6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      font-size: 1.8rem;
+      color: var(--primary);
+      transition: all 0.3s;
+    }
+
+    .persona-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    .persona-desc {
+      font-size: 0.85rem;
+      color: #777;
+    }
+
+    .persona-card:hover {
+      transform: translateY(-10px);
+      background: white;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    }
+
+    .persona-card:hover .persona-icon-box {
+      background: var(--primary);
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* --- STUDENT VOICE CTA (2025-26) --- */
+    .student-voice-card {
+      background:
+        radial-gradient(circle at 12% 18%, rgba(255, 255, 255, 0.18), transparent 28%),
+        radial-gradient(circle at 88% 10%, rgba(255, 255, 255, 0.10), transparent 26%),
+        linear-gradient(120deg, #2980b9, #2c3e50);
+      border-radius: 30px;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 25px 70px rgba(44, 62, 80, 0.22);
+      isolation: isolate;
+    }
+
+    .student-voice-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+      background-size: 36px 36px;
+      mask-image: linear-gradient(90deg, rgba(0,0,0,0.8), transparent 80%);
+      z-index: -1;
+    }
+
+    .student-voice-card::after {
+      content: "";
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      right: -170px;
+      bottom: -220px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.12);
+      z-index: -1;
+    }
+
+    .student-voice-content {
+      padding: 46px 46px 42px;
+    }
+
+    .student-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.86rem;
+      letter-spacing: 0.4px;
+      margin-bottom: 18px;
+    }
+
+    .student-voice-title {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 800;
+      line-height: 1.16;
+      margin-bottom: 28px;
+      letter-spacing: -0.5px;
+    }
+
+    .student-voice-title span {
+      color: #fff;
+      position: relative;
+      display: block;
+    }
+
+    .student-voice-title span::after {
+      display: none;
+    }
+
+    .student-voice-title .university-line {
+      font-size: clamp(1.75rem, 3vw, 2.75rem);
+      font-weight: 800;
+    }
+
+    .student-voice-title .iqac-line {
+      font-size: clamp(1.05rem, 1.7vw, 1.45rem);
+      font-weight: 600;
+      opacity: 0.92;
+      margin-top: 6px;
+      letter-spacing: 0.2px;
+    }
+
+    .student-voice-title .feedback-line {
+      font-size: clamp(1.45rem, 2.4vw, 2.25rem);
+      font-weight: 800;
+      margin-top: 22px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .student-voice-text {
+      font-size: 1.07rem;
+      line-height: 1.75;
+      opacity: 0.94;
+      max-width: 720px;
+      margin-bottom: 22px;
+    }
+
+    .voice-benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0 30px;
+    }
+
+    .voice-benefit {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.14);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      font-weight: 700;
+      font-size: 0.92rem;
+      backdrop-filter: blur(8px);
+    }
+
+    .voice-benefit i {
+      color: #ffffff;
+    }
+
+    .btn-student-voice {
+      background: #ffffff;
+      color: #2c3e50;
+      padding: 19px 48px;
+      min-width: 280px;
+      justify-content: center;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 1.12rem;
+      letter-spacing: 0.2px;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      transition: all 0.3s ease;
+      box-shadow: 0 16px 34px rgba(0, 0, 0, 0.20);
+      animation: pulseCta 2.2s infinite;
+    }
+
+    .btn-student-voice:hover {
+      background: #00d2ff;
+      color: #ffffff;
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 20px 38px rgba(0, 210, 255, 0.30);
+    }
+
+    .small-cta-note {
+      margin-top: 14px;
+      margin-bottom: 0;
+      font-size: 0.88rem;
+      opacity: 0.78;
+    }
+
+    .student-voice-visual {
+      min-height: 360px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 34px;
+    }
+
+    .feedback-phone {
+      width: 265px;
+      border-radius: 32px;
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.16);
+      border: 1px solid rgba(255, 255, 255, 0.32);
+      backdrop-filter: blur(12px);
+      box-shadow: 0 28px 60px rgba(0, 0, 0, 0.25);
+      transform: rotate(3deg);
+      animation: phoneFloat 4s ease-in-out infinite;
+    }
+
+    .phone-top {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+    }
+
+    .phone-top span {
+      width: 76px;
+      height: 6px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.45);
+      display: inline-block;
+    }
+
+    .phone-screen {
+      background: rgba(255, 255, 255, 0.95);
+      color: #24324b;
+      border-radius: 24px;
+      padding: 22px 18px;
+    }
+
+    .phone-screen .mini-label {
+      color: var(--primary);
+      font-weight: 800;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .phone-screen h4 {
+      font-size: 1.05rem;
+      font-weight: 800;
+      margin: 8px 0 14px;
+      color: #1f2b44;
+    }
+
+    .rating-row {
+      display: flex;
+      gap: 6px;
+      color: #ffb703;
+      font-size: 1.25rem;
+      margin-bottom: 16px;
+    }
+
+    .emoji-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 18px;
+    }
+
+    .emoji-row span {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 14px;
+      background: #eef7ff;
+      font-size: 1.25rem;
+      box-shadow: inset 0 0 0 1px rgba(13, 71, 161, 0.06);
+    }
+
+    .progress-line {
+      width: 100%;
+      height: 9px;
+      border-radius: 999px;
+      background: #e7edf6;
+      overflow: hidden;
+    }
+
+    .progress-line span {
+      display: block;
+      height: 100%;
+      width: 78%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #0d47a1, #00d2ff);
+      animation: progressGlow 2.6s ease-in-out infinite;
+    }
+
+    .floating-note {
+      position: absolute;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.92);
+      color: #1f2b44;
+      border-radius: 16px;
+      padding: 10px 13px;
+      font-weight: 800;
+      box-shadow: 0 14px 30px rgba(0, 0, 0, 0.16);
+      animation: floatNote 4.5s ease-in-out infinite;
+      z-index: 2;
+    }
+
+    .floating-note i {
+      color: var(--primary);
+    }
+
+    .note-1 {
+      top: 42px;
+      left: 18px;
+      animation-delay: 0.1s;
+    }
+
+    .note-2 {
+      right: 18px;
+      top: 90px;
+      animation-delay: 0.8s;
+    }
+
+    .note-3 {
+      left: 36px;
+      bottom: 56px;
+      animation-delay: 1.4s;
+    }
+
+    @keyframes pulseCta {
+      0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.42), 0 16px 34px rgba(0, 0, 0, 0.20); }
+      70% { box-shadow: 0 0 0 14px rgba(255, 255, 255, 0), 0 16px 34px rgba(0, 0, 0, 0.20); }
+      100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 16px 34px rgba(0, 0, 0, 0.20); }
+    }
+
+    @keyframes phoneFloat {
+      0%, 100% { transform: translateY(0) rotate(3deg); }
+      50% { transform: translateY(-12px) rotate(-1deg); }
+    }
+
+    @keyframes floatNote {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    @keyframes progressGlow {
+      0%, 100% { width: 70%; }
+      50% { width: 88%; }
+    }
+
+    @media (max-width: 991px) {
+      .student-voice-content {
+        padding: 34px 26px 18px;
+      }
+
+      .student-voice-visual {
+        min-height: 320px;
+        padding-top: 8px;
+      }
+
+      .floating-note {
+        font-size: 0.82rem;
+      }
+    }
+
+    @media (max-width: 575px) {
+      .student-voice-card {
+        border-radius: 22px;
+      }
+
+      .student-voice-title {
+        font-size: 2rem;
+      }
+
+      .voice-benefit {
+        width: 100%;
+      }
+
+      .feedback-phone {
+        width: 235px;
+      }
+
+      .btn-student-voice {
+        width: 100%;
+        min-width: unset;
+        padding: 18px 28px;
+      }
+
+      .note-1, .note-2, .note-3 {
+        display: none;
+      }
+    }
+
+
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+    <div>
+      <img src="assets/img/sgtu-updated.png" alt="" class="img-fluid">
+    </div>
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename"></h1>
+    </a>
+    <div class="social-links text-center">
+      <a href="https://www.sgtuniversity.ac.in" class="linkedin"><i class="bi bi-globe"></i></a>
+      <a href="https://in.linkedin.com/school/sgt-university/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="https://www.facebook.com/sgtuniversitygurgaon/" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/sgtuniversity/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+    </div>
+    <nav id="navmenu" class="navmenu"></nav>
+    <script src="assets/js/navdata.js?v=1.0.1"></script>
+    <script src="assets/js/render-nav.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        generateNavMenu(navItems);
+      });
+    </script>  
+  </header>
+
+  <main class="main position-relative">
+    
+    <svg class="blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <path d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,81.6,-46.6C91.4,-34.1,98.1,-19.2,95.8,-5.3C93.5,8.6,82.2,21.5,70.9,32.2C59.6,42.9,48.3,51.4,36.7,58.3C25.1,65.2,13.2,70.5,-0.6,71.5C-14.4,72.5,-30.5,69.2,-44.2,61.8C-57.9,54.4,-69.2,42.9,-76.3,29.3C-83.4,15.7,-86.3,0,-82.7,-13.7C-79.1,-27.4,-69,-39.1,-57.2,-47.5C-45.4,-55.9,-31.9,-61,-18.8,-64.7C-5.7,-68.4,7.1,-70.7,20.2,-72.3" transform="translate(100 100)" />
+    </svg>
+
+    <section id="feedback-reports" class="section" style="padding-top: 60px;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Institutional Feedback Reports</h2>
+          <p>Strategic analysis driving academic excellence through stakeholder insights.</p>
+        </div>
+
+
+        <div class="row g-4">
+          <div class="col-lg-12" data-aos="zoom-in">
+            <div class="student-voice-card">
+              <div class="row align-items-center g-0">
+                <div class="col-lg-7">
+                  <div class="student-voice-content">
+                    <div class="student-kicker"><i class="bi bi-megaphone-fill"></i> Academic Session 2025 - 2026</div>
+                    <h2 class="student-voice-title">
+                      <span class="university-line">SGT University</span>
+                      <span class="iqac-line">Internal Quality Assurance Cell</span>
+                      <span class="feedback-line">Student Feedback on Teaching Quality</span>
+                    </h2>
+
+                    <!-- <div class="voice-benefits">
+                      <span class="voice-benefit"><i class="bi bi-lightning-charge-fill"></i> Quick to fill</span>
+                      <span class="voice-benefit"><i class="bi bi-stars"></i> Improve teaching quality</span>
+                      <span class="voice-benefit"><i class="bi bi-people-fill"></i> Student-first learning</span>
+                    </div> -->
+
+                    <a href="Feedback System 2025-26/index.html" target="_blank" class="btn-student-voice">
+                      Start Feedback Now <i class="bi bi-arrow-right-circle-fill"></i>
+                    </a>
+                    <p class="small-cta-note">Your honest inputs support continuous academic improvement at SGT University.</p>
+                  </div>
+                </div>
+
+                <div class="col-lg-5">
+                  <div class="student-voice-visual">
+                    <div class="floating-note note-1"><i class="bi bi-chat-heart-fill"></i> Be heard</div>
+                    <div class="floating-note note-2"><i class="bi bi-mortarboard-fill"></i> Better classes</div>
+                    <div class="floating-note note-3"><i class="bi bi-check2-circle"></i> Real impact</div>
+
+                    <div class="feedback-phone" aria-hidden="true">
+                      <div class="phone-top"><span></span></div>
+                      <div class="phone-screen">
+                        <div class="mini-label">Teaching Quality</div>
+                        <h4>How was your learning experience?</h4>
+                        <div class="rating-row">
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-half"></i>
+                        </div>
+                        <div class="emoji-row">
+                          <span>🙌</span>
+                          <span>💡</span>
+                          <span>📚</span>
+                          <span>🚀</span>
+                        </div>
+                        <div class="progress-line"><span></span></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-12" data-aos="zoom-in">
+            <div class="hero-report-card">
+              <i class="bi bi-graph-up-arrow hero-bg-icon"></i>
+              <span class="badge bg-light text-dark mb-3">Latest Analysis</span>
+              <h1 style="font-weight: 800;">2024 - 2025 Report</h1>
+              <p style="font-size: 1.1rem; opacity: 0.9; max-width: 600px;">Comprehensive breakdown of student feedback, action taken reports, and quality enhancement metrics for the current academic session.</p>
+              <a href="studentFB24-25.html" target="_blank" class="btn-hero">
+                Explore Full Report <i class="bi bi-arrow-right-circle"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="archive-card">
+              <div class="text-muted small text-uppercase">Previous Session</div>
+              <div class="archive-year">2023 - 2024</div>
+              <a href="studentFB23-24.html" target="_blank" class="btn-archive">View Analysis <i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="archive-card">
+              <div class="text-muted small text-uppercase">Archived Document</div>
+              <div class="archive-year">2022 - 2023</div>
+              <a href="assets/files/Feedback/Feedback Report 2022-2023.pdf" target="_blank" class="btn-archive">Download PDF <i class="bi bi-file-earmark-arrow-down"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section id="feedback-forms" class="section" style="padding-top: 40px; padding-bottom: 80px;">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Feedback Forms</h2>
+          <!-- <p>Select your role below to contribute to the university's growth.</p> -->
+        </div>
+
+        <div class="row g-4 justify-content-center">
+          
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <a href="student_feedback.html" class="persona-card">
+              <div class="persona-icon-box"><i class="bi bi-mortarboard-fill"></i></div>
+              <h3 class="persona-title">Student Feedback</h3>
+              <p class="persona-desc">For current students regarding curriculum & teaching.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <a href="assets/files/Feedback/Teachers Feedback/Teacher Feedback Questionnaire on Curriculum (A.Y. 2024-2025).pdf" target="_blank" class="persona-card">
+              <div class="persona-icon-box"><i class="bi bi-person-workspace"></i></div>
+              <h3 class="persona-title">Teacher Feedback</h3>
+              <p class="persona-desc">Faculty input on curriculum design and delivery.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <a href="assets/files/Feedback/IQAC Alumni Feedback – Curriculum, Infrastructure.pdf" target="_blank" class="persona-card">
+              <div class="persona-icon-box"><i class="bi bi-people-fill"></i></div>
+              <h3 class="persona-title">Alumni Feedback</h3>
+              <p class="persona-desc">Insights from graduates on industry relevance.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <a href="assets/files/Feedback/Employer Feedback Form (A.Y. 2024-2025).pdf" target="_blank" class="persona-card">
+              <div class="persona-icon-box"><i class="bi bi-briefcase-fill"></i></div>
+              <h3 class="persona-title">Employer Feedback</h3>
+              <p class="persona-desc">Industry partners on graduate performance.</p>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <a href="assets/files/Feedback/Professionals Feedback.pdf" target="_blank" class="persona-card">
+              <div class="persona-icon-box"><i class="bi bi-award-fill"></i></div>
+              <h3 class="persona-title">Professional Feedback</h3>
+              <p class="persona-desc">Expert opinions on academic standards.</p>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">SGT University</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"08567dcfc0994bfcaa4d6b7a07ac9d06","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

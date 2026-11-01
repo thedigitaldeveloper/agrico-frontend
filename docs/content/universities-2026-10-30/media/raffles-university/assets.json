@@ -1,0 +1,60 @@
+{
+  "id": 39,
+  "slug": "raffles-university",
+  "name": "Raffles University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/raffles-university/logo.png",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/logo1.png",
+      "source_kind": "official",
+      "description": "Raffles University shield emblem and wordmark",
+      "alt": "Raffles University shield emblem and wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Raffles University",
+      "review_status": "verified_source",
+      "notes": "Original 200 x 213 PNG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/raffles-university/campus_primary.png",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/2025/campus_img.png",
+      "source_kind": "official",
+      "description": "Raffles University entrance gate, academic blocks and circular landscaped campus at Neemrana",
+      "alt": "Raffles University entrance gate, academic blocks and circular landscaped campus at Neemrana",
+      "campus": "Neemrana, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Raffles University",
+      "review_status": "verified_source",
+      "notes": "Original 1280 x 720 PNG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/raffles-university/campus_secondary.png",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/2025/campus_img02.png",
+      "source_kind": "official",
+      "description": "Elevated view of Raffles University Neemrana entrance gate, campus roads and academic blocks",
+      "alt": "Elevated view of Raffles University Neemrana entrance gate, campus roads and academic blocks",
+      "campus": "Neemrana, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Raffles University",
+      "review_status": "verified_source",
+      "notes": "Original 1536 x 1024 PNG; unchanged downloaded bytes. Closely overlaps the primary aerial entrance scene; retained as an official alternate composition for editorial choice, rather than claimed as a different campus location."
+    }
+  ],
+  "gaps": []
+}

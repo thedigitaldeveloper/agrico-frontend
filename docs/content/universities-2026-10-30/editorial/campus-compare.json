@@ -1,0 +1,67 @@
+{
+  "id": "campus-compare",
+  "cms_type": "Blog",
+  "slug": "compare-agriculture-campuses",
+  "title": "Compare two agriculture campuses using a useful checklist",
+  "description": "Compare agriculture campuses through practical teaching, supervision, living costs, travel and evidence, with a worksheet for families.",
+  "summary": "Choose two realistic options and ask both the same questions. A useful comparison connects facilities to student work and tests whether the full course fits your travel, accommodation and budget constraints.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "set-your-conditions",
+      "heading": "Agree on essential conditions before comparing photographs",
+      "paragraphs": [
+        "Write down three conditions that must work for you: an eligible degree, a sustainable course budget and a workable living arrangement are useful starting points. Add any personal requirement such as accessibility, a dietary need or a maximum journey time. An attractive feature should not hide a condition that makes attendance difficult.",
+        "Make sure both choices refer to the same degree level and intended intake. Record the teaching campus and awarding university. If one option is an agriculture degree and the other an engineering degree, first compare their academic purpose with [the agriculture and agricultural engineering guide](/articles/bsc-agriculture-vs-agricultural-engineering). A campus score cannot resolve a mismatch in the subject you want to study."
+      ]
+    },
+    {
+      "id": "follow-an-assignment",
+      "heading": "Compare what students do with the resources",
+      "paragraphs": [
+        "Choose one practical task and follow it from preparation to feedback. For soil work, ask who collects samples, how groups share equipment and whether students interpret their results. For crop production, ask how responsibility continues between scheduled classes. This reveals more than comparing the number of facilities in two brochures.",
+        "[Palar Agricultural College](/university/palar-agricultural-college) lists mushroom and vermicompost units; [VIT](/university/vellore-institute-of-technology) identifies gardens and farm resources. Use those descriptions to ask about the current timetable and student responsibilities. The questions remain useful even when one institution's facilities have different names. A webpage is evidence of a published description, not proof of your future access."
+      ]
+    },
+    {
+      "id": "check-supervision-and-progression",
+      "heading": "Connect first-year learning to later practical work",
+      "paragraphs": [
+        "Ask each department how beginners learn safe procedures, who supervises practical groups and how students catch up after an absence. Then ask how the work becomes more independent later in the degree. Request an anonymised assessment outline or example project brief. Look for clear expectations, feedback and responsibility rather than the promise of a busy calendar.",
+        "[Lovely Professional University](/university/lovely-professional-university) names soil science and post-harvest laboratories. When speaking with [The Neotia University](/university/the-neotia-university), ask which resources support protected-cultivation teaching in the current agriculture curriculum. For both options, discuss how rural or experiential work is organised. The [RAWE guide](/articles/rawe-and-experiential-learning) provides further questions about supervision and assessed learning."
+      ]
+    },
+    {
+      "id": "try-an-ordinary-week",
+      "heading": "Test an ordinary week, including the inconvenient parts",
+      "paragraphs": [
+        "For a day scholar, map the journey for an early practical and the return after a late session. Check the last bus, the cost of missed connections and travel to farms outside the main campus. For a hostel resident, ask about room allocation, meal timings, laundry, medical access, study space and accommodation during practical or examination periods.",
+        "Prepare the same full-year budget for both campuses. Separate academic charges, hostel and mess, transport, deposits and personal costs. Add planned visits home. Keep scholarship assumptions outside the confirmed total until approved. Ask which office handles accommodation and accessibility requests, and whether a particular arrangement can be confirmed before admission. These details can determine whether a promising course is workable for you."
+      ]
+    },
+    {
+      "id": "use-a-comparison-sheet",
+      "heading": "Use evidence columns instead of a single overall score",
+      "paragraphs": [
+        "Complete this sheet separately for Campus A and Campus B. Mark missing information as unknown. If the answer would change your decision, follow it up before paying. Our [college questions checklist](/blogs/questions-before-choosing-agriculture-college) can help frame the request."
+      ],
+      "table": {"columns":["Decision area","Evidence to obtain","Your conclusion"],"rows":[["Academic fit","Current syllabus and eligibility","Meets needs / unresolved"],["Practical access","Timetable, group size and supervision","Usable for your interests?"],["Living arrangement","Hostel terms or a timed journey","Workable across the week?"],["Total cost","Itemised annual budget","Within confirmed resources?"],["Student support","Responsible office and process","Clear contact and response?"]]}
+    }
+  ],
+  "faqs": [
+    {"question":"Is this a ranking of the example institutions?","answer":"No. The examples show how to turn official descriptions into questions. No campus visit, teaching inspection or relative quality judgement is claimed."},
+    {"question":"Can I make a useful comparison without visiting?","answer":"Yes. Request current timetables, fee documents and accommodation terms, then discuss unresolved details with the relevant offices. A visit can add observations but cannot replace those checks."},
+    {"question":"How should I treat an unanswered question?","answer":"Record it as unknown. Do not award points based on an assumption. Essential unresolved conditions should stay visible in the decision."}
+  ],
+  "related_institution_ids": [8, 32, 43, 41],
+  "related_topic_ids": ["agri-v-engineering", "rawe", "college-questions", "fee-letter"],
+  "sources": [
+    {"id":"palar-facilities","title":"Palar Agricultural College: official facilities navigation","url":"https://palaragri.ac.in/admission/","checked_on":"2026-10-30","note":"Official page lists mushroom cultivation and vermicompost units. Supports follow-an-assignment; student access is posed as a question."},
+    {"id":"vit-school","title":"VIT School of Agricultural Innovations and Advanced Learning","url":"https://vit.ac.in/schools/vaial/","checked_on":"2026-10-30","note":"Official facilities paragraph read; supports brief gardens/farm example only."},
+    {"id":"lpu-school","title":"Lovely Professional University: School of Agriculture","url":"https://www.lpu.in/schools/agriculture/?brochure=Agriculture-Brochure","checked_on":"2026-10-30","note":"Official page identifies soil science and post-harvest laboratories. No outcomes or promotional statistics reproduced."},
+    {"id":"tnu-agriculture","title":"The Neotia University: B.Sc. (Hons.) Agriculture","url":"https://www.tnu.in/course/b-sc-hons-agriculture-colleges-in-kolkata/","checked_on":"2026-10-30","note":"Official programme page read to verify the department context. Protected cultivation is an applicant question, not an assertion about a current facility, access frequency or condition."}
+  ],
+  "verification_notes": ["Checklist and analysis are original guidance; examples are not endorsements or first-hand reviews.","No invented facility measurements, travel times, teaching ratios or hostel availability.","Unknowns remain explicit rather than becoming speculative scores."]
+}

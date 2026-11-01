@@ -1,0 +1,524 @@
+{
+  "id": 17,
+  "slug": "jagan-nath-university-jaipur",
+  "name": "Jagan Nath University, Jaipur",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "JU Jaipur",
+    "ownership": "Private university established under Rajasthan State Legislature Act No. 19 of 2008",
+    "city": "Chaksu",
+    "state": "Rajasthan",
+    "established": 2008,
+    "address": "NH-12, Chaksu Bypass, Tonk Road, Jaipur, Rajasthan 303901",
+    "parent_university": null,
+    "website": "https://www.jagannathuniversity.org/",
+    "admissions_url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf",
+    "phone": "+91 6377991003",
+    "email": "admission@jagannathuniversity.org",
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Jagan Nath University, Jaipur",
+    "summary": "Jagan Nath University’s Jaipur agriculture faculty offers a four-year agriculture honours degree at Chaksu. The department describes teaching laboratories, agronomic fields and protected-cultivation facilities. Its 2026–27 programme list supplies agriculture entry requirements; applicants should confirm the applicable entrance and counselling route.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study at Chaksu",
+    "paragraphs": [
+      "Jagan Nath University, Jaipur was established in 2008 under Rajasthan legislation. Its Faculty of Agriculture dates the start of B.Sc. Agriculture teaching to 2014–15. The agriculture setting includes agronomic fields, teaching laboratories and farm machinery, linking the degree to crop-production practice.",
+      "The faculty describes protected cultivation, composting, irrigation and medicinal-plant units. These offer useful questions for a campus visit: how frequently students use each unit, which crops are grown for teaching, and how practical assessment works. The university offers other agriculture-related qualifications as well, but applicants should compare each programme’s admission requirements and accreditation separately."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private university"
+      },
+      {
+        "label": "State",
+        "value": "Rajasthan"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-03-16"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The four-year B.Sc. (Hons.) Agriculture is identified in the official 2026–27 programme list. Departmental teaching includes agricultural sciences with field and laboratory facilities.",
+      "eligibility": "2026–27 official programme list: 10+2 science with 50% marks and Agriculture/Biology/Chemistry/Mathematics/Physics; the document states a 5% relaxation for SC/ST/OBC non-creamy layer/MBC/SAP/EWS categories. Confirm the accepted subject combination.",
+      "admission_route": "The 2026–27 programme list says JET/ICAR. The university also maps agriculture on its CUET 2026–27 page; confirm which channel and counselling rules apply to the intended seat.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "The verified Jaipur 2026–27 programme document did not supply a readable agriculture fee amount. Fees from the similarly named NCR/Haryana university are not transferable.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Jagannath University, Jaipur for 2022-03-17 to 2027-03-16. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to JU Jaipur",
+    "intro": "Use the Jaipur university’s 2026–27 programme list, which gives agriculture-specific academic requirements. The agriculture selection cell names JET/ICAR, while the official CUET page also maps the degree. Ask admissions to reconcile those routes before registering for an examination or paying.",
+    "eligibility_points": [
+      "The 2026–27 list sets a 50% science requirement with the stated agricultural/science subjects.",
+      "The same document lists a 5% relaxation for its specified reserved categories."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Protected cultivation and agronomic fields",
+    "intro": "The faculty page describes 13 laboratories, agronomic fields, a tractor and farm machinery. It also identifies a polyhouse, vermicompost unit, drip and sprinkler irrigation, and medicinal/aromatic plants. This is an undated institutional inventory, so applicants should check current access and teaching schedules.",
+    "facilities": [
+      {
+        "name": "Polyhouse",
+        "description": "The agriculture faculty lists protected-cultivation infrastructure.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Irrigation systems",
+        "description": "Drip and sprinkler systems are included in the official department inventory.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Agronomy fields and machinery",
+        "description": "The faculty describes teaching fields, a tractor and farm machinery.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The faculty lists educational visits and guest lectures among its activities."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The university lists merit support and government scholarship routes. Its scholarship page specifically links a Rajasthan agriculture incentive for female students. Eligibility, amount and current application dates must be checked with the administering department; no automatic award is promised.",
+    "schemes": [
+      {
+        "name": "Rajasthan agriculture incentive for female students",
+        "details": "The university scholarship page links the Department of Agriculture’s Incentive to Girls route. Current award amount and applicant conditions were not verified.",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      {
+        "name": "SC/ST, OBC and PWD scholarship application processing",
+        "details": "The university scholarship page asks eligible students in these categories to submit the academic-year scholarship form byFebruary for processing. The page is undated; verify the applicable scheme’s own session deadline, eligibility and sanction. It does not establish a guaranteed award amount.",
+        "source_ids": [
+          "r2_scholarship"
+        ],
+        "award": "Not specified in the published university guidance",
+        "eligibility": "Applicable SC/ST, OBC orPWD scheme conditions",
+        "documents": "Applicable scholarship form; scheme-specific documents require the current notice"
+      }
+    ],
+    "source_ids": [
+      "s5",
+      "r2_scholarship"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university describes a Corporate Resource Management Center and career counselling at institutional level. A current agriculture-specific recruitment report was not verified, so university-wide employability statements are not presented as agriculture placement results.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Jagannath University, Jaipur and the programme labels below from 2022-03-17 through 2027-03-16. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Jagannath University, Jaipur",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture\n(Intake 120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-03-17",
+        "valid_until": "2027-03-16",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A25:G25"
+      }
+    ],
+    "other_recognitions": [
+      {
+        "name": "NAAC A grade, second cycle",
+        "scope": "University website reports second-cycle A grade in 2022; current certificate validity was not independently read.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Is this the Jaipur or NCR university?",
+      "answer": "This profile concerns Jagan Nath University, Jaipur at Chaksu. The NCR/Haryana institution has a different website and its fees should not be used here.",
+      "source_ids": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "question": "What is the agriculture degree duration?",
+      "answer": "The Jaipur 2026–27 programme list specifies four years.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which admission route is published?",
+      "answer": "The programme list says JET/ICAR, while the official CUET page also maps agriculture. Confirm the applicable channel with admissions.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "question": "What agricultural facilities are described?",
+      "answer": "The faculty lists agronomic fields, laboratories, a polyhouse, irrigation systems and farm machinery.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does ICAR cover every course in the faculty?",
+      "answer": "The audited row specifically records B.Sc. (Hons.) Agriculture for 17 March 2022 to 16 March 2027. Other degrees are not automatically included.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for JU Jaipur?",
+      "answer": "2026–27 official programme list: 10+2 science with 50% marks and Agriculture/Biology/Chemistry/Mathematics/Physics; the document states a 5% relaxation for SC/ST/OBC non-creamy layer/MBC/SAP/EWS categories. Confirm the accepted subject combination.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "Which scholarship or support information is published for JU Jaipur?",
+      "answer": "The university lists merit support and government scholarship routes. Its scholarship page specifically links a Rajasthan agriculture incentive for female students. Eligibility, amount and current application dates must be checked with the administering department; no automatic award is promised. The university scholarship page links the Department of Agriculture’s Incentive to Girls route. Current award amount and applicant conditions were not verified.",
+      "source_ids": [
+        "s5",
+        "r2_scholarship"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for JU Jaipur?",
+      "answer": "Jagan Nath University, Jaipur is recorded as established in 2008.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Where is the official application information for JU Jaipur?",
+      "answer": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "question": "How can applicants contact JU Jaipur?",
+      "answer": "Public telephone: +91 6377991003; Public email: admission@jagannathuniversity.org. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "r31_1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Jagan Nath University, Jaipur | Agriculture Courses & Admissions",
+    "description": "Explore Jagan Nath University Jaipur agriculture: the four-year degree, 2026–27 eligibility, field facilities, scholarship routes and exact ICAR scope.",
+    "keywords": [
+      "Jagan Nath University, Jaipur",
+      "JU Jaipur agriculture",
+      "Chaksu agriculture admission",
+      "B.Sc. (Hons.) Agriculture Jagan Nath University, Jaipur"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cdn.jagannathuniversity.org/docs/life-at-ju/infra/DSC_0848.webp",
+    "logo_url": "https://www.jagannathuniversity.org/assets/images/UNIVERSITY%20NEW%20LOGO.png",
+    "campus_alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+    "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/jagan-nath-university-jaipur/logo.png",
+    "local_campus_image": "media/jagan-nath-university-jaipur/campus-infra-01.webp",
+    "local_gallery": [
+      "media/jagan-nath-university-jaipur/campus-infra-01.webp",
+      "media/jagan-nath-university-jaipur/campus-infra-02.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.jagannathuniversity.org/about/the-university",
+      "title": "About Jagan Nath University",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview",
+        "placements",
+        "recognition.other_recognitions.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.jagannathuniversity.org/faculties/agriculture",
+      "title": "Faculty of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "campus.facilities.2",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf",
+      "title": "Programme list 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.1",
+        "faqs.2",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Official document title mentions fee structure, but no agriculture fee amount was present in the readable table."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.jagannathuniversity.org/admissions/scholarship",
+      "title": "Scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview",
+        "scholarships",
+        "scholarships.schemes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.jagannathuniversity.org/admissions/cuet",
+      "title": "CUET 2026–27",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Official CUET page maps agriculture although the programme-list selection cell says JET/ICAR; route scope needs admissions clarification."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.jagannathuniversity.org/",
+      "title": "Jagan Nath University, Jaipur — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jagan-nath-university-jaipur/logo.png. Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "title": "Jagan Nath University, Jaipur — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jagan-nath-university-jaipur/campus-infra-01.webp. Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "title": "Jagan Nath University, Jaipur — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jagan-nath-university-jaipur/campus-infra-02.webp. Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page."
+    },
+    {
+      "id": "r31_1",
+      "title": "Jagan Nath University Jaipur official campus contacts",
+      "url": "https://www.jagannathuniversity.org/contact-us",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "MainChaksu andSitapura campus addresses separated; use the official admissions contact for intended teaching location."
+    },
+    {
+      "id": "r2_scholarship",
+      "title": "Jagan Nath University Jaipur — scholarship application guidance",
+      "url": "https://www.jagannathuniversity.org/admissions/scholarship",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "scholarships.schemes",
+        "scholarships.text"
+      ],
+      "note": "Official page checked 31 October 2026. The page is not a guarantee of current vacancy or intake-year pricing."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "The verified Jaipur 2026–27 programme document did not supply a readable agriculture fee amount. Fees from the similarly named NCR/Haryana university are not transferable.",
+      "next_source": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://www.jagannathuniversity.org/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://www.jagannathuniversity.org/"
+    },
+    {
+      "field": "admissions",
+      "reason": "Programme list says JET/ICAR while official CUET page maps agriculture; admissions must explain the applicable seat/channel rules.",
+      "next_source": "https://www.jagannathuniversity.org/admissions/cuet"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/17-jagan-nath-university-jaipur.json",
+  "audit_name": "Jagannath University, Jaipur",
+  "related": [
+    {
+      "id": 18,
+      "name": "Jaipur National University",
+      "slug": "jaipur-national-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 23,
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+      "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "slug": "vivekananda-global-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

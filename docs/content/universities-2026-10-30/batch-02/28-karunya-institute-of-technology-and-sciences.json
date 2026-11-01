@@ -1,0 +1,651 @@
+{
+  "id": 28,
+  "slug": "karunya-institute-of-technology-and-sciences",
+  "name": "Karunya Institute of Technology and Sciences",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "KITS",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "established": 1986,
+    "address": "Karunya Institute of Technology and Sciences, Karunya Nagar, Coimbatore, Tamil Nadu 641114",
+    "parent_university": null,
+    "website": "https://www.karunya.edu/",
+    "admissions_url": "https://admissions.karunya.edu/campaign/admissions/",
+    "phone": "1800 425 4300",
+    "email": "admissions@karunya.edu"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Karunya Institute of Technology and Sciences",
+    "summary": "Karunya’s School of Agricultural Sciences in Coimbatore describes a substantial instructional farm, protected cultivation structures and subject divisions. It offers undergraduate agriculture and specialist postgraduate courses, with field experiments and entrepreneurship modules forming part of its published educational account.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Field-based agricultural study in Coimbatore",
+    "paragraphs": [
+      "Karunya dates its School of Agricultural Sciences to 2017. The current school page describes eleven academic divisions, covering crop, soil, plant-health, engineering and allied subjects. Its farm and laboratory setting supports a programme account that extends beyond lecture teaching to crop experiments, protected cultivation and agricultural enterprise learning.",
+      "Official sources list a four-year B.Sc. Agriculture together with postgraduate agronomy, genetics and plant breeding, and fruit science. These subject options allow students to distinguish crop production, crop improvement and horticultural study. Entry wording differs between the academics page and the brochure located during research, so applicants need the definitive course notice before selecting a school-subject or postgraduate route."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Karunya Institute of Technology and Sciences (Deemed University), Coimbatore"
+      },
+      {
+        "label": "Location",
+        "value": "Coimbatore, Tamil Nadu"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The school describes crop, soil and plant-health study linked with field practice.",
+      "eligibility": "The 2027 UG admissions page states a minimum 60% qualifying-examination requirement for confirmation. Confirm the programme-specific subjects for that intake; older academic pages and brochures list different combinations and thresholds.",
+      "admission_route": "For 2027 entry, the official UG page states that KEE 2027 is mandatory for B.Sc. (Hons.) Agriculture. Do not substitute this next-cycle notice for a 2026 counselling rule.",
+      "fees": {
+        "amount_inr": 146750,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Tuition for each of eight semesters in the 2026-30 cohort fee sheet; one-time admission fee INR 10,000; examination fees extra.",
+        "verification": "verified",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "intake_cycle_2027"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate study includes field projects, laboratory analysis and research documentation.",
+      "eligibility": "2023 brochure: B.Sc. (Hons.) Agriculture with minimum OGPA 6.00/10; reconfirm for intended intake.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 60750,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+        "note": "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_pg_fee2026"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A specialist crop-improvement degree in the current school programme list.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 60750,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+        "note": "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_pg_fee2026"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. (Horticulture) Fruit Sciences",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "The school lists a separate fruit-crop postgraduate programme.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 60750,
+        "period": "semester",
+        "academic_year": "2026-27",
+        "includes": "Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+        "note": "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_pg_fee2026"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The live official UG admissions page now describes the 2027 cycle. It states that KEE 2027 is mandatory for B.Sc. (Hons.) Agriculture and that confirmation depends on the stated qualifying-examination requirements. Treat these as next-cycle instructions; the 2026–30 cohort fee sheet below remains explicitly labelled by its own source session. Older academic and brochure descriptions differ, so request the exact intake-year subject rules.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "Founder scholarship application deadline (past; scholarship scope, not general admissions)",
+        "date": "2026-05-29",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "r2_founder2026"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s4",
+      "intake_cycle_2027",
+      "r2_founder2026"
+    ]
+  },
+  "campus": {
+    "heading": "Instructional farms and protected cultivation",
+    "intro": "The school describes instructional and research farmland, polyhouses, mist chambers and research plots. Its brochure additionally identifies experiential-learning modules, an agrometeorological observatory and an automatic weather station.",
+    "facilities": [
+      {
+        "name": "Protected cultivation structures",
+        "description": "Polyhouses and mist chambers are named in the school’s facilities account.",
+        "source_ids": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "name": "Agrometeorological facilities",
+        "description": "The brochure identifies an observatory and automatic weather station.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "Karunya’s 2026–27 scholarship page explicitly includes B.Sc. (Hons.) Agriculture in its Indian-student merit grid. The separate Founder’s Scholarship offers a limited 100% tuition waiver for eligible Indian Christian applicants; its 2026 application and selection dates have passed.",
+    "schemes": [
+      {
+        "name": "B.Sc. Agriculture Indian-student merit grid, 2026–27",
+        "details": "The agriculture column lists INR 1,20,000 at 95% PCM/PCB, INR 60,000 at 90%, and INR 40,000 at 85%. These are scholarship amounts, not net tuition payable. Obtain the approved award and applicable continuation terms.",
+        "award": "Agriculture-column amounts: INR 1,20,000 / 60,000 / 40,000 for the 95% / 90% / 85% bands.",
+        "eligibility": "Indian applicants; specified Class 12 PCM/PCB marks and the approved award conditions.",
+        "renewal": "No separately verified continuation rule is reproduced from this web grid.",
+        "source_ids": [
+          "r2_scholarship2026"
+        ]
+      },
+      {
+        "name": "Founder’s Scholarship 2026–27",
+        "details": "Limited 100% tuition waiver for selected Indian Christian applicants with at least 90% PCM/PCB and annual family income below INR 8 lakh. Screening includes documentary verification and interview. The 29 May 2026 deadline is past.",
+        "award": "100% tuition waiver for selected eligible applicants; limited awards.",
+        "eligibility": "Indian Christian applicant; agriculture threshold 90% PCM/PCB and family income below INR 8 lakh.",
+        "documents": "Religion proof through TC/school-leaving or government community certificate; Form 16 AY 2025–26 or the specified competent-authority income certificate.",
+        "source_ids": [
+          "r2_founder2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_scholarship2026",
+      "r2_founder2026"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "Karunya Institute of Technology and Sciences publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+    "statistics": [
+      {
+        "label": "UG four-year programme category outcomes 2024-25",
+        "value": "240 graduates in minimum stipulated time; 170 placed; 9 selected for higher studies; median annual salary of placed graduates INR 3,37,500.",
+        "programme_scope": "UG four-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 240,
+        "placed": 170,
+        "higher_studies": 9,
+        "median_salary_inr": 337500,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "label": "PG two-year programme category outcomes 2024-25",
+        "value": "20 graduates in minimum stipulated time; 2 placed; 11 selected for higher studies; median annual salary of placed graduates INR 2,40,000.",
+        "programme_scope": "PG two-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 20,
+        "placed": 2,
+        "higher_studies": 11,
+        "median_salary_inr": 240000,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "o31_nirf2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Karunya Institute of Technology and Sciences (Deemed University), Coimbatore for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Karunya Institute of Technology and Sciences (Deemed University), Coimbatore",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture\n(Intake-180)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A36:G36"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The NIRF2026 agriculture filing provides named teaching staff and association status. The public agriculture directory also identifies subject divisions. These are source-dated listings; appointments can subsequently change.",
+    "people": [
+      {
+        "name": "Sajan Kurien",
+        "role": "Professor; NIRF2026 currently-working roster",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Jenita Thinakaran",
+        "role": "Professor; NIRF2026 currently-working roster",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "R. Philip Sridhar",
+        "role": "Professor, Agricultural Entomology",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. K. Indira Petchiammal",
+        "role": "Assistant Professor, Genetics and Plant Breeding",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. S. Praveena Katharine",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_nirf2026",
+      "o31_directory"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "When did Karunya’s agriculture school begin?",
+      "answer": "The school’s official page states 2017; that is the school date, not the university’s founding year.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which agricultural programmes are listed?",
+      "answer": "The current school page names B.Sc. Agriculture and master’s courses in agronomy, genetics and plant breeding, and fruit sciences.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Are protected-cultivation facilities documented?",
+      "answer": "Yes. The school names polyhouses and mist chambers alongside research plots.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the checked ICAR entry accredit Karunya’s master’s programmes?",
+      "answer": "The audited row prints only B.Sc. (Hons.) Agriculture. A broader website claim is unresolved and is not adopted here.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "Is PCM alone definitely accepted?",
+      "answer": "The academics page includes PCM, while the located brochure uses different biology/agriculture wording. Confirm the current intake rule directly.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Karunya Institute of Technology and Sciences | Agriculture courses and admissions",
+    "description": "Review Karunya agriculture courses in Coimbatore, farms and protected cultivation, postgraduate options, entry-rule questions and verified ICAR undergraduate scope.",
+    "keywords": [
+      "Karunya Institute of Technology and Sciences agriculture",
+      "Karunya Institute of Technology and Sciences admissions",
+      "Karunya Institute of Technology and Sciences ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://theknowledgereview.com/wp-content/uploads/2018/10/Web_ImageKarunya_Institute_of_Technology_and_Sciences.jpg",
+    "logo_url": "https://cdn-prod.mybharats.in/organization/DL-ns-8ef95a1c-fb77-48ef-9a39-ae6a8c98581a_KITSLHLOGO.png",
+    "campus_alt": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+    "caption": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/karunya-institute-of-technology-and-sciences/logo.png",
+    "local_campus_image": "media/karunya-institute-of-technology-and-sciences/campus-02.jpg",
+    "local_gallery": [
+      "media/karunya-institute-of-technology-and-sciences/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.karunya.edu/school-of-agricultural-sciences/",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus",
+        "placements"
+      ],
+      "notes": "Broader postgraduate ICAR claim conflicts with the audited row and remains unconfirmed."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.karunya.edu/agriculture/academics/",
+      "title": "Agriculture academics",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility"
+      ],
+      "notes": "Direct read timed out; undated eligibility differs from brochure."
+    },
+    {
+      "id": "s4",
+      "url": "https://karunya.edu/sites/default/files/img/agriculture/B.ScAgricultureBrochure26.pdf",
+      "title": "Agriculture brochure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "programmes.eligibility"
+      ],
+      "notes": "Filename references 26 but academic-year applicability was not established."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.karunya.edu/sites/default/files/img/2023/agricuture/1%20M.Sc.%20%28Agri.%29%20in%20Agronomy.pdf",
+      "title": "M.Sc. Agronomy brochure 2023",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.MSc"
+      ],
+      "notes": "Historical eligibility evidence only."
+    },
+    {
+      "id": "s6",
+      "url": "https://admissions.karunya.edu/sites/admissions/files/uploads/content/Fee/B.Sc.(Hons.)AgricultureFeeStructure2026-27.pdf",
+      "title": "B.Sc. Agriculture fee structure 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Official admission fee sheet for 2026-30 cohort."
+    },
+    {
+      "id": "s7",
+      "url": "https://karunya.edu/sites/default/files/img/2022/IQAC/NAAC%20SSR.pdf",
+      "title": "Institutional self-study profile",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address"
+      ],
+      "notes": "Institution began 1986; deemed-university status dates to 2004."
+    },
+    {
+      "id": "s8",
+      "url": "https://admissions.karunya.edu/campaign/admissions/",
+      "title": "Admissions contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.phone",
+        "identity.address"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://mybharat.gov.in/KnowledgeInstitutions/university/30/karunya-institute-of-technology-and-sciences-coimbatore",
+      "title": "Karunya Institute of Technology and Sciences — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/karunya-institute-of-technology-and-sciences/logo.png. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://theknowledgereview.com/karunya-institute-technology-sciences-towards-excellence-agricultural-research-education-nation/",
+      "title": "Karunya Institute of Technology and Sciences — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/karunya-institute-of-technology-and-sciences/campus-02.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "intake_cycle_2027",
+      "url": "https://admissions.karunya.edu/ug",
+      "title": "Karunya official UG admissions: 2027 cycle",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "The live page now labels its next admission cycle as 2027; do not silently treat this as a 2026 rule."
+    },
+    {
+      "id": "o31_nirf2026",
+      "title": "Karunya NIRF 2026 Agriculture and Allied Sectors submission",
+      "url": "https://www.karunya.edu/sites/default/files/img/2026/NIRF/NIRF2026-AGRI.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Institution-submitted duration-category outcomes; PG figures combine two-year programmes and cannot be assigned to an individual specialisation."
+    },
+    {
+      "id": "o31_directory",
+      "title": "Karunya agriculture faculty directory",
+      "url": "https://www.karunya.edu/school-of-agricultural-sciences/faculty/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Public subject-directory snapshot checked31October2026."
+    },
+    {
+      "id": "r2_pg_fee2026",
+      "title": "Karunya Indian PG fees, 2026–28 batch",
+      "url": "https://admissions.karunya.edu/sites/admissions/files/uploads/content/Fee/OtherPGPrograms2026-27-IndianNationals.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Complete Finance Officer schedule read: the three named agriculture/horticulture PG courses list INR 60,750 tuition each semester and INR 5,000 one-time admission; exclusions retained."
+    },
+    {
+      "id": "r2_scholarship2026",
+      "title": "Karunya scholarships 2026–27: agriculture merit grid",
+      "url": "https://admissions.karunya.edu/scholarship/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Indian B.Sc. Agriculture column read separately from engineering/NRI columns; no net fee, renewal entitlement or automatic award inferred."
+    },
+    {
+      "id": "r2_founder2026",
+      "title": "Karunya Founder scholarship 2026–27 conditions and schedule",
+      "url": "https://admissions.karunya.edu/founder-scholarship/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "scholarships",
+        "admissions.dates"
+      ],
+      "notes": "29 May application deadline and June selection dates are historical by 31 October 2026."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "recognition.ICAR_postgraduate_claim",
+      "reason": "School webpage claims B.Sc. and M.Sc. accreditation; audited 2026 row names only B.Sc. Agriculture. Later regulator evidence is required.",
+      "next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes"
+    },
+    {
+      "field": "programmes.eligibility",
+      "reason": "Official academics page and brochure differ on eligible school subjects and routes.",
+      "next_source": "https://www.karunya.edu/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://www.karunya.edu/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://admissions.karunya.edu/campaign/admissions/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admissions.karunya.edu/campaign/admissions/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.karunya.edu/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added 2 scoped NIRF agriculture placement/higher-study cohort rows.",
+      "Added 5 named academic staff entries with scope/date labels.",
+      "Preserved separate2027 KEE admissions wording and2026 historical fee session while enriching career/faculty evidence.",
+      "Filled three current PG tuition amounts and two agriculture-applicable 2026 scholarship schemes with conditions."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

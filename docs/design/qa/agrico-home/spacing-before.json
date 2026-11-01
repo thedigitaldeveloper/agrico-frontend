@@ -1,0 +1,418 @@
+[
+  {
+    "width": 1440,
+    "total": 5666,
+    "sections": [
+      {
+        "name": "ag-header",
+        "top": 0,
+        "height": 77,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-hero",
+        "top": 77,
+        "height": 420,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-help-strip",
+        "top": 497,
+        "height": 126,
+        "pt": "28px",
+        "pb": "28px"
+      },
+      {
+        "name": "ag-section ag-programmes",
+        "top": 623,
+        "height": 600,
+        "pt": "40px",
+        "pb": "25px"
+      },
+      {
+        "name": "ag-section ag-universities",
+        "top": 1223,
+        "height": 456,
+        "pt": "25px",
+        "pb": "48px"
+      },
+      {
+        "name": "ag-technology",
+        "top": 1679,
+        "height": 475,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-section ag-comparison",
+        "top": 2154,
+        "height": 616,
+        "pt": "36px",
+        "pb": "40px"
+      },
+      {
+        "name": "ag-section ag-admissions",
+        "top": 2769,
+        "height": 542,
+        "pt": "40px",
+        "pb": "42px"
+      },
+      {
+        "name": "ag-section ag-learning",
+        "top": 3311,
+        "height": 608,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-guides",
+        "top": 3919,
+        "height": 395,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-updates",
+        "top": 4315,
+        "height": 349,
+        "pt": "28px",
+        "pb": "30px"
+      },
+      {
+        "name": "ag-section ag-faqs",
+        "top": 4664,
+        "height": 410,
+        "pt": "30px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-counselling",
+        "top": 5074,
+        "height": 401,
+        "pt": "29px",
+        "pb": "20px"
+      },
+      {
+        "name": "ag-footer",
+        "top": 5475,
+        "height": 191,
+        "pt": "25px",
+        "pb": "13px"
+      }
+    ]
+  },
+  {
+    "width": 1024,
+    "total": 5635,
+    "sections": [
+      {
+        "name": "ag-header",
+        "top": 0,
+        "height": 77,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-hero",
+        "top": 77,
+        "height": 420,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-help-strip",
+        "top": 497,
+        "height": 126,
+        "pt": "28px",
+        "pb": "28px"
+      },
+      {
+        "name": "ag-section ag-programmes",
+        "top": 623,
+        "height": 579,
+        "pt": "40px",
+        "pb": "25px"
+      },
+      {
+        "name": "ag-section ag-universities",
+        "top": 1202,
+        "height": 447,
+        "pt": "25px",
+        "pb": "48px"
+      },
+      {
+        "name": "ag-technology",
+        "top": 1649,
+        "height": 458,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-section ag-comparison",
+        "top": 2107,
+        "height": 605,
+        "pt": "36px",
+        "pb": "40px"
+      },
+      {
+        "name": "ag-section ag-admissions",
+        "top": 2712,
+        "height": 560,
+        "pt": "40px",
+        "pb": "42px"
+      },
+      {
+        "name": "ag-section ag-learning",
+        "top": 3272,
+        "height": 599,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-guides",
+        "top": 3871,
+        "height": 401,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-updates",
+        "top": 4272,
+        "height": 340,
+        "pt": "28px",
+        "pb": "30px"
+      },
+      {
+        "name": "ag-section ag-faqs",
+        "top": 4612,
+        "height": 422,
+        "pt": "30px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-counselling",
+        "top": 5034,
+        "height": 347,
+        "pt": "29px",
+        "pb": "20px"
+      },
+      {
+        "name": "ag-footer",
+        "top": 5381,
+        "height": 255,
+        "pt": "25px",
+        "pb": "13px"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "total": 6562,
+    "sections": [
+      {
+        "name": "ag-header",
+        "top": 0,
+        "height": 73,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-hero",
+        "top": 73,
+        "height": 395,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-help-strip",
+        "top": 468,
+        "height": 131,
+        "pt": "28px",
+        "pb": "28px"
+      },
+      {
+        "name": "ag-section ag-programmes",
+        "top": 599,
+        "height": 727,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-universities",
+        "top": 1325,
+        "height": 625,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-technology",
+        "top": 1950,
+        "height": 461,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-section ag-comparison",
+        "top": 2411,
+        "height": 606,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-admissions",
+        "top": 3017,
+        "height": 520,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-learning",
+        "top": 3537,
+        "height": 907,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-guides",
+        "top": 4444,
+        "height": 411,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-updates",
+        "top": 4855,
+        "height": 540,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-faqs",
+        "top": 5395,
+        "height": 450,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-counselling",
+        "top": 5845,
+        "height": 386,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-footer",
+        "top": 6231,
+        "height": 331,
+        "pt": "25px",
+        "pb": "13px"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "total": 10846,
+    "sections": [
+      {
+        "name": "ag-header",
+        "top": 0,
+        "height": 66,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-hero",
+        "top": 66,
+        "height": 710,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-help-strip",
+        "top": 776,
+        "height": 308,
+        "pt": "21px",
+        "pb": "21px"
+      },
+      {
+        "name": "ag-section ag-programmes",
+        "top": 1084,
+        "height": 992,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-universities",
+        "top": 2076,
+        "height": 856,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-technology",
+        "top": 2932,
+        "height": 830,
+        "pt": "0px",
+        "pb": "0px"
+      },
+      {
+        "name": "ag-section ag-comparison",
+        "top": 3762,
+        "height": 1124,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-admissions",
+        "top": 4886,
+        "height": 1020,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-learning",
+        "top": 5906,
+        "height": 1254,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-guides",
+        "top": 7160,
+        "height": 921,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-updates",
+        "top": 8081,
+        "height": 663,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-faqs",
+        "top": 8744,
+        "height": 555,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-section ag-counselling",
+        "top": 9299,
+        "height": 999,
+        "pt": "35px",
+        "pb": "35px"
+      },
+      {
+        "name": "ag-footer",
+        "top": 10298,
+        "height": 549,
+        "pt": "29px",
+        "pb": "13px"
+      }
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-11T19:02:51.765Z",
+  "fixture": "Actual RsUniversitySection with seven synthetic universities and real CSS; native wrappers for Next Link/Image; no app server or CMS writes",
+  "sourceHashes": {
+    "src/components/rs/university-section.tsx": "849c96fc095a14461b7b735afb460f0e4ad9b15fe4941870bedb0a476eed2c81",
+    "src/components/rs/university-section.css": "04b89d81e83e89cec68b3b801037fc79a999ef92b5f2b19d5f34fdd5b5de34b7",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "firstVisible": [
+        "fixture-university-1",
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4"
+      ],
+      "lastVisible": [
+        "fixture-university-5",
+        "fixture-university-6",
+        "fixture-university-7"
+      ],
+      "checks": [
+        "seven ordered universities",
+        "two desktop pages with row-major 2x2 first page",
+        "Next/Previous",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "missing image/logo fallbacks",
+        "long names",
+        "exact programme/university links",
+        "nested link keyboard activation",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "firstVisible": [
+        "fixture-university-1"
+      ],
+      "lastVisible": [
+        "fixture-university-7"
+      ],
+      "touchFirst": "fixture-university-2",
+      "checks": [
+        "seven ordered universities",
+        "one flattened card row",
+        "Next/Previous",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "native touch swipe",
+        "missing image/logo fallbacks",
+        "long names",
+        "exact programme/university links",
+        "nested link keyboard activation",
+        "no page overflow"
+      ]
+    }
+  ],
+  "errors": []
+}

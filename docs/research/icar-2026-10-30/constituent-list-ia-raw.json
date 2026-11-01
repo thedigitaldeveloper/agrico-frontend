@@ -1,0 +1,53 @@
+{
+  "Final List": {
+    "rows": [
+      [
+        "List of ICAR Accredited Constituent Colleges or  Faculties of Agricultural Universities * and their programmes (List-I A)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "S.No.",
+        "Name  of College/ University",
+        "Period of Accreditation ",
+        "Bachelor Degree Programmes ",
+        "Master  Degree Programmes",
+        "Ph.D Programmes"
+      ],
+      [
+        1,
+        "Faculty of Fisheries Science, Kerala University of Fisheries and Ocean Studies, Pannagad, Kochi, Kerala",
+        "From 01/04/2022 to 31/03/2027",
+        "B.F. Sc. ",
+        "•\tM.F.Sc. Aquaculture\n•\tM.F..Sc. Aquatic Environmental Management\n•\tM.F.Sc. Aquatic Animal Health Management\n•\tM.F.Sc. Fish Nutrition & Feed Technology\n•\tM.F.Sc. Fisheries Resource Management\n•\tM.F.Sc. Fish Processing Technology\n•\tM.F.Sc. Fishing Technology & Engineering \n•\tM.F.Sc. Fisheries Extension",
+        "•\tPh.D. Aquaculture\n•\tPh.D.  Aquatic Environmental Management\n•\tPh.D.  Aquatic Animal Health Management\n•\tPh.D.  Fisheries Resource Management\n•\tPh.D.  Fish Processing Technology"
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "*University Yet not Accredited ",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "merged": [
+      "A1:F1"
+    ]
+  },
+  "Sheet1": {
+    "rows": [],
+    "merged": []
+  }
+}

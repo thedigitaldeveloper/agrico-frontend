@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-11T19:22:31.547Z",
+  "fixture": "Actual ProgrammeCarousel with seven ordered synthetic products, real component/CSS, no running app or CMS",
+  "sourceHashes": {
+    "src/components/rs/programme-carousel.tsx": "83c4d974515a3416b95406a120509effb32494ff4b1a3887c1dcb06127962e0d",
+    "src/components/rs/programme-carousel.css": "a44c77362fbdb0e0d7e47b8330ece0f2515d6334ea09b059a62d3cee8c47580c",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "visible": 4,
+      "arrowStepsToEnd": 3,
+      "alignment": {
+        "wrapperPadding": 0,
+        "headingLeft": 80,
+        "headingRight": 1360,
+        "firstCardLeft": 80,
+        "lastCardRight": 1360,
+        "trackBottom": 472.90625,
+        "cardsBottom": 465.90625,
+        "previous": {
+          "top": 474.90625,
+          "right": 1308,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 474.90625,
+          "left": 1316,
+          "right": 1360,
+          "width": 44,
+          "height": 44
+        },
+        "wrapperRight": 1360
+      },
+      "checks": [
+        "ordered geometry",
+        "header and card row edge alignment",
+        "44px right-aligned controls below track without overlap",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset with controls hidden when products fit",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 1031,
+      "visible": 3,
+      "arrowStepsToEnd": 4,
+      "alignment": {
+        "wrapperPadding": 0,
+        "headingLeft": 52,
+        "headingRight": 979,
+        "firstCardLeft": 52,
+        "lastCardRight": 978.96875,
+        "trackBottom": 472.90625,
+        "cardsBottom": 465.90625,
+        "previous": {
+          "top": 474.90625,
+          "right": 927,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 474.90625,
+          "left": 935,
+          "right": 979,
+          "width": 44,
+          "height": 44
+        },
+        "wrapperRight": 979
+      },
+      "checks": [
+        "ordered geometry",
+        "header and card row edge alignment",
+        "44px right-aligned controls below track without overlap",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset with controls hidden when products fit",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 768,
+      "visible": 2,
+      "arrowStepsToEnd": 5,
+      "alignment": {
+        "wrapperPadding": 0,
+        "headingLeft": 24,
+        "headingRight": 744,
+        "firstCardLeft": 24,
+        "lastCardRight": 744,
+        "trackBottom": 472.90625,
+        "cardsBottom": 465.90625,
+        "previous": {
+          "top": 474.90625,
+          "right": 692,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 474.90625,
+          "left": 700,
+          "right": 744,
+          "width": 44,
+          "height": 44
+        },
+        "wrapperRight": 744
+      },
+      "checks": [
+        "ordered geometry",
+        "header and card row edge alignment",
+        "44px right-aligned controls below track without overlap",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset with controls hidden when products fit",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "visible": 1,
+      "arrowStepsToEnd": 6,
+      "alignment": {
+        "wrapperPadding": 0,
+        "headingLeft": 18,
+        "headingRight": 372,
+        "firstCardLeft": 18,
+        "lastCardRight": 372,
+        "trackBottom": 550.0625,
+        "cardsBottom": 543.0625,
+        "previous": {
+          "top": 552.0625,
+          "right": 320,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 552.0625,
+          "left": 328,
+          "right": 372,
+          "width": 44,
+          "height": 44
+        },
+        "wrapperRight": 372
+      },
+      "checks": [
+        "ordered geometry",
+        "header and card row edge alignment",
+        "44px right-aligned controls below track without overlap",
+        "both arrow ends",
+        "keyboard arrows",
+        "native touch swipe and inertia settling",
+        "native card controls",
+        "same-items reset",
+        "filter reset with controls hidden when products fit",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 360,
+      "visible": 1,
+      "arrowStepsToEnd": 6,
+      "alignment": {
+        "wrapperPadding": 0,
+        "headingLeft": 18,
+        "headingRight": 342,
+        "firstCardLeft": 18,
+        "lastCardRight": 342,
+        "trackBottom": 550.0625,
+        "cardsBottom": 543.0625,
+        "previous": {
+          "top": 552.0625,
+          "right": 290,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 552.0625,
+          "left": 298,
+          "right": 342,
+          "width": 44,
+          "height": 44
+        },
+        "wrapperRight": 342
+      },
+      "checks": [
+        "ordered geometry",
+        "header and card row edge alignment",
+        "44px right-aligned controls below track without overlap",
+        "both arrow ends",
+        "keyboard arrows",
+        "native touch swipe and inertia settling",
+        "native card controls",
+        "same-items reset",
+        "filter reset with controls hidden when products fit",
+        "order-change reset",
+        "no document overflow"
+      ]
+    }
+  ],
+  "errors": []
+}

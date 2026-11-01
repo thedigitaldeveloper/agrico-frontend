@@ -1,0 +1,518 @@
+{
+  "id": 41,
+  "slug": "the-neotia-university",
+  "name": "The Neotia University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "TNU",
+    "ownership": "Private university",
+    "city": "Sarisa",
+    "state": "West Bengal",
+    "established": 2015,
+    "address": "Sarisa, Diamond Harbour Road, 24 Parganas (South), West Bengal 743368",
+    "parent_university": null,
+    "website": "https://www.tnu.in/",
+    "admissions_url": "https://www.tnu.in/admissions/admission-process-best-private-colleges-in-kolkata/",
+    "phone": "+91 7044446999",
+    "email": "admission@tnu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "The Neotia University",
+    "summary": "At Sarisa in West Bengal, The Neotia University brings crop science, laboratory work and rural learning together through its School of Agriculture and Allied Sciences. Its four-year agriculture degree includes village attachment and agro-industrial experience, with teaching extending across soils, crops, plant protection, horticulture and farm economics.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study near Diamond Harbour",
+    "paragraphs": [
+      "TNU’s agriculture course connects crop science with work in farming environments. Its published curriculum includes soil science, horticulture, plant protection, genetics and agricultural economics. The degree page describes four years of study, with rural agricultural experience and an agro-industrial attachment in the final stage.",
+      "The school’s older official brochure describes teaching farms, laboratories and small production units, including mushroom and apiculture activity. Such settings connect scientific observation with day-to-day production decisions. The 2026–27 fee schedule identifies the agriculture bachelor’s degree alongside agribusiness, diploma and postgraduate routes, giving applicants distinct study options to compare."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "The Neotia University"
+      },
+      {
+        "label": "Location",
+        "value": "Sarisa, West Bengal"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A broad agriculture degree with a published final-semester rural and industrial attachment.",
+      "eligibility": "Course page: 10+2 with at least 55% in Physics, Chemistry and Biology/Mathematics, or the stated agriculture/horticulture vocational combination; reconfirm for the applying year.",
+      "admission_route": "University entrance test is stated on the course page.",
+      "fees": {
+        "amount_inr": 71000,
+        "period": "semester",
+        "academic_year": "2026-2027",
+        "includes": "Published semester course fee for Indian students.",
+        "note": "One-time fee ₹29,000; published course total ₹597,000. Confirm accommodation and any charges outside the listed course fee.",
+        "verification": "verified",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      "icar_scope_note": "Listed under The Neotia University; accreditation term 2024-06-20 to 2029-06-19.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to TNU",
+    "intro": "TNU publishes a central application process. The course page confirms a university entrance test; its mixed-year dates require a fresh intake notice before planning a deadline. The live site now advertises 2027–28 admissions; the sourced 2026–27 fees and process documents below must not be relabelled as the next intake’s terms.",
+    "eligibility_points": [
+      "The published B.Sc. Agriculture threshold is 55% in the specified 10+2 subject combination."
+    ],
+    "steps": [
+      {
+        "title": "Start the university application",
+        "text": "Use the official admission process page and enter the Class 10 roll number correctly; the page identifies it as an application identifier."
+      },
+      {
+        "title": "Confirm the intake notice",
+        "text": "Request the applicable entrance schedule and a dated fee statement for B.Sc. Agriculture."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": 500,
+    "source_ids": [
+      "s2",
+      "s4",
+      "s7"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The course page identifies experimental fields, crop laboratories and farm machinery for teaching. The older school brochure additionally describes production demonstrations.",
+    "facilities": [
+      {
+        "name": "Agriculture fields and laboratories",
+        "description": "Spaces for crop work and subject practicals.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Polyhouse and net house",
+        "description": "Protected cultivation facilities identified by the university.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Farm workshop",
+        "description": "Tractor and power tiller resources for machinery practicals.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The published final-semester scheme includes village attachment and agro-industrial attachment.",
+      "The older brochure describes compost, mushroom and beekeeping units."
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The approved 2026–27 fee schedule expressly excludes B.Sc. (Hons.) Agriculture from the university’s general 25–100% tuition-scholarship offer. Agriculture applicants should obtain written confirmation of any separate government or programme-specific support before using a scholarship in their budget.",
+    "schemes": [],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university's NIRF 2025 Agriculture and Allied Sectors submission reports graduates, placements, higher-study progression and the median annual salary of placed graduates for the cohorts below. The figures apply to the reported programme-duration group, rather than an individual specialisation, and do not predict an applicant's future outcome.",
+    "statistics": [
+      {
+        "label": "UG four-year programmes: 2023-2024",
+        "value": "211 graduates in minimum stipulated time; 59 placed; 152 selected for higher studies; median annual salary of placed graduates ₹6,50,000.",
+        "programme_scope": "UG four-year programmes",
+        "academic_year": "2023-2024",
+        "graduates_in_minimum_time": 211,
+        "placed": 59,
+        "higher_studies": 152,
+        "median_salary_inr": 650000,
+        "reporting_source": "NIRF 2025, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_tnu_nirf_2025"
+        ]
+      },
+      {
+        "label": "PG two-year programmes: 2023-2024",
+        "value": "18 graduates in minimum stipulated time; 9 placed; 9 selected for higher studies; median annual salary of placed graduates ₹7,00,000.",
+        "programme_scope": "PG two-year programmes",
+        "academic_year": "2023-2024",
+        "graduates_in_minimum_time": 18,
+        "placed": 9,
+        "higher_studies": 9,
+        "median_salary_inr": 700000,
+        "reporting_source": "NIRF 2025, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_tnu_nirf_2025"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "completion_tnu_nirf_2025"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies The Neotia University with validity from 2024-06-20 to 2029-06-19. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "The Neotia University",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A49:G49"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The university’s live agriculture directory lists a dean and discipline heads. The names below reflect that published directory checked on 31 October 2026; the page does not state an appointment-effective date.",
+    "people": [
+      {
+        "name": "Prof. (Dr.) Sushil Kumar Kothari",
+        "role": "Dean, School of Agriculture and Allied Sciences",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Bidisha Mondal",
+        "role": "Associate Professor and Head, Biochemistry and Crop Physiology",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Tanuj Kumar Mandal",
+        "role": "Associate Professor and Head, Agronomy",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Madhurima Banik",
+        "role": "Assistant Professor and Head, Soil Science and Agricultural Chemistry",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Shraddha Bhattacharjee",
+        "role": "Assistant Professor and Head, Agricultural Extension",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Sarthak Bhattacharya",
+        "role": "Assistant Professor and Head, Horticulture",
+        "source_ids": [
+          "completion_tnu_faculty"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_tnu_faculty"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is TNU’s teaching campus?",
+      "answer": "The campus address published on the agriculture page is Sarisa on Diamond Harbour Road in South 24 Parganas.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which TNU course is in this ICAR record?",
+      "answer": "B.Sc. (Hons.) Agriculture, with a register term of 20 June 2024 to 19 June 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How long is the agriculture degree?",
+      "answer": "The official course page describes a four-year programme.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the course include village work?",
+      "answer": "Yes. The published final-stage curriculum includes a village attachment within rural agricultural work experience.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What are TNU’s published 2026–27 B.Sc. Agriculture fees?",
+      "answer": "For Indian students, the official table lists ₹71,000 per semester plus ₹29,000 one time, with a published course total of ₹597,000. These figures describe the listed course charges; confirm accommodation separately.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "Does ICAR listing cover TNU’s fisheries courses here?",
+      "answer": "This audited TNU record names agriculture only. Fisheries accreditation cannot be inferred from this entry.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Are verified agriculture placement figures available?",
+      "answer": "The NIRF 2025 agriculture/allied submission reports UG four-year programmes (2023-2024): 59 placed from 211 graduates in minimum time, with ₹6,50,000 median annual salary among those placed; PG two-year programmes (2023-2024): 9 placed from 18 graduates in minimum time, with ₹7,00,000 median annual salary among those placed. These are historical group-level outcomes, not specialisation-level placement promises.",
+      "source_ids": [
+        "completion_tnu_nirf_2025"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "The Neotia University | Agriculture Courses & Admissions",
+    "description": "Explore The Neotia University agriculture study at Sarisa, its B.Sc. programme, practical learning, admission checks and dated ICAR accreditation scope.",
+    "keywords": [
+      "The Neotia University agriculture",
+      "The Neotia University admissions",
+      "The Neotia University ICAR accreditation",
+      "The Neotia University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.tnu.in/wp-content/uploads/2025/07/campus-photo-ship-in-campus.webp",
+    "logo_url": "https://www.tnu.in/wp-content/uploads/2025/07/TNU-Logo-Last-01-e1765342189306.png",
+    "campus_alt": "Teaching ship and surroundings on the Sarisa campus",
+    "caption": "Teaching ship and surroundings on the Sarisa campus",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_campus_primary",
+      "media_campus_secondary",
+      "media_logo"
+    ],
+    "local_logo": "media/the-neotia-university/logo-verified.png",
+    "local_campus_image": "media/the-neotia-university/campus-01.webp",
+    "local_gallery": [
+      "media/the-neotia-university/campus-01.webp",
+      "media/the-neotia-university/campus-02.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A49:G49. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.tnu.in/course/b-sc-hons-agriculture-colleges-in-kolkata/",
+      "title": "B.Sc. (Hons.) Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "campus",
+        "identity.address",
+        "placements",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "Page mixes 2025 and 2026 admission text; undated fees and salary claims are not treated as current-year facts.",
+      "note": "The live header advertises 2027–28 while fee and admission SoP sources retain 2026–27 labels; these cycles are kept separate."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.tnu.in/wp-content/uploads/2022/07/School-of-Agriculture-Allied-Sciences-4Page-Brochure-Digital.pdf",
+      "title": "School of Agriculture and Allied Sciences brochure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Older brochure; full PDF fetch exceeded tool content limit."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.tnu.in/admissions/admission-process-best-private-colleges-in-kolkata/",
+      "title": "Admission process",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.tnu.in/admissions/scholarships/",
+      "title": "Scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Scheme terms not extracted into this draft."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.tnu.in/admissions/fee-structure/indian-students-2/",
+      "title": "Official Indian-student fee structure 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "scholarships"
+      ],
+      "notes": "Explicit approved fee table 2026–27. Scholarship note excludes B.Sc. (Hons.) Agriculture from the general tuition-scholarship offer."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.tnu.in/programmes/agriculture/",
+      "title": "Official agriculture admissions SoP 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "identity.phone"
+      ],
+      "notes": "SoP explicitly for session 2026–27; placement counters on the same page have no cohort year and are excluded."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.tnu.in/wp-content/uploads/2021/09/tnu-brochure-2021.pdf",
+      "title": "Official 2021 university overview brochure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "Explicitly dates TNU establishment to 2015; distinct from its founding Act XXIII of 2014."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.tnu.in/",
+      "title": "The Neotia University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-neotia-university/campus-01.webp. Image embedded by the institution official website at https://www.tnu.in/; source alt: Campus Life"
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.tnu.in/",
+      "title": "The Neotia University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-neotia-university/campus-02.webp. Image embedded by the institution official website at https://www.tnu.in/; source alt: Campus Life"
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.tnu.in/",
+      "title": "The Neotia University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-neotia-university/logo-verified.png. Official TNU homepage header serves this higher-resolution university brand image."
+    },
+    {
+      "id": "completion_tnu_faculty",
+      "title": "Official TNU agriculture faculty directory",
+      "url": "https://www.tnu.in/faculty/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Undated live directory checked on 31 October 2026; not an independently verified appointment register."
+    },
+    {
+      "id": "completion_tnu_nirf_2025",
+      "title": "Official NIRF 2025 Agriculture and Allied Sectors submitted data",
+      "url": "https://www.tnu.in/wp-content/uploads/2025/02/All-Report-MHRD-National-Institutional-Ranking-Framework-NIRF-AGRICULTURE.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Institution-submitted Agriculture and Allied Sectors report, NIRF 2025. Cohorts and programme-duration groups are explicitly retained; these are historical outcomes, not an independently audited placement guarantee or a specialisation-specific result."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.tnu.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "The general 2026–27 university tuition-scholarship offer excludes B.Sc. Agriculture; eligibility for separate government or agriculture-specific support remains unverified.",
+      "next_source": "https://www.tnu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "The official agriculture faculty directory now supplies names and roles, but its effective date and individual appointment dates are unstated.",
+      "next_source": "https://www.tnu.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.tnu.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

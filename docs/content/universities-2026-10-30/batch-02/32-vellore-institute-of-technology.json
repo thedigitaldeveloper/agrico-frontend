@@ -1,0 +1,370 @@
+{
+  "id": 32,
+  "slug": "vellore-institute-of-technology",
+  "name": "Vellore Institute of Technology",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "VIT",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Vellore",
+    "state": "Tamil Nadu",
+    "established": 1984,
+    "address": "Vellore Institute of Technology, Vellore 632014, Tamil Nadu, India",
+    "parent_university": null,
+    "website": "https://vit.ac.in/",
+    "admissions_url": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login",
+    "phone": "0416-220 2656",
+    "email": "dean.vaial@vit.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Vellore Institute of Technology",
+    "summary": "VIT’s School of Agricultural Innovations and Advanced Learning teaches agriculture at the Vellore campus. Its 2026 admission portal sets out a merit-based route without an entrance examination, while the school describes research, farm learning and outreach programmes for local farming communities.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "A Vellore agriculture school with clear 2026 entry rules",
+    "paragraphs": [
+      "VAIAL is VIT’s School of Agricultural Innovations and Advanced Learning. Its published activities combine degree teaching, agricultural research and farmer outreach. The school describes facilities for crop and horticultural work, analytical teaching laboratories, botanical and medicinal gardens, composting and farm machinery. Its events record includes training on organic farming, coconut cultivation and vegetable value addition.",
+      "The 2026-27 agriculture portal provides unusually specific applicant information: selection uses qualifying-examination merit, followed by online counselling. It states academic, residency and age conditions, and publishes three tuition categories. These are Vellore agriculture rules; applicants should not assume the same process applies to other VIT campuses or engineering programmes."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Vellore Institute of Technology"
+      },
+      {
+        "label": "Location",
+        "value": "Vellore, Tamil Nadu"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "Agricultural science at the Vellore campus, taught through VAIAL with field, laboratory and outreach resources.",
+      "eligibility": "2026-27: Resident Indian; born on/after 1 July 2006; 60% overall and 60% in PCB, with published 10% relaxation for specified categories/regions; English required.",
+      "admission_route": "2026-27 portal: no entrance test; qualifying PCB merit ranking and online counselling.",
+      "fees": {
+        "amount_inr": 110000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Category 1 tuition. Category 2: INR 1,95,000; Category 3: INR 2,25,000 annually. One-time refundable caution deposit INR 5,000.",
+        "verification": "verified",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "VIT’s 2026 agriculture portal describes registration, application completion, payment and online counselling. Counselling eligibility does not guarantee a seat; allocation depends on rank and availability.",
+    "eligibility_points": [
+      "2026-27 academic requirements are 60% overall and 60% aggregate in Physics, Chemistry and Biology.",
+      "A published 10% relaxation applies to SC/ST applicants and specified regions; supporting certificates are required.",
+      "Resident Indian nationality and the published birth-date condition apply."
+    ],
+    "steps": [
+      {
+        "title": "Register and complete the application",
+        "text": "Use an active email address and Indian mobile number; the portal verifies the mobile number by OTP."
+      },
+      {
+        "title": "Pay and upload the photograph",
+        "text": "The portal specifies a non-refundable INR 700 application payment and a JPG/JPEG photograph."
+      },
+      {
+        "title": "Participate in counselling",
+        "text": "Shortlisted applicants attend online counselling based on the qualifying-examination rank list."
+      },
+      {
+        "title": "Enter fee-category preferences during online counselling",
+        "text": "The 2026–27 portal asks shortlisted applicants to enter preferred fee categories and review their choices. It states that allotment is rank-based; individual results require the applicant’s own login."
+      }
+    ],
+    "documents": [
+      "Birth certificate or passport copy as age proof.",
+      "Class XII hall ticket.",
+      "Class XII mark statements for all attempts.",
+      "SC/ST community certificate where applicable.",
+      "Nativity certificate for the specified North-Eastern states or Jammu and Kashmir/Ladakh categories.",
+      "JPG/JPEG photograph of20–300kB and scanned signature of5–150kB, following the portal dimensions."
+    ],
+    "dates": [],
+    "application_fee_inr": 700,
+    "source_ids": [
+      "s2",
+      "r2_counselling2026"
+    ]
+  },
+  "campus": {
+    "heading": "Research, crop work and farmer outreach",
+    "intro": "VAIAL describes agricultural and horticultural land, teaching and research laboratories, gardens, composting units, irrigation and machinery. Its events list records farmer-facing training as well as student and research activities.",
+    "facilities": [
+      {
+        "name": "Teaching and research laboratories",
+        "description": "VAIAL identifies analytical instrumentation and multidisciplinary research laboratories.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Botanical and medicinal gardens",
+        "description": "Both gardens are named alongside farm and composting resources.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Vellore Institute of Technology for 2024-02-08 to 2029-02-07. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Vellore Institute of Technology",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A40:G40"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "VAIAL’s school page names Dr. Rajendran R as dean and gives a school contact. The page states it was last updated in June 2025; appointment currency needs confirmation.",
+    "people": [
+      {
+        "name": "Dr. Rajendran R",
+        "role": "Dean VAIAL, listed on page last updated June 2025",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is an entrance examination required for VIT agriculture in 2026?",
+      "answer": "The dedicated 2026 portal explicitly says no entrance examination; selection uses qualifying-examination merit and counselling.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Are mathematics-only applicants eligible under the 2026 rules?",
+      "answer": "The 2026 portal requires Physics, Chemistry and Biology; older prospectuses show different combinations. Use the current portal.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the application cost?",
+      "answer": "The 2026 portal specifies a non-refundable INR 700.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Why are three tuition figures shown?",
+      "answer": "VIT publishes annual tuition categories of INR 1,10,000, INR 1,95,000 and INR 2,25,000 for the 2026-27 intake.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which campus offers the researched course?",
+      "answer": "The dedicated application portal identifies the Vellore campus.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Vellore Institute of Technology | Agriculture courses and admissions",
+    "description": "Review VIT Vellore agriculture, verified 2026-27 merit admission rules and tuition categories, VAIAL facilities and the exact ICAR undergraduate course scope.",
+    "keywords": [
+      "Vellore Institute of Technology agriculture",
+      "Vellore Institute of Technology admissions",
+      "Vellore Institute of Technology ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://vit.ac.in/wp-content/uploads/2023/08/infra_image1.webp",
+    "logo_url": "https://vit.ac.in/wp-content/uploads/2023/06/images.webp",
+    "campus_alt": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+    "caption": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/vellore-institute-of-technology/logo-colour.webp",
+    "local_campus_image": "media/vellore-institute-of-technology/campus-01.webp",
+    "local_gallery": [
+      "media/vellore-institute-of-technology/campus-01.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login",
+      "title": "B.Sc. Agriculture admission 2026, Vellore",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity",
+        "overview",
+        "programmes",
+        "admissions"
+      ],
+      "notes": "2026-27 rules apply to this course and campus.",
+      "note": "Course-specific2026-27 portal; upload requirements are subject to their stated availability/time window."
+    },
+    {
+      "id": "s3",
+      "url": "https://vit.ac.in/schools/vaial/",
+      "title": "VAIAL school page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "faculty",
+        "identity.contact"
+      ],
+      "notes": "Page says last updated June 2025."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://vit.ac.in/",
+      "title": "Vellore Institute of Technology — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/vellore-institute-of-technology/logo-colour.webp. The VIT official homepage publishes this exact image as its 192px site icon and Apple touch icon. Visual review confirms the named VIT Vellore emblem."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://vit.ac.in/about/infrastructure",
+      "title": "Vellore Institute of Technology — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/vellore-institute-of-technology/campus-01.webp. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "r2_counselling2026",
+      "title": "VIT B.Sc. Agriculture online counselling 2026–27",
+      "url": "https://ugresults.vit.ac.in/bscagri/index.jsp",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Public instructions read; no private individual rank or allotment accessed."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "faculty.people",
+      "reason": "Dean roster page was last updated June 2025; confirm appointment before publishing as current.",
+      "next_source": "https://vit.ac.in/schools/vaial/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://vit.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://vit.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://vit.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Expanded the programme-specific application document list and retained portal age/nationality rules.",
+      "Added the actual fee-category preference step for 2026 counselling."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

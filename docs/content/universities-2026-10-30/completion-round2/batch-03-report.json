@@ -1,0 +1,673 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Official-source round-two research for institution IDs41–58; search checks cover all18, additions require read primary evidence.",
+  "status": "in_progress",
+  "baseline": [
+    {
+      "id": 41,
+      "name": "The Neotia University",
+      "file": "41-the-neotia-university.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.tnu.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "The general 2026–27 university tuition-scholarship offer excludes B.Sc. Agriculture; eligibility for separate government or agriculture-specific support remains unverified.",
+          "next_source": "https://www.tnu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "The official agriculture faculty directory now supplies names and roles, but its effective date and individual appointment dates are unstated.",
+          "next_source": "https://www.tnu.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.tnu.in/"
+        }
+      ],
+      "source_count": 13
+    },
+    {
+      "id": 42,
+      "name": "Centurion University of Technology and Management, Odisha",
+      "file": "42-centurion-university-of-technology-and-management.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://cutm.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Official first-year Amrit Kaal concessions include B.Tech Agri; the policy year, renewal terms and awards for the other agriculture/fisheries programmes remain unverified.",
+          "next_source": "https://cutm.ac.in/"
+        },
+        {
+          "field": "identity.email",
+          "reason": "Email addresses in the official campus contact page were masked in the retrieved text; no address was guessed.",
+          "next_source": "https://cutm.ac.in/contact/"
+        },
+        {
+          "field": "programmes.fees.academic_year",
+          "reason": "Programme pages confirm annual periods and the MBA package, but central fee tables labelled 2026 coexist with a higher-level 2025–26 heading. Confirm cohort applicability and all inclusions before payment.",
+          "next_source": "https://cutm.ac.in/course-fees/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://cutm.ac.in/"
+        }
+      ],
+      "source_count": 20
+    },
+    {
+      "id": 43,
+      "name": "Lovely Professional University",
+      "file": "43-lovely-professional-university.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "programmes.fees",
+          "reason": "The official programme page exposes fee headings but the amounts are unreadable image/placeholders and the page mixes 2027/2026–27/2025 references. Obtain a dated agriculture fee statement.",
+          "next_source": "https://www.lpu.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.lpu.in/"
+        },
+        {
+          "field": "admissions.eligibility_points",
+          "reason": "The CUET 2026 mapping’s minimum-age sentence retains a 31 December 2025 cutoff; confirm the correct age reference before admission.",
+          "next_source": "https://www.lpu.in/admission/admissions.php"
+        },
+        {
+          "field": "programmes.eligibility",
+          "reason": "The dated 2026 MSc article states 60%, compared with 55% in the 2025 prospectus; the current soil-science page displays an apparent undergraduate-template error. Confirm the governing intake prospectus.",
+          "next_source": "https://www.lpu.in/admission/admissions.php"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.lpu.in/"
+        }
+      ],
+      "source_count": 16
+    },
+    {
+      "id": 44,
+      "name": "Kalasalingam Academy of Research and Education",
+      "file": "44-kalasalingam-academy-of-research-and-education.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.kalasalingam.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.kalasalingam.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.kalasalingam.ac.in/"
+        }
+      ],
+      "source_count": 10
+    },
+    {
+      "id": 45,
+      "name": "Integral University, Lucknow",
+      "file": "45-integral-university.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "programmes.fees.academic_year",
+          "reason": "The official annual ₹70,000 amount is now recorded, but a dated governing intake year and itemised inclusions are not established.",
+          "next_source": "https://www.iul.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.iul.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.iul.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.iul.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.iul.ac.in/"
+        }
+      ],
+      "source_count": 10
+    },
+    {
+      "id": 46,
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "file": "46-sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "identity.website",
+          "reason": "This is the college URL linked by ANGRAU; direct access returned 502 Bad Gateway.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "campus",
+          "reason": "College-specific facilities could not be verified because its linked website was unavailable.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "programmes.duration",
+          "reason": "No programme-specific duration was confirmed in the official pages used.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+          "next_source": "https://svcagriculture.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://svcagriculture.in/"
+        }
+      ],
+      "source_count": 8
+    },
+    {
+      "id": 47,
+      "name": "Sri Satya Sai University of Technology and Medical Sciences",
+      "file": "47-sri-satya-sai-university-of-technology-and-medical-sciences.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "campus",
+          "reason": "Dedicated school domain was expired; central facilities detail could not be fetched.",
+          "next_source": "https://www.sssutms.co.in/"
+        },
+        {
+          "field": "programmes.eligibility",
+          "reason": "The official table’s 45% PCM/PCB/Agriculture rule has no intake-year label; confirm that it applies to 2026–27.",
+          "next_source": "https://sssutms.co.in/cms/Website/Admission/AdmissionNotice"
+        },
+        {
+          "field": "programmes.fees.academic_year",
+          "reason": "Official annual agriculture tuition ₹61,000 is readable, but intake-year applicability and other charges remain unverified.",
+          "next_source": "https://www.sssutms.co.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.sssutms.co.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.sssutms.co.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+          "next_source": "https://www.sssutms.co.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.sssutms.co.in/"
+        }
+      ],
+      "source_count": 12
+    },
+    {
+      "id": 48,
+      "name": "GLA University",
+      "file": "48-gla-university.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.gla.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.gla.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.gla.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "The official agriculture directory now provides names and roles; its effective date and individual appointment dates are unstated.",
+          "next_source": "https://www.gla.ac.in/"
+        }
+      ],
+      "source_count": 10
+    },
+    {
+      "id": 49,
+      "name": "Shri Shivaji Agriculture College, Amravati",
+      "file": "49-shri-shivaji-agriculture-college.json",
+      "faq_count": 8,
+      "gaps": [
+        {
+          "field": "identity.established",
+          "reason": "Official homepage gives 1959; official library PDF excerpt gives 1958. No single year chosen.",
+          "next_source": "https://www.ssacpdkv.org/index.php"
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+          "next_source": "https://www.ssacpdkv.org/index.php"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.ssacpdkv.org/index.php"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.ssacpdkv.org/index.php"
+        }
+      ],
+      "source_count": 12
+    },
+    {
+      "id": 50,
+      "name": "Siksha ‘O’ Anusandhan",
+      "file": "50-siksha-o-anusandhan.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "programmes.fees",
+          "reason": "Official 2026 fee index links an academic-fee file hosted on Box; tool could not access the redirected document. A dated, programme-specific fee schedule is needed before quoting a current amount.",
+          "next_source": "https://www.admission.soa.ac.in/fees-structure"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Historical agriculture stray-vacancy result dates in August 2026 are verified; a current application deadline or later vacant-seat notice is not established.",
+          "next_source": "https://www.soa.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.soa.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.soa.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.soa.ac.in/"
+        }
+      ],
+      "source_count": 15
+    },
+    {
+      "id": 51,
+      "name": "Guru Kashi University",
+      "file": "51-guru-kashi-university.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "programmes.fees",
+          "reason": "The official course page has no amount. The linked 2025–26 prospectus was recovered as a 58 MB scanned PDF, but the inspected programme pages did not establish an agriculture fee figure; a dated programme-specific fee schedule remains necessary.",
+          "next_source": "https://gku.ac.in/programs/bachelor-of-science-in-agriculture-hons"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://gku.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://gku.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "The official agriculture directory now supplies named teachers and roles, but appointment-effective dates remain unstated.",
+          "next_source": "https://gku.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://gku.ac.in/"
+        }
+      ],
+      "source_count": 11
+    },
+    {
+      "id": 52,
+      "name": "Arunachal University of Studies",
+      "file": "52-arunachal-university-of-studies.json",
+      "faq_count": 9,
+      "gaps": [
+        {
+          "field": "identity.admissions_url",
+          "reason": "Official homepage now identifies https://admission.arunachaluniversity.ac.in/ for2026–27 applications, but opening that portal returned403; programme terms could not be verified.",
+          "next_source": "https://admission.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "No current university-owned farm or laboratory inventory could be read.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "The 2026–27 agriculture table supplies a conditional APST reimbursement cap and income ceiling; the exact granting scheme, approval and renewal rules remain to be established.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.arunachaluniversity.ac.in/"
+        }
+      ],
+      "source_count": 11
+    },
+    {
+      "id": 53,
+      "name": "SR University",
+      "file": "53-sr-university.json",
+      "faq_count": 7,
+      "gaps": [
+        {
+          "field": "programmes.fees.academic_year",
+          "reason": "Official per-semester fee is readable, but its table has no explicit academic-year label.",
+          "next_source": "https://sru.edu.in/fee-scholarship/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://sru.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://sru.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Official agriculture directory names and roles are available; effective and individual appointment dates remain unstated.",
+          "next_source": "https://sru.edu.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://sru.edu.in/"
+        }
+      ],
+      "source_count": 11
+    },
+    {
+      "id": 54,
+      "name": "Malla Reddy University",
+      "file": "54-malla-reddy-university.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "programmes.duration",
+          "reason": "No explicit duration was exposed on the current official school/eligibility pages.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/school/school-of-agriculture-sciences"
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "Official fee page is headed AY 2025–26 but exposes no agriculture amount. The notification index labels links 2026–27, yet they all resolve to an inaccessible 2020 PDF; no current fee is inferred.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.mallareddyuniversity.ac.in/"
+        }
+      ],
+      "source_count": 10
+    },
+    {
+      "id": 55,
+      "name": "ITM University, Gwalior",
+      "file": "55-itm-university-gwalior.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "programmes.fees",
+          "reason": "Official site links a 2025–26 fee image; it was inaccessible to the reading tool, and no 2026–27 programme fee table was confirmed. A dated, programme-specific fee schedule is needed before quoting a current amount.",
+          "next_source": "https://www.itmuniversity.ac.in/"
+        },
+        {
+          "field": "programmes.1.eligibility",
+          "reason": "Master’s course and central admissions table present differing qualification/marks wording.",
+          "next_source": "https://www.itmuniversity.ac.in/admission/eligibility"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://www.itmuniversity.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://www.itmuniversity.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.itmuniversity.ac.in/"
+        }
+      ],
+      "source_count": 10
+    },
+    {
+      "id": 56,
+      "name": "RKDF University, Bhopal",
+      "file": "56-rkdf-university-bhopal.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "admissions.application_fee_inr",
+          "reason": "₹283 is portal registration charges only; the policy also mentions counselling fees without an amount.",
+          "next_source": "https://rkdf.ac.in/ADMISSION%20POLICY%202026-27.pdf"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "Linked campus facility PDF returned a cache miss; agriculture facilities were not independently confirmed.",
+          "next_source": "https://rkdf.ac.in/Agriculture.php"
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+          "next_source": "https://rkdf.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://rkdf.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://rkdf.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://rkdf.ac.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+          "next_source": "https://rkdf.ac.in/"
+        },
+        {
+          "field": "identity.established",
+          "reason": "The regulator lists 19 July 2011 establishment; the university describes a 14 February 2012 launch. The year field uses legal establishment, with teaching/launch dates kept distinct.",
+          "next_source": "https://mpnvva.in/Home/UIntakeDetails?instituteID=7"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://rkdf.ac.in/"
+        }
+      ],
+      "source_count": 13
+    },
+    {
+      "id": 57,
+      "name": "RNB Global University",
+      "file": "57-rnb-global-university.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "admissions.dates",
+          "reason": "The official procedure states a past 30 July 2026 closing date but retains an Admission Open 2026 header; no later programme-specific extension or present vacancy is verified.",
+          "next_source": "https://www.rnbglobal.edu.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://www.rnbglobal.edu.in/"
+        },
+        {
+          "field": "faculty.people",
+          "reason": "The official agriculture-extension profile identifies a teacher and role, but a dated complete agriculture appointment roster remains unverified.",
+          "next_source": "https://www.rnbglobal.edu.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://www.rnbglobal.edu.in/"
+        }
+      ],
+      "source_count": 12
+    },
+    {
+      "id": 58,
+      "name": "Tilak Dhari P.G. College, Jaunpur",
+      "file": "58-tilak-dhari-pg-college.json",
+      "faq_count": 6,
+      "gaps": [
+        {
+          "field": "programmes.eligibility",
+          "reason": "The official department excerpt is from 2022; the current site’s bulletin link resolves to a 2025-titled file and the 2026 agriculture eligibility thresholds could not be read.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "recognition.icar_units",
+          "reason": "Register wording B.S. and intake 240 differ from the older official B.Sc. page and intake 220. Preserve the audit and confirm current nomenclature/seats separately.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "The department’s research field and laboratory are documented in 2022; their present condition and current student allocation have not been verified.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Current intake deadlines were not established from a dated official notice.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "scholarships.schemes",
+          "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "A dated agriculture cohort outcome report was not verified.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "programmes.duration",
+          "reason": "Explicit official duration was not verified for M.Sc. (Ag) Agricultural Economics; M.Sc. (Ag) Genetics and Plant Breeding. Department-directory links for Agricultural Economics and Genetics/Plant Breeding were malformed, and corrected official article URLs remained inaccessible.",
+          "next_source": "https://tdcollege.ac.in/"
+        },
+        {
+          "field": "programmes.mode",
+          "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+          "next_source": "https://tdcollege.ac.in/"
+        }
+      ],
+      "source_count": 14
+    }
+  ],
+  "source_checks": [],
+  "changes": [],
+  "resolved_flags": [],
+  "remaining": []
+}

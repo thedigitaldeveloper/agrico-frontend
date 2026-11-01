@@ -1,0 +1,43 @@
+{
+  "id": 31,
+  "slug": "shri-guru-ram-rai-university",
+  "name": "Shri Guru Ram Rai University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/shri-guru-ram-rai-university/logo.png",
+      "source_page": "https://www.sgrru.ac.in/",
+      "download_url": "https://www.sgrru.ac.in/assets/logo.png",
+      "source_kind": "official",
+      "description": "Shri Guru Ram Rai University official red emblem and SGRRU wordmark",
+      "alt": "Shri Guru Ram Rai University red emblem and SGRRU wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official university homepage directly links this header logo. Alpha-aware rendering confirms the named SGRRU emblem and full wordmark.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Shri Guru Ram Rai University",
+      "review_status": "verified_source",
+      "notes": "Original 228 x 72 PNG; unchanged downloaded bytes. Transparent PNG must be rendered by an alpha-aware image decoder."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/shri-guru-ram-rai-university/campus-01.jpg",
+      "source_page": "https://collegeforum.in/sgrrits-dehradun",
+      "download_url": "https://collegeforum.in/apis/assets/uploads/collegePhotoGallery/collegephotogallery-1765800475726.jpg",
+      "source_kind": "secondary",
+      "description": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+      "alt": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+      "campus": "Dehradun, Uttarakhand",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "collegeforum.in",
+      "review_status": "verified_source",
+      "notes": "Original 1200 x 400 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first. General SGRRU academic campus view; not identified as its agriculture department."
+    }
+  ],
+  "gaps": []
+}

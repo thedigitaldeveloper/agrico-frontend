@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-10-31",
+  "bodies": 717,
+  "university_bodies": 638,
+  "editorial_bodies": 79,
+  "cms_import_executed": false,
+  "import_sha256": "a072c1e6e1a03c4e6b525562e6bed478ca7befb93e11e2105fcd87a908083563",
+  "checks": [
+    "All 717 bodies pass the actual CMS sanitizer with their heading/TOC/source/FAQ sequence preserved and no duplicate H1",
+    "No exported gallery image-credit anchors; legacy imported credit links are removed while internal guide links remain",
+    "Each institution has eleven uniquely named Content Sections in position0–10",
+    "CMS HTML selection, editing and reordered navigation are verified; wrong-document blocks are rejected",
+    "Existing HTML/CSS scope compiler and 320–1000px CMS body preview pass; no live CMS import was executed"
+  ],
+  "errors": []
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-11T19:15:32.577Z",
+  "fixture": "Actual RsUniversitySection with seven synthetic universities and real CSS; native wrappers for Next Link/Image; no app server or CMS writes",
+  "sourceHashes": {
+    "src/components/rs/university-section.tsx": "c36194b5c265f97b70763f10760050e4d1868aebe7a49dfc038f5b234dddae85",
+    "src/components/rs/university-section.css": "d80ee9f32bf8deaa18cb22f9dbcff8dfe1bbe6361781fa66af12745061175afb",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "firstVisible": [
+        "fixture-university-1",
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4"
+      ],
+      "nextVisible": [
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4",
+        "fixture-university-5"
+      ],
+      "lastVisible": [
+        "fixture-university-4",
+        "fixture-university-5",
+        "fixture-university-6",
+        "fixture-university-7"
+      ],
+      "checks": [
+        "seven ordered universities in one row",
+        "logo-only cards despite supplied campus media",
+        "no repeated programme caption",
+        "44px controls below track without side gutters",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "missing logo initials",
+        "long names",
+        "exact programme/university links",
+        "nested link keyboard activation",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "firstVisible": [
+        "fixture-university-1"
+      ],
+      "nextVisible": [
+        "fixture-university-2"
+      ],
+      "lastVisible": [
+        "fixture-university-7"
+      ],
+      "touchFirst": "fixture-university-2",
+      "checks": [
+        "seven ordered universities in one row",
+        "logo-only cards despite supplied campus media",
+        "no repeated programme caption",
+        "44px controls below track without side gutters",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "native touch swipe and inertia settling",
+        "missing logo initials",
+        "long names",
+        "exact programme/university links",
+        "nested link keyboard activation",
+        "no page overflow"
+      ]
+    }
+  ],
+  "errors": []
+}

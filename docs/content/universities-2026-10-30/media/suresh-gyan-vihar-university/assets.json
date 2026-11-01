@@ -1,0 +1,60 @@
+{
+  "id": 29,
+  "slug": "suresh-gyan-vihar-university",
+  "name": "Suresh Gyan Vihar University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/suresh-gyan-vihar-university/logo.svg",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://www.gyanvihar.org/logo.svg",
+      "source_kind": "official",
+      "description": "Suresh Gyan Vihar University official wordmark",
+      "alt": "Suresh Gyan Vihar University official wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Suresh Gyan Vihar University",
+      "review_status": "verified_source",
+      "notes": "Original 446.0 x 58.0 SVG; unchanged download."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/suresh-gyan-vihar-university/campus_primary.webp",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://cms.gyanvihar.org/uploads/campus_01_bb7a3d1599.webp",
+      "source_kind": "official",
+      "description": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+      "alt": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+      "campus": "Jaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Suresh Gyan Vihar University",
+      "review_status": "verified_source",
+      "notes": "Original 390 x 234 WEBP; unchanged download. Official source supplies this view at 390px width; retained without upscaling."
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/suresh-gyan-vihar-university/campus_secondary.webp",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://cms.gyanvihar.org/uploads/campus_02_4b32bedfd4.webp",
+      "source_kind": "official",
+      "description": "Interior of the Gyan Vihar campus cafeteria at Jaipur",
+      "alt": "Interior of the Gyan Vihar campus cafeteria at Jaipur",
+      "campus": "Jaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Suresh Gyan Vihar University",
+      "review_status": "verified_source",
+      "notes": "Original 3984 x 2656 WEBP; unchanged download."
+    }
+  ],
+  "gaps": []
+}

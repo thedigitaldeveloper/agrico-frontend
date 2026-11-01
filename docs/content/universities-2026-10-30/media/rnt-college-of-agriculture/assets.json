@@ -1,0 +1,43 @@
+{
+  "id": 36,
+  "slug": "rnt-college-of-agriculture",
+  "name": "RNT College of Agriculture",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/rnt-college-of-agriculture/logo.jpg",
+      "source_page": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/53474/2023/2/13/Logo%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Logo.png",
+      "source_kind": "secondary",
+      "description": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+      "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original 140 x 140 JPEG; unchanged downloaded bytes. Shared RNT Group of Colleges brand used by the agriculture college profile; not claimed as an agriculture-only emblem. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/rnt-college-of-agriculture/campus-01.jpg",
+      "source_page": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/53474/2025/10/24/Campus%20Entrans%20View%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Campus-View.jpg",
+      "source_kind": "secondary",
+      "description": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+      "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+      "campus": "Kapasan, Rajasthan",
+      "agriculture_specific": true,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original 720 x 480 JPEG; unchanged downloaded bytes. Below preferred 800px photo width; retained at source resolution without upscaling. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

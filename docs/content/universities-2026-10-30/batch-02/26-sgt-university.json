@@ -1,0 +1,535 @@
+{
+  "id": 26,
+  "slug": "sgt-university",
+  "name": "SGT University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SGT",
+    "ownership": "Private university",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "established": 2013,
+    "address": "Gurgaon-Badli Road, Chandu-Budhera, Gurugram, Haryana 122505",
+    "parent_university": null,
+    "website": "https://sgtuniversity.ac.in/",
+    "admissions_url": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+    "phone": "1800 102 5661",
+    "email": null
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "SGT University",
+    "summary": "SGT University’s Faculty of Agricultural Sciences offers undergraduate agriculture and specialist postgraduate study near Gurugram. Its course account includes farm work, protected cultivation and rural and industry attachments. The audited ICAR entry names both undergraduate agriculture and postgraduate agronomy.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture with rural and industry attachments",
+    "paragraphs": [
+      "SGT’s undergraduate programme description combines crop, soil and plant-health subjects with practical components. It identifies Rural Agricultural Work Experience, Agro-Industrial Attachment and experiential learning units. These named components make the practical structure clearer than a general promise of hands-on study.",
+      "The university also advertises several agricultural master’s courses. Agronomy provides one route into specialist crop-management study after an agriculture bachelor’s degree. Published eligibility figures vary between an older 2024-25 schedule and the undated current undergraduate page, so applicants should use the final intake notice to settle the marks threshold before applying."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "SGT University"
+      },
+      {
+        "label": "Location",
+        "value": "Gurugram, Haryana"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "A full-time, in-person programme whose published structure includes field, rural and industry learning.",
+      "eligibility": "Undated course-page eligibility box: 10+2 PCM/PCB/PCMB or agriculture-related subjects with 50%; confirm intake rules.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 175000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Undated official annual amount; intake-year applicability is not established. Not a confirmed 2026/2027 quotation. The separate B.Sc. course page shows INR87,500 per semester.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Agronomy",
+      "level": "Postgraduate",
+      "duration": "4 semesters",
+      "mode": null,
+      "summary": "The agronomy postgraduate course appears in both the university catalogue and audited ICAR row.",
+      "eligibility": "Official catalogue: B.Sc. Agriculture or B.Sc. (Hons.) Agriculture with 55%; catalogue year not stated.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 250000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Undated official annual amount; not a confirmed 2026/2027 quotation. The dedicated masters landing shows INR125,000 per semester for Agronomy.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "SGT’s 2026-27 procedure describes online registration, an application form, a registration payment and an online personal interview. Admission is subject to eligibility and applicable regulatory provisions.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Register and select the programme",
+        "text": "The official procedure asks applicants to choose a programme or specialisation and generate a brochure number."
+      },
+      {
+        "title": "Complete the application",
+        "text": "The procedure specifies a registration fee of INR 1,500 and confirmation by SMS or email."
+      },
+      {
+        "title": "Attend the interview",
+        "text": "The 2026-27 page describes an online personal interview before eligible candidates proceed to provisional admission."
+      }
+    ],
+    "documents": [
+      "Common university FAQ: originals of Class 10 and 12 marksheets and pass certificates.",
+      "For PG applicants: graduation marksheets and degree.",
+      "Photographs of the applicant and parents, Aadhaar copy, and original character/migration certificates.",
+      "Haryana domicile, caste or gap certificates where applicable; confirm the checklist for your category."
+    ],
+    "dates": [],
+    "application_fee_inr": 1500,
+    "source_ids": [
+      "s5",
+      "r2_common_faq"
+    ]
+  },
+  "campus": {
+    "heading": "Research farms and protected cultivation",
+    "intro": "The B.Sc. page describes laboratory experiments, research-farm activities and polyhouses alongside rural work and agro-industry attachment. These are programme components, not verified employment outcomes.",
+    "facilities": [
+      {
+        "name": "Research farm and polyhouses",
+        "description": "Named in the undergraduate programme’s practical-learning account.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Rural Agricultural Work Experience, Agro-Industrial Attachment and experiential learning units are named in the programme description."
+    ],
+    "source_ids": [
+      "s2"
+    ],
+    "student_services": [
+      {
+        "name": "Optional campus accommodation",
+        "description": "SGT describes separate hostels for boys and girls and says residence is optional. Its undated tariff lacks an explicit period, so no annual room price is inferred.",
+        "source_ids": [
+          "r2_common_faq"
+        ]
+      },
+      {
+        "name": "Day-scholar transport",
+        "description": "Students apply for pickup point and route through ERP; the transport team approves the request and issues a bus pass.",
+        "source_ids": [
+          "r2_common_faq"
+        ]
+      },
+      {
+        "name": "Health and student support",
+        "description": "The FAQ identifies access to SGT Hospital, counselling and mental-health support for hostel residents.",
+        "source_ids": [
+          "r2_common_faq"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The agriculture masters landing explicitly excludes M.Sc. Ag. Agronomy from its displayed postgraduate merit-scholarship scheme. Other listed agriculture/horticulture programmes have UG-mark-based tuition concessions on that page. B.Sc. applicants and Agronomy applicants should obtain the policy for their own programme rather than assume those awards apply.",
+    "schemes": [
+      {
+        "name": "Agriculture masters merit scheme: Agronomy exclusion",
+        "details": "M.Sc. Ag. Agronomy is expressly excluded from the landing page’s postgraduate merit scheme. The page is undated and does not establish an award for a B.Sc. Agriculture applicant.",
+        "source_ids": [
+          "o31_masters"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_masters"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "SGT University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+    "statistics": [
+      {
+        "label": "UG four-year programme category outcomes 2024-25",
+        "value": "40 graduates in minimum stipulated time; 5 placed; 30 selected for higher studies; median annual salary of placed graduates INR 2,40,000.",
+        "programme_scope": "UG four-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 40,
+        "placed": 5,
+        "higher_studies": 30,
+        "median_salary_inr": 240000,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "o31_nirf2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists SGT University for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "SGT University",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)",
+          " M. Sc. (Ag) Agronomy \n(Intake- 10)",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A34:G34"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "Selected agriculture staff listed as currently working in the institution’s NIRF 2026 submission are shown here. The filing is dated evidence, not a guarantee that staffing has remained unchanged since submission.",
+    "people": [
+      {
+        "name": "Pooja Upadhyay",
+        "role": "Assistant Professor; listed currently working in NIRF 2026 submission",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Pooja Pant",
+        "role": "Assistant Professor; listed currently working in NIRF 2026 submission",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Debabrata Dhar",
+        "role": "Associate Professor; listed currently working in NIRF 2026 submission",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Anupam Singh",
+        "role": "Professor; listed currently working in NIRF 2026 submission",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Om Pal Singh Khola",
+        "role": "Professor; listed currently working in NIRF 2026 submission",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_nirf2026"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does SGT’s ICAR record include postgraduate agronomy?",
+      "answer": "Yes. The audited row prints M.Sc. (Ag) Agronomy as well as B.Sc. (Hons.) Agriculture.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What practical attachments are described?",
+      "answer": "The B.Sc. page names rural agricultural work, agro-industrial attachment and experiential learning units.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What does the 2026-27 application procedure cost?",
+      "answer": "The university procedure specifies INR 1,500 for registration.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Is an interview described?",
+      "answer": "Yes. The 2026-27 procedure describes an online personal interview before provisional admission.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Are the course-page fees confirmed for 2026-27?",
+      "answer": "The undergraduate page gives INR 87,500 per semester without a year. This has not been treated as a dated 2026-27 quotation.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "SGT University | Agriculture courses and admissions",
+    "description": "Review SGT University agriculture and agronomy, practical attachments, the 2026-27 application procedure, fee verification gaps and exact ICAR programme coverage.",
+    "keywords": [
+      "SGT University agriculture",
+      "SGT University admissions",
+      "SGT University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://static.wixstatic.com/media/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp/v1/fill/w_1200%2Ch_628%2Cq_90%2Cenc_avif%2Cquality_auto/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/1230/2018/5/15/SGT-University-Gurgaon-logo.png",
+    "campus_alt": "SGT University main academic building and courtyard fountain at Gurugram",
+    "caption": "SGT University main academic building and courtyard fountain at Gurugram",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/sgt-university/logo.jpg",
+    "local_campus_image": "media/sgt-university/campus-05.webp",
+    "local_gallery": [
+      "media/sgt-university/campus-05.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://sgtuniversity.ac.in/agri/programmes/bsc-in-agriculture",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus",
+        "placements"
+      ],
+      "notes": "Undated fee and partly inconsistent FAQ eligibility are not current intake guarantees."
+    },
+    {
+      "id": "s3",
+      "url": "https://sgtuniversity.ac.in/admissions/prgmData/agri",
+      "title": "Agricultural Sciences programme catalogue",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.MSc"
+      ],
+      "notes": "Direct read failed; catalogue is undated.",
+      "note": "Official programme table is undated; current intake-year applicability is not established."
+    },
+    {
+      "id": "s4",
+      "url": "https://sgtuniversity.ac.in/assets/docs/fees/agricultural-science.pdf",
+      "title": "Agriculture courses 2024-25",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview.eligibility_conflict"
+      ],
+      "notes": "Historical table states 60% for B.Sc.; current undated course box states 50%."
+    },
+    {
+      "id": "s5",
+      "url": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+      "title": "2026-27 admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "url": "https://sgtuniversity.ac.in/about/our-university",
+      "title": "About SGT University",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address",
+        "identity.phone"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/university/shree-guru-gobind-singh-tricentenary-university-gurgaon",
+      "title": "SGT University — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sgt-university/logo.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.collegesimplified.in/college-details/sgt-university-gurugram",
+      "title": "SGT University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sgt-university/campus-05.webp. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "o31_masters",
+      "title": "SGT agriculture masters fees and scholarship exclusions",
+      "url": "https://sgtuniversity.ac.in/admissions/masters-in-agriculture/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated agriculture-specific landing page; broad promotional university package/recruiter figures were not used as agriculture placement evidence."
+    },
+    {
+      "id": "o31_nirf2026",
+      "title": "SGT NIRF 2026 Agriculture and Allied Sectors submission",
+      "url": "https://iqac1.sgtuniversity.ac.in/assets/files/NIRF/2026/Agricultural-%20Shree%20Guru%20Gobind%20Singh%20Tricentenary%20University%2020260219-.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Institution-submitted category-specific outcomes; undergraduate four-year cohort, not university-wide placements."
+    },
+    {
+      "id": "r2_common_faq",
+      "title": "SGT university FAQ: admissions and student services",
+      "url": "https://sgtuniversity.ac.in/faq",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions.documents",
+        "campus.student_services"
+      ],
+      "notes": "Undated common FAQ. Historical 2023 scholarship wording is not used as current policy. Hostel amounts omit payment period and are not imported."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.eligibility",
+      "reason": "Current undated B.Sc. eligibility box says 50%, its FAQ says 50-60%, and 2024-25 table says 60%. Obtain the signed 2026-27 rule.",
+      "next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "Official programme-specific annual amounts are recorded with year null; a dated current-intake schedule remains unverified.",
+      "next_source": "https://sgtuniversity.ac.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "Agriculture-specific Agronomy exclusion is verified; dated intake-year B.Sc./Agronomy award terms remain unverified.",
+      "next_source": "https://sgtuniversity.ac.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure"
+    },
+    {
+      "field": "identity.email",
+      "reason": "Official contact page obscured email text in the accessible rendering; no address was guessed.",
+      "next_source": "https://sgtuniversity.ac.in/contact-us"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://sgtuniversity.ac.in/admissions/admission-procedure"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://sgtuniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+      "M.Sc. (Agriculture) Agronomy: added source-specific fee amount with period and session status.",
+      "Added 1 scoped NIRF agriculture placement/higher-study cohort rows.",
+      "Added 5 named academic staff entries with scope/date labels.",
+      "Added common admission-document requirements and three actual student-service entries."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

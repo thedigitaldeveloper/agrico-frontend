@@ -1,0 +1,700 @@
+{
+  "id": 12,
+  "slug": "n-s-agricultural-college",
+  "name": "N.S. Agricultural College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "NSAC",
+    "ownership": "Private college established by Sri NS Educational Society",
+    "city": "Gobburu",
+    "state": "Andhra Pradesh",
+    "established": 2016,
+    "address": "Gobburu Village, Peddaraveedu Mandal, Prakasam District, Andhra Pradesh 523320",
+    "parent_university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "website": "https://nsagri.ac.in/",
+    "admissions_url": "https://nsagri.ac.in/admissions-apply",
+    "phone": "+91 9121479291",
+    "email": "nsagriculturalcollege@gmail.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "N.S. Agricultural College",
+    "summary": "N.S. Agricultural College is an ANGRAU-affiliated college at Gobburu near Markapur. Established in 2016 by Sri NS Educational Society, it describes a 74.8-acre teaching farm across two locations. Its admission material outlines EAPCET and AGRICET routes for agriculture applicants.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study near Markapur",
+    "paragraphs": [
+      "N.S. Agricultural College was established by Sri NS Educational Society in 2016. Located at Gobburu, eight kilometres from Markapur according to the college, it is affiliated to Acharya N. G. Ranga Agricultural University.",
+      "Its teaching farm is spread across the main campus and Thokapalli, with instructional units spanning crops, horticulture and crop protection. The four-year degree describes final-year rural experience, experiential learning and an agriculture-related internship. That practical structure is useful for students comparing field exposure: request the current unit allocations, village-work schedule and internship supervision arrangements alongside the entry-year admission notice."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-02-07"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "The agriculture degree is identified in the audited register and college admission material. The college describes Intermediate and agriculture-diploma entry routes through the relevant entrance examinations.",
+      "eligibility": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "admission_route": "2026 AP EAPCET rank and ANGRAU counselling for this BiPC route.",
+      "fees": {
+        "amount_inr": 126000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college.",
+        "note": "Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 2,52,000; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+        "quota": "convenor",
+        "management_maximum_inr": 252000,
+        "verification": "verified",
+        "source_ids": [
+          "angrau_2026",
+          "r31_1"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at N.S. Agricultural College, Gobburu (village), Andhra Pradesh for 2024-02-08 to 2029-02-07. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s8",
+        "angrau_2026"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to NSAC",
+    "intro": "NSAC says university notifications lead the admission process and describes entrance-based counselling. Its site gives detailed but undated age, category and seat rules; these require the current university prospectus before use. For N.S. Agricultural College, the applicable ANGRAU counselling route now has a revised 30 October 2026 notice: registered candidates follow the stated November rank/category session and check the university’s live seat position. Being called does not guarantee admission.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Identify the appropriate entrance route",
+        "text": "The college distinguishes Intermediate applicants using EAPCET from agriculture-diploma applicants using AGRICET."
+      },
+      {
+        "title": "Follow the current university notification",
+        "text": "Verify eligibility and counselling instructions with ANGRAU, then request the current category-wise sanctioned seat matrix."
+      }
+    ],
+    "documents": [
+      "All relevant original certificates required by the ANGRAU brochure",
+      "For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable"
+    ],
+    "dates": [
+      {
+        "label": "ANGRAU registered-candidate special-category/AGRICET manual counselling, as applicable",
+        "date": "2026-11-02",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU AP EAPCET rank-band manual-counselling sessions; exact individual slot in notice",
+        "date": "2026-11-03 to 2026-11-10 (excluding 2026-11-05 and 2026-11-08)",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU spot counselling for registered candidates, subject to seats and eligibility",
+        "date": "2026-11-11",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "angrau_2026",
+      "r31_1"
+    ]
+  },
+  "campus": {
+    "heading": "Sixteen instructional units across two farm locations",
+    "intro": "The official farm page describes 74.8 acres: 43.9 at the main campus and 30.9 at Thokapalli. It lists 16 instructional units, including orchards, crop cafeterias, protected cultivation and a pest-and-disease-management module.",
+    "facilities": [
+      {
+        "name": "Teaching farm",
+        "description": "The college identifies farm land at the main campus and Thokapalli.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Protected cultivation",
+        "description": "A protected-cultivation unit is listed within the farm inventory.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Crop cafeterias",
+        "description": "Crop, millet and fodder cafeterias appear in the instructional-unit table.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Residential learning and mess facilities",
+        "description": "The dedicated hostel page identifies separate boys’ and girls’ hostels with dining halls, study and sick rooms, recreation rooms and indoor gymnasiums. It also lists solar water heating, camera surveillance, backup generators and RO water.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      },
+      {
+        "name": "Student Affairs Section",
+        "description": "The college assigns hostel/mess coordination, health care, sports and cultural activities, NSS, scholarships and career guidance to its Student Affairs Section. This identifies the office’s remit; it does not establish a particular award or placement outcome.",
+        "source_ids": [
+          "r2_studentaffairs"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Department-maintained instructional units are described as supporting hands-on exposure.",
+      "The farm inventory includes agrometeorology and integrated pest-and-disease management.",
+      "The degree page describes fourth-year RAWEP, experiential learning and an internship with an agriculture-related enterprise."
+    ],
+    "source_ids": [
+      "s4",
+      "s8",
+      "r2_hostel",
+      "r2_studentaffairs"
+    ],
+    "student_services": [
+      {
+        "name": "Residential learning and mess facilities",
+        "description": "The dedicated hostel page identifies separate boys’ and girls’ hostels with dining halls, study and sick rooms, recreation rooms and indoor gymnasiums. It also lists solar water heating, camera surveillance, backup generators and RO water.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      },
+      {
+        "name": "Student Affairs Section",
+        "description": "The college assigns hostel/mess coordination, health care, sports and cultural activities, NSS, scholarships and career guidance to its Student Affairs Section. This identifies the office’s remit; it does not establish a particular award or placement outcome.",
+        "source_ids": [
+          "r2_studentaffairs"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The admission FAQ states that eligible NSAC students may access the Andhra Pradesh fee-reimbursement scheme subject to prescribed criteria. No current scheme-year conditions, award amount or individual eligibility were verified.",
+    "schemes": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "NSAC describes a placement cell that shares vacancies, invites campus interviews and circulates openings to alumni. The career page also mentions guidance lectures and webinars. These support activities are verified as institutional descriptions; no placement percentage or agriculture salary figure is claimed.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records N.S. Agricultural College, Gobburu (village), Andhra Pradesh and the programme labels below from 2024-02-08 through 2029-02-07. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "N.S. Agricultural College, Gobburu (village), Andhra Pradesh",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A20:G20"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "N.S.Agricultural College supplies a subject-wise teaching directory headed by its Associate Dean. Selected listed staff below span agronomy, crop improvement, protection and horticulture.",
+    "people": [
+      {
+        "name": "Dr. R. V. S. K. Reddy",
+        "role": "Associate Dean",
+        "qualification": null,
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Mr. D. Janakinadh Varma",
+        "role": "Assistant Professor and Head, Agronomy",
+        "qualification": "M.Sc. Agriculture",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. Ch. Maheswara Reddy",
+        "role": "Assistant Professor, Agronomy",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Ms. M. Aishwarya",
+        "role": "Assistant Professor and Head, Genetics and Plant Breeding",
+        "qualification": "M.Sc. Agriculture",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. Palle Pravallika",
+        "role": "Assistant Professor and Head, Entomology",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. Ratna Priyanka R",
+        "role": "Assistant Professor and Head, Horticulture",
+        "qualification": "Ph.D. Floriculture and Landscaping",
+        "source_ids": [
+          "r31_2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is NSAC?",
+      "answer": "The college lists Gobburu Village, Peddaraveedu Mandal, Prakasam District, and places it eight kilometres from Markapur.",
+      "source_ids": [
+        "s2",
+        "s6"
+      ]
+    },
+    {
+      "question": "Who established the college?",
+      "answer": "Its official about page identifies Sri NS Educational Society and the year 2016.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What farm locations are described?",
+      "answer": "The farm page names the main campus and Thokapalli, totalling 74.8 acres in its published inventory.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What career support does NSAC describe?",
+      "answer": "It describes vacancy sharing, campus interview invitations, alumni communication and career-guidance activities.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Does the ICAR intake establish current seats?",
+      "answer": "No. The audit preserves a printed intake of 72, while other official records differ. Confirm the current sanctioned seat matrix with ANGRAU.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s7"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for NSAC?",
+      "answer": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s8",
+        "angrau_2026"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at NSAC?",
+      "answer": "4 years (8 semesters). ",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s8",
+        "angrau_2026"
+      ]
+    },
+    {
+      "question": "What published fee period should I use when comparing NSAC?",
+      "answer": "₹1,26,000 / year · source session 2026-27. Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college. Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 2,52,000; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+      "source_ids": [
+        "angrau_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What residential or welfare facilities does NSAC describe?",
+      "answer": "The dedicated hostel page identifies separate boys’ and girls’ hostels with dining halls, study and sick rooms, recreation rooms and indoor gymnasiums. It also lists solar water heating, camera surveillance, backup generators and RO water. The college assigns hostel/mess coordination, health care, sports and cultural activities, NSS, scholarships and career guidance to its Student Affairs Section. This identifies the office’s remit; it does not establish a particular award or placement outcome.",
+      "source_ids": [
+        "r2_hostel",
+        "r2_studentaffairs"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for NSAC?",
+      "answer": "N.S.Agricultural College supplies a subject-wise teaching directory headed by its Associate Dean. Selected listed staff below span agronomy, crop improvement, protection and horticulture. Dr. R. V. S. K. Reddy — Associate Dean; Mr. D. Janakinadh Varma — Assistant Professor and Head, Agronomy — M.Sc. Agriculture; Dr. Ch. Maheswara Reddy — Assistant Professor, Agronomy — Ph.D..",
+      "source_ids": [
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for NSAC?",
+      "answer": "All relevant original certificates required by the ANGRAU brochure; For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s3",
+        "angrau_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which dated admission events are recorded for NSAC?",
+      "answer": "ANGRAU registered-candidate special-category/AGRICET manual counselling, as applicable — 2026-11-02 — 2026–27; ANGRAU AP EAPCET rank-band manual-counselling sessions; exact individual slot in notice — 2026-11-03 to 2026-11-10 (excluding 2026-11-05 and 2026-11-08) — 2026–27; ANGRAU spot counselling for registered candidates, subject to seats and eligibility — 2026-11-11 — 2026–27. These describe the cited events and do not establish a continuing application window.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for NSAC?",
+      "answer": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s8",
+        "angrau_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "N.S. Agricultural College | Agriculture Courses & Admissions",
+    "description": "Explore N.S. Agricultural College near Markapur: agriculture admission routes, farm instructional units, career support and the audited ICAR programme term.",
+    "keywords": [
+      "N.S. Agricultural College",
+      "NSAC agriculture",
+      "Gobburu agriculture admission",
+      "B.Sc. (Hons.) Agriculture N.S. Agricultural College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://framerusercontent.com/images/lQauinUG70mNCMPVKApP0VsdSY.jpg?width=5184&height=3456",
+    "logo_url": "https://framerusercontent.com/images/B7cMhRPlCqVqCJM0UVlWzos2tg.png",
+    "campus_alt": "N.S. Agricultural College academic block and courtyard",
+    "caption": "N.S. Agricultural College academic block and courtyard",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/n-s-agricultural-college/logo.png",
+    "local_campus_image": "media/n-s-agricultural-college/campus-01.jpg",
+    "local_gallery": [
+      "media/n-s-agricultural-college/campus-01.jpg",
+      "media/n-s-agricultural-college/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://nsagri.ac.in/aboutus",
+      "title": "About N.S. Agricultural College",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.1",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://nsagri.ac.in/admissions-apply",
+      "title": "NSAC admissions and eligibility",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "scholarships"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://nsagri.ac.in/infrastructure/college-farm",
+      "title": "College farm",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "campus.facilities.2",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s5",
+      "url": "https://nsagri.ac.in/placement",
+      "title": "Career and placement support",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.3",
+        "overview",
+        "placements"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://nsagri.ac.in/contact-us",
+      "title": "NSAC contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s7",
+      "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+      "title": "ANGRAU affiliated-college directory",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview"
+      ],
+      "notes": "Undated university directory; intake differs from college site and historical ICAR scope."
+    },
+    {
+      "id": "s8",
+      "url": "https://nsagri.ac.in/bscprogram",
+      "title": "NSAC BSc agriculture programme",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Official indexed programme page specifies four years/eight semesters and final-year RAWEP, ELP and internship."
+    },
+    {
+      "id": "angrau_2026",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+      "title": "ANGRAU BiPC UG information brochure 2026–27 — affiliated-college fee table, page 7",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "admissions",
+        "programmes.eligibility",
+        "programmes.admission_route",
+        "identity.phone"
+      ],
+      "notes": "Public official PDF downloaded and read locally. Full page 7 rendered and visually inspected including table headers and footnotes. Constituent-college fee table on page 6 is not used for these private colleges. Management amount is a printed upper ceiling, not a promised charge. Cover and pages 2–3/8–9 also read for the BiPC channel, entry requirements and institutional contacts."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://nsagri.ac.in/",
+      "title": "N.S. Agricultural College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/n-s-agricultural-college/logo.png. Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://nsagri.ac.in/",
+      "title": "N.S. Agricultural College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/n-s-agricultural-college/campus-01.jpg. Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://nsagri.ac.in/",
+      "title": "N.S. Agricultural College — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/n-s-agricultural-college/campus-02.jpg. Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals."
+    },
+    {
+      "id": "r31_1",
+      "title": "ANGRAU revised manual-counselling schedule and affiliated-college fees,30 October 2026",
+      "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+      "kind": "affiliating_university",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+    },
+    {
+      "id": "r31_2",
+      "title": "N.S.Agricultural College official faculty directory",
+      "url": "https://nsagri.ac.in/faculty-directory",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Selected named academic leaders and qualifications; the website’s total staffing headline is not treated as a guaranteed cohort supervision ratio."
+    },
+    {
+      "id": "r2_hostel",
+      "title": "N.S. Agricultural College — hostels and mess",
+      "url": "https://nsagri.ac.in/infrastructure/hostels-mess",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities",
+        "campus.student_services"
+      ],
+      "note": "Dedicated official page read. Its capacity counts differ from the older student-affairs page, so no harmonised current numeric capacity is claimed."
+    },
+    {
+      "id": "r2_studentaffairs",
+      "title": "N.S. Agricultural College — student affairs",
+      "url": "https://nsagri.ac.in/academics/student_affairs",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services"
+      ],
+      "note": "Official page checked 31 October 2026. The page is not a guarantee of current vacancy or intake-year pricing."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://nsagri.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://nsagri.ac.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "College site describes 156 seats including multiple categories; university directory shows 120 and audited ICAR scope 72. No real-time intake asserted.",
+      "next_source": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+    },
+    {
+      "field": "programmes.fees.actual_management_and_living_costs",
+      "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+      "next_source": "https://nsagri.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/12-n-s-agricultural-college.json",
+  "audit_name": "N.S. Agricultural College, Gobburu (village), Andhra Pradesh",
+  "related": [
+    {
+      "id": 11,
+      "name": "SBVR Agricultural College",
+      "slug": "sbvr-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 13,
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "slug": "sri-krishnadevaraya-college-of-agricultural-sciences",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 46,
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

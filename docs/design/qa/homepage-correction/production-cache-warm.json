@@ -1,0 +1,9 @@
+{
+  "status": 200,
+  "heading": "Your degree.<br/><em>Your next big move.</em>",
+  "allImages": 24,
+  "campusImages": 4,
+  "hasCorrectHeading": true,
+  "postImages": 6,
+  "verifiedBy": "compare-production-diagnostic.json"
+}

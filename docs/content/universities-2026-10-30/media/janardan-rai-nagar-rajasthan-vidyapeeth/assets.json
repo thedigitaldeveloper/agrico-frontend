@@ -1,0 +1,43 @@
+{
+  "id": 23,
+  "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+  "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+      "source_page": "https://www.careers360.com/university/janardan-rai-nagar-rajasthan-vidyapeeth-udaipur",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/329/2022/3/16/Untitled.png",
+      "source_kind": "secondary",
+      "description": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+      "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original 140 x 140 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+      "source_page": "https://theacademicinsights.com/jrn-rajasthan-vidyapeeth-a-hub-of-relentless-educational-service/",
+      "download_url": "https://theacademicinsights.com/wp-content/uploads/2022/01/JRN-Rajasthan-Vidyapeeth-Udaipur.jpg",
+      "source_kind": "secondary",
+      "description": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+      "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+      "campus": "Udaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "theacademicinsights.com",
+      "review_status": "verified_source",
+      "notes": "Original 800 x 533 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

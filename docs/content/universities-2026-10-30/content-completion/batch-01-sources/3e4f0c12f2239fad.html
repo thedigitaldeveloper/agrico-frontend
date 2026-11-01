@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/css/app.css"/>
+    <title>Eternal University Student Registeration</title>
+    <link href="https://unpkg.com/@webpixels/css@1.2.6/dist/index.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .accordion-button::after {
+            background: #fff;
+            border-radius: 50%;
+            width: var(--x-accordion-btn-icon-width);
+            height: var(--x-accordion-btn-icon-width);
+            margin-left: auto;
+            content: "";
+            background-image: var(--x-accordion-btn-icon);
+            background-repeat: no-repeat;
+            background-size: var(--x-accordion-btn-icon-width);
+            transition: var(--x-accordion-btn-icon-transition);
+        }
+
+        .bg-blue-700 {
+            background-color: #0f2377 !important;
+        }
+        .row {
+            --x-gutter-x: 1.5rem;
+            --x-gutter-y: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: calc(-1* var(--x-gutter-y));
+            margin-right: calc(-0.5* var(--x-gutter-x));
+            margin-left: calc(-0* var(--x-gutter-x))!important;
+        }
+        /* Added accordion styling */
+        .accordion-button:not(.collapsed)::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+
+        .accordion-button::after {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+        }
+    </style>
+
+</head>
+
+<body class="text-blueGray-700 antialiased">
+<nav class="navbar navbar-expand-lg navbar-dark bg-blue-700 px-0 py-0">
+    <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand text-center d-flex" href="https://eternaluniversity.edu.in/">
+            <img src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-06/1719471736482.png"
+                 class="h-18 me-auto ms-auto"
+                 alt="...">
+            <h3 class="text-white mt-auto mb-auto">Eternal University Baru Sahib</h3>
+        </a>
+        <!-- Navbar toggle -->
+        <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapse -->
+            </div>
+</nav>
+<section class="bg-soft-primary pt-5">
+    <div class="container">
+        <div class="row mb-0">
+            <div class="col-md-12 pb-5">
+                <h1 class="text-center">Welcome to Online Admission Portal, Eternal University</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="navbar-dark px-0 py-3 border border-1">
+    <div class="container-xl">
+
+
+
+
+
+        <marquee><p style="font-size: 18px"> <b><a href="https://auts.ac.in/" target="_blank" style="text-decoration: none; color: #d32f2f">Notice: All programs at Eternal University are exclusively for female aspirants. Applications from male candidates will be rejected. However, male aspirants can visit our other institution, Akal University, where co-ed programs are available. Registration Fee  is non refundable.</a></b></p></marquee>
+        <marquee><p style="font-size: 18px"> <b><a href="https://auts.ac.in/" target="_blank" style="text-decoration: none; color: #d32f2f">Notice: Registration Portal Open for Session 2025-26 and 2026-27                                                                                                                                                                                                                                      </a></b></p></marquee>
+
+    </div>
+</section>
+<section class="">
+    <div class="container p-0">
+        <div class="row mt-12 p-0">
+            <div class="col-md-3">
+                <ul class="nav nav-pills d-block mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/login">
+                        <button type="button"
+                                class="active bg-green-200 border-0 btn btn-labeled d-flex justify-content-start p-1 w-full"
+                                id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" role="tab"
+                                aria-controls="pills-home" aria-selected="true">
+                            <img class="img-fluid h-12 w-12 me-1"
+                                 src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720066514724.png"><b
+                                class="mb-auto mt-auto pe-2 text-dark font-normal">Login</b>
+                        </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/register">
+                        <button type="button" class="bg-red-200 btn btn-labeled d-flex justify-content-start p-1 w-full"
+                                id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" role="tab"
+                                aria-controls="pills-profile" aria-selected="false" tabindex="-1">
+                            <img class="img-fluid h-12 w-12 me-1"
+                                 src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720164930518.png"><b
+                                class="mb-auto mt-auto pe-2 text-dark font-normal">Register</b>
+                        </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/enquiry-form">
+                            <button type="button" class="bg-blue-200 btn btn-info btn-labeled d-flex justify-content-start p-1 w-full"
+                                    id="pills-enquire-tab" data-bs-toggle="pill" data-bs-target="#pills-enquire" role="tab"
+                                    aria-controls="pills-enquire" aria-selected="false" tabindex="-1">
+                                <img class="img-fluid h-12 w-12 me-1"
+                                     src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720066463740.png">
+                                <b class="mb-auto mt-auto pe-2 text-dark font-normal">Enquire Now</b>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/password/reset">
+                        <button type="button" class="bg-yellow-200 btn d-flex justify-content-start p-1 w-full"
+                                id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" role="tab"
+                                aria-controls="pills-contact" aria-selected="false" tabindex="-1">
+                            <img class="img-fluid h-12 w-12 me-1"
+                                 src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720066547995.png"><b
+                                class="mb-auto mt-auto pe-2 text-dark font-normal">Forgot password?</b>
+                        </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/forgot-username">
+                        <button type="button"
+                                class="bg-indigo-200 btn btn-labeled d-flex justify-content-start p-1 w-full"
+                                id="pills-user-tab" data-bs-toggle="pill" data-bs-target="#pills-user" role="tab"
+                                aria-controls="pills-user" aria-selected="false" tabindex="-1">
+                            <img class="img-fluid h-12 w-12 me-1"
+                                 src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720066620887.png">
+                            <b class="mb-auto mt-auto pe-2 text-dark font-normal">Forgot Username</b>
+                        </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/existing-student">
+                            <button type="button"
+                                    class="bg-indigo-500 btn btn-labeled d-flex justify-content-start p-1 w-full"
+                                    id="pills-student-tab" data-bs-toggle="pill" data-bs-target="#pills-student" role="tab"
+                                    aria-controls="pills-student" aria-selected="false" tabindex="-1">
+                                <img class="img-fluid h-12 w-12 me-1"
+                                     src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720066514724.png">
+                                <b class="mb-auto mt-auto pe-2 text-dark font-normal">Existing Student</b>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="nav-item mb-3" role="presentation">
+                        <a href="https://portal.eternaluniversity.edu.in/explore-opac">
+                            <button type="button"
+                                    class="bg-blue-400 btn btn-labeled d-flex justify-content-start p-1 w-full"
+                                    id="pills-student-tab" data-bs-toggle="pill" data-bs-target="#pills-student" role="tab"
+                                    aria-controls="pills-student" aria-selected="false" tabindex="-1">
+                                <img class="img-fluid h-12 w-12 me-1"
+                                     src="https://himachal365.s3.ap-south-1.amazonaws.com/15996/6579c9003d7f0_OPAC.png">
+                                <b class="mb-auto mt-auto pe-2 text-dark font-normal">OPAC</b>
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <main>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="tab-content shadow-1 border border-surface-secondary p-3 rounded-3 bg-soft-secondary" id="pills-tabContent">
+        <div class="tab-pane pt-2 pb-3 fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row justify-content-center p-0">
+                <div class="col-md-9 text-center p-0">
+                    <div class="card border-0 mb-0">
+                        <div class="card-header border-0 p-0">
+                            <img class="img-fluid ms-auto me-auto h-20 bg-red-200 w-20 rounded-circle p-1"
+                                 src="https://iqwing.s3.ap-south-1.amazonaws.com/cms/results/2024-07/1720164930518.png">
+                            <h3 class="font-lighter ls-tight text-center">New Registration</h3>
+                            <h4 class="font-lighter ls-tight text-center">Thank you for choosing us as your educational partner. Please submit the form.</h4>
+                                                    </div>
+
+                        <div class="card-body p-4">
+                            <div class="">
+                                <form method="POST" action="https://portal.eternaluniversity.edu.in/register" class="d-md-flex flex-wrap bg-white p-4 rounded shadow-md">
+                                    <input type="hidden" name="_token" value="fy68fTRfd9fhE3wKDPtaC7Cd7mBw1RJOZEvLEWPo" autocomplete="off">                                                                            <div class="form-group w-full">
+                                            <select name="academic_year" required id="academic_year" class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example">
+                                                <option value="">Academic Year</option>
+                                                                                                    <option value="11" >
+                                                        2026-27(ODD)
+                                                    </option>
+                                                                                                    <option value="14" >
+                                                        2026-27(EVEN)
+                                                    </option>
+                                                                                                    <option value="15" >
+                                                        2027-28(ODD)
+                                                    </option>
+                                                                                            </select>
+                                                                                    </div>
+                                                                        <div class="relative w-md-1/2 pe-md-1">
+                                        <select name="id_type" id="id_type" class="form-select form-select-lg border-dark mb-3 p-3" required onchange="toggleIDField()">
+                                            <option value="">Select ID Type</option>
+                                            <option value="aadhar" >Aadhar No</option>
+                                            <option value="passport" >Passport No</option>
+                                        </select>
+                                    </div>
+                                    <div class="relative w-md-1/2 pe-md-1" id="aadhar_field" style="display: none;">
+                                        <input id="aadhar_no" name="aadhar_no" type="text"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Aadhar No" autocomplete="aadhar_no" value=""/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1" id="passport_field" style="display: none;">
+                                        <input id="passport_no" name="passport_no" type="text"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Passport No" autocomplete="passport_no" value=""/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="name" name="name" type="text"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Name" required
+                                               autofocus autocomplete="name" value=""
+                                                 />
+                                                                            </div>
+                                    <div class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="email" name="email" type="email"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Email" required
+                                               autocomplete="email" value=""/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="password" name="password" type="password"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Password" required
+                                               autocomplete="new-password"/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="password_confirmation" name="password_confirmation" type="password"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                                               placeholder="Confirm password" required
+                                               autocomplete="new-password"/>
+                                    </div>
+                                    <div  class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="phone" name="phone" type="text"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="Phone" required
+                                               autocomplete="phone" value=""/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 mb-3 pe-md-1">
+                                        <input id="school_college" name="school_college" type="text" placeholder="Please enter last school/college attended"
+                                               class="border-dark px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full "
+                                               placeholder="School/College" required
+                                               autocomplete="school_college" value=""/>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1">
+                                        <select name="gender" id="gender" class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example">
+                                            <option value="">Select Gender</option>
+                                            <option value="1" >Female</option>
+
+                                        </select>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1">
+                                        <select name="country_id" id="country" class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example">
+                                            <option value="">Select Country</option>
+                                                                                            <option value="1" >Afghanistan</option>
+                                                                                            <option value="2" >Aland Islands</option>
+                                                                                            <option value="3" >Albania</option>
+                                                                                            <option value="4" >Algeria</option>
+                                                                                            <option value="5" >American Samoa</option>
+                                                                                            <option value="6" >Andorra</option>
+                                                                                            <option value="7" >Angola</option>
+                                                                                            <option value="8" >Anguilla</option>
+                                                                                            <option value="9" >Antarctica</option>
+                                                                                            <option value="10" >Antigua and Barbuda</option>
+                                                                                            <option value="11" >Argentina</option>
+                                                                                            <option value="12" >Armenia</option>
+                                                                                            <option value="13" >Aruba</option>
+                                                                                            <option value="14" >Australia</option>
+                                                                                            <option value="15" >Austria</option>
+                                                                                            <option value="16" >Azerbaijan</option>
+                                                                                            <option value="17" >The Bahamas</option>
+                                                                                            <option value="18" >Bahrain</option>
+                                                                                            <option value="19" >Bangladesh</option>
+                                                                                            <option value="20" >Barbados</option>
+                                                                                            <option value="21" >Belarus</option>
+                                                                                            <option value="22" >Belgium</option>
+                                                                                            <option value="23" >Belize</option>
+                                                                                            <option value="24" >Benin</option>
+                                                                                            <option value="25" >Bermuda</option>
+                                                                                            <option value="26" >Bhutan</option>
+                                                                                            <option value="27" >Bolivia</option>
+                                                                                            <option value="28" >Bosnia and Herzegovina</option>
+                                                                                            <option value="29" >Botswana</option>
+                                                                                            <option value="30" >Bouvet Island</option>
+                                                                                            <option value="31" >Brazil</option>
+                                                                                            <option value="32" >British Indian Ocean Territory</option>
+                                                                                            <option value="33" >Brunei</option>
+                                                                                            <option value="34" >Bulgaria</option>
+                                                                                            <option value="35" >Burkina Faso</option>
+                                                                                            <option value="36" >Burundi</option>
+                                                                                            <option value="37" >Cambodia</option>
+                                                                                            <option value="38" >Cameroon</option>
+                                                                                            <option value="39" >Canada</option>
+                                                                                            <option value="40" >Cape Verde</option>
+                                                                                            <option value="41" >Cayman Islands</option>
+                                                                                            <option value="42" >Central African Republic</option>
+                                                                                            <option value="43" >Chad</option>
+                                                                                            <option value="44" >Chile</option>
+                                                                                            <option value="45" >China</option>
+                                                                                            <option value="46" >Christmas Island</option>
+                                                                                            <option value="47" >Cocos (Keeling) Islands</option>
+                                                                                            <option value="48" >Colombia</option>
+                                                                                            <option value="49" >Comoros</option>
+                                                                                            <option value="50" >Congo</option>
+                                                                                            <option value="51" >Democratic Republic of the Congo</option>
+                                                                                            <option value="52" >Cook Islands</option>
+                                                                                            <option value="53" >Costa Rica</option>
+                                                                                            <option value="54" >Cote D&#039;Ivoire (Ivory Coast)</option>
+                                                                                            <option value="55" >Croatia</option>
+                                                                                            <option value="56" >Cuba</option>
+                                                                                            <option value="57" >Cyprus</option>
+                                                                                            <option value="58" >Czech Republic</option>
+                                                                                            <option value="59" >Denmark</option>
+                                                                                            <option value="60" >Djibouti</option>
+                                                                                            <option value="61" >Dominica</option>
+                                                                                            <option value="62" >Dominican Republic</option>
+                                                                                            <option value="63" >Timor-Leste</option>
+                                                                                            <option value="64" >Ecuador</option>
+                                                                                            <option value="65" >Egypt</option>
+                                                                                            <option value="66" >El Salvador</option>
+                                                                                            <option value="67" >Equatorial Guinea</option>
+                                                                                            <option value="68" >Eritrea</option>
+                                                                                            <option value="69" >Estonia</option>
+                                                                                            <option value="70" >Ethiopia</option>
+                                                                                            <option value="71" >Falkland Islands</option>
+                                                                                            <option value="72" >Faroe Islands</option>
+                                                                                            <option value="73" >Fiji Islands</option>
+                                                                                            <option value="74" >Finland</option>
+                                                                                            <option value="75" >France</option>
+                                                                                            <option value="76" >French Guiana</option>
+                                                                                            <option value="77" >French Polynesia</option>
+                                                                                            <option value="78" >French Southern Territories</option>
+                                                                                            <option value="79" >Gabon</option>
+                                                                                            <option value="80" >Gambia The</option>
+                                                                                            <option value="81" >Georgia</option>
+                                                                                            <option value="82" >Germany</option>
+                                                                                            <option value="83" >Ghana</option>
+                                                                                            <option value="84" >Gibraltar</option>
+                                                                                            <option value="85" >Greece</option>
+                                                                                            <option value="86" >Greenland</option>
+                                                                                            <option value="87" >Grenada</option>
+                                                                                            <option value="88" >Guadeloupe</option>
+                                                                                            <option value="89" >Guam</option>
+                                                                                            <option value="90" >Guatemala</option>
+                                                                                            <option value="91" >Guernsey and Alderney</option>
+                                                                                            <option value="92" >Guinea</option>
+                                                                                            <option value="93" >Guinea-Bissau</option>
+                                                                                            <option value="94" >Guyana</option>
+                                                                                            <option value="95" >Haiti</option>
+                                                                                            <option value="96" >Heard Island and McDonald Islands</option>
+                                                                                            <option value="97" >Honduras</option>
+                                                                                            <option value="98" >Hong Kong S.A.R.</option>
+                                                                                            <option value="99" >Hungary</option>
+                                                                                            <option value="100" >Iceland</option>
+                                                                                            <option value="101" >India</option>
+                                                                                            <option value="102" >Indonesia</option>
+                                                                                            <option value="103" >Iran</option>
+                                                                                            <option value="104" >Iraq</option>
+                                                                                            <option value="105" >Ireland</option>
+                                                                                            <option value="106" >Israel</option>
+                                                                                            <option value="107" >Italy</option>
+                                                                                            <option value="108" >Jamaica</option>
+                                                                                            <option value="109" >Japan</option>
+                                                                                            <option value="110" >Jersey</option>
+                                                                                            <option value="111" >Jordan</option>
+                                                                                            <option value="112" >Kazakhstan</option>
+                                                                                            <option value="113" >Kenya</option>
+                                                                                            <option value="114" >Kiribati</option>
+                                                                                            <option value="115" >North Korea</option>
+                                                                                            <option value="116" >South Korea</option>
+                                                                                            <option value="117" >Kuwait</option>
+                                                                                            <option value="118" >Kyrgyzstan</option>
+                                                                                            <option value="119" >Laos</option>
+                                                                                            <option value="120" >Latvia</option>
+                                                                                            <option value="121" >Lebanon</option>
+                                                                                            <option value="122" >Lesotho</option>
+                                                                                            <option value="123" >Liberia</option>
+                                                                                            <option value="124" >Libya</option>
+                                                                                            <option value="125" >Liechtenstein</option>
+                                                                                            <option value="126" >Lithuania</option>
+                                                                                            <option value="127" >Luxembourg</option>
+                                                                                            <option value="128" >Macau S.A.R.</option>
+                                                                                            <option value="129" >North Macedonia</option>
+                                                                                            <option value="130" >Madagascar</option>
+                                                                                            <option value="131" >Malawi</option>
+                                                                                            <option value="132" >Malaysia</option>
+                                                                                            <option value="133" >Maldives</option>
+                                                                                            <option value="134" >Mali</option>
+                                                                                            <option value="135" >Malta</option>
+                                                                                            <option value="136" >Man (Isle of)</option>
+                                                                                            <option value="137" >Marshall Islands</option>
+                                                                                            <option value="138" >Martinique</option>
+                                                                                            <option value="139" >Mauritania</option>
+                                                                                            <option value="140" >Mauritius</option>
+                                                                                            <option value="141" >Mayotte</option>
+                                                                                            <option value="142" >Mexico</option>
+                                                                                            <option value="143" >Micronesia</option>
+                                                                                            <option value="144" >Moldova</option>
+                                                                                            <option value="145" >Monaco</option>
+                                                                                            <option value="146" >Mongolia</option>
+                                                                                            <option value="147" >Montenegro</option>
+                                                                                            <option value="148" >Montserrat</option>
+                                                                                            <option value="149" >Morocco</option>
+                                                                                            <option value="150" >Mozambique</option>
+                                                                                            <option value="151" >Myanmar</option>
+                                                                                            <option value="152" >Namibia</option>
+                                                                                            <option value="153" >Nauru</option>
+                                                                                            <option value="154" >Nepal</option>
+                                                                                            <option value="155" >Bonaire, Sint Eustatius and Saba</option>
+                                                                                            <option value="156" >Netherlands</option>
+                                                                                            <option value="157" >New Caledonia</option>
+                                                                                            <option value="158" >New Zealand</option>
+                                                                                            <option value="159" >Nicaragua</option>
+                                                                                            <option value="160" >Niger</option>
+                                                                                            <option value="161" >Nigeria</option>
+                                                                                            <option value="162" >Niue</option>
+                                                                                            <option value="163" >Norfolk Island</option>
+                                                                                            <option value="164" >Northern Mariana Islands</option>
+                                                                                            <option value="165" >Norway</option>
+                                                                                            <option value="166" >Oman</option>
+                                                                                            <option value="167" >Pakistan</option>
+                                                                                            <option value="168" >Palau</option>
+                                                                                            <option value="169" >Palestinian Territory Occupied</option>
+                                                                                            <option value="170" >Panama</option>
+                                                                                            <option value="171" >Papua New Guinea</option>
+                                                                                            <option value="172" >Paraguay</option>
+                                                                                            <option value="173" >Peru</option>
+                                                                                            <option value="174" >Philippines</option>
+                                                                                            <option value="175" >Pitcairn Island</option>
+                                                                                            <option value="176" >Poland</option>
+                                                                                            <option value="177" >Portugal</option>
+                                                                                            <option value="178" >Puerto Rico</option>
+                                                                                            <option value="179" >Qatar</option>
+                                                                                            <option value="180" >Reunion</option>
+                                                                                            <option value="181" >Romania</option>
+                                                                                            <option value="182" >Russia</option>
+                                                                                            <option value="183" >Rwanda</option>
+                                                                                            <option value="184" >Saint Helena</option>
+                                                                                            <option value="185" >Saint Kitts and Nevis</option>
+                                                                                            <option value="186" >Saint Lucia</option>
+                                                                                            <option value="187" >Saint Pierre and Miquelon</option>
+                                                                                            <option value="188" >Saint Vincent and the Grenadines</option>
+                                                                                            <option value="189" >Saint-Barthelemy</option>
+                                                                                            <option value="190" >Saint-Martin (French part)</option>
+                                                                                            <option value="191" >Samoa</option>
+                                                                                            <option value="192" >San Marino</option>
+                                                                                            <option value="193" >Sao Tome and Principe</option>
+                                                                                            <option value="194" >Saudi Arabia</option>
+                                                                                            <option value="195" >Senegal</option>
+                                                                                            <option value="196" >Serbia</option>
+                                                                                            <option value="197" >Seychelles</option>
+                                                                                            <option value="198" >Sierra Leone</option>
+                                                                                            <option value="199" >Singapore</option>
+                                                                                            <option value="200" >Slovakia</option>
+                                                                                            <option value="201" >Slovenia</option>
+                                                                                            <option value="202" >Solomon Islands</option>
+                                                                                            <option value="203" >Somalia</option>
+                                                                                            <option value="204" >South Africa</option>
+                                                                                            <option value="205" >South Georgia</option>
+                                                                                            <option value="206" >South Sudan</option>
+                                                                                            <option value="207" >Spain</option>
+                                                                                            <option value="208" >Sri Lanka</option>
+                                                                                            <option value="209" >Sudan</option>
+                                                                                            <option value="210" >Suriname</option>
+                                                                                            <option value="211" >Svalbard and Jan Mayen Islands</option>
+                                                                                            <option value="212" >Eswatini</option>
+                                                                                            <option value="213" >Sweden</option>
+                                                                                            <option value="214" >Switzerland</option>
+                                                                                            <option value="215" >Syria</option>
+                                                                                            <option value="216" >Taiwan</option>
+                                                                                            <option value="217" >Tajikistan</option>
+                                                                                            <option value="218" >Tanzania</option>
+                                                                                            <option value="219" >Thailand</option>
+                                                                                            <option value="220" >Togo</option>
+                                                                                            <option value="221" >Tokelau</option>
+                                                                                            <option value="222" >Tonga</option>
+                                                                                            <option value="223" >Trinidad and Tobago</option>
+                                                                                            <option value="224" >Tunisia</option>
+                                                                                            <option value="225" >Turkey</option>
+                                                                                            <option value="226" >Turkmenistan</option>
+                                                                                            <option value="227" >Turks and Caicos Islands</option>
+                                                                                            <option value="228" >Tuvalu</option>
+                                                                                            <option value="229" >Uganda</option>
+                                                                                            <option value="230" >Ukraine</option>
+                                                                                            <option value="231" >United Arab Emirates</option>
+                                                                                            <option value="232" >United Kingdom</option>
+                                                                                            <option value="233" >United States</option>
+                                                                                            <option value="234" >United States Minor Outlying Islands</option>
+                                                                                            <option value="235" >Uruguay</option>
+                                                                                            <option value="236" >Uzbekistan</option>
+                                                                                            <option value="237" >Vanuatu</option>
+                                                                                            <option value="238" >Vatican City State (Holy See)</option>
+                                                                                            <option value="239" >Venezuela</option>
+                                                                                            <option value="240" >Vietnam</option>
+                                                                                            <option value="241" >Virgin Islands (British)</option>
+                                                                                            <option value="242" >Virgin Islands (US)</option>
+                                                                                            <option value="243" >Wallis and Futuna Islands</option>
+                                                                                            <option value="244" >Western Sahara</option>
+                                                                                            <option value="245" >Yemen</option>
+                                                                                            <option value="246" >Zambia</option>
+                                                                                            <option value="247" >Zimbabwe</option>
+                                                                                            <option value="248" >Kosovo</option>
+                                                                                            <option value="249" >Curaçao</option>
+                                                                                            <option value="250" >Sint Maarten (Dutch part)</option>
+                                                                                    </select>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1">
+                                        <select name="state_id" id="state" class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example">
+                                            <option value="">Select State</option>
+                                                                                            <option value="1" >Southern Nations, Nationalities, and Peoples&#039; Region</option>
+                                                                                            <option value="2" >Somali Region</option>
+                                                                                            <option value="3" >Amhara Region</option>
+                                                                                            <option value="4" >Tigray Region</option>
+                                                                                            <option value="5" >Oromia Region</option>
+                                                                                            <option value="6" >Afar Region</option>
+                                                                                            <option value="7" >Harari Region</option>
+                                                                                            <option value="8" >Dire Dawa</option>
+                                                                                            <option value="9" >Benishangul-Gumuz Region</option>
+                                                                                            <option value="10" >Gambela Region</option>
+                                                                                            <option value="11" >Addis Ababa</option>
+                                                                                            <option value="12" >Petnjica Municipality</option>
+                                                                                            <option value="13" >Bar Municipality</option>
+                                                                                            <option value="14" >Danilovgrad Municipality</option>
+                                                                                            <option value="15" >Rožaje Municipality</option>
+                                                                                            <option value="16" >Plužine Municipality</option>
+                                                                                            <option value="17" >Nikšić Municipality</option>
+                                                                                            <option value="18" >Šavnik Municipality</option>
+                                                                                            <option value="19" >Plav Municipality</option>
+                                                                                            <option value="20" >Pljevlja Municipality</option>
+                                                                                            <option value="21" >Berane Municipality</option>
+                                                                                            <option value="22" >Mojkovac Municipality</option>
+                                                                                            <option value="23" >Andrijevica Municipality</option>
+                                                                                            <option value="24" >Gusinje Municipality</option>
+                                                                                            <option value="25" >Bijelo Polje Municipality</option>
+                                                                                            <option value="26" >Kotor Municipality</option>
+                                                                                            <option value="27" >Podgorica Municipality</option>
+                                                                                            <option value="28" >Old Royal Capital Cetinje</option>
+                                                                                            <option value="29" >Tivat Municipality</option>
+                                                                                            <option value="30" >Budva Municipality</option>
+                                                                                            <option value="31" >Kolašin Municipality</option>
+                                                                                            <option value="32" >Žabljak Municipality</option>
+                                                                                            <option value="33" >Ulcinj Municipality</option>
+                                                                                            <option value="34" >Kunene Region</option>
+                                                                                            <option value="35" >Kavango West Region</option>
+                                                                                            <option value="36" >Kavango East Region</option>
+                                                                                            <option value="37" >Oshana Region</option>
+                                                                                            <option value="38" >Hardap Region</option>
+                                                                                            <option value="39" >Omusati Region</option>
+                                                                                            <option value="40" >Ohangwena Region</option>
+                                                                                            <option value="41" >Omaheke Region</option>
+                                                                                            <option value="42" >Oshikoto Region</option>
+                                                                                            <option value="43" >Erongo Region</option>
+                                                                                            <option value="44" >Khomas Region</option>
+                                                                                            <option value="45" >Karas Region</option>
+                                                                                            <option value="46" >Otjozondjupa Region</option>
+                                                                                            <option value="47" >Zambezi Region</option>
+                                                                                            <option value="48" >Ashanti</option>
+                                                                                            <option value="49" >Western</option>
+                                                                                            <option value="50" >Eastern</option>
+                                                                                    </select>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1">
+                                        <select name="city_id" id="city" class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example">
+                                            <option value="">Select City</option>
+                                                                                            <option value="1" >Andorra la Vella</option>
+                                                                                            <option value="2" >Arinsal</option>
+                                                                                            <option value="3" >Canillo</option>
+                                                                                            <option value="4" >El Tarter</option>
+                                                                                            <option value="5" >Encamp</option>
+                                                                                            <option value="6" >Ordino</option>
+                                                                                            <option value="7" >Pas de la Casa</option>
+                                                                                            <option value="8" >Sant Julià de Lòria</option>
+                                                                                            <option value="9" >la Massana</option>
+                                                                                            <option value="10" >les Escaldes</option>
+                                                                                            <option value="11" >Abu Dhabi Island and Internal Islands City</option>
+                                                                                            <option value="12" >Abu Dhabi Municipality</option>
+                                                                                            <option value="13" >Adh Dhayd</option>
+                                                                                            <option value="14" >Ajman</option>
+                                                                                            <option value="15" >Ajman City</option>
+                                                                                            <option value="16" >Al Ain City</option>
+                                                                                            <option value="17" >Al Ain Municipality</option>
+                                                                                            <option value="18" >Al Batayih</option>
+                                                                                            <option value="19" >Al Dhafra</option>
+                                                                                            <option value="20" >Al Fujairah City</option>
+                                                                                            <option value="21" >Al Fujairah Municipality</option>
+                                                                                            <option value="22" >Al Hamriyah</option>
+                                                                                            <option value="23" >Al Madam</option>
+                                                                                            <option value="24" >Al Shamkhah City</option>
+                                                                                            <option value="25" >Ruwais</option>
+                                                                                            <option value="26" >Bani Yas City</option>
+                                                                                            <option value="27" >Dhaid</option>
+                                                                                            <option value="28" >Dibba Al Fujairah Municipality</option>
+                                                                                            <option value="29" >Dibba Al Hesn</option>
+                                                                                            <option value="30" >Dibba Al-Fujairah</option>
+                                                                                            <option value="31" >Dibba Al-Hisn</option>
+                                                                                            <option value="32" >Dubai</option>
+                                                                                            <option value="33" >Kalba</option>
+                                                                                            <option value="34" >Khalifah A City</option>
+                                                                                            <option value="35" >Khawr Fakkān</option>
+                                                                                            <option value="36" >Khor Fakkan</option>
+                                                                                            <option value="37" >Manama</option>
+                                                                                            <option value="38" >Masfout</option>
+                                                                                            <option value="39" >Milehah</option>
+                                                                                            <option value="40" >Murbaḩ</option>
+                                                                                            <option value="41" >Musaffah</option>
+                                                                                            <option value="42" >Muzayri‘</option>
+                                                                                            <option value="43" >Ras Al Khaimah</option>
+                                                                                            <option value="44" >Ras Al Khaimah City</option>
+                                                                                            <option value="45" >Reef Al Fujairah City</option>
+                                                                                            <option value="46" >Sharjah</option>
+                                                                                            <option value="47" >Umm AL Quwain</option>
+                                                                                            <option value="48" >Umm Al Quwain City</option>
+                                                                                            <option value="49" >Zayed City</option>
+                                                                                            <option value="50" >Andkhoy</option>
+                                                                                    </select>
+                                                                            </div>
+                                    <div class="relative w-md-1/2 pe-md-1">
+                                                                                    <select class="form-select form-select-lg border-dark mb-3 p-3" aria-label="Large select example" name="course" id="course">
+                                                <option value="">Select Course</option>
+                                                                                                                                                            <option value="1" >
+                                                            B. Ed.
+                                                        </option>
+                                                                                                                                                                                                                <option value="2" >
+                                                            Ph.D. Education
+                                                        </option>
+                                                                                                                                                                                                                <option value="3" >
+                                                            B.A. (Hons. with Research) Liberal Arts
+                                                        </option>
+                                                                                                                                                                                                                <option value="6" >
+                                                            B.Sc. (Hons) Agriculture
+                                                        </option>
+                                                                                                                                                                                                                <option value="7" >
+                                                            M.A. Education
+                                                        </option>
+                                                                                                                                                                                                                <option value="8" >
+                                                            M.Sc. (Ag.) Agricultural Extension &amp; Education
+                                                        </option>
+                                                                                                                                                                                                                <option value="9" >
+                                                            Ph.D. Agronomy
+                                                        </option>
+                                                                                                                                                                                                                <option value="10" >
+                                                            M.Sc. Ag. Agronomy
+                                                        </option>
+                                                                                                                                                                                                                <option value="11" >
+                                                            Ph.D. Botany
+                                                        </option>
+                                                                                                                                                                                                                <option value="12" >
+                                                            M.Sc. Botany
+                                                        </option>
+                                                                                                                                                                                                                <option value="13" >
+                                                            Ph.D. Chemistry
+                                                        </option>
+                                                                                                                                                                                                                <option value="14" >
+                                                            M.Sc. Chemistry
+                                                        </option>
+                                                                                                                                                                                                                <option value="15" >
+                                                            Ph.D. Commerce
+                                                        </option>
+                                                                                                                                                                                                                <option value="16" >
+                                                            B.Com. (Hons with Research)
+                                                        </option>
+                                                                                                                                                                                                                <option value="17" >
+                                                            B.Tech. CSE
+                                                        </option>
+                                                                                                                                                                                                                <option value="18" >
+                                                            B.Tech. CSE Lateral/Migrated
+                                                        </option>
+                                                                                                                                                                                                                <option value="19" >
+                                                            BCA (Hons. with Research) with specialization in AIML
+                                                        </option>
+                                                                                                                                                                                                                <option value="20" >
+                                                            M.Tech. CSE
+                                                        </option>
+                                                                                                                                                                                                                <option value="21" >
+                                                            Ph.D. CSE
+                                                        </option>
+                                                                                                                                                                                                                <option value="22" >
+                                                            M.Sc. Agriculture (Agricultural Economics)
+                                                        </option>
+                                                                                                                                                                                                                <option value="23" >
+                                                            Ph.D. Economics
+                                                        </option>
+                                                                                                                                                                                                                <option value="24" >
+                                                            M.A/M. Sc. Economics
+                                                        </option>
+                                                                                                                                                                                                                <option value="25" >
+                                                            M.Com.
+                                                        </option>
+                                                                                                                                                                                                                <option value="26" >
+                                                            Ph.D. English
+                                                        </option>
+                                                                                                                                                                                                                <option value="27" >
+                                                            M.A. English
+                                                        </option>
+                                                                                                                                                                                                                <option value="28" >
+                                                            Ph.D. Entomology
+                                                        </option>
+                                                                                                                                                                                                                <option value="29" >
+                                                            M.Sc. Ag. (Entomology)
+                                                        </option>
+                                                                                                                                                                                                                <option value="30" >
+                                                            Ph.D. Food Technology
+                                                        </option>
+                                                                                                                                                                                                                <option value="31" >
+                                                            M.Sc. Food Science &amp; Technology
+                                                        </option>
+                                                                                                                                                                                                                <option value="32" >
+                                                            M.Tech. Food Technology
+                                                        </option>
+                                                                                                                                                                                                                <option value="33" >
+                                                            B.Tech. Food Technology
+                                                        </option>
+                                                                                                                                                                                                                <option value="34" >
+                                                            Ph.D. Horticulture (Vegetable Science)
+                                                        </option>
+                                                                                                                                                                                                                <option value="37" >
+                                                            M.Sc. Horticulture (Floriculture &amp; Landscaping)
+                                                        </option>
+                                                                                                                                                                                                                <option value="38" >
+                                                            B. Lib
+                                                        </option>
+                                                                                                                                                                                                                <option value="39" >
+                                                            Ph.D. Management
+                                                        </option>
+                                                                                                                                                                                                                <option value="40" >
+                                                            Master of Business Administration
+                                                        </option>
+                                                                                                                                                                                                                <option value="41" >
+                                                            BBA (Hons with Research)
+                                                        </option>
+                                                                                                                                                                                                                <option value="42" >
+                                                            Ph.D. Mathematics
+                                                        </option>
+                                                                                                                                                                                                                <option value="43" >
+                                                            M.Sc. Mathematics
+                                                        </option>
+                                                                                                                                                                                                                <option value="44" >
+                                                            B.Sc. (Hons with Research) Physical Sciences
+                                                        </option>
+                                                                                                                                                                                                                <option value="45" >
+                                                            Ph.D. Microbiology
+                                                        </option>
+                                                                                                                                                                                                                <option value="46" >
+                                                            M.Sc. Microbiology
+                                                        </option>
+                                                                                                                                                                                                                <option value="47" >
+                                                            B.Sc. (Hons with Research) Microbiology
+                                                        </option>
+                                                                                                                                                                                                                <option value="48" >
+                                                            Ph.D. Music
+                                                        </option>
+                                                                                                                                                                                                                <option value="49" >
+                                                            M.A. Music
+                                                        </option>
+                                                                                                                                                                                                                <option value="50" >
+                                                            B.A. (Hons with Research) Music
+                                                        </option>
+                                                                                                                                                                                                                <option value="51" >
+                                                            Ph.D. Nursing
+                                                        </option>
+                                                                                                                                                                                                                <option value="52" >
+                                                            M.Sc. Nursing
+                                                        </option>
+                                                                                                                                                                                                                <option value="53" >
+                                                            M.P.H
+                                                        </option>
+                                                                                                                                                                                                                <option value="56" >
+                                                            Certificate course on counseling ( Mental Health &amp; substance abuse)
+                                                        </option>
+                                                                                                                                                                                                                <option value="57" >
+                                                            Ph.D. Physics
+                                                        </option>
+                                                                                                                                                                                                                <option value="58" >
+                                                            M.Sc. Physics
+                                                        </option>
+                                                                                                                                                                                                                <option value="59" >
+                                                            M.Sc. Ag. (Plant Pathology)
+                                                        </option>
+                                                                                                                                                                                                                <option value="60" >
+                                                            Ph.D. Psychology
+                                                        </option>
+                                                                                                                                                                                                                <option value="61" >
+                                                            M.Sc. Psychology
+                                                        </option>
+                                                                                                                                                                                                                <option value="62" >
+                                                            B.Sc. (Hons with Research) Psychology
+                                                        </option>
+                                                                                                                                                                                                                <option value="63" >
+                                                            Ph.D. Punjabi
+                                                        </option>
+                                                                                                                                                                                                                <option value="64" >
+                                                            M.A. (Hons) Punjabi
+                                                        </option>
+                                                                                                                                                                                                                <option value="65" >
+                                                            M.Sc. Ag. Soil Science
+                                                        </option>
+                                                                                                                                                                                                                <option value="66" >
+                                                            Ph.D. Zoology
+                                                        </option>
+                                                                                                                                                                                                                <option value="67" >
+                                                            M.Sc. Zoology
+                                                        </option>
+                                                                                                                                                                                                                <option value="68" >
+                                                            B.Sc. (Hons with Research) Life Sciences
+                                                        </option>
+                                                                                                                                                                                                                <option value="69" >
+                                                            Ph.D. Genetics &amp; Plant Breeding
+                                                        </option>
+                                                                                                                                                                                                                <option value="70" >
+                                                            M.Sc. Ag. (Genetics &amp; Plant Breeding)
+                                                        </option>
+                                                                                                                                                                                                                <option value="81" >
+                                                            M.Sc. Horticulture (Vegetable Science)
+                                                        </option>
+                                                                                                                                                                                                                <option value="88" >
+                                                            Ph.D Plant Pathology
+                                                        </option>
+                                                                                                                                                                                                                <option value="89" >
+                                                            B.A/B.Sc. (Hons with Research) Economics
+                                                        </option>
+                                                                                                                                                                                                                <option value="90" >
+                                                            BCA (Hons. With Research)
+                                                        </option>
+                                                                                                                                                                                                                <option value="91" >
+                                                            Ph.D Molecular Biology &amp; Biotechnology
+                                                        </option>
+                                                                                                                                                                                                                <option value="92" >
+                                                            M.Sc.  Molecular Biology &amp; Biotechnology
+                                                        </option>
+                                                                                                                                                                                                                <option value="93" >
+                                                            B.Sc. (Hons with Research) Culinary Arts
+                                                        </option>
+                                                                                                                                                                                                                <option value="94" >
+                                                            B.Sc. (Hons with Research) Hospitality Management
+                                                        </option>
+                                                                                                                                                                                                                <option value="95" >
+                                                            Certificate Course in Geriatric Care Assistant
+                                                        </option>
+                                                                                                                                                                                                                <option value="96" >
+                                                            M.Sc. Horticulture (Fruit Science)
+                                                        </option>
+                                                                                                                                                </select>
+                                                                                                                    </div>
+                                    <div class="form-group w-full mt-0">
+                                        <div class="d-flex justify-center">
+                                            <img style="height:75px;" src="https://portal.eternaluniversity.edu.in/captcha" id="captcha-image">
+                                            <button type="button" class="btn btn-secondary ml-2" onclick="refreshCaptcha()">Refresh</button>
+                                        </div>
+                                        <input type="text" name="captcha" id="captcha" class="border-dark border px-3 py-3 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full mt-2" placeholder="Enter CAPTCHA">
+                                                                            </div>
+                                    <div class="text-center mt-6 w-full">
+                                        <button class="w-full bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150">
+                                            Register
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Function to populate states
+            function populateStates(countryId) {
+                if (countryId) {
+                    $.ajax({
+                        url: '/states/' + countryId,
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function(data) {
+                            $('#state').empty();
+                            $('#state').append('<option value="">Select a state</option>');
+                            $.each(data, function(key, value) {
+                                $('#state').append('<option valueソーシャルメディアの画像をアップロードする value="' + value.id + '" ' + (value.id == '' ? 'selected' : '') + '>' + value.name + '</option>');
+                            });
+                            // Trigger city population if state_id exists
+                            if ('') {
+                                populateCities('');
+                            }
+                        }
+                    });
+                } else {
+                    $('#state').empty();
+                    $('#state').append('<option value="">Select a state</option>');
+                    $('#city').empty();
+                    $('#city').append('<option value="">Select a City</option>');
+                }
+            }
+
+            // Function to populate cities
+            function populateCities(stateId) {
+                if (stateId) {
+                    $.ajax({
+                        url: '/cities/' + stateId,
+                        type: 'GET',
+                        dataType: 'json',
+                        success: function(data) {
+                            $('#city').empty();
+                            $('#city').append('<option value="">Select a City</option>');
+                            $.each(data, function(key, value) {
+                                $('#city').append('<option value="' + value.id + '" ' + (value.id == '' ? 'selected' : '') + '>' + value.name + '</option>');
+                            });
+                        }
+                    });
+                } else {
+                    $('#city').empty();
+                    $('#city').append('<option value="">Select a City</option>');
+                }
+            }
+
+            // Trigger state and city population on page load if old values exist
+            
+            $('#country').on('change', function() {
+                populateStates($(this).val());
+            });
+
+            $('#state').on('change', function() {
+                populateCities($(this).val());
+            });
+
+            refreshCaptcha(); // Refresh CAPTCHA on page load
+        });
+
+        function refreshCaptcha() {
+            document.getElementById('captcha-image').src = 'https://portal.eternaluniversity.edu.in/captcha' + '?' + Date.now();
+        }
+
+        function toggleIDField() {
+            var idType = document.getElementById('id_type').value;
+            document.getElementById('aadhar_field').style.display = 'none';
+            document.getElementById('passport_field').style.display = 'none';
+            if (idType === 'aadhar') {
+                document.getElementById('aadhar_field').style.display = 'block';
+            } else if (idType === 'passport') {
+                document.getElementById('passport_field').style.display = 'block';
+            }
+        }
+
+        $(document).ready(function() {
+            toggleIDField(); // Ensure correct ID field is shown on page load
+        });
+    </script>
+                </main>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-soft-secondary pt-12 pb-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 mb-10 mb-lg-0">
+                <h1 class="lh-tight ls-tight display-6 mb-7">
+                    Frequently asked questions :--
+                </h1>
+                <p class="lead">
+                    Here are some of the most frequent questions we get from our customer.<br><br>If you have any
+                    further questions, get in touch with our friendly team 😃
+                </p>
+            </div>
+            <div class="col-lg-7 ms-auto">
+                <div id="faqs" class="accordion accordion-flush mb-0">
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_1">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_1"
+                                aria-expanded="false" aria-controls="collapse_faq_1">
+                                <span class="h5 text-white">What are the eligibility criteria for admission to the programs?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_1" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_1" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    Before applying, please review the eligibility requirements specific to your chosen program.
+                                    You can find detailed criteria on the university website under each program's section.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_2">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_2"
+                                aria-expanded="false" aria-controls="collapse_faq_2">
+                                <span class="h5 text-white">How do I register on the ERP Portal?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_2" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_2" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    To Register :
+                                    <ul>
+                                    <li>Visit the ERP portal link provided by the university.</li>
+                                    <li>Click on "New Registration" and fill in the require detail like name, emai ID, mobile number, and other information.</li>
+                                    <li>Verify your email/mobile through OTP.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_3">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_3"
+                                aria-expanded="false" aria-controls="collapse_faq_3">
+                                <span class="h5 text-white">What documents are required for the online admission from?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_3" class="accordion-collapse collapse bg-gray-100 p-3"aria-labelledby="heading_faq_3" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    The commonly required documents include :
+                                    <ul>
+                                    <li>High school/Intermediate certificates on transcripts</li>
+                                    <li>Recent passport-size photoghrap</li>
+                                    <li>Signature in JEPG/PNG format</li>
+                                    <li>Government ID(Aadhaar card/passport)</li>
+                                    <li>Category certificate(if applicable)</li>
+                                    <li>Other program-specific documents</li>
+                                    </ul>
+                                Ensure these documents are scanned and ready in the prescribed format before starting the application.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_4">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_4"
+                                aria-expanded="false" aria-controls="collapse_faq_4">
+                                <span class="h5 text-white">What should I do if I issues while uploading documents?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_4" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_4" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    If you encounter issues while uploading documents :
+                                <ul>
+                                    <li>Check the file size and format(usually JEPG/PNG/PDF).</li>
+                                    <li>Ensure your internet connection is stable.</li>
+                                    <li>Try using a different browser or device.</li>
+                                    <li>If the problem presists, contact technical support.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_6">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_6"
+                                aria-expanded="false" aria-controls="collapse_faq_6">
+                                    <span
+                                        class="h5 text-white">How can I correct errors in my application form after submission?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_6" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_6" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                <ul>
+                                <li>Check if the portal always allows a "correction window" for updates.</li>
+                                <li>Contact the admission office for guidance on correcting any mistakes.</li>                                </p>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_7">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_7"
+                                aria-expanded="false" aria-controls="collapse_faq_7">
+                                    <span
+                                        class="h5 text-white">What should I do if I don't receive the OTP during registration?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_7" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_7" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                   If you don't receive the OTP :
+                                    <ul>
+                                        <li>Check your network connection or switch to another device.</li>
+                                        <li>Ensure that your phone number/email is correctly entered.</li>
+                                        <li>Resend the OTP after a few mintues.</li>
+                                        <li>If the issue persists,contact the technical support team.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_8">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_8"
+                                aria-expanded="false" aria-controls="collapse_faq_8">
+                                    <span
+                                        class="h5 text-white">How do I pay the application fee?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_8" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_8" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                   You can pay the fee using online payment methods such as:
+                                <ul>
+                                    <li>Credit/Debit Card.</li>
+                                    <li>Net Banking.</li>
+                                    <li>UPI after successful payment, make sure to download the fee receipt for future reference.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_9">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_9"
+                                aria-expanded="false" aria-controls="collapse_faq_9">
+                                    <span
+                                        class="h5 text-white">What should I do if my payment fails?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_9" class="accordion-collapse collapse bg-gray-100 p-3"aria-labelledby="heading_faq_9" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    If your payment fails :
+                                    <ul>
+                                        <li>Wait for 24 hours to check if the payment is updated in the system.</li>
+                                        <li>If not,try making the payment again using another method.</li>
+                                        <li>If money was deducted without confirmation, contact your bank and the university's support team.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_10">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_10"
+                                aria-expanded="false" aria-controls="collapse_faq_10">
+                                    <span
+                                        class="h5 text-white">Can I apply to multiple programs using a single application?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_10" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_10" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    In most cases, separate applications are required for different programs. However, check with
+                                    the sepecific university guidelines, as some may allow multiple applications within a single form.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_11">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_11"
+                                aria-expanded="false" aria-controls="collapse_faq_11">
+                                    <span
+                                        class="h5 text-white">How will I know if my application has been successfully submitted?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_11" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_11" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    One the form is submitted, you will receive a confirmation email/SMS. You can also check the status
+                                    of your application by logging into your ERP portal dashboard.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_12">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_12"
+                                aria-expanded="false" aria-controls="collapse_faq_12">
+                                    <span
+                                        class="h5 text-white">How do I track my application status after submission?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_12" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_12" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    You can track your application status by:
+                                    <ul>
+                                        <li>Logging into the ERP portal with your credentials.</li>
+                                        <li>Navigating to the "Applications Status" section for real-time updates.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_13">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_13"
+                                aria-expanded="false" aria-controls="collapse_faq_13">
+                                    <span
+                                        class="h5 text-white">What should I do if the website if slow or not responding?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_13" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_13" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    If you experience slow loading or downtime:
+                                <ul>
+                                    <li>Clear your browser cache and cookies.</li>
+                                    <li>Switch to another browser or device.</li>
+                                    <li>Try accessing the portal during non-peak hours.</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_14">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_14"
+                                aria-expanded="false" aria-controls="collapse_faq_14">
+                                    <span
+                                        class="h5 text-white">How do I know if my documents are verified</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_14" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_14" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    The university will send you a confirmation message once your documents are verified.
+                                    You can also check the status in the ERP portal under the "Documents Verification" section.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_15"><button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_15"
+                                aria-expanded="false" aria-controls="collapse_faq_15">
+                                    <span
+                                        class="h5 text-white">What are the deadlines for submitting the application?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_15" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_15" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    The deadlines for application submission vary by program. Check the university's official admission page
+                                    for important dates, or stay updated through notification in your ERP portal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_16">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_16"
+                                aria-expanded="false" aria-controls="collapse_faq_16">
+                                    <span
+                                        class="h5 text-white">Who can I contact if I face issues during the application process?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_16" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_16" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    If you face any issues, contact:
+                                    <ul>
+                                        <li>The technical support team for ERP related porblems(via the portal's helpdesk or university helpline)</li>
+                                        <li>The admission office for admission-related queries</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_17">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_17"
+                                aria-expanded="false" aria-controls="collapse_faq_17">
+                                    <span
+                                        class="h5 text-white">How do i cancel my application or withdraw any admission?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_17" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_17" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    To cancel your application or withdraw, contact the admissions office through the provided
+                                    channels on the ERP portal or by email. Follow the university's policy on refund and cancellation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border-0 mb-1">
+                        <h2 class="accordion-header" id="heading_faq_18">
+                            <button
+                                class="accordion-button px-0 py-4 collapsed ps-3 pe-3 bg-blue-700 text-white rounded-5"
+                                type="button" data-bs-toggle="collapse" data-bs-target="#collapse_faq_18"
+                                aria-expanded="false" aria-controls="collapse_faq_18">
+                                    <span
+                                        class="h5 text-white">Can I apply offline if I face diffculties with the ERP portal?</span>
+                            </button>
+                        </h2>
+                        <div id="collapse_faq_18" class="accordion-collapse collapse bg-gray-100 p-3"
+                             aria-labelledby="heading_faq_18" data-bs-parent="#faqs">
+                            <div class="accordion-body px-0">
+                                <p>
+                                    Most admissions are now processed online. However if you face persistent issues, contact the admissions team to explore alternative methods.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pt-12 pb-12">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-5 mt-lg-0">
+                <!-- Title -->
+                <h1 class="lh-tight ls-tight display-6 mb-7">About Eternal University</h1>
+                <p class="mb-3 mb-lg-4 text-justify" style="text-align: justify;">Eternal university is NAAC
+                    Accredited &amp; ISO 9001: 2015
+                    Certified University established under the Himachal Pradesh Private University (Establishment
+                    &amp;
+                    Regulation) Act 2006 &amp; Himachal Pradesh Government Act.no. 3 of 2009, with the right to
+                    confer
+                    degree as per the UGC public notice on private Universities dated April 18, 2011.<br> The great
+                    visionary of 20th century (Sant Attar Singh Ji) had a vision that modern scientific education
+                    alone will not serve the humanity well, until and unless it is amalgamated with Braham Vidya
+                    (Spiritual Education). The graduates of this unique education system will not only be
+                    outstanding in academics, but also will have high moral values (i.e. they will have love for
+                    humanity, compassion for the weak and the underdog, and sense of selfless service for the
+                    community). These graduates will work towards establishing permanent peace in the world. They
+                    will act as Ambassadors of Peace wherever they live, work and raise their families.</p>
+                <!-- Content -->
+            </div>
+            <div class="col-md-6 mb-4 mt-20">
+                
+                
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <iframe width="100%" height="315"
+                                    src="https://www.youtube.com/embed/dAVt1bp00Qw?si=aDZ19MGeO5tZNXe_"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="carousel-caption">
+                                <h5>Video 1</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <iframe width="100%" height="315"
+                                    src="https://www.youtube.com/embed/dAVt1bp00Qw?si=aDZ19MGeO5tZNXe_"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="carousel-caption">
+                                <h5>Video 2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <iframe width="100%" height="315"
+                                    src="https://www.youtube.com/embed/dAVt1bp00Qw?si=aDZ19MGeO5tZNXe_"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <div class="carousel-caption">
+                                <h5>Video 3</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-apple" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-apple" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="pt-12 pb-12 bg-soft-secondary">
+    <div class="container-fluid">
+        <div class="row mb-0">
+            <div class="col-md-12">
+                <div class="card mb-0">
+                    <h3 class="ls-tight font-bolder mt-1 pt-7 pb-7 mb-0 text-center"
+                        style="background: #ffffff!important; color: #084386; margin: 0; border-radius: 4px; font-size: 19.7px;">
+                        <i class="fa-solid fa-circle-question"></i> &nbsp; Need any assistance regarding filling the
+                        Online Admission Form ?... Please drop an email at &nbsp; <i class="fa-solid fa-envelope"></i>
+                        &nbsp; admissions@eternaluniversity.edu.in<br>
+                        <i class="fa-solid fa-phone"></i>&nbsp;+91 98164 00624, &nbsp;+91 98166 40660
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://webpixels.io/js/app.js?id=8cd624330d1f28f68b66f99aa3045bd8"></script>
+<footer class="bg-blue-700">
+    <div class="container-fluid">
+        <div class="row justify-content-center mb-0">
+            <div class="col-auto pt-4 pb-4">
+                <a href="https://iqwing.in"> <img
+                        src="https://himachal365.s3.ap-south-1.amazonaws.com/15677/646b7dfe0cbdc_IQwing-V5-Simple.png"
+                        class="h-7" alt="..."> </a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

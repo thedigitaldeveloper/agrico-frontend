@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-11T20:13:00.706Z",
+  "sourceHashes": {
+    "src/components/university/university-detail-view.tsx": "298db412a127d7784b2339cfa052e621e292e49e11aaa96e8a89dd2613c99f12",
+    "src/components/university/university-detail.css": "307b904a02fd7bf17d506d6eba38b610e2272fc4ffe8ee90e77ef9fa033c1c4b",
+    "src/components/university/university-hero.tsx": "d227caa6542226cdd2c51d2b1a61fad871f6daa55bb54c54537e3b0ef96781a1",
+    "src/components/university/university-spec-band.tsx": "e2d91de24465b483a29c19f278f48c4fbe82765e7b084542f0eeb6c69db2d1ce",
+    "src/app/rs.css": "ea72e03e6e6e9608e94e926646aa95a3a46a40c529fc818e99c19e2a41dd3e5b"
+  },
+  "buildId": "M7ac0KA22uD0uKZgZV-ie",
+  "checks": [
+    {
+      "width": 1440,
+      "httpStatus": 200,
+      "cmsMatches": true,
+      "oldClaimsAbsent": true,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "spacer": 0,
+      "bar": 0
+    },
+    {
+      "width": 390,
+      "httpStatus": 200,
+      "cmsMatches": true,
+      "oldClaimsAbsent": true,
+      "viewport": 390,
+      "documentWidth": 390,
+      "spacer": 96,
+      "bar": 61
+    },
+    {
+      "width": 360,
+      "httpStatus": 200,
+      "cmsMatches": true,
+      "oldClaimsAbsent": true,
+      "viewport": 360,
+      "documentWidth": 360,
+      "spacer": 96,
+      "bar": 77
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "mutations": [],
+  "cms": {
+    "slug": "parul-university-online",
+    "name": "Parul University Online",
+    "highlights": [
+      {
+        "key": "Accreditation details",
+        "value": "Check the current institutional accreditation record and the recognition applicable to your chosen programme and admission session."
+      },
+      {
+        "key": "Management specialisations",
+        "value": "Compare the currently available MBA specialisations, subject choices and entry requirements for your preferred intake."
+      },
+      {
+        "key": "Career resources",
+        "value": "Ask about career guidance, recruitment activities and programme-specific access. Employment and salary outcomes vary by student and role."
+      },
+      {
+        "key": "Payment options",
+        "value": "Compare semester fees and available instalment plans. Confirm interest, additional charges, eligibility and payment terms before enrolling."
+      }
+    ]
+  },
+  "status": "passed"
+}

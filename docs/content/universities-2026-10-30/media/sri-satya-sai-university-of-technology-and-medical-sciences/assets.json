@@ -1,0 +1,49 @@
+{
+  "id": 47,
+  "slug": "sri-satya-sai-university-of-technology-and-medical-sciences",
+  "name": "Sri Satya Sai University of Technology and Medical Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sri-satya-sai-university-of-technology-and-medical-sciences/campus_primary-verified.jpg",
+      "source_page": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/1390/2024/1/24/Campus%20Entrance%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Campus-View.jpg",
+      "source_kind": "secondary",
+      "description": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+      "alt": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+      "campus": "Sehore, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Named university Careers360 gallery, full university name and SSSUTMS visibly printed on the entrance.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Careers360 / institution",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Authentic source is below preferred 800px photo width; retained at original resolution without upscaling.",
+      "width": 720,
+      "height": 480,
+      "sha256": "de6634a4f53ededf119f1275879b2f3df6054bb25c426f201a68d3d172ba57a6"
+    },
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sri-satya-sai-university-of-technology-and-medical-sciences/logo-verified.jpg",
+      "source_page": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/1390/2024/1/24/Logo%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Logo.png",
+      "source_kind": "secondary",
+      "description": "Sri Satya Sai University of Technology and Medical Sciences official emblem",
+      "alt": "Sri Satya Sai University of Technology and Medical Sciences official emblem",
+      "campus": "Sehore, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Institution-specific Careers360 university profile logo; full institution name and SSSUTMS mark identify the Sehore university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Careers360 / institution",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 140,
+      "height": 140,
+      "sha256": "61fd22b71b81e3808e077ec31b150c4429c66773fe90476bd6e1886b6a6d7483"
+    }
+  ],
+  "gaps": []
+}

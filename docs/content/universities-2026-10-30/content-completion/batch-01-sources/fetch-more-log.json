@@ -1,0 +1,375 @@
+[
+  {
+    "url": "https://www.apachc.in/ac/faculty.html",
+    "institution_ids": [
+      1
+    ],
+    "key": "192f8a57e29bc696",
+    "status": 200,
+    "final_url": "https://www.apachc.in/ac/faculty.html",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.apachc.in/ac/about-the-college.html",
+    "institution_ids": [
+      1
+    ],
+    "key": "72044eb69b641034",
+    "status": 200,
+    "final_url": "https://www.apachc.in/ac/about-the-college.html",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.apachc.in/ac/bsc-agriculture.html",
+    "institution_ids": [
+      1
+    ],
+    "key": "746712a843847761",
+    "status": 200,
+    "final_url": "https://www.apachc.in/ac/bsc-agriculture.html",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://acar.ac.in/index/faculty/",
+    "institution_ids": [
+      2
+    ],
+    "key": "0e3b93e676973f66",
+    "status": 200,
+    "final_url": "https://acar.ac.in/index/faculty/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png",
+    "institution_ids": [
+      2
+    ],
+    "key": "cddade11d60279fa",
+    "status": 200,
+    "final_url": "https://acar.ac.in/wp-content/uploads/2026/05/ACAR-Scholarship-Details-1.png",
+    "content_type": "image/png",
+    "image_file": "docs\\content\\universities-2026-10-30\\content-completion\\batch-01-sources\\cddade11d60279fa.png"
+  },
+  {
+    "url": "https://acar.ac.in/index/placements/",
+    "institution_ids": [
+      2
+    ],
+    "key": "9688d1ee420fbd4f",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://pgpagricollege.ac.in/departmental-faculty/",
+    "institution_ids": [
+      5
+    ],
+    "key": "a0692eed197e605f",
+    "status": 200,
+    "final_url": "https://pgpagricollege.ac.in/departmental-faculty/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://pgpagricollege.ac.in/contact/",
+    "institution_ids": [
+      5
+    ],
+    "key": "2e2e2135428a74f3",
+    "status": 200,
+    "final_url": "https://pgpagricollege.ac.in/contact-2/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://pushkaram.in/contact-us/",
+    "institution_ids": [
+      6
+    ],
+    "key": "b6a8dd845adeaffc",
+    "status": 200,
+    "final_url": "https://pushkaram.in/contact-us/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://tiac.rajas.edu/faculty/",
+    "institution_ids": [
+      7
+    ],
+    "key": "f28e314305234116",
+    "status": 200,
+    "final_url": "https://tiac.rajas.edu/faculty/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://palaragri.ac.in/faculties-agronomy/",
+    "institution_ids": [
+      8
+    ],
+    "key": "90b13b78ec906ed7",
+    "status": 200,
+    "final_url": "https://palaragri.ac.in/faculties-agronomy/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://palaragri.ac.in/scholarship-cell/",
+    "institution_ids": [
+      8
+    ],
+    "key": "6780fee27e70f926",
+    "status": 200,
+    "final_url": "https://palaragri.ac.in/scholarship-cell/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/academics/crop-management/",
+    "institution_ids": [
+      9
+    ],
+    "key": "52eaeca5899fe920",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/academics/crop-management/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/placement/",
+    "institution_ids": [
+      9
+    ],
+    "key": "4c06b31df8b49568",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/placement/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://upcollege.ac.in/about/faculty",
+    "institution_ids": [
+      10
+    ],
+    "key": "9491d7dccaebd4e9",
+    "status": 200,
+    "final_url": "https://upcollege.ac.in/about/faculty",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://upcollege.ac.in/about/contact",
+    "institution_ids": [
+      10
+    ],
+    "key": "ba31cde3a4452a38",
+    "status": 200,
+    "final_url": "https://upcollege.ac.in/about/contact",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.sbvr.in/agriculturecollege/faculty/",
+    "institution_ids": [
+      11
+    ],
+    "key": "0c2c34756aa2f7a5",
+    "status": 200,
+    "final_url": "https://www.sbvr.in/agriculturecollege/faculty/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://nsagri.ac.in/faculty",
+    "institution_ids": [
+      12
+    ],
+    "key": "76411b15dde7b9a7",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://skcas.ac.in/admissions/",
+    "institution_ids": [
+      13
+    ],
+    "key": "5b4e3e75849f8fe5",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.gadvasu.in/Welcome/download/document/225",
+    "institution_ids": [
+      14
+    ],
+    "key": "c3a2f9f3d656db99",
+    "status": 200,
+    "final_url": "https://www.gadvasu.in/Welcome/download/document/225",
+    "content_type": "application/octet-stream"
+  },
+  {
+    "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+    "institution_ids": [
+      15
+    ],
+    "key": "af1608f5ec0a865e",
+    "status": 200,
+    "final_url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "institution_ids": [
+      15
+    ],
+    "key": "b11774fe8d97d77c",
+    "status": 200,
+    "final_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://ghru.edu.in/bsc-agriculture",
+    "institution_ids": [
+      16
+    ],
+    "key": "93da456aa6207909",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/bsc-agriculture",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://ghru.edu.in/scholarship",
+    "institution_ids": [
+      16
+    ],
+    "key": "e096073ef7dc7afe",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/scholarship",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://ghru.edu.in/contact",
+    "institution_ids": [
+      16
+    ],
+    "key": "6bd024c10099375f",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/contact",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.jagannathuniversity.org/faculties/agriculture",
+    "institution_ids": [
+      17
+    ],
+    "key": "5e3dfdab01f8dae0",
+    "status": 200,
+    "final_url": "https://www.jagannathuniversity.org/faculties/agriculture",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.jagannathuniversity.org/faculties/agriculture/bsc-hons-agriculture",
+    "institution_ids": [
+      17
+    ],
+    "key": "4e4a5d02bf7e3f84",
+    "status": 200,
+    "final_url": "https://www.jagannathuniversity.org/faculties/agriculture/bsc-hons-agriculture",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.jagannathuniversity.org/contact-us",
+    "institution_ids": [
+      17
+    ],
+    "key": "c611e0d8221999d0",
+    "status": 200,
+    "final_url": "https://www.jagannathuniversity.org/contact-us",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.jnujaipur.ac.in/scholarships",
+    "institution_ids": [
+      18
+    ],
+    "key": "f597dc0637adb22a",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.jnujaipur.ac.in/contact-us",
+    "institution_ids": [
+      18
+    ],
+    "key": "26ab1e209acae123",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cuchd.in/contact/",
+    "institution_ids": [
+      19
+    ],
+    "key": "a8ade96f989e6e52",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/contact/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.cuchd.in/admissions/course-fee.php",
+    "institution_ids": [
+      19
+    ],
+    "key": "83214b218f003dfe",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/admissions/course-fee.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.cuchd.in/scholarship/",
+    "institution_ids": [
+      19
+    ],
+    "key": "27c44f732cc66efd",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/scholarship/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/fee",
+    "institution_ids": [
+      20
+    ],
+    "key": "1dadfecefc57b9b4",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/fee",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/content/university-scholarships",
+    "institution_ids": [
+      20
+    ],
+    "key": "ac42966d7d9b10dc",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/content/university-scholarships",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/ContactUs",
+    "institution_ids": [
+      20
+    ],
+    "key": "1c2a1e47b5ce966f",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/ContactUs",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/docs/final-prospectus-1to75-changes1(1)om23.9.2623.48FINALPPT(1)(3)38om9.55(1)(3)FINAL15.24.pdf",
+    "institution_ids": [
+      20
+    ],
+    "key": "f32868940caaf881",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/public-self-disclosure",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+    "institution_ids": [
+      11,
+      12,
+      13
+    ],
+    "key": "368fe82c38a20a41",
+    "status": 200,
+    "final_url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+    "content_type": "application/pdf"
+  }
+]

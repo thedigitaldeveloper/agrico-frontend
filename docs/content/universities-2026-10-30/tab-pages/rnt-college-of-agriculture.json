@@ -1,0 +1,4906 @@
+[
+  {
+    "id": "36:admission-process",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "admission-process",
+    "tab_label": "Admission Process",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/admission-process",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Admissions",
+    "meta_title": "RNT College of Agriculture | Admission Process",
+    "description": "Plan an application to RNT College of Agriculture by checking the exact qualification, selection route and intake-year notice for B.Sc. (Hons.) Agriculture.",
+    "summary": "Plan an application to RNT College of Agriculture by checking the exact qualification, selection route and intake-year notice for B.Sc. (Hons.) Agriculture.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Admission Process · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "admission-route",
+        "heading": "Which admission route applies?",
+        "paragraphs": [
+          "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules."
+        ],
+        "source_ids": [
+          "s3",
+          "s5"
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://rntagcollege.edu.in/Onlineadm.html"
+        }
+      },
+      {
+        "id": "admission-contacts",
+        "heading": "Official channels and public contact details",
+        "paragraphs": [
+          "Use the official channel for the exact programme and quota. Institution contacts below are public source details; ask the office to confirm the intended intake before applying."
+        ],
+        "table": {
+          "columns": [
+            "Contact / channel",
+            "Published information"
+          ],
+          "rows": [
+            [
+              "Admission information",
+              "[Official admission channel](https://rntagcollege.edu.in/Onlineadm.html)"
+            ],
+            [
+              "Institution website",
+              "[Institution website](https://rntagcollege.edu.in/)"
+            ],
+            [
+              "Public telephone",
+              "+91 74148 70774"
+            ],
+            [
+              "Public email",
+              "ag.dept@rntagcollege.edu.in"
+            ]
+          ]
+        },
+        "source_ids": [
+          "s1",
+          "s2",
+          "s5",
+          "s7"
+        ]
+      },
+      {
+        "id": "programme-eligibility",
+        "heading": "Programme-wise eligibility and selection",
+        "paragraphs": [
+          "The following requirements belong to the named programme. A university-wide entrance or eligibility statement should not be transferred to every degree."
+        ],
+        "table": {
+          "columns": [
+            "Programme",
+            "Published entry requirements",
+            "Admission / selection route"
+          ],
+          "rows": [
+            [
+              "[B.Sc. (Hons.) Agriculture](/bsc-agriculture)",
+              "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+              "Request the programme-specific selection rules."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "application-steps",
+        "heading": "Application steps for this institution",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "Confirm the course",
+            "paragraphs": [
+              "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+            ]
+          },
+          {
+            "heading": "Request the intake notice",
+            "paragraphs": [
+              "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+            ]
+          }
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "id": "documents-and-dates",
+        "heading": "Documents and dated notices",
+        "paragraphs": [
+          "A complete intake-specific document checklist is not confirmed in this research. Request it before submitting or paying; the questions below are preparation prompts, not an institution-issued checklist."
+        ],
+        "bullets": [
+          "Which qualifying-examination records and subject proofs are required?",
+          "Does your route require an entrance score, counselling registration or allotment letter?",
+          "Which category, domicile or scholarship documents apply to your own application?"
+        ],
+        "subsections": [
+          {
+            "heading": "Current application dates",
+            "paragraphs": [
+              "No current opening or closing date is quoted here without a verified dated notice. Follow the official admission link for the intended session."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "admission-costs",
+        "heading": "Check the offer before paying",
+        "paragraphs": [
+          "Read [RNT College of Agriculture courses and fees](/university/rnt-college-of-agriculture/course-fee) for source-specific amounts and charge scope. Check whether a concession is actually covered by the [scholarship policy](/university/rnt-college-of-agriculture/scholarship). An offer should identify your programme, campus, fee category and reporting requirements."
+        ]
+      },
+      {
+        "id": "admission-reading",
+        "heading": "Understand the route behind your application",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Prepare for agriculture admission counselling",
+            "path": "/blogs/prepare-for-agriculture-counselling",
+            "description": "Prepare a route-specific agriculture counselling folder, check subjects and certificates, order preferences and track official allotment instructions.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Admission Process: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "admission-route",
+        "title": "Which admission route applies?"
+      },
+      {
+        "id": "admission-contacts",
+        "title": "Official channels and public contact details"
+      },
+      {
+        "id": "programme-eligibility",
+        "title": "Programme-wise eligibility and selection"
+      },
+      {
+        "id": "application-steps",
+        "title": "Application steps for this institution"
+      },
+      {
+        "id": "documents-and-dates",
+        "title": "Documents and dated notices"
+      },
+      {
+        "id": "admission-costs",
+        "title": "Check the offer before paying"
+      },
+      {
+        "id": "admission-reading",
+        "title": "Understand the route behind your application"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Admission Process: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How does admission to RNT work?",
+        "answer": "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules. Confirm the course: Use the official programme contact to confirm that the listed degree is taking applications for your intended intake. Request the intake notice: Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "Which application documents does RNT list?",
+        "answer": "A complete institution-issued document list has not been verified. Use [the official application channel](/university/rnt-college-of-agriculture/admission-process) to obtain the checklist for B.Sc. (Hons.) Agriculture.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "Which dated admission notices are recorded for RNT?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://rntagcollege.edu.in/Onlineadm.html; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:course-fee",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "course-fee",
+    "tab_label": "Courses & Fees",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/course-fee",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Courses and Fees",
+    "meta_title": "RNT College of Agriculture | Courses & Fees",
+    "description": "Compare RNT College of Agriculture programmes, their duration and the fee period, source session and category behind each published amount. Unknown current prices are left unquoted.",
+    "summary": "Compare RNT College of Agriculture programmes, their duration and the fee period, source session and category behind each published amount. Unknown current prices are left unquoted.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Courses & Fees · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "programme-fee-table",
+        "heading": "Programmes, duration and sourced fees",
+        "paragraphs": [
+          "A semester price and an annual or total-course amount are different measures. The table retains the original period and session; do not assume the same price applies to another intake or quota."
+        ],
+        "table": {
+          "columns": [
+            "Programme",
+            "Duration / level",
+            "Published amount and session",
+            "What the figure covers"
+          ],
+          "rows": [
+            [
+              "B.Sc. (Hons.) Agriculture",
+              "8 semesters · Undergraduate",
+              "Current amount not verified",
+              "A dated fee schedule for the intended admission year has not been verified."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "programme-fee-notes",
+        "heading": "Fee categories, inclusions and exclusions",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "B.Sc. (Hons.) Agriculture",
+            "paragraphs": [
+              "A dated fee schedule for the intended admission year has not been verified."
+            ],
+            "source_ids": []
+          }
+        ]
+      },
+      {
+        "id": "study-and-entry",
+        "heading": "What each programme involves",
+        "paragraphs": [],
+        "subsections": [
+          {
+            "heading": "B.Sc. (Hons.) Agriculture",
+            "paragraphs": [
+              "The college’s undergraduate syllabus combines agricultural science with rural and industry learning."
+            ],
+            "source_ids": [
+              "s3",
+              "s4"
+            ]
+          }
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://rntagcollege.edu.in/Onlineadm.html"
+        }
+      },
+      {
+        "id": "total-cost-checks",
+        "heading": "Build a cost statement for your own offer",
+        "paragraphs": [
+          "Use the published charge notes above, then request anything not confirmed. The following table is a set of budgeting questions; it is not a claim that every listed charge is imposed by RNT College of Agriculture."
+        ],
+        "table": {
+          "columns": [
+            "Cost item",
+            "What to confirm"
+          ],
+          "rows": [
+            [
+              "Tuition / course fee",
+              "Applicable programme, quota, session and payment period"
+            ],
+            [
+              "Compulsory academic charges",
+              "Whether examinations, registration, laboratory or other charges are included"
+            ],
+            [
+              "One-time amounts",
+              "Whether a deposit or admission charge applies and the written refund terms"
+            ],
+            [
+              "Living and travel",
+              "Actual accommodation, meals, transport and personal costs for your arrangements"
+            ],
+            [
+              "Scholarship adjustment",
+              "Which charges an approved award covers and when it is credited"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "fee-next-steps",
+        "heading": "Compare eligibility and scholarship conditions",
+        "paragraphs": [
+          "Check [admission requirements](/university/rnt-college-of-agriculture/admission-process) before comparing offers. Read the [scholarship conditions](/university/rnt-college-of-agriculture/scholarship) separately: eligibility for an award and a confirmed net payable amount are different facts."
+        ],
+        "post_cards": [
+          {
+            "title": "How to compare agriculture fees, quotas and living costs",
+            "path": "/articles/agriculture-fee-budget",
+            "description": "Compare agriculture tuition by academic year, semester and quota, then add compulsory charges, deposits, hostel, mess and travel to your budget.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Reading an agriculture fee letter before paying",
+            "path": "/blogs/reading-an-agriculture-fee-letter",
+            "description": "Read fee periods, deposits, scholarship deductions and exclusions in an agriculture admission offer, with a clearly labelled worked budget.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Courses & Fees: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "programme-fee-table",
+        "title": "Programmes, duration and sourced fees"
+      },
+      {
+        "id": "programme-fee-notes",
+        "title": "Fee categories, inclusions and exclusions"
+      },
+      {
+        "id": "study-and-entry",
+        "title": "What each programme involves"
+      },
+      {
+        "id": "total-cost-checks",
+        "title": "Build a cost statement for your own offer"
+      },
+      {
+        "id": "fee-next-steps",
+        "title": "Compare eligibility and scholarship conditions"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Courses & Fees: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How long is B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "8 semesters. The college’s undergraduate syllabus combines agricultural science with rural and industry learning.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "What scholarship information is available for RNT?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:scholarship",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "scholarship",
+    "tab_label": "Scholarships",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/scholarship",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Scholarships",
+    "meta_title": "RNT College of Agriculture | Scholarships",
+    "description": "Read the sourced scholarship position for RNT College of Agriculture, including programme applicability, covered charges and the conditions to confirm before budgeting.",
+    "summary": "Read the sourced scholarship position for RNT College of Agriculture, including programme applicability, covered charges and the conditions to confirm before budgeting.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Scholarships · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "scholarship-position",
+        "heading": "What is documented for this institution?",
+        "paragraphs": [
+          "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile."
+        ],
+        "source_ids": []
+      },
+      {
+        "id": "listed-scholarship-schemes",
+        "heading": "Schemes and policy details",
+        "paragraphs": [
+          "No verified programme-applicable award schedule is reproduced here. A general university advertisement is not sufficient evidence that a particular agriculture or allied degree is included."
+        ],
+        "subsections": []
+      },
+      {
+        "id": "award-cost-scope",
+        "heading": "Which part of the cost could an award cover?",
+        "paragraphs": [
+          "Start with the actual [programme fee and charge notes](/university/rnt-college-of-agriculture/course-fee). Ask whether an offered concession covers tuition alone or any other charge; do not subtract it from the whole cost without written confirmation."
+        ],
+        "table": {
+          "columns": [
+            "Question for the admissions / scholarship office",
+            "Why it matters"
+          ],
+          "rows": [
+            [
+              "Does this scheme name my exact degree and intake?",
+              "B.Sc. (Hons.) Agriculture"
+            ],
+            [
+              "What is the award basis and written approval process?",
+              "An eligibility category does not by itself confirm an award."
+            ],
+            [
+              "What are the renewal conditions?",
+              "Budget for subsequent years using the actual continuation rules."
+            ],
+            [
+              "Can awards be combined?",
+              "Do not add separate advertised concessions unless the policy permits it."
+            ],
+            [
+              "When is the amount adjusted?",
+              "The timing of a credit can affect the amount initially payable."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "scholarship-request",
+        "heading": "Prepare a programme-specific request",
+        "paragraphs": [
+          "Identify your proposed qualification at RNT College of Agriculture, intended intake and fee category. Ask for the scheme document, application procedure, assessment date, documentary requirements and award letter. Only submit the documents the applicable policy actually asks for."
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://rntagcollege.edu.in/Onlineadm.html"
+        },
+        "post_cards": [
+          {
+            "title": "Check agriculture scholarship conditions before budgeting",
+            "path": "/blogs/agriculture-scholarship-conditions",
+            "description": "Check programme exclusions, award letters, eligible tuition, renewal and payment timing before putting an agriculture scholarship into your budget.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Scholarships: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "scholarship-position",
+        "title": "What is documented for this institution?"
+      },
+      {
+        "id": "listed-scholarship-schemes",
+        "title": "Schemes and policy details"
+      },
+      {
+        "id": "award-cost-scope",
+        "title": "Which part of the cost could an award cover?"
+      },
+      {
+        "id": "scholarship-request",
+        "title": "Prepare a programme-specific request"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Scholarships: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What scholarship information is available for RNT?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:training-and-placements",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "training-and-placements",
+    "tab_label": "Training & Placements",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/training-and-placements",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Training and Placements",
+    "meta_title": "RNT College of Agriculture | Training & Placements",
+    "description": "Explore RNT College of Agriculture career preparation and the available evidence on training and outcomes. Educational exposure is kept separate from verified placement figures.",
+    "summary": "Explore RNT College of Agriculture career preparation and the available evidence on training and outcomes. Educational exposure is kept separate from verified placement figures.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Training & Placements · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "career-support-evidence",
+        "heading": "Career support and reported outcomes",
+        "paragraphs": [
+          "A current agriculture-specific placement report was not available in the checked material."
+        ],
+        "source_ids": [],
+        "bullets": []
+      },
+      {
+        "id": "practical-training",
+        "heading": "Learning experiences connected with preparation",
+        "paragraphs": [
+          "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ],
+        "bullets": [
+          "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus.",
+          "The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management."
+        ]
+      },
+      {
+        "id": "recruiter-information",
+        "heading": "Recruiter and outcome evidence",
+        "paragraphs": [
+          "No verified programme-specific recruiter list is presented here. Do not read a university-wide company logo wall as a placement result for the exact degree you plan to join."
+        ],
+        "bullets": [],
+        "source_ids": []
+      },
+      {
+        "id": "placement-report-checks",
+        "heading": "How to assess a placement claim",
+        "paragraphs": [
+          "For B.Sc. (Hons.) Agriculture, ask for a report that matches the course, campus and graduating batch. Compare outcomes on the same basis rather than using an isolated maximum package."
+        ],
+        "table": {
+          "columns": [
+            "Evidence to request",
+            "What to read"
+          ],
+          "rows": [
+            [
+              "Cohort and reporting year",
+              "Which programme, campus and graduating batch the report covers"
+            ],
+            [
+              "Eligible students and offers",
+              "How the institution defines participation and reported placement"
+            ],
+            [
+              "Roles and employers",
+              "Whether the work and qualification requirements match the degree"
+            ],
+            [
+              "Salary description",
+              "Whether a quoted figure is median, average, highest or another measure"
+            ],
+            [
+              "Internship versus employment",
+              "Whether an experience is curricular training, a paid internship or a final job offer"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "career-pathway-reading",
+        "heading": "Connect programme choice with your next step",
+        "paragraphs": [
+          "Read the [programme and fee details](/university/rnt-college-of-agriculture/course-fee) and [practical facilities](/university/rnt-college-of-agriculture/infrastructure) together. A university course is preparation for possible next steps; the sources here do not promise a job or salary."
+        ],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+            "path": "/articles/bsc-agriculture-vs-agricultural-engineering",
+            "description": "Compare agriculture science and agricultural engineering through official curricula, subject eligibility, practical work and further-study questions.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Plan an agriculture study pathway after Class 12",
+            "path": "/blogs/agriculture-study-plan-after-class-12",
+            "description": "Connect your Class 12 subjects and interests with agriculture degrees, practical learning and further study, without relying on salary promises.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Training & Placements: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "career-support-evidence",
+        "title": "Career support and reported outcomes"
+      },
+      {
+        "id": "practical-training",
+        "title": "Learning experiences connected with preparation"
+      },
+      {
+        "id": "recruiter-information",
+        "title": "Recruiter and outcome evidence"
+      },
+      {
+        "id": "placement-report-checks",
+        "title": "How to assess a placement claim"
+      },
+      {
+        "id": "career-pathway-reading",
+        "title": "Connect programme choice with your next step"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Training & Placements: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What training and outcome evidence is available for RNT?",
+        "answer": "A current agriculture-specific placement report was not available in the checked material.",
+        "source_ids": []
+      },
+      {
+        "question": "What practical learning is described at RNT?",
+        "answer": "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "Which employers or training organisations are named for RNT?",
+        "answer": "The available sources do not establish a programme-specific recruiter list for B.Sc. (Hons.) Agriculture. The documented preparation consists of Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "Which teaching facilities are documented at RNT?",
+        "answer": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:cut-off",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "cut-off",
+    "tab_label": "Eligibility & Cut-offs",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/cut-off",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Eligibility and Cut-off Information",
+    "meta_title": "RNT College of Agriculture | Eligibility & Cut-offs",
+    "description": "Check programme-wise eligibility and admission-route information for RNT College of Agriculture. Minimum qualifying criteria and a round-specific closing rank are kept separate.",
+    "summary": "Check programme-wise eligibility and admission-route information for RNT College of Agriculture. Minimum qualifying criteria and a round-specific closing rank are kept separate.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Eligibility & Cut-offs · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "cutoff-evidence",
+        "heading": "What can be confirmed from the available sources?",
+        "paragraphs": [
+          "The sourced entry requirements below are available for comparison. A complete institution-specific, category-wise closing-rank table has not been verified in this content set, so no closing scores are invented or borrowed from another publisher."
+        ]
+      },
+      {
+        "id": "programme-qualifying-criteria",
+        "heading": "Minimum eligibility and accepted selection route",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Programme",
+            "Sourced qualification / subjects",
+            "Selection route to confirm"
+          ],
+          "rows": [
+            [
+              "[B.Sc. (Hons.) Agriculture](/bsc-agriculture)",
+              "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+              "Request the programme-specific selection rules."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "eligibility-versus-cutoff",
+        "heading": "Minimum eligibility and closing rank answer different questions",
+        "paragraphs": [
+          "A qualifying subject or minimum academic threshold determines whether an applicant can be considered under the applicable rules. A closing rank or score describes a particular selection list, counselling round or category. One should not be substituted for the other."
+        ],
+        "table": {
+          "columns": [
+            "If a number is described as…",
+            "Check these details before using it"
+          ],
+          "rows": [
+            [
+              "Minimum academic marks",
+              "Qualifying examination, subjects, category and intake-year rule"
+            ],
+            [
+              "Entrance qualifying score",
+              "Named examination and its relevant year/category instructions"
+            ],
+            [
+              "Closing rank or score",
+              "Exact institution, programme, round, quota, category and year"
+            ],
+            [
+              "An older admission figure",
+              "Its historical context; do not label it as the current cutoff"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "selection-context",
+        "heading": "Which rules should you read for your programme?",
+        "paragraphs": [
+          "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules.",
+          "Follow [the admission process for RNT College of Agriculture](/university/rnt-college-of-agriculture/admission-process) and the official notice. Seat availability and document verification remain separate from meeting a qualifying threshold."
+        ],
+        "source_ids": [
+          "s3",
+          "s5"
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://rntagcollege.edu.in/Onlineadm.html"
+        }
+      },
+      {
+        "id": "cutoff-shortlist",
+        "heading": "Use the evidence in a shortlist",
+        "paragraphs": [
+          "Record your programme, subject combination and relevant category before comparing options. If an official closing list is provided, match every label to your application; avoid predictions based only on another student’s admission or an unsourced portal table."
+        ],
+        "post_cards": [
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "Prepare for agriculture admission counselling",
+            "path": "/blogs/prepare-for-agriculture-counselling",
+            "description": "Prepare a route-specific agriculture counselling folder, check subjects and certificates, order preferences and track official allotment instructions.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Eligibility & Cut-offs: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "cutoff-evidence",
+        "title": "What can be confirmed from the available sources?"
+      },
+      {
+        "id": "programme-qualifying-criteria",
+        "title": "Minimum eligibility and accepted selection route"
+      },
+      {
+        "id": "eligibility-versus-cutoff",
+        "title": "Minimum eligibility and closing rank answer different questions"
+      },
+      {
+        "id": "selection-context",
+        "title": "Which rules should you read for your programme?"
+      },
+      {
+        "id": "cutoff-shortlist",
+        "title": "Use the evidence in a shortlist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Eligibility & Cut-offs: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "Is a programme-specific closing rank available for RNT?",
+        "answer": "A named-programme, category and round closing list is not verified here. The published entry requirements are B.Sc. (Hons.) Agriculture: Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.. These requirements are not a closing rank.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "How does admission to RNT work?",
+        "answer": "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules. Confirm the course: Use the official programme contact to confirm that the listed degree is taking applications for your intended intake. Request the intake notice: Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "Which dated admission notices are recorded for RNT?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://rntagcollege.edu.in/Onlineadm.html; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:infrastructure",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "infrastructure",
+    "tab_label": "Infrastructure",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/infrastructure",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Infrastructure and Learning Facilities",
+    "meta_title": "RNT College of Agriculture | Infrastructure",
+    "description": "Read the documented learning facilities and practical setting for RNT College of Agriculture in Kapasan, Rajasthan, with source-linked campus and academic imagery.",
+    "summary": "Read the documented learning facilities and practical setting for RNT College of Agriculture in Kapasan, Rajasthan, with source-linked campus and academic imagery.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Infrastructure · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "learning-setting",
+        "heading": "The documented academic setting",
+        "paragraphs": [
+          "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "id": "practical-access",
+        "heading": "Practical learning and student access",
+        "paragraphs": [
+          "For B.Sc. (Hons.) Agriculture, the usefulness of a facility depends on actual teaching access, supervision and the programme timetable. The documented learning activities are listed below; ask the department about your own cohort’s arrangements."
+        ],
+        "bullets": [
+          "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus.",
+          "The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "id": "faculty-and-teaching",
+        "heading": "People and supervision",
+        "paragraphs": [
+          "A current named teaching roster is not reproduced without verified evidence. Request the department list and the supervision arrangements for your intended programme."
+        ],
+        "bullets": [],
+        "source_ids": []
+      },
+      {
+        "id": "facilities-in-images",
+        "heading": "Campus and academic images",
+        "paragraphs": [],
+        "images": [
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+            "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+            "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+            "background": "light",
+            "width": 720,
+            "height": 480
+          }
+        ]
+      },
+      {
+        "id": "infrastructure-next",
+        "heading": "Compare the setting with your study needs",
+        "paragraphs": [
+          "View the full [photo gallery](/university/rnt-college-of-agriculture/gallery), then read [campus-life planning](/university/rnt-college-of-agriculture/campus-life). Images illustrate the named setting; they do not by themselves establish the current availability or teaching access of every facility."
+        ],
+        "post_cards": [
+          {
+            "title": "Compare two agriculture campuses using a useful checklist",
+            "path": "/blogs/compare-agriculture-campuses",
+            "description": "Compare agriculture campuses through practical teaching, supervision, living costs, travel and evidence, with a worksheet for families.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Infrastructure: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "learning-setting",
+        "title": "The documented academic setting"
+      },
+      {
+        "id": "practical-access",
+        "title": "Practical learning and student access"
+      },
+      {
+        "id": "faculty-and-teaching",
+        "title": "People and supervision"
+      },
+      {
+        "id": "facilities-in-images",
+        "title": "Campus and academic images"
+      },
+      {
+        "id": "infrastructure-next",
+        "title": "Compare the setting with your study needs"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Infrastructure: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which teaching facilities are documented at RNT?",
+        "answer": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "What practical learning is described at RNT?",
+        "answer": "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "Who is listed in the teaching information for RNT?",
+        "answer": "A current named department roster is not verified in this profile. The [infrastructure page](/university/rnt-college-of-agriculture/infrastructure) contains the teaching facilities and practical work established by the available sources.",
+        "source_ids": []
+      },
+      {
+        "question": "Where is RNT located?",
+        "answer": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:campus-life",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "campus-life",
+    "tab_label": "Campus Life",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/campus-life",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Campus Life and Student Planning",
+    "meta_title": "RNT College of Agriculture | Campus Life",
+    "description": "Plan the student experience at RNT College of Agriculture around its location, documented learning setting and the accommodation, travel and support details relevant to your own study plan.",
+    "summary": "Plan the student experience at RNT College of Agriculture around its location, documented learning setting and the accommodation, travel and support details relevant to your own study plan.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Campus Life · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "campus-location",
+        "heading": "Where will you study?",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Planning detail",
+            "Source information"
+          ],
+          "rows": [
+            [
+              "Institution",
+              "RNT College of Agriculture"
+            ],
+            [
+              "Study location",
+              "Kapasan, Rajasthan"
+            ],
+            [
+              "Programmes covered",
+              "B.Sc. (Hons.) Agriculture"
+            ],
+            [
+              "Awarding / affiliating university",
+              "Maharana Pratap University of Agriculture and Technology, Udaipur"
+            ],
+            [
+              "Address",
+              "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "documented-student-setting",
+        "heading": "What is documented about the setting?",
+        "paragraphs": [
+          "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ],
+        "subsections": []
+      },
+      {
+        "id": "learning-week",
+        "heading": "How could the programme shape your week?",
+        "paragraphs": [
+          "Read the actual practical components for B.Sc. (Hons.) Agriculture alongside the academic timetable. Field work, laboratory sessions or clinical teaching may affect daily travel and preparation; confirm the arrangements rather than inferring them from a campus photograph."
+        ],
+        "bullets": [
+          "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus.",
+          "The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "id": "student-arrangements",
+        "heading": "Accommodation, travel and support: what to confirm",
+        "paragraphs": [
+          "For your own offer, confirm room availability, residential costs and travel arrangements that are not specified above."
+        ],
+        "table": {
+          "columns": [
+            "Your planning question",
+            "Information to request"
+          ],
+          "rows": [
+            [
+              "Where will I live?",
+              "Whether institutional accommodation is available to your category, room options and applicable rules"
+            ],
+            [
+              "What will living cost?",
+              "Written accommodation and meal charges, deposits and included services"
+            ],
+            [
+              "How will I travel?",
+              "Actual travel time, transport arrangements and access to the teaching location"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "campus-life-next",
+        "heading": "Build a visit or enquiry checklist",
+        "paragraphs": [
+          "Take your own programme requirements to the visit or admissions discussion. Compare the [learning infrastructure](/university/rnt-college-of-agriculture/infrastructure), [complete cost scope](/university/rnt-college-of-agriculture/course-fee) and [campus photographs](/university/rnt-college-of-agriculture/gallery) before choosing."
+        ],
+        "post_cards": [
+          {
+            "title": "Compare two agriculture campuses using a useful checklist",
+            "path": "/blogs/compare-agriculture-campuses",
+            "description": "Compare agriculture campuses through practical teaching, supervision, living costs, travel and evidence, with a worksheet for families.",
+            "kind": "Blog"
+          },
+          {
+            "title": "Questions to ask before choosing an agriculture college",
+            "path": "/blogs/questions-before-choosing-agriculture-college",
+            "description": "Ask better questions about agriculture degrees, practical teaching, accreditation, fees and student support before making a college decision.",
+            "kind": "Blog"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Campus Life: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "campus-location",
+        "title": "Where will you study?"
+      },
+      {
+        "id": "documented-student-setting",
+        "title": "What is documented about the setting?"
+      },
+      {
+        "id": "learning-week",
+        "title": "How could the programme shape your week?"
+      },
+      {
+        "id": "student-arrangements",
+        "title": "Accommodation, travel and support: what to confirm"
+      },
+      {
+        "id": "campus-life-next",
+        "title": "Build a visit or enquiry checklist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Campus Life: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Where is RNT located?",
+        "answer": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+        "source_ids": []
+      },
+      {
+        "question": "What student facilities are documented for RNT?",
+        "answer": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory. Accommodation availability, meal charges and transport arrangements for your entry year still need direct confirmation.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "What practical learning is described at RNT?",
+        "answer": "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:gallery",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "gallery",
+    "tab_label": "Gallery",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/gallery",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Campus and Academic Photo Gallery",
+    "meta_title": "RNT College of Agriculture | Gallery",
+    "description": "View campus and academic photographs associated with RNT College of Agriculture, then connect the pictured setting with the documented programme and facilities.",
+    "summary": "View campus and academic photographs associated with RNT College of Agriculture, then connect the pictured setting with the documented programme and facilities.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "Gallery · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "campus-photo-gallery",
+        "heading": "Campus and academic photo gallery",
+        "paragraphs": [
+          "Read the captions to identify the building, activity or event pictured at RNT College of Agriculture. The facilities and practical-learning details below provide the academic context."
+        ],
+        "images": [
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+            "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+            "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+            "background": "light",
+            "width": 720,
+            "height": 480
+          }
+        ]
+      },
+      {
+        "id": "read-the-setting",
+        "heading": "Understand the academic context",
+        "paragraphs": [
+          "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory."
+        ],
+        "source_ids": [
+          "s4",
+          "s6"
+        ],
+        "bullets": [
+          "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus.",
+          "The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management."
+        ]
+      },
+      {
+        "id": "gallery-next",
+        "heading": "Continue beyond the photographs",
+        "paragraphs": [
+          "Read the [documented infrastructure](/university/rnt-college-of-agriculture/infrastructure) and [campus-life planning information](/university/rnt-college-of-agriculture/campus-life). Ask about the precise programme and location you intend to join; do not assume a general university image is evidence of every departmental facility."
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "Gallery: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "campus-photo-gallery",
+        "title": "Campus and academic photo gallery"
+      },
+      {
+        "id": "read-the-setting",
+        "title": "Understand the academic context"
+      },
+      {
+        "id": "gallery-next",
+        "title": "Continue beyond the photographs"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "Gallery: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is shown in the RNT photo gallery?",
+        "answer": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "source_ids": []
+      },
+      {
+        "question": "Where is RNT located?",
+        "answer": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+        "source_ids": []
+      },
+      {
+        "question": "What practical learning is described at RNT?",
+        "answer": "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "Where can I read about facilities beyond the RNT photographs?",
+        "answer": "The [infrastructure page](/university/rnt-college-of-agriculture/infrastructure) explains the documented teaching setting. Read [campus life](/university/rnt-college-of-agriculture/campus-life) for student arrangements; a general campus image does not confirm access to every facility.",
+        "source_ids": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:news-and-notifications",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "news-and-notifications",
+    "tab_label": "News & Notices",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/news-and-notifications",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Admission News and Official Notices",
+    "meta_title": "RNT College of Agriculture | News & Notices",
+    "description": "Find sourced admission notices associated with RNT College of Agriculture, distinguish historical events from current application windows, and follow the institution’s official update channe",
+    "summary": "Find sourced admission notices associated with RNT College of Agriculture, distinguish historical events from current application windows, and follow the institution’s official update channel.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "News & Notices · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "verified-news",
+        "heading": "Sourced news and notices",
+        "paragraphs": [
+          "For a new application opening, revised deadline or fee notice, use the official admission channel for RNT College of Agriculture. Any dated events below retain their original session and event dates."
+        ],
+        "post_cards": []
+      },
+      {
+        "id": "dated-institution-notices",
+        "heading": "Dated events in the institution research",
+        "paragraphs": [
+          "No verified dated admission event is quoted from this profile. Do not treat the editorial review date as the institution’s notice or announcement date."
+        ],
+        "bullets": [],
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "id": "official-update-channel",
+        "heading": "Where to check a new announcement",
+        "paragraphs": [
+          "Use the official link for RNT College of Agriculture. Match the programme, campus, intake year and applicable quota when reading a notice. If a later notice changes a date or rule, use the authority’s latest applicable instructions."
+        ],
+        "official_link": {
+          "label": "Official admission information",
+          "href": "https://rntagcollege.edu.in/Onlineadm.html"
+        },
+        "table": {
+          "columns": [
+            "Programme covered here",
+            "Admission route / next check"
+          ],
+          "rows": [
+            [
+              "B.Sc. (Hons.) Agriculture",
+              "Request the current programme-specific admission notice."
+            ]
+          ]
+        }
+      },
+      {
+        "id": "act-on-a-notice",
+        "heading": "Turn a notice into an application checklist",
+        "paragraphs": [
+          "Read [the admission process](/university/rnt-college-of-agriculture/admission-process) and [the relevant fee scope](/university/rnt-college-of-agriculture/course-fee) before paying or reporting. Retain the complete official notice and any programme-specific amendments, rather than relying on a headline or forwarded screenshot."
+        ],
+        "post_cards": [
+          {
+            "title": "How to compare agriculture fees, quotas and living costs",
+            "path": "/articles/agriculture-fee-budget",
+            "description": "Compare agriculture tuition by academic year, semester and quota, then add compulsory charges, deposits, hostel, mess and travel to your budget.",
+            "kind": "Articles"
+          },
+          {
+            "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+            "path": "/articles/bsc-agriculture-eligibility",
+            "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+            "kind": "Articles"
+          },
+          {
+            "title": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+            "path": "/articles/bsc-agriculture-vs-agricultural-engineering",
+            "description": "Compare agriculture science and agricultural engineering through official curricula, subject eligibility, practical work and further-study questions.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "News & Notices: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "verified-news",
+        "title": "Sourced news and notices"
+      },
+      {
+        "id": "dated-institution-notices",
+        "title": "Dated events in the institution research"
+      },
+      {
+        "id": "official-update-channel",
+        "title": "Where to check a new announcement"
+      },
+      {
+        "id": "act-on-a-notice",
+        "title": "Turn a notice into an application checklist"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "News & Notices: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which dated admission notices are recorded for RNT?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://rntagcollege.edu.in/Onlineadm.html; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "How does admission to RNT work?",
+        "answer": "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules. Confirm the course: Use the official programme contact to confirm that the listed degree is taking applications for your intended intake. Request the intake notice: Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      },
+      {
+        "question": "Which agriculture or allied programmes are covered at RNT?",
+        "answer": "This profile covers B.Sc. (Hons.) Agriculture. The [courses and fees table](/university/rnt-college-of-agriculture/course-fee) separates the qualifications and published fee periods.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  },
+  {
+    "id": "36:faqs",
+    "institution_id": 36,
+    "kind": "UniversityTab",
+    "slug": "rnt-college-of-agriculture",
+    "tab_slug": "faqs",
+    "tab_label": "FAQs",
+    "parent_path": "/university/rnt-college-of-agriculture",
+    "parent_title": "RNT College of Agriculture",
+    "path": "/university/rnt-college-of-agriculture/faqs",
+    "name": "RNT College of Agriculture",
+    "title": "RNT College of Agriculture: Frequently Asked Questions",
+    "meta_title": "RNT College of Agriculture | FAQs",
+    "description": "Answers to applicant questions about RNT College of Agriculture, its programmes, source-specific fees, admission checks and documented learning setting.",
+    "summary": "Answers to applicant questions about RNT College of Agriculture, its programmes, source-specific fees, admission checks and documented learning setting.",
+    "byline": "Agrico Editorial",
+    "reviewed_on": "2026-10-31",
+    "eyebrow": "FAQs · Agriculture and allied study",
+    "identity": {
+      "kind": "private_college",
+      "short_name": "RNT",
+      "ownership": "Private college",
+      "city": "Kapasan",
+      "state": "Rajasthan",
+      "established": null,
+      "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+      "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+      "website": "https://rntagcollege.edu.in/",
+      "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+      "phone": "+91 74148 70774",
+      "email": "ag.dept@rntagcollege.edu.in"
+    },
+    "hero_media": [
+      {
+        "role": "logo",
+        "src": "/images/institutions/rnt-college-of-agriculture/logo.jpg",
+        "alt": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+        "background": "light",
+        "width": 140,
+        "height": 140
+      },
+      {
+        "role": "campus_primary",
+        "src": "/images/institutions/rnt-college-of-agriculture/campus-01.jpg",
+        "alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+        "background": "light",
+        "width": 720,
+        "height": 480
+      }
+    ],
+    "tabs": [
+      {
+        "id": "overview",
+        "label": "Overview",
+        "href": "/university/rnt-college-of-agriculture"
+      },
+      {
+        "id": "admission-process",
+        "label": "Admission Process",
+        "href": "/university/rnt-college-of-agriculture/admission-process"
+      },
+      {
+        "id": "course-fee",
+        "label": "Courses & Fees",
+        "href": "/university/rnt-college-of-agriculture/course-fee"
+      },
+      {
+        "id": "scholarship",
+        "label": "Scholarships",
+        "href": "/university/rnt-college-of-agriculture/scholarship"
+      },
+      {
+        "id": "training-and-placements",
+        "label": "Training & Placements",
+        "href": "/university/rnt-college-of-agriculture/training-and-placements"
+      },
+      {
+        "id": "cut-off",
+        "label": "Eligibility & Cut-offs",
+        "href": "/university/rnt-college-of-agriculture/cut-off"
+      },
+      {
+        "id": "infrastructure",
+        "label": "Infrastructure",
+        "href": "/university/rnt-college-of-agriculture/infrastructure"
+      },
+      {
+        "id": "campus-life",
+        "label": "Campus Life",
+        "href": "/university/rnt-college-of-agriculture/campus-life"
+      },
+      {
+        "id": "gallery",
+        "label": "Gallery",
+        "href": "/university/rnt-college-of-agriculture/gallery"
+      },
+      {
+        "id": "news-and-notifications",
+        "label": "News & Notices",
+        "href": "/university/rnt-college-of-agriculture/news-and-notifications"
+      },
+      {
+        "id": "faqs",
+        "label": "FAQs",
+        "href": "/university/rnt-college-of-agriculture/faqs"
+      }
+    ],
+    "sections": [
+      {
+        "id": "questions-in-context",
+        "heading": "Use the answer for the exact programme and session",
+        "paragraphs": [
+          "Find answers about B.Sc. (Hons.) Agriculture, entry requirements, fee periods, practical study and student facilities. Follow the subject-page links for detailed tables and application steps."
+        ]
+      },
+      {
+        "id": "faq-subject-pages",
+        "heading": "Find a detailed answer by subject",
+        "paragraphs": [],
+        "table": {
+          "columns": [
+            "Question area",
+            "Detailed page"
+          ],
+          "rows": [
+            [
+              "Entry subjects and selection",
+              "[Admission process](/university/rnt-college-of-agriculture/admission-process)"
+            ],
+            [
+              "Fee period, category and inclusions",
+              "[Courses and fees](/university/rnt-college-of-agriculture/course-fee)"
+            ],
+            [
+              "Award applicability and conditions",
+              "[Scholarships](/university/rnt-college-of-agriculture/scholarship)"
+            ],
+            [
+              "Minimum eligibility and selection lists",
+              "[Eligibility and cut-off information](/university/rnt-college-of-agriculture/cut-off)"
+            ],
+            [
+              "Facilities and student setting",
+              "[Infrastructure](/university/rnt-college-of-agriculture/infrastructure) · [Campus life](/university/rnt-college-of-agriculture/campus-life)"
+            ],
+            [
+              "Training and outcomes",
+              "[Training and placements](/university/rnt-college-of-agriculture/training-and-placements)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "institution-guides",
+        "heading": "Guides for applicants to RNT College of Agriculture",
+        "paragraphs": [],
+        "post_cards": [
+          {
+            "title": "RNT College of Agriculture: connect practical learning with your course choice",
+            "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+            "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+            "kind": "Articles"
+          }
+        ]
+      },
+      {
+        "id": "faqs",
+        "heading": "FAQs: questions answered",
+        "paragraphs": []
+      },
+      {
+        "id": "sources-review",
+        "heading": "Sources and editorial review",
+        "paragraphs": []
+      }
+    ],
+    "toc": [
+      {
+        "id": "questions-in-context",
+        "title": "Use the answer for the exact programme and session"
+      },
+      {
+        "id": "faq-subject-pages",
+        "title": "Find a detailed answer by subject"
+      },
+      {
+        "id": "institution-guides",
+        "title": "Guides for applicants to RNT College of Agriculture"
+      },
+      {
+        "id": "faqs",
+        "title": "FAQs: questions answered"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and editorial review"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is RNT an independent university?",
+        "answer": "It presents itself as a college affiliated to MPUAT, Udaipur.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "question": "How long is the college’s degree?",
+        "answer": "The official course table gives eight semesters for B.Sc. (Hons.) Agriculture.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "question": "Which school streams are listed?",
+        "answer": "The table says 10+2 Inter-Agriculture or Science. A current minimum-marks rule was not verified.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "question": "Does the curriculum include rural work experience?",
+        "answer": "Yes. The published syllabus places RAWE and agro-industrial attachment in semester seven.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "question": "What is the checked accreditation term?",
+        "answer": "ICAR lists the college’s B.Sc. (Hons.) Agriculture for 20 June 2024 to 19 June 2029.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "question": "Which agriculture or allied programmes are covered at RNT?",
+        "answer": "This profile covers B.Sc. (Hons.) Agriculture. The [courses and fees table](/university/rnt-college-of-agriculture/course-fee) separates the qualifications and published fee periods.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "How long is B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "8 semesters. The college’s undergraduate syllabus combines agricultural science with rural and industry learning.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "What are the entry requirements for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+        "source_ids": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "question": "What fee is documented for B.Sc. (Hons.) Agriculture at RNT?",
+        "answer": "A verified numerical fee is not available. A dated fee schedule for the intended admission year has not been verified.",
+        "source_ids": []
+      },
+      {
+        "question": "How does admission to RNT work?",
+        "answer": "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules. Confirm the course: Use the official programme contact to confirm that the listed degree is taking applications for your intended intake. Request the intake notice: Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      },
+      {
+        "question": "What is the recorded ICAR scope for RNT?",
+        "answer": "RNT College of Agriculture: B.Sc. (Hons.) Agriculture (Intake- 120), recorded term 2024-06-20 to 2029-06-19. This entry applies to the named unit and programme.",
+        "source_ids": [
+          "s1"
+        ]
+      },
+      {
+        "question": "What practical learning is described at RNT?",
+        "answer": "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus. The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "Which teaching facilities are documented at RNT?",
+        "answer": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "What student facilities are documented for RNT?",
+        "answer": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory. Accommodation availability, meal charges and transport arrangements for your entry year still need direct confirmation.",
+        "source_ids": [
+          "s4",
+          "s6"
+        ]
+      },
+      {
+        "question": "What scholarship information is available for RNT?",
+        "answer": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+        "source_ids": []
+      },
+      {
+        "question": "What training and outcome evidence is available for RNT?",
+        "answer": "A current agriculture-specific placement report was not available in the checked material.",
+        "source_ids": []
+      },
+      {
+        "question": "How can I contact RNT about an application?",
+        "answer": "Published phone: +91 74148 70774. Published email: ag.dept@rntagcollege.edu.in. Official admissions: https://rntagcollege.edu.in/Onlineadm.html",
+        "source_ids": []
+      },
+      {
+        "question": "Which dated admission notices are recorded for RNT?",
+        "answer": "No dated admission event is verified in this profile. The official channel is https://rntagcollege.edu.in/Onlineadm.html; check the notice for the programme and entry year you intend to join.",
+        "source_ids": [
+          "s3",
+          "s5"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "s1",
+        "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+        "kind": "regulator",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "recognition.icar_units",
+          "identity.kind",
+          "identity.state"
+        ],
+        "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+      },
+      {
+        "id": "s2",
+        "url": "https://rntagcollege.edu.in/",
+        "title": "College homepage",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s3",
+        "url": "https://rntagcollege.edu.in/course.html",
+        "title": "Available courses",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "programmes",
+          "overview"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s4",
+        "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+        "title": "Undergraduate agriculture syllabus",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "overview",
+          "programmes.summary",
+          "campus"
+        ],
+        "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+      },
+      {
+        "id": "s5",
+        "url": "https://rntagcollege.edu.in/contact.html",
+        "title": "College contact page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.contact",
+          "admissions"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "s6",
+        "url": "https://rntagcollege.edu.in/farm.html",
+        "title": "College farm page",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "campus"
+        ],
+        "notes": "No detailed farm inventory exposed."
+      },
+      {
+        "id": "s7",
+        "url": "https://rntagcollege.edu.in/message.html",
+        "title": "College navigation with online admission link",
+        "kind": "official",
+        "access": "page_read",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "identity.admissions_url"
+        ],
+        "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+      }
+    ],
+    "related_universities": [
+      {
+        "id": 17,
+        "slug": "jagan-nath-university-jaipur",
+        "name": "Jagan Nath University, Jaipur",
+        "href": "/university/jagan-nath-university-jaipur",
+        "description": "Chaksu, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jagan-nath-university-jaipur/logo.png",
+            "alt": "Jagan Nath University Jaipur official wordmark",
+            "caption": "Jagan Nath University Jaipur official wordmark",
+            "background": "light",
+            "width": 1016,
+            "height": 345
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-01.webp",
+            "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+            "background": "light",
+            "width": 4240,
+            "height": 2384
+          },
+          {
+            "role": "campus_secondary",
+            "src": "/images/institutions/jagan-nath-university-jaipur/campus-infra-02.webp",
+            "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+            "background": "light",
+            "width": 4928,
+            "height": 3264
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "slug": "jaipur-national-university",
+        "name": "Jaipur National University",
+        "href": "/university/jaipur-national-university",
+        "description": "Jaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/jaipur-national-university/logo.png",
+            "alt": "Jaipur National University wordmark and crest",
+            "caption": "Jaipur National University wordmark and crest",
+            "background": "light",
+            "width": 405,
+            "height": 116
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/jaipur-national-university/campus-01.jpg",
+            "alt": "Jaipur National University named main building",
+            "caption": "Jaipur National University named main building",
+            "background": "light",
+            "width": 585,
+            "height": 205
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+        "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "href": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+        "description": "Udaipur, Rajasthan",
+        "kind": "private_university",
+        "media": [
+          {
+            "role": "logo",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+            "alt": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+            "background": "light",
+            "width": 140,
+            "height": 140
+          },
+          {
+            "role": "campus_primary",
+            "src": "/images/institutions/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+            "alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+            "background": "light",
+            "width": 800,
+            "height": 533
+          }
+        ]
+      }
+    ],
+    "related_posts": [
+      {
+        "title": "RNT College of Agriculture: connect practical learning with your course choice",
+        "path": "/articles/rnt-college-of-agriculture-agriculture-practical-study-guide",
+        "description": "Use the documented programmes, learning activities and admission route at RNT College of Agriculture to prepare a course-specific application and campus discussion.",
+        "kind": "Articles"
+      }
+    ],
+    "indexing": {
+      "index": true,
+      "reviewed_on": "2026-10-31",
+      "reasons": []
+    }
+  }
+]

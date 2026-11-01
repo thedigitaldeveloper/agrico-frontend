@@ -1,0 +1,97 @@
+{
+  "id": "rawe",
+  "cms_type": "Articles",
+  "slug": "rawe-and-experiential-learning",
+  "title": "RAWE and experiential learning in B.Sc. Agriculture",
+  "description": "Understand RAWE, experiential learning and industrial attachment, then check how your B.Sc. Agriculture college organises and assesses practical work.",
+  "summary": "Practical learning should let you connect a classroom explanation with a real farming decision. Learn how rural work experience differs from an enterprise module or industrial attachment, and what evidence to request about the arrangements for your own cohort.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "different-components",
+      "heading": "Understand the components before comparing colleges",
+      "paragraphs": [
+        "RAWE is commonly expanded as Rural Agricultural Work Experience; institutions sometimes use RAWEP for the programme. It focuses attention on agriculture in its rural setting. Experiential learning and industrial attachment can complement it, but the labels do not describe identical activities.",
+        "ICAR's 2026 Sixth Deans' Committee report discusses Student READY as a broad framework covering hands-on and experiential learning, skill training, rural work experience, industrial attachment and projects. This is national academic guidance. Ask for the university's adopted curriculum and regulations for your batch before assuming a particular semester, duration, credit allocation or module is guaranteed."
+      ],
+      "table": {
+        "columns": ["Component", "Main learning question", "Useful evidence to request"],
+        "rows": [
+          ["RAWE", "How do farmers make decisions in their setting?", "Village plan, supervision and field assignments"],
+          ["Experiential learning", "Can I organise and evaluate a practical activity?", "Module choices, responsibilities and assessment"],
+          ["Industrial attachment", "How does an agricultural organisation operate?", "Host, work plan and reporting requirements"],
+          ["Project", "Can I investigate and explain a defined problem?", "Proposal, observations, analysis and feedback"]
+        ]
+      }
+    },
+    {
+      "id": "rural-learning",
+      "heading": "Look for observation, listening and explanation in RAWE",
+      "paragraphs": [
+        "A village setting introduces constraints that a classroom example may simplify: water availability, labour, input timing, household priorities and access to buyers. A useful student exercise starts by understanding the situation. It should not treat farmers as an audience for advice delivered before the student has gathered enough information.",
+        "When you review a college's plan, ask what students observe and record, how they learn to communicate in the local setting, and who checks their interpretation. Possible discussion points include crop calendars, field observations and how a proposed practice fits the farm's resources. These are questions to ask about implementation, not a claim that every programme assigns the same activities. The quality of supervision matters more than the number of photographs in an event gallery."
+      ]
+    },
+    {
+      "id": "experiential-work",
+      "heading": "Ask what you personally do in an experiential module",
+      "paragraphs": [
+        "A module title such as nursery management, mushroom production or seed-related work tells you the subject, but not the student's responsibility. Ask whether students plan tasks, maintain records, make measurements and review results, or mainly watch demonstrations. Find out how groups are formed and whether every learner gets meaningful practical time.",
+        "An enterprise exercise can be valuable even when its result is imperfect. The important discussion is how students identify a problem, calculate inputs, document a process, assess quality and explain what they would change. Do not equate an entrepreneurship module with a guaranteed profitable business. Ask whether assessment rewards careful records and reasoning as well as the final product."
+      ]
+    },
+    {
+      "id": "curriculum-evidence",
+      "heading": "Read the batch curriculum and assessment plan together",
+      "paragraphs": [
+        "Request the syllabus version, component code, credits, timing, attendance rules and assessment format. Check whether practical learning replaces regular classroom work for a defined period or runs alongside it. Ask how it interacts with examinations, study tours and industrial visits. A timetable helps you understand the commitment much more clearly than the word internship alone.",
+        "The Sixth Deans' report recommends coordinated internship arrangements and evaluation involving the host and parent institution. Confirm how your university has implemented its applicable framework. A newly published recommendation does not prove that every college has already changed its curriculum. Where a brochure and an older syllabus differ, ask the academic office which document governs your cohort."
+      ]
+    },
+    {
+      "id": "institution-examples",
+      "heading": "Use published college examples to frame better questions",
+      "paragraphs": [
+        "[Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) describes rural work experience and Student READY in its degree outline. Ask how those elements are scheduled and assessed for the incoming batch rather than assuming that the outline supplies a complete placement plan.",
+        "[Palar Agricultural College](/university/palar-agricultural-college) publishes extension-course information and dated RAWE orientation material from March 2024. That gives an applicant concrete historical material to discuss; it does not establish the next cohort's villages, dates or supervisors. [SBVR Agricultural College](/university/sbvr-agricultural-college) describes RAWEP village placements and experiential learning. Ask for the current assignment and host arrangements at each institution. These are examples of published activities, not comparative quality scores."
+      ]
+    },
+    {
+      "id": "prepare-and-compare",
+      "heading": "Check supervision, logistics and the work you will retain",
+      "paragraphs": [
+        "Before joining, understand who arranges the host or village, how often faculty supervise, the contact for difficulties, and how transport, accommodation and accessibility needs are handled. Ask what students pay beyond normal fees. Include confirmed additional expenses in the [agriculture fee budget](/articles/agriculture-fee-budget). Host names and logistics should come from the institution, not an assumption that students can arrange everything later.",
+        "During the programme, retain permitted copies of your own field notes, calculations, reports and feedback. Explain the context and limitations when presenting work, and follow the institution's rules for photographs, farm information and host confidentiality. A well-documented learning process helps you discuss what you actually learned. Use the [campus-comparison checklist](/blogs/compare-agriculture-campuses) to compare two colleges through the same questions about student work, supervision and assessment."
+      ],
+      "bullets": [
+        "Which modules will my batch have, and how are choices allocated?",
+        "What will I do individually, and what is assessed as group work?",
+        "Who supervises the activity, and how is feedback recorded?",
+        "Which travel, residential or material costs are additional?",
+        "Can the academic office share a blank logbook or assessment rubric?"
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Are RAWE and experiential learning the same?", "answer": "They are related practical components with different emphases. RAWE studies agriculture in a rural setting; an experiential module typically gives structured responsibility for a practical process or enterprise. Check your university's definitions and syllabus."},
+    {"question": "Does every college run RAWE in the same semester?", "answer": "Do not assume a common timetable. Request the curriculum and implementation plan applicable to your batch, including any adopted academic reforms."},
+    {"question": "Is an industrial visit the same as an attachment?", "answer": "A visit alone does not tell you the duration, duties or assessment of an attachment. Ask for the component's work plan and reporting requirements."},
+    {"question": "Does Student READY guarantee employment?", "answer": "No. It describes a learning framework intended to develop practical capability. It is not evidence of an individual job offer or a college's placement result."}
+  ],
+  "related_institution_ids": [1, 8, 11],
+  "related_topic_ids": ["fee-budget", "campus-compare", "college-questions", "career-choice"],
+  "sources": [
+    {"id": "sixth-deans-2026", "title": "ICAR Sixth Deans' Committee report, Volume I, 2026", "url": "https://icar.gov.in/sites/default/files/2026-06/SIXTH%20DEANS%20COMMITTEE%20VOL%201%20FINAL%207-3-2026.pdf", "checked_on": "2026-10-30", "note": "Official 2026 publication opened; general internship/Student READY guidance, including section 4.7.2. Treated as recommendations; no automatic institution-level adoption or uniform duration claimed."},
+    {"id": "palar-extension", "title": "Palar Agricultural College: Agricultural Extension", "url": "https://palaragri.ac.in/agricultural-extension/", "checked_on": "2026-10-30", "note": "Official page read, including course list and March 2024 orientation entries. Historical examples kept separate from current-cohort arrangements."},
+    {"id": "apac-degree", "title": "Adhiparasakthi Agricultural College: B.Sc. (Hons.) Agriculture", "url": "https://www.apachc.in/ac/bsc-agriculture.html", "checked_on": "2026-10-30", "note": "Undated programme outline reused from the supplied researched profile; current direct web retrieval failed. Only its broad RAWE/Student READY description is used."},
+    {"id": "sbvr-practical", "title": "SBVR Agricultural College: experiential learning and RAWEP", "url": "https://www.sbvr.in/agriculturecollege/", "checked_on": "2026-10-30", "note": "Official homepage read: the Learning by doing section names Experiential Learning and RAWEP village placements. Current dates, hosts and costs are not inferred."}
+  ],
+  "verification_notes": [
+    "No universal RAWE duration, semester, credit count, placement host or stipend is asserted.",
+    "Historical college activities are clearly described as historical evidence, not a promised future event.",
+    "Module examples in decision guidance are questions, not unverified claims about a named college's inventory.",
+    "Original educational guidance; no campus visit, testimonial, business-profit or employment guarantee invented."
+  ]
+}

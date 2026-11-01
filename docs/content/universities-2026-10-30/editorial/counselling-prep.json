@@ -1,0 +1,69 @@
+{
+  "id": "counselling-prep",
+  "cms_type": "Blog",
+  "slug": "prepare-for-agriculture-counselling",
+  "title": "Prepare for agriculture admission counselling",
+  "description": "Prepare a route-specific agriculture counselling folder, check subjects and certificates, order preferences and track official allotment instructions.",
+  "summary": "Counselling preparation starts by identifying the right admission route. Build a document folder, confirm your eligibility, shortlist affordable college-course combinations and track the actions required after an allotment.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "identify-your-route",
+      "heading": "Create a separate record for each admission route",
+      "paragraphs": [
+        "An examination application, a counselling registration and a university application can be separate steps. For each route, record its official website, applicant number, current notice, contact office and next required action. Never assume registering for one process completes another. The [CUET and ICAR admission route guide](/articles/cuet-icar-agriculture-admission-route) explains why examination and counselling stages need separate checks.",
+        "[Palar Agricultural College](/university/palar-agricultural-college) describes TNAU counselling and a direct college channel on its admission page. [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) is another TNAU-affiliated option in the prepared profiles. Use the [TNAU private college route guide](/articles/tnau-private-agriculture-college-admission) and current official portal to check the channel applicable to your intended seat. A general route description does not confirm an open round."
+      ]
+    },
+    {
+      "id": "confirm-eligibility-first",
+      "heading": "Check your marksheet against the exact programme rules",
+      "paragraphs": [
+        "Before preparing a preference list, compare the required subjects with your marksheet. Note whether the institution uses overall marks or a specified subject group, and check English, age, residence, category and equivalence requirements where applicable. Keep the rule beside the evidence you will submit. If a subject name or board qualification is unclear, request an official clarification.",
+        "Admission routes also differ between universities. [VIT's 2026 agriculture portal](/university/vellore-institute-of-technology) states that its B.Sc. Agriculture admission has no entrance examination. [Siksha ‘O’ Anusandhan](/university/siksha-o-anusandhan) publishes its own 2026 agriculture eligibility, including subject combinations and category-specific thresholds. Neither example establishes a universal rule for agriculture admission. Check [B.Sc. Agriculture eligibility](/articles/bsc-agriculture-eligibility) before extending a rule to another institution."
+      ]
+    },
+    {
+      "id": "build-a-document-folder",
+      "heading": "Prepare documents in the format the route requests",
+      "paragraphs": [
+        "Use the official checklist as your master list. Typical items to check include school marksheets, proof of age, identification, the application record and any category or residence certificate required for your claim. Requirements differ; a suggested preparation list is not a substitute for the route's instructions. Check certificate validity, issuing authority and whether originals are needed later.",
+        "Create readable scans and use the required file type and size. Compare names, dates of birth and marks across documents before uploading. Keep originals together and make a separate digital backup. If an item is awaiting issue or correction, ask the designated office about the permitted procedure rather than assuming a receipt will be accepted in its place."
+      ],
+      "bullets": ["Application and examination identifiers, where applicable.","Academic records and any subject-equivalence clarification.","Required age, category, residence or special-quota evidence.","Readable uploads plus originals for any notified verification.","Official notices, submitted forms and payment receipts."]
+    },
+    {
+      "id": "order-realistic-preferences",
+      "heading": "Order choices you could actually accept",
+      "paragraphs": [
+        "Treat each preference as a college-course-campus combination. Confirm eligibility, recognition scope, academic fit, accommodation and total costs before placing it on the list. Discuss acceptable options with your family in advance. Do not add a course merely to make the list longer if you would be unable or unwilling to join it.",
+        "Check how the particular system handles editing, saving, locking and later rounds. These actions can have different meanings in different processes. Save the final submitted list or acknowledgement in the form the portal provides. Use [the fee letter checklist](/blogs/reading-an-agriculture-fee-letter) to understand the cash required if one of your preferred choices is allotted."
+      ]
+    },
+    {
+      "id": "track-allotment-actions",
+      "heading": "Keep a plan for the day an allotment appears",
+      "paragraphs": [
+        "Read the allotment notice in full. Record the required response, payment, document verification and reporting instructions, with the official deadlines. If the route permits an upgrade or another round, read the conditions before choosing an option. Do not assume a payment replaces reporting or that an unread message pauses a deadline.",
+        "This guide was reviewed on 30 October 2026. Earlier 2026 notices may remain visible after their rounds close. Use them as records, then verify the live position with the official portal. An available login page alone does not mean applications or counselling are currently open."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question":"Does an entrance score automatically register me for counselling?","answer":"Do not assume so. Check whether the relevant authority requires a separate application, registration, fee or choice submission after the examination."},
+    {"question":"Can I use one document checklist for every college?","answer":"Keep a common document folder, but compare it with each route's official checklist. Certificate formats, eligibility claims, upload rules and verification stages can differ."},
+    {"question":"Can an old counselling notice be used to plan the next intake?","answer":"It can explain the earlier process. Wait for the intended intake's official rules before relying on dates, fees, eligibility or available choices."}
+  ],
+  "related_institution_ids": [8, 1, 32, 50],
+  "related_topic_ids": ["cuet-icar", "tnau-route", "bsc-eligibility", "fee-letter"],
+  "sources": [
+    {"id":"tnau-official-entry","title":"Tamil Nadu Agricultural University: UG admissions","url":"https://tnau.ac.in/ugadmission/","checked_on":"2026-10-30","note":"Official university page read and its linked combined TNAU/Annamalai 2026–27 application portal checked. Supports use of the official route, not a claim of currently open counselling."},
+    {"id":"tnau-faq-2026","title":"TNAU and Annamalai University combined admissions FAQs 2026–2027","url":"https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view","checked_on":"2026-10-30","note":"Current portal links this English FAQ. Previously downloaded and verified in the local evidence pack; used for route context only, with no live deadline inferred."},
+    {"id":"palar-route","title":"Palar Agricultural College: admission procedure","url":"https://palaragri.ac.in/admission/","checked_on":"2026-10-30","note":"Official undated procedure read; supports the counselling/direct-channel example. Any current quota allocation still requires the applicable notice."},
+    {"id":"vit-2026","title":"VIT: B.Sc. (Hons.) Agriculture admission 2026, Vellore campus","url":"https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login","checked_on":"2026-10-30","note":"Official intake-labelled page read. Supports the no-entrance-examination example; no current open-round claim or application deadline copied."},
+    {"id":"soa-2026","title":"SOA: eligibility criteria for agricultural sciences programmes 2026","url":"https://www.admission.soa.ac.in/agriculture-2026","checked_on":"2026-10-30","note":"Official 2026 criteria read; supports institutional variation in subjects and category thresholds. No universal marks rule asserted."}
+  ],
+  "verification_notes": ["No current admission opening, live seat count or deadline is asserted.","Document and preference checklists are preparation guidance; route-specific instructions take precedence.","APAC affiliation example uses the prepared official-source institution profile, not an invented counselling participation notice."]
+}

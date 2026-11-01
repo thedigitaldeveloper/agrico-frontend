@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-11T18:26:23.662Z",
+  "fixture": "Actual ProgrammeCarousel with seven ordered synthetic products, real component/CSS, no running app or CMS",
+  "sourceHashes": {
+    "src/components/rs/programme-carousel.tsx": "88c9904bc898d1852468bd474d8c89c3c188914629580a435cf3086e8affca0d",
+    "src/components/rs/programme-carousel.css": "5ab35a4e9ff1fb364bee9f51df7db27d33144aa895d7d4466e0211d814c70722",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "visible": 4,
+      "arrowStepsToEnd": 3,
+      "checks": [
+        "ordered geometry",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 1031,
+      "visible": 3,
+      "arrowStepsToEnd": 4,
+      "checks": [
+        "ordered geometry",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 768,
+      "visible": 2,
+      "arrowStepsToEnd": 5,
+      "checks": [
+        "ordered geometry",
+        "both arrow ends",
+        "keyboard arrows",
+        "native card controls",
+        "same-items reset",
+        "filter reset",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "visible": 1,
+      "arrowStepsToEnd": 6,
+      "checks": [
+        "ordered geometry",
+        "both arrow ends",
+        "keyboard arrows",
+        "native touch swipe",
+        "native card controls",
+        "same-items reset",
+        "filter reset",
+        "order-change reset",
+        "no document overflow"
+      ]
+    },
+    {
+      "width": 360,
+      "visible": 1,
+      "arrowStepsToEnd": 6,
+      "checks": [
+        "ordered geometry",
+        "both arrow ends",
+        "keyboard arrows",
+        "native touch swipe",
+        "native card controls",
+        "same-items reset",
+        "filter reset",
+        "order-change reset",
+        "no document overflow"
+      ]
+    }
+  ],
+  "errors": []
+}

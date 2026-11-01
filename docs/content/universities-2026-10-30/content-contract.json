@@ -1,0 +1,244 @@
+{
+  "version": "1.0",
+  "purpose": "Original English editorial content for the existing Agrico university detail layout. Content preparation only; do not publish or seed CMS records.",
+  "checked_on": "2026-10-30",
+  "input": "docs/research/icar-2026-10-30/count-audit.json records filtered by count_status === included, preserving input order (58 institutions). Merge the additional Centurion fisheries accreditation record into Centurion, without creating a 59th page.",
+  "output_shape": {
+    "id": "1-based index in the 58 filtered records",
+    "slug": "stable lowercase institution-name slug; do not use locations as part of the name unless needed for disambiguation",
+    "name": "correct official public-facing name",
+    "identity": {
+      "kind": "private_university or private_college",
+      "short_name": "string or null",
+      "ownership": "specific supported wording",
+      "city": "string or null",
+      "state": "string",
+      "established": "year or null",
+      "address": "verified address or null",
+      "parent_university": "string or null",
+      "website": "verified official URL",
+      "admissions_url": "verified exact official URL or null",
+      "phone": "verified institutional public phone or null",
+      "email": "verified institutional public email or null"
+    },
+    "hero": {
+      "eyebrow": "short agriculture education label",
+      "title": "official name",
+      "summary": "original institution-specific summary, about 35-55 words",
+      "primary_cta": "Get admission guidance",
+      "secondary_cta": "Explore programmes"
+    },
+    "overview": {
+      "heading": "original informative heading",
+      "paragraphs": [
+        "2 original, factual paragraphs; roughly 100-160 words total"
+      ],
+      "highlights": [
+        {
+          "label": "fact label",
+          "value": "supported fact"
+        }
+      ],
+      "source_ids": [
+        "source identifiers supporting the paragraphs and facts"
+      ]
+    },
+    "programmes": [
+      {
+        "name": "one relevant agriculture/allied programme per row; additional verified offerings allowed",
+        "level": "Undergraduate, Postgraduate, Doctoral or Diploma",
+        "duration": "verified string or null",
+        "mode": "verified string or null",
+        "summary": "original course-specific summary",
+        "eligibility": "verified eligibility or null",
+        "admission_route": "verified route or null",
+        "fees": {
+          "amount_inr": null,
+          "period": "semester/year/total, or null",
+          "academic_year": "year explicitly stated by source, or null",
+          "includes": "scope of fee, or null",
+          "note": "concise explanation if not verified; do not estimate",
+          "verification": "verified or not_verified",
+          "source_ids": []
+        },
+        "icar_scope_note": "exact supported programme/unit scope; do not blanket-accredit other courses",
+        "source_ids": [
+          "at least one relevant source"
+        ]
+      }
+    ],
+    "admissions": {
+      "heading": "application-process heading",
+      "intro": "original institution-specific introduction",
+      "eligibility_points": [
+        "verified facts only"
+      ],
+      "steps": [
+        {
+          "title": "application step",
+          "text": "verified or clearly general applicant action, not invented institutional procedure"
+        }
+      ],
+      "documents": [
+        "only verified document requirements"
+      ],
+      "dates": [
+        {
+          "label": "event",
+          "date": "published date",
+          "academic_year": "source year",
+          "source_ids": []
+        }
+      ],
+      "application_fee_inr": null,
+      "source_ids": []
+    },
+    "campus": {
+      "heading": "original practical-learning heading",
+      "intro": "original supported account of campus and agricultural learning",
+      "facilities": [
+        {
+          "name": "verified facility",
+          "description": "original short description",
+          "source_ids": []
+        }
+      ],
+      "practical_learning": [
+        "supported institution-specific opportunities"
+      ],
+      "source_ids": []
+    },
+    "scholarships": {
+      "heading": "Scholarships and financial support",
+      "text": "supported, original information; clearly state when an agriculture-specific award has not been verified",
+      "schemes": [
+        {
+          "name": "verified scheme",
+          "details": "verified terms without promising individual eligibility",
+          "source_ids": []
+        }
+      ],
+      "source_ids": []
+    },
+    "placements": {
+      "heading": "Career support and outcomes",
+      "text": "institution-specific verified support; distinguish institution-wide outcomes from agriculture outcomes",
+      "statistics": [
+        {
+          "label": "metric",
+          "value": "verified value",
+          "year": "reported year",
+          "scope": "agriculture programme, campus or entire university",
+          "source_ids": []
+        }
+      ],
+      "recruiters": [
+        "verified agriculture-linked recruiter names only; otherwise empty"
+      ],
+      "source_ids": []
+    },
+    "recognition": {
+      "heading": "Recognition and programme accreditation",
+      "text": "original explanation of the specific school/programme and term",
+      "icar_units": [
+        {
+          "unit": "source unit",
+          "programmes_as_printed": [
+            "exact factual programme labels from local audit; do not truncate accredited PG/PhD listings"
+          ],
+          "valid_from": "YYYY-MM-DD",
+          "valid_until": "YYYY-MM-DD",
+          "source_url": "ICAR workbook URL",
+          "source_range": "Sheet1!A#:G#"
+        }
+      ],
+      "other_recognitions": [
+        {
+          "name": "verified UGC/NAAC/etc status",
+          "scope": "precise scope and year/validity where applicable",
+          "source_ids": []
+        }
+      ],
+      "source_ids": []
+    },
+    "faculty": {
+      "intro": "supported information or a plain availability note",
+      "people": [
+        {
+          "name": "verified current staff",
+          "role": "verified role",
+          "source_ids": []
+        }
+      ],
+      "source_ids": []
+    },
+    "faqs": [
+      {
+        "question": "institution-specific applicant question",
+        "answer": "original factual answer; 5-7 useful questions per institution",
+        "source_ids": []
+      }
+    ],
+    "seo": {
+      "title": "institution + agriculture courses/admissions; avoid unsupported current-open claims",
+      "description": "original, approximately 140-165 characters; no unverified ranking/superlative",
+      "keywords": [
+        "institution-specific relevant searches"
+      ]
+    },
+    "media": {
+      "campus_image_url": null,
+      "logo_url": null,
+      "campus_alt": "original descriptive alt text idea, no claim that a missing asset has been acquired",
+      "caption": "original caption idea",
+      "rights_status": "not_acquired unless verified licensed",
+      "source_ids": []
+    },
+    "sources": [
+      {
+        "id": "s1, s2, ... unique within this institution",
+        "url": "exact source URL actually read or available as a search excerpt",
+        "title": "source title",
+        "kind": "official, regulator, affiliating_university or secondary",
+        "access": "page_read or search_excerpt",
+        "checked_on": "2026-10-30",
+        "supports": [
+          "specific section/fact categories"
+        ],
+        "notes": "important scope or date limitation"
+      }
+    ],
+    "verification_gaps": [
+      {
+        "field": "dotted field path",
+        "reason": "what remains unverified and why",
+        "next_source": "specific suggested official source or null"
+      }
+    ],
+    "editorial_status": "research_draft"
+  },
+  "research_rules": [
+    "Browse Google/web search for every assigned institution. Read at least one institution-specific official page plus another relevant page or authoritative affiliating-university source where available. ICAR data alone is not enough for a full page.",
+    "Shiksha/Collegedunia may supply secondary facts, but independently confirm important fees, eligibility, admissions, accreditation and statistics with official sources. Record access failures; do not bypass a block.",
+    "Write original copy from factual notes. Do not lightly paraphrase, reproduce distinctive wording, lift reviews, testimonials or ranking claims. Respect per-source word limits across the entire content pack; spread researched copy across several primary pages, and keep source-derived prose concise.",
+    "Do not guess official domains, addresses, contact details, fees, exams, percentages, hostel availability, placement figures, current-open admissions or generic promises. Unknown scalar facts remain null; unavailable arrays remain empty and get verification gaps. Useful prose can explain the known situation without filler.",
+    "Date every volatile fact by its actual source year. 2025 fees or NIRF ranks are not 2026 values. ICAR intake in the register is historical accreditation scope, not a live admission seat count.",
+    "Agriculture-focused institution profiles, not a catalogue of every non-agricultural degree. Keep Khalsa veterinary and SRM horticulture scopes accurate. Each independent college remains a college profile even though the current app route says university.",
+    "Reuse the locally audited ICAR identity and validity as provenance, with its limitations. If new official evidence conflicts, record the conflict; do not silently alter the 58 membership.",
+    "Save progress incrementally in your own batch directory, one JSON per completed institution. Do not modify application source, other batches, the research audit or CMS records. Keep all work under D:/agrico-frontend.",
+    "About 450-750 useful original words per institution is a target, not permission to fill unavailable sections with invented facts or repetitive advice. Useful facts and specificity take precedence over length."
+  ],
+  "media_collection_extension": {
+    "manifest": "media-manifest.json",
+    "upload_map": "cms-media-import-plan.json",
+    "local_fields": [
+      "local_logo",
+      "local_card_logo",
+      "local_campus_image",
+      "local_gallery",
+      "collection_status"
+    ],
+    "rights_status": "downloaded_public_source_no_explicit_license records acquisition, not a grant of reuse rights",
+    "source_files": "Original downloaded bytes; see per-institution media assets.json for provenance and visual notes."
+  }
+}

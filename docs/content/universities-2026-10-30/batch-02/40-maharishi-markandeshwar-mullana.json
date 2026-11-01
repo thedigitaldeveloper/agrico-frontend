@@ -1,0 +1,533 @@
+{
+  "id": 40,
+  "slug": "maharishi-markandeshwar-mullana",
+  "name": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "MM(DU)",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Mullana, Ambala",
+    "state": "Haryana",
+    "established": 1993,
+    "address": "Maharishi Markandeshwar (Deemed to be University), Mullana, Ambala, Haryana 133207, India",
+    "parent_university": null,
+    "website": "https://www.mmumullana.org/",
+    "admissions_url": "https://admission.mmumullana.org/",
+    "phone": "1800 274 0240",
+    "email": "info@mmumullana.org"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+    "summary": "MM(DU)’s Faculty of Agriculture at Mullana offers undergraduate agriculture and master’s study in agronomy and entomology. Its 2026-27 information booklet states academic entry requirements, while a separate dated fee sheet distinguishes tuition from other academic charges and later-year increases.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture, agronomy and entomology at Mullana",
+    "paragraphs": [
+      "The university’s agriculture pathway includes a four-year B.Sc. and two-year master’s degrees in agronomy and entomology. These courses serve different academic stages: a broad undergraduate foundation, crop-management specialisation and the study of agricultural insects. The 2026-27 information booklet specifies qualifying subjects and marks for each route.",
+      "The faculty’s self-study report identifies a teaching museum of agricultural tools, seeds and models, plus postgraduate laboratories and research plots. A May 2026 university account also records agricultural expert discussions and describes experimental farms. These sources support a practical learning context; they do not establish a typical graduate salary or a guaranteed appointment."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Faculty of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Mullana, Ambala, Haryana"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The Faculty of Agriculture’s undergraduate course, explicitly named in the ICAR register.",
+      "eligibility": "2026-27 booklet: 10+2 with five subjects including English and Physics, Chemistry, Biology/Mathematics or Agriculture stream; 50% aggregate, 45% SC/ST.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 121500,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "First-year tuition component. Published total academic fee is INR 1,40,000 in year 1 and INR 6,01,453 across four years; tuition rises 7% annually; hostel/transport extra.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate crop-management study supported by a departmental laboratory and research farm.",
+      "eligibility": "2026-27 booklet: B.Sc. Agriculture/equivalent with 60%; 50% SC/ST.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Published annual tuition component; programme academic total INR 1,67,900, additional living costs excluded.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Entomology",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Specialist insect-science study listed in the 2026-27 programme booklet.",
+      "eligibility": "2026-27 booklet: Agriculture/Horticulture/Forestry bachelor’s degree with 60% or equivalent; 50% SC/ST.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "University fee table has a combined M.Sc. Agriculture row; confirm specialisation-specific offer charges.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The 2026-27 booklet gives the academic threshold for each agriculture course. The main course webpages did not expose usable application text during research, so a current selection notice and deadlines should be requested separately.",
+    "eligibility_points": [
+      "B.Sc.: English plus the specified science/agriculture route and 50% aggregate, or 45% for SC/ST.",
+      "M.Sc. Agronomy: relevant agriculture bachelor’s qualification with 60%, or 50% SC/ST.",
+      "M.Sc. Entomology: Agriculture, Horticulture or Forestry bachelor’s qualification with 60%, or 50% SC/ST."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "campus": {
+    "heading": "Teaching collections and postgraduate research",
+    "intro": "The faculty self-study report identifies a museum used for agricultural identification teaching and farmer training. It also describes postgraduate agronomy and entomology laboratories, with research-farm resources for crop experiments.",
+    "facilities": [
+      {
+        "name": "Agricultural teaching museum",
+        "description": "The report lists farm tools, machinery models, seed and other teaching collections.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Postgraduate laboratories and research farm",
+        "description": "The faculty report identifies facilities supporting agronomy and entomology study.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s4",
+      "s5"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The agriculture self-study report describes a university-level Training and Placement Cell, with agriculture coordination assigned to Dr. Satish Kumar. This is source-specific support information from a report containing older academic context. It does not establish current agriculture placement totals, median pay or a placement guarantee.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Faculty of Agriculture for 2024-06-20 to 2029-06-19. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agriculture",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 180)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A48:G48"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The faculty self-study report identifies subject teachers across crop production, crop improvement, horticulture and plant protection. Although its file was uploaded in 2026, it contains older academic-year context; this selected report roster does not certify current appointments.",
+    "people": [
+      {
+        "name": "Dr. Ishwar Singh",
+        "role": "Professor, Agronomy",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Vikas Tomar",
+        "role": "Assistant Professor, Agronomy",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. R. P. Saharan",
+        "role": "Professor, Genetics and Plant Breeding",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Kuldeep Kumar",
+        "role": "Associate Professor, Genetics and Plant Breeding",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Devi Singh",
+        "role": "Professor, Horticulture",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Mahesh Kumar Rana",
+        "role": "Professor, Horticulture",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Ram Singh",
+        "role": "Professor, Plant Pathology",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Lokender Kashyap",
+        "role": "Associate Professor, Entomology",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Satish Kumar",
+        "role": "Associate Professor, Biochemistry and Physiology; report identifies agriculture placement coordination",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What are the undergraduate subjects required in 2026-27?",
+      "answer": "The booklet requires five 10+2 subjects including English and the specified Physics, Chemistry, Biology/Mathematics or Agriculture route.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the published B.Sc. first-year academic total?",
+      "answer": "The 2026-27 fee sheet gives INR 1,40,000; its INR 1,21,500 tuition component is only part of that total.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does tuition stay fixed across four years?",
+      "answer": "The fee sheet states a 7% annual tuition increase and separately prints later-year charges.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Can horticulture graduates apply for entomology?",
+      "answer": "The 2026-27 booklet includes Agriculture, Horticulture and Forestry bachelor’s qualifications, with its stated marks threshold.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Are both master’s courses covered by the checked ICAR row?",
+      "answer": "The audited Faculty of Agriculture row explicitly prints B.Sc. (Hons.) Agriculture. The master’s offerings do not expand that scope.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Maharishi Markandeshwar (Deemed to be University), Mullana | Agriculture courses and admissions",
+    "description": "Review MM(DU) Mullana agriculture and master’s courses, verified 2026-27 academic fees and eligibility, practical facilities and exact ICAR undergraduate scope.",
+    "keywords": [
+      "Maharishi Markandeshwar (Deemed to be University), Mullana agriculture",
+      "Maharishi Markandeshwar (Deemed to be University), Mullana admissions",
+      "Maharishi Markandeshwar (Deemed to be University), Mullana ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://i0.wp.com/www.mmumullana.org/wp-content/uploads/2024/03/IMG_5534-3-scaled.jpg?fit=2048%2C2560&ssl=1",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/466/2018/5/5/Maharishi-Markandeshwar-University-Mullana.jpg",
+    "campus_alt": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+    "caption": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/maharishi-markandeshwar-mullana/logo.jpg",
+    "local_campus_image": "media/maharishi-markandeshwar-mullana/campus-01.jpg",
+    "local_gallery": [
+      "media/maharishi-markandeshwar-mullana/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.mmumullana.org/wp-content/uploads/2026/04/MM%28DU%29%20Information%20Booklet%20%282026-27%29.pdf",
+      "title": "Information booklet 2026-27, agriculture section",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.eligibility",
+        "admissions"
+      ],
+      "notes": "Direct 14 MB fetch exceeded web tool limit; official indexed agriculture table read."
+    },
+    {
+      "id": "s3",
+      "url": "https://web.mm-edu.in/uploads/pdf_mullana/L1_67789_161932.pdf",
+      "title": "Academic fee structure for Indian students 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Dated official fee sheet cross-checked with university 2026-27 booklet excerpt."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.mmumullana.org/wp-content/uploads/2026/05/SSR-Agriculture-MMDU.pdf",
+      "title": "Faculty of Agriculture self-study report",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Direct fetch exceeded web size limit; facility-report period not established.",
+      "note": "2026 upload path; the report includes a 2023 academic calendar. Faculty and career-support references are report snapshots, not certified October 2026 staffing or outcomes."
+    },
+    {
+      "id": "s5",
+      "url": "https://blog.mmumullana.org/vision-2047-the-blueprint-for-indian-agricultures-new-era/",
+      "title": "University agriculture account, 7 May 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "url": "https://www.mmumullana.org/admission/agriculture.html",
+      "title": "Agriculture application landing page 2024-25",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.research"
+      ],
+      "notes": "Historical portal, not used to claim current applications."
+    },
+    {
+      "id": "s7",
+      "url": "https://blog.mmumullana.org/category/education/agriculture/",
+      "title": "Official university agriculture archive and institutional history",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "Institutional origins date to 1993; not a claim that deemed status began then."
+    },
+    {
+      "id": "s8",
+      "url": "https://onlineprograms.mmumullana.org/contact-us.html",
+      "title": "University complex contact address",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address"
+      ],
+      "notes": "Online programme contact used only to verify the campus postal location."
+    },
+    {
+      "id": "s9",
+      "url": "https://api.mmumullana.org/uploads/pdf/L1_1_80_177151.pdf",
+      "title": "Official admission notice 2025",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.phone",
+        "identity.email",
+        "identity.admissions_url"
+      ],
+      "notes": "Used only to verify university contact and portal; nursing-specific process not applied to agriculture."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/university/maharishi-markandeshwar-deemed-be-university-mullana",
+      "title": "Maharishi Markandeshwar (Deemed to be University), Mullana — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/maharishi-markandeshwar-mullana/logo.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.mmumullana.org/photo-gallery/",
+      "title": "Maharishi Markandeshwar (Deemed to be University), Mullana — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/maharishi-markandeshwar-mullana/campus-01.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.application_procedure",
+      "reason": "Current main course pages expose no readable application process. Historical 2024-25 landing page cannot establish 2026 procedure.",
+      "next_source": "https://www.mmumullana.org/course/bsc-hons-agriculture/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://www.mmumullana.org/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "The official self-study report now supplies named subject faculty; its mixed/older academic context does not establish a dated current roster.",
+      "next_source": "https://www.mmumullana.org/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "Agriculture-specific placement coordination is now described from the official report; no dated cohort/denominator/salary outcome was established.",
+      "next_source": "https://www.mmumullana.org/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://admission.mmumullana.org/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admission.mmumullana.org/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.mmumullana.org/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added 9 named academic staff entries with scope/date labels.",
+      "Added report-scoped agriculture faculty and career-support coordination without relabelling older report context as current outcomes."
+    ]
+  }
+}

@@ -1,0 +1,941 @@
+{
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/programs",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/programs?q=MBA",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/universities",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/compare",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/news",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/blogs",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/about-us",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/contact-us",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/login",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/register",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/search?q=MBA",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/common-application-form",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/university/manipal-university-jaipur",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/offering/manipal-university-jaipur/manipal-university-jaipur-online-mba",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/manipal-university-jaipur-online-mba",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/mba",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/news/rs-education-local-platform-preview-is-ready",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/blogs/a-practical-checklist-for-your-programme-shortlist",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/privacy-policy",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/terms-and-conditions",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/qna",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/mentors",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/scholarships",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/exams",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    },
+    {
+      "path": "/sitemap",
+      "status": 200,
+      "widths": [
+        {
+          "width": 320,
+          "scrollWidth": 320,
+          "bad": []
+        },
+        {
+          "width": 390,
+          "scrollWidth": 390,
+          "bad": []
+        },
+        {
+          "width": 768,
+          "scrollWidth": 768,
+          "bad": []
+        },
+        {
+          "width": 1024,
+          "scrollWidth": 1024,
+          "bad": []
+        },
+        {
+          "width": 1440,
+          "scrollWidth": 1440,
+          "bad": []
+        },
+        {
+          "width": 1920,
+          "scrollWidth": 1920,
+          "bad": []
+        }
+      ]
+    }
+  ],
+  "problems": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "state": "Tamil Nadu",
+    "institutions": 14,
+    "proposed_url": "/agriculture-colleges/tamil-nadu",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "institutions": 5,
+    "proposed_url": "/agriculture-colleges/uttar-pradesh",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Andhra Pradesh",
+    "institutions": 4,
+    "proposed_url": "/agriculture-colleges/andhra-pradesh",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Punjab",
+    "institutions": 5,
+    "proposed_url": "/agriculture-colleges/punjab",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Madhya Pradesh",
+    "institutions": 6,
+    "proposed_url": "/agriculture-colleges/madhya-pradesh",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Rajasthan",
+    "institutions": 10,
+    "proposed_url": "/agriculture-colleges/rajasthan",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Odisha",
+    "institutions": 4,
+    "proposed_url": "/agriculture-colleges/odisha",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  },
+  {
+    "state": "Haryana",
+    "institutions": 3,
+    "proposed_url": "/agriculture-colleges/haryana",
+    "status": "written_local_collection_route",
+    "publish_requirement": "Unique state-specific admission explanation and a useful verified institution comparison; do not publish a filter-only duplicate."
+  }
+]

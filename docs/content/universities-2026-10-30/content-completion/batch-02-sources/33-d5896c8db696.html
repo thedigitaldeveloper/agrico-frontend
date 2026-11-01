@@ -1,0 +1,1337 @@
+
+
+
+
+
+<c:set var="path" value="/srmistonline"/>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=AW-11179397355"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11179397355'); </script>
+        <!-- Event snippet for Agriculture 2023 conversion page
+        In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+        <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-11179397355/_c7qCKWer6AYEOuh4NIp',
+            'event_callback': callback
+        });
+        return false;
+        }
+        </script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SRMIST Agricultural Application form</title>
+        <meta name="keyword" content="online application form">
+        <link href="favicon_0.ico" type="image/x-icon" rel="icon" />
+        <link href="favicon_0.ico" type="image/x-icon" rel="shortcut icon" />        
+        <link href="/srmistonline/resources/css/vendor/all.css" rel="stylesheet" type="text/css">
+        <link href="/srmistonline/resources/css/vendor/mainstyle.css" rel="stylesheet">
+        <link rel="stylesheet" href="/srmistonline/resources/css/distanceeducation/custom.css" />
+        <script src="/srmistonline/resources/js/jquery-3.2.1.min.js"></script>
+        <script src="/srmistonline/resources/js/jquery-ui.min.js"></script>
+        <link href="/srmistonline/resources/css/jquery-ui.css" rel="stylesheet">
+        <script language="javascript" src="/srmistonline/resources/js/jquery.js" type="text/javascript"></script>    
+        <script type="text/javascript" src="/srmistonline/resources/js/jquery-ui.js"></script>   
+        <script type="text/javascript" src="/srmistonline/resources/js/vendor/util.js"></script>   
+        <script type="text/javascript" src="/srmistonline/resources/js/vendor/carousel.js"></script>   
+        <link rel="stylesheet" href="/srmistonline/resources/css/distanceeducation/carousel.css" />
+        <link href="/srmistonline/resources/css/vendor/bootstrap-combobox.css" rel="stylesheet">
+        <script type="text/javascript" src="/srmistonline/resources/js/vendor/bootstrap-combobox.js"></script>
+
+        <link href='/srmistonline/resources/Image/college_icon.jpeg' type='Image/x-icon' rel='icon'></link>
+    </head>
+        <script>
+        $('.carousel').carousel({
+            interval: 1000
+        })
+        var applnSubURL = "/srmistonline/applicationist/loginManager/applicantRegistrationInner.jsp"
+//        var applnGoogleThankYouURL = "/srmistonline/applicationist/loginManager/applicantRegistrationGoogleThankYou.jsp"
+//            $('.datepicker').datepicker();
+//            $('.datepicker').datepicker({
+//                format: 'dd-mm-yyyy',
+//                startDate: '-3d'
+//            });
+        $(function () {
+            $(".clsnumber").keypress(function (e) {
+                if (e.which != 8 && e.which != 0 && e.which != 46 && (e.which < 48 || e.which > 57)) {
+                    return false;
+                }
+            });
+            $("button").button().keypress(function (event) {
+                event.getPreventDefault();
+            });
+
+            $("#btnEdit").on('click', function () {
+                funSendOTP();
+            });
+            $("#cmbCity").combobox();
+
+            var dtToday = new Date();
+            var month = dtToday.getMonth() + 1;
+            var day = dtToday.getDate();
+            var year = dtToday.getFullYear() - 15;
+            if (month < 10)
+                month = '0' + month.toString();
+            if (day < 10)
+                day = '0' + day.toString();
+            var maxDate = year + '-' + month + '-' + day;
+            $("#txtDOB").attr("max", maxDate);
+
+            $("#cmbState").combobox();
+            $("#txtISDCode").combobox();
+            $(".clsalphaspace").keypress(function (event) {
+                var regex = new RegExp("^[a-zA-Z ]+$");
+                var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+                if (!regex.test(key)) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+
+            $(".clsemail").keypress(function (event) {
+                var regex = new RegExp("^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$");
+                var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+                if (!regex.test(key)) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+        });
+
+
+        function funGetState() {
+            if ($("#cmbState").val() != "") {
+                appParameter = [];
+                appParameter.push({name: "ids", value: 17});
+                appParameter.push({name: "filter", value: $("#cmbState").val()});
+                appParameter.push({name: "stateid", value: $("#cmbState").val()});
+                $("#divcity").html("<img src='/srmistonline/resources/Image/wait.gif' alt='Loading... Please Wait!'>");
+                $("#divcity").show();
+                $.post(applnSubURL, appParameter, function (data) {
+                    $("#divcity").html(data);
+                    $("#cmbCity").combobox();
+                }, "html").error(function (jqXHR, textStatus, errorThrown) {
+                    alert(jqXHR.responseText);
+                })
+            }
+        }
+        
+        
+//        function funGoogleThankYou() {
+//                appParam = [];
+//                appParam.push({name: "ids", value: 1});
+//                appParam.push({name: "filter", value: 2});
+//                $.post(applnGoogleThankYouURL, appParam, function (data) {
+//                    
+//                }, "html").error(function (jqXHR, textStatus, errorThrown) {
+//                    alert(jqXHR.responseText);
+//                })
+//        }
+
+        function funSendOTP() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call
+                    (forms, function (form)
+                    {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        } else if ($("#txtDOB").val() == 'dd/mm/yyyy') {
+                            $("#divResultInfoSentOtp").html("<div class='alert alertsentotp alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>Select the date of birth</div></div>");
+                            $(".alertsentotp").fadeTo(2000, 200).slideUp(2000, function () {
+                                $(".alertsentotp").slideUp(2000);
+                            });
+                        } else {
+                            var applnparameter = $('#frmApplicantRegistration').serializeArray();
+                            applnparameter.push({name: "ids", value: "7"});
+                            applnparameter.push({name: "filter", value: ""});
+                            $("#divResultInfoSentOtp").html("<table width='100%'><tr><td align='center'>Please wait....<img src='../../resources/Image/loading.gif'></td></tr></table>");
+                            $.post(applnSubURL, applnparameter, function (data) {
+                                $("#hdn_ApplicantId").val(data.ApplicantId);
+                                if (data.resultstatus == 1) {
+                                    $("#btnsendOTP").hide();
+                                    $("#divotpfield").show();
+                                    $("#txt_Applicant").attr("disabled", true);
+                                    $("#txtDOB").attr("disabled", true);
+                                    $("#txtISDCode").attr("disabled", true);
+                                    $("#txt_Mobile").prop("disabled", true);
+                                    $("#txt_Email").prop("disabled", true);
+                                    $("#cmbState").prop("disabled", true);
+                                    $("#cmbCity").prop("disabled", true);
+                                    $("#enterotp").attr("required", true);
+                                    $("#enterEotp").attr("required", true);
+                                    var timeleft = 270;
+                                    var downloadTimer = setInterval(function () {
+                                        $("#countdown").show();
+                                        var minutes = Math.floor(timeleft / 60);
+                                        var seconds = timeleft - minutes * 60;
+                                        $("#countdown").html(minutes + ":" + ('0' + seconds).slice(-2) + " seconds remaining");
+                                        timeleft -= 1;
+                                        if (timeleft <= 0) {
+                                            clearInterval(downloadTimer);
+                                            $("#countdown").html("0:00 seconds remaining");
+                                            $("#countdown").hide();
+                                            $("#btnResentotp").show();
+                                            $("#btnResentEotp").show();
+                                        }
+                                    }, 1000);
+
+                                    $("#divResultInfoSentOtp").html("<div class='alert alertsentotp alert-success alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                                    $(".alertsentotp").fadeTo(2000, 200).slideUp(2000, function () {
+                                        $(".alertsentotp").slideUp(2000);
+                                    });
+                                } else {
+                                    $("#divResultInfoSentOtp").html("<div class='alert alertsentotp alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                                    $(".alertsentotp").fadeTo(2000, 200).slideUp(2000, function () {
+                                        $(".alertsentotp").slideUp(2000);
+                                    });
+                                }
+                            }, "json").error(function (jqXHR, textStatus, errorThrown) {
+                                alert(jqXHR.responseText);
+                            })
+                        }
+                        form.classList.add('was-validated');
+                    });
+        }
+
+        function funResendOTP() {
+            var applnparameter = $('#frmApplicantRegistration').serializeArray();
+            applnparameter.push({name: "ids", value: "9"});
+            applnparameter.push({name: "filter", value: ""});
+            applnparameter.push({name: "hdn_ApplicantId", value: $("#hdn_ApplicantId").val()});
+            $("#divResultInfo").html("<table width='100%'><tr><td align='center'>Please wait....<img src='/srmistonline/resources/Image/loading.gif'></td></tr></table>");
+            $.post(applnSubURL, applnparameter, function (data) {
+                $("#btnResentotp").hide();
+                if (data.otpstatus == 1) {
+                    var timeleft = 270;
+                    var downloadTimer = setInterval(function () {
+                        $("#countdown").show();
+                        var minutes = Math.floor(timeleft / 60);
+                        var seconds = timeleft - minutes * 60;
+                        $("#countdown").html(minutes + ":" + ('0' + seconds).slice(-2) + " seconds remaining");
+                        timeleft -= 1;
+                        if (timeleft <= 0) {
+                            clearInterval(downloadTimer);
+                            $("#countdown").html("0:00 seconds remaining");
+                            $("#countdown").hide();
+                            $("#btnResentotp").show();
+                        }
+                    }, 1000);
+                    $("#divResultInfo").html("<div class='alert alertresentotp alert-success alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                    $(".alertresentotp").fadeTo(2000, 200).slideUp(2000, function () {
+                        $(".alertresentotp").slideUp(2000);
+                    });
+                } else {
+                    $("#divResultInfo").html("<div class='alert alertresentotp alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                    $(".alertresentotp").fadeTo(2000, 200).slideUp(2000, function () {
+                        $(".alertresentotp").slideUp(2000);
+                    });
+                }
+            }, "json").error(function (jqXHR, textStatus, errorThrown) {
+                alert(jqXHR.responseText);
+            })
+        }
+
+
+        function funMailResendOTP() {
+            var applnparameter = $('#frmApplicantRegistration').serializeArray();
+            applnparameter.push({name: "ids", value: "12"});
+            applnparameter.push({name: "filter", value: ""});
+            applnparameter.push({name: "hdn_ApplicantId", value: $("#hdn_ApplicantId").val()});
+            $("#divResultInfo").html("<table width='100%'><tr><td align='center'>Please wait....<img src='/srmistonline/resources/Image/loading.gif'></td></tr></table>");
+            $.post(applnSubURL, applnparameter, function (data) {
+                if (data.resultstatus == 1) {
+                    $("#btnResentEotp").hide();
+                    var timeleft = 270;
+                    var downloadTimer = setInterval(function () {
+                        $("#countdown").show();
+                        var minutes = Math.floor(timeleft / 60);
+                        var seconds = timeleft - minutes * 60;
+                        $("#countdown").html(minutes + ":" + ('0' + seconds).slice(-2) + " seconds remaining");
+                        timeleft -= 1;
+                        if (timeleft <= 0) {
+                            clearInterval(downloadTimer);
+                            $("#countdown").html("0:00 seconds remaining");
+                            $("#countdown").hide();
+                            $("#btnEResentotp").show();
+                        }
+                    }, 1000);
+                    $("#divResultInfo").html("<div class='alert alertresenteotp alert-success alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                    $(".alertresenteotp").fadeTo(2000, 200).slideUp(2000, function () {
+                        $(".alertresenteotp").slideUp(2000);
+                    });
+                } else {
+                    $("#divResultInfo").html("<div class='alert alertresenteotp alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                    $(".alertresenteotp").fadeTo(2000, 200).slideUp(2000, function () {
+                        $(".alertresenteotp").slideUp(2000);
+                    });
+                }
+            }, "json").error(function (jqXHR, textStatus, errorThrown) {
+                alert(jqXHR.responseText);
+            })
+        }
+
+        function funSendMailAndSMS(argApplicantId) {
+            var applnparameter = $('#frmApplicantRegistration').serializeArray();
+            applnparameter.push({name: "ids", value: "2"});
+            applnparameter.push({name: "filter", value: ""});
+            applnparameter.push({name: "applicantId", value: argApplicantId});
+            $("#divResultInfoSend").html("<table width='100%'><tr><td align='center'>Please wait....<img src='/srmistonline/resources/Image/loading.gif'></td></tr></table>");
+            $("#divResultInfoSend").show();
+            $.post(applnSubURL, applnparameter, function (data) {
+                if (data.resultstatus == 1) {
+                    $("#divResultInfoSend").html("<div class='alert alertresult alert-success alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+//                        $(".alertresult").fadeTo(3000, 300).slideUp(3000, function () {
+//                            $(".alertresult").slideUp(4000);
+//                        });
+                } else {
+                    $("#divResultInfoSend").html("<div class='alert alertresult alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+//                        $(".alertresult").fadeTo(3000, 300).slideUp(3000, function () {
+//                            $(".alertresult").slideUp(3000);
+//                        });
+                }
+            }, "json").error(function (jqXHR, textStatus, errorThrown) {
+                alert(jqXHR.responseText);
+            })
+        }
+
+
+        function funSave() {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call
+                    (forms, function (form)
+                    {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        } else {
+                            var applnparameter = $('#frmApplicantRegistration').serializeArray();
+                            applnparameter.push({name: "ids", value: "18"});
+                            applnparameter.push({name: "filter", value: ""});
+                            applnparameter.push({name: "hdn_ApplicantId", value: $("#hdn_ApplicantId").val()});
+                            $("#divResultInfo").html("<table width='100%'><tr><td align='center'>Please wait....<img src='/srmistonline/resources/Image/loading.gif'></td></tr></table>");
+                            $("#btnRegister").hide();
+                            $.post(applnSubURL, applnparameter, function (data) {
+                                if (data.resultstatus == 1) {
+                                    funSendMailAndSMS(data.ApplicantId);
+//                                    funGoogleThankYou();
+                                        gtag_report_conversion();
+                                    $("#divResultInfo").html("<div class='alert alertresult alert-success alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+//                                        $(".alertresult").fadeTo(5000, 500).slideUp(4000, function () {
+                                    //$(".alertresult").slideUp(5000);
+//                                             window.location.replace("/srmistonline/applicationist/loginManager/youLogin.jsp");
+//                                        });
+                                
+                                } else {
+                                    $("#btnRegister").show();
+                                    $("#divResultInfo").html("<div class='alert alertresult alert-danger alert-icon border-top-lg mb-1 mt-1' role='alert' id='errorAlert'>\n\
+                        <div class='alert-icon-content' id='errorAlertcontent'>" + data.result + "</div></div>");
+                                    $(".alertresult").fadeTo(2000, 200).slideUp(2000, function () {
+                                        $(".alertresult").slideUp(2000);
+                                    });
+                                }
+                            }, "json").error(function (jqXHR, textStatus, errorThrown) {
+                                alert(jqXHR.responseText);
+                            })
+                        }
+                        form.classList.add('was-validated');
+                    });
+        }
+
+        function funExistUser() {
+            window.location.replace("/srmistonline/applicationist/loginManager/youLoginAgri.jsp");
+        }
+    </script>
+    <body style="font-family: 'Eurostile' !important;">
+        <header class="header-section-custom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <img src="/srmistonline/resources/Image/srmist.png" width="90%;" height="90%;" alt="SRM IST">
+                    </div>
+                    <div class="col-lg-8 text-center text-custom text-lg">
+                         <b>Agricultural Sciences Application Form 2024</b>
+                    </div>
+                    <div class="col-lg-2 pull-right text-lg">
+                        <b><br>
+                        </b>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <div class="banner-section">
+            <!--            <div class="col-md-8">-->
+            <div id="carouselExampleInterval" class="carousel slide d-none d-md-block" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src='/srmistonline/resources/Image/loginregistrationbanner/agri_bg_banner1.png' class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-less-than"></i></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-greater-than"></i></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-less-than"></i></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-greater-than"></i></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--            </div>
+                        <div class="col-md-4">-->
+            <div class="formContainer1 form-absolute1 form-position-right1">
+                <form name="frmApplicantRegistration" id="frmApplicantRegistration" autocomplete="off" method="POST" class="needs-validation" novalidate>
+                    <div class="card card-progress">
+                        <div class="card-header badge-custom text-center text-white ">Registration</div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <!--                            <label>Application Category<span style="color:red;">*</span></label>-->
+                                <select  class="form-control" name="cmbApplicationCategory" id="cmbApplicationCategory" onchange="funGetCourse()" required> 
+                                    <option value="">Select Application Form</option>
+                                     
+                                </select>
+                                <div class="invalid-feedback">
+                                    Select Application Form
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span style="color:red;">(As per the certificate)</span></label>
+                                <input type="text" class="form-control form-control-user clsalphaspace" id="txt_Applicant" name="txt_Applicant" maxlength="75"
+                                       placeholder="Applicant Name" required autocomplete="off">
+                                <div class="invalid-feedback">
+                                    Enter applicant name
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label>
+                                    <span class="text-custom">Date of birth</span></label>
+                                <input class="datepicker form-control" id="txtDOB" name="txtDOB" data-date-format="dd-mm-yyyy" type="date" placeholder="Date of Birth (DD-MM-YYYY)" >
+                                <div class="invalid-feedback" required>
+                                    Select date of birth
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-6 mb-3 mb-sm-0">
+                                    <!--                                    <input type="text" class="form-control clsnumber" id="txtISDCode" name="txtISDCode" maxlength="3"
+                                                                               value="91" required readonly="true" autocomplete="off">-->
+                                    <select  class="form-control" name="txtISDCode" id="txtISDCode" required> 
+                                        <option value="">Country Code</option>
+                                        
+                                            <option value="+91">+91 (India)</option>
+                                        
+                                            <option value="+260">+260 (Zambia)</option>
+                                        
+                                            <option value="+967">+967 (Yemen)</option>
+                                        
+                                            <option value="+212">+212 (Western Sahara)</option>
+                                        
+                                            <option value="+681">+681 (Wallis and Futuna)</option>
+                                        
+                                            <option value="+1-340">+1-340 (U.S. Virgin Islands)</option>
+                                        
+                                            <option value="+84">+84 (Vietnam)</option>
+                                        
+                                            <option value="+58">+58 (Venezuela)</option>
+                                        
+                                            <option value="+379">+379 (Vatican)</option>
+                                        
+                                            <option value="+678">+678 (Vanuatu)</option>
+                                        
+                                            <option value="+998">+998 (Uzbekistan)</option>
+                                        
+                                            <option value="+1">+1 (United States)</option>
+                                        
+                                            <option value="+598">+598 (Uruguay)</option>
+                                        
+                                            <option value="+380">+380 (Ukraine)</option>
+                                        
+                                            <option value="+44">+44 (United Kingdom)</option>
+                                        
+                                            <option value="+256">+256 (Uganda)</option>
+                                        
+                                            <option value="+971">+971 (United Arab Emirates)</option>
+                                        
+                                            <option value="+688">+688 (Tuvalu)</option>
+                                        
+                                            <option value="+1-649">+1-649 (Turks and Caicos Islands)</option>
+                                        
+                                            <option value="+993">+993 (Turkmenistan)</option>
+                                        
+                                            <option value="+90">+90 (Turkey)</option>
+                                        
+                                            <option value="+216">+216 (Tunisia)</option>
+                                        
+                                            <option value="+1-868">+1-868 (Trinidad and Tobago)</option>
+                                        
+                                            <option value="+676">+676 (Tonga)</option>
+                                        
+                                            <option value="+690">+690 (Tokelau)</option>
+                                        
+                                            <option value="+228">+228 (Togo)</option>
+                                        
+                                            <option value="+66">+66 (Thailand)</option>
+                                        
+                                            <option value="+255">+255 (Tanzania)</option>
+                                        
+                                            <option value="+992">+992 (Tajikistan)</option>
+                                        
+                                            <option value="+886">+886 (Taiwan)</option>
+                                        
+                                            <option value="+963">+963 (Syria)</option>
+                                        
+                                            <option value="+41">+41 (Switzerland)</option>
+                                        
+                                            <option value="+46">+46 (Sweden)</option>
+                                        
+                                            <option value="+268">+268 (Swaziland)</option>
+                                        
+                                            <option value="+47">+47 (Svalbard and Jan Mayen)</option>
+                                        
+                                            <option value="+597">+597 (Suriname)</option>
+                                        
+                                            <option value="+249">+249 (Sudan)</option>
+                                        
+                                            <option value="+1-784">+1-784 (Saint Vincent and the Grenadines)</option>
+                                        
+                                            <option value="+508">+508 (Saint Pierre and Miquelon)</option>
+                                        
+                                            <option value="+590">+590 (Saint Martin)</option>
+                                        
+                                            <option value="+1-758">+1-758 (Saint Lucia)</option>
+                                        
+                                            <option value="+1-869">+1-869 (Saint Kitts and Nevis)</option>
+                                        
+                                            <option value="+290">+290 (Saint Helena)</option>
+                                        
+                                            <option value="+94">+94 (Sri Lanka)</option>
+                                        
+                                            <option value="+34">+34 (Spain)</option>
+                                        
+                                            <option value="+211">+211 (South Sudan)</option>
+                                        
+                                            <option value="+82">+82 (South Korea)</option>
+                                        
+                                            <option value="+27">+27 (South Africa)</option>
+                                        
+                                            <option value="+252">+252 (Somalia)</option>
+                                        
+                                            <option value="+677">+677 (Solomon Islands)</option>
+                                        
+                                            <option value="+386">+386 (Slovenia)</option>
+                                        
+                                            <option value="+421">+421 (Slovakia)</option>
+                                        
+                                            <option value="+1-721">+1-721 (Sint Maarten)</option>
+                                        
+                                            <option value="+65">+65 (Singapore)</option>
+                                        
+                                            <option value="+232">+232 (Sierra Leone)</option>
+                                        
+                                            <option value="+248">+248 (Seychelles)</option>
+                                        
+                                            <option value="+381">+381 (Serbia)</option>
+                                        
+                                            <option value="+221">+221 (Senegal)</option>
+                                        
+                                            <option value="+966">+966 (Saudi Arabia)</option>
+                                        
+                                            <option value="+239">+239 (Sao Tome and Principe)</option>
+                                        
+                                            <option value="+378">+378 (San Marino)</option>
+                                        
+                                            <option value="+685">+685 (Samoa)</option>
+                                        
+                                            <option value="+590">+590 (Saint Barthelemy)</option>
+                                        
+                                            <option value="+250">+250 (Rwanda)</option>
+                                        
+                                            <option value="+7">+7 (Russia)</option>
+                                        
+                                            <option value="+40">+40 (Romania)</option>
+                                        
+                                            <option value="+262">+262 (Reunion)</option>
+                                        
+                                            <option value="+974">+974 (Qatar)</option>
+                                        
+                                            <option value="+1-787, 1-939">+1-787, 1-939 (Puerto Rico)</option>
+                                        
+                                            <option value="+351">+351 (Portugal)</option>
+                                        
+                                            <option value="+48">+48 (Poland)</option>
+                                        
+                                            <option value="+64">+64 (Pitcairn)</option>
+                                        
+                                            <option value="+63">+63 (Philippines)</option>
+                                        
+                                            <option value="+51">+51 (Peru)</option>
+                                        
+                                            <option value="+595">+595 (Paraguay)</option>
+                                        
+                                            <option value="+675">+675 (Papua New Guinea)</option>
+                                        
+                                            <option value="+507">+507 (Panama)</option>
+                                        
+                                            <option value="+970">+970 (Palestine)</option>
+                                        
+                                            <option value="+680">+680 (Palau)</option>
+                                        
+                                            <option value="+92">+92 (Pakistan)</option>
+                                        
+                                            <option value="+968">+968 (Oman)</option>
+                                        
+                                            <option value="+47">+47 (Norway)</option>
+                                        
+                                            <option value="+850">+850 (North Korea)</option>
+                                        
+                                            <option value="+1-670">+1-670 (Northern Mariana Islands)</option>
+                                        
+                                            <option value="+683">+683 (Niue)</option>
+                                        
+                                            <option value="+234">+234 (Nigeria)</option>
+                                        
+                                            <option value="+227">+227 (Niger)</option>
+                                        
+                                            <option value="+505">+505 (Nicaragua)</option>
+                                        
+                                            <option value="+64">+64 (New Zealand)</option>
+                                        
+                                            <option value="+687">+687 (New Caledonia)</option>
+                                        
+                                            <option value="+599">+599 (Netherlands Antilles)</option>
+                                        
+                                            <option value="+31">+31 (Netherlands)</option>
+                                        
+                                            <option value="+977">+977 (Nepal)</option>
+                                        
+                                            <option value="+674">+674 (Nauru)</option>
+                                        
+                                            <option value="+264">+264 (Namibia)</option>
+                                        
+                                            <option value="+258">+258 (Mozambique)</option>
+                                        
+                                            <option value="+212">+212 (Morocco)</option>
+                                        
+                                            <option value="+1-664">+1-664 (Montserrat)</option>
+                                        
+                                            <option value="+382">+382 (Montenegro)</option>
+                                        
+                                            <option value="+976">+976 (Mongolia)</option>
+                                        
+                                            <option value="+377">+377 (Monaco)</option>
+                                        
+                                            <option value="+373">+373 (Moldova)</option>
+                                        
+                                            <option value="+691">+691 (Micronesia)</option>
+                                        
+                                            <option value="+52">+52 (Mexico)</option>
+                                        
+                                            <option value="+262">+262 (Mayotte)</option>
+                                        
+                                            <option value="+230">+230 (Mauritius)</option>
+                                        
+                                            <option value="+222">+222 (Mauritania)</option>
+                                        
+                                            <option value="+692">+692 (Marshall Islands)</option>
+                                        
+                                            <option value="+356">+356 (Malta)</option>
+                                        
+                                            <option value="+223">+223 (Mali)</option>
+                                        
+                                            <option value="+960">+960 (Maldives)</option>
+                                        
+                                            <option value="+60">+60 (Malaysia)</option>
+                                        
+                                            <option value="+265">+265 (Malawi)</option>
+                                        
+                                            <option value="+261">+261 (Madagascar)</option>
+                                        
+                                            <option value="+389">+389 (Macedonia)</option>
+                                        
+                                            <option value="+853">+853 (Macau)</option>
+                                        
+                                            <option value="+352">+352 (Luxembourg)</option>
+                                        
+                                            <option value="+370">+370 (Lithuania)</option>
+                                        
+                                            <option value="+423">+423 (Liechtenstein)</option>
+                                        
+                                            <option value="+218">+218 (Libya)</option>
+                                        
+                                            <option value="+231">+231 (Liberia)</option>
+                                        
+                                            <option value="+266">+266 (Lesotho)</option>
+                                        
+                                            <option value="+961">+961 (Lebanon)</option>
+                                        
+                                            <option value="+371">+371 (Latvia)</option>
+                                        
+                                            <option value="+856">+856 (Laos)</option>
+                                        
+                                            <option value="+996">+996 (Kyrgyzstan)</option>
+                                        
+                                            <option value="+965">+965 (Kuwait)</option>
+                                        
+                                            <option value="+383">+383 (Kosovo)</option>
+                                        
+                                            <option value="+686">+686 (Kiribati)</option>
+                                        
+                                            <option value="+254">+254 (Kenya)</option>
+                                        
+                                            <option value="+7">+7 (Kazakhstan)</option>
+                                        
+                                            <option value="+962">+962 (Jordan)</option>
+                                        
+                                            <option value="+44-1534">+44-1534 (Jersey)</option>
+                                        
+                                            <option value="+81">+81 (Japan)</option>
+                                        
+                                            <option value="+1-876">+1-876 (Jamaica)</option>
+                                        
+                                            <option value="+225">+225 (Ivory Coast)</option>
+                                        
+                                            <option value="+39">+39 (Italy)</option>
+                                        
+                                            <option value="+972">+972 (Israel)</option>
+                                        
+                                            <option value="+44-1624">+44-1624 (Isle of Man)</option>
+                                        
+                                            <option value="+353">+353 (Ireland)</option>
+                                        
+                                            <option value="+964">+964 (Iraq)</option>
+                                        
+                                            <option value="+98">+98 (Iran)</option>
+                                        
+                                            <option value="+62">+62 (Indonesia)</option>
+                                        
+                                            <option value="+354">+354 (Iceland)</option>
+                                        
+                                            <option value="+36">+36 (Hungary)</option>
+                                        
+                                            <option value="+852">+852 (Hong Kong)</option>
+                                        
+                                            <option value="+504">+504 (Honduras)</option>
+                                        
+                                            <option value="+509">+509 (Haiti)</option>
+                                        
+                                            <option value="+592">+592 (Guyana)</option>
+                                        
+                                            <option value="+245">+245 (Guinea-Bissau)</option>
+                                        
+                                            <option value="+224">+224 (Guinea)</option>
+                                        
+                                            <option value="+44-1481">+44-1481 (Guernsey)</option>
+                                        
+                                            <option value="+502">+502 (Guatemala)</option>
+                                        
+                                            <option value="+1-671">+1-671 (Guam)</option>
+                                        
+                                            <option value="+1-473">+1-473 (Grenada)</option>
+                                        
+                                            <option value="+299">+299 (Greenland)</option>
+                                        
+                                            <option value="+30">+30 (Greece)</option>
+                                        
+                                            <option value="+350">+350 (Gibraltar)</option>
+                                        
+                                            <option value="+233">+233 (Ghana)</option>
+                                        
+                                            <option value="+49">+49 (Germany)</option>
+                                        
+                                            <option value="+995">+995 (Georgia)</option>
+                                        
+                                            <option value="+220">+220 (Gambia)</option>
+                                        
+                                            <option value="+241">+241 (Gabon)</option>
+                                        
+                                            <option value="+689">+689 (French Polynesia)</option>
+                                        
+                                            <option value="+33">+33 (France)</option>
+                                        
+                                            <option value="+358">+358 (Finland)</option>
+                                        
+                                            <option value="+679">+679 (Fiji)</option>
+                                        
+                                            <option value="+298">+298 (Faroe Islands)</option>
+                                        
+                                            <option value="+500">+500 (Falkland Islands)</option>
+                                        
+                                            <option value="+251">+251 (Ethiopia)</option>
+                                        
+                                            <option value="+372">+372 (Estonia)</option>
+                                        
+                                            <option value="+291">+291 (Eritrea)</option>
+                                        
+                                            <option value="+240">+240 (Equatorial Guinea)</option>
+                                        
+                                            <option value="+503">+503 (El Salvador)</option>
+                                        
+                                            <option value="+20">+20 (Egypt)</option>
+                                        
+                                            <option value="+593">+593 (Ecuador)</option>
+                                        
+                                            <option value="+670">+670 (East Timor)</option>
+                                        
+                                            <option value="+1-809">+1-809 (Dominican Republic)</option>
+                                        
+                                            <option value="+1-829">+1-829 (Dominican Republic)</option>
+                                        
+                                            <option value="+1-849">+1-849 (Dominican Republic)</option>
+                                        
+                                            <option value="+1-767">+1-767 (Dominica)</option>
+                                        
+                                            <option value="+253">+253 (Djibouti)</option>
+                                        
+                                            <option value="+45">+45 (Denmark)</option>
+                                        
+                                            <option value="+420">+420 (Czech Republic)</option>
+                                        
+                                            <option value="+357">+357 (Cyprus)</option>
+                                        
+                                            <option value="+599">+599 (Curacao)</option>
+                                        
+                                            <option value="+53">+53 (Cuba)</option>
+                                        
+                                            <option value="+385">+385 (Croatia)</option>
+                                        
+                                            <option value="+506">+506 (Costa Rica)</option>
+                                        
+                                            <option value="+682">+682 (Cook Islands)</option>
+                                        
+                                            <option value="+243">+243 (Democratic Republic of the Congo)</option>
+                                        
+                                            <option value="+242">+242 (Republic of the Congo)</option>
+                                        
+                                            <option value="+269">+269 (Comoros)</option>
+                                        
+                                            <option value="+57">+57 (Colombia)</option>
+                                        
+                                            <option value="+61">+61 (Cocos Islands)</option>
+                                        
+                                            <option value="+61">+61 (Christmas Island)</option>
+                                        
+                                            <option value="+86">+86 (China)</option>
+                                        
+                                            <option value="+56">+56 (Chile)</option>
+                                        
+                                            <option value="+235">+235 (Chad)</option>
+                                        
+                                            <option value="+236">+236 (Central African Republic)</option>
+                                        
+                                            <option value="+1-345">+1-345 (Cayman Islands)</option>
+                                        
+                                            <option value="+238">+238 (Cape Verde)</option>
+                                        
+                                            <option value="+1">+1 (Canada)</option>
+                                        
+                                            <option value="+237">+237 (Cameroon)</option>
+                                        
+                                            <option value="+855">+855 (Cambodia)</option>
+                                        
+                                            <option value="+257">+257 (Burundi)</option>
+                                        
+                                            <option value="+95">+95 (Myanmar)</option>
+                                        
+                                            <option value="+226">+226 (Burkina Faso)</option>
+                                        
+                                            <option value="+359">+359 (Bulgaria)</option>
+                                        
+                                            <option value="+673">+673 (Brunei)</option>
+                                        
+                                            <option value="+1-284">+1-284 (British Virgin Islands)</option>
+                                        
+                                            <option value="+246">+246 (British Indian Ocean Territory)</option>
+                                        
+                                            <option value="+55">+55 (Brazil)</option>
+                                        
+                                            <option value="+267">+267 (Botswana)</option>
+                                        
+                                            <option value="+387">+387 (Bosnia and Herzegovina)</option>
+                                        
+                                            <option value="+591">+591 (Bolivia)</option>
+                                        
+                                            <option value="+975">+975 (Bhutan)</option>
+                                        
+                                            <option value="+1-441">+1-441 (Bermuda)</option>
+                                        
+                                            <option value="+229">+229 (Benin)</option>
+                                        
+                                            <option value="+501">+501 (Belize)</option>
+                                        
+                                            <option value="+32">+32 (Belgium)</option>
+                                        
+                                            <option value="+375">+375 (Belarus)</option>
+                                        
+                                            <option value="+1-246">+1-246 (Barbados)</option>
+                                        
+                                            <option value="+880">+880 (Bangladesh)</option>
+                                        
+                                            <option value="+973">+973 (Bahrain)</option>
+                                        
+                                            <option value="+1-242">+1-242 (Bahamas)</option>
+                                        
+                                            <option value="+994">+994 (Azerbaijan)</option>
+                                        
+                                            <option value="+43">+43 (Austria)</option>
+                                        
+                                            <option value="+61">+61 (Australia)</option>
+                                        
+                                            <option value="+297">+297 (Aruba)</option>
+                                        
+                                            <option value="+374">+374 (Armenia)</option>
+                                        
+                                            <option value="+54">+54 (Argentina)</option>
+                                        
+                                            <option value="+1-268">+1-268 (Antigua and Barbuda)</option>
+                                        
+                                            <option value="+672">+672 (Antarctica)</option>
+                                        
+                                            <option value="+1-264">+1-264 (Anguilla)</option>
+                                        
+                                            <option value="+244">+244 (Angola)</option>
+                                        
+                                            <option value="+376">+376 (Andorra)</option>
+                                        
+                                            <option value="+1-684">+1-684 (American Samoa)</option>
+                                        
+                                            <option value="+213">+213 (Algeria)</option>
+                                        
+                                            <option value="+355">+355 (Albania)</option>
+                                        
+                                            <option value="+263">+263 (Zimbabwe)</option>
+                                        
+                                            <option value="+93">+93 (Afghanistan)</option>
+                                         
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Enter country code
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control clsnumber" id="txt_Mobile" name="txt_Mobile" min="5999999999" max="9999999999" maxlength="10"
+                                           placeholder="Mobile Number" required autocomplete="off">
+                                    <div class="invalid-feedback">
+                                        Enter mobile number
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" class="form-control clsemail" id="txt_Email" name="txt_Email" maxlength="100" autocomplete="off" 
+                                       placeholder="Email ID" required>
+                                <div class="invalid-feedback">
+                                    Enter email id
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select  class="form-control" name="cmbState" id="cmbState" required onchange="funGetState()">
+                                    <option value="">State</option>
+                                    
+                                        <option value="1">Andaman & Nicobar (UT)</option>
+                                    
+                                        <option value="2">Andhra Pradesh</option>
+                                    
+                                        <option value="3">Arunachal Pradesh</option>
+                                    
+                                        <option value="4">Assam</option>
+                                    
+                                        <option value="5">Bihar</option>
+                                    
+                                        <option value="6">Chandigarh(UT)</option>
+                                    
+                                        <option value="7">Chattisgarh</option>
+                                    
+                                        <option value="8">Dadra and Nagar Haveli(UT)</option>
+                                    
+                                        <option value="3872">Daman And Diu</option>
+                                    
+                                        <option value="9">Daman and Diu(UT)</option>
+                                    
+                                        <option value="10">Delhi</option>
+                                    
+                                        <option value="11">Goa</option>
+                                    
+                                        <option value="12">Gujarat</option>
+                                    
+                                        <option value="13">Haryana</option>
+                                    
+                                        <option value="14">Himachal Pradesh</option>
+                                    
+                                        <option value="15">Jammu & Kashmir</option>
+                                    
+                                        <option value="16">Jharkhand</option>
+                                    
+                                        <option value="17">Karnataka</option>
+                                    
+                                        <option value="18">Kerala</option>
+                                    
+                                        <option value="19">Lakshdweep(UT)</option>
+                                    
+                                        <option value="20">Madhya Pradesh</option>
+                                    
+                                        <option value="21">Maharashtra</option>
+                                    
+                                        <option value="22">Manipur</option>
+                                    
+                                        <option value="23">Meghalaya</option>
+                                    
+                                        <option value="24">Mizoram</option>
+                                    
+                                        <option value="25">Nagaland</option>
+                                    
+                                        <option value="26">Odisha</option>
+                                    
+                                        <option value="3803">Others</option>
+                                    
+                                        <option value="27">Puducherry(UT)</option>
+                                    
+                                        <option value="28">Punjab</option>
+                                    
+                                        <option value="29">Rajasthan</option>
+                                    
+                                        <option value="30">Sikkim</option>
+                                    
+                                        <option value="31">Tamil Nadu</option>
+                                    
+                                        <option value="3720">Telangana</option>
+                                    
+                                        <option value="32">Tripura</option>
+                                    
+                                        <option value="3721">Uttarakhand</option>
+                                    
+                                        <option value="34">Uttaranchal</option>
+                                    
+                                        <option value="33">Uttar Pradesh</option>
+                                    
+                                        <option value="35">West Bengal</option>
+                                     
+                                </select>
+                                <div class="invalid-feedback">
+                                    Select State
+                                </div>
+                            </div>
+                            <div class="form-group" id="divcity">
+                                <select  class="form-control" name="cmbCity" id="cmbCity" title="City" required> 
+                                    <option value="">City</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Select City
+                                </div>
+                            </div>
+                            <input type="hidden" name="hdnutm_source" id="hdnutm_source" value="ORGANIC">
+                            <input type="hidden" name="hdnutm_medium" id="hdnutm_medium" value="SRMIST">
+                            <input type="hidden" name="hdnutm_campaign" id="hdnutm_campaign" value="">
+                                                        
+                            
+                            <div id="divResultInfo" class="form-group"></div>
+                            <span id="btnRegister" class="btn btn-custom btn-user btn-block" onclick="funSave()">
+                                <i class="fa fa-envelope fa-fw mr-1"></i>Register
+                            </span>
+<!--                            <div id="divotpfield" style="display:none">
+                                <div class="form-group">
+                                    <label  class="pull-left">Mobile Number OTP</label>
+                                    <input type="text" class="form-control clsnumber" id="enterotp" name="enterotp" maxlength="5"
+                                           placeholder="Enter Mobile Number OTP">
+                                    <div class="invalid-feedback">
+                                        Enter mobile number OTP
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label  class="pull-left">Email OTP</label>
+                                    <input type="text" class="form-control clsnumber" id="enterEotp" name="enterEotp" maxlength="5"
+                                           placeholder="Enter Email Id OTP">
+                                    <div class="invalid-feedback">
+                                        Enter email OTP
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="hidden"  id="hdn_ApplicantId" name="hdn_ApplicantId" value=""/>
+                                    <label  class="text-danger pull-left ">* OTP is valid upto <span id="countdown"></span><span id="countover" style="display:none">0.00</span></label>
+                                </div>
+                                <div id="divResultInfoSend"></div>
+                                <div id="divResultInfo"></div>
+                                <div class="form-group row  text-center">
+                                    <div class="col-md-6">
+                                        <span class="btn btn-info btn-user btn-block" id="btnResentotp" onclick="funResendOTP()" style="display:none">
+                                            <i class="fa fa-mobile fa-fw mr-1"></i>Resent Mobile OTP
+                                        </span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="btn btn-info btn-user btn-block" id="btnResentEotp" onclick="funMailResendOTP()" style="display:none">
+                                            <i class="fa fa-mobile fa-fw mr-1"></i>Resent Email OTP
+                                        </span> 
+                                    </div>
+                                </div>
+                                <span class="btn btn-custom btn-user btn-block" id="btnRegister" onclick="funSave()">
+                                    <i class="fa fa-user fa-fw mr-1"></i>Register
+                                </span>                                               
+                                <hr>
+                            </div>-->
+                            <span onclick="funExistUser()" class="btn btn-facebook btn-user btn-block mt-1">
+                                <i class="fa fa-key fa-fw mr-1"></i> Registered User ! (Login)
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="mt-2 bg-white">
+                <div class="row rowspecial">
+                    <div class="col-lg-12">
+                        <h1 class="mt-3 text-custom"><b>Agricultural Sciences Application Form 2024</b>
+                        </h1>
+                    </div>
+                </div>
+                <div class="row rowspecial">
+                    <div class="col-lg-8">
+                        <p class="text-warning text-lg fw-600"><b>Everything you need to know</b></p>
+                        <ol class="text-lg">
+                            <li>The online application is for admission to <b>Agricultural Science programmes offered in SRM IST–Kattankulathur Campus</b></li>
+                            <li><b>There is no Entrance Examination and the admission is purely based on the marks obtained in the qualifying examination.</b></li>
+                            <li>Candidates who have studied in Regular mode alone are eligible to apply.(For UG Admissions, students who have completed +2 under NIOS must have completed the 10th standard from regular schooling or vice-versa.)</li>
+                            <li>Application Form Fee is <b>Rs.1200/-</b> and it is Non-Refundable.</li>
+                            <li>Email ID submitted at the time of registration will be used for
+                                all correspondences until enrollment is completed <b>Change in Email ID will NOT be permitted
+                                </b>under any circumstances.</li>
+                            <li><b>Check the Eligibility before submitting the application form.</b></li>
+                            <!--                        <li><b>SRM Query Management System:</b>
+                                                        <br>Applicants are strongly advised to use SRM Query Management System (SRM-QMS), rather than emailing, to get quick response.
+                                                        <ol>
+                                                            <ul>Register and verify your email ID</ul>
+                                                        </ol>
+                                                    </li>-->
+                        </ol>
+                    </div>
+                </div>
+                <!--            <div class="row rowspecial">
+                                <div class="col-lg-12">
+                                    <p class="text-warning text-lg fw-600"><b>Important Dates</b></p>
+                                    <div class="p-3 fw-bolder text-lg"><p>Last date to submit the application : <b>30<sup>th</sup> April 2022</b> </p>
+                                        <p>Department level entrance and interview : <b>20<sup>th</sup>  May 2022</b> </p>
+                                        <p>Release of list of candidates for provisional registration : <b>7<sup>th</sup> June 2022 </b></p>
+                                        <p>Last date to pay tuition fee : <b>25<sup>th</sup> June 2022 </b></p>
+                                        <p>Reporting date at directorate of research : <b>1<sup>st</sup> July 2022</b></p>
+                
+                                    </div>
+                                </div>
+                            </div>-->
+            </div>
+            <div class="bg-white">
+                <div class="row rowspecial">
+                    <div class="col-lg-12">
+                        <h2 class="text-custom text-lg"><b>Steps to Follow</b></h2>
+                    </div>
+                </div>
+                <div class="row rowspecial">
+                    <div class="col-lg-6">
+                        <div class="timeline mt-3">
+                            <div class="timeline-item">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 1</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Register Yourself</h4>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 2</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Fill Application form</h4>
+                                </div>
+                            </div>
+                            <div class="timeline-item mb-3">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 3</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Upload Documents</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="timeline mt-3">
+                            <div class="timeline-item">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 4</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Pay Application Fee</h4>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 5</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Document Verification & Eligibility</h4>
+                                </div>
+                            </div>
+                            <div class="timeline-item mb-3">
+                                <div class="timeline-item-marker">
+                                    <div class="timeline-item-marker-text text-dark ">Step 6</div>
+                                    <div class="timeline-item-marker-indicator bg-secondary-soft text-secondary"><i class="fa fa-check"></i></div>
+                                </div>
+                                <div class="timeline-item-content pt-0">
+                                    <h4 class="text-secondary">Provisional Order & Enrollment</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="helpp">
+                <div class="row text-lg rowspecial">
+                    <div class="col-lg-3 border text-center">
+                        <p class="mt-4 text-lg"><b>Pre-requisites</b></p>
+                        <p class="mt-1 text-lg">Keep documents handy</p>
+                    </div>
+                    <div class="col-lg-3 border text-center">
+                        <p class="mt-2"><i class="fa fa-check-circle"></i></p>
+                        <p class="photo"><b>Photograph Image</b><br/>5.08 x 5.08 CM <br/> 50 to 100 KB
+                            <br>JPG, JPEG & PNG</p>
+                    </div>
+                    <div class="col-lg-3 border text-center">
+                        <p class="mt-2"><i class="fa fa-check-circle"></i></p>
+                        <p class="sign"><b>Signature Image</b><br/>30 to 50 KB<br>JPG, JPEG & PNG</p>
+                    </div>
+                    <div class="col-lg-3 border text-center">
+                        <p class="mt-2"><i class="fa fa-check-circle"></i></p>
+                        <p class="pay"><b>Scanned Documents</b><br/>Less than 200 KB<br/>JPG, JPEG, PNG & PDF</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row rowspecial bg-white">
+                <div class="col-md-12">
+                    <p class="text-warning text-lg fw-600 mt-2 ml-4"><b>Program Details:</b></p>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <table class="table table-bordered text-center text-lg">
+                        <tbody>
+                            <tr  class="bg-custom text-white">
+                                <th colspan="5">List Of Programme</th>
+                            </tr>
+                            <tr>
+                                <td colspan="5">B.Sc. (Honours) Agriculture</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. (Honours) Horticulture</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. (Honours) Agri-Business Management</td>
+                            </tr>
+                            <tr>
+                                <td>B.Sc. (Honours) Food Nutrition and Dietetics</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Agronomy</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Genetics and Plant Breeding</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Plant Pathology</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Agricultural Economics</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Agricultural Extension Education</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Entomology</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Ag.) Soil Science and Agricultural Chemistry</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Hort.) Fruit Science</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Hort.) Vegetable Science</td>
+                            </tr>
+                            <tr>
+                                <td>M.Sc. (Hort.) Floriculture and Landscaping</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-2"></div>
+            </div>             
+            <div class="bg-white">
+                <div class="row rowspecial ">
+                    <div class="col-lg-12">
+                        <h2 class="text-custom mt-3 about_head"><b>Any Query, Ask Us</b></h2>
+                        <p class="quick">Raise queries using <span class="badge badge-success">
+                                <i class="fa fa-question-circle mr-1"></i>Query
+                            </span> button inside the application portal.
+                            <br />Select query category and submit for quick response.
+                            <br/>Your query responses shall be viewed in the Raised Queries tab in the application portal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <div class="row rowspecial">
+                    <div class="col-lg-5 mt-1 mb-3">
+                        <p class="text-lg"><a href="https://www.srmist.edu.in/admission-india/agricultural-science/" target="_blank"
+                                              target="_blank">For Eligiblity click here <span class="errow">&gt;&gt;</span></a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="helppp rowspecial">
+                <div class="row quick_link">
+                    <div class="col-lg-4 link link_com">
+                        <p class="link_pp"><img alt="srm" src="/srmistonline/resources/Image/distanceeducation/help.png" /><span class="test_q">Help Desk</span></p>
+                    </div>
+                    <div class="col-lg-8 helpp link_com">
+                        <p class="link_p2"><span class="help_d">Helpdesk: 080 6908 7000</span> 
+                        <p class="link_p4">Monday &ndash; Saturday (except public holidays) 9:00 AM to 5:00 PM</p>
+                        <p class="link_p4"><span class="help_d">Email: </span><a
+                                href="mailto:admissions.india@srmist.edu.in">admissions.india@srmist.edu.in</a></p>
+                    </div>
+                </div>
+            </div>
+
+    </body>
+</html>

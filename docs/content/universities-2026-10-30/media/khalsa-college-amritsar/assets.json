@@ -1,0 +1,66 @@
+{
+  "id": 15,
+  "slug": "khalsa-college-amritsar",
+  "name": "Khalsa College, Amritsar",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/khalsa-college-amritsar/logo-secondary.png",
+      "source_page": "https://www.careers360.com/colleges/khalsa-college-amritsar",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/10234/2019/4/22/logo.png",
+      "source_kind": "secondary",
+      "description": "Khalsa College Amritsar crest with the 1892 establishment date",
+      "alt": "Khalsa College Amritsar crest with the 1892 establishment date",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Exact Khalsa College Amritsar secondary profile supplies an 1892 crest; the campus source identifies the college and shows its distinctive historic building.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Secondary-source crest variant from the exact Khalsa College Amritsar profile. Official site returned 406; Wikimedia downloads and another secondary gallery returned 403.",
+      "width": 140,
+      "height": 140,
+      "sha256": "2791150546433bf20fbe24d2d38ec8ac422a518cb393195ad482b3089f55e0f8"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/khalsa-college-amritsar/campus-tripsamachar.jpg",
+      "source_page": "https://tripsamachar.com/blogs/khalsa-college-amritsar-a-landmark-of-education-and-heritage",
+      "download_url": "https://tripsamachar.com/uploads/0000/8/2025/01/28/khalsa-college-amritsar.jpg",
+      "source_kind": "secondary",
+      "description": "Historic main building and lawns of Khalsa College Amritsar",
+      "alt": "Historic main building and lawns of Khalsa College Amritsar",
+      "campus": "Amritsar, Punjab",
+      "agriculture_specific": false,
+      "identity_evidence": "Exact Khalsa College Amritsar secondary profile supplies an 1892 crest; the campus source identifies the college and shows its distinctive historic building.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "tripsamachar.com",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Source article explicitly identifies Khalsa College Amritsar. Distinct from the veterinary college and the revived Khalsa University.",
+      "width": 1024,
+      "height": 429,
+      "sha256": "27d7cbd3c5bfd91f7e1c73d3e03449a91cb1fdcd2495ec2dea4e8bd6084a139e"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "A second sufficiently identified campus/academic-setting photograph was not obtained from accessible sources.",
+      "attempted_sources": [
+        "https://khalsacollege.edu.in/",
+        "https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_of_Khalsa_College.svg",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7c/Khalsa_College_%2CAmritsar_%2C_Punjab%2C_India.jpg",
+        "https://www.collegebatch.com/static/clg-gallery/khalsa-college-amritsar-249509.webp",
+        "https://www.collegebatch.com/static/clg-gallery/khalsa-college-amritsar-249514.webp",
+        "https://images.shiksha.com/mediadata/images/1552298549phpEAJM9X.jpeg"
+      ]
+    }
+  ],
+  "research_notes": [
+    "Access/discovery failures during collection: [{\"role\": \"logo\", \"reason\": \"HTTP Error 403: Forbidden\", \"attempted_sources\": [\"https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_of_Khalsa_College.svg\"]}, {\"role\": \"campus_primary\", \"reason\": \"HTTP Error 403: Forbidden\", \"attempted_sources\": [\"https://upload.wikimedia.org/wikipedia/commons/7/7c/Khalsa_College_%2CAmritsar_%2C_Punjab%2C_India.jpg\"]}, {\"role\": \"campus_primary\", \"reason\": \"HTTP Error 403: Forbidden\", \"attempted_sources\": [\"https://www.collegebatch.com/static/clg-gallery/khalsa-college-amritsar-249509.webp\"]}, {\"role\": \"campus_secondary\", \"reason\": \"HTTP Error 403: Forbidden\", \"attempted_sources\": [\"https://www.collegebatch.com/static/clg-gallery/khalsa-college-amritsar-249514.webp\"]}, {\"role\": \"campus_secondary\", \"reason\": \"HTTP Error 403: Forbidden\", \"attempted_sources\": [\"https://images.shiksha.com/mediadata/images/1552298549phpEAJM9X.jpeg\"]}]",
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

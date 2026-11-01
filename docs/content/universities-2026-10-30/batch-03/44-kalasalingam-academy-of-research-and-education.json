@@ -1,0 +1,464 @@
+{
+  "id": 44,
+  "slug": "kalasalingam-academy-of-research-and-education",
+  "name": "Kalasalingam Academy of Research and Education",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "KARE",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Krishnankoil",
+    "state": "Tamil Nadu",
+    "established": 1984,
+    "address": "Anand Nagar, Krishnankoil, Virudhunagar District, Tamil Nadu 626126",
+    "parent_university": null,
+    "website": "https://www.kalasalingam.ac.in/",
+    "admissions_url": "https://www.kalasalingam.ac.in/admissions/",
+    "phone": "+91 4563 289042",
+    "email": "info@kalasalingam.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Kalasalingam Academy of Research and Education",
+    "summary": "Kalasalingam’s agriculture school at Krishnankoil connects crop science with a teaching farm, irrigation equipment and subject laboratories. Its bachelor’s curriculum spans production, crop improvement, resource management, economics and extension, giving students a broad agricultural foundation within the academy’s wider science and engineering setting.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture teaching in the Krishnankoil setting",
+    "paragraphs": [
+      "KARE’s published agriculture curriculum links crop production and improvement with natural resources, agricultural economics and extension. The 2022 syllabus provides a detailed academic reference for prospective students who want to examine course content beyond a programme title.",
+      "The Kalasalingam Anandammal Farm gives the school a practical setting for crop work. The course page identifies fertigation equipment and implements including a tractor, cultivator, disc plough and rotary tiller, alongside nine subject laboratories. Together, these facilities connect the curriculum’s biological and resource-management subjects with cultivation and machinery. KARE’s institutional history begins with an engineering college in 1984 and records university status from 2006."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Kalasalingam School of Agriculture and Horticulture"
+      },
+      {
+        "label": "Location",
+        "value": "Krishnankoil, Tamil Nadu"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "8 semesters (2022 curriculum)",
+      "mode": null,
+      "summary": "The 2022 curriculum covers crop science, agricultural resources and extension.",
+      "eligibility": "Official admissions page: 10+2 science with relevant subjects; course page additionally states 50% and specified combinations. Obtain the intake-year rule.",
+      "admission_route": "Kalasalingam Common Entrance Examination and 10+2 merit are stated in the admissions section.",
+      "fees": {
+        "amount_inr": 120000,
+        "period": "year",
+        "academic_year": "2025-2026",
+        "includes": "Annual programme fee for resident Indian B.Sc. Agriculture applicants.",
+        "note": "Historical official table also lists one-time admission fee ₹10,000, other fee ₹12,000 and application cost ₹600. Not verified as 2026-2027 fees.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Listed under Kalasalingam School of Agriculture and Horticulture; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to KARE",
+    "intro": "The university publishes agriculture-specific eligibility and selection information within its admissions page. The course and central pages differ in detail, so request the applying-year subject and marks requirements.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Check the agriculture eligibility row",
+        "text": "Match the 10+2 subjects with the published agriculture requirements."
+      },
+      {
+        "title": "Confirm the selection notice",
+        "text": "Ask for the current KCEE, counselling and fee instructions before committing funds."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The course page documents field equipment and laboratories used for agricultural teaching.",
+    "facilities": [
+      {
+        "name": "Kalasalingam Anandammal Farm",
+        "description": "The course page identifies a fertigation unit at the teaching farm.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Farm implements",
+        "description": "Listed equipment includes a tractor, cultivator, disc plough and rotary tiller.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Agriculture laboratories",
+        "description": "The page identifies soil, seed, crop physiology, plant protection and genetics laboratories.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The published curriculum includes agricultural field and laboratory subjects."
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "KARE’s admissions page includes scholarship material, but its scheme tables cover multiple programme groups. A current award and renewal rule specifically applicable to B.Sc. Agriculture was not verified.",
+    "schemes": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university's NIRF 2026 Agriculture and Allied Sectors submission reports graduates, placements, higher-study progression and the median annual salary of placed graduates for the cohorts below. The figures apply to the reported programme-duration group, rather than an individual specialisation, and do not predict an applicant's future outcome.",
+    "statistics": [
+      {
+        "label": "UG four-year programmes: 2024-2025",
+        "value": "119 graduates in minimum stipulated time; 66 placed; 38 selected for higher studies; median annual salary of placed graduates ₹3,50,000.",
+        "programme_scope": "UG four-year programmes",
+        "academic_year": "2024-2025",
+        "graduates_in_minimum_time": 119,
+        "placed": 66,
+        "higher_studies": 38,
+        "median_salary_inr": 350000,
+        "reporting_source": "NIRF 2026, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "completion_kare_nirf_2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Kalasalingam School of Agriculture and Horticulture with validity from 2024-09-26 to 2029-09-25. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Kalasalingam School of Agriculture and Horticulture",
+        "programmes_as_printed": [
+          "•\tB.Sc. (Hons.) Agriculture (intake 60)"
+        ],
+        "valid_from": "2024-09-26",
+        "valid_until": "2029-09-25",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A53:G53"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "KARE’s NIRF 2026 agriculture submission lists the following teaching staff as currently working and supplies joining dates. The record reflects that submission, rather than a promise that every appointment continues unchanged.",
+    "people": [
+      {
+        "name": "P. Jesu Edward George",
+        "role": "Professor; joined 7 July 2021",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      },
+      {
+        "name": "A. Bharathi",
+        "role": "Associate Professor; joined 26 December 2018",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      },
+      {
+        "name": "V. Dhinesh Kumar",
+        "role": "Associate Professor; joined 2 May 2016",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      },
+      {
+        "name": "M. Deivanai",
+        "role": "Assistant Professor; joined 29 May 2019",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      },
+      {
+        "name": "D. Chelladivyah",
+        "role": "Assistant Professor; joined 22 June 2022",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      },
+      {
+        "name": "R. Azhagumurugan",
+        "role": "Assistant Professor; joined 1 March 2021",
+        "source_ids": [
+          "completion_kare_nirf_2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_kare_nirf_2026"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is KARE’s agriculture school?",
+      "answer": "Its 2022 curriculum gives Krishnankoil in Virudhunagar district as the address.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which course does this ICAR record cover?",
+      "answer": "B.Sc. (Hons.) Agriculture under Kalasalingam School of Agriculture and Horticulture.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What is the accreditation term?",
+      "answer": "The audited term runs from 26 September 2024 to 25 September 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What year does the quoted fee belong to?",
+      "answer": "The ₹1,20,000 annual programme amount is from the official 2025-2026 table, with additional charges listed separately.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Is horticulture automatically covered by this agriculture record?",
+      "answer": "No. The audited row here names the agriculture degree only.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What practical farm equipment is documented?",
+      "answer": "The course page lists implements including a tractor and rotary tiller at the farm.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Are verified agriculture placement figures available?",
+      "answer": "The NIRF 2026 agriculture/allied submission reports UG four-year programmes (2024-2025): 66 placed from 119 graduates in minimum time, with ₹3,50,000 median annual salary among those placed. These are historical group-level outcomes, not specialisation-level placement promises.",
+      "source_ids": [
+        "completion_kare_nirf_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Kalasalingam Academy of Research and Education | Agriculture Courses & Admissions",
+    "description": "Explore Kalasalingam agriculture study at Krishnankoil, practical facilities, admission requirements, dated fee evidence and B.Sc. Agriculture ICAR scope.",
+    "keywords": [
+      "Kalasalingam Academy of Research and Education agriculture",
+      "Kalasalingam Academy of Research and Education admissions",
+      "Kalasalingam Academy of Research and Education ICAR accreditation",
+      "Kalasalingam Academy of Research and Education agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.kalasalingam.ac.in/wp-content/uploads/2021/08/building-19-scaled.jpg",
+    "logo_url": "https://www.kalasalingam.ac.in/wp-content/uploads/2022/02/Logo.png",
+    "campus_alt": "Academic building at Kalasalingam in Krishnankoil",
+    "caption": "Academic building at Kalasalingam in Krishnankoil",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/kalasalingam-academy-of-research-and-education/logo.png",
+    "local_campus_image": "media/kalasalingam-academy-of-research-and-education/campus-01.jpg",
+    "local_gallery": [
+      "media/kalasalingam-academy-of-research-and-education/campus-01.jpg",
+      "media/kalasalingam-academy-of-research-and-education/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A53:G53. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.kalasalingam.ac.in/course/b-sc-hons-agriculture/",
+      "title": "B.Sc. (Hons.) Agriculture course page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "programmes.eligibility",
+        "faculty"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://kalasalingam.ac.in/wp-content/uploads/2024/06/B.Sc_.-Hons-Agriculture-Curriculum-2022-Regulation.pdf",
+      "title": "B.Sc. Agriculture curriculum and syllabus 2022",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "overview",
+        "programmes",
+        "programmes.duration"
+      ],
+      "notes": "2022 curriculum; not a 2026 admissions notice."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.kalasalingam.ac.in/admissions/",
+      "title": "Admissions, eligibility and fees",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "programmes.fees"
+      ],
+      "notes": "Agriculture fee table explicitly labelled 2025-2026; other sections mix programme and scholarship categories."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.kalasalingam.ac.in/contact/",
+      "title": "Official KARE contact page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "General campus contact; distinct from online-programme admissions contacts."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.kalasalingam.ac.in/about-us/",
+      "title": "Official KARE institutional history",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "overview"
+      ],
+      "notes": "Founded as Arulmigu Kalasalingam College of Engineering in 1984; deemed-to-be university status obtained in 2006."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.kalasalingam.ac.in/",
+      "title": "Kalasalingam Academy of Research and Education — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/kalasalingam-academy-of-research-and-education/logo.png. Image embedded by the institution official website at https://www.kalasalingam.ac.in/; source alt: "
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.kalasalingam.ac.in/",
+      "title": "Kalasalingam Academy of Research and Education — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/kalasalingam-academy-of-research-and-education/campus-01.jpg. Image embedded by the institution official website at https://www.kalasalingam.ac.in/; source alt: "
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.kalasalingam.ac.in/",
+      "title": "Kalasalingam Academy of Research and Education — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/kalasalingam-academy-of-research-and-education/campus-02.jpg. Image embedded by the institution official website at https://www.kalasalingam.ac.in/; source alt: "
+    },
+    {
+      "id": "completion_kare_nirf_2026",
+      "title": "Official NIRF 2026 Agriculture and Allied Sectors submitted data",
+      "url": "https://www.kalasalingam.ac.in/wp-content/uploads/2026/04/NIRF-2026-Agriculture.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Institution-submitted Agriculture and Allied Sectors report, NIRF 2026. Cohorts and programme-duration groups are explicitly retained; these are historical outcomes, not an independently audited placement guarantee or a specialisation-specific result."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.kalasalingam.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.kalasalingam.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.kalasalingam.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

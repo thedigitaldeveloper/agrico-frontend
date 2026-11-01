@@ -1,0 +1,95 @@
+{
+  "id": "fee-budget",
+  "cms_type": "Articles",
+  "slug": "agriculture-fee-budget",
+  "title": "How to compare agriculture fees, quotas and living costs",
+  "description": "Compare agriculture tuition by academic year, semester and quota, then add compulsory charges, deposits, hostel, mess and travel to your budget.",
+  "summary": "A low-looking fee may cover one semester, a particular quota or tuition alone. Compare the same period and applicant category, keep refundable deposits separate, and calculate both the amount needed at admission and the likely continuing cost.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "comparable-figures",
+      "heading": "Make every fee quote answer the same questions",
+      "paragraphs": [
+        "Label each quote with the institution, campus, full degree, intake, applicant category, quota and payment period. Then identify what the amount includes. Tuition per semester, total annual academic fees and money payable on joining are three different measures. A four-year degree does not make a one-year quotation a guaranteed four-year price.",
+        "Use the official dated fee schedule and the offer applicable to your seat. Save both. If an adviser gives a rounded total, request the itemised calculation behind it. A useful comparison needs two totals: cash required before joining, including deposits and advances, and the recurring expense after one-time items are removed. You may need to fund a refundable deposit now even though it is not a permanent fee."
+      ]
+    },
+    {
+      "id": "dated-examples",
+      "heading": "Read real examples without turning them into a price ranking",
+      "paragraphs": [
+        "These published examples were checked for the stated periods. They illustrate different fee structures and are not comparable all-in residential prices. Follow the linked institution profile for the surrounding programme evidence and request your own applicable bill."
+      ],
+      "table": {
+        "columns": ["Programme example", "Published charge and period", "Scope to retain"],
+        "rows": [
+          ["SBVR B.Sc. (Hons.) Agriculture", "INR 85,000 annually, 2026–27 convenor quota", "ANGRAU affiliated-college academic total; hostel, transport and mess excluded"],
+          ["N.S. B.Sc. (Hons.) Agriculture", "INR 1,26,000 annually, 2026–27 convenor quota", "Same excluded residential/transport heads; college-specific amount"],
+          ["VIT Vellore B.Sc. (Hons.) Agriculture", "INR 1,10,000 / 1,95,000 / 2,25,000 annual tuition, Categories 1 / 2 / 3, 2026–27", "INR 5,000 one-time refundable caution deposit separately"],
+          ["Karunya B.Sc. (Hons.) Agriculture", "INR 1,46,750 tuition per semester, Indian 2026–30 batch", "INR 10,000 one-time admission fee; examination fee additional"],
+          ["Raffles B.Sc. (Hons.) Agriculture", "INR 65,000 annual academic fee, 2026–27", "Registration, admission, security and hostel separate"]
+        ]
+      },
+      "bullets": [
+        "Use the [SBVR profile](/university/sbvr-agricultural-college) and [N.S. profile](/university/n-s-agricultural-college) for ANGRAU-affiliated examples.",
+        "Check [VIT Vellore](/university/vellore-institute-of-technology), [Karunya](/university/karunya-institute-of-technology-and-sciences) and [Raffles University](/university/raffles-university) for their separately defined charges."
+      ]
+    },
+    {
+      "id": "quota-arithmetic",
+      "heading": "Normalise the period and keep quota differences visible",
+      "paragraphs": [
+        "For Karunya's published 2026–30 sheet, two listed semesters total INR 2,93,500 in tuition. Adding the stated one-time admission fee gives INR 3,03,500 for those first-year academic heads. That calculation still excludes examination and living costs. It is arithmetic from that particular sheet, not a new all-inclusive quotation.",
+        "ANGRAU's 2026–27 affiliated-college table also prints management-quota annual maximums: INR 1,70,000 for SBVR and INR 2,52,000 for N.S. Retain the word maximum. A ceiling is not proof of the amount offered to every student. Ask which quota is on your allotment and what charge applies to it; do not compare another student's convenor fee with your management offer.",
+        "At Raffles, the audited 2026–27 schedule separates INR 1,000 registration, INR 9,000 admission and INR 5,000 refundable academic security from the annual academic fee. Listing these heads separately makes the first payment clearer and prevents the security amount from being counted again each year."
+      ]
+    },
+    {
+      "id": "living-costs",
+      "heading": "Build a residential or day-scholar budget around your routine",
+      "paragraphs": [
+        "Request hostel room type, billing period, availability, mess arrangement, electricity or other service charges, deposits and vacation rules. Confirm whether farm visits, rural work experience, industrial attachment or study tours create additional travel or accommodation costs. An available hostel facility is different from a confirmed room allocation.",
+        "Use your own quotations for the monthly budget. As an illustration only, a family allowance of INR 4,500 for ten months is INR 45,000; it is neither a college charge nor a claim about local living prices. Add home travel, books, clothing or field equipment, and a contingency suited to the family. Day scholars should include commuting time and cost, especially when practical work starts early or ends outside regular transport hours."
+      ]
+    },
+    {
+      "id": "support-refunds",
+      "heading": "Treat scholarships, loans and refunds as separate decisions",
+      "paragraphs": [
+        "Prepare the base budget before subtracting an unconfirmed scholarship. Ask for the scheme, eligible programme, award amount, covered fee heads, renewal conditions and when the benefit is credited. A tuition concession may leave hostel and mess fully payable. Read the [scholarship-conditions checklist](/blogs/agriculture-scholarship-conditions) before relying on a projected net amount.",
+        "For a loan, distinguish sanction, disbursement and the payment deadline: money approved in principle may not be available when a college requires it. Keep any financing decision separate from admission eligibility. Obtain the institution's applicable cancellation and refund terms, the responsible office and the process for claiming refundable deposits. This guide does not supply a universal refund entitlement or lending recommendation."
+      ]
+    },
+    {
+      "id": "payment-checklist",
+      "heading": "Ask for one written calculation before paying",
+      "paragraphs": [
+        "Your final sheet should show each charge, whether it recurs, whether it is refundable, when it is due and whether it is confirmed or estimated. Total the first payment separately from the first academic year. For later years, identify which prices are published for the cohort and which remain assumptions. Avoid extending a current hostel quote across all years without labelling the estimate.",
+        "Send the sheet to the authorised admissions or accounts office and resolve missing heads before committing. Keep the offer, fee schedule, payment receipt and written scholarship decision together. Use the [fee-letter guide](/blogs/reading-an-agriculture-fee-letter) for another worked reading method. Compare affordability alongside the actual curriculum and practical arrangements, so the budget supports the course you intend to study."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Can I multiply the annual fee by four?", "answer": "You can use that as clearly labelled planning arithmetic, but it is not a verified course total unless the official cohort schedule fixes those fees for all four years. Add one-time, residential and other costs separately."},
+    {"question": "Is a management-quota maximum the payable fee?", "answer": "Not automatically. Confirm the actual approved charge and quota on your offer. A printed maximum is a ceiling, not evidence that every student pays that exact amount."},
+    {"question": "Should refundable deposits be excluded from my budget?", "answer": "Include them in cash needed at joining. Keep them separate from non-refundable fees and check the refund conditions and timing."},
+    {"question": "Do the figures above include hostel and mess?", "answer": "They are deliberately labelled academic or tuition examples. Do not treat them as complete residential costs; obtain the separate applicable schedules."}
+  ],
+  "related_institution_ids": [11, 12, 28, 32, 39],
+  "related_topic_ids": ["fee-letter", "scholarship-questions", "angrau-route", "college-questions"],
+  "sources": [
+    {"id": "angrau-fees-2026", "title": "ANGRAU BiPC undergraduate information brochure 2026–27, affiliated-college fee table", "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf", "checked_on": "2026-10-30", "note": "Printed page 7 table and footnotes visually checked in the supplied local audit; official PDF also opened for this article. Affiliated-college annual table is distinct from the constituent-college table. Management figures are maximums."},
+    {"id": "vit-fees-2026", "title": "VIT Vellore B.Sc. Agriculture admission portal: 2026–27 fee table", "url": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login", "checked_on": "2026-10-30", "note": "Official annual tuition categories and one-time refundable caution deposit read. No hostel amount inferred."},
+    {"id": "karunya-fees-2026", "title": "Karunya B.Sc. Agriculture academic fee structure, Indian nationals 2026–30 batch", "url": "https://admissions.karunya.edu/sites/admissions/files/uploads/content/Fee/B.Sc.(Hons.)AgricultureFeeStructure2026-27.pdf", "checked_on": "2026-10-30", "note": "Official one-page semester table read. All eight tuition columns list INR 1,46,750; one-time admission INR 10,000; examination fee extra. First-year arithmetic is explicitly limited to these heads."},
+    {"id": "raffles-fees-2026", "title": "Raffles University fee structure 2026–27, signed 2 April 2026", "url": "https://rafflesuniversity.edu.in/pdf/2026/Fee%20Structure.pdf", "checked_on": "2026-10-30", "note": "Official PDF opened; no text layer available to web tool. Values reused from the supplied root researcher's downloaded and visually inspected fee schedule and audited profile, including separate one-time charges."}
+  ],
+  "verification_notes": [
+    "All published numeric fee examples retain year/cohort, period and quota/category. None is described as an all-inclusive course cost.",
+    "Illustrative family allowance is labelled invented planning arithmetic, not an observed market price or institution charge.",
+    "No financial product recommendation, scholarship award guarantee or universal refund rule.",
+    "Five verified institution slugs used; no arbitrary programme, course or payment links."
+  ]
+}

@@ -1,0 +1,1758 @@
+{
+  "date": "2026-10-11T19:50:43.824Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "sourceHashes": {
+    "src/components/university/university-detail-view.tsx": "298db412a127d7784b2339cfa052e621e292e49e11aaa96e8a89dd2613c99f12",
+    "src/components/university/university-detail.css": "611598308f2a88f8701a44a7f1164ba6df96a03f06fb0041677a829b8b2b0504",
+    "src/components/university/university-hero.tsx": "d227caa6542226cdd2c51d2b1a61fad871f6daa55bb54c54537e3b0ef96781a1",
+    "src/components/university/university-spec-band.tsx": "e2d91de24465b483a29c19f278f48c4fbe82765e7b084542f0eeb6c69db2d1ce",
+    "src/components/university/university-fee-table.tsx": "ea28426cbcef97d94927853215c965cc77c13312e50626d96d766d13686e5958",
+    "src/components/university/university-admission-sidebar.tsx": "23e72875f027904065f9f991d36a9dbfadeaf69cf535e22ca2b8ffc57aa4b451",
+    "src/components/university/admission-panel.tsx": "490fec602df7f2e1e4dac076d21f3b3ac892b3dfaac3018a765ea1b7d970aad0",
+    "src/components/university/section-nav.tsx": "d2073dff663df198a9747bbeb451ee44bb245fa5770f79b32d3c81a0de44e5e6",
+    "src/components/university/university-enquiry-modal.tsx": "51255ea8e5638e2a504ea71562681598acb4fe48542ef08c5f40b0a41db5e379",
+    "src/components/forms/enquiry-form.tsx": "c22a6482dd2e1f3a8af78d9c718cfbc0420aea8369cbceda7d2227bcf87e216c",
+    "src/components/program/program-detail-view.tsx": "aa5a49ea15e36c7a78552a4ee2c01469fad3509d77b6d0a2f78f930b6ca1fdf8",
+    "src/components/program/programme-detail.css": "47aabc07e571db8e50f5d6755a0452f1a41e9a2ed0f75be0698774733a43a9f3",
+    "src/components/program/program-hero.tsx": "7617783448d2d25cc599439af9bfad917689c1a875a253ea801ebd41cc2b3b1c",
+    "src/components/program/program-admission-sidebar.tsx": "6eb660db4ff6083072b8579462c24a609d660e0e9a6de11ec59412a3dda4f008",
+    "src/components/program/university-explorer.tsx": "70cea111bb34d04a675b1ce6796d468a0f521bcc315d29e39d2c44dab19d02a1",
+    "src/components/program/offering-detail-view.tsx": "eb428d2752610c8992202051ef52b400cc2c70c262c8e2e545a208fe07344ad5",
+    "src/lib/cms/repositories/university.ts": "3bb303ec7b86e155e40ec59539eb9c86cb05028c9f6aa00e4383f801c4f65aaf",
+    "src/lib/cms/repositories/program.ts": "48ecc2ceed419408300bd5c4e15e9f54a90f03a06bbd02ee46c86be8a5fd3589",
+    "src/lib/cms/repositories/content.ts": "10b55a63a1ddc39e410853f551c739a7a544a3dbd42832f0313436bfe03c6058",
+    "src/app/university/[slug]/page.tsx": "fe59620e48070bc512b3e64da0f626eedbe1e9db6c4264de424deadc493ff0d0",
+    "src/app/university/[slug]/[section]/page.tsx": "a72135bb1825a91a4e7f92916bd6c67e28c2354dbcf727558d30f1e5db2a1abb",
+    "src/app/[slug]/page.tsx": "100973f1b5d603a5b32139fb6effd230b685f14c35b5e5d3122948a0d1fbcd61",
+    "src/app/[slug]/[section]/page.tsx": "f69073a47d52d3a1a58897677ab40079d82b21c6e1a0a80715e5e84f3f8b3a9f",
+    "src/app/offering/[university]/[program]/page.tsx": "1e4df66d64aa3cb0c1bc49c9ccac20d663233526c6bd9ebed52a627d81f6306c",
+    "src/components/cms/section-body.tsx": "34f0e11586a020367c8025a40175704c07fa9563c45cb9e11a0ab1ffef94ad97",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab",
+    "scripts/verify-rs-detail-ui.cjs": "f9537d82e4e403b44f1ec25a48a163cdb9307997ee28864f6b8746fe5d083904"
+  },
+  "buildId": "eooSAC2Z1rt2hFsp5HD5X",
+  "checks": [
+    "Representative university, programme, content sections and exact pair resolved from the published CMS",
+    "University fee list: search, empty state, clear, show-all and exact programme links",
+    "1440px university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "1440px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-courses-fees: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-faqs: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px programme counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "1440px programme-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px programme-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px offering-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px offering-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "University fee list: search, empty state, clear, show-all and exact programme links",
+    "390px university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px mobile university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-courses-fees: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-faqs: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px programme counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px programme-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px programme-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px offering-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px offering-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks"
+  ],
+  "routes": [
+    {
+      "path": "/university/chandigarh-university",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/chandigarh-university/overview",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/chandigarh-university/courses-fees",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/chandigarh-university/faqs",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management",
+      "kind": "program",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management/curriculum",
+      "kind": "program",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/chandigarh-university/online-mba-finance-management",
+      "kind": "offering",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/chandigarh-university/online-mba-finance-management?section=curriculum",
+      "kind": "offering",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/chandigarh-university",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 70,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/chandigarh-university/overview",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 70,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/chandigarh-university/courses-fees",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 70,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/chandigarh-university/faqs",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 6,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 70,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/online-mba-finance-management",
+      "kind": "program",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management/curriculum",
+      "kind": "program",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/chandigarh-university/online-mba-finance-management",
+      "kind": "offering",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/chandigarh-university/online-mba-finance-management?section=curriculum",
+      "kind": "offering",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/university/chandigarh-university",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 4225,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 206.0625,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 610.40625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 1219.71875,
+        "width": 942,
+        "height": 1602.171875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 659.40625,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 422,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/overview",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 3073,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 206.0625,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 610.40625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 813.40625,
+        "width": 942,
+        "height": 1528.171875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 659.40625,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 422,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/courses-fees",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 6908,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 206.0625,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 610.40625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 813.40625,
+        "width": 942,
+        "height": 4252.8125,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 659.40625,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 422,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/faqs",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 2029,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 154.546875,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 558.890625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 761.890625,
+        "width": 942,
+        "height": 536.21875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 607.890625,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 422,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 7644,
+      "heading": {
+        "x": 80,
+        "y": 213.140625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 620.359375,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 940.359375,
+        "width": 972,
+        "height": 1500.53125,
+        "right": 1052
+      },
+      "nav": {
+        "x": 0,
+        "y": 844.359375,
+        "width": 1440,
+        "height": 54,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management/curriculum",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 8356,
+      "heading": {
+        "x": 80,
+        "y": 213.140625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 620.359375,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 940.359375,
+        "width": 972,
+        "height": 2212.8125,
+        "right": 1052
+      },
+      "nav": {
+        "x": 0,
+        "y": 844.359375,
+        "width": 1440,
+        "height": 54,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/chandigarh-university/online-mba-finance-management",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 3469,
+      "heading": {
+        "x": 80,
+        "y": 251.640625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 503.15625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 676.15625,
+        "width": 902,
+        "height": 1527.8125,
+        "right": 982
+      },
+      "nav": {
+        "x": 80,
+        "y": 592.15625,
+        "width": 902,
+        "height": 60,
+        "right": 982
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=64&q=75",
+          "naturalWidth": 51,
+          "naturalHeight": 51,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/chandigarh-university/online-mba-finance-management?section=curriculum",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 4154,
+      "heading": {
+        "x": 80,
+        "y": 251.640625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 503.15625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 676.15625,
+        "width": 902,
+        "height": 2212.8125,
+        "right": 982
+      },
+      "nav": {
+        "x": 80,
+        "y": 592.15625,
+        "width": 902,
+        "height": 60,
+        "right": 982
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=64&q=75",
+          "naturalWidth": 51,
+          "naturalHeight": 51,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 7589,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 284,
+        "height": 160,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 829.125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1739.25,
+        "width": 354,
+        "height": 2611.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 892.125,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 260,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/overview",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 5476,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 284,
+        "height": 160,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 829.125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1033.125,
+        "width": 354,
+        "height": 2482.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 892.125,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 260,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/courses-fees",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 11609,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 284,
+        "height": 160,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 829.125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1033.125,
+        "width": 354,
+        "height": 6303.75,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 892.125,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 260,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/chandigarh-university/faqs",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 3588,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 284,
+        "height": 96,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 765.125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 969.125,
+        "width": 354,
+        "height": 659,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 828.125,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=96&q=75",
+          "naturalWidth": 80,
+          "naturalHeight": 80,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_naac-a-plus_mtuf70s5.png%3Fv%3D2026-09-09T18%253A16%253A44.982Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A03%253A54.486Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 260,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 15743,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 965.921875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1442.421875,
+        "width": 354,
+        "height": 2400,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 1362.421875,
+        "width": 390,
+        "height": 52,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management/curriculum",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 16026,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 965.921875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1442.421875,
+        "width": 354,
+        "height": 2683.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 1362.421875,
+        "width": 390,
+        "height": 52,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/chandigarh-university/online-mba-finance-management",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 6506,
+      "heading": {
+        "x": 18,
+        "y": 280.921875,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 969.96875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1137.96875,
+        "width": 354,
+        "height": 2400,
+        "right": 372
+      },
+      "nav": {
+        "x": 18,
+        "y": 1058.96875,
+        "width": 354,
+        "height": 60,
+        "right": 372
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=64&q=75",
+          "naturalWidth": 51,
+          "naturalHeight": 51,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/chandigarh-university/online-mba-finance-management?section=curriculum",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 6790,
+      "heading": {
+        "x": 18,
+        "y": 280.921875,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 969.96875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1137.96875,
+        "width": 354,
+        "height": 2683.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 18,
+        "y": 1058.96875,
+        "width": 354,
+        "height": 60,
+        "right": 372
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=64&q=75",
+          "naturalWidth": 51,
+          "naturalHeight": 51,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "browserErrors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "blockedMutations": [],
+  "limitations": [],
+  "selection": {
+    "university": {
+      "slug": "chandigarh-university",
+      "name": "Chandigarh University Online (CU Online)",
+      "documentId": "fsxgzlniewe7gye2univyc25",
+      "logo": "/uploads/rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png",
+      "image": "/uploads/chandigarh-university-online_campus_photo.jpg"
+    },
+    "program": {
+      "slug": "online-mba-finance-management",
+      "name": "Online MBA in Finance Management",
+      "documentId": "d4a28468b6936b007dc9c317"
+    },
+    "universitySections": [
+      {
+        "slug": "overview",
+        "name": "Overview"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Courses & Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Placements"
+      },
+      {
+        "slug": "student-support",
+        "name": "Student Support"
+      },
+      {
+        "slug": "faqs",
+        "name": "FAQs"
+      }
+    ],
+    "programmeSections": [
+      {
+        "slug": "overview",
+        "name": "Finance Management Overview"
+      },
+      {
+        "slug": "curriculum",
+        "name": "Finance Management Curriculum"
+      },
+      {
+        "slug": "careers-and-scope",
+        "name": "Finance Management Careers"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Finance Management Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Finance Management Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Finance Management Placements"
+      },
+      {
+        "slug": "faqs",
+        "name": "Finance Management FAQs"
+      }
+    ],
+    "universityProgrammeCount": 135,
+    "exactOffering": "/offering/chandigarh-university/online-mba-finance-management"
+  }
+}

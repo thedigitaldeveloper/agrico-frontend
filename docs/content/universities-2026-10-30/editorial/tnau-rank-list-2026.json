@@ -1,0 +1,58 @@
+{
+  "id": "tnau-rank-list-2026",
+  "cms_type": "News",
+  "slug": "tnau-undergraduate-rank-list-3-july-2026",
+  "title": "TNAU released its 2026 undergraduate rank list on 3 July",
+  "description": "Read a dated TNAU rank-list release as a historical admission milestone, with guidance on checking subsequent counselling instructions.",
+  "summary": "This retrospective explains an official undergraduate rank-list release and how to read it alongside later admission instructions. Applicants should keep the historical record separate from any current counselling decision.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-07-03",
+  "published_on": "2026-07-03",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "recorded-release",
+      "heading": "The official record of the release",
+      "paragraphs": [
+        "TNAU's press note dated 3 July 2026 records the release of the 2026 undergraduate admission rank list that day. The event took place at Dr. M. S. Swaminathan Agricultural College and Research Institute at Eachangkottai in Thanjavur district.",
+        "This report preserves that dated milestone. It does not announce a new application window or a counselling round open on the review date of 30 October 2026."
+      ]
+    },
+    {
+      "id": "rank-and-next-actions",
+      "heading": "A rank list needs the instructions that follow it",
+      "paragraphs": [
+        "An applicant using an archived rank list should keep the list together with the applicable counselling instructions and later corrections. Check the applicant details and category recorded, then establish the next step from the authority's notice. Do not treat a rank-list entry alone as a college allotment or an instruction to pay a particular institution.",
+        "Our [counselling preparation guide](/blogs/prepare-for-agriculture-counselling) explains how to organise documents, preferences and official communications."
+      ]
+    },
+    {
+      "id": "affiliated-college-context",
+      "heading": "Context for researching affiliated agriculture colleges",
+      "paragraphs": [
+        "Readers comparing TNAU-affiliated options can use the prepared profiles of [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college), [J.K.K. Munirajah College of Agricultural Science](/university/j-k-k-munirajah-college-of-agricultural-science) and [Palar Agricultural College](/university/palar-agricultural-college) alongside [the TNAU admission route guide](/articles/tnau-private-agriculture-college-admission).",
+        "These links provide institutional and route background. This release report does not verify a college-specific vacancy, management-channel offer or fee for any of those institutions."
+      ]
+    },
+    {
+      "id": "use-the-correct-date",
+      "heading": "Keep the event date separate from later checks",
+      "paragraphs": [
+        "The source's printed date identifies the release; a later file-modification timestamp serves a different purpose. Agrico's review date records when the evidence was checked. For any decision now, consult the current official admission portal and subsequent notices."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question":"Was the rank list released on the date Agrico reviewed this story?","answer":"No. The official event date is 3 July 2026. Agrico reviewed the historical source on 30 October 2026."},
+    {"question":"Does this story show that counselling is open now?","answer":"No. It reports an earlier rank-list release. Current admission actions require the relevant live official notice."},
+    {"question":"Do the linked college profiles confirm an available seat?","answer":"No. They provide background for research. Check the applicable official seat matrix, allotment and college communication separately."}
+  ],
+  "related_institution_ids": [1, 3, 8],
+  "related_topic_ids": ["tnau-route", "counselling-prep"],
+  "sources": [
+    {"id":"tnau-rank-release","title":"TNAU official press note: undergraduate rank-list release","url":"https://agritech.tnau.ac.in/tnaupressnotes/pdf/2026/TNAU%20Annamalai%20University%20UG%20Admissions%202026-27%20Ranklist.pdf","checked_on":"2026-10-30","note":"Two-page Tamil press note read through PDF text extraction. Printed date and event wording are on page 1; release account continues on page 2. Server modification date is not used as publication date."},
+    {"id":"tnau-admissions","title":"Tamil Nadu Agricultural University: official UG admissions entry point","url":"https://tnau.ac.in/ugadmission/","checked_on":"2026-10-30","note":"Official page and linked 2026–27 portal checked. Provides the route for later notices; no currently open round inferred."}
+  ],
+  "verification_notes": ["Historical News; event and publication metadata preserve the source press-note date.","English account is an original brief summary of the Tamil official press note; no student names or promotional speeches reused.","Date independently cross-checked against the later official admission timeline.","Web PDF screenshot retrieval was unavailable; dates and event wording were verified from official PDF text, with cross-source date corroboration.","Institution context uses the previously prepared official-source profiles; no college-specific seat availability inferred."]
+}

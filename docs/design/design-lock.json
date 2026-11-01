@@ -1,0 +1,34 @@
+{
+  "project": "Agrico",
+  "status": "approved",
+  "approvedOn": "2026-10-30",
+  "approvedConcept": "Sample 2 / Concept B — AgriTech Campus",
+  "scope": "Full responsive homepage, including all twelve sections and matching home header/footer. Reuse the education platform's catalogue and enquiry capabilities.",
+  "palette": {
+    "primary": "#124B3B",
+    "page": "#FFFFFF",
+    "sage": "#E9F2EC",
+    "accent": "#DCE9BB",
+    "text": "#183A31"
+  },
+  "references": {
+    "upper": "agriculture-sections-v3-2026-10-30/concept-b-upper.png",
+    "lower": "agriculture-sections-v3-2026-10-30/concept-b-lower.png"
+  },
+  "implementation": "src/components/agrico/home.tsx",
+  "visualRules": [
+    "Preserve the approved twelve-section education-homepage structure, distinct section layouts, academic imagery and green design system.",
+    "Use the tabbed curriculum explorer, university directory, agritech learning feature and Agriculture versus Agricultural Engineering comparison.",
+    "Retain admission steps, degree-to-career pathways, student guides, education updates, FAQ and the real callback form.",
+    "Adapt to desktop, tablet and mobile with no horizontal document overflow and accessible interactions.",
+    "No produce marketplace, replacement admin dashboard, invented university seals, fees, ratings, admissions guarantees or client contact details.",
+    "The old inherited ruby/ivory design lock is superseded for this homepage."
+  ],
+  "detailPages": {
+    "requestedOn": "2026-10-30",
+    "direction": "Reuse the approved agriculture theme with new layouts. Programme and university pages must have distinct layouts from the homepage and each other.",
+    "programme": "Study facts, curriculum, eligibility, university options and career pathways, with a fees and enquiry sidebar on desktop.",
+    "university": "Campus identity, university facts, a full-width programme directory, admission journey, campus learning, recognition and a counselling band.",
+    "data": "Published CMS records take precedence. Six editorial programme guides and four official-source university profiles provide working homepage destinations without seeding CMS records or inventing fees or accreditation."
+  }
+}

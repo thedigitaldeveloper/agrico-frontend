@@ -1,0 +1,396 @@
+{
+  "id": 46,
+  "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+  "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "SKYCAS",
+    "ownership": "Private college",
+    "city": "Etcherla",
+    "state": "Andhra Pradesh",
+    "established": 2016,
+    "address": "Etcherla, Srikakulam district, Andhra Pradesh",
+    "parent_university": "Acharya N.G. Ranga Agricultural University, Guntur, Andhra Pradesh-522034 (Public)",
+    "website": "https://svcagriculture.in/",
+    "admissions_url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/",
+    "phone": "+91-9949410616 / +91-9440845195 (SKYCAS contacts in ANGRAU 2026–27 admissions brochure)",
+    "email": "vesagri@gmail.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+    "summary": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences offers undergraduate agriculture at Etcherla in Srikakulam district. Established in 2016, the privately managed college is affiliated to Acharya N.G. Ranga Agricultural University, whose 2026–27 Category A counselling framework includes the college among participating agriculture institutions.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An affiliated agriculture college at Etcherla",
+    "paragraphs": [
+      "ANGRAU distinguishes SKYCAS from its constituent government colleges by listing it among affiliated agriculture colleges. The directory places it at Etcherla and gives 2016 as its establishment year. The college therefore needs to be assessed as an affiliated institution with its own teaching setting, while the university provides the academic and admission framework described in official notices.",
+      "For the 2026–27 session, the college is included in ANGRAU’s brochure for participating affiliated institutions. Category A admission uses AP EAPCET 2026 ranks, making the university’s counselling instructions central to the application process. Students comparing an affiliated college with an ANGRAU constituent college should check the named institution and admission category carefully, because the college identity and the university’s academic framework play different roles."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU"
+      },
+      {
+        "label": "Location",
+        "value": "Etcherla, Andhra Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "The agriculture bachelor’s degree is confirmed by ANGRAU’s affiliated-college directory.",
+      "eligibility": "ANGRAU 2026–27 BiPC brochure specifies Intermediate BiPC/MBiPC or equivalent with physical and biological/natural sciences; other conditions and categories apply.",
+      "admission_route": "For the brochure’s Category A seats, counselling is based on AP EAPCET 2026 state ranks.",
+      "fees": {
+        "amount_inr": 128700,
+        "period": "year",
+        "academic_year": "2026-2027",
+        "includes": "Total annual academic fee for convenor-quota admission at SKYCAS, Etcherla.",
+        "note": "Official 2026–27 ANGRAU prospectus page 7. Management-quota maximum is up to ₹257,400 per year. Convenor fee excludes hostel, transport and mess charges.",
+        "verification": "verified",
+        "source_ids": [
+          "s3",
+          "completion_angrau_manual_oct30"
+        ]
+      },
+      "icar_scope_note": "Listed under Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU; accreditation term 2025-01-27 to 2030-01-26.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to SKYCAS",
+    "intro": "For Category A admission, use ANGRAU’s 2026–27 brochure and counselling portal. Confirm the correct college choice and fee category before accepting an allotment. ANGRAU’s revised 30 October 2026 notice schedules November manual counselling for registered candidates. Follow the exact rank/session and check vacancies; the notice does not promise a seat at SKYCAS.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Read the applicable ANGRAU brochure",
+        "text": "Review eligibility, local-area and category conditions for the 2026–27 counselling route."
+      },
+      {
+        "title": "Check the college allotment",
+        "text": "Use the official portal for the allotted college and reporting instructions."
+      }
+    ],
+    "documents": [
+      "Relevant original certificates specified in the ANGRAU information brochure",
+      "For already enrolled candidates: custodian certificate issued by the Associate Dean and the college fee receipt"
+    ],
+    "dates": [
+      {
+        "label": "Phase II college reporting deadline, as displayed on the portal",
+        "date": "2026-10-23",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "label": "ANGRAU special-category and AP AGRICET manual counselling (registered candidates; channel-level notice)",
+        "date": "2026-11-02",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_angrau_manual_oct30"
+        ]
+      },
+      {
+        "label": "ANGRAU AP EAPCET rank-batch manual counselling (sessions 3,4,6,7,9,10 November; not an institutional cutoff)",
+        "date": "2026-11-03 to 2026-11-10",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_angrau_manual_oct30"
+        ]
+      },
+      {
+        "label": "ANGRAU spot counselling for registered candidates, subject to actual vacancies",
+        "date": "2026-11-11",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_angrau_manual_oct30"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s4",
+      "completion_angrau_manual_oct30"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The official directory verifies the Etcherla location, but a college-specific inventory of farms and teaching laboratories was not accessible during this review.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship schedule for SKYCAS was not verified. Award availability, eligibility and renewal conditions need confirmation.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "No dated SKYCAS placement report was verified. The accessible secondary material includes student reviews, which have not been used to create outcome claims.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU with validity from 2025-01-27 to 2030-01-26. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU",
+        "programmes_as_printed": [
+          "Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU",
+          "•B.Sc. (Hons.) Agriculture (Intake- 120)"
+        ],
+        "valid_from": "2025-01-27",
+        "valid_until": "2030-01-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A55:G55"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A dated agriculture faculty roster for SKYCAS has not been verified for this draft.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Is SKYCAS a university?",
+      "answer": "No. It is an affiliated college; ANGRAU is its affiliating university.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the college located?",
+      "answer": "ANGRAU lists Etcherla in Srikakulam district, Andhra Pradesh.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What year does the directory give for establishment?",
+      "answer": "The official ANGRAU directory gives 2016.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which 2026 entrance route is documented?",
+      "answer": "The ANGRAU Category A brochure uses AP EAPCET 2026 ranks for the counselling route it describes.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What is the ICAR accreditation term?",
+      "answer": "The audited college record runs from 27 January 2025 to 26 January 2030.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What does SKYCAS’s 2026–27 convenor-quota fee cover?",
+      "answer": "ANGRAU’s prospectus lists a total annual academic fee of ₹128,700. Hostel, transport and mess are excluded. Its management-quota maximum is up to ₹257,400 per year.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences | Agriculture Courses & Admissions",
+    "description": "Explore SKYCAS at Etcherla, its ANGRAU affiliation, agriculture degree, official 2026–27 counselling evidence and programme-specific ICAR accreditation.",
+    "keywords": [
+      "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences agriculture",
+      "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences admissions",
+      "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences ICAR accreditation",
+      "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/61093/2024/11/29/Campus%20View%20of%20Sri%20Kinjarapu%20Yerran%20Naidu%20College%20of%20Agricultural%20Sciences%20Srikakulam_Campus-View.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_Sri_Kinjarapu_Yerran_Naidu_College_of_Agricultural_Sc_7GcFQf1.jpg",
+    "campus_alt": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+    "caption": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/logo-verified.jpg",
+    "local_campus_image": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A55:G55. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+      "title": "ANGRAU constituent and affiliated colleges directory",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview",
+        "programmes",
+        "identity.address",
+        "identity.email"
+      ],
+      "notes": "SKYCAS is listed under affiliated colleges."
+    },
+    {
+      "id": "s3",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+      "title": "ANGRAU 2026–27 BiPC admissions information brochure",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "programmes",
+        "identity.phone",
+        "programmes.fees"
+      ],
+      "notes": "Read complete 11-page official brochure. Page9 names SKYCAS contact numbers; the Category A framework and constituent-college fee table must not be conflated with affiliated-college management fees."
+    },
+    {
+      "id": "s4",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/",
+      "title": "ANGRAU 2026–27 admissions portal",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.dates"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.shiksha.com/college/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam-152841/courses/bsc-bc",
+      "title": "SKYCAS B.Sc. course listing",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "research_cross_check"
+      ],
+      "notes": "Secondary page lists 60 seats; official audited ICAR record lists 120. Official scope retained; reviews not used."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam",
+      "title": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/logo-verified.jpg. Visually inspected college-specific crest reads SKYCAS and ESTD 2016; this is not the generic ANGRAU university mark. Served as logo on named Careers360 college profile."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam?gallery=true",
+      "title": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus_primary-verified.jpg. Careers360 named college gallery explicitly captions this campus photograph for Sri Kinjarapu Yerran Naidu College at Etcherla."
+    },
+    {
+      "id": "completion_angrau_manual_oct30",
+      "title": "ANGRAU revised manual counselling schedule, 30 October 2026",
+      "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Official three-page 2026 schedule; ANGRAU counselling-channel scope, not a guaranteed SKYCAS vacancy. Page3 names the college annual convener fee."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "identity.website",
+      "reason": "This is the college URL linked by ANGRAU; direct access returned 502 Bad Gateway.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "campus",
+      "reason": "College-specific facilities could not be verified because its linked website was unavailable.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "programmes.duration",
+      "reason": "No programme-specific duration was confirmed in the official pages used.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+      "next_source": "https://svcagriculture.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://svcagriculture.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

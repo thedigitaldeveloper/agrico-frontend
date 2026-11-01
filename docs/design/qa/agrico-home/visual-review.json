@@ -1,0 +1,357 @@
+{
+  "date": "2026-10-30T07:24:04.467Z",
+  "approvedDesign": "Sample 2 / Concept B - AgriTech Campus",
+  "references": [
+    "../../agriculture-sections-v3-2026-10-30/concept-b-upper.png",
+    "../../agriculture-sections-v3-2026-10-30/concept-b-lower.png"
+  ],
+  "method": "Side-by-side review of all twelve sections, measurements of section boundaries, 24-width browser sweep, touch portrait/landscape checks and production/dev layout parity.",
+  "comparison": [
+    {
+      "width": 390,
+      "beforeHeight": 10846,
+      "afterHeight": 9179,
+      "removedVerticalStretch": 1667,
+      "sections": [
+        {
+          "name": "ag-header",
+          "before": 66,
+          "after": 65
+        },
+        {
+          "name": "ag-hero",
+          "before": 710,
+          "after": 655
+        },
+        {
+          "name": "ag-help-strip",
+          "before": 308,
+          "after": 264
+        },
+        {
+          "name": "programmes",
+          "before": 992,
+          "after": 819
+        },
+        {
+          "name": "universities",
+          "before": 856,
+          "after": 793
+        },
+        {
+          "name": "agritech",
+          "before": 830,
+          "after": 664
+        },
+        {
+          "name": "compare",
+          "before": 1124,
+          "after": 961
+        },
+        {
+          "name": "admissions",
+          "before": 1020,
+          "after": 887
+        },
+        {
+          "name": "learning",
+          "before": 1254,
+          "after": 1136
+        },
+        {
+          "name": "guides",
+          "before": 921,
+          "after": 780
+        },
+        {
+          "name": "updates",
+          "before": 663,
+          "after": 586
+        },
+        {
+          "name": "faqs",
+          "before": 555,
+          "after": 467
+        },
+        {
+          "name": "guidance",
+          "before": 999,
+          "after": 658
+        },
+        {
+          "name": "ag-footer",
+          "before": 549,
+          "after": 446
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "beforeHeight": 6562,
+      "afterHeight": 5570,
+      "removedVerticalStretch": 992,
+      "sections": [
+        {
+          "name": "ag-header",
+          "before": 73,
+          "after": 65
+        },
+        {
+          "name": "ag-hero",
+          "before": 395,
+          "after": 592
+        },
+        {
+          "name": "ag-help-strip",
+          "before": 131,
+          "after": 121
+        },
+        {
+          "name": "programmes",
+          "before": 727,
+          "after": 593
+        },
+        {
+          "name": "universities",
+          "before": 625,
+          "after": 490
+        },
+        {
+          "name": "agritech",
+          "before": 461,
+          "after": 409
+        },
+        {
+          "name": "compare",
+          "before": 606,
+          "after": 468
+        },
+        {
+          "name": "admissions",
+          "before": 520,
+          "after": 462
+        },
+        {
+          "name": "learning",
+          "before": 907,
+          "after": 784
+        },
+        {
+          "name": "guides",
+          "before": 411,
+          "after": 314
+        },
+        {
+          "name": "updates",
+          "before": 540,
+          "after": 318
+        },
+        {
+          "name": "faqs",
+          "before": 450,
+          "after": 337
+        },
+        {
+          "name": "guidance",
+          "before": 386,
+          "after": 422
+        },
+        {
+          "name": "ag-footer",
+          "before": 331,
+          "after": 197
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "beforeHeight": 5635,
+      "afterHeight": 4370,
+      "removedVerticalStretch": 1265,
+      "sections": [
+        {
+          "name": "ag-header",
+          "before": 77,
+          "after": 55
+        },
+        {
+          "name": "ag-hero",
+          "before": 420,
+          "after": 330
+        },
+        {
+          "name": "ag-help-strip",
+          "before": 126,
+          "after": 116
+        },
+        {
+          "name": "programmes",
+          "before": 579,
+          "after": 473
+        },
+        {
+          "name": "universities",
+          "before": 447,
+          "after": 346
+        },
+        {
+          "name": "agritech",
+          "before": 458,
+          "after": 381
+        },
+        {
+          "name": "compare",
+          "before": 605,
+          "after": 407
+        },
+        {
+          "name": "admissions",
+          "before": 560,
+          "after": 471
+        },
+        {
+          "name": "learning",
+          "before": 599,
+          "after": 463
+        },
+        {
+          "name": "guides",
+          "before": 401,
+          "after": 296
+        },
+        {
+          "name": "updates",
+          "before": 340,
+          "after": 270
+        },
+        {
+          "name": "faqs",
+          "before": 422,
+          "after": 287
+        },
+        {
+          "name": "guidance",
+          "before": 347,
+          "after": 296
+        },
+        {
+          "name": "ag-footer",
+          "before": 255,
+          "after": 181
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "beforeHeight": 5666,
+      "afterHeight": 4346,
+      "removedVerticalStretch": 1320,
+      "sections": [
+        {
+          "name": "ag-header",
+          "before": 77,
+          "after": 55
+        },
+        {
+          "name": "ag-hero",
+          "before": 420,
+          "after": 356
+        },
+        {
+          "name": "ag-help-strip",
+          "before": 126,
+          "after": 136
+        },
+        {
+          "name": "programmes",
+          "before": 600,
+          "after": 502
+        },
+        {
+          "name": "universities",
+          "before": 456,
+          "after": 339
+        },
+        {
+          "name": "agritech",
+          "before": 475,
+          "after": 360
+        },
+        {
+          "name": "compare",
+          "before": 616,
+          "after": 414
+        },
+        {
+          "name": "admissions",
+          "before": 542,
+          "after": 446
+        },
+        {
+          "name": "learning",
+          "before": 608,
+          "after": 472
+        },
+        {
+          "name": "guides",
+          "before": 395,
+          "after": 295
+        },
+        {
+          "name": "updates",
+          "before": 349,
+          "after": 269
+        },
+        {
+          "name": "faqs",
+          "before": 410,
+          "after": 278
+        },
+        {
+          "name": "guidance",
+          "before": 401,
+          "after": 290
+        },
+        {
+          "name": "ag-footer",
+          "before": 191,
+          "after": 132
+        }
+      ]
+    }
+  ],
+  "desktopReferenceScale": {
+    "referenceWidth": 1024,
+    "implementedWidth": 1440,
+    "referenceCompositeHeight": 3072,
+    "scaledReferenceHeight": 4320,
+    "implementedHeight": 4346,
+    "referenceUpperHeight": 2160,
+    "implementedUpperHeight": 2163,
+    "note": "These measurements compare overall composition and density, not pixel identity or an image-similarity percentage. Mobile and tablet adapt the desktop reference; no separate mobile reference was provided."
+  },
+  "changes": [
+    "Removed compounded section and card spacing; retained all twelve sections.",
+    "Matched the reference programme explorer, four programme areas, university rows, agritech study rows and compact comparison dossiers.",
+    "Restored the admission guide CTA background and readable contrast.",
+    "Added book, campus and checklist SVG guide covers matching the reference subjects.",
+    "Reflowed the tablet hero so text never runs across students in the photograph.",
+    "Kept mobile form fields readable at 16px and reduced redundant vertical stacking in counselling.",
+    "Integrated legal links into the compact footer."
+  ],
+  "screenshots": [
+    "final-desktop-upper.png",
+    "final-desktop-lower.png",
+    "desktop.png",
+    "mobile.png",
+    "tablet.png",
+    "final-tablet-top.png",
+    "final-guide-covers.png"
+  ],
+  "checks": [
+    "checks.json",
+    "responsive-audit.json",
+    "production-smoke.json"
+  ],
+  "limits": "Verified in local Chrome, including touch emulation; physical-device Safari/Firefox testing was not performed."
+}

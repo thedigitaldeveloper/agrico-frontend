@@ -1,0 +1,394 @@
+{
+  "id": 36,
+  "slug": "rnt-college-of-agriculture",
+  "name": "RNT College of Agriculture",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "RNT",
+    "ownership": "Private college",
+    "city": "Kapasan",
+    "state": "Rajasthan",
+    "established": null,
+    "address": "RNT College of Agriculture, Kapasan, Chittorgarh district, Rajasthan, India",
+    "parent_university": "Maharana Pratap University of Agriculture and Technology, Udaipur",
+    "website": "https://rntagcollege.edu.in/",
+    "admissions_url": "https://rntagcollege.edu.in/Onlineadm.html",
+    "phone": "+91 74148 70774",
+    "email": "ag.dept@rntagcollege.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "RNT College of Agriculture",
+    "summary": "RNT College of Agriculture is a private agricultural college at Kapasan in Chittorgarh district. It identifies MPUAT as its affiliating university and publishes an eight-semester agriculture degree. Its syllabus includes crop science, rural work experience and agricultural enterprise modules.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An affiliated agriculture college at Kapasan",
+    "paragraphs": [
+      "RNT is a college profile, with a specific undergraduate agricultural focus. Its official homepage identifies affiliation to Maharana Pratap University of Agriculture and Technology, Udaipur. The course page lists B.Sc. (Hons.) Agriculture for applicants with 10+2 Agriculture or Science and gives the duration as eight semesters.",
+      "The published syllabus carries MPUAT’s agriculture-faculty framework and the Fifth Deans’ Committee curriculum. Early study includes soils, horticulture, agronomy, genetics and agricultural economics. Later semesters identify rural agricultural work experience, agro-industrial attachment and skill-development modules. Applicants should ask the college for the current cohort’s detailed timetable and module choices rather than treating every listed option as guaranteed to run."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "RNT College of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Kapasan, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "8 semesters",
+      "mode": null,
+      "summary": "The college’s undergraduate syllabus combines agricultural science with rural and industry learning.",
+      "eligibility": "Official undated course table: 10+2 Inter-Agriculture/Science; minimum marks and current counselling rules not verified.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "RNT publishes a course table and an official contact page. Its linked fee page timed out during research, and a dated 2026-27 admission notice was not verified. The college should confirm applicable MPUAT or counselling rules.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "A curriculum with rural and enterprise work",
+    "intro": "The syllabus places Rural Agricultural Work Experience and Agro-Industrial Attachment in the seventh semester. Its final-semester list includes practical enterprise modules; the checked farm webpage itself contains no detailed facility inventory.",
+    "facilities": [],
+    "practical_learning": [
+      "Seventh-semester RAWE and agro-industrial attachment are in the published syllabus.",
+      "The syllabus lists enterprise options including seed production, beekeeping, mushroom cultivation and nursery management."
+    ],
+    "source_ids": [
+      "s4",
+      "s6"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists RNT College of Agriculture for 2024-06-20 to 2029-06-19. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "RNT College of Agriculture",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A44:G44"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A verified current list of agriculture teaching staff has not yet been added.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Is RNT an independent university?",
+      "answer": "It presents itself as a college affiliated to MPUAT, Udaipur.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How long is the college’s degree?",
+      "answer": "The official course table gives eight semesters for B.Sc. (Hons.) Agriculture.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which school streams are listed?",
+      "answer": "The table says 10+2 Inter-Agriculture or Science. A current minimum-marks rule was not verified.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the curriculum include rural work experience?",
+      "answer": "Yes. The published syllabus places RAWE and agro-industrial attachment in semester seven.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What is the checked accreditation term?",
+      "answer": "ICAR lists the college’s B.Sc. (Hons.) Agriculture for 20 June 2024 to 19 June 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "RNT College of Agriculture | Agriculture courses and admissions",
+    "description": "Review RNT College of Agriculture in Kapasan, MPUAT affiliation, the eight-semester B.Sc. curriculum, rural learning and precise ICAR accreditation coverage.",
+    "keywords": [
+      "RNT College of Agriculture agriculture",
+      "RNT College of Agriculture admissions",
+      "RNT College of Agriculture ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/53474/2025/10/24/Campus%20Entrans%20View%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Campus-View.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/53474/2023/2/13/Logo%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Logo.png",
+    "campus_alt": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+    "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/rnt-college-of-agriculture/logo.jpg",
+    "local_campus_image": "media/rnt-college-of-agriculture/campus-01.jpg",
+    "local_gallery": [
+      "media/rnt-college-of-agriculture/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://rntagcollege.edu.in/",
+      "title": "College homepage",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://rntagcollege.edu.in/course.html",
+      "title": "Available courses",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "overview"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "url": "https://rntagcollege.edu.in/UG%20Syllabus.pdf",
+      "title": "Undergraduate agriculture syllabus",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.summary",
+        "campus"
+      ],
+      "notes": "Carries curriculum adopted after MPUAT Board of Studies meeting in February 2017; current cohort implementation needs confirmation."
+    },
+    {
+      "id": "s5",
+      "url": "https://rntagcollege.edu.in/contact.html",
+      "title": "College contact page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.contact",
+        "admissions"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "url": "https://rntagcollege.edu.in/farm.html",
+      "title": "College farm page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "No detailed farm inventory exposed."
+    },
+    {
+      "id": "s7",
+      "url": "https://rntagcollege.edu.in/message.html",
+      "title": "College navigation with online admission link",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.admissions_url"
+      ],
+      "notes": "Official navigation links Onlineadm.html; opening form returned 406. No application procedure inferred."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "title": "RNT College of Agriculture — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rnt-college-of-agriculture/logo.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "title": "RNT College of Agriculture — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rnt-college-of-agriculture/campus-01.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "Linked official fee page timed out; no dated 2026-27 agriculture fees verified.",
+      "next_source": "https://rntagcollege.edu.in/fee.html"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Linked staff page timed out.",
+      "next_source": "https://rntagcollege.edu.in/staff.html"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "Farm page gives no usable inventory or current operational detail.",
+      "next_source": "https://rntagcollege.edu.in/farm.html"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A dated current agriculture staff roster was not verified.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "identity.established",
+      "reason": "An authoritative exact value was not verified after official-page and targeted search checks.",
+      "next_source": "https://rntagcollege.edu.in/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://rntagcollege.edu.in/Onlineadm.html"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://rntagcollege.edu.in/Onlineadm.html"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://rntagcollege.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": []
+  }
+}

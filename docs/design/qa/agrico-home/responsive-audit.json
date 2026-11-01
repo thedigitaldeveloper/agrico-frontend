@@ -1,0 +1,1987 @@
+{
+  "date": "2026-10-30T09:21:36.270Z",
+  "root": "http://localhost:3003",
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    414,
+    430,
+    540,
+    600,
+    700,
+    701,
+    768,
+    820,
+    900,
+    901,
+    1000,
+    1001,
+    1024,
+    1150,
+    1151,
+    1280,
+    1366,
+    1440,
+    1536,
+    1920
+  ],
+  "reports": [
+    {
+      "width": 320,
+      "height": 10076,
+      "scrollWidth": 320,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 605
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 670,
+          "height": 264
+        },
+        {
+          "name": "programmes",
+          "top": 933,
+          "height": 888
+        },
+        {
+          "name": "universities",
+          "top": 1821,
+          "height": 918
+        },
+        {
+          "name": "agritech",
+          "top": 2739,
+          "height": 704
+        },
+        {
+          "name": "compare",
+          "top": 3444,
+          "height": 1064
+        },
+        {
+          "name": "admissions",
+          "top": 4508,
+          "height": 1015
+        },
+        {
+          "name": "learning",
+          "top": 5523,
+          "height": 1273
+        },
+        {
+          "name": "guides",
+          "top": 6797,
+          "height": 850
+        },
+        {
+          "name": "updates",
+          "top": 7647,
+          "height": 639
+        },
+        {
+          "name": "faqs",
+          "top": 8286,
+          "height": 533
+        },
+        {
+          "name": "guidance",
+          "top": 8819,
+          "height": 795
+        },
+        {
+          "name": "ag-footer",
+          "top": 9613,
+          "height": 463
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 9542,
+      "scrollWidth": 360,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 639
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 704,
+          "height": 264
+        },
+        {
+          "name": "programmes",
+          "top": 967,
+          "height": 847
+        },
+        {
+          "name": "universities",
+          "top": 1814,
+          "height": 793
+        },
+        {
+          "name": "agritech",
+          "top": 2607,
+          "height": 680
+        },
+        {
+          "name": "compare",
+          "top": 3286,
+          "height": 1009
+        },
+        {
+          "name": "admissions",
+          "top": 4295,
+          "height": 943
+        },
+        {
+          "name": "learning",
+          "top": 5238,
+          "height": 1191
+        },
+        {
+          "name": "guides",
+          "top": 6429,
+          "height": 854
+        },
+        {
+          "name": "updates",
+          "top": 7282,
+          "height": 605
+        },
+        {
+          "name": "faqs",
+          "top": 7887,
+          "height": 499
+        },
+        {
+          "name": "guidance",
+          "top": 8387,
+          "height": 710
+        },
+        {
+          "name": "ag-footer",
+          "top": 9096,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 9421,
+      "scrollWidth": 375,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 647
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 712,
+          "height": 264
+        },
+        {
+          "name": "programmes",
+          "top": 975,
+          "height": 847
+        },
+        {
+          "name": "universities",
+          "top": 1822,
+          "height": 793
+        },
+        {
+          "name": "agritech",
+          "top": 2615,
+          "height": 688
+        },
+        {
+          "name": "compare",
+          "top": 3303,
+          "height": 976
+        },
+        {
+          "name": "admissions",
+          "top": 4279,
+          "height": 925
+        },
+        {
+          "name": "learning",
+          "top": 5203,
+          "height": 1136
+        },
+        {
+          "name": "guides",
+          "top": 6340,
+          "height": 854
+        },
+        {
+          "name": "updates",
+          "top": 7193,
+          "height": 605
+        },
+        {
+          "name": "faqs",
+          "top": 7798,
+          "height": 467
+        },
+        {
+          "name": "guidance",
+          "top": 8266,
+          "height": 710
+        },
+        {
+          "name": "ag-footer",
+          "top": 8975,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 9179,
+      "scrollWidth": 390,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 655
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 720,
+          "height": 264
+        },
+        {
+          "name": "programmes",
+          "top": 983,
+          "height": 819
+        },
+        {
+          "name": "universities",
+          "top": 1802,
+          "height": 793
+        },
+        {
+          "name": "agritech",
+          "top": 2595,
+          "height": 664
+        },
+        {
+          "name": "compare",
+          "top": 3259,
+          "height": 961
+        },
+        {
+          "name": "admissions",
+          "top": 4219,
+          "height": 887
+        },
+        {
+          "name": "learning",
+          "top": 5106,
+          "height": 1136
+        },
+        {
+          "name": "guides",
+          "top": 6242,
+          "height": 780
+        },
+        {
+          "name": "updates",
+          "top": 7023,
+          "height": 586
+        },
+        {
+          "name": "faqs",
+          "top": 7609,
+          "height": 467
+        },
+        {
+          "name": "guidance",
+          "top": 8076,
+          "height": 658
+        },
+        {
+          "name": "ag-footer",
+          "top": 8734,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 414,
+      "height": 9100,
+      "scrollWidth": 414,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 629
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 694,
+          "height": 264
+        },
+        {
+          "name": "programmes",
+          "top": 958,
+          "height": 819
+        },
+        {
+          "name": "universities",
+          "top": 1777,
+          "height": 776
+        },
+        {
+          "name": "agritech",
+          "top": 2554,
+          "height": 677
+        },
+        {
+          "name": "compare",
+          "top": 3231,
+          "height": 930
+        },
+        {
+          "name": "admissions",
+          "top": 4161,
+          "height": 868
+        },
+        {
+          "name": "learning",
+          "top": 5029,
+          "height": 1136
+        },
+        {
+          "name": "guides",
+          "top": 6165,
+          "height": 780
+        },
+        {
+          "name": "updates",
+          "top": 6946,
+          "height": 586
+        },
+        {
+          "name": "faqs",
+          "top": 7532,
+          "height": 467
+        },
+        {
+          "name": "guidance",
+          "top": 7999,
+          "height": 655
+        },
+        {
+          "name": "ag-footer",
+          "top": 8654,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 9041,
+      "scrollWidth": 430,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 638
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 703,
+          "height": 251
+        },
+        {
+          "name": "programmes",
+          "top": 954,
+          "height": 819
+        },
+        {
+          "name": "universities",
+          "top": 1773,
+          "height": 776
+        },
+        {
+          "name": "agritech",
+          "top": 2549,
+          "height": 687
+        },
+        {
+          "name": "compare",
+          "top": 3236,
+          "height": 930
+        },
+        {
+          "name": "admissions",
+          "top": 4166,
+          "height": 868
+        },
+        {
+          "name": "learning",
+          "top": 5034,
+          "height": 1136
+        },
+        {
+          "name": "guides",
+          "top": 6170,
+          "height": 780
+        },
+        {
+          "name": "updates",
+          "top": 6951,
+          "height": 554
+        },
+        {
+          "name": "faqs",
+          "top": 7505,
+          "height": 435
+        },
+        {
+          "name": "guidance",
+          "top": 7940,
+          "height": 655
+        },
+        {
+          "name": "ag-footer",
+          "top": 8596,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 540,
+      "height": 8445,
+      "scrollWidth": 540,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 622
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 687,
+          "height": 227
+        },
+        {
+          "name": "programmes",
+          "top": 914,
+          "height": 729
+        },
+        {
+          "name": "universities",
+          "top": 1643,
+          "height": 660
+        },
+        {
+          "name": "agritech",
+          "top": 2303,
+          "height": 741
+        },
+        {
+          "name": "compare",
+          "top": 3043,
+          "height": 896
+        },
+        {
+          "name": "admissions",
+          "top": 3939,
+          "height": 817
+        },
+        {
+          "name": "learning",
+          "top": 4757,
+          "height": 1028
+        },
+        {
+          "name": "guides",
+          "top": 5784,
+          "height": 727
+        },
+        {
+          "name": "updates",
+          "top": 6512,
+          "height": 507
+        },
+        {
+          "name": "faqs",
+          "top": 7019,
+          "height": 403
+        },
+        {
+          "name": "guidance",
+          "top": 7422,
+          "height": 577
+        },
+        {
+          "name": "ag-footer",
+          "top": 7999,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "height": 8260,
+      "scrollWidth": 600,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 662
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 727,
+          "height": 227
+        },
+        {
+          "name": "programmes",
+          "top": 954,
+          "height": 729
+        },
+        {
+          "name": "universities",
+          "top": 1683,
+          "height": 640
+        },
+        {
+          "name": "agritech",
+          "top": 2323,
+          "height": 775
+        },
+        {
+          "name": "compare",
+          "top": 3097,
+          "height": 896
+        },
+        {
+          "name": "admissions",
+          "top": 3993,
+          "height": 799
+        },
+        {
+          "name": "learning",
+          "top": 4792,
+          "height": 875
+        },
+        {
+          "name": "guides",
+          "top": 5667,
+          "height": 727
+        },
+        {
+          "name": "updates",
+          "top": 6394,
+          "height": 473
+        },
+        {
+          "name": "faqs",
+          "top": 6868,
+          "height": 385
+        },
+        {
+          "name": "guidance",
+          "top": 7253,
+          "height": 561
+        },
+        {
+          "name": "ag-footer",
+          "top": 7814,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 700,
+      "height": 8305,
+      "scrollWidth": 700,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 725
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 790,
+          "height": 227
+        },
+        {
+          "name": "programmes",
+          "top": 1017,
+          "height": 729
+        },
+        {
+          "name": "universities",
+          "top": 1746,
+          "height": 640
+        },
+        {
+          "name": "agritech",
+          "top": 2386,
+          "height": 832
+        },
+        {
+          "name": "compare",
+          "top": 3218,
+          "height": 896
+        },
+        {
+          "name": "admissions",
+          "top": 4113,
+          "height": 799
+        },
+        {
+          "name": "learning",
+          "top": 4912,
+          "height": 817
+        },
+        {
+          "name": "guides",
+          "top": 5729,
+          "height": 727
+        },
+        {
+          "name": "updates",
+          "top": 6457,
+          "height": 473
+        },
+        {
+          "name": "faqs",
+          "top": 6930,
+          "height": 367
+        },
+        {
+          "name": "guidance",
+          "top": 7297,
+          "height": 561
+        },
+        {
+          "name": "ag-footer",
+          "top": 7859,
+          "height": 446
+        }
+      ]
+    },
+    {
+      "width": 701,
+      "height": 5727,
+      "scrollWidth": 701,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 567
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 632,
+          "height": 158
+        },
+        {
+          "name": "programmes",
+          "top": 790,
+          "height": 593
+        },
+        {
+          "name": "universities",
+          "top": 1383,
+          "height": 490
+        },
+        {
+          "name": "agritech",
+          "top": 1873,
+          "height": 409
+        },
+        {
+          "name": "compare",
+          "top": 2282,
+          "height": 499
+        },
+        {
+          "name": "admissions",
+          "top": 2780,
+          "height": 516
+        },
+        {
+          "name": "learning",
+          "top": 3296,
+          "height": 784
+        },
+        {
+          "name": "guides",
+          "top": 4079,
+          "height": 321
+        },
+        {
+          "name": "updates",
+          "top": 4400,
+          "height": 336
+        },
+        {
+          "name": "faqs",
+          "top": 4736,
+          "height": 356
+        },
+        {
+          "name": "guidance",
+          "top": 5092,
+          "height": 422
+        },
+        {
+          "name": "ag-footer",
+          "top": 5514,
+          "height": 213
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 5570,
+      "scrollWidth": 768,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 592
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 657,
+          "height": 121
+        },
+        {
+          "name": "programmes",
+          "top": 777,
+          "height": 593
+        },
+        {
+          "name": "universities",
+          "top": 1371,
+          "height": 490
+        },
+        {
+          "name": "agritech",
+          "top": 1860,
+          "height": 409
+        },
+        {
+          "name": "compare",
+          "top": 2269,
+          "height": 468
+        },
+        {
+          "name": "admissions",
+          "top": 2737,
+          "height": 462
+        },
+        {
+          "name": "learning",
+          "top": 3199,
+          "height": 784
+        },
+        {
+          "name": "guides",
+          "top": 3982,
+          "height": 314
+        },
+        {
+          "name": "updates",
+          "top": 4296,
+          "height": 318
+        },
+        {
+          "name": "faqs",
+          "top": 4614,
+          "height": 337
+        },
+        {
+          "name": "guidance",
+          "top": 4951,
+          "height": 422
+        },
+        {
+          "name": "ag-footer",
+          "top": 5373,
+          "height": 197
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 5494,
+      "scrollWidth": 820,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 611
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 676,
+          "height": 121
+        },
+        {
+          "name": "programmes",
+          "top": 796,
+          "height": 593
+        },
+        {
+          "name": "universities",
+          "top": 1390,
+          "height": 490
+        },
+        {
+          "name": "agritech",
+          "top": 1879,
+          "height": 409
+        },
+        {
+          "name": "compare",
+          "top": 2288,
+          "height": 413
+        },
+        {
+          "name": "admissions",
+          "top": 2701,
+          "height": 462
+        },
+        {
+          "name": "learning",
+          "top": 3163,
+          "height": 784
+        },
+        {
+          "name": "guides",
+          "top": 3947,
+          "height": 310
+        },
+        {
+          "name": "updates",
+          "top": 4257,
+          "height": 318
+        },
+        {
+          "name": "faqs",
+          "top": 4575,
+          "height": 337
+        },
+        {
+          "name": "guidance",
+          "top": 4912,
+          "height": 401
+        },
+        {
+          "name": "ag-footer",
+          "top": 5314,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 5401,
+      "scrollWidth": 900,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 641
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 706,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 822,
+          "height": 541
+        },
+        {
+          "name": "universities",
+          "top": 1362,
+          "height": 490
+        },
+        {
+          "name": "agritech",
+          "top": 1852,
+          "height": 400
+        },
+        {
+          "name": "compare",
+          "top": 2252,
+          "height": 413
+        },
+        {
+          "name": "admissions",
+          "top": 2665,
+          "height": 462
+        },
+        {
+          "name": "learning",
+          "top": 3127,
+          "height": 752
+        },
+        {
+          "name": "guides",
+          "top": 3879,
+          "height": 310
+        },
+        {
+          "name": "updates",
+          "top": 4189,
+          "height": 318
+        },
+        {
+          "name": "faqs",
+          "top": 4507,
+          "height": 337
+        },
+        {
+          "name": "guidance",
+          "top": 4844,
+          "height": 376
+        },
+        {
+          "name": "ag-footer",
+          "top": 5220,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 901,
+      "height": 4833,
+      "scrollWidth": 901,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 641
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 706,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 822,
+          "height": 473
+        },
+        {
+          "name": "universities",
+          "top": 1295,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1641,
+          "height": 398
+        },
+        {
+          "name": "compare",
+          "top": 2038,
+          "height": 399
+        },
+        {
+          "name": "admissions",
+          "top": 2437,
+          "height": 471
+        },
+        {
+          "name": "learning",
+          "top": 2908,
+          "height": 494
+        },
+        {
+          "name": "guides",
+          "top": 3402,
+          "height": 312
+        },
+        {
+          "name": "updates",
+          "top": 3714,
+          "height": 287
+        },
+        {
+          "name": "faqs",
+          "top": 4002,
+          "height": 306
+        },
+        {
+          "name": "guidance",
+          "top": 4307,
+          "height": 345
+        },
+        {
+          "name": "ag-footer",
+          "top": 4652,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "height": 4768,
+      "scrollWidth": 1000,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 65
+        },
+        {
+          "name": "ag-hero",
+          "top": 65,
+          "height": 678
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 743,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 859,
+          "height": 473
+        },
+        {
+          "name": "universities",
+          "top": 1331,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1677,
+          "height": 381
+        },
+        {
+          "name": "compare",
+          "top": 2058,
+          "height": 399
+        },
+        {
+          "name": "admissions",
+          "top": 2457,
+          "height": 471
+        },
+        {
+          "name": "learning",
+          "top": 2927,
+          "height": 463
+        },
+        {
+          "name": "guides",
+          "top": 3390,
+          "height": 296
+        },
+        {
+          "name": "updates",
+          "top": 3686,
+          "height": 270
+        },
+        {
+          "name": "faqs",
+          "top": 3956,
+          "height": 287
+        },
+        {
+          "name": "guidance",
+          "top": 4243,
+          "height": 345
+        },
+        {
+          "name": "ag-footer",
+          "top": 4588,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 1001,
+      "height": 4370,
+      "scrollWidth": 1001,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 330
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 385,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 501,
+          "height": 473
+        },
+        {
+          "name": "universities",
+          "top": 974,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1320,
+          "height": 381
+        },
+        {
+          "name": "compare",
+          "top": 1700,
+          "height": 407
+        },
+        {
+          "name": "admissions",
+          "top": 2107,
+          "height": 471
+        },
+        {
+          "name": "learning",
+          "top": 2578,
+          "height": 463
+        },
+        {
+          "name": "guides",
+          "top": 3041,
+          "height": 296
+        },
+        {
+          "name": "updates",
+          "top": 3337,
+          "height": 270
+        },
+        {
+          "name": "faqs",
+          "top": 3606,
+          "height": 287
+        },
+        {
+          "name": "guidance",
+          "top": 3893,
+          "height": 296
+        },
+        {
+          "name": "ag-footer",
+          "top": 4189,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 4370,
+      "scrollWidth": 1024,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 330
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 385,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 501,
+          "height": 473
+        },
+        {
+          "name": "universities",
+          "top": 974,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1320,
+          "height": 381
+        },
+        {
+          "name": "compare",
+          "top": 1700,
+          "height": 407
+        },
+        {
+          "name": "admissions",
+          "top": 2107,
+          "height": 471
+        },
+        {
+          "name": "learning",
+          "top": 2578,
+          "height": 463
+        },
+        {
+          "name": "guides",
+          "top": 3041,
+          "height": 296
+        },
+        {
+          "name": "updates",
+          "top": 3337,
+          "height": 270
+        },
+        {
+          "name": "faqs",
+          "top": 3606,
+          "height": 287
+        },
+        {
+          "name": "guidance",
+          "top": 3893,
+          "height": 296
+        },
+        {
+          "name": "ag-footer",
+          "top": 4189,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 1150,
+      "height": 4319,
+      "scrollWidth": 1150,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 330
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 385,
+          "height": 116
+        },
+        {
+          "name": "programmes",
+          "top": 501,
+          "height": 475
+        },
+        {
+          "name": "universities",
+          "top": 976,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1322,
+          "height": 352
+        },
+        {
+          "name": "compare",
+          "top": 1674,
+          "height": 407
+        },
+        {
+          "name": "admissions",
+          "top": 2081,
+          "height": 471
+        },
+        {
+          "name": "learning",
+          "top": 2552,
+          "height": 465
+        },
+        {
+          "name": "guides",
+          "top": 3017,
+          "height": 288
+        },
+        {
+          "name": "updates",
+          "top": 3305,
+          "height": 262
+        },
+        {
+          "name": "faqs",
+          "top": 3566,
+          "height": 289
+        },
+        {
+          "name": "guidance",
+          "top": 3856,
+          "height": 283
+        },
+        {
+          "name": "ag-footer",
+          "top": 4139,
+          "height": 181
+        }
+      ]
+    },
+    {
+      "width": 1151,
+      "height": 4418,
+      "scrollWidth": 1151,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 356
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 411,
+          "height": 153
+        },
+        {
+          "name": "programmes",
+          "top": 564,
+          "height": 495
+        },
+        {
+          "name": "universities",
+          "top": 1058,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1404,
+          "height": 381
+        },
+        {
+          "name": "compare",
+          "top": 1785,
+          "height": 408
+        },
+        {
+          "name": "admissions",
+          "top": 2192,
+          "height": 465
+        },
+        {
+          "name": "learning",
+          "top": 2657,
+          "height": 465
+        },
+        {
+          "name": "guides",
+          "top": 3122,
+          "height": 310
+        },
+        {
+          "name": "updates",
+          "top": 3432,
+          "height": 282
+        },
+        {
+          "name": "faqs",
+          "top": 3713,
+          "height": 289
+        },
+        {
+          "name": "guidance",
+          "top": 4003,
+          "height": 283
+        },
+        {
+          "name": "ag-footer",
+          "top": 4286,
+          "height": 132
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 4365,
+      "scrollWidth": 1280,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 356
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 411,
+          "height": 136
+        },
+        {
+          "name": "programmes",
+          "top": 547,
+          "height": 498
+        },
+        {
+          "name": "universities",
+          "top": 1045,
+          "height": 346
+        },
+        {
+          "name": "agritech",
+          "top": 1391,
+          "height": 360
+        },
+        {
+          "name": "compare",
+          "top": 1751,
+          "height": 411
+        },
+        {
+          "name": "admissions",
+          "top": 2162,
+          "height": 465
+        },
+        {
+          "name": "learning",
+          "top": 2627,
+          "height": 469
+        },
+        {
+          "name": "guides",
+          "top": 3096,
+          "height": 292
+        },
+        {
+          "name": "updates",
+          "top": 3387,
+          "height": 266
+        },
+        {
+          "name": "faqs",
+          "top": 3654,
+          "height": 293
+        },
+        {
+          "name": "guidance",
+          "top": 3947,
+          "height": 287
+        },
+        {
+          "name": "ag-footer",
+          "top": 4233,
+          "height": 132
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "height": 4338,
+      "scrollWidth": 1366,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 356
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 411,
+          "height": 136
+        },
+        {
+          "name": "programmes",
+          "top": 547,
+          "height": 501
+        },
+        {
+          "name": "universities",
+          "top": 1048,
+          "height": 338
+        },
+        {
+          "name": "agritech",
+          "top": 1386,
+          "height": 360
+        },
+        {
+          "name": "compare",
+          "top": 1746,
+          "height": 413
+        },
+        {
+          "name": "admissions",
+          "top": 2160,
+          "height": 446
+        },
+        {
+          "name": "learning",
+          "top": 2606,
+          "height": 471
+        },
+        {
+          "name": "guides",
+          "top": 3077,
+          "height": 294
+        },
+        {
+          "name": "updates",
+          "top": 3371,
+          "height": 268
+        },
+        {
+          "name": "faqs",
+          "top": 3640,
+          "height": 277
+        },
+        {
+          "name": "guidance",
+          "top": 3916,
+          "height": 289
+        },
+        {
+          "name": "ag-footer",
+          "top": 4206,
+          "height": 132
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 4346,
+      "scrollWidth": 1440,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 356
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 411,
+          "height": 136
+        },
+        {
+          "name": "programmes",
+          "top": 547,
+          "height": 502
+        },
+        {
+          "name": "universities",
+          "top": 1049,
+          "height": 339
+        },
+        {
+          "name": "agritech",
+          "top": 1388,
+          "height": 360
+        },
+        {
+          "name": "compare",
+          "top": 1748,
+          "height": 414
+        },
+        {
+          "name": "admissions",
+          "top": 2163,
+          "height": 446
+        },
+        {
+          "name": "learning",
+          "top": 2609,
+          "height": 472
+        },
+        {
+          "name": "guides",
+          "top": 3081,
+          "height": 295
+        },
+        {
+          "name": "updates",
+          "top": 3376,
+          "height": 269
+        },
+        {
+          "name": "faqs",
+          "top": 3646,
+          "height": 278
+        },
+        {
+          "name": "guidance",
+          "top": 3923,
+          "height": 290
+        },
+        {
+          "name": "ag-footer",
+          "top": 4214,
+          "height": 132
+        }
+      ]
+    },
+    {
+      "width": 1536,
+      "height": 4369,
+      "scrollWidth": 1536,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 380
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 435,
+          "height": 136
+        },
+        {
+          "name": "programmes",
+          "top": 571,
+          "height": 502
+        },
+        {
+          "name": "universities",
+          "top": 1073,
+          "height": 339
+        },
+        {
+          "name": "agritech",
+          "top": 1412,
+          "height": 360
+        },
+        {
+          "name": "compare",
+          "top": 1772,
+          "height": 414
+        },
+        {
+          "name": "admissions",
+          "top": 2186,
+          "height": 446
+        },
+        {
+          "name": "learning",
+          "top": 2632,
+          "height": 472
+        },
+        {
+          "name": "guides",
+          "top": 3105,
+          "height": 295
+        },
+        {
+          "name": "updates",
+          "top": 3400,
+          "height": 269
+        },
+        {
+          "name": "faqs",
+          "top": 3669,
+          "height": 278
+        },
+        {
+          "name": "guidance",
+          "top": 3947,
+          "height": 290
+        },
+        {
+          "name": "ag-footer",
+          "top": 4237,
+          "height": 132
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 4440,
+      "scrollWidth": 1920,
+      "textClipping": [],
+      "guideCollisions": [],
+      "controlsOutside": [],
+      "admissionGuideContrast": 10.022412839753375,
+      "sections": [
+        {
+          "name": "ag-header",
+          "top": 0,
+          "height": 55
+        },
+        {
+          "name": "ag-hero",
+          "top": 55,
+          "height": 450
+        },
+        {
+          "name": "ag-help-strip",
+          "top": 505,
+          "height": 136
+        },
+        {
+          "name": "programmes",
+          "top": 641,
+          "height": 502
+        },
+        {
+          "name": "universities",
+          "top": 1143,
+          "height": 339
+        },
+        {
+          "name": "agritech",
+          "top": 1482,
+          "height": 360
+        },
+        {
+          "name": "compare",
+          "top": 1842,
+          "height": 414
+        },
+        {
+          "name": "admissions",
+          "top": 2257,
+          "height": 446
+        },
+        {
+          "name": "learning",
+          "top": 2703,
+          "height": 472
+        },
+        {
+          "name": "guides",
+          "top": 3175,
+          "height": 295
+        },
+        {
+          "name": "updates",
+          "top": 3470,
+          "height": 269
+        },
+        {
+          "name": "faqs",
+          "top": 3740,
+          "height": 278
+        },
+        {
+          "name": "guidance",
+          "top": 4017,
+          "height": 290
+        },
+        {
+          "name": "ag-footer",
+          "top": 4308,
+          "height": 132
+        }
+      ]
+    }
+  ],
+  "touch": {
+    "portraitMenu": "passed",
+    "landscapeDialog": {
+      "open": true,
+      "top": 16,
+      "bottom": 374,
+      "width": 520,
+      "scrollable": true
+    }
+  },
+  "errors": []
+}

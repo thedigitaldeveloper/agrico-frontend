@@ -1,0 +1,67 @@
+{
+  "id": "scholarship-questions",
+  "cms_type": "Blog",
+  "slug": "agriculture-scholarship-conditions",
+  "title": "Check agriculture scholarship conditions before budgeting",
+  "description": "Check programme exclusions, award letters, eligible tuition, renewal and payment timing before putting an agriculture scholarship into your budget.",
+  "summary": "A scholarship headline becomes useful only when its terms match your programme, intake and circumstances. Confirm the award, what it covers and how it continues before treating it as money available for the course.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "check-programme-exclusions",
+      "heading": "Read the programme exclusions before the percentage",
+      "paragraphs": [
+        "Begin with the exact degree, intake, campus and applicant category. A university-wide advertisement may have exclusions that matter more than the largest percentage on the page. Find the scheme's full terms and check whether your programme is included. Keep a dated copy with the application and any subsequent clarification.",
+        "There is a concrete 2026–27 example at [The Neotia University](/university/the-neotia-university): its official Indian-student fee schedule excludes B.Sc. (Hons.) Agriculture from the general 25–100% tuition-scholarship offer. That exclusion does not establish whether a separate government or other scheme could apply. It means an agriculture applicant should not deduct the advertised general concession without confirmation of a different applicable award."
+      ]
+    },
+    {
+      "id": "distinguish-eligibility-and-award",
+      "heading": "Distinguish meeting a condition from receiving an award",
+      "paragraphs": [
+        "Ask what evidence is required, who approves the application and when the decision is issued. A score may make you eligible for consideration while the award still depends on programme rules, the admission phase or supporting documents. Record whether your status is applied, provisionally approved or finally awarded. Only the last two justify further questions about the conditions attached to your individual offer.",
+        "[Lovely Professional University](/university/lovely-professional-university) describes multiple scholarship routes and programme-dependent brackets, with admission-phase variation. [Raffles University's](/university/raffles-university) undated FAQ describes foundation concessions decided case by case using merit, need and available funds. These are different forms of consideration. Neither statement is an individual agriculture scholarship sanction letter."
+      ]
+    },
+    {
+      "id": "define-covered-costs",
+      "heading": "Identify the fee base and when support reaches you",
+      "paragraphs": [
+        "Ask whether a percentage applies only to tuition or to another defined fee. Hostel, mess, examinations, transport and deposits may remain payable. A reimbursement received later also creates a different cash requirement from a deduction on the admission bill. Ask whether you must first pay in full, and which office records the credit.",
+        "Illustrative arithmetic only: a 25% concession on ₹1,20,000 annual tuition is ₹30,000. If other annual costs are ₹90,000, the total falls from ₹2,10,000 to ₹1,80,000, not by 25% of the whole budget. These figures describe no institution. Use [the fee letter guide](/blogs/reading-an-agriculture-fee-letter) to reproduce the calculation with your written offer."
+      ]
+    },
+    {
+      "id": "read-continuation-rules",
+      "heading": "Ask how the award continues after admission",
+      "paragraphs": [
+        "Request the number of covered semesters and the precise continuation rules. Ask whether there is an academic threshold, attendance condition, annual application, conduct requirement or restriction on combining schemes. Do not assume those conditions exist in every scheme, or borrow a threshold from another student's course. The relevant document is the one attached to your award and intake.",
+        "Also ask what happens after a backlog, study break, programme change or delayed certificate. Is there a review procedure, and can support resume? At [Palar Agricultural College](/university/palar-agricultural-college), the website lists a Scholarship Cell, but that listing alone establishes no award amount or renewal promise. Ask the responsible office to identify the actual scheme and its current rules."
+      ],
+      "table": {"columns":["Point to confirm","Evidence to request"],"rows":[["Programme and applicant eligibility","Dated scheme terms and exclusions"],["Your award","Sanction or concession letter"],["Covered amount and period","Fee base, rupee value and semesters"],["Payment timing","Bill deduction or reimbursement procedure"],["Continuation","Renewal conditions and review process"],["Combining support","Written rule on simultaneous schemes"]]}
+    },
+    {
+      "id": "budget-with-uncertainty",
+      "heading": "Keep a budget for an award still awaiting confirmation",
+      "paragraphs": [
+        "Prepare one total using confirmed support and a second showing the amount needed while a pending award remains undecided. Compare the payment dates with your available resources. If the course is unaffordable without the award, resolve the uncertainty before committing on the strength of a headline. Our [fee budget guide](/articles/agriculture-fee-budget) helps separate tuition, living costs and one-time payments."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question":"Does a scholarship calculator prove I have an award?","answer":"Treat its output as an estimate unless the scheme expressly makes it a sanction. Request the individual approval and verify the degree, intake, amount and conditions."},
+    {"question":"Does a tuition scholarship also pay for the hostel?","answer":"Only if the applicable written terms include accommodation. Check each charge separately rather than applying the tuition percentage to the whole budget."},
+    {"question":"Can I combine a university concession with government support?","answer":"Check both schemes' rules and disclose the other support when required. Do not assume either that combining is allowed or that it is prohibited."}
+  ],
+  "related_institution_ids": [41, 43, 39, 8],
+  "related_topic_ids": ["fee-letter", "fee-budget", "college-questions"],
+  "sources": [
+    {"id":"tnu-fees-2026","title":"The Neotia University: Indian-student fee structure 2026–27","url":"https://www.tnu.in/admissions/fee-structure/indian-students-2/","checked_on":"2026-10-30","note":"Official intake-labelled schedule read. Note (6) explicitly excludes B.Sc. (Hons.) Agriculture from the general 25–100% tuition scholarship in 2026–27. Supports check-programme-exclusions only; no claim about separate scheme eligibility."},
+    {"id":"lpu-scholarships","title":"Lovely Professional University: scholarships","url":"https://www.lpu.in/scholarship/scholarship.php","checked_on":"2026-10-30","note":"Official scholarship page read; programme variation, brackets and tentative admission phases verified. Its linked terms PDF is labelled updated Part B 2025; no unverified current renewal threshold taken from it."},
+    {"id":"raffles-faq","title":"Raffles University: frequently asked questions","url":"https://rafflesuniversity.edu.in/faqs","checked_on":"2026-10-30","note":"Undated official FAQ read; supports the brief foundation case-by-case example. Older ministry wording on the same page is not treated as current government-scheme eligibility evidence."},
+    {"id":"palar-cell","title":"Palar Agricultural College: official Scholarship Cell listing","url":"https://palaragri.ac.in/admission/","checked_on":"2026-10-30","note":"Official site navigation lists a Scholarship Cell. No award amount, programme eligibility or renewal rule is inferred from that listing."}
+  ],
+  "verification_notes": ["A dated 2026–27 programme exclusion is verified; institution-wide descriptions are carefully distinguished from individual sanctions.","No universal renewal CGPA, automatic scholarship entitlement or employment-related repayment assumption is invented.","Illustrative arithmetic checked: 25% × 120,000 = 30,000; 120,000 + 90,000 − 30,000 = 180,000.","No actual award amount or net payable fee is claimed for the linked institutions."]
+}

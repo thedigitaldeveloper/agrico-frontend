@@ -1,0 +1,49 @@
+{
+  "id": 46,
+  "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+  "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/logo-verified.jpg",
+      "source_page": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_Sri_Kinjarapu_Yerran_Naidu_College_of_Agricultural_Sc_7GcFQf1.jpg",
+      "source_kind": "secondary",
+      "description": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences college seal",
+      "alt": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences college seal",
+      "campus": "Etcherla, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Visually inspected college-specific crest reads SKYCAS and ESTD 2016; this is not the generic ANGRAU university mark. Served as logo on named Careers360 college profile.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Careers360 / institution",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 140,
+      "height": 140,
+      "sha256": "e3ffa3ddeaaedb2ea0f6f75246a1219785fc6d5890da495248667367bba047a4"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus_primary-verified.jpg",
+      "source_page": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam?gallery=true",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/61093/2024/11/29/Campus%20View%20of%20Sri%20Kinjarapu%20Yerran%20Naidu%20College%20of%20Agricultural%20Sciences%20Srikakulam_Campus-View.jpg",
+      "source_kind": "secondary",
+      "description": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+      "alt": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+      "campus": "Etcherla, Andhra Pradesh",
+      "agriculture_specific": true,
+      "identity_evidence": "Careers360 named college gallery explicitly captions this campus photograph for Sri Kinjarapu Yerran Naidu College at Etcherla.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Careers360 / institution",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Authentic source is below preferred 800px photo width; retained at original resolution without upscaling.",
+      "width": 720,
+      "height": 480,
+      "sha256": "9f4dacd0733c837b2aaaa456f7027863e08a63125f5ec5dd85a69902e3babf12"
+    }
+  ],
+  "gaps": []
+}

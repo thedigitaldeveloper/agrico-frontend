@@ -1,0 +1,550 @@
+{
+  "id": 18,
+  "slug": "jaipur-national-university",
+  "name": "Jaipur National University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "JNU Jaipur",
+    "ownership": "Self-financed private university sponsored by Mahima Shiksha Samiti",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "established": 2007,
+    "address": "Jaipur–Agra Bypass, near New RTO Office, Jagatpura, Jaipur302017,Rajasthan",
+    "parent_university": null,
+    "website": "https://www.jnujaipur.ac.in/",
+    "admissions_url": "https://apply.jnujaipur.ac.in/",
+    "phone": "1800-102-1900",
+    "email": "admissions@jnujaipur.ac.in",
+    "source_ids": [
+      "r31_1",
+      "r31_2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Jaipur National University",
+    "summary": "Jaipur National University offers a four-year agriculture honours degree through its School of Agricultural Sciences. The published course outline covers crop and soil sciences alongside practical modules such as seed production, mushroom cultivation and testing. Agriculture admission requirements are listed separately from other science degrees.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture teaching within JNU Jaipur",
+    "paragraphs": [
+      "Jaipur National University is a self-financed private institution sponsored by Mahima Shiksha Samiti. Its School of Agricultural Sciences presents agricultural study within the university’s wider range of programmes. The agriculture undergraduate listing gives a four-year honours degree and a selection description of JET plus personal interview.",
+      "The degree outline spans crop production and allied agricultural sciences, with a substantial list of practical modules. Applicants can use that curriculum to compare their interests in seed work, cultivation, soils or enterprise. Ask the school which experiential modules are running for the intended batch and request the current programme handbook, since the website contains both updated academic material and older FAQ text."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private university"
+      },
+      {
+        "label": "State",
+        "value": "Rajasthan"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-07-18"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The four-year degree covers agronomy, soils, plant breeding, crop protection and related disciplines. The published curriculum lists practical choices in seed production, mushroom cultivation, testing and beekeeping.",
+      "eligibility": "The official UG listing states 10+2 with minimum 50% in Science/Agriculture. The subject-combination text is incomplete on the page; obtain the current prospectus before assessing individual eligibility.",
+      "admission_route": "Official agriculture pages state JET + personal interview. Confirm the current entry-year procedure directly with the school.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "The official page displays ₹75,100 tuition but does not establish a clear academic year and charging period. The amount is not converted into an annual or total-degree fee; lab/library costs are stated separately.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Jaipur National University, Jaipur for 2022-07-19 to 2027-07-18. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to JNU Jaipur",
+    "intro": "JNU Jaipur’s agriculture listing gives a 50% Science/Agriculture threshold and JET plus personal interview. The university also runs a wider scholarship-test process; do not assume that this replaces the agriculture-specific selection route.",
+    "eligibility_points": [
+      "The agriculture UG page states a minimum 50% at 10+2 in Science/Agriculture.",
+      "The exact accepted subject combination requires confirmation because the online entry is truncated."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Practical modules and agricultural visits",
+    "intro": "The published agriculture outline includes hands-on subject modules and describes visits to research and agricultural institutions. This is curricular information, not a guarantee of a particular destination or visit for every student.",
+    "facilities": [
+      {
+        "name": "Agriculture practical facilities identified in FAQ",
+        "description": "The school FAQ identifies soil-science, entomology and crop-physiology laboratory work alongside agronomy fields, a horticulture orchard and farm machinery. This is a source list of learning settings, not a verified capacity or access schedule.",
+        "source_ids": [
+          "r31_3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The published eighth-semester list includes seed production, mushroom cultivation and soil/plant/water/seed testing modules.",
+      "The course page describes educational visits to agricultural research, extension and industry settings."
+    ],
+    "source_ids": [
+      "s3",
+      "r31_3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The university has a scholarships and financial-assistance page. The agriculture course page simply refers to university norms; a dated agriculture-specific award schedule and its renewal conditions were not verified.",
+    "schemes": [],
+    "source_ids": [
+      "s3",
+      "s5"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "Jaipur National University’s NIRF 2025 Agriculture and Allied Sectors submission reports UG four-year programme-category outcomes for three past graduating cohorts. The figures below retain that reporting scope and are not university-wide packages or promises for a new applicant.",
+    "statistics": [
+      {
+        "academic_year": "2021–22",
+        "programme_scope": "Agriculture and Allied Sectors — UG 4-year programme category (NIRF 2025 submission)",
+        "graduates_in_minimum_time": 96,
+        "placed": 55,
+        "median_salary_inr": 180000,
+        "higher_studies": 19,
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      },
+      {
+        "academic_year": "2022–23",
+        "programme_scope": "Agriculture and Allied Sectors — UG 4-year programme category (NIRF 2025 submission)",
+        "graduates_in_minimum_time": 79,
+        "placed": 27,
+        "median_salary_inr": 180000,
+        "higher_studies": 12,
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      },
+      {
+        "academic_year": "2023–24",
+        "programme_scope": "Agriculture and Allied Sectors — UG 4-year programme category (NIRF 2025 submission)",
+        "graduates_in_minimum_time": 41,
+        "placed": 11,
+        "median_salary_inr": 300000,
+        "higher_studies": 12,
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s3",
+      "r31_3",
+      "r2_nirf2025"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Jaipur National University, Jaipur and the programme labels below from 2022-07-19 through 2027-07-18. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Jaipur National University, Jaipur",
+        "programmes_as_printed": [
+          "• B.Sc.(Hons.) Agriculture (Intake- 120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-07-19",
+        "valid_until": "2027-07-18",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A26:G26"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The university’s NIRF 2025 Agriculture and Allied Sectors submission names teaching staff and their reported roles. The following selection is a historical 2025 submission roster, not confirmation that every person holds the same position inOctober 2026.",
+    "people": [
+      {
+        "name": "Dr. Manoj Kumar Jangid",
+        "role": "Associate Professor, reported inNIRF 2025",
+        "qualification": "Ph.D.(Agriculture)",
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      },
+      {
+        "name": "Dr. Ajeet Singh",
+        "role": "Assistant Professor, reported inNIRF 2025",
+        "qualification": "Ph.D.(Agriculture)",
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      },
+      {
+        "name": "Dr. Ganesh Ram Chaudhary",
+        "role": "Professor, reported inNIRF 2025",
+        "qualification": "Ph.D.(Agriculture)",
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      },
+      {
+        "name": "Dr. Shiv Kumar Khatik",
+        "role": "Associate Professor, reported inNIRF 2025",
+        "qualification": "Ph.D.(Agriculture)",
+        "source_ids": [
+          "r2_nirf2025"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_nirf2025"
+    ],
+    "verification_scope": "historical_nirf_2025_roster"
+  },
+  "faqs": [
+    {
+      "question": "Which school teaches agriculture at JNU Jaipur?",
+      "answer": "The university has a School of Agricultural Sciences and publishes a separate agriculture UG listing.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture?",
+      "answer": "Both official agriculture pages specify four years.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "Is the displayed ₹75,100 a verified annual fee?",
+      "answer": "No. The readable page does not clearly establish its academic year and charging period, and says lab/library fees are separate. Request an itemised current schedule.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What selection method is listed?",
+      "answer": "The agriculture programme pages list JET plus personal interview. Confirm current rules for the intended entry year.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "Why is an older website FAQ about accreditation not followed?",
+      "answer": "The page includes a stale pre-accreditation FAQ. The ICAR register records the agriculture term from 19 July 2022 to 18 July 2027; the discrepancy is logged for correction.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which learning facilities are documented at JNU Jaipur?",
+      "answer": "Agriculture practical facilities identified in FAQ: The school FAQ identifies soil-science, entomology and crop-physiology laboratory work alongside agronomy fields, a horticulture orchard and farm machinery. This is a source list of learning settings, not a verified capacity or access schedule.",
+      "source_ids": [
+        "r31_3"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for JNU Jaipur?",
+      "answer": "Jaipur National University is recorded as established in 2007.",
+      "source_ids": [
+        "r31_1",
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Where is the official application information for JNU Jaipur?",
+      "answer": "https://apply.jnujaipur.ac.in/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "How can applicants contact JNU Jaipur?",
+      "answer": "Public telephone: 1800-102-1900; Public email: admissions@jnujaipur.ac.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "r31_1",
+        "r31_2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Jaipur National University | Agriculture Courses & Admissions",
+    "description": "Explore Jaipur National University agriculture: course duration, practical modules, admission eligibility, fee-verification notes and programme ICAR scope.",
+    "keywords": [
+      "Jaipur National University",
+      "JNU Jaipur agriculture",
+      "Jaipur agriculture admission",
+      "B.Sc. (Hons.) Agriculture Jaipur National University"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://jnujaipur-ac.in/images/1182imguf_campus-pic1.jpg",
+    "logo_url": "https://jnujaipur-ac.in/images/jnu-logo.png",
+    "campus_alt": "Jaipur National University named main building",
+    "caption": "Jaipur National University named main building",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/jaipur-national-university/logo.png",
+    "local_campus_image": "media/jaipur-national-university/campus-01.jpg",
+    "local_gallery": [
+      "media/jaipur-national-university/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture",
+      "title": "B.Sc. (Hons.) Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "faqs.1",
+        "faqs.2",
+        "faqs.3",
+        "faqs.4",
+        "overview",
+        "placements",
+        "programmes.0",
+        "scholarships"
+      ],
+      "notes": "Live course page contains a mixture of programme material and stale FAQs, including a pre-accreditation statement; current fee period/year unclear."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences/ug-programmes",
+      "title": "Agriculture UG programmes",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "faqs.1",
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.jnujaipur.ac.in/admissions/scholarships-and-financial-assistance",
+      "title": "Scholarships and financial assistance",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "scholarships"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://jnujaipur-ac.in/",
+      "title": "Jaipur National University — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jaipur-national-university/logo.png. University-branded alternate-domain header names Jaipur National University; the campus building bears the same university name. Publisher relationship is conservatively classified secondary."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://jnujaipur-ac.in/",
+      "title": "Jaipur National University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jaipur-national-university/campus-01.jpg. University-branded alternate-domain header names Jaipur National University; the campus building bears the same university name. Publisher relationship is conservatively classified secondary."
+    },
+    {
+      "id": "r31_1",
+      "title": "Jaipur National University institutional establishment",
+      "url": "https://www.jnujaipur.ac.in/about-the-university",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Official about page explicitly states 22 October 2007."
+    },
+    {
+      "id": "r31_2",
+      "title": "JNU official self-study report institutional address",
+      "url": "https://www.jnujaipur.ac.in/public/uploads/image/1402imguf_ssr.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "search_excerpt",
+      "note": "Historical 2022 self-study report supplies university address; not a fresh department address or contact appointment record."
+    },
+    {
+      "id": "r31_3",
+      "title": "JNU published agriculture FAQ: practical learning and source conflicts",
+      "url": "https://www.jnujaipur.ac.in/admissions/faq",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Agriculture FAQ contains stale accreditation text conflicting with newer ICAR listing; only its clearly labelled learning/outcome examples are used, not the outdated regulator claim."
+    },
+    {
+      "id": "r2_nirf2025",
+      "title": "Jaipur National University — NIRF 2025 Agriculture and Allied Sectors submission",
+      "url": "https://www.jnujaipur.ac.in/pdf/nirf-agriculture.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "placements.statistics",
+        "faculty.people"
+      ],
+      "note": "Three-page primary PDF read as extracted text. Page 1 supplies UG 4-year category outcomes for 2021–22 to 2023–24; page 3 lists faculty in the 2025 submission. This is historical submitted data, not an independently audited 2026 cohort or a current appointment roster. Web screenshots could not be retrieved."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "The official page displays ₹75,100 tuition but does not establish a clear academic year and charging period. The amount is not converted into an annual or total-degree fee; lab/library costs are stated separately.",
+      "next_source": "https://apply.jnujaipur.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://apply.jnujaipur.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://www.jnujaipur.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A named faculty selection from theNIRF2025Agriculture submission is now available as historical reported information; a currentOctober2026department appointment roster remains unverified.",
+      "next_source": "https://www.jnujaipur.ac.in/pdf/nirf-agriculture.pdf"
+    },
+    {
+      "field": "recognition",
+      "reason": "Live course FAQ says the first cohort has not graduated and accreditation cannot yet be applied for, conflicting with the newer audited ICAR term. Treat as stale website text.",
+      "next_source": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "Current agriculture-specific facility capacities were not established from sources read.",
+      "next_source": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences"
+    },
+    {
+      "field": "identity.address",
+      "reason": "Official self-study record supplies the institutional Jagatpura address, now added with historical-source context; current agriculture teaching-campus assignment should still be confirmed.",
+      "next_source": "https://www.jnujaipur.ac.in/contact-us"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/18-jaipur-national-university.json",
+  "audit_name": "Jaipur National University, Jaipur",
+  "related": [
+    {
+      "id": 17,
+      "name": "Jagan Nath University, Jaipur",
+      "slug": "jagan-nath-university-jaipur",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 23,
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+      "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "slug": "vivekananda-global-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

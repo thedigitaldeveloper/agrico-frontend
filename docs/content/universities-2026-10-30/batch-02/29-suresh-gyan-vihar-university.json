@@ -1,0 +1,518 @@
+{
+  "id": 29,
+  "slug": "suresh-gyan-vihar-university",
+  "name": "Suresh Gyan Vihar University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SGVU",
+    "ownership": "Private university",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "established": 2008,
+    "address": "Gyan Vihar Marg, Jagatpura, Jaipur, Rajasthan 302017",
+    "parent_university": null,
+    "website": "https://www.gyanvihar.org/",
+    "admissions_url": "https://admissions.gyanvihar.org/",
+    "phone": "1800 309 4545",
+    "email": "admissions@mygyanvihar.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Suresh Gyan Vihar University",
+    "summary": "Suresh Gyan Vihar University offers agricultural study in Jaipur from undergraduate to research level. Its School of Agriculture identifies hydroponics, protected cultivation and soil-testing facilities, with rural work and farmer interaction forming part of the school’s published learning approach.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture courses spanning crops, horticulture and engineering",
+    "paragraphs": [
+      "SGVU was established through Rajasthan legislation in 2008. Its agriculture landing page lists B.Sc. Agriculture, agricultural engineering and master’s and doctoral subjects in agriculture and horticulture. The undergraduate agriculture degree is the programme explicitly printed in the checked ICAR row.",
+      "The school’s current facilities description includes soil science, plant pathology, entomology and biotechnology laboratories. Hydroponics and protected cultivation add a horticultural component to field-based crop study. The programme catalogue includes both agricultural science and engineering, while the master’s subject list extends from crop production and protection to horticultural specialisations."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "School of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Jaipur, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The school’s undergraduate agricultural science degree combines subject study with farm and laboratory work.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 120000,
+        "period": "year",
+        "academic_year": "2025 booklet; academic session unspecified",
+        "includes": "Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+        "note": "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_fees2025"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "One of the agricultural master’s specialisations listed by the school.",
+      "eligibility": "Undated official MSc Agriculture leaf: four-year B.Sc. Agriculture from a recognised university, with at least 60% aggregate; confirm the intended intake rule.",
+      "admission_route": "Undated MSc Agriculture leaf lists SGVUEE / CUET-PG; use the applicable intake notice.",
+      "fees": {
+        "amount_inr": 80000,
+        "period": "year",
+        "academic_year": "2025 booklet; academic session unspecified",
+        "includes": "Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+        "note": "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_fees2025"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3",
+        "r2_msc_entry"
+      ]
+    },
+    {
+      "name": "M.Sc. Horticulture — Vegetable Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "An allied master’s route listed alongside fruit science and floriculture.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 80000,
+        "period": "year",
+        "academic_year": "2025 booklet; academic session unspecified",
+        "includes": "Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+        "note": "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_fees2025"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The current school FAQ mentions PCM, PCB or Agriculture for undergraduate applicants and JET or ICAR channels. Because that page is undated, obtain the intake-specific subject, marks and counselling rules before choosing an examination route.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "campus": {
+    "heading": "Hydroponics, soil analysis and village contact",
+    "intro": "SGVU’s school page identifies instructional farms and protected-cultivation units. A separate school account describes farmer-student and farmer-faculty interactions on campus and in an adopted village.",
+    "facilities": [
+      {
+        "name": "Hydroponics and protected cultivation",
+        "description": "The school identifies working hydroponics and protected-cultivation facilities.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Soil science laboratory",
+        "description": "The school describes soil-property and fertility-assessment practicals.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Enterprise and production units in the school brochure",
+        "description": "The undated brochure lists mushroom production, seed processing, vermicompost, azolla, a greenhouse/nursery and a poly-pond/fisheries unit. Ask the school which units are available for the intended cohort.",
+        "source_ids": [
+          "o31_brochure"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The school’s farmer-interaction account describes work with farm families and extension tools.",
+      "The official school brochure describes summer/winter internships, field training and educational visits to ICAR research institutes, agricultural universities and KVKs. These are described learning activities, not guaranteed placement offers."
+    ],
+    "source_ids": [
+      "s3",
+      "s4",
+      "o31_brochure"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The school states that it works with the university Training and Placement Office and provides competitive-examination guidance. Headline salary claims lack a sufficiently clear reporting year and cohort and are excluded.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists School of Agriculture for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "School of Agriculture",
+        "programmes_as_printed": [
+          "B.Sc. Hons Agriculture\n(Intake-120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A37:G37"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The July 2025 recognised-supervisor list names agriculture faculty. These selected historical entries document research supervision in that list; current appointments and a full 2026 teaching roster are not certified.",
+    "people": [
+      {
+        "name": "Dr. Radhey Shyam Sain",
+        "role": "Faculty of Agriculture; recognised PhD supervisor in July 2025 list",
+        "source_ids": [
+          "r2_supervisors2025"
+        ]
+      },
+      {
+        "name": "Dr. Ajeet Singh Shekhawat",
+        "role": "Faculty of Agriculture; recognised PhD supervisor in July 2025 list",
+        "source_ids": [
+          "r2_supervisors2025"
+        ]
+      },
+      {
+        "name": "Dr. Rajendra Pr. Maurya",
+        "role": "Faculty of Agriculture; recognised PhD supervisor in July 2025 list",
+        "source_ids": [
+          "r2_supervisors2025"
+        ]
+      },
+      {
+        "name": "Dr. Manas Mathur",
+        "role": "Faculty of Agriculture; recognised PhD supervisor in July 2025 list",
+        "source_ids": [
+          "r2_supervisors2025"
+        ]
+      },
+      {
+        "name": "Dr. Manju Sharma",
+        "role": "Faculty of Agriculture; recognised PhD supervisor in July 2025 list",
+        "source_ids": [
+          "r2_supervisors2025"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_supervisors2025"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which SGVU programme appears in the audited ICAR list?",
+      "answer": "B.Sc. Hons Agriculture is explicitly printed for 11 October 2022 to 10 October 2027.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How long is the agriculture degree?",
+      "answer": "The current school programme list gives four years for the B.Sc. and two years for agricultural master’s courses.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the school list horticulture postgraduate study?",
+      "answer": "Yes. Fruit science, vegetable science, and floriculture and landscaping appear in its M.Sc. Horticulture list.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What farmer interaction is described?",
+      "answer": "A school page describes on-campus and village-based interaction involving students, faculty and farm families.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Are current fee amounts verified here?",
+      "answer": "No. A dated 2026-27 agriculture charge schedule was not verified in the checked sources.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Suresh Gyan Vihar University | Agriculture courses and admissions",
+    "description": "Explore SGVU agriculture in Jaipur, undergraduate and postgraduate options, hydroponics and farmer interaction, with admissions and ICAR verification notes.",
+    "keywords": [
+      "Suresh Gyan Vihar University agriculture",
+      "Suresh Gyan Vihar University admissions",
+      "Suresh Gyan Vihar University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cms.gyanvihar.org/uploads/campus_01_bb7a3d1599.webp",
+    "logo_url": "https://www.gyanvihar.org/logo.svg",
+    "campus_alt": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+    "caption": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/suresh-gyan-vihar-university/logo.svg",
+    "local_campus_image": "media/suresh-gyan-vihar-university/campus_primary.webp",
+    "local_gallery": [
+      "media/suresh-gyan-vihar-university/campus_primary.webp",
+      "media/suresh-gyan-vihar-university/campus_secondary.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://agriculture.gyanvihar.org/",
+      "title": "Agriculture course landing page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "overview",
+        "programmes"
+      ],
+      "notes": "Undated placement headlines are not used."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.gyanvihar.org/school/agriculture",
+      "title": "School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "admissions",
+        "campus",
+        "placements",
+        "identity.contact"
+      ],
+      "notes": "Current page is not an intake-specific prospectus."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.gyanvihar.org/school/agriculture/farmer-student-faculty-interaction",
+      "title": "Farmer-student-faculty interaction",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus.practical_learning"
+      ],
+      "notes": "Detailed activity description available in indexed excerpt; direct read exposed only shortened text."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.gyanvihar.org/",
+      "title": "Suresh Gyan Vihar University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/suresh-gyan-vihar-university/logo.svg. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.gyanvihar.org/",
+      "title": "Suresh Gyan Vihar University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/suresh-gyan-vihar-university/campus_primary.webp. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.gyanvihar.org/",
+      "title": "Suresh Gyan Vihar University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/suresh-gyan-vihar-university/campus_secondary.webp. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "o31_brochure",
+      "title": "SGVU School of Agriculture official brochure",
+      "url": "https://www.gyanvihar.org/uploads/Agriculture_Broucher_3_5319523b60.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated brochure contains NIRF 2021/2022 context. Its units and training descriptions are brochure-listed facilities, not a current operational audit or guaranteed placement."
+    },
+    {
+      "id": "r2_fees2025",
+      "title": "SGVU programmes and scholarships booklet 2025",
+      "url": "https://cms.gyanvihar.org/uploads/Booklet_of_Programs_and_Scholarships_2025_Final_1bb0f04066.pdf",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Official indexed annual-fee table read. PDF opened without extractable lines; historical 2025 booklet, not a 2026–27 quotation."
+    },
+    {
+      "id": "r2_msc_entry",
+      "title": "SGVU MSc Agriculture entry requirements",
+      "url": "https://www.gyanvihar.org/school/agriculture/m-sc-in-agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.eligibility"
+      ],
+      "notes": "Undated course leaf: four-year B.Sc. Agriculture at 60%, SGVUEE/CUET-PG. Its fee differs from the dated booklet."
+    },
+    {
+      "id": "r2_supervisors2025",
+      "title": "SGVU recognised PhD supervisors, July 2025",
+      "url": "https://www.gyanvihar.org/wp-content/uploads/attach/IQAC/mentors/mentors_list.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faculty"
+      ],
+      "notes": "Historical dated July 2025 supervisor list, not a complete current teaching roster."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "Three listed programmes now have historical 2025 annual amounts. A consistent dated 2026–27 offer remains unverified; an undated MSc fee differs.",
+      "next_source": "https://www.gyanvihar.org/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://www.gyanvihar.org/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Named research supervisors are verified in the July 2025 list; a dated full current 2026 teaching roster remains unverified.",
+      "next_source": "https://www.gyanvihar.org/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.gyanvihar.org/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://admissions.gyanvihar.org/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://admissions.gyanvihar.org/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admissions.gyanvihar.org/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.gyanvihar.org/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added concrete enterprise units and brochure-scoped field-learning activities while excluding old ranking and market-leadership claims.",
+      "Added three historical fee amounts, sourced MSc Agronomy entry rules and five historical supervisor entries."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

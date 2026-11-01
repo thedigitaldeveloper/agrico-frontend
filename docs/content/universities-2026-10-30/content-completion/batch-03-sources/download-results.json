@@ -1,0 +1,26 @@
+[
+  {
+    "file": "aus-prospectus-2026-27.pdf",
+    "url": "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf",
+    "error": "No module named 'fitz'"
+  },
+  {
+    "file": "gku-prospectus-2025-26.pdf",
+    "url": "https://www.gku.ac.in/public/uploads/page_section_attributes/NjonmmIpxcbOkvFoejgohlFRlHQF9wFaLVGS2vj7.pdf",
+    "error": "No module named 'fitz'"
+  },
+  {
+    "file": "soa-fees-box.html",
+    "url": "https://soadu.app.box.com/s/ixgqyh556vfdf2thrxgjzhvzbnw8hlk0",
+    "status": 200,
+    "bytes": 39517,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "file": "soa-scholarships-box.html",
+    "url": "https://soadu.app.box.com/s/wdzsogkipivhkh1sch82p3ax0hdmtojy",
+    "status": 200,
+    "bytes": 39521,
+    "content_type": "text/html; charset=utf-8"
+  }
+]

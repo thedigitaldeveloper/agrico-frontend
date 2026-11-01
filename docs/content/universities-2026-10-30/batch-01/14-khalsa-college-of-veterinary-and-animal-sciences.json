@@ -1,0 +1,549 @@
+{
+  "id": 14,
+  "slug": "khalsa-college-of-veterinary-and-animal-sciences",
+  "name": "Khalsa College of Veterinary and Animal Sciences",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "KCVAS",
+    "ownership": "Private veterinary college established by Khalsa College Charitable Society",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "established": 2009,
+    "address": "Ram Tirath Road, Amritsar, Punjab 143002",
+    "parent_university": "GADVASU, Ludhiana",
+    "website": "https://kcvas.com/",
+    "admissions_url": "https://www.gadvasu.in/page/admission-ug-2026-27",
+    "phone": "+91 6283466785",
+    "email": "kcvas_amritsar@yahoo.com",
+    "source_ids": [
+      "r31_2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Veterinary and animal sciences",
+    "title": "Khalsa College of Veterinary and Animal Sciences",
+    "summary": "KCVAS is a veterinary college in Amritsar affiliated to GADVASU. Its animal-health teaching is supported by a Veterinary Clinical Complex at Mahal with small- and large-animal services. The degree profiled here is B.V.Sc. & A.H., with no agriculture B.Sc. scope inferred.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Veterinary learning with clinical exposure at Mahal",
+    "paragraphs": [
+      "Khalsa College of Veterinary and Animal Sciences was established by Khalsa College Charitable Society. The college dates its formation to 2009 and GADVASU affiliation to 2010. It focuses on veterinary health, animal production and management, making it a distinct option from an undergraduate crop-science college.",
+      "Its Veterinary Clinical Complex is at village Mahal on Ram Tirath Road, separate from the main campus. The department describes services for small and large animals, diagnostic imaging, surgery and clinical laboratory work. For applicants, that clinical setting is central to evaluating the programme: ask how clinical rotations, case exposure and internship supervision are organised for the intended cohort."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Punjab"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2026-11-08"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "r31_2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.V.Sc. & A.H.",
+      "level": "Undergraduate",
+      "duration": "5½ years",
+      "mode": null,
+      "summary": "B.V.Sc. & A.H. is a 5½-year veterinary programme in the GADVASU admission rules. KCVAS combines veterinary study with clinical and animal-management teaching; professional-registration conditions should be checked with the relevant authorities.",
+      "eligibility": "GADVASU’s NEET-UG-2026 rules require 10+2 or equivalent with Physics, Chemistry, Biology and English and 50% aggregate excluding optional subjects (47.5% for SC/ST, BC and DP categories), plus the relevant NEET cutoff. Category, domicile and quota conditions also apply.",
+      "admission_route": "GADVASU’s 2026 rules refer to NEET-UG-2026 eligibility and counselling. Different quota and domicile conditions must be checked in the current official notice.",
+      "fees": {
+        "amount_inr": 180000,
+        "period": "six months",
+        "academic_year": "2026–27",
+        "includes": "University-quota tuition only; other six-monthly charges, one-time fees, securities and accommodation are separate.",
+        "note": "KCVAS table 2.2.5(C), printedp 13: six-monthly tuition is ₹1,80,000 for University Quota, ₹3,80,000 forManagement Quota and ₹4,37,500 forSpecial Management Quota. Other six-monthly charges are ₹31,500. The published entry-time totals include one-time charges/security; hostel/mess and category terms must be read separately. Tuition applies to 4½ years of course work; KCVAS other charges continue during internship. No flat five-year total is inferred.",
+        "verification": "verified",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.V.Sc. & A.H. at College of Khalsa College of Veterinary and Animal Sciences, Amritsar for 2021-11-09 to 2026-11-08. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s7",
+        "r31_1"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to KCVAS",
+    "intro": "Use the university’s 2026–27 veterinary notices and the correct quota rules. A fourth-counselling notice names 30 October 2026; that is an event date, not evidence of an available KCVAS seat or a continuing application window.",
+    "eligibility_points": [
+      "The published 2026 veterinary rules specify Physics, Chemistry, Biology and English at 10+2.",
+      "The university requires the applicable NEET-UG-2026 cutoff, with category and quota conditions."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [
+      "NEET-UG 2026 result/score evidence for the applicable Indian-national admission category",
+      "Original academic certificates and relevant quota/category certificates as specified in the 2026–27 prospectus"
+    ],
+    "dates": [
+      {
+        "label": "University notice: fourth B.V.Sc. & A.H. counselling",
+        "date": "2026-10-30",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s5",
+      "r31_1"
+    ]
+  },
+  "campus": {
+    "heading": "Clinical teaching for small and large animals",
+    "intro": "The Veterinary Clinical Complex describes clinical medicine, surgery and radiology, and gynaecology/obstetrics services. It is located at Mahal, about two kilometres from the main campus according to the college.",
+    "facilities": [
+      {
+        "name": "Veterinary Clinical Complex",
+        "description": "The official department page describes small- and large-animal clinical services at Mahal.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Diagnostic facilities",
+        "description": "The complex lists X-ray, ultrasonography and an in-house diagnostic laboratory.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The clinical setting supports veterinary case-based teaching; request current rotation and internship arrangements."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The 2026–27 GADVASU prospectus states that KCVAS students eligible for the Post-Matric Scholarship Scheme and admitted in the SC/ST university-quota category are charged the same fee as eligible GADVASU students. This is a restricted category rule, not a scholarship promise for management, NRI or every veterinary student.",
+    "schemes": [
+      {
+        "name": "SC/ST Post-Matric Scholarship-linked fee treatment, University Quota",
+        "details": "Prospectus section 2.2.5.2(iii) limits the rule to eligible SC/ST students under University Quota. Confirm current government eligibility, documents, reimbursement processing and the payable statement for your individual offer.",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6",
+      "r31_1"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "KCVAS describes training for employment and enterprise in the livestock sector. Clinical service and internship learning are educational components, not a measured placement outcome. A dated graduate-employment report and salary distribution were not verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records College of Khalsa College of Veterinary and Animal Sciences, Amritsar and the programme labels below from 2021-11-09 through 2026-11-08. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. Only B.V.Sc. & A.H. is explicitly shown in this ICAR row.",
+    "icar_units": [
+      {
+        "unit": "College of Khalsa College of Veterinary and Animal Sciences, Amritsar",
+        "programmes_as_printed": [
+          "• B.V.Sc. & A.H. Programme \n(Intake- 60*)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2021-11-09",
+        "valid_until": "2026-11-08",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A22:G22"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The Veterinary Clinical Complex page provides named staff and roles; these are the public listings checked on 30 October 2026.",
+    "people": [
+      {
+        "name": "Dr. P. S. Mavi",
+        "role": "Professor, Veterinary Clinical Complex",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Rajvinder Grover",
+        "role": "Assistant Professor, Veterinary Clinical Complex",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does KCVAS offer the agriculture degree covered on other profiles?",
+      "answer": "The audited ICAR row explicitly lists B.V.Sc. & A.H. only. No B.Sc. Agriculture accreditation is inferred for KCVAS.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Which university is it affiliated to?",
+      "answer": "The college and GADVASU identify affiliation to Guru Angad Dev Veterinary and Animal Sciences University, Ludhiana.",
+      "source_ids": [
+        "s2",
+        "s7"
+      ]
+    },
+    {
+      "question": "How long is the veterinary programme?",
+      "answer": "GADVASU’s undergraduate rules specify 5½ years. This current programme statement is preferred to the college’s older five-year historical description.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Where is the clinical complex?",
+      "answer": "The college places it at village Mahal on Ram Tirath Road, about two kilometres from the main campus.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "When does the verified ICAR term end?",
+      "answer": "The audited term ends on 8 November 2026. A renewal decision after that date must be checked before describing later accreditation.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What tuition does the 2026–27 KCVAS table quote?",
+      "answer": "The KCVAS section of the GADVASU 2026–27 prospectus quotes six-monthly tuition of₹1,80,000 for University Quota,₹3,80,000 forManagement Quota and₹4,37,500 forSpecial Management Quota. Other charges, securities and accommodation are separate; this is not an annual or full-degree price.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for KCVAS?",
+      "answer": "GADVASU’s NEET-UG-2026 rules require 10+2 or equivalent with Physics, Chemistry, Biology and English and 50% aggregate excluding optional subjects (47.5% for SC/ST, BC and DP categories), plus the relevant NEET cutoff. Category, domicile and quota conditions also apply.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s7",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for KCVAS?",
+      "answer": "The Veterinary Clinical Complex page provides named staff and roles; these are the public listings checked on 30 October 2026. Dr. P. S. Mavi — Professor, Veterinary Clinical Complex; Dr. Rajvinder Grover — Assistant Professor, Veterinary Clinical Complex.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which scholarship or support information is published for KCVAS?",
+      "answer": "The 2026–27 GADVASU prospectus states that KCVAS students eligible for the Post-Matric Scholarship Scheme and admitted in the SC/ST university-quota category are charged the same fee as eligible GADVASU students. This is a restricted category rule, not a scholarship promise for management, NRI or every veterinary student. Prospectus section 2.2.5.2(iii) limits the rule to eligible SC/ST students under University Quota. Confirm current government eligibility, documents, reimbursement processing and the payable statement for your individual offer.",
+      "source_ids": [
+        "s6",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for KCVAS?",
+      "answer": "NEET-UG 2026 result/score evidence for the applicable Indian-national admission category; Original academic certificates and relevant quota/category certificates as specified in the 2026–27 prospectus. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s4",
+        "s5",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which dated admission events are recorded for KCVAS?",
+      "answer": "University notice: fourth B.V.Sc. & A.H. counselling — 2026-10-30 — 2026–27. These describe the cited events and do not establish a continuing application window.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Which learning facilities are documented at KCVAS?",
+      "answer": "Veterinary Clinical Complex: The official department page describes small- and large-animal clinical services at Mahal. Diagnostic facilities: The complex lists X-ray, ultrasonography and an in-house diagnostic laboratory.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for KCVAS?",
+      "answer": "Khalsa College of Veterinary and Animal Sciences is recorded as established in 2009.",
+      "source_ids": [
+        "r31_2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Khalsa College of Veterinary and Animal Sciences | Agriculture Courses & Admissions",
+    "description": "Explore KCVAS Amritsar: the B.V.Sc. & A.H. programme, GADVASU admission rules, clinical learning, faculty listings and the precise ICAR validity term.",
+    "keywords": [
+      "Khalsa College of Veterinary and Animal Sciences",
+      "KCVAS agriculture",
+      "Amritsar agriculture admission",
+      "B.V.Sc. & A.H. Khalsa College of Veterinary and Animal Sciences"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://kcvas.com/panel/backend/img/1-copy.jpg",
+    "logo_url": "https://kcvas.com/images/logo-kc.png",
+    "campus_alt": "Veterinary students and staff outside a KCVAS clinical teaching building",
+    "caption": "Veterinary students and staff outside a KCVAS clinical teaching building",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/khalsa-college-of-veterinary-and-animal-sciences/logo.png",
+    "local_campus_image": "media/khalsa-college-of-veterinary-and-animal-sciences/campus-clinic.jpg",
+    "local_gallery": [
+      "media/khalsa-college-of-veterinary-and-animal-sciences/campus-clinic.jpg",
+      "media/khalsa-college-of-veterinary-and-animal-sciences/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://kcvas.com/",
+      "title": "KCVAS official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.1",
+        "overview",
+        "placements"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://kcvas.com/department.php?dpid=8",
+      "title": "Veterinary Clinical Complex",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "faculty",
+        "faculty.people.0",
+        "faculty.people.1",
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.gadvasu.in/page/rules-general/92/79",
+      "title": "GADVASU undergraduate admission rules",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Body explicitly references NEET-UG-2026 and a 5½-year veterinary programme."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.gadvasu.in/page/admission-ug-2026-27",
+      "title": "GADVASU undergraduate notices 2026–27",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "admissions.dates.0",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.gadvasu.in/page/ug-fee-structure/85/3047",
+      "title": "GADVASU UG fee structure: KCVAS",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "scholarships"
+      ],
+      "notes": "Readable quota-specific fee table found, but page mixes legacy navigation and later notes; exact tuition academic year not independently established."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.gadvasu.in/page/admission-capacity",
+      "title": "GADVASU programme capacity",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.1",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Current page identifies KCVAS as a private affiliated college with 5½-year programme; no live vacancy claim."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://kcvas.com/",
+      "title": "Khalsa College of Veterinary and Animal Sciences — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/khalsa-college-of-veterinary-and-animal-sciences/logo.png. Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://kcvas.com/",
+      "title": "Khalsa College of Veterinary and Animal Sciences — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/khalsa-college-of-veterinary-and-animal-sciences/campus-clinic.jpg. Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://kcvas.com/",
+      "title": "Khalsa College of Veterinary and Animal Sciences — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/khalsa-college-of-veterinary-and-animal-sciences/campus-02.jpg. Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education."
+    },
+    {
+      "id": "r31_1",
+      "title": "GADVASU prospectus 2026–27:KCVAS fees, quotas and admission rules",
+      "url": "https://www.gadvasu.in/Welcome/download/document/225",
+      "kind": "affiliating_university",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "BinaryPDF recovered and read; physicalPDFpage 31/printedpage 13 fee table visually checked. KCVAS amounts are six-monthly tuition, with other charges and entry-time totals separately labelled."
+    },
+    {
+      "id": "r31_2",
+      "title": "KCVAS institutional history and current contact",
+      "url": "https://www.kcvas.com/index.php/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "College site distinguishes 2009 establishment from 2010 university affiliation/first intake."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://kcvas.com/"
+    },
+    {
+      "field": "recognition.icar_units",
+      "reason": "Recorded ICAR term ends 8 November 2026. Targeted official-source recheck on 31 October found no separately verified renewal decision; do not extend the recorded term.",
+      "next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/14-khalsa-college-of-veterinary-and-animal-sciences.json",
+  "audit_name": "College of Khalsa College of Veterinary and Animal Sciences, Amritsar",
+  "related": [
+    {
+      "id": 15,
+      "name": "Khalsa College, Amritsar",
+      "slug": "khalsa-college-amritsar",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 19,
+      "name": "Chandigarh University",
+      "slug": "chandigarh-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 43,
+      "name": "Lovely Professional University",
+      "slug": "lovely-professional-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

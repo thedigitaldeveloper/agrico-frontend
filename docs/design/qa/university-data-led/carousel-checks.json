@@ -1,0 +1,330 @@
+{
+  "date": "2026-10-11T19:45:26.923Z",
+  "fixture": "Actual RsUniversitySection with seven synthetic rich/missing-data universities and real CSS; native wrappers for Next Link/Image; no app server or CMS writes",
+  "sourceHashes": {
+    "src/components/rs/university-section.tsx": "ddb97e9a78d1b774feb30b90b7da62ff7b904dc979c80d6390f61ae983c11d99",
+    "src/components/rs/university-section.css": "da98e8ff8b02498f98d911390e8d026b4094ae3d80772d177c0bbbb10f958125",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "firstVisible": [
+        "fixture-university-1",
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4"
+      ],
+      "nextVisible": [
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4",
+        "fixture-university-5"
+      ],
+      "lastVisible": [
+        "fixture-university-4",
+        "fixture-university-5",
+        "fixture-university-6",
+        "fixture-university-7"
+      ],
+      "controls": {
+        "padding": 0,
+        "trackBottom": 499.609375,
+        "previous": {
+          "top": 507.609375,
+          "right": 1308,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 507.609375,
+          "left": 1316,
+          "right": 1360,
+          "width": 44,
+          "height": 44
+        },
+        "right": 1360
+      },
+      "logoGeometry": {
+        "width": 40,
+        "height": 40,
+        "intrinsicWidth": 80,
+        "intrinsicHeight": 80
+      },
+      "facts": {
+        "Programmes": "12",
+        "Established": "2000",
+        "Rating": "4.2/5"
+      },
+      "checks": [
+        "seven ordered data-led universities in one row",
+        "authored ownership/modes/approvals/established/rating/programme count",
+        "deduplicated approvals and +N degrees",
+        "ambiguous degree links to university; unique offering exact link",
+        "square marks preferred over wordmarks",
+        "no campus photo markup or requests",
+        "44px controls below track without overlay",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "missing metadata and logo initials",
+        "long names",
+        "nested link keyboard activation",
+        "order reset",
+        "filtered fit controls hidden",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 1031,
+      "firstVisible": [
+        "fixture-university-1",
+        "fixture-university-2",
+        "fixture-university-3"
+      ],
+      "nextVisible": [
+        "fixture-university-2",
+        "fixture-university-3",
+        "fixture-university-4"
+      ],
+      "lastVisible": [
+        "fixture-university-5",
+        "fixture-university-6",
+        "fixture-university-7"
+      ],
+      "controls": {
+        "padding": 0,
+        "trackBottom": 518.140625,
+        "previous": {
+          "top": 526.140625,
+          "right": 927,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 526.140625,
+          "left": 935,
+          "right": 979,
+          "width": 44,
+          "height": 44
+        },
+        "right": 979
+      },
+      "logoGeometry": {
+        "width": 40,
+        "height": 40,
+        "intrinsicWidth": 80,
+        "intrinsicHeight": 80
+      },
+      "facts": {
+        "Programmes": "12",
+        "Established": "2000",
+        "Rating": "4.2/5"
+      },
+      "checks": [
+        "seven ordered data-led universities in one row",
+        "authored ownership/modes/approvals/established/rating/programme count",
+        "deduplicated approvals and +N degrees",
+        "ambiguous degree links to university; unique offering exact link",
+        "square marks preferred over wordmarks",
+        "no campus photo markup or requests",
+        "44px controls below track without overlay",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "missing metadata and logo initials",
+        "long names",
+        "nested link keyboard activation",
+        "order reset",
+        "filtered fit controls hidden",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 768,
+      "firstVisible": [
+        "fixture-university-1",
+        "fixture-university-2"
+      ],
+      "nextVisible": [
+        "fixture-university-2",
+        "fixture-university-3"
+      ],
+      "lastVisible": [
+        "fixture-university-6",
+        "fixture-university-7"
+      ],
+      "controls": {
+        "padding": 0,
+        "trackBottom": 490.3125,
+        "previous": {
+          "top": 498.3125,
+          "right": 692,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 498.3125,
+          "left": 700,
+          "right": 744,
+          "width": 44,
+          "height": 44
+        },
+        "right": 744
+      },
+      "logoGeometry": {
+        "width": 40,
+        "height": 40,
+        "intrinsicWidth": 80,
+        "intrinsicHeight": 80
+      },
+      "facts": {
+        "Programmes": "12",
+        "Established": "2000",
+        "Rating": "4.2/5"
+      },
+      "checks": [
+        "seven ordered data-led universities in one row",
+        "authored ownership/modes/approvals/established/rating/programme count",
+        "deduplicated approvals and +N degrees",
+        "ambiguous degree links to university; unique offering exact link",
+        "square marks preferred over wordmarks",
+        "no campus photo markup or requests",
+        "44px controls below track without overlay",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "missing metadata and logo initials",
+        "long names",
+        "nested link keyboard activation",
+        "order reset",
+        "filtered fit controls hidden",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 390,
+      "firstVisible": [
+        "fixture-university-1"
+      ],
+      "nextVisible": [
+        "fixture-university-2"
+      ],
+      "lastVisible": [
+        "fixture-university-7"
+      ],
+      "touchFirst": "fixture-university-2",
+      "controls": {
+        "padding": 0,
+        "trackBottom": 584.046875,
+        "previous": {
+          "top": 592.046875,
+          "right": 320,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 592.046875,
+          "left": 328,
+          "right": 372,
+          "width": 44,
+          "height": 44
+        },
+        "right": 372
+      },
+      "logoGeometry": {
+        "width": 40,
+        "height": 40,
+        "intrinsicWidth": 80,
+        "intrinsicHeight": 80
+      },
+      "facts": {
+        "Programmes": "12",
+        "Established": "2000",
+        "Rating": "4.2/5"
+      },
+      "checks": [
+        "seven ordered data-led universities in one row",
+        "authored ownership/modes/approvals/established/rating/programme count",
+        "deduplicated approvals and +N degrees",
+        "ambiguous degree links to university; unique offering exact link",
+        "square marks preferred over wordmarks",
+        "no campus photo markup or requests",
+        "44px controls below track without overlay",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "native touch swipe and inertia settling",
+        "missing metadata and logo initials",
+        "long names",
+        "nested link keyboard activation",
+        "order reset",
+        "filtered fit controls hidden",
+        "no page overflow"
+      ]
+    },
+    {
+      "width": 360,
+      "firstVisible": [
+        "fixture-university-1"
+      ],
+      "nextVisible": [
+        "fixture-university-2"
+      ],
+      "lastVisible": [
+        "fixture-university-7"
+      ],
+      "touchFirst": "fixture-university-2",
+      "controls": {
+        "padding": 0,
+        "trackBottom": 636.046875,
+        "previous": {
+          "top": 644.046875,
+          "right": 290,
+          "width": 44,
+          "height": 44
+        },
+        "next": {
+          "top": 644.046875,
+          "left": 298,
+          "right": 342,
+          "width": 44,
+          "height": 44
+        },
+        "right": 342
+      },
+      "logoGeometry": {
+        "width": 40,
+        "height": 40,
+        "intrinsicWidth": 80,
+        "intrinsicHeight": 80
+      },
+      "facts": {
+        "Programmes": "12",
+        "Established": "2000",
+        "Rating": "4.2/5"
+      },
+      "checks": [
+        "seven ordered data-led universities in one row",
+        "authored ownership/modes/approvals/established/rating/programme count",
+        "deduplicated approvals and +N degrees",
+        "ambiguous degree links to university; unique offering exact link",
+        "square marks preferred over wordmarks",
+        "no campus photo markup or requests",
+        "44px controls below track without overlay",
+        "Next/Previous advance one card",
+        "Home/End/arrow keys",
+        "disabled ends",
+        "native touch swipe and inertia settling",
+        "missing metadata and logo initials",
+        "long names",
+        "nested link keyboard activation",
+        "order reset",
+        "filtered fit controls hidden",
+        "no page overflow"
+      ]
+    }
+  ],
+  "errors": [],
+  "campusRequests": []
+}

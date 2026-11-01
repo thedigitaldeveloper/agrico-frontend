@@ -1,0 +1,530 @@
+{
+  "id": 10,
+  "slug": "udai-pratap-college",
+  "name": "Udai Pratap College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "UP College",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "established": 1949,
+    "address": "Bhojubir Road, Narayanpur, Varanasi, Uttar Pradesh221003",
+    "parent_university": "Mahatma Gandhi Kashi Vidya Peeth Varanasi, Uttar Pradesh",
+    "website": "https://upcollege.ac.in/Home",
+    "admissions_url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+    "phone": "0542 4087329",
+    "email": "upc1949@gmail.com",
+    "source_ids": [
+      "r31_1",
+      "r31_2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Udai Pratap College",
+    "summary": "Udai Pratap College is an autonomous affiliated college in Varanasi with agriculture among its established academic areas. Its 2026–27 prospectus lists undergraduate agriculture and selected postgraduate agriculture subjects. The audited ICAR record used here specifically covers B.Sc. (Hons.) Agriculture.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture within an autonomous Varanasi college",
+    "paragraphs": [
+      "Udai Pratap College is an autonomous institution in Varanasi affiliated to Mahatma Gandhi Kashi Vidyapith. Its 2026–27 prospectus lists B.Sc. (Hons.) Agriculture alongside the wider college’s science, commerce and humanities courses. Agriculture is therefore part of a broader college academic setting.",
+      "The agriculture-farm section covers crop production and allied activities, including dairy, poultry, fishery and beekeeping. The prospectus also lists postgraduate subjects in agricultural economics, animal husbandry and dairy, soil science and horticulture. Applicants can compare the undergraduate practical experience and later subject options while checking the college’s entrance-examination conditions for their intended entry year."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Uttar Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-10-10"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years; semester system",
+      "mode": null,
+      "summary": "The 2026–27 prospectus identifies a four-year B.Sc. (Hons.) Agriculture taught through a semester system. Exact current subject combinations and selection conditions should be checked in a readable prospectus copy.",
+      "eligibility": "2026–27 official prospectus: candidates who passed or are appearing in Intermediate/10+2 or equivalent with Agriculture or Science subjects may take the entrance examination. It states no entrance age limit and a maximum 5% other-state admission allocation on merit.",
+      "admission_route": "College entrance examination and the applicable counselling procedure in the 2026–27 prospectus.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Udai Pratap College, Varanasi, U.P. for 2022-10-11 to 2027-10-10. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s6"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to UP College",
+    "intro": "UP College’s 2026–27 prospectus allows agriculture or science Intermediate candidates, including those appearing in the qualifying examination, to enter its agriculture entrance process. Other-state applicants should check the stated allocation and counselling rules.",
+    "eligibility_points": [
+      "Passed or appearing in Intermediate/10+2 or equivalent with Agriculture or Science subjects.",
+      "The 2026–27 prospectus states no age limit for the entrance examination and a maximum 5% other-state allocation on merit."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [
+      "Qualifying-examination academic certificates",
+      "Caste/community certificate where applicable",
+      "Income and domicile certificates where applicable",
+      "Aadhaar identification",
+      "Supporting documents for any claimed weightage",
+      "Originals of uploaded certificates at counselling",
+      "Character certificate, transfer certificate and anti-ragging affidavit for completing admission"
+    ],
+    "dates": [
+      {
+        "label": "Historical 2026–27 entrance application opening",
+        "date": "2026-06-16",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "label": "Historical 2026–27 entrance application/payment deadline in brochure; check later amendments",
+        "date": "2026-06-25",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s3",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Crop production and allied farm activities",
+    "intro": "The official Agriculture Farm page provides separate sections for dairy, poultry, fishery, beekeeping, practical crop production and allied activities. These establish the farm’s published teaching areas, without proving current livestock numbers or student access hours.",
+    "facilities": [
+      {
+        "name": "Agriculture farm",
+        "description": "The college publishes a dedicated farm section linked to practical crop production.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Allied activity sections",
+        "description": "Dairy, poultry, fishery and beekeeping are individually listed on the farm page.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The official farm structure includes Practical Crop Production and allied activity sections."
+    ],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for UP College was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The sources read did not provide a verified agriculture-specific placement-cell account or cohort outcome report for UP College. The presence of postgraduate courses and farm teaching should not be translated into an employment guarantee.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Udai Pratap College, Varanasi, U.P. and the programme labels below from 2022-10-11 through 2027-10-10. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Udai Pratap College, Varanasi, U.P.",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 160)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A17:G17"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official faculty-and-departments page names Prof.Raghwendra Pratap Singh as Agriculture Dean and identifies ten agricultural subject departments. It does not establish a full departmental teaching headcount.",
+    "people": [
+      {
+        "name": "Prof. Raghwendra Pratap Singh",
+        "role": "Dean, Faculty of Agriculture",
+        "qualification": null,
+        "source_ids": [
+          "r31_3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is UP College a university?",
+      "answer": "It identifies as an autonomous college affiliated to Mahatma Gandhi Kashi Vidyapith; this profile retains the college classification.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which agriculture degree is listed?",
+      "answer": "The official 2026–27 prospectus lists B.Sc. (Hons.) Agriculture and identifies it as a four-year semester-based programme.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What allied farm areas are published?",
+      "answer": "The college’s Agriculture Farm page lists dairy, poultry, fishery, beekeeping and practical crop production.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Does the ICAR row cover all postgraduate courses?",
+      "answer": "No. The audited row explicitly lists B.Sc. (Hons.) Agriculture. Postgraduate offerings in the prospectus are not automatically included in that accreditation statement.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Who may enter the agriculture entrance process?",
+      "answer": "The 2026–27 prospectus names passed or appearing Intermediate/equivalent candidates with Agriculture or Science subjects. Its other-state and counselling conditions also apply.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at UP College?",
+      "answer": "4 years; semester system. ",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for UP College?",
+      "answer": "The official faculty-and-departments page names Prof.Raghwendra Pratap Singh as Agriculture Dean and identifies ten agricultural subject departments. It does not establish a full departmental teaching headcount. Prof. Raghwendra Pratap Singh — Dean, Faculty of Agriculture.",
+      "source_ids": [
+        "r31_3"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for UP College?",
+      "answer": "Qualifying-examination academic certificates; Caste/community certificate where applicable; Income and domicile certificates where applicable; Aadhaar identification; Supporting documents for any claimed weightage; Originals of uploaded certificates at counselling; Character certificate, transfer certificate and anti-ragging affidavit for completing admission. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "question": "Which dated admission events are recorded for UP College?",
+      "answer": "Historical 2026–27 entrance application opening — 2026-06-16 — 2026–27; Historical 2026–27 entrance application/payment deadline in brochure; check later amendments — 2026-06-25 — 2026–27. These describe the cited events and do not establish a continuing application window.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for UP College?",
+      "answer": "Udai Pratap College is recorded as established in 1949.",
+      "source_ids": [
+        "r31_1",
+        "r31_2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Udai Pratap College | Agriculture Courses & Admissions",
+    "description": "Explore Udai Pratap College in Varanasi: agriculture degree study, autonomous college identity, farm activities, admission verification and ICAR scope.",
+    "keywords": [
+      "Udai Pratap College",
+      "UP College agriculture",
+      "Varanasi agriculture admission",
+      "B.Sc. (Hons.) Agriculture Udai Pratap College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://upcollege.ac.in/AppImage/page/college-gate.jpg",
+    "logo_url": "https://upcollege.ac.in/AppImage/page/logo-footer.png",
+    "campus_alt": "Udai Pratap College entrance gate in Varanasi",
+    "caption": "Udai Pratap College entrance gate in Varanasi",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/udai-pratap-college/logo.png",
+    "local_campus_image": "media/udai-pratap-college/campus-gate.jpg",
+    "local_gallery": [
+      "media/udai-pratap-college/campus-gate.jpg",
+      "media/udai-pratap-college/campus-office.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.3",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://upcollege.ac.in/Home",
+      "title": "Udai Pratap Autonomous College home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+      "title": "Prospectus 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "faqs.1",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Official 2026–27 prospectus; PDF text partly uses a legacy Hindi font. Only clearly readable course and duration facts adopted.",
+      "note": "Printed pages 5–7 contain application dates, entrance instructions, degree duration and uploaded-document requirements. Dates are historical and subject to later college amendments."
+    },
+    {
+      "id": "s4",
+      "url": "https://upcollege.ac.in/facility/agriculturefarm",
+      "title": "Agriculture farm",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s5",
+      "url": "https://collegedunia.com/college/5193-udai-pratap-college-varanasi/admission",
+      "title": "Udai Pratap College admission overview",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview"
+      ],
+      "notes": "Secondary discovery source for entrance route; exact dates and numerical rules not adopted without official confirmation."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=17042026",
+      "title": "UP College entrance eligibility 2026–27",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.4",
+        "programmes.0"
+      ],
+      "notes": "Readable indexed Hindi text used; direct PDF extraction remains legacy-font encoded."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://upcollege.ac.in/Home",
+      "title": "Udai Pratap College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/udai-pratap-college/logo.png. Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://upcollege.ac.in/about/history",
+      "title": "Udai Pratap College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/udai-pratap-college/campus-gate.jpg. Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://upcollege.ac.in/about/history",
+      "title": "Udai Pratap College — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/udai-pratap-college/campus-office.jpg. Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest."
+    },
+    {
+      "id": "r31_1",
+      "title": "Udai Pratap College official contact",
+      "url": "https://upcollege.ac.in/about/contact",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Current official contact page gives college address and office telephone."
+    },
+    {
+      "id": "r31_2",
+      "title": "Udai Pratap College institutional history",
+      "url": "https://www.upcollege.ac.in/about/history",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Separates 1909 school origin,1921 intermediate status and 1949 degree-college elevation."
+    },
+    {
+      "id": "r31_3",
+      "title": "Udai Pratap College faculties and departments",
+      "url": "https://upcollege.ac.in/about/faculty",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Names the Agriculture Dean and subject departments; no complete agriculture teacher roster or qualifications supplied."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://upcollege.ac.in/Home"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://upcollege.ac.in/Home"
+    },
+    {
+      "field": "programmes",
+      "reason": "Additional MSc agriculture/horticulture courses appear in the official prospectus, but their full current eligibility/duration information was not verified; no extra accredited scope is inferred.",
+      "next_source": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026"
+    },
+    {
+      "field": "identity.phone",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://upcollege.ac.in/Home"
+    },
+    {
+      "field": "identity.email",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://upcollege.ac.in/Home"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/10-udai-pratap-college.json",
+  "audit_name": "Udai Pratap College, Varanasi, U.P.",
+  "related": [
+    {
+      "id": 24,
+      "name": "Sanskriti University",
+      "slug": "sanskriti-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 45,
+      "name": "Integral University, Lucknow",
+      "slug": "integral-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 48,
+      "name": "GLA University",
+      "slug": "gla-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

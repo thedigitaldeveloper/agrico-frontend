@@ -1,0 +1,640 @@
+{
+  "id": 11,
+  "slug": "sbvr-agricultural-college",
+  "name": "SBVR Agricultural College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "SBVR",
+    "ownership": "Private college under Badvel & Sidhout Higher Education Committee",
+    "city": "Badvel",
+    "state": "Andhra Pradesh",
+    "established": 2016,
+    "address": "Badvel, YSR Kadapa District, Andhra Pradesh 516227",
+    "parent_university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "website": "https://www.sbvr.in/agriculturecollege/",
+    "admissions_url": "https://www.sbvr.in/agriculturecollege/academics/",
+    "phone": "+91 9182505395",
+    "email": "ad.sbvrag@sbvr.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "SBVR Agricultural College",
+    "summary": "SBVR Agricultural College is an ANGRAU-affiliated college at Badvel in Andhra Pradesh. Established for the 2016–17 period under Badvel & Sidhout Higher Education Committee, it combines agricultural classroom teaching with farm learning. The official academics page describes Intermediate and diploma entry routes.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture learning at Badvel",
+    "paragraphs": [
+      "SBVR Agricultural College is part of the institutions promoted by Badvel & Sidhout Higher Education Committee. Established for the 2016–17 period, it is located in Badvel, YSR Kadapa district, and affiliated to Acharya N. G. Ranga Agricultural University.",
+      "The college describes departmental laboratories and a separate agricultural farm, with practical work connecting scientific subjects to cultivation. Its material also identifies experiential learning and village-based RAWEP. These give applicants concrete areas to inspect: the crop assignments students undertake, how fieldwork is assessed, and the current training calendar. Admission enquiries should also confirm the applicable Intermediate or diploma route and the sanctioned entry-year seat allocation."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2028-07-12"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A four-year B.Sc. (Hons.) Agriculture. The official academics page describes science-based Intermediate entry through EAPCET and an ANGRAU agriculture-diploma route through AGRICET.",
+      "eligibility": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "admission_route": "2026 AP EAPCET rank and ANGRAU counselling for this BiPC route.",
+      "fees": {
+        "amount_inr": 85000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college.",
+        "note": "Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 1,70,000; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+        "quota": "convenor",
+        "management_maximum_inr": 170000,
+        "verification": "verified",
+        "source_ids": [
+          "angrau_2026",
+          "r31_1"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at SBVR Agricultural College, Badvel, A.P for 2023-07-13 to 2028-07-12. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "angrau_2026"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to SBVR",
+    "intro": "SBVR’s academic page explains two entry routes. Applicants should check the current ANGRAU/state notification for exact eligibility, diploma equivalence, seat categories and counselling dates rather than use the page’s undated seat headline. For SBVR Agricultural College, the applicable ANGRAU counselling route now has a revised 30 October 2026 notice: registered candidates follow the stated November rank/category session and check the university’s live seat position. Being called does not guarantee admission.",
+    "eligibility_points": [
+      "The Intermediate route lists Physical Sciences and Biological or Natural Sciences.",
+      "The diploma route specifically identifies a two-year Diploma in Agriculture from ANGRAU and AGRICET."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [
+      "All relevant original certificates required by the ANGRAU brochure",
+      "For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable"
+    ],
+    "dates": [
+      {
+        "label": "ANGRAU registered-candidate special-category/AGRICET manual counselling, as applicable",
+        "date": "2026-11-02",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU AP EAPCET rank-band manual-counselling sessions; exact individual slot in notice",
+        "date": "2026-11-03 to 2026-11-10 (excluding 2026-11-05 and 2026-11-08)",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU spot counselling for registered candidates, subject to seats and eligibility",
+        "date": "2026-11-11",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "angrau_2026",
+      "r31_1"
+    ]
+  },
+  "campus": {
+    "heading": "Laboratory learning and an agricultural farm",
+    "intro": "The college describes departmental laboratories, a library with digital resources and agricultural land for practical work. The homepage also mentions experiential units and RAWEP village placements; detailed current participation requirements should be requested from the college.",
+    "facilities": [
+      {
+        "name": "Departmental laboratories",
+        "description": "The campus and academic material describe laboratories serving agricultural disciplines.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Library",
+        "description": "The campus page describes library and digital learning resources.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Boys’ and girls’ hostels",
+        "description": "The campus page reports accommodation for 200 boys and 200 girls, with single, double, triple and six-occupant room options. It describes reading and television rooms, drinking-water purification, dining and laundry facilities. Published capacity is not a live vacancy count.",
+        "source_ids": [
+          "r2_campus"
+        ]
+      },
+      {
+        "name": "Campus health centre and banking",
+        "description": "SBVR describes a basic health centre and an arrangement with Sri Divya Hospital in Badvel for advanced emergencies. The page also identifies an on-campus Bank of Baroda banking/ATM facility.",
+        "source_ids": [
+          "r2_campus"
+        ]
+      },
+      {
+        "name": "SC/ST student support and anti-ragging",
+        "description": "The college describes an SC/ST Cell that discusses scholarship and hostel concerns, alongside an institutional anti-ragging committee. Scholarship assistance should be distinguished from an approved award or a published fee-reimbursement entitlement.",
+        "source_ids": [
+          "r2_studentlife"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Official material identifies Experiential Learning and RAWEP village placements.",
+      "The college describes crop plots and organic/natural-farming activity on its farm."
+    ],
+    "source_ids": [
+      "s4",
+      "s5",
+      "r2_campus",
+      "r2_studentlife"
+    ],
+    "student_services": [
+      {
+        "name": "Boys’ and girls’ hostels",
+        "description": "The campus page reports accommodation for 200 boys and 200 girls, with single, double, triple and six-occupant room options. It describes reading and television rooms, drinking-water purification, dining and laundry facilities. Published capacity is not a live vacancy count.",
+        "source_ids": [
+          "r2_campus"
+        ]
+      },
+      {
+        "name": "Campus health centre and banking",
+        "description": "SBVR describes a basic health centre and an arrangement with Sri Divya Hospital in Badvel for advanced emergencies. The page also identifies an on-campus Bank of Baroda banking/ATM facility.",
+        "source_ids": [
+          "r2_campus"
+        ]
+      },
+      {
+        "name": "SC/ST student support and anti-ragging",
+        "description": "The college describes an SC/ST Cell that discusses scholarship and hostel concerns, alongside an institutional anti-ragging committee. Scholarship assistance should be distinguished from an approved award or a published fee-reimbursement entitlement.",
+        "source_ids": [
+          "r2_studentlife"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for SBVR was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The published material establishes practical training rather than a verified recruitment outcome. A dated SBVR agriculture placement cohort report, salary definition and recruiter list were not verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records SBVR Agricultural College, Badvel, A.P and the programme labels below from 2023-07-13 through 2028-07-12. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "SBVR Agricultural College, Badvel, A.P",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2023-07-13",
+        "valid_until": "2028-07-12",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A19:G19"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "SBVR’s official staff directory identifies teaching heads across its agricultural departments. The selection below retains the published academic roles and qualifications; retired ANGRAU guest faculty are a separate category in the source.",
+    "people": [
+      {
+        "name": "D. Prasanna Kumar",
+        "role": "Assistant Professor and Head, Agronomy",
+        "qualification": "M.Sc. Agriculture",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. G. Vijaya Narasimha Reddy",
+        "role": "Assistant Professor and Head, Biochemistry and Biotechnology",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. K. Suneethamma",
+        "role": "Assistant Professor and Head, Entomology",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. Pandit Praveen Kumar",
+        "role": "Assistant Professor and Head, Genetics and Plant Breeding",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. V. Surendra",
+        "role": "Assistant Professor and Head, Plant Pathology; in-charge Associate Dean",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which university is SBVR affiliated to?",
+      "answer": "The audit and ANGRAU directory identify Acharya N. G. Ranga Agricultural University.",
+      "source_ids": [
+        "s1",
+        "s6"
+      ]
+    },
+    {
+      "question": "What entry examinations are described?",
+      "answer": "The college academic page describes EAPCET for Intermediate applicants and AGRICET for its specified diploma route.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What diploma does the college mention?",
+      "answer": "It refers specifically to the two-year Diploma in Agriculture from ANGRAU, together with SSC and AGRICET. Current equivalence should be checked with the university.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Why is no current intake stated here?",
+      "answer": "The college site, ANGRAU directory and ICAR audit show different figures. A current sanctioned seat matrix is required to resolve the difference.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    },
+    {
+      "question": "What are the audited accreditation dates?",
+      "answer": "The B.Sc. (Hons.) Agriculture row runs from 13 July 2023 to 12 July 2028.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for SBVR?",
+      "answer": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "angrau_2026"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at SBVR?",
+      "answer": "4 years. ",
+      "source_ids": [
+        "s1",
+        "s3",
+        "angrau_2026"
+      ]
+    },
+    {
+      "question": "What published fee period should I use when comparing SBVR?",
+      "answer": "₹85,000 / year · source session 2026-27. Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college. Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 1,70,000; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+      "source_ids": [
+        "angrau_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What residential or welfare facilities does SBVR describe?",
+      "answer": "The campus page reports accommodation for 200 boys and 200 girls, with single, double, triple and six-occupant room options. It describes reading and television rooms, drinking-water purification, dining and laundry facilities. Published capacity is not a live vacancy count. SBVR describes a basic health centre and an arrangement with Sri Divya Hospital in Badvel for advanced emergencies. The page also identifies an on-campus Bank of Baroda banking/ATM facility.",
+      "source_ids": [
+        "r2_campus"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for SBVR?",
+      "answer": "SBVR’s official staff directory identifies teaching heads across its agricultural departments. The selection below retains the published academic roles and qualifications; retired ANGRAU guest faculty are a separate category in the source. D. Prasanna Kumar — Assistant Professor and Head, Agronomy — M.Sc. Agriculture; Dr. G. Vijaya Narasimha Reddy — Assistant Professor and Head, Biochemistry and Biotechnology — Ph.D.; Dr. K. Suneethamma — Assistant Professor and Head, Entomology — Ph.D..",
+      "source_ids": [
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for SBVR?",
+      "answer": "All relevant original certificates required by the ANGRAU brochure; For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s3",
+        "angrau_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for SBVR?",
+      "answer": "SBVR Agricultural College is recorded as established in 2016.",
+      "source_ids": [
+        "angrau_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "SBVR Agricultural College | Agriculture Courses & Admissions",
+    "description": "Explore SBVR Agricultural College at Badvel: agriculture study, EAPCET and AGRICET route descriptions, practical-learning facilities and ICAR scope.",
+    "keywords": [
+      "SBVR Agricultural College",
+      "SBVR agriculture",
+      "Badvel agriculture admission",
+      "B.Sc. (Hons.) Agriculture SBVR Agricultural College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://sbvragcollege.in/admin/uploads/slides/2877CAMPUS%20ENTRANCE.jpg",
+    "logo_url": "https://sbvragcollege.in/images/logo.png",
+    "campus_alt": "SBVR Agricultural College entrance photograph within its official campus slide",
+    "caption": "SBVR Agricultural College entrance photograph within its official campus slide",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/sbvr-agricultural-college/logo.png",
+    "local_campus_image": "media/sbvr-agricultural-college/campus-01.jpg",
+    "local_gallery": [
+      "media/sbvr-agricultural-college/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.3",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sbvr.in/agriculturecollege/about/",
+      "title": "About SBVR",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "College page gives 2016–17 establishment; read as official indexed excerpt."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.sbvr.in/agriculturecollege/academics/",
+      "title": "Courses and admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.1",
+        "faqs.2",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.sbvr.in/agriculturecollege/campus/",
+      "title": "Campus and facilities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.sbvr.in/agriculturecollege/",
+      "title": "SBVR official home",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+      "title": "ANGRAU affiliated-college directory",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "Undated university list differs from college site in current leadership and intake; not used as a live seat matrix."
+    },
+    {
+      "id": "angrau_2026",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+      "title": "ANGRAU BiPC UG information brochure 2026–27 — affiliated-college fee table, page 7",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "admissions",
+        "programmes.eligibility",
+        "programmes.admission_route",
+        "identity.phone"
+      ],
+      "notes": "Public official PDF downloaded and read locally. Full page 7 rendered and visually inspected including table headers and footnotes. Constituent-college fee table on page 6 is not used for these private colleges. Management amount is a printed upper ceiling, not a promised charge. Cover and pages 2–3/8–9 also read for the BiPC channel, entry requirements and institutional contacts."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://sbvragcollege.in/",
+      "title": "SBVR Agricultural College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sbvr-agricultural-college/logo.png. Official alternate college site identifies SBVR Agricultural College, Badvel and supplies the college-branded header, campus entrance and building slideshow photographs."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://sbvragcollege.in/",
+      "title": "SBVR Agricultural College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sbvr-agricultural-college/campus-01.jpg. Official alternate college site identifies SBVR Agricultural College, Badvel and supplies the college-branded header, campus entrance and building slideshow photographs."
+    },
+    {
+      "id": "r31_1",
+      "title": "ANGRAU revised manual-counselling schedule and affiliated-college fees,30 October 2026",
+      "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+      "kind": "affiliating_university",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+    },
+    {
+      "id": "r31_2",
+      "title": "SBVR Agricultural College teaching-faculty directory",
+      "url": "https://www.sbvr.in/agriculturecollege/faculty/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Selected current website entries distinguish faculty heads from retired guest professors; no appointment-year or guaranteed supervision claim."
+    },
+    {
+      "id": "r2_campus",
+      "title": "SBVR — residential and student support facilities",
+      "url": "https://www.sbvr.in/agriculturecollege/campus/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities",
+        "campus.student_services"
+      ],
+      "note": "Official page checked 31 October 2026. The page is not a guarantee of current vacancy or intake-year pricing."
+    },
+    {
+      "id": "r2_studentlife",
+      "title": "SBVR — student life and support cells",
+      "url": "https://www.sbvr.in/agriculturecollege/student-life/",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services",
+        "scholarships.text"
+      ],
+      "note": "Official student-life description; assistance activity is not an award schedule or entitlement."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://www.sbvr.in/agriculturecollege/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://www.sbvr.in/agriculturecollege/"
+    },
+    {
+      "field": "admissions",
+      "reason": "College pages show an intake of 150, ANGRAU directory 120 and ICAR audited row 72. These refer to different records and are not resolved as current seats.",
+      "next_source": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx"
+    },
+    {
+      "field": "programmes.fees.actual_management_and_living_costs",
+      "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+      "next_source": "https://www.sbvr.in/agriculturecollege/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/11-sbvr-agricultural-college.json",
+  "audit_name": "SBVR Agricultural College, Badvel, A.P",
+  "related": [
+    {
+      "id": 12,
+      "name": "N.S. Agricultural College",
+      "slug": "n-s-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 13,
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "slug": "sri-krishnadevaraya-college-of-agricultural-sciences",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 46,
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

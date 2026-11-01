@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-11T19:52:05.108Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "sourceHashes": {
+    "src/components/university/university-detail-view.tsx": "298db412a127d7784b2339cfa052e621e292e49e11aaa96e8a89dd2613c99f12",
+    "src/components/university/university-detail.css": "611598308f2a88f8701a44a7f1164ba6df96a03f06fb0041677a829b8b2b0504",
+    "src/components/university/university-hero.tsx": "d227caa6542226cdd2c51d2b1a61fad871f6daa55bb54c54537e3b0ef96781a1",
+    "src/components/university/university-spec-band.tsx": "e2d91de24465b483a29c19f278f48c4fbe82765e7b084542f0eeb6c69db2d1ce",
+    "src/components/university/university-fee-table.tsx": "ea28426cbcef97d94927853215c965cc77c13312e50626d96d766d13686e5958",
+    "src/components/university/university-admission-sidebar.tsx": "23e72875f027904065f9f991d36a9dbfadeaf69cf535e22ca2b8ffc57aa4b451",
+    "src/components/university/admission-panel.tsx": "490fec602df7f2e1e4dac076d21f3b3ac892b3dfaac3018a765ea1b7d970aad0",
+    "src/components/university/section-nav.tsx": "d2073dff663df198a9747bbeb451ee44bb245fa5770f79b32d3c81a0de44e5e6",
+    "src/components/university/university-enquiry-modal.tsx": "51255ea8e5638e2a504ea71562681598acb4fe48542ef08c5f40b0a41db5e379",
+    "src/components/forms/enquiry-form.tsx": "c22a6482dd2e1f3a8af78d9c718cfbc0420aea8369cbceda7d2227bcf87e216c",
+    "src/components/program/program-detail-view.tsx": "aa5a49ea15e36c7a78552a4ee2c01469fad3509d77b6d0a2f78f930b6ca1fdf8",
+    "src/components/program/programme-detail.css": "47aabc07e571db8e50f5d6755a0452f1a41e9a2ed0f75be0698774733a43a9f3",
+    "src/components/program/program-hero.tsx": "7617783448d2d25cc599439af9bfad917689c1a875a253ea801ebd41cc2b3b1c",
+    "src/components/program/program-admission-sidebar.tsx": "6eb660db4ff6083072b8579462c24a609d660e0e9a6de11ec59412a3dda4f008",
+    "src/components/program/university-explorer.tsx": "70cea111bb34d04a675b1ce6796d468a0f521bcc315d29e39d2c44dab19d02a1",
+    "src/components/program/offering-detail-view.tsx": "eb428d2752610c8992202051ef52b400cc2c70c262c8e2e545a208fe07344ad5",
+    "src/lib/cms/repositories/university.ts": "3bb303ec7b86e155e40ec59539eb9c86cb05028c9f6aa00e4383f801c4f65aaf",
+    "src/lib/cms/repositories/program.ts": "48ecc2ceed419408300bd5c4e15e9f54a90f03a06bbd02ee46c86be8a5fd3589",
+    "src/lib/cms/repositories/content.ts": "10b55a63a1ddc39e410853f551c739a7a544a3dbd42832f0313436bfe03c6058",
+    "src/app/university/[slug]/page.tsx": "fe59620e48070bc512b3e64da0f626eedbe1e9db6c4264de424deadc493ff0d0",
+    "src/app/university/[slug]/[section]/page.tsx": "a72135bb1825a91a4e7f92916bd6c67e28c2354dbcf727558d30f1e5db2a1abb",
+    "src/app/[slug]/page.tsx": "100973f1b5d603a5b32139fb6effd230b685f14c35b5e5d3122948a0d1fbcd61",
+    "src/app/[slug]/[section]/page.tsx": "f69073a47d52d3a1a58897677ab40079d82b21c6e1a0a80715e5e84f3f8b3a9f",
+    "src/app/offering/[university]/[program]/page.tsx": "1e4df66d64aa3cb0c1bc49c9ccac20d663233526c6bd9ebed52a627d81f6306c",
+    "src/components/cms/section-body.tsx": "34f0e11586a020367c8025a40175704c07fa9563c45cb9e11a0ab1ffef94ad97",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab",
+    "scripts/verify-rs-detail-ui.cjs": "73432e88376f854a5009aa32489cd6927367b39dcf8d4df18ae7022e689e339e"
+  },
+  "buildId": "eooSAC2Z1rt2hFsp5HD5X",
+  "checks": [
+    "Representative university, programme, content sections and exact pair resolved from the published CMS"
+  ],
+  "routes": [],
+  "layouts": [],
+  "browserErrors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "blockedMutations": [],
+  "limitations": [],
+  "selection": {
+    "university": {
+      "slug": "chandigarh-university",
+      "name": "Chandigarh University Online (CU Online)",
+      "documentId": "fsxgzlniewe7gye2univyc25",
+      "logo": "/uploads/rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png",
+      "image": "/uploads/chandigarh-university-online_campus_photo.jpg"
+    },
+    "program": {
+      "slug": "online-mba-finance-management",
+      "name": "Online MBA in Finance Management",
+      "documentId": "d4a28468b6936b007dc9c317"
+    },
+    "universitySections": [
+      {
+        "slug": "overview",
+        "name": "Overview"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Courses & Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Placements"
+      },
+      {
+        "slug": "student-support",
+        "name": "Student Support"
+      },
+      {
+        "slug": "faqs",
+        "name": "FAQs"
+      }
+    ],
+    "programmeSections": [
+      {
+        "slug": "overview",
+        "name": "Finance Management Overview"
+      },
+      {
+        "slug": "curriculum",
+        "name": "Finance Management Curriculum"
+      },
+      {
+        "slug": "careers-and-scope",
+        "name": "Finance Management Careers"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Finance Management Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Finance Management Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Finance Management Placements"
+      },
+      {
+        "slug": "faqs",
+        "name": "Finance Management FAQs"
+      }
+    ],
+    "universityProgrammeCount": 135,
+    "exactOffering": "/offering/chandigarh-university/online-mba-finance-management"
+  },
+  "lastMobileClearance": {
+    "width": 360,
+    "path": "/university/chandigarh-university",
+    "bar": {
+      "x": 0,
+      "y": 823,
+      "width": 360,
+      "height": 77
+    },
+    "spacer": {
+      "x": 0,
+      "y": 997.734375,
+      "width": 360,
+      "height": 70
+    }
+  },
+  "status": "failed",
+  "failure": {
+    "message": "Mobile page reserves space for fixed admissions actions: bar=77px, spacer=70px",
+    "stack": "AssertionError [ERR_ASSERTION]: Mobile page reserves space for fixed admissions actions: bar=77px, spacer=70px\n    at mobileClearance (D:\\rs-education-frontend\\scripts\\verify-rs-detail-ui.cjs:264:3)\n    at async D:\\rs-education-frontend\\scripts\\verify-rs-detail-ui.cjs:317:27"
+  },
+  "failedUrl": "http://localhost:3001/university/chandigarh-university"
+}

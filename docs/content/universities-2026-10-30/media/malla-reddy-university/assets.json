@@ -1,0 +1,50 @@
+{
+  "id": 54,
+  "slug": "malla-reddy-university",
+  "name": "Malla Reddy University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/malla-reddy-university/logo-colour.png",
+      "source_page": "https://www.mallareddyuniversity.ac.in/",
+      "download_url": "https://static.wixstatic.com/media/4526cf_695fcce7fa68430f875150ef0060ff7b~mv2.png",
+      "source_kind": "official",
+      "description": "Malla Reddy University official colour emblem",
+      "alt": "Malla Reddy University official colour emblem",
+      "campus": "Hyderabad, Telangana",
+      "agriculture_specific": false,
+      "identity_evidence": "Official university homepage deploys this distinct coloured emblem with source alt Copy of MRU-Logo2_edited.png. Visually confirmed orange mortarboard and blue crest.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Malla Reddy University",
+      "review_status": "verified_source",
+      "notes": "Compact official emblem selected because its original colours remain visible on white. Native 226 by 174 image preserved without cropping or recolouring.",
+      "width": 226,
+      "height": 174,
+      "sha256": "a151af36dfcedbbd19b1d94da51aebcb5459475c0c9192f8db1778135918217b",
+      "display_background": "light"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/malla-reddy-university/campus_primary-verified.jpg",
+      "source_page": "https://www.mallareddyuniversity.ac.in/",
+      "download_url": "https://static.wixstatic.com/media/6685d7_6e0152e43a644a81983bf25b49d26ea6~mv2.jpg",
+      "source_kind": "official",
+      "description": "Malla Reddy University academic building, Hyderabad",
+      "alt": "Malla Reddy University academic building, Hyderabad",
+      "campus": "Hyderabad, Telangana",
+      "agriculture_specific": false,
+      "identity_evidence": "Official university website serves this original Wix media asset with alt MRU_BuildingPhotoBest.jpg.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Malla Reddy University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 2500,
+      "height": 1406,
+      "sha256": "35f26c1a9d881249cc94ad1174ea15cc83b7350190f233554d33556873a4e279"
+    }
+  ],
+  "gaps": []
+}

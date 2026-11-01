@@ -1,0 +1,148 @@
+{
+  "status": "Rejected by the user; superseded by the section-by-section agriculture education studies. Do not use these earlier generic homepage concepts as an approved reference.",
+  "project": "Agrico agriculture education platform",
+  "date": "2026-10-30",
+  "deliverable": "Two education-platform homepage UI concept images",
+  "scope": "Visual planning only; preserve the existing course, university, comparison and counselling platform. No frontend route or backend changes.",
+  "accepted_direction": "Retain the existing section-based education homepage and its programme/university/comparison/counselling journey. Upgrade section styling with green colours and agriculture degree content. Primary imagery must be students, campus and university learning. Avoid produce/seedling/field catalogue imagery and do not replace the homepage with a dashboard or filter-heavy app shell.",
+  "key_interpretation": "Agriculture is the subject of study and the brand palette. The platform is for students choosing degrees and universities.",
+  "preserve_sections": [
+    "Navigation",
+    "Student/campus hero with programme search",
+    "Programme discovery",
+    "University discovery",
+    "Programme spotlight",
+    "Comparison",
+    "Admission journey",
+    "Student guides",
+    "FAQs",
+    "Counselling callback",
+    "Footer"
+  ],
+  "visual_rules": [
+    "Students, books, academic buildings and laboratory learning as primary imagery",
+    "Agriculture degree titles and green/sage/ivory surfaces",
+    "Upgrade section composition, card styling, spacing and typography",
+    "Preserve familiar education-platform navigation and behaviour",
+    "Avoid farming-produce imagery, marketplace listings and a replacement dashboard architecture"
+  ],
+  "reference_review": "Agrico's existing source homepage and DRCC's selected homepage reference reviewed read-only. Preserve the education journey while choosing a distinct green identity.",
+  "research": [
+    {
+      "name": "ICAR",
+      "url": "https://icar.gov.in/en",
+      "lesson": "Separate agriculture disciplines, education, research, knowledge and practical outcomes."
+    },
+    {
+      "name": "TNAU undergraduate programmes",
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "lesson": "Agriculture, horticulture, forestry, agricultural engineering, food technology and agribusiness as distinct discovery paths."
+    },
+    {
+      "name": "TNAU postgraduate programmes",
+      "url": "https://tnau.ac.in/masters/",
+      "lesson": "Give undergraduate, postgraduate and diploma discovery separate entry points; examples include agronomy and agribusiness."
+    },
+    {
+      "name": "ICAR-IARI",
+      "url": "https://www.iari.res.in/en/index.php",
+      "lesson": "Use field learning, laboratories, research and campus opportunities to explain agricultural education."
+    },
+    {
+      "name": "Punjab Agricultural University undergraduate programmes",
+      "url": "https://newmodel.pau.edu/undergraduate-program/",
+      "lesson": "Keep degree, college, facilities and practical education navigation clear."
+    },
+    {
+      "name": "Wageningen University & Research",
+      "url": "https://www.wur.nl/en",
+      "lesson": "Connect study pathways to food, climate, biodiversity and living-environment themes."
+    },
+    {
+      "name": "UC Davis CAES",
+      "url": "https://caes.ucdavis.edu/",
+      "lesson": "Make majors, advising and career discovery visible."
+    },
+    {
+      "name": "ICAR CUET undergraduate bulletin",
+      "url": "https://www.icar.gov.in/en/public-notice-and-information-bulletin-cuet-icar-ug-2026",
+      "lesson": "Keep official admission resources distinct from platform guidance."
+    },
+    {
+      "name": "ICAR postgraduate entrance reforms",
+      "url": "https://icar.org.in/en/icar-committee-endorses-regrouping-and-rationalisation-pg-and-phd-entrance-examinations",
+      "lesson": "Keep examination names, eligibility and dates editable and linked to official notices; do not infer future rules."
+    },
+    {
+      "name": "WUR programme finder",
+      "url": "https://www.wur.nl/en/education/bachelor/programmes",
+      "lesson": "A functional programme finder exposes interest filters, degree navigation and an explicit results area."
+    }
+  ],
+  "content_plan": {
+    "degrees": [
+      "B.Sc. (Hons.) Agriculture",
+      "B.Sc. (Hons.) Horticulture",
+      "B.Tech. Agricultural Engineering",
+      "MBA Agribusiness"
+    ],
+    "future_subjects": [
+      "Forestry",
+      "Food Technology",
+      "Agronomy and other verified postgraduate specialisations"
+    ],
+    "institution_examples": [
+      "Punjab Agricultural University",
+      "Tamil Nadu Agricultural University",
+      "ICAR-IARI"
+    ],
+    "data": "Use existing programme, institution and course-offering relationships and real verified CMS data during implementation.",
+    "admissions": "Keep UG, PG and university admission resources distinct and editable. Link to official sources for current rules.",
+    "imagery": "Mockup photography is generated illustrative student/campus/lab imagery, not photographs of a named institution.",
+    "mobile": "Retain normal responsive education-homepage behaviour: simple menu, stacked cards, concise search and accessible compare/counselling actions.",
+    "claims": "Mockup names illustrate directory content. Do not infer partnerships or approval, or invent fees, rankings, testimonials, intake totals or deadlines."
+  },
+  "concepts": [
+    {
+      "id": "01",
+      "name": "Academic Green",
+      "palette": [
+        "#15533E",
+        "#FCFDF9",
+        "#EEF6EF",
+        "#DCE8DA"
+      ],
+      "layout": "Pale-mint student hero; programme card grid; university cards; dark-green programme spotlight; clean comparison table; counselling and FAQs.",
+      "image": "concept-01-academic-green.png",
+      "prompt": "Use case: ui-mockup.\nCreate ONE polished full-page DESKTOP EDUCATION PLATFORM HOMEPAGE UI for AGRICO, an Indian higher-education course discovery, university comparison and admission-counselling platform specialising in AGRICULTURE DEGREES. This is an education platform with normal homepage sections. Preserve that familiar education-platform structure. The user has explicitly REJECTED both a decorative botanical brochure and a three-column crop catalogue / search-results dashboard. They said it looked like selling vegetables. Correct the subject and balance.\n\nNON-NEGOTIABLE: This must instantly read as COLLEGE EDUCATION: adult university students with books and backpacks, degree programme names, university identities, admission guidance, programme comparison, counsellor contact. The agriculture theme is primarily an elegant GREEN BRAND PALETTE and agriculture DEGREE CONTENT. Do not use fields of vegetables, crop thumbnails, seedlings in hands, nursery-product cards, market categories, tractors, commodity prices, decorative giant leaves or botanical posters. Do not turn the homepage into a new app shell, dashboard, sidebar filter screen or shopping marketplace. No left navigation rail, no filters sidebar. Upgrade the individual education sections, not the entire product model.\n\nCONCEPT 1: ACADEMIC GREEN.\nSingle flat front-on full-page desktop homepage screenshot, around 1536 x 2304 portrait canvas, wide desktop proportions. All section headings and main labels must be sharply legible. No browser chrome, laptop, phone, presentation labels or extra frames.\nPalette: rich academic forest #15533E primary, clean warm white #FCFDF9, subtle mint #EEF6EF, sage #DCE8DA and charcoal #203B30. White and pale mint dominate, green is the brand and emphasis. Refined modern sans-serif typography, purposeful real educational UI, moderate 6-10px corner radii, crisp dividers, restrained shadows. No red, blue/yellow civic styling or purple. No giant serif marketing headlines.\n\nPAGE SEQUENCE — KEEP ALL THESE EDUCATION SECTIONS:\n1. Familiar compact white education header: a small ORIGINAL open-book-and-leaf mark, wordmark \"agrico\", small descriptor \"AGRICULTURE EDUCATION\". Navigation \"Programmes\", \"Universities\", \"Compare\", \"Admissions\", \"Guides\"; right search icon, \"Sign in\" and green \"Talk to a counsellor\".\n2. A normal proportioned pale-mint EDUCATION HERO, not huge, about one fifth of page height. Left: small label \"AGRICULTURE DEGREES & ADMISSION GUIDANCE\", clear medium-large bold headline \"Build your future in agriculture.\" Supporting sentence \"Explore programmes, compare universities and get support with your admission.\" Primary button \"Explore programmes\", secondary text link \"Get guidance\". Beneath copy a modest search field \"Search programmes or universities\" and a small search button. Right: one beautiful clean rectangular photograph of THREE adult Indian university students aged around 21-24, two women and one man, carrying textbooks, notebooks and backpacks, talking on a modern university campus with academic buildings and subtle leafy landscaping. They are clearly UNIVERSITY STUDENTS, not farmers, sellers or produce shoppers. No fieldwork, crops, vegetables or giant greenery here. No arch-shaped portrait or graduation-cap clip art.\n3. A thin useful quick-access ribbon, not three giant benefit cards: \"Explore programmes →\", \"Compare universities →\", \"Admission guidance →\", separated by thin vertical rules.\n4. Heading \"Find your agriculture programme\". A clear study-level tab strip \"All programmes | Undergraduate | Postgraduate | Diploma\" and a compact location dropdown. FOUR education COURSE CARDS arranged in a sophisticated 2 x 2 grid. Each white card has a narrow green side accent, a small understated book/lab/engineering line icon, full degree title, brief useful subject descriptor, and real UI actions. Titles:\n\"B.Sc. (Hons.) Agriculture\" — label \"Undergraduate\", descriptor \"Plant, soil and agricultural sciences\".\n\"B.Sc. (Hons.) Horticulture\" — label \"Undergraduate\", descriptor \"Horticultural science and management\".\n\"B.Tech. Agricultural Engineering\" — label \"Undergraduate\", descriptor \"Engineering for agricultural systems\".\n\"MBA Agribusiness\" — label \"Postgraduate\", descriptor \"Business and management in agriculture\".\nEach card includes a small \"Compare\" checkbox and \"View programme →\" button. Use NO crop or produce thumbnails on degree cards. No fake fees, rankings, admissions-open dates or statistics.\n5. Heading \"Explore agriculture universities\". THREE polished university cards across, a clear fresh section styling: simple text identity marks, university name, location, short degree-area labels and \"View university →\". Use names \"Punjab Agricultural University\" (Punjab), \"Tamil Nadu Agricultural University\" (Tamil Nadu), \"ICAR-IARI\" (Delhi). Do NOT invent official seals, approvals, star ratings or partnership claims. No vegetable imagery.\n6. A distinctive compact PROGRAMME SPOTLIGHT section in deep forest with white text: eyebrow \"PROGRAMME SPOTLIGHT\", heading \"B.Sc. Agriculture, in focus.\" Three useful small linked items \"Course structure\", \"Eligibility\", \"College options\". On the right a small authentic education photo of an adult Indian college student and lecturer working in a university science laboratory with microscopes and notebooks; no visible produce for sale. One quiet \"Explore programme →\" button.\n7. Heading \"Compare your programme options\". A clean real comparison TABLE on white with a subtle mint header and fine dividers, not folder tabs or huge cards. Columns \"Programme\", \"Study level\", \"Focus area\", \"Explore\". Rows Agriculture / Undergraduate / Agricultural sciences; Horticulture / Undergraduate / Horticultural sciences; Agricultural Engineering / Undergraduate / Engineering; Agribusiness / Postgraduate / Management. A visible \"Choose programmes to compare\" action.\n8. A small calm \"Admission guidance, step by step\" strip: \"01 Choose a programme\", \"02 Compare universities\", \"03 Speak to a counsellor\". Practical thin-line step design, not campaign illustration.\n9. A compact \"Guides for your next step\" section with TWO text-led EDUCATION guide tiles: \"Understanding agriculture admissions\" and \"Choosing the right university\", small book/document icons, \"Read guide →\". No giant farm photos or editorial storytelling blocks.\n10. Bottom split section: left a short \"Questions about your next step?\" FAQ accordion with two or three rows, right a concise \"Request a callback\" form with fields \"Your name\", \"Mobile number\", \"Programme interest\", green submit button. This should resemble a normal education counselling platform.\n11. Clean compact deep-green education footer: agrico, Programmes, Universities, Compare, Admissions, Contact.\n\nThis is a coherent familiar EDUCATION homepage with upgraded section layouts and green agriculture-specific branding, NOT a totally different product. Visual imagery must be predominantly STUDENTS, CAMPUS and LEARNING. The degree content makes it agriculture-specific. Keep the page balanced, useful, credible and refined. Use concise correctly spelled English, no excessive whitespace, no decorative giant slogans. Deliver exactly one complete UI image."
+    },
+    {
+      "id": "02",
+      "name": "Campus Sage",
+      "palette": [
+        "#2C513B",
+        "#FAF8F1",
+        "#E6ECDD",
+        "#253A2D"
+      ],
+      "layout": "Compact campus-student hero; degree directory rows; sage university cards; white academic spotlight; two-column programme comparison; FAQs and admission counselling.",
+      "image": "concept-02-campus-sage.png",
+      "prompt": "Use case: ui-mockup.\nProduce ONE professional, attractive full-page DESKTOP UI SAMPLE for \"agrico\", an INDIAN EDUCATION PLATFORM specialising in agriculture DEGREE PROGRAMMES, UNIVERSITY DISCOVERY, COMPARISON and ADMISSION COUNSELLING.\n\nThis is concept 2, \"CAMPUS SAGE\". It must preserve the familiar education homepage section sequence: header, STUDENT hero and programme search, programmes, universities, programme spotlight, comparison, admission steps, guides, FAQ/callback, footer. The client wants the individual sections styled a little differently and the palette made agriculture-green. They do NOT want the whole platform turned into a new product, a filtered marketplace, an admin dashboard, or a brochure for farming produce.\n\nCRITICAL VISUAL RULES:\nMake this unmistakably about UNIVERSITY EDUCATION. Hero imagery: adult Indian students with textbooks and backpacks on a real-looking college campus. Secondary image: college students learning in a science laboratory. Agriculture is communicated by green colours and course content. NO vegetables, seedling-in-hands photography, crop or nursery product cards, tractors, large farm-field photos, produce icons, decorative giant leaves or market categories. No sidebar navigation rail or left filter panel. No analytics/dashboard motifs. No government approvals or fabricated rankings, testimonials, prices, statistics or deadlines.\n\nSingle flat front-facing full-page desktop website screenshot on a portrait canvas around 1536 x 2304; wide desktop multi-column sections; no browser chrome, device frame, mobile inset or presentation board. Crisp legible English labels, careful alignment and proportion. Contemporary academic sans-serif typography. More warm sage and ivory than concept 1: main deep olive-green #2C513B, warm ivory #FAF8F1, soft sage #E6ECDD, white cards, dark charcoal #253A2D. Restrained muted brass #B8A574 only as a tiny secondary accent, never bright yellow. Moderate 8px corners, fine borders, no dramatic shadows or blobs.\n\nPAGE LAYOUT:\n1. Compact white header with an ORIGINAL small open-book-and-leaf mark and \"agrico\" wordmark, small subtitle \"Agriculture Education & Admissions\". Familiar navigation \"Programmes\", \"Universities\", \"Compare\", \"Admissions\", \"Guides\". Right search icon, \"Sign in\", dark-green \"Talk to a counsellor\" button.\n2. A normal compact education hero, about 330px high in the implied desktop design. A broad landscape UNIVERSITY-CAMPUS photograph showing three Indian students around 21-24, with notebooks and backpacks, outside a beautiful contemporary academic building with some background trees. Human students and campus architecture dominate, not foliage. Place a neatly integrated flat dark-olive text panel on the left 45% with white headline \"Choose the right degree.\" / \"Plan your next step.\" Small eyebrow \"YOUR FUTURE IN AGRICULTURE EDUCATION\". Subline \"Discover agriculture programmes and universities with clear admission guidance.\" One pale-ivory \"Explore programmes →\" action. Right 55% of the hero is the bright college-student photograph. Do not use an arched student cutout, a floating offer card or an oversized slogan.\n3. Immediately below, a clear cream programme-finder strip with three compact dropdowns labelled \"Programme\", \"Preferred location\", \"Study level\" and a green \"Find programmes\" button. A small row beneath provides \"Explore programmes\", \"Compare options\", \"Admission guidance\" as ordinary useful links, not huge benefit icons.\n4. Main section \"Find your agriculture programme\". A subtle study-level tab row \"All programmes\", \"Undergraduate\", \"Postgraduate\", \"Diploma\". Use a distinctive attractive FULL-WIDTH COURSE DIRECTORY SECTION, not a dashboard: four white horizontal programme rows inside one beautifully spaced panel, separated by fine lines. Each row has a tiny academic icon, large degree title, small level chip, a concise subject focus, a Compare checkbox and a right \"View programme →\" action.\nRows:\n\"B.Sc. (Hons.) Agriculture\" | \"Undergraduate\" | \"Plant, soil and agricultural sciences\".\n\"B.Sc. (Hons.) Horticulture\" | \"Undergraduate\" | \"Horticultural science\".\n\"B.Tech. Agricultural Engineering\" | \"Undergraduate\" | \"Engineering for agricultural systems\".\n\"MBA Agribusiness\" | \"Postgraduate\" | \"Business and management\".\nNO programme-row photographs of plants or produce. Keep this an unmistakable academic course explorer.\n5. \"Explore agriculture universities\" section on pale sage. Three elegant distinct university cards arranged horizontally, with simple text/academic identity marks and ample room for university names. \"Punjab Agricultural University\" with \"Punjab\"; \"Tamil Nadu Agricultural University\" with \"Tamil Nadu\"; \"ICAR-IARI\" with \"Delhi\". Include small labels \"Programmes\" and \"Admission information\", then \"View university →\". Do not invent seals, approvals, affiliations, prices or student totals. These are sample directory entries.\n6. A compact WHITE PROGRAMME SPOTLIGHT bordered by sage: small photo on left of an adult Indian student and professor learning in a university laboratory with a microscope, notebook and glassware, clearly academic. Right eyebrow \"PROGRAMME SPOTLIGHT\", heading \"Discover B.Sc. Agriculture\", short descriptive line \"Understand the curriculum, eligibility and university options.\" Three practical mini links \"Curriculum\", \"Eligibility\", \"Universities\", and one dark-green \"View programme\" button. Not a farming campaign banner.\n7. \"Compare before you decide.\" Use a concise two-column EDUCATION COMPARISON SECTION on pale sage with two selected programme panels: \"B.Sc. Agriculture\" and \"Agricultural Engineering\". Show a few aligned labelled facts \"Study level: Undergraduate\", \"Focus area: Agricultural sciences\" versus \"Focus area: Engineering\", and \"Eligibility: View details\". One clear centered action \"Open comparison →\". No folder-shaped tabs, charts, global filter sidebars or marketplace selection tray.\n8. \"Your admission journey\" is a small neat horizontal three-step numbered timeline: \"Choose your programme\", \"Compare universities\", \"Get counselling\". Nearby simple \"Admissions & guides\" links \"CUET (UG)\", \"ICAR (PG)\", \"University admissions\", each clearly a guide link, no unverified current admissions claims.\n9. An education-specific \"Student guides\" section as two compact horizontal articles: \"How to choose your agriculture degree\" and \"What to check before choosing a university\". Small document/book icons, useful short copy, \"Read guide →\". No lifestyle-magazine farm imagery.\n10. A balanced compact bottom section: left FAQ accordion titled \"A little more clarity.\" with three sensible education questions; right \"Request admission guidance\" callback form with fields \"Your name\", \"Mobile number\", \"Programme interest\" and green \"Request a callback\" button.\n11. A modest forest-green footer with the agrico education identity and Programmes / Universities / Compare / Admissions / Contact links.\n\nUse beautiful green and sage background sections, genuine university-student imagery and improved academic card/table styling. It should clearly be a normal familiar EDUCATION PLATFORM homepage whose sections have been thoughtfully redesigned, with the existing user journey preserved. Keep imagery mostly students/campus/laboratory, and keep all course titles, university names, comparison and counselling actions visible. Deliver exactly one clean, credible finished homepage UI image."
+    }
+  ],
+  "generation": {
+    "mode": "Built-in image_gen imagegen",
+    "kind": "High-fidelity UI concept mockups, not functional application screenshots",
+    "transparency": false
+  },
+  "assets": [
+    {
+      "file": "concept-01-academic-green.png",
+      "role": "First corrected education-homepage concept"
+    },
+    {
+      "file": "concept-02-campus-sage.png",
+      "role": "Second corrected education-homepage concept"
+    }
+  ]
+}

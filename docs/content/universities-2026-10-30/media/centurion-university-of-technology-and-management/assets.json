@@ -1,0 +1,58 @@
+{
+  "id": 42,
+  "slug": "centurion-university-of-technology-and-management",
+  "name": "Centurion University of Technology and Management, Odisha",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/centurion-university-of-technology-and-management/logo-verified.png",
+      "source_page": "https://scopes.cutm.ac.in/",
+      "download_url": "https://scopes.cutm.ac.in/assets/cutm_logo.png",
+      "source_kind": "official",
+      "description": "Centurion University official emblem and wordmark",
+      "alt": "Centurion University official emblem and wordmark",
+      "campus": "Paralakhemundi, Odisha",
+      "agriculture_specific": false,
+      "identity_evidence": "Logo deployed by the SCOPES conference on the university's cutm.ac.in domain.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Centurion University of Technology and Management, Odisha",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 634,
+      "height": 1000,
+      "sha256": "ed82abb1e1b8135905bff76a7a3971090e3172e0f8da708789651e29f600853e"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/centurion-university-of-technology-and-management/campus_primary-verified.jpg",
+      "source_page": "https://www.kollegeapply.com/college/centurion-university-of-technology-and-management-paralakhemundi-bhubaneswar-gallery",
+      "download_url": "https://assets.kollegeapply.com/images/1751561909957-1731922041phpAAhUFA.jpeg",
+      "source_kind": "secondary",
+      "description": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+      "alt": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+      "campus": "Paralakhemundi, Odisha",
+      "agriculture_specific": false,
+      "identity_evidence": "Identified Paralakhemundi college gallery; building signage identifies Centurion University, and hills and facade match the Odisha campus. Not the Andhra Pradesh campus.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "KollegeApply / institution",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 2223,
+      "height": 673,
+      "sha256": "a541a435904d6e37f750ebd4203193d2ba869a5ec8c3e68282f48e271b1b2275"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "HTTP Error 403: Forbidden",
+      "attempted_sources": [
+        "https://www.shiksha.com/university/centurion-university-of-technology-and-management-paralakhemundi-orissa-other-53023/courses/beauty-and-fitness-s",
+        "https://images.shiksha.com/mediadata/images/1753415987php48JNBI.jpeg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-11T16:17:17.062Z",
+  "checks": [
+    "CMS-backed hero, 3 featured programmes, 4 universities, 3 news and 3 blogs",
+    "Homepage no horizontal overflow at five widths",
+    "Compact comparison expands on request",
+    "Phone-first callback validation preserves inputs",
+    "22 listing, account and homepage detail links return 200 with no mobile/desktop overflow",
+    "Existing login layout preserved at three widths",
+    "No browser runtime errors or broken homepage images"
+  ],
+  "report": {
+    "height": 9395,
+    "headings": [
+      "Online MBA",
+      "Find the programme that fits you.",
+      "Get to know your next university.",
+      "Online MBA",
+      "Two good options. One clearer decision.",
+      "From shortlist to your next step.",
+      "News & updates.",
+      "From the RS blog.",
+      "A little more clarity.",
+      "Let’s find your next step."
+    ],
+    "brokenImages": []
+  }
+}

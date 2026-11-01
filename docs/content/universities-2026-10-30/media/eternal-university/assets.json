@@ -1,0 +1,72 @@
+{
+  "id": 20,
+  "slug": "eternal-university",
+  "name": "Eternal University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/eternal-university/logo.png",
+      "source_page": "https://eternaluniversity.edu.in/",
+      "download_url": "https://eternaluniversity.edu.in/docs/logoUniversity-One%281%29.png",
+      "source_kind": "official",
+      "description": "Eternal University official globe and dove mark",
+      "alt": "Eternal University official globe and dove mark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Eternal University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 591,
+      "height": 506,
+      "sha256": "3b5cc631ae8026e9ac34ca2ff3bda80033c1187cdbb37c498347fc662b8ed7f7"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/eternal-university/campus-01.png",
+      "source_page": "https://barusahib.org/our-universities/",
+      "download_url": "https://barusahib.org/wp-content/uploads/2026/09/Eternal-University-Building.png",
+      "source_kind": "official",
+      "description": "Eternal University building at Baru Sahib",
+      "alt": "Eternal University building at Baru Sahib",
+      "campus": "Baru Sahib, Himachal Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Eternal University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. The Kalgidhar Trust official page explicitly labels this Eternal University Building and separately labels Akal University; campuses are not conflated.",
+      "width": 1200,
+      "height": 336,
+      "sha256": "f1454f4744c79d20cb6773d237d4d18613af3ef73bdeda49a37c1cb5ef80bc7e"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/eternal-university/campus-02.jpg",
+      "source_page": "https://barusahib.org/our-universities/",
+      "download_url": "https://barusahib.org/wp-content/uploads/2022/10/University-Future-n.jpg",
+      "source_kind": "official",
+      "description": "Health-sciences students reading together in an Eternal University academic setting",
+      "alt": "Health-sciences students reading together in an Eternal University academic setting",
+      "campus": "Baru Sahib, Himachal Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Eternal University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official parent Trust page places this photograph under its Eternal University section. Exact facility is not named; no agriculture-facility claim. Source resolution is 725 × 484; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 725,
+      "height": 484,
+      "sha256": "37512ee863a084e2a734ed61f990c4ff9f32820ed6ab3724babf524105eba0d1"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

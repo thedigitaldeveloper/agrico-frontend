@@ -1,0 +1,89 @@
+{
+  "id": "icar-check",
+  "cms_type": "Articles",
+  "slug": "icar-accreditation-how-to-check",
+  "title": "How to check ICAR accreditation for an agriculture programme",
+  "description": "Check an agriculture programme's exact ICAR accreditation scope, campus, validity dates and official register entry before comparing admission options.",
+  "summary": "An ICAR badge becomes useful only when you match it to the degree and teaching unit you plan to join. This guide explains the evidence to save, how to read a validity period and what to do when a college's claim is broader than its register entry.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "understand-scope",
+      "heading": "Start with the qualification you will actually study",
+      "paragraphs": [
+        "Write down the full degree title, campus address, teaching college or faculty, and degree-awarding university. These details are your search key. An advertisement may display a university name prominently while the admission offer names a particular college or location. Check the unit on the offer, rather than assuming that a familiar brand name answers the question.",
+        "ICAR's National Agricultural Education Accreditation Board assesses agricultural institutions and programmes for quality assurance. ICAR's published policy distinguishes accreditation from affiliation, recognition and permission to open a programme. It also describes links with ICAR grants and its admission system. Consequently, a missing ICAR entry is a reason to investigate the relevant rules; it does not, by itself, establish that every admission to that institution is unlawful."
+      ]
+    },
+    {
+      "id": "official-record",
+      "heading": "Find the official record and keep its date",
+      "paragraphs": [
+        "Use the NAEAB section of the official ICAR website and locate the list appropriate to the institution type. Its page separates affiliated colleges, constituent colleges or faculties, and agricultural universities. Read the document title and date before searching within it. A search-engine excerpt or a cropped certificate may omit the programme column, conditions or validity period.",
+        "Save the complete file and the relevant page or spreadsheet row, together with its URL and your checking date. If several versions appear, compare them instead of silently replacing an older result with an undated claim. The date when you downloaded a document is different from the date of the accreditation decision. This small evidence folder makes later discussions with admissions staff much easier."
+      ]
+    },
+    {
+      "id": "match-fields",
+      "heading": "Match five fields before accepting a claim",
+      "paragraphs": [
+        "Read across the entire row. Similar college names, changed district descriptions and abbreviations can make a text search ambiguous. Use the address and parent institution to resolve identity. If the record includes an intake, treat it as the printed accreditation scope; obtain the current admission seat matrix separately."
+      ],
+      "table": {
+        "columns": ["Field", "What to compare", "Follow-up if it differs"],
+        "rows": [
+          ["Institution or unit", "College, faculty and location on the offer", "Request an identity or name-change explanation"],
+          ["Programme", "Exact degree and subject", "Ask for the programme-specific decision"],
+          ["Level", "Undergraduate, master's or doctorate", "Do not extend one level to another"],
+          ["Validity", "Start and end dates", "Request the applicable renewal or extension"],
+          ["Conditions or intake", "Notes printed alongside the entry", "Check the separate current admission notice"]
+        ]
+      }
+    },
+    {
+      "id": "examples",
+      "heading": "Use institution examples to practise reading the scope",
+      "paragraphs": [
+        "The locally audited ICAR List II records B.Sc. (Hons.) Agriculture at [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) for 17 March 2022–16 March 2027 and at [JSA College of Agriculture and Technology](/university/jsa-college-of-agriculture-and-technology) for 20 June 2024–19 June 2029. The degree title and teaching unit matter as much as the end date.",
+        "The same audit records that programme at [Palar Agricultural College](/university/palar-agricultural-college) for 16 March 2026–15 March 2031 and [SBVR Agricultural College](/university/sbvr-agricultural-college) for 13 July 2023–12 July 2028. These examples illustrate different recorded terms, not a ranking or a prediction of renewal. None establishes accreditation for an unlisted qualification or a different campus."
+      ]
+    },
+    {
+      "id": "uncertain-records",
+      "heading": "Resolve an expired, missing or inconsistent entry",
+      "paragraphs": [
+        "If the recorded term has ended, ask for a dated renewal or extension issued by the relevant authority. An application receipt, inspection visit or statement that renewal is in progress describes a process; it is not the final outcome. Equally, do not label an institution permanently unaccredited because an older saved list lacks its name. Check newer official decisions and confirm the identity carefully.",
+        "Send a precise enquiry: name your intended intake, degree and campus, identify the document you found, and ask which official decision applies. Keep the written response with the underlying document. Where a university website makes a broader claim than the register, preserve both and seek clarification. Avoid filling the gap with a counsellor's assurance or another institution's certificate."
+      ]
+    },
+    {
+      "id": "use-the-result",
+      "heading": "Combine accreditation with the rest of your admission checks",
+      "paragraphs": [
+        "Once you have matched the entry, return to the practical decision. Confirm affiliation where relevant, who awards the degree, the published curriculum, practical-learning arrangements, and the admission channel for your category. Read the applicable counselling or postgraduate rules if accreditation is a condition of that particular route. A quality assurance entry cannot confirm your subject eligibility or reserve a seat.",
+        "Use the [B.Sc. Agriculture eligibility guide](/articles/bsc-agriculture-eligibility) to build your academic checklist and the [agriculture fee budget guide](/articles/agriculture-fee-budget) to check the financial offer. Before paying, your folder should identify the exact programme, applicable rules, official fee schedule and unresolved questions. Accreditation is one useful piece of that evidence, alongside the learning conditions that will shape your everyday study."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Does university accreditation cover every agriculture qualification?", "answer": "Do not assume that it does. Read the listed college or faculty, programme, level, conditions and dates. A B.Sc. entry does not automatically cover an M.Sc. or another campus."},
+    {"question": "Is an ICAR logo enough to verify accreditation?", "answer": "No. Match the claim against an official register or dated decision. A logo does not show the scope or validity period."},
+    {"question": "Does an accreditation end date guarantee renewal?", "answer": "No. Ask for the renewal or extension decision when applicable. A pending application should be described as pending."},
+    {"question": "Does missing ICAR accreditation automatically make every admission illegal?", "answer": "That conclusion does not follow from the register alone. ICAR distinguishes accreditation from recognition and affiliation. Check the institution's degree-awarding or affiliation basis and the rules of the admission or further-study route you intend to use."}
+  ],
+  "related_institution_ids": [1, 4, 8, 11],
+  "related_topic_ids": ["bsc-eligibility", "fee-budget", "cuet-icar", "college-questions"],
+  "sources": [
+    {"id": "icar-policy", "title": "ICAR: Quality Assurance in Higher Agricultural Education through Accreditation, Policy Paper 1/2021", "url": "https://www.icar.gov.in/sites/default/files/2023-02/Quality-Assurance_FINAL.pdf", "checked_on": "2026-10-30", "note": "Official policy, particularly printed pages 1 and 4–8; distinguishes accreditation from affiliation/recognition and explains grants/admission links. Historical policy context, not an individual 2026 admission rule."},
+    {"id": "icar-index", "title": "ICAR National Agricultural Education Accreditation Board: official lists", "url": "https://icar.gov.in/en/national-agricultural-education-accreditation-board-2", "checked_on": "2026-10-30", "note": "Live official index read; separates the list types. Linked PDFs carry their own publication dates."},
+    {"id": "icar-list-ii", "title": "ICAR accredited private institutions List II: locally audited workbook", "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx", "checked_on": "2026-10-30", "note": "Exact unit/programme terms reused from the supplied institutions.json audit: Sheet1 rows 8, 11, 15 and 19. Printed intakes are not used as current seats. The live index's dated PDF and the audited workbook are identified separately."}
+  ],
+  "verification_notes": [
+    "Original applicant guidance; the MeriShiksha reference informs section/table/FAQ structure only.",
+    "No university-wide or cross-programme accreditation inference; example terms are limited to the audited B.Sc. entries.",
+    "Programme terms are supplied local audit evidence, not a newly issued renewal decision. Recheck the official register for the intended admission date.",
+    "No legal-admission guarantee, salary claim, ranking or invented author credentials."
+  ]
+}

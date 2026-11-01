@@ -1,0 +1,59 @@
+{
+  "id": "tnau-second-phase-2026",
+  "cms_type": "News",
+  "slug": "tnau-second-phase-counselling-announcement-september-2026",
+  "title": "TNAU announced second-phase UG counselling for 9 September 2026",
+  "description": "An archived TNAU admission announcement, explained with its original dates and a distinction between historical records and current availability.",
+  "summary": "This retrospective explains a dated TNAU counselling notice, the limits of its vacancy snapshot and the checks applicants need before acting on admission information.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-09-03",
+  "published_on": "2026-09-03",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "dated-announcement",
+      "heading": "What the 3 September notice announced",
+      "paragraphs": [
+        "Tamil Nadu Agricultural University's official press note dated 3 September 2026 announced second-phase undergraduate counselling for 9 September 2026. It also scheduled counselling for supplementary-examination candidates on 10 September. The announcement concerned the combined undergraduate admission process for TNAU and Annamalai University's agriculture faculty.",
+        "This report records the announcement. It does not independently establish that the scheduled sessions took place, or imply that the September dates remain available to applicants now."
+      ]
+    },
+    {
+      "id": "historical-vacancy-position",
+      "heading": "The vacancy figures belonged to that stage",
+      "paragraphs": [
+        "The press note reported a combined total of 5,907 seats, with 4,827 filled and 1,080 vacant at the stage described. It linked the second phase to filling the remaining vacancies. These figures are a dated snapshot across the process, not a vacancy list for an individual college.",
+        "Later allotments, reporting and further notices can change the position. Use the relevant subsequent official seat information for a specific decision instead of carrying this September total forward."
+      ]
+    },
+    {
+      "id": "read-with-institution-context",
+      "heading": "How to use the notice when comparing colleges",
+      "paragraphs": [
+        "For background on affiliated options, see [Palar Agricultural College](/university/palar-agricultural-college), [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) and [J.K.K. Munirajah College of Agricultural Science](/university/j-k-k-munirajah-college-of-agricultural-science). Linking these profiles does not assign any part of the historical vacancy total to them.",
+        "Applicants should check the exact college-course combination, applicable admission channel and official allotment instructions. [The TNAU route guide](/articles/tnau-private-agriculture-college-admission) explains the background, while [the counselling preparation checklist](/blogs/prepare-for-agriculture-counselling) helps organise the documents and follow-up actions."
+      ]
+    },
+    {
+      "id": "separate-the-dates",
+      "heading": "Distinguish the announcement from the scheduled session",
+      "paragraphs": [
+        "This article is dated to the announcement. A scheduled session date serves a different purpose and does not establish that the session occurred. Keep both fields in an admission record instead of replacing one with a later review date.",
+        "Agrico reviewed this historical evidence on 30 October 2026. Check the official admission portal for the latest position before submitting documents, making a payment or travelling."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question":"Why does the article date differ from the planned counselling date?","answer":"Publication and planned-session dates serve different purposes. This article dates the announcement, while its text identifies when the session was scheduled."},
+    {"question":"Are the 1,080 vacancies still available?","answer":"This report makes no such claim. The figure is the historical total stated in the 3 September press note and must not be used as live availability."},
+    {"question":"Did the notice confirm a seat at a linked college?","answer":"No college-specific vacancy is assigned in this article. Check the applicable official matrix and individual allotment rather than inferring availability from a combined total."}
+  ],
+  "related_institution_ids": [8, 1, 3],
+  "related_topic_ids": ["tnau-route", "counselling-prep"],
+  "sources": [
+    {"id":"tnau-second-phase-note","title":"TNAU official press note: second-phase UG counselling","url":"https://agritech.tnau.ac.in/tnaupressnotes/pdf/2026/TNAU%20_UG%20admission%20second%20phase%20counselling.pdf","checked_on":"2026-10-30","note":"Two-page Tamil press note read through PDF text extraction. Page 1 contains the issue date; page 2 gives the vacancy position and planned sessions. Server modification date is not used as publication date."},
+    {"id":"tnau-admissions","title":"Tamil Nadu Agricultural University: official UG admissions entry point","url":"https://tnau.ac.in/ugadmission/","checked_on":"2026-10-30","note":"Official page and linked 2026–27 portal checked as the source of later instructions. No current opening or vacancy claim."}
+  ],
+  "verification_notes": ["Historical News; event_date and published_on mean the source announcement date rather than the scheduled session date.","Vacancy arithmetic checked; snapshot is not presented as current availability.","English account is an original short summary of a dated Tamil official source.","No claim that a scheduled event occurred or that a later round opened.","Web PDF screenshot retrieval was unavailable; printed dates, vacancy figures and schedule were verified from official PDF text.","Source-specific summary is brief; applicant guidance is original analysis."]
+}

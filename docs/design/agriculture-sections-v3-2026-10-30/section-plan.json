@@ -1,0 +1,198 @@
+{
+  "project": "Agrico",
+  "status": "Concept B / Sample 2 approved by the user on 2026-10-30 for responsive homepage development.",
+  "date": "2026-10-30",
+  "objective": "Retain the existing education platform and redesign its homepage through individually developed agriculture-education and agritech-learning sections.",
+  "user_constraints": [
+    "Education platform: degree programmes, universities, course-offering comparison and admission counselling.",
+    "Agriculture theme through green/sage surfaces, curriculum, student learning, relevant illustrations and academic context.",
+    "Avoid vegetable/produce marketplace imagery, a replacement dashboard, and a generic recolouring of DRCC.",
+    "Elaborate the sections screen by screen with the same level of care as DRCC.",
+    "Retain and improve the B.Sc. Agriculture versus B.Tech. Agricultural Engineering comparison."
+  ],
+  "deliverable": "Two complete homepage concepts, each split into upper sections 1–6 and lower sections 7–12.",
+  "concepts": [
+    {
+      "id": "A",
+      "name": "Academic Fieldbook",
+      "palette": [
+        "#174C35",
+        "#39764C",
+        "#FBFBF4",
+        "#EAF1E4",
+        "#D6E6A2"
+      ],
+      "upper": "concept-a-upper.png",
+      "lower": "concept-a-lower.png",
+      "composition": "Science and engineering course-path panels; university study cards; bespoke scientific line illustrations; an academic comparison table; a practical-learning map and editorial guide feature."
+    },
+    {
+      "id": "B",
+      "name": "AgriTech Campus",
+      "palette": [
+        "#124B3B",
+        "#FFFFFF",
+        "#E9F2EC",
+        "#DCE9BB",
+        "#183A31"
+      ],
+      "upper": "concept-b-upper.png",
+      "lower": "concept-b-lower.png",
+      "composition": "A tabbed curriculum explorer; university directory with campus-selection guidance; an engineering-learning feature; comparison dossiers; degree-to-career pathways and an academic guide shelf."
+    }
+  ],
+  "sections": [
+    {
+      "number": 1,
+      "name": "Education hero and programme finder",
+      "purpose": "Identify the platform as agriculture higher education, let the student begin a programme or university search."
+    },
+    {
+      "number": 2,
+      "name": "Three guidance services",
+      "purpose": "Provide clear programme, comparison and counselling entry points on one integrated surface."
+    },
+    {
+      "number": 3,
+      "name": "Programme explorer",
+      "purpose": "Show degree-level choices with curriculum topics and comparison controls, using distinct academic UI per concept."
+    },
+    {
+      "number": 4,
+      "name": "University discovery",
+      "purpose": "Connect degree interest to institutions, programme details, campus learning and official admissions."
+    },
+    {
+      "number": 5,
+      "name": "Agriculture and technology learning feature",
+      "purpose": "Explain precision agriculture, soil/water systems and food engineering through student learning and technical illustrations."
+    },
+    {
+      "number": 6,
+      "name": "Agriculture versus Agricultural Engineering",
+      "purpose": "Compare study focus, core subjects, practical learning, broad career areas and institution-specific eligibility links."
+    },
+    {
+      "number": 7,
+      "name": "Admission journey",
+      "purpose": "Guide explore, compare and counselling actions with a small academic preparation checklist."
+    },
+    {
+      "number": 8,
+      "name": "Practical learning and career exploration",
+      "purpose": "Connect degrees to laboratory, field, engineering-studio and broad career-exploration themes."
+    },
+    {
+      "number": 9,
+      "name": "Student guides",
+      "purpose": "Provide thoughtful academic resources for course choice, university comparison and admission preparation."
+    },
+    {
+      "number": 10,
+      "name": "News and learning updates",
+      "purpose": "Use curated CMS editorial content rather than invented admissions notices."
+    },
+    {
+      "number": 11,
+      "name": "Frequently asked questions",
+      "purpose": "Answer course, institution, eligibility and guidance questions in a fully designed section."
+    },
+    {
+      "number": 12,
+      "name": "Counselling callback",
+      "purpose": "Retain the existing lead flow with an accessible form and a distinct academic-guidance visual."
+    }
+  ],
+  "factual_basis": {
+    "comparison": "Programme-specific academic examples, not a promise that every university has the same curriculum or eligibility.",
+    "agriculture": "Plant, soil and crop-science study themes; laboratory and field learning.",
+    "agricultural_engineering": "Engineering applications; machinery, soil/water systems, processing and practical technical work.",
+    "agritech": "A study and practical-learning theme, not machinery sales, a farm dashboard or a claim that all listed degrees teach drones.",
+    "institution_names": "Directory examples only; no implied partnership, accreditation claim, ranking or approved branding.",
+    "imagery": "Generated illustrative university/student scenes and original academic line artwork; not authenticated named-campus photography."
+  },
+  "research": [
+    {
+      "name": "ICAR",
+      "url": "https://icar.gov.in/en",
+      "lesson": "Separate agriculture disciplines, education, research, knowledge and practical outcomes."
+    },
+    {
+      "name": "TNAU undergraduate programmes",
+      "url": "https://tnau.ac.in/bachelors-degree/",
+      "lesson": "Agriculture, horticulture, forestry, agricultural engineering, food technology and agribusiness as distinct discovery paths."
+    },
+    {
+      "name": "TNAU postgraduate programmes",
+      "url": "https://tnau.ac.in/masters/",
+      "lesson": "Give undergraduate, postgraduate and diploma discovery separate entry points; examples include agronomy and agribusiness."
+    },
+    {
+      "name": "ICAR-IARI",
+      "url": "https://www.iari.res.in/en/index.php",
+      "lesson": "Use field learning, laboratories, research and campus opportunities to explain agricultural education."
+    },
+    {
+      "name": "Punjab Agricultural University undergraduate programmes",
+      "url": "https://newmodel.pau.edu/undergraduate-program/",
+      "lesson": "Keep degree, college, facilities and practical education navigation clear."
+    },
+    {
+      "name": "Wageningen University & Research",
+      "url": "https://www.wur.nl/en",
+      "lesson": "Connect study pathways to food, climate, biodiversity and living-environment themes."
+    },
+    {
+      "name": "UC Davis CAES",
+      "url": "https://caes.ucdavis.edu/",
+      "lesson": "Make majors, advising and career discovery visible."
+    },
+    {
+      "name": "ICAR CUET undergraduate bulletin",
+      "url": "https://www.icar.gov.in/en/public-notice-and-information-bulletin-cuet-icar-ug-2026",
+      "lesson": "Keep official admission resources distinct from platform guidance."
+    },
+    {
+      "name": "ICAR postgraduate entrance reforms",
+      "url": "https://icar.org.in/en/icar-committee-endorses-regrouping-and-rationalisation-pg-and-phd-entrance-examinations",
+      "lesson": "Keep examination names, eligibility and dates editable and linked to official notices; do not infer future rules."
+    },
+    {
+      "name": "WUR programme finder",
+      "url": "https://www.wur.nl/en/education/bachelor/programmes",
+      "lesson": "A functional programme finder exposes interest filters, degree navigation and an explicit results area."
+    },
+    {
+      "name": "TNAU Agricultural Engineering programme",
+      "url": "https://tnau.ac.in/b-tech-agricultural-engineering/",
+      "used_for": "Programme focus, soil/water, farm machinery, food processing and practical engineering distinctions."
+    },
+    {
+      "name": "TNAU undergraduate Agriculture page",
+      "url": "https://tnau.ac.in/b-sc-hons-agriculture-english-tamil/",
+      "used_for": "Verified B.Sc. (Hons.) Agriculture degree identity."
+    },
+    {
+      "name": "TNAU hands-on drone workshop for B.Tech students",
+      "url": "https://agritech.tnau.ac.in/tnaupressnotes/pdf/2024/TNAU%20conducts%20Workshop%20on%20Aeromodelling%20and%20Drone%20Technology%20-%20Eng.pdf",
+      "used_for": "An authentic example of agritech as academic hands-on learning."
+    },
+    {
+      "name": "ICAR-IARI precision agriculture training",
+      "url": "https://www.iari.res.in/files/Latest-News/Precision_Agriculture_Concludes_04022026.pdf",
+      "used_for": "Precision, drone, robotics and sensor learning as educational themes."
+    }
+  ],
+  "implementation_plan": {
+    "reuse": "Existing programme, institution, offering-comparison, guide, FAQ and callback data flows.",
+    "homepage": "Create a coherent Agrico component and token system; keep shared data relationships and routes.",
+    "new_section_ui": "Use curated CMS content for agritech learning, course pathways and programme-specific comparison facts.",
+    "responsive": "Design each section with mobile stacking, readable comparison access, compact course search and clear primary actions.",
+    "scope_now": "Implement the approved Concept B homepage in the Agrico workspace, preserving existing platform routes and enquiry flows."
+  },
+  "generation": {
+    "mode": "Built-in image_gen imagegen",
+    "kind": "Upper/lower UI mockups with matched continuation screens",
+    "prompts": "generation-prompts.json"
+  }
+}

@@ -1,0 +1,290 @@
+@import 'tailwindcss';
+
+/** Agrico: approved Rich Ruby Red + Warm Ivory.
+ * Legacy brand/gold/ink token names remain compatible with existing detail pages.
+ * Gold tokens are neutral stone shades; the RS brand uses no gold accent.
+ */
+@theme {
+  /* --- brand: RS ruby --------------------------------------- */
+  --color-brand-50: #fcfaf5;
+  --color-brand-100: #f2eee8;
+  --color-brand-200: #e6ded5;
+  --color-brand-300: #d6c6bd;
+  --color-brand-400: #b9a29d;
+  --color-brand-500: #b73748;
+  --color-brand-600: #b02c3e;
+  --color-brand-700: #a72a3c;
+  --color-brand-800: #a22334; /* RS ruby */
+  --color-brand-900: #882638;
+  --color-brand-950: #762535;
+
+  /* --- legacy accent: neutral stone ------------------------ */
+  --color-gold-50: #fcfaf5;
+  --color-gold-100: #f2eee8;
+  --color-gold-200: #e6ded5;
+  --color-gold-300: #ded2c6;
+  --color-gold-400: #d4c6b9;
+  --color-gold-500: #c6b8a9;
+  --color-gold-600: #a99a8f;
+  --color-gold-700: #8a7c72;
+  --color-gold-800: #78695f;
+  --color-gold-900: #6b6260;
+
+  /* Legacy amber utilities retain neutral contrast; no yellow brand accent. */
+  --color-amber-50: #fcfaf5;
+  --color-amber-100: #f2eee8;
+  --color-amber-200: #e6ded5;
+  --color-amber-300: #ded2c6;
+  --color-amber-400: #d4c6b9;
+  --color-amber-500: #c6b8a9;
+  --color-amber-600: #827670;
+  --color-amber-700: #756963;
+  --color-amber-800: #6b6260;
+  --color-amber-900: #615552;
+  --color-amber-950: #615552;
+
+  /* --- warm grey neutrals ----------------------- */
+  --color-ink-50: #fcfaf5;
+  --color-ink-100: #f2eee8;
+  --color-ink-200: #e6ded5;
+  --color-ink-300: #d6ccc2;
+  --color-ink-400: #a2978e;
+  --color-ink-500: #827670;
+  --color-ink-600: #756963;
+  --color-ink-700: #6b6260;
+  --color-ink-800: #6b6260; /* warm grey */
+  --color-ink-900: #6b6260;
+  --color-ink-950: #615552;
+
+  /* --- semantic status ---------------------------------------------------- */
+  --color-success-50: #ecfdf3;
+  --color-success-500: #12b76a;
+  --color-success-700: #027a48;
+  --color-warning-50: #fffaeb;
+  --color-warning-500: #f79009;
+  --color-warning-700: #b54708;
+  --color-danger-50: #fef3f2;
+  --color-danger-500: #f04438;
+  --color-danger-700: #b42318;
+  --color-info-50: #eff8ff;
+  --color-info-500: #2e90fa;
+  --color-info-700: #175cd3;
+
+  /* --- typography --------------------------------------------------------- */
+  /* DM Sans is the single typeface for body copy, headings and controls. */
+  --font-sans: var(--font-dm-sans), sans-serif;
+  --font-display: var(--font-sans);
+
+  --text-2xs: 0.6875rem;
+  --text-2xs--line-height: 1rem;
+
+  /* --- radii and elevation ------------------------------------------------ */
+  --radius-card: 0.875rem;
+  --radius-pill: 999px;
+
+  /* Shadows are tinted with the brand hue rather than pure black, so cards sit
+     on the page instead of looking cut out of it. */
+  --shadow-card: 0 1px 2px rgb(43 12 19 / 0.04), 0 4px 12px rgb(43 12 19 / 0.06);
+  --shadow-card-hover: 0 2px 4px rgb(43 12 19 / 0.06), 0 12px 28px rgb(43 12 19 / 0.1);
+  --shadow-header: 0 1px 0 rgb(43 12 19 / 0.06);
+
+  /* Hero copy sits directly on editor-uploaded imagery with no scrim behind
+     it. The tight layer defines the letterform edges, the wide one lifts the
+     text off a bright background. */
+  --text-shadow-hero: 0 1px 2px rgb(43 12 19 / 0.55), 0 2px 14px rgb(43 12 19 / 0.45);
+
+  /* --- layout ------------------------------------------------------------- */
+  --container-page: 80rem;
+}
+
+/**
+ * Semantic roles. Defined on :root rather than inside @theme so they can be
+ * remapped per-section (e.g. a dark hero) by redeclaring them on a wrapper.
+ */
+:root {
+  --surface-page: var(--color-ink-50);
+  --surface-raised: #ffffff;
+  --surface-sunken: var(--color-ink-100);
+  --surface-inverse: var(--color-brand-900);
+  --surface-accent-subtle: var(--color-brand-50);
+
+  --content-primary: var(--color-ink-900);
+  --content-secondary: var(--color-ink-600);
+  --content-muted: var(--color-ink-500);
+  --content-inverse: #ffffff;
+  --content-accent: var(--color-brand-800);
+  --content-link: var(--color-brand-700);
+
+  --border-subtle: var(--color-ink-200);
+  --border-default: var(--color-ink-300);
+  --border-accent: var(--color-brand-200);
+
+  --focus-ring: var(--color-brand-600);
+  --focus-ring-inverse: #ffffff;
+}
+
+@layer base {
+  * {
+    border-color: var(--border-subtle);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    /* Clears both sticky elements an in-page anchor would otherwise land
+       under: the site header — 5rem at desktop since it collapsed to a single
+       row — plus the ~3.1rem section nav on the university and program
+       pages. */
+    scroll-padding-top: 9rem;
+    /* Only elements that opt in with `snap-start` are stops, so pages with
+       none behave exactly as before. `proximity`, never `mandatory`: a
+       mandatory axis fights the reader on any section taller than the
+       viewport, which on a phone is most of them. */
+    scroll-snap-type: y proximity;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--surface-page);
+    color: var(--content-primary);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.02em;
+    /* Deliberately no colour. An element selector here would beat the colour a
+       dark section sets on its subtree, so headings inside the maroon hero would
+       render in body ink at a 1.03:1 contrast ratio. Headings inherit instead. */
+    color: inherit;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  /* One consistent focus treatment, keyboard-only, so it never fights the
+     hover styles on mouse click. */
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 0.25rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Horizontally scrolling tab strips read as clipped content with a scrollbar
+   under them; the overflow still works by drag, wheel and keyboard. */
+@utility scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility menu-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ink-300) transparent;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--color-ink-300);
+    border-radius: 9999px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-ink-400);
+  }
+}
+
+/**
+ * A disclosure that is only a disclosure on small screens.
+ *
+ * Chrome hides a closed <details>'s content through `::details-content`, whose
+ * `content-visibility: hidden` a `display: block` on the child cannot override —
+ * so a panel meant to sit permanently open at desktop renders at zero height
+ * there instead. Older engines hide the children directly and are handled by
+ * the matching `lg:block` / `sm:block`; these rules cover the ones that do not.
+ *
+ * Two of them because the two call sites stop collapsing at different widths:
+ * the filter rail needs its full column (lg), the footer's link columns start
+ * sitting side by side as soon as there is room for two (sm).
+ */
+@utility details-open-lg {
+  @media (width >= 64rem) {
+    &::details-content {
+      content-visibility: visible;
+    }
+  }
+}
+
+@utility details-open-sm {
+  @media (width >= 40rem) {
+    &::details-content {
+      content-visibility: visible;
+    }
+  }
+}
+
+@utility surface-inverse {
+  /* Brand maroon focus rings fall under 3:1 on the dark hero surfaces, so the
+     ring flips to white for this subtree. */
+  --focus-ring: var(--focus-ring-inverse);
+}
+
+@utility container-page {
+  width: 100%;
+  max-width: var(--container-page);
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 64rem) {
+    padding-inline: 2rem;
+  }
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-infinite {
+  display: flex;
+  width: max-content;
+  animation: marquee-scroll 32s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-infinite:hover {
+  animation-play-state: paused;
+}

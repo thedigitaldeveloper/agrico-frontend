@@ -1,0 +1,60 @@
+{
+  "id": 25,
+  "slug": "vivekananda-global-university",
+  "name": "Vivekananda Global University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/vivekananda-global-university/logo.png",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/vgu-logo-n.png",
+      "source_kind": "official",
+      "description": "Vivekananda Global University emblem and VGU wordmark",
+      "alt": "Vivekananda Global University emblem and VGU wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Vivekananda Global University",
+      "review_status": "verified_source",
+      "notes": "Original 756 x 331 PNG; unchanged download."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/vivekananda-global-university/campus_primary.webp",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/faculty/faq/faq1(2).webp",
+      "source_kind": "official",
+      "description": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+      "alt": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+      "campus": "Jaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Vivekananda Global University",
+      "review_status": "verified_source",
+      "notes": "Original 800 x 800 WEBP; unchanged download."
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/vivekananda-global-university/campus_secondary.webp",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/faculty/faq/faq1(1).webp",
+      "source_kind": "official",
+      "description": "VGU students reviewing papers outside a Jaipur campus building",
+      "alt": "VGU students reviewing papers outside a Jaipur campus building",
+      "campus": "Jaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "Image linked from the official institutional homepage; campus facility context identifies the university.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Vivekananda Global University",
+      "review_status": "verified_source",
+      "notes": "Original 800 x 800 WEBP; unchanged download."
+    }
+  ],
+  "gaps": []
+}

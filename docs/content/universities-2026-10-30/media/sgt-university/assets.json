@@ -1,0 +1,43 @@
+{
+  "id": 26,
+  "slug": "sgt-university",
+  "name": "SGT University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sgt-university/logo.jpg",
+      "source_page": "https://www.careers360.com/university/shree-guru-gobind-singh-tricentenary-university-gurgaon",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/1230/2018/5/15/SGT-University-Gurgaon-logo.png",
+      "source_kind": "secondary",
+      "description": "Shree Guru Gobind Singh Tricentenary University circular blue institutional seal",
+      "alt": "Shree Guru Gobind Singh Tricentenary University circular blue institutional seal",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original 140 x 140 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sgt-university/campus-05.webp",
+      "source_page": "https://www.collegesimplified.in/college-details/sgt-university-gurugram",
+      "download_url": "https://static.wixstatic.com/media/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp/v1/fill/w_1200%2Ch_628%2Cq_90%2Cenc_avif%2Cquality_auto/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp",
+      "source_kind": "secondary",
+      "description": "SGT University main academic building and courtyard fountain at Gurugram",
+      "alt": "SGT University main academic building and courtyard fountain at Gurugram",
+      "campus": "Gurugram, Haryana",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.collegesimplified.in",
+      "review_status": "verified_source",
+      "notes": "Original 1200 x 628 WEBP; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

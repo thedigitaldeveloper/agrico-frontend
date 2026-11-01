@@ -1,0 +1,929 @@
+[
+  {
+    "serial": 1,
+    "excel_row": 5,
+    "university": "Teerthankar Mahaveer University, Moradabad, U.P",
+    "college": null,
+    "period": "five years w.e.f. 17.08.2021 to 16.08.2026",
+    "start": "2021-08-17",
+    "end": "2026-08-16",
+    "active": false,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture \n(Intake- 180)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 2,
+    "excel_row": 6,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Vanavarayar Institute of Agriculture, Pollachi, Tamil Nadu",
+    "period": "five years w.e.f. 17.08.2021\nto 16.08.2026",
+    "start": "2021-08-17",
+    "end": "2026-08-16",
+    "active": false,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons.) Agriculture\n(Intake- 120)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 3,
+    "excel_row": 8,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Adhiparasakthi Agricultural College, Ranipet, Vellore",
+    "period": "five years w.e.f. 17/03/2022 to 16/03/2027",
+    "start": "2022-03-17",
+    "end": "2027-03-16",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake- 120)\n\n",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 4,
+    "excel_row": 9,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Adhiyamaan College of Agriculture and Research, Athimugam, Shoolagiri Taluk, Krishnagiri, Tamil Nadu ",
+    "period": "five years w.e.f.\n08/02/2024 to 07/2/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake- 166)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 5,
+    "excel_row": 10,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "J.K.K. Munirajah College of Agricultural Sciences, Erode, Tamil Nadu",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake- 180)"
+    ]
+  },
+  {
+    "serial": 6,
+    "excel_row": 11,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "JSA College of Agriculture and Technology ",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake- 175)"
+    ]
+  },
+  {
+    "serial": 7,
+    "excel_row": 12,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "PGP College of Agricultural Sciences, Namakkal, Tamil Nadu ",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 8,
+    "excel_row": 13,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Pushkaram College of Agriculture Sciences, Veppangudi, Thiruvarankulam (Post), Pudukkotai, 322303 ",
+    "period": "five years w.e.f. 27.01.2025 to 26.01.2030",
+    "start": "2025-01-27",
+    "end": "2030-01-26",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 9,
+    "excel_row": 14,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Indian Agriculture College, Radhapuram",
+    "period": "five years w.e.f. 27.01.2025 to 26.01.2030",
+    "start": "2025-01-27",
+    "end": "2030-01-26",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 10,
+    "excel_row": 15,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Palar Agricultural College, Vellore ",
+    "period": "five years w.e.f. 16.03.2026 to 15.03.2031",
+    "start": "2026-03-16",
+    "end": "2031-03-15",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 11,
+    "excel_row": 16,
+    "university": "Tamil Nadu Agricultural University, Coimbatore",
+    "college": "Thanthai Roever Institute of Agriculture and Rural Development ",
+    "period": "five years w.e.f. 16.03.2026 to 15.03.2031",
+    "start": "2026-03-16",
+    "end": "2031-03-15",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 12,
+    "excel_row": 17,
+    "university": "Mahatma Gandhi Kashi Vidya Peeth Varanasi, Uttar Pradesh",
+    "college": "Udai Pratap College, Varanasi, U.P.",
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 160)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 13,
+    "excel_row": 18,
+    "university": "Mahatma Phule Krishi Vidyapeeth, Rahuri, Maharashtra",
+    "college": "Agricultural Development Trust's College of Agriculture, Baramati",
+    "period": "five years w.e.f. 24.02.2021 to 23.02.2026",
+    "start": "2021-02-24",
+    "end": "2026-02-23",
+    "active": false,
+    "type": "Private college",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture* (Intake- 120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 14,
+    "excel_row": 19,
+    "university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "college": "SBVR Agricultural College, Badvel, A.P",
+    "period": "five years w.e.f. 13/07/2023 to 12/07/2028",
+    "start": "2023-07-13",
+    "end": "2028-07-12",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 15,
+    "excel_row": 20,
+    "university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "college": "N.S. Agricultural College, Gobburu (village), Andhra Pradesh ",
+    "period": "five years w.e.f. 08/02/2024 to 07/2/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 16,
+    "excel_row": 21,
+    "university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "college": "Sri Krishnadevaraya College of Agricultural Sciences, Ananthapuramu, Anantapur, Andhra Pradesh",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 17,
+    "excel_row": 22,
+    "university": "GADVASU, Ludhiana",
+    "college": "College of Khalsa College of Veterinary and Animal Sciences, Amritsar",
+    "period": "five years w.e.f. 9.11.2021 to 8.11.2026",
+    "start": "2021-11-09",
+    "end": "2026-11-08",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "• B.V.Sc. & A.H. Programme \n(Intake- 60*)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 18,
+    "excel_row": 23,
+    "university": "Guru Nanak Dev University, G.T. road, Amirtsar-143002",
+    "college": "Khalsa College, Amritsar ",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake-120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 19,
+    "excel_row": 24,
+    "university": "GH Raisoni University, Chhindwara, Madhya Pradesh",
+    "college": null,
+    "period": "five years w.e.f. 9.11.2021 to 8.11.2026",
+    "start": "2021-11-09",
+    "end": "2026-11-08",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "•B.Sc.(Hons) Agriculture \n(Intake- 120)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 20,
+    "excel_row": 25,
+    "university": "Jagannath University, Jaipur",
+    "college": null,
+    "period": "five years w.e.f. 17/03/2022 to 16/03/2027",
+    "start": "2022-03-17",
+    "end": "2027-03-16",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture\n(Intake 120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 21,
+    "excel_row": 26,
+    "university": "Jaipur National University, Jaipur",
+    "college": null,
+    "period": "five years w.e.f. 19.07.2022 to 18.07.2027.",
+    "start": "2022-07-19",
+    "end": "2027-07-18",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc.(Hons.) Agriculture (Intake- 120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 22,
+    "excel_row": 27,
+    "university": "Chandigarh University, Chandigarh",
+    "college": null,
+    "period": "five years w.e.f. 19.07.2022 to 18.07.2027",
+    "start": "2022-07-19",
+    "end": "2027-07-18",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture \n(Intake- 120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 23,
+    "excel_row": 28,
+    "university": "Eternal University, Baru Sahib, Distt. Sirmour, H.P.",
+    "college": null,
+    "period": "five years w.e.f. 19.07.2022 to 18.07.2027",
+    "start": "2022-07-19",
+    "end": "2027-07-18",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc. (Hons) Agriculture \n(Intake- 90)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 24,
+    "excel_row": 29,
+    "university": "AKS University, Satna, M.P.",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture  \n(Intake- 240)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 25,
+    "excel_row": 30,
+    "university": "Sri Sri University, Cuttack, Odisha",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027 ",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 60)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 26,
+    "excel_row": 31,
+    "university": "Janardan Rai Nagar Rajasthan Vidyapeeth (deemed to be University), Udaipur, Rajasthan",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027 ",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 90)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 27,
+    "excel_row": 32,
+    "university": "Sanskriti University, Mathura, U.P.",
+    "college": "School of Agriculture ",
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 28,
+    "excel_row": 33,
+    "university": "Vivekananda Global University, Jaipur",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022  to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture   (Intake-120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 29,
+    "excel_row": 34,
+    "university": "Shree Guru Gobind Singh Tricentenary University, Gurugram",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027 ",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)",
+      " M. Sc. (Ag) Agronomy \n(Intake- 10)",
+      "_"
+    ]
+  },
+  {
+    "serial": 30,
+    "excel_row": 35,
+    "university": "Bhupal Nobels University, Udaipur, Rajasthan",
+    "college": "B.N. College of Agriculture",
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 60)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 31,
+    "excel_row": 36,
+    "university": "Karunya Institute of Technology and Sciences (Deemed University), Coimbatore",
+    "college": null,
+    "period": "five years w.e.f. 11/10/2022  to 10/10/2027",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture\n(Intake-180)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 32,
+    "excel_row": 37,
+    "university": "Suresh Gyan Vihar University, Jaipur",
+    "college": "School of Agriculture ",
+    "period": "five years w.e.f. 11/10/2022 to 10/10/2027 ",
+    "start": "2022-10-11",
+    "end": "2027-10-10",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. Hons Agriculture\n(Intake-120)",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 33,
+    "excel_row": 38,
+    "university": "G. D. Goenka University, Gurugram",
+    "college": null,
+    "period": "five years w.e.f. 13/07/2023 to 12/07/2028",
+    "start": "2023-07-13",
+    "end": "2028-07-12",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)*",
+      "_",
+      "_"
+    ]
+  },
+  {
+    "serial": 34,
+    "excel_row": 39,
+    "university": "Shri Guru Ram Rai University, Dehradun",
+    "college": "School of Agricultural Sciences",
+    "period": "five years w.e.f.\n08.02.2024 to 07.02.2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 35,
+    "excel_row": 40,
+    "university": "Vellore Institute of Technology, Katpadi, Vellore, Tamil Nadu- 632014",
+    "college": null,
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 36,
+    "excel_row": 41,
+    "university": "SRM College of Agricultural Sciences, SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu",
+    "college": "SRM College of Agricultural Sciences, SRM Nagar",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Horticulture \n(Intake- 90)"
+    ]
+  },
+  {
+    "serial": 37,
+    "excel_row": 42,
+    "university": "Rabindranath Tagore University, Bhopal, Madhya Pradesh",
+    "college": "Faculty of Agriculture",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 38,
+    "excel_row": 43,
+    "university": "GIET University, Gunupur, Odisha",
+    "college": "School of Agriculture ",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. Sc. (Hons.) Agriculture \n(Intake- 180)"
+    ]
+  },
+  {
+    "serial": 39,
+    "excel_row": 44,
+    "university": "RNT College of Agriculture, Kapasan, Chittorgarh, Rajasthan",
+    "college": "RNT College of Agriculture",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 40,
+    "excel_row": 45,
+    "university": "Amrita Vishwa Vidyapeetham (Deemed-to-be-University), JP Nagar, Arasampalyam, Coimbatore, Tamil Nadu",
+    "college": "Amrita School of Agricultural Sciences",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 41,
+    "excel_row": 46,
+    "university": "Tantia University, Sri Ganganagar, Rajasthan",
+    "college": "Faculty of Agriculture",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 42,
+    "excel_row": 47,
+    "university": "Raffles University, Neemrana, Alwar, Rajasthan",
+    "college": null,
+    "period": "five years w.e.f. 20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 60)"
+    ]
+  },
+  {
+    "serial": 43,
+    "excel_row": 48,
+    "university": "Maharishi Markandeshwar University, Mullana, Ambala, Haryana",
+    "college": "Faculty of Agriculture",
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 180)"
+    ]
+  },
+  {
+    "serial": 44,
+    "excel_row": 49,
+    "university": "Neotia University, west Bengal",
+    "college": null,
+    "period": "five years w.e.f.\n20/06/2024 to 19/06/2029",
+    "start": "2024-06-20",
+    "end": "2029-06-19",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+    ]
+  },
+  {
+    "serial": 45,
+    "excel_row": 50,
+    "university": "Centurion University of Technology and Management, Odisha",
+    "college": "School of Fisheries",
+    "period": "five years w.e.f. 08/02/2024 to 07/02/2029",
+    "start": "2024-02-08",
+    "end": "2029-02-07",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B. F. Sc. (Intake- 40)"
+    ]
+  },
+  {
+    "serial": 46,
+    "excel_row": 51,
+    "university": "Centurion University of Technology and Management, Odisha",
+    "college": " M.S. Swaminathan School of Agriculture",
+    "period": "from 29/3/2024 to 28/3/2029",
+    "start": "2024-03-29",
+    "end": "2029-03-28",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "•\tB.Sc. (Hons.) Agriculture (intake 240)\n•\tB.Tech. Agricultural Engineering (intake 30)\n",
+      "•\tMSc. (Agri) Agronomy (inatke20)\n•\tM.Sc. (Agri) Agricultural Extension Education (intake 10)\n•\tM.Sc. (Agri.) Genetics and Plant Breeding (intake 10) \n•\tM.Sc. (Hort.) Vegetable Science (intake 10)\n•\tMBA Agribusiness Management (intake 10)"
+    ]
+  },
+  {
+    "serial": 47,
+    "excel_row": 52,
+    "university": "Lovely Professional University",
+    "college": "School of Agriculture, Phagwara",
+    "period": "from 01/4/2023 to 31/3/2028. ",
+    "start": "2023-04-01",
+    "end": "2028-03-31",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "•\tB.Sc. (Hons.) Agriculture (with intake 540)",
+      "•\tM.Sc. (Agriculture) Agronomy (with intake 30)\n•\tM.Sc. (Agriculture) Genetics and Plant Breeding (with intake 20)\n•\tM.Sc. (Hort.) Fruit Science (with intake 20)\n•\tM.Sc. (Agriculture) Plant Pathology (with intake 20)\n•\tM.Sc. (Agriculture) Entomology (with intake 15)\n•\tM.Sc. (Agriculture) Vegetable Science (with intake 20)\n•\tM.Sc. (Agriculture) Soil Science (with intake 15)\n•\tM.Sc. (Agriculture) Floriculture and Landscaping (with intake 10)"
+    ]
+  },
+  {
+    "serial": 48,
+    "excel_row": 53,
+    "university": "Kalasalingam Academy of Research and Education (Deemed to be university) Anand Nagar, Krishnankoil, Tamil Nadu",
+    "college": "Kalasalingam School of Agriculture and Horticulture",
+    "period": "26/9/2024 to 25/9/2029",
+    "start": "2024-09-26",
+    "end": "2029-09-25",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "•\tB.Sc. (Hons.) Agriculture (intake 60)"
+    ]
+  },
+  {
+    "serial": 49,
+    "excel_row": 54,
+    "university": "Integral University, Lucknow",
+    "college": "Integral Institute of Agricultural Science and Technology",
+    "period": "26/9/2024 to 25/9/2029",
+    "start": "2024-09-26",
+    "end": "2029-09-25",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "•\tB.Sc. (Hons.) Agriculture (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 50,
+    "excel_row": 55,
+    "university": "Acharya N.G. Ranga Agricultural University, Guntur, Andhra Pradesh-522034 (Public)",
+    "college": null,
+    "period": "27.01.2025 to 26.01.2030",
+    "start": "2025-01-27",
+    "end": "2030-01-26",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "Sri Kinijarapu Yerrannaidu College of Agricultural Sciences (SKYCAS),ANGRAU",
+      "•B.Sc. (Hons.) Agriculture (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 51,
+    "excel_row": 56,
+    "university": "Sri Satya Sai University of Technology and Medical Sciences, Sehore, M.P.(Private)",
+    "college": null,
+    "period": "27.01.2025 to 26.12.2030",
+    "start": "2025-01-27",
+    "end": "2030-12-26",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "School of Agriculture",
+      "B.Sc. (Hons.) Agriculture programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 52,
+    "excel_row": 57,
+    "university": "GLA University, Mathura, (Private)",
+    "college": null,
+    "period": "27.02.2025 to 26.02.2030",
+    "start": "2025-02-27",
+    "end": "2030-02-26",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "• B.Sc (Hons.) Agriculture (Intake- 60)"
+    ]
+  },
+  {
+    "serial": 53,
+    "excel_row": 58,
+    "university": "Dr.PDKV Akola, Maharashtra (State university)",
+    "college": null,
+    "period": "27.02.2025 to 26.02.2030",
+    "start": "2025-02-27",
+    "end": "2030-02-26",
+    "active": true,
+    "type": "Private college",
+    "programmes": [
+      "Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV",
+      "• B.Sc (Hons.) Agriculture Programme (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 54,
+    "excel_row": 59,
+    "university": "Siksha-O-Anusandhan , Bhubaneswar",
+    "college": "Faculty of Agricultural Sciences ",
+    "period": "29.07.2024 to 28.07.2029",
+    "start": "2024-07-29",
+    "end": "2029-07-28",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture (Intake- 360)",
+      "• M.Sc. (Agri.) Agricultural Economics(Intake-10)\n• M.Sc. (Agri.) Agronomy (Intake-20),\n•  M.Sc. (Agri.) Entomology (Intake-15),\n• M.Sc. (Agri.) Agricultural Extension Education (Intake-20), \n• M.Sc. (Horti.) Vegetable Science (Intake-20),\n• M.Sc. (Agri.) Genetics and Plant Breeding (Intake-10), \n• M.Sc. (Agri.) Plant Pathology (Intake-15)\n• M.Sc. (Agri.) Soil Science (Intake-20)"
+    ]
+  },
+  {
+    "serial": 55,
+    "excel_row": 60,
+    "university": "Guru Kashi University, Talwandi Sabo, Bathinda(Punjab)",
+    "college": "Faculty of Agriculture",
+    "period": "29.03.2024 to 28.03.2029",
+    "start": "2024-03-29",
+    "end": "2029-03-28",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture (Intake- 180)"
+    ]
+  },
+  {
+    "serial": 56,
+    "excel_row": 61,
+    "university": "Arunchal University of Studies, Namsai, Arunachal Pradesh",
+    "college": null,
+    "period": "30.09.2025 to 29.09.2030",
+    "start": "2025-09-30",
+    "end": "2030-09-29",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 57,
+    "excel_row": 62,
+    "university": "School of Agriculture, SR University, Ananthsagar (V), Hasanparthy (M), Telangana",
+    "college": null,
+    "period": "16.3.2026 to 15.3.2031",
+    "start": "2026-03-16",
+    "end": "2031-03-15",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 58,
+    "excel_row": 63,
+    "university": "JNKVV, Jabalpur",
+    "college": "College of Agriculture, Ganjbasoda",
+    "period": "16.3.2025 to 15.3.2030",
+    "start": "2025-03-16",
+    "end": "2030-03-15",
+    "active": true,
+    "type": "Public college",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 112)"
+    ]
+  },
+  {
+    "serial": 59,
+    "excel_row": 64,
+    "university": "School of Agricultural Sciences, Malla Reddy University, Telangana",
+    "college": null,
+    "period": "16.3.2026 to 15.3.2031",
+    "start": "2026-03-16",
+    "end": "2031-03-15",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 240)"
+    ]
+  },
+  {
+    "serial": 60,
+    "excel_row": 65,
+    "university": "ITM Gwalior",
+    "college": null,
+    "period": "29.7.2024 to 28.7.2029",
+    "start": "2024-07-29",
+    "end": "2029-07-28",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 240)",
+      "M.Sc. (Ag) Agronomy (intake 10) "
+    ]
+  },
+  {
+    "serial": 61,
+    "excel_row": 66,
+    "university": "RKDF, BHOPAL",
+    "college": null,
+    "period": "16.3.2026 to 15.3.2031",
+    "start": "2026-03-16",
+    "end": "2031-03-15",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 120)"
+    ]
+  },
+  {
+    "serial": 62,
+    "excel_row": 67,
+    "university": "RNB Global University, Bikaner",
+    "college": null,
+    "period": "16.5.2025 to 15.5.2030",
+    "start": "2025-05-16",
+    "end": "2030-05-15",
+    "active": true,
+    "type": "Private university",
+    "programmes": [
+      "B.Sc. (Hons.) Agriculture  (Intake- 60)"
+    ]
+  }
+]

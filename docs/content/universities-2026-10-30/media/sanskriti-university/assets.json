@@ -1,0 +1,43 @@
+{
+  "id": 24,
+  "slug": "sanskriti-university",
+  "name": "Sanskriti University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sanskriti-university/logo.png",
+      "source_page": "https://mtech.collegevidya.in/",
+      "download_url": "https://mtech.collegevidya.in/images/sanskriti.png",
+      "source_kind": "secondary",
+      "description": "Sanskriti University blue and gold temple emblem and wordmark",
+      "alt": "Sanskriti University blue and gold temple emblem and wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "mtech.collegevidya.in",
+      "review_status": "verified_source",
+      "notes": "Original 391 x 390 PNG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sanskriti-university/campus-01.jpg",
+      "source_page": "https://www.getmyuni.com/college/sanskriti-university-mathura",
+      "download_url": "https://media.getmyuni.com/azure/college-images-test/sanskriti-university-mathura/exterior-images-aeef5e411b83308d8512e32c56a8932f.jpg",
+      "source_kind": "secondary",
+      "description": "Sanskriti University domed entrance facade with university lettering at Mathura",
+      "alt": "Sanskriti University domed entrance facade with university lettering at Mathura",
+      "campus": "Mathura, Uttar Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.getmyuni.com",
+      "review_status": "verified_source",
+      "notes": "Original 1200 x 600 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

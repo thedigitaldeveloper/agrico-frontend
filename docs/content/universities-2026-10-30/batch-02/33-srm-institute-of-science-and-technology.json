@@ -1,0 +1,412 @@
+{
+  "id": 33,
+  "slug": "srm-institute-of-science-and-technology",
+  "name": "SRM Institute of Science and Technology",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SRMIST",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Chengalpattu district",
+    "state": "Tamil Nadu",
+    "established": 1985,
+    "address": "SRM College of Agricultural Sciences, Vendhar Nagar, Baburayanpettai, near Acharapakkam, Chengalpattu district, Tamil Nadu, India",
+    "parent_university": null,
+    "website": "https://www.srmist.edu.in/",
+    "admissions_url": "https://applications.srmist.edu.in/agricultural-sciences-form",
+    "phone": "080 6908 7000",
+    "email": "admissions.india@srmist.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "SRM Institute of Science and Technology",
+    "summary": "SRM College of Agricultural Sciences offers agriculture and horticulture within SRMIST at Baburayanpettai near Acharapakkam. Horticulture began in 2018-19 and agriculture followed in 2019-20. The checked ICAR row explicitly covers the horticulture degree, making programme choice especially important here.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture and horticulture at Baburayanpettai",
+    "paragraphs": [
+      "SRMIST’s agricultural college provides separate four-year degrees in horticulture and agriculture. Its official 2026 workshop brochure places the campus at Vendhar Nagar, Baburayanpettai, near Acharapakkam. This location needs to be distinguished from the Kattankulathur wording used on an older application form and in the regulator’s recorded address.",
+      "The college’s self-study report describes a curriculum combining theory, laboratory work, field visits, experiential learning and rural agricultural or horticultural work experience. Applicants interested in fruit, vegetable and ornamental crops can compare the horticulture route with the broader agriculture degree. Both are advertised offerings; the specific ICAR row checked here names horticulture alone."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "SRM College of Agricultural Sciences, SRM Nagar"
+      },
+      {
+        "label": "Location",
+        "value": "Chengalpattu district, Tamil Nadu"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Horticulture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A separate horticultural science degree, introduced in 2018-19 and explicitly printed in the ICAR row.",
+      "eligibility": "2026 agriculture application page: recognised 10+2 with at least 50% aggregate. Accepted academic groups are Physics-Chemistry with Biology and/or Mathematics, Botany-Zoology, Forestry, Biology-Agriculture or Agriculture; the vocational route is Biology with Agricultural Practices, including theory and practicals.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A broader agricultural science degree introduced in 2019-20. Its availability does not extend the checked horticulture accreditation row.",
+      "eligibility": "2026 page: 10+2 with one of seven published science/agriculture combinations, or the specified vocational stream, and 50% aggregate.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "SRM has a dedicated Agricultural Sciences Application Form 2026, which gives programme-specific qualifying subjects and the 50% threshold. Its separately accessible older form is labelled 2024; the INR1,200 charge, selection wording and upload limits on that older page should not be treated as current rules.",
+    "eligibility_points": [
+      "2026 agriculture application page: recognised 10+2 with at least 50% aggregate. Accepted academic groups are Physics-Chemistry with Biology and/or Mathematics, Botany-Zoology, Forestry, Biology-Agriculture or Agriculture; the vocational route is Biology with Agricultural Practices, including theory and practicals."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Field, rural and laboratory learning",
+    "intro": "The college’s 2023 self-study report identifies practicals, field visits, experiential learning, rural work experience and educational tours. Its 2024-25 institutional brochure also describes departmental laboratories and agricultural GIS training.",
+    "facilities": [],
+    "practical_learning": [
+      "The college’s self-study report describes Rural Agricultural/Horticultural Work Experience.",
+      "The 2024-25 brochure identifies training with agricultural GIS software."
+    ],
+    "source_ids": [
+      "s3",
+      "s6"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists SRM College of Agricultural Sciences, SRM Nagar for 2024-02-08 to 2029-02-07. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "SRM College of Agricultural Sciences, SRM Nagar",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Horticulture \n(Intake- 90)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A41:G41"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A verified current list of agriculture teaching staff has not yet been added.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Is B.Sc. Agriculture the ICAR-accredited course in this checked SRMIST row?",
+      "answer": "The row explicitly prints B.Sc. (Hons.) Horticulture, not Agriculture. Broader accreditation requires separate regulator evidence.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does SRMIST also offer B.Sc. Agriculture?",
+      "answer": "Yes. Official college materials identify a four-year agriculture degree introduced in 2019-20.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Where is the agricultural college campus?",
+      "answer": "Recent official materials locate it at Baburayanpettai near Acharapakkam in Chengalpattu district.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "When did horticulture teaching begin?",
+      "answer": "The official 2026 workshop brochure states 2018-19.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is the old application fee a current quotation?",
+      "answer": "No. The form specifying INR 1,200 is explicitly labelled 2024. Current fee and selection details must be confirmed.",
+      "source_ids": [
+        "s5"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "SRM Institute of Science and Technology | Agriculture courses and admissions",
+    "description": "Explore SRMIST agriculture and horticulture at Baburayanpettai, course differences, field learning and 2026 application evidence, with exact ICAR horticulture scope.",
+    "keywords": [
+      "SRM Institute of Science and Technology agriculture",
+      "SRM Institute of Science and Technology admissions",
+      "SRM Institute of Science and Technology ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://qs-igauge.blr1.cdn.digitaloceanspaces.com/1040262-srm.webp",
+    "logo_url": "https://dld.srmist.edu.in/ktrshelab2024/static/media/SRM-KTR.eb873de9.png",
+    "campus_alt": "SRM Institute of Science and Technology academic building with blue arched windows at Kattankulathur",
+    "caption": "SRM Institute of Science and Technology academic building with blue arched windows at Kattankulathur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/srm-institute-of-science-and-technology/logo.png",
+    "local_campus_image": "media/srm-institute-of-science-and-technology/campus-02.webp",
+    "local_gallery": [
+      "media/srm-institute-of-science-and-technology/campus-02.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://webstor.srmist.edu.in/web_assets/downloads/2026/national-workshop-on-python-for-statistical-applications-in-agriculture-brochure.pdf",
+      "title": "2026 agricultural statistics workshop brochure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.history",
+        "identity.location"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://webstor.srmist.edu.in/web_assets/downloads/2024/icar-accreditation-ssr-college.pdf",
+      "title": "SRM College self-study report 2023",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus"
+      ],
+      "notes": "Historical institutional evidence."
+    },
+    {
+      "id": "s4",
+      "url": "https://applications.srmist.edu.in/agricultural-sciences-form",
+      "title": "Agricultural Sciences application 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "admissions"
+      ],
+      "notes": "Direct page returned 403. Horticulture accordion appears to show postgraduate eligibility; reconfirm programme-specific conditions.",
+      "note": "Current landing page read directly. Both Agriculture and Horticulture are explicitly named in the qualifying-subject text; no numerical fee or current selection method was inferred from the older 2024 portal."
+    },
+    {
+      "id": "s5",
+      "url": "https://admissions.srmist.edu.in/srmistonline/agriapplication",
+      "title": "Agricultural Sciences application form 2024",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity.contact",
+        "admissions"
+      ],
+      "notes": "Historical application process, not 2026.",
+      "note": "The page explicitly says Agricultural Sciences Application Form 2024. INR1,200, merit-only selection, process and upload limits belong to that historical page and do not establish the 2026 rules."
+    },
+    {
+      "id": "s6",
+      "url": "https://webstor.srmist.edu.in/web_assets/downloads/2024/srmist-university-brochure-2024-25.pdf",
+      "title": "SRMIST brochure 2024-25",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "Historical teaching facilities account."
+    },
+    {
+      "id": "s7",
+      "url": "https://webstor.srmist.edu.in/web_assets/downloads/2026/flipbook/srmist-institutional-development-plan/files/basic-html/page9.html",
+      "title": "2026 institutional development plan, institutional profile",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "1985 is institutional origin; deemed-university status dates to 2002. Agriculture college began 2018."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://dld.srmist.edu.in/ktrshelab2024/",
+      "title": "SRM Institute of Science and Technology — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/srm-institute-of-science-and-technology/logo.png. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.igauge.in/institution/universities/srm-institute-of-science-and-technology-kattankulathur",
+      "title": "SRM Institute of Science and Technology — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/srm-institute-of-science-and-technology/campus-02.webp. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "identity.address",
+      "reason": "Regulator and older portal use Kattankulathur; recent college materials give Baburayanpettai. Full current postal address needs confirmation.",
+      "next_source": "https://applications.srmist.edu.in/agricultural-sciences-form"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+      "next_source": "https://www.srmist.edu.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://www.srmist.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A dated current agriculture staff roster was not verified.",
+      "next_source": "https://www.srmist.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.srmist.edu.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "Current 2026 course-specific qualification requirements and application link are now read directly; the historical 2024 form does not establish current selection, documents or deadlines.",
+      "next_source": "https://applications.srmist.edu.in/agricultural-sciences-form"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://applications.srmist.edu.in/agricultural-sciences-form"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://applications.srmist.edu.in/agricultural-sciences-form"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.srmist.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Resolved the 2026 undergraduate eligibility ambiguity by reading the complete degree-specific text; retained historical portal limits as historical evidence only."
+    ]
+  }
+}

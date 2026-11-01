@@ -1,0 +1,2891 @@
+{
+  "date": "2026-10-11T20:06:08.662Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "sourceHashes": {
+    "src/components/university/university-detail-view.tsx": "298db412a127d7784b2339cfa052e621e292e49e11aaa96e8a89dd2613c99f12",
+    "src/components/university/university-detail.css": "307b904a02fd7bf17d506d6eba38b610e2272fc4ffe8ee90e77ef9fa033c1c4b",
+    "src/components/university/university-hero.tsx": "d227caa6542226cdd2c51d2b1a61fad871f6daa55bb54c54537e3b0ef96781a1",
+    "src/components/university/university-spec-band.tsx": "e2d91de24465b483a29c19f278f48c4fbe82765e7b084542f0eeb6c69db2d1ce",
+    "src/components/university/university-fee-table.tsx": "ea28426cbcef97d94927853215c965cc77c13312e50626d96d766d13686e5958",
+    "src/components/university/university-admission-sidebar.tsx": "23e72875f027904065f9f991d36a9dbfadeaf69cf535e22ca2b8ffc57aa4b451",
+    "src/components/university/admission-panel.tsx": "490fec602df7f2e1e4dac076d21f3b3ac892b3dfaac3018a765ea1b7d970aad0",
+    "src/components/university/section-nav.tsx": "d2073dff663df198a9747bbeb451ee44bb245fa5770f79b32d3c81a0de44e5e6",
+    "src/components/university/university-enquiry-modal.tsx": "51255ea8e5638e2a504ea71562681598acb4fe48542ef08c5f40b0a41db5e379",
+    "src/components/forms/enquiry-form.tsx": "c22a6482dd2e1f3a8af78d9c718cfbc0420aea8369cbceda7d2227bcf87e216c",
+    "src/components/program/program-detail-view.tsx": "aa5a49ea15e36c7a78552a4ee2c01469fad3509d77b6d0a2f78f930b6ca1fdf8",
+    "src/components/program/programme-detail.css": "47aabc07e571db8e50f5d6755a0452f1a41e9a2ed0f75be0698774733a43a9f3",
+    "src/components/program/program-hero.tsx": "7617783448d2d25cc599439af9bfad917689c1a875a253ea801ebd41cc2b3b1c",
+    "src/components/program/program-admission-sidebar.tsx": "13f3593998d5be73a2c9571eb7212716206d082fdfc80039feebe96504366ce3",
+    "src/components/program/university-explorer.tsx": "70cea111bb34d04a675b1ce6796d468a0f521bcc315d29e39d2c44dab19d02a1",
+    "src/components/program/offering-detail-view.tsx": "eb428d2752610c8992202051ef52b400cc2c70c262c8e2e545a208fe07344ad5",
+    "src/lib/cms/repositories/university.ts": "3bb303ec7b86e155e40ec59539eb9c86cb05028c9f6aa00e4383f801c4f65aaf",
+    "src/lib/cms/repositories/program.ts": "48ecc2ceed419408300bd5c4e15e9f54a90f03a06bbd02ee46c86be8a5fd3589",
+    "src/lib/cms/repositories/content.ts": "10b55a63a1ddc39e410853f551c739a7a544a3dbd42832f0313436bfe03c6058",
+    "src/app/university/[slug]/page.tsx": "fe59620e48070bc512b3e64da0f626eedbe1e9db6c4264de424deadc493ff0d0",
+    "src/app/university/[slug]/[section]/page.tsx": "a72135bb1825a91a4e7f92916bd6c67e28c2354dbcf727558d30f1e5db2a1abb",
+    "src/app/[slug]/page.tsx": "100973f1b5d603a5b32139fb6effd230b685f14c35b5e5d3122948a0d1fbcd61",
+    "src/app/[slug]/[section]/page.tsx": "f69073a47d52d3a1a58897677ab40079d82b21c6e1a0a80715e5e84f3f8b3a9f",
+    "src/app/offering/[university]/[program]/page.tsx": "1e4df66d64aa3cb0c1bc49c9ccac20d663233526c6bd9ebed52a627d81f6306c",
+    "src/components/cms/section-body.tsx": "34f0e11586a020367c8025a40175704c07fa9563c45cb9e11a0ab1ffef94ad97",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab",
+    "scripts/verify-rs-detail-ui.cjs": "73432e88376f854a5009aa32489cd6927367b39dcf8d4df18ae7022e689e339e"
+  },
+  "buildId": "Dglw7zyGMt27mqvyX0a1u",
+  "checks": [
+    "Representative university, programme, content sections and exact pair resolved from the published CMS",
+    "University fee list: search, empty state, clear, show-all and exact programme links",
+    "1440px university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "1440px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-courses-fees: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px university-faqs: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px programme counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "1440px programme-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px programme-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px offering-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "1440px offering-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "University fee list: search, empty state, clear, show-all and exact programme links",
+    "390px university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px mobile university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-courses-fees: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px university-faqs: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px programme counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "390px programme-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px programme-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px offering-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "390px offering-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "University fee list: search, empty state, clear, show-all and exact programme links",
+    "360px university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "360px mobile university counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "360px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px university-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px university-courses-fees: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px university-faqs: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px programme counselling: opens, keeps exact context, traps focus and closes with Escape/button without submitting",
+    "360px programme-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px programme-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px offering-overview: HTTP, CMS content, navigation, media, interactions and overflow checks",
+    "360px offering-curriculum: HTTP, CMS content, navigation, media, interactions and overflow checks"
+  ],
+  "routes": [
+    {
+      "path": "/university/parul-university-online",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/parul-university-online/overview",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/parul-university-online/courses-fees",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/parul-university-online/faqs",
+      "kind": "university",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management",
+      "kind": "program",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management/curriculum",
+      "kind": "program",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management",
+      "kind": "offering",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "kind": "offering",
+      "width": 1440,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/parul-university-online",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/overview",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/courses-fees",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/faqs",
+      "kind": "university",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 61,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/online-mba-finance-management",
+      "kind": "program",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management/curriculum",
+      "kind": "program",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management",
+      "kind": "offering",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "kind": "offering",
+      "width": 390,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/university/parul-university-online",
+      "kind": "university",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 77,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/overview",
+      "kind": "university",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 77,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/courses-fees",
+      "kind": "university",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 77,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/university/parul-university-online/faqs",
+      "kind": "university",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 10,
+      "mobileClearance": {
+        "barHeight": 77,
+        "spacerHeight": 96,
+        "finalActionReachable": true
+      }
+    },
+    {
+      "path": "/online-mba-finance-management",
+      "kind": "program",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/online-mba-finance-management/curriculum",
+      "kind": "program",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 23,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management",
+      "kind": "offering",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    },
+    {
+      "path": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "kind": "offering",
+      "width": 360,
+      "status": 200,
+      "imagesDecoded": 1,
+      "mobileClearance": null
+    }
+  ],
+  "layouts": [
+    {
+      "route": "/university/parul-university-online",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 4048,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 154.546875,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 518.046875,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 1072.5625,
+        "width": 942,
+        "height": 1363.875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 567.046875,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 956,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/overview",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 2983,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 154.546875,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 518.046875,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 721.046875,
+        "width": 942,
+        "height": 1322.375,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 567.046875,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 956,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/courses-fees",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 6582,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 206.0625,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 569.5625,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 772.5625,
+        "width": 942,
+        "height": 3759.046875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 618.5625,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 956,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/faqs",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 2117,
+      "heading": {
+        "x": 178,
+        "y": 156,
+        "width": 586.1875,
+        "height": 103.03125,
+        "right": 764.1875
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 466.53125,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 669.53125,
+        "width": 942,
+        "height": 507.875,
+        "right": 1022
+      },
+      "nav": {
+        "x": 0,
+        "y": 515.53125,
+        "width": 1440,
+        "height": 50,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 633,
+          "naturalHeight": 956,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 7709,
+      "heading": {
+        "x": 80,
+        "y": 213.140625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 620.359375,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 1007.359375,
+        "width": 972,
+        "height": 1497.953125,
+        "right": 1052
+      },
+      "nav": {
+        "x": 0,
+        "y": 911.359375,
+        "width": 1440,
+        "height": 54,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management/curriculum",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 8423,
+      "heading": {
+        "x": 80,
+        "y": 213.140625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 620.359375,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 1007.359375,
+        "width": 972,
+        "height": 2212.8125,
+        "right": 1052
+      },
+      "nav": {
+        "x": 0,
+        "y": 911.359375,
+        "width": 1440,
+        "height": 54,
+        "right": 1440
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 3473,
+      "heading": {
+        "x": 80,
+        "y": 251.640625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 509.828125,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 682.828125,
+        "width": 902,
+        "height": 1525.234375,
+        "right": 982
+      },
+      "nav": {
+        "x": 80,
+        "y": 598.828125,
+        "width": 902,
+        "height": 60,
+        "right": 982
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "width": 1440,
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "pageHeight": 4161,
+      "heading": {
+        "x": 80,
+        "y": 251.640625,
+        "width": 858,
+        "height": 57.453125,
+        "right": 938
+      },
+      "hero": {
+        "x": 0,
+        "y": 49,
+        "width": 1440,
+        "height": 509.828125,
+        "right": 1440
+      },
+      "content": {
+        "x": 80,
+        "y": 682.828125,
+        "width": 902,
+        "height": 2212.8125,
+        "right": 982
+      },
+      "nav": {
+        "x": 80,
+        "y": 598.828125,
+        "width": 902,
+        "height": 60,
+        "right": 982
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 8369,
+      "heading": {
+        "x": 88,
+        "y": 175.140625,
+        "width": 284,
+        "height": 160,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 763.140625,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1600.890625,
+        "width": 354,
+        "height": 2555.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 826.140625,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 588,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/overview",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 6326,
+      "heading": {
+        "x": 88,
+        "y": 175.140625,
+        "width": 284,
+        "height": 128,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 731.140625,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 935.140625,
+        "width": 354,
+        "height": 2456.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 794.140625,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 588,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/courses-fees",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 11648,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 284,
+        "height": 128,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 756.28125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 960.28125,
+        "width": 354,
+        "height": 5441,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 819.28125,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 588,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/faqs",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 4438,
+      "heading": {
+        "x": 88,
+        "y": 175.140625,
+        "width": 284,
+        "height": 64,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 667.140625,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 871.140625,
+        "width": 354,
+        "height": 632,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 730.140625,
+        "width": 390,
+        "height": 47,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=640&q=75",
+          "naturalWidth": 390,
+          "naturalHeight": 588,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 15733,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 965.921875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1509.421875,
+        "width": 354,
+        "height": 2323,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 1429.421875,
+        "width": 390,
+        "height": 52,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management/curriculum",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 16093,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 965.921875,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1509.421875,
+        "width": 354,
+        "height": 2683.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 0,
+        "y": 1429.421875,
+        "width": 390,
+        "height": 52,
+        "right": 390
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 6381,
+      "heading": {
+        "x": 18,
+        "y": 255.78125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 957.328125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1125.328125,
+        "width": 354,
+        "height": 2323,
+        "right": 372
+      },
+      "nav": {
+        "x": 18,
+        "y": 1046.328125,
+        "width": 354,
+        "height": 60,
+        "right": 372
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "width": 390,
+      "viewport": 390,
+      "documentWidth": 390,
+      "pageHeight": 6741,
+      "heading": {
+        "x": 18,
+        "y": 255.78125,
+        "width": 354,
+        "height": 70.65625,
+        "right": 372
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 390,
+        "height": 957.328125,
+        "right": 390
+      },
+      "content": {
+        "x": 18,
+        "y": 1125.328125,
+        "width": 354,
+        "height": 2683.5,
+        "right": 372
+      },
+      "nav": {
+        "x": 18,
+        "y": 1046.328125,
+        "width": 354,
+        "height": 60,
+        "right": 372
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 8475,
+      "heading": {
+        "x": 88,
+        "y": 175.140625,
+        "width": 254,
+        "height": 159.53125,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 762.671875,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 1600.421875,
+        "width": 324,
+        "height": 2628,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 825.671875,
+        "width": 360,
+        "height": 47,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=384&q=75",
+          "naturalWidth": 359,
+          "naturalHeight": 543,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/overview",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 6458,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 254,
+        "height": 127.625,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 755.90625,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 959.90625,
+        "width": 324,
+        "height": 2529,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 818.90625,
+        "width": 360,
+        "height": 47,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=384&q=75",
+          "naturalWidth": 359,
+          "naturalHeight": 543,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/courses-fees",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 11939,
+      "heading": {
+        "x": 88,
+        "y": 200.28125,
+        "width": 254,
+        "height": 159.53125,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 787.8125,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 991.8125,
+        "width": 324,
+        "height": 5665.25,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 850.8125,
+        "width": 360,
+        "height": 47,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=384&q=75",
+          "naturalWidth": 359,
+          "naturalHeight": 543,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/university/parul-university-online/faqs",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 4530,
+      "heading": {
+        "x": 88,
+        "y": 175.140625,
+        "width": 254,
+        "height": 95.71875,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 698.859375,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 902.859375,
+        "width": 324,
+        "height": 659,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 761.859375,
+        "width": 360,
+        "height": 47,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=96&q=75",
+          "naturalWidth": 105,
+          "naturalHeight": 28,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fugc_deb_logo_74e544d77c.jpg%3Fv%3D2026-09-04T16%253A41%253A59.816Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 31,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fapproval_aicte_mtuf70r0.png%3Fv%3D2026-09-09T18%253A16%253A44.941Z&w=32&q=75",
+          "naturalWidth": 32,
+          "naturalHeight": 32,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_campus_photo.jpg%3Fv%3D2026-09-10T05%253A04%253A26.742Z&w=384&q=75",
+          "naturalWidth": 359,
+          "naturalHeight": 543,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 19,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 58,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fthumbnail_rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 48,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=48&q=75",
+          "naturalWidth": 48,
+          "naturalHeight": 8,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 16297,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 324,
+        "height": 70.65625,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 1035.5625,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 1579.0625,
+        "width": 324,
+        "height": 2388.25,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 1499.0625,
+        "width": 360,
+        "height": 52,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/online-mba-finance-management/curriculum",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 16670,
+      "heading": {
+        "x": 18,
+        "y": 217.28125,
+        "width": 324,
+        "height": 70.65625,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 1035.5625,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 1579.0625,
+        "width": 324,
+        "height": 2761,
+        "right": 342
+      },
+      "nav": {
+        "x": 0,
+        "y": 1499.0625,
+        "width": 360,
+        "height": 52,
+        "right": 360
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fnmims-online_official_logo.png%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 100,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmanipal-university-jaipur-online_official_logo.svg%3Fv%3D2026-09-10T05%253A00%253A03.315Z&w=256&q=75",
+          "naturalWidth": 150,
+          "naturalHeight": 150,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Flpu-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 204,
+          "naturalHeight": 203,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Famity-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 303,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fchandigarh-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 406,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-pune-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fkurukshetra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 288,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fandhra-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 265,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=256&q=75",
+          "naturalWidth": 126,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fdpu-navi-mumbai-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 43,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgalgotias-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 50,
+          "naturalHeight": 50,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fvgu_online_official_logo.png%3Fv%3D2026-09-09T18%253A56%253A00.000Z&w=640&q=75",
+          "naturalWidth": 598,
+          "naturalHeight": 300,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fop-jindal-global-university-online_official_logo.webp%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=96&q=75",
+          "naturalWidth": 96,
+          "naturalHeight": 34,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fgla-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 248,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fshoolini-university-online_official_logo.png%3Fv%3D2026-09-10T04%253A58%253A47.007Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 195,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Futtaranchal-university-online_official_logo.png%3Fv%3D2026-09-10T05%253A05%253A37.205Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 36,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsikkim-manipal-university-online_official_logo.jpg%3Fv%3D2026-09-10T05%253A13%253A06.000Z&w=256&q=75",
+          "naturalWidth": 256,
+          "naturalHeight": 200,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Marketing_Management_31d9039909.svg%3Fv%3D2026-09-04T16%253A40%253A48.352Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Personnel_and_HR_Management_c3e2908da9.svg%3Fv%3D2026-09-04T16%253A40%253A49.357Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_System_And_Operations_Management_6e9979c7fb.svg%3Fv%3D2026-09-04T16%253A40%253A50.319Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_logistics_and_supply_chain_24fcc7abf5.svg%3Fv%3D2026-09-04T16%253A40%253A51.131Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_Business_Analytics_b7e1468ab9.svg%3Fv%3D2026-09-04T16%253A40%253A52.414Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fonline_MBA_specializations_IT_Management_240f9347c0.svg%3Fv%3D2026-09-04T16%253A40%253A53.527Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 6510,
+      "heading": {
+        "x": 18,
+        "y": 255.78125,
+        "width": 324,
+        "height": 70.65625,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 973.828125,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 1141.828125,
+        "width": 324,
+        "height": 2388.25,
+        "right": 342
+      },
+      "nav": {
+        "x": 18,
+        "y": 1062.828125,
+        "width": 324,
+        "height": 60,
+        "right": 342
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "route": "/offering/parul-university-online/online-mba-finance-management?section=curriculum",
+      "width": 360,
+      "viewport": 360,
+      "documentWidth": 360,
+      "pageHeight": 6883,
+      "heading": {
+        "x": 18,
+        "y": 255.78125,
+        "width": 324,
+        "height": 70.65625,
+        "right": 342
+      },
+      "hero": {
+        "x": 0,
+        "y": 63,
+        "width": 360,
+        "height": 973.828125,
+        "right": 360
+      },
+      "content": {
+        "x": 18,
+        "y": 1141.828125,
+        "width": 324,
+        "height": 2761,
+        "right": 342
+      },
+      "nav": {
+        "x": 18,
+        "y": 1062.828125,
+        "width": 324,
+        "height": 60,
+        "right": 342
+      },
+      "outside": [],
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fparul-university-online_official_logo.svg%3Fv%3D2026-09-10T05%253A02%253A50.726Z&w=64&q=75",
+          "naturalWidth": 102,
+          "naturalHeight": 28,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "browserErrors": [],
+  "consoleErrors": [],
+  "failedResponses": [],
+  "blockedMutations": [],
+  "limitations": [],
+  "selection": {
+    "university": {
+      "slug": "parul-university-online",
+      "name": "Parul University Online",
+      "documentId": "fc5b3a836905ff9a3df788b2",
+      "logo": "/uploads/parul-university-online_official_logo.svg",
+      "image": "/uploads/parul-university-online_campus_photo.jpg"
+    },
+    "program": {
+      "slug": "online-mba-finance-management",
+      "name": "Online MBA in Finance Management",
+      "documentId": "d4a28468b6936b007dc9c317"
+    },
+    "universitySections": [
+      {
+        "slug": "overview",
+        "name": "Overview"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Courses & Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Placements"
+      },
+      {
+        "slug": "student-support",
+        "name": "Student Support"
+      },
+      {
+        "slug": "faqs",
+        "name": "FAQs"
+      }
+    ],
+    "programmeSections": [
+      {
+        "slug": "overview",
+        "name": "Finance Management Overview"
+      },
+      {
+        "slug": "curriculum",
+        "name": "Finance Management Curriculum"
+      },
+      {
+        "slug": "careers-and-scope",
+        "name": "Finance Management Careers"
+      },
+      {
+        "slug": "courses-fees",
+        "name": "Finance Management Fees"
+      },
+      {
+        "slug": "admission",
+        "name": "Finance Management Admission"
+      },
+      {
+        "slug": "placements",
+        "name": "Finance Management Placements"
+      },
+      {
+        "slug": "faqs",
+        "name": "Finance Management FAQs"
+      }
+    ],
+    "universityProgrammeCount": 135,
+    "exactOffering": "/offering/parul-university-online/online-mba-finance-management"
+  },
+  "lastMobileClearance": {
+    "width": 360,
+    "path": "/university/parul-university-online/faqs",
+    "bar": {
+      "x": 0,
+      "y": 823,
+      "width": 360,
+      "height": 77
+    },
+    "spacer": {
+      "x": 0,
+      "y": 1317.578125,
+      "width": 360,
+      "height": 96
+    }
+  },
+  "status": "passed"
+}

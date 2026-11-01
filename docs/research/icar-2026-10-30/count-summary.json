@@ -1,0 +1,267 @@
+{
+  "as_of": "2026-10-30",
+  "headline": "58 unique privately managed institutions have a currently date-valid ICAR accreditation entry in the checked published 2026 lists.",
+  "verified_private_institutions": 58,
+  "private_universities_with_an_accredited_programme_or_unit": 39,
+  "independent_private_affiliated_colleges": 19,
+  "active_accredited_source_units": 59,
+  "strict_bsc_agriculture_institutions_by_explicit_programme_labels": 56,
+  "scope": "Agriculture and allied degree programmes. Private includes privately managed aided colleges and private deemed universities. A university is counted once when one or more of its schools/programmes is listed; this is not a claim that every course or campus of that university is accredited.",
+  "arithmetic": "62 List-II rows - 3 printed expired terms - 1 public constituent college - 1 duplicate Centurion university row + 1 privately managed aided college from List III = 58 unique institutions.",
+  "listed_unique_private_institutions_including_2026_expired_terms": 61,
+  "listed_private_universities_including_expired_terms": 40,
+  "listed_private_colleges_including_expired_terms": 21,
+  "source_page": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes",
+  "source_workbooks": [
+    {
+      "file": "private-list-ii.xlsx",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "sheet": "Sheet1",
+      "range": "A3:G67"
+    },
+    {
+      "file": "general-universities-list-iii.xlsx",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20ICAR%20Accredited%20Constituent%20affiliated%20Colleges%20Programmes%20of%20General%20Universities%20%28Public%29-%20List-III.xlsx",
+      "sheet": "Sheet1",
+      "range": "A3:G15"
+    }
+  ],
+  "workbook_modified_metadata": "2026-06-22 (source internal OOXML metadata)",
+  "publication_note": "2026 official files downloaded from the live ICAR publication page. A site-wide footer last-update value is not treated as a file version or accreditation renewal.",
+  "additional_verified_evidence": [
+    {
+      "institution": "Vanavarayar Institute of Agriculture",
+      "url": "https://www.via.ac.in/latest_events/72.pdf",
+      "finding": "The linked official letter was downloaded and its scanned first page visually read. Letter dated 3 September 2021 grants 17 August 2021–16 August 2026, not a renewal beyond 2026."
+    },
+    {
+      "institution": "Tilak Dhari P.G. College",
+      "url": "https://tdcollege.org/pdf/information/SAR.pdf",
+      "pages": "7, 94–100",
+      "finding": "The institution marks grant-in-aid funding and describes its management. Its UGC listing labels it Non Government."
+    },
+    {
+      "institution": "Shri Shivaji Agriculture College, Amravati",
+      "url": "https://www.pdkv.ac.in/?page_id=3950",
+      "finding": "Affiliating public university explicitly states that the college is run by Shri Shivaji Education Society."
+    },
+    {
+      "institution": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "url": "https://unnatbharatabhiyan.gov.in/public/uploads/aishe_codes/College%20Institution%20AISHE%20Code.pdf",
+      "finding": "Official AISHE directory search record labels C-56759 Private Un-Aided, affiliated to ANGRAU."
+    },
+    {
+      "institution": "SRM College of Agricultural Sciences",
+      "url": "https://webstor.srmist.edu.in/web_assets/downloads/2026/bsc-hons-agriculture-curriculum-and-syllabus-2025-regulations.pdf",
+      "finding": "SRMIST official curriculum identifies this as its Faculty/College of Agricultural Sciences, so it belongs to one private deemed university rather than an independent affiliated college."
+    }
+  ],
+  "by_state": {
+    "Andhra Pradesh": {
+      "private_universities": 0,
+      "private_colleges": 4,
+      "total": 4
+    },
+    "Arunachal Pradesh": {
+      "private_universities": 1,
+      "private_colleges": 0,
+      "total": 1
+    },
+    "Haryana": {
+      "private_universities": 3,
+      "private_colleges": 0,
+      "total": 3
+    },
+    "Himachal Pradesh": {
+      "private_universities": 1,
+      "private_colleges": 0,
+      "total": 1
+    },
+    "Madhya Pradesh": {
+      "private_universities": 6,
+      "private_colleges": 0,
+      "total": 6
+    },
+    "Maharashtra": {
+      "private_universities": 0,
+      "private_colleges": 1,
+      "total": 1
+    },
+    "Odisha": {
+      "private_universities": 4,
+      "private_colleges": 0,
+      "total": 4
+    },
+    "Punjab": {
+      "private_universities": 3,
+      "private_colleges": 2,
+      "total": 5
+    },
+    "Rajasthan": {
+      "private_universities": 9,
+      "private_colleges": 1,
+      "total": 10
+    },
+    "Tamil Nadu": {
+      "private_universities": 5,
+      "private_colleges": 9,
+      "total": 14
+    },
+    "Telangana": {
+      "private_universities": 2,
+      "private_colleges": 0,
+      "total": 2
+    },
+    "Uttar Pradesh": {
+      "private_universities": 3,
+      "private_colleges": 2,
+      "total": 5
+    },
+    "Uttarakhand": {
+      "private_universities": 1,
+      "private_colleges": 0,
+      "total": 1
+    },
+    "West Bengal": {
+      "private_universities": 1,
+      "private_colleges": 0,
+      "total": 1
+    }
+  },
+  "exclusions": [
+    {
+      "source_list": "II",
+      "serial": 1,
+      "source_sheet": "Sheet1",
+      "source_excel_row": 5,
+      "source_range": "A5:G5",
+      "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "institution_name": "Teerthanker Mahaveer University",
+      "count_type": "Private university",
+      "state": "Uttar Pradesh",
+      "affiliating_or_parent_university": "Teerthankar Mahaveer University, Moradabad, U.P",
+      "accredited_unit": "Teerthanker Mahaveer University",
+      "valid_from": "2021-08-17",
+      "valid_until": "2026-08-16",
+      "active_on_as_of": false,
+      "count_status": "excluded_printed_term_expired_renewal_unverified",
+      "programmes_as_printed": [
+        "• B.Sc. (Hons) Agriculture \n(Intake- 180)",
+        "_",
+        "_"
+      ],
+      "ownership_support": [],
+      "scope_note": ""
+    },
+    {
+      "source_list": "II",
+      "serial": 2,
+      "source_sheet": "Sheet1",
+      "source_excel_row": 6,
+      "source_range": "A6:G6",
+      "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "institution_name": "Vanavarayar Institute of Agriculture, Pollachi, Tamil Nadu",
+      "count_type": "Private college",
+      "state": "Tamil Nadu",
+      "affiliating_or_parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+      "accredited_unit": "Vanavarayar Institute of Agriculture, Pollachi, Tamil Nadu",
+      "valid_from": "2021-08-17",
+      "valid_until": "2026-08-16",
+      "active_on_as_of": false,
+      "count_status": "excluded_printed_term_expired_renewal_unverified",
+      "programmes_as_printed": [
+        "• B.Sc. (Hons.) Agriculture\n(Intake- 120)*",
+        "_",
+        "_"
+      ],
+      "ownership_support": [
+        "https://www.via.ac.in/latest_events/72.pdf"
+      ],
+      "scope_note": ""
+    },
+    {
+      "source_list": "II",
+      "serial": 13,
+      "source_sheet": "Sheet1",
+      "source_excel_row": 18,
+      "source_range": "A18:G18",
+      "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "institution_name": "Agricultural Development Trust's College of Agriculture, Baramati",
+      "count_type": "Private college",
+      "state": "Maharashtra",
+      "affiliating_or_parent_university": "Mahatma Phule Krishi Vidyapeeth, Rahuri, Maharashtra",
+      "accredited_unit": "Agricultural Development Trust's College of Agriculture, Baramati",
+      "valid_from": "2021-02-24",
+      "valid_until": "2026-02-23",
+      "active_on_as_of": false,
+      "count_status": "excluded_printed_term_expired_renewal_unverified",
+      "programmes_as_printed": [
+        "• B.Sc. (Hons) Agriculture* (Intake- 120)",
+        "_",
+        "_"
+      ],
+      "ownership_support": [],
+      "scope_note": ""
+    },
+    {
+      "source_list": "II",
+      "serial": 58,
+      "source_sheet": "Sheet1",
+      "source_excel_row": 63,
+      "source_range": "A63:G63",
+      "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "institution_name": "College of Agriculture, Ganjbasoda",
+      "count_type": "Public college",
+      "state": "Madhya Pradesh",
+      "affiliating_or_parent_university": "JNKVV, Jabalpur",
+      "accredited_unit": "College of Agriculture, Ganjbasoda",
+      "valid_from": "2025-03-16",
+      "valid_until": "2030-03-15",
+      "active_on_as_of": true,
+      "count_status": "excluded_public_constituent_college",
+      "programmes_as_printed": [
+        "B.Sc. (Hons.) Agriculture  (Intake- 112)"
+      ],
+      "ownership_support": [
+        "https://www.jnkvv.org/about-colleges"
+      ],
+      "scope_note": ""
+    }
+  ],
+  "deduplication": [
+    {
+      "source_list": "II",
+      "serial": 45,
+      "source_sheet": "Sheet1",
+      "source_excel_row": 50,
+      "source_range": "A50:G50",
+      "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "institution_name": "Centurion University of Technology and Management, Odisha",
+      "count_type": "Private university",
+      "state": "Odisha",
+      "affiliating_or_parent_university": "Centurion University of Technology and Management, Odisha",
+      "accredited_unit": "School of Fisheries",
+      "valid_from": "2024-02-08",
+      "valid_until": "2029-02-07",
+      "active_on_as_of": true,
+      "count_status": "merged_centurion_second_accredited_unit",
+      "programmes_as_printed": [
+        "B. F. Sc. (Intake- 40)"
+      ],
+      "ownership_support": [],
+      "scope_note": "Centurion University counted once; agriculture and fisheries schools retained as two source records."
+    }
+  ],
+  "limits": [
+    "This is a reproducible current-date-valid count from the checked published records, not confirmation that the national register includes every new or renewed accreditation issued after the workbook update.",
+    "No dated renewal decision was found for TMU, Vanavarayar or ADT Baramati during targeted official-site checks. Their generic marketing claims were not used to extend printed validity.",
+    "SHUATS is absent from the checked current lists. Historical accreditation and generic ICAR-admission wording do not establish a current dated term, so it is not added.",
+    "The strict B.Sc. Agriculture count follows the specific programme labels printed in the source. It does not infer accreditation for an unlisted programme from an accredited institution."
+  ],
+  "integrity": {
+    "constituent-list-ia.xlsx": "d8779227fd2eba418fca1c521d9841117cdd59d905966046d7835eac372c3b55",
+    "general-universities-list-iii.xlsx": "72ff3c7da5d71abd84d34c6ef33d4e6fbc1ee428c2b36bfb80e5429372d05878",
+    "private-list-ii.xlsx": "f6cf2c962026b58775c8acd617a3739b696cbdfaabe74bf705e1d975578eaea2",
+    "saus-list-i.xlsx": "f44ca8441ee20093269fe8556f16aa08891079af1112f5319b37e0f34b078e08"
+  }
+}

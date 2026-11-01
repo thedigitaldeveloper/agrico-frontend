@@ -1,0 +1,463 @@
+{
+  "id": 19,
+  "slug": "chandigarh-university",
+  "name": "Chandigarh University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "CU",
+    "ownership": "Private university in the audited ICAR register",
+    "city": "Mohali",
+    "state": "Punjab",
+    "established": 2012,
+    "address": "NH-05 Chandigarh–Ludhiana Highway,Mohali,Punjab,India",
+    "parent_university": null,
+    "website": "https://www.cuchd.in/",
+    "admissions_url": "https://www.cuchd.in/admissions/",
+    "phone": "1800 1212 88800",
+    "email": "admissions@cumail.in",
+    "source_ids": [
+      "r31_1",
+      "r2_established"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Chandigarh University",
+    "summary": "Chandigarh University is a multidisciplinary private university in Punjab. ICAR’s verified agriculture decision concerns B.Sc. (Hons.) Agriculture specifically. Applicants should obtain direct confirmation of the current agriculture intake and teaching arrangements, as the admissions pages read did not establish an active degree-specific application route.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture enquiries at Chandigarh University",
+    "paragraphs": [
+      "Chandigarh University’s Punjab campus forms part of a multidisciplinary university with institutes spanning engineering, business, sciences and related fields. The agriculture qualification relevant to this page is B.Sc. (Hons.) Agriculture, named in ICAR’s accreditation decision. It should be assessed through its own programme information rather than through the university’s broader marketing claims.",
+      "Applicants researching CU agriculture currently need a direct, programme-specific response from admissions. The official pages read include a current general admissions catalogue and an older international integrated agriculture–MBA page. Neither establishes the current domestic BSc agriculture intake, practical-learning schedule or payable charges. Obtain those details in writing before comparing CU with colleges whose current agriculture prospectus is available."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private university"
+      },
+      {
+        "label": "State",
+        "value": "Punjab"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-07-18"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "B.Sc. (Hons.) Agriculture is the qualification named in ICAR’s 2022 decision. A current domestic programme page establishing duration, curriculum and entry conditions was not located; the legacy integrated BSc–MBA page concerns a different award.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Programme-only: ICAR’s 31st NAEAB proceedings approve B.Sc. (Hons.) Agriculture, 19 July 2022–18 July 2027; they explicitly do not approve the institute itself. No integrated BSc–MBA coverage is inferred.",
+      "source_ids": [
+        "s1",
+        "s5"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to CU",
+    "intro": "Chandigarh University’s general admissions page now refers to the 2027–28 intake and CUCET 2027. Its current general programme catalogue did not establish a domestic B.Sc.Agriculture offering in this research pass. Applicants must first obtain written confirmation of the programme, campus and intake before treating the historic accredited entry as an available seat.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Confirm the agriculture teaching arrangement",
+    "intro": "CU’s current institute list describes the wider academic campus. A programme-specific agriculture farm, laboratory inventory and field-training schedule were not verified. General university facilities are not substituted for evidence of agricultural teaching access.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "No current agriculture-specific scholarship terms were verified. The legacy international integrated-course page lists historical international concessions, which should not be applied to a domestic B.Sc. Agriculture enquiry.",
+    "schemes": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "CU pages display university-wide placement marketing, but the evidence read does not identify agriculture cohorts, recruiters or outcomes. Those wider figures are excluded from the agriculture profile.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR’s 31st NAEAB meeting proceedings approved B.Sc. (Hons.) Agriculture from 19 July 2022 to 18 July 2027 and explicitly did not approve University Institute of Agriculture Sciences itself. This is programme-specific accreditation. The locally audited workbook identity and printed labels are retained below without expanding the approved scope.",
+    "icar_units": [
+      {
+        "unit": "Chandigarh University",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture \n(Intake- 120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-07-19",
+        "valid_until": "2027-07-18",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A27:G27"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1",
+      "s5"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "What agriculture qualification is confirmed by ICAR?",
+      "answer": "The 31 st NAEAB proceedings approve B.Sc. (Hons.) Agriculture for 19 July 2022 to 18 July 2027.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Was the agriculture institute itself approved in that decision?",
+      "answer": "No. The same proceedings explicitly say the University Institute of Agriculture Sciences was not approved for accreditation. The degree decision must not be expanded into blanket institute accreditation.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Is a current agriculture intake confirmed?",
+      "answer": "No. The official admissions and institute pages read did not establish a current domestic agriculture application route. Ask CU admissions directly.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Can fees from the integrated international page be used?",
+      "answer": "No. That page concerns an integrated agriculture–MBA award and retains Admissions 2016 navigation. It is not a current domestic agriculture fee schedule.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Are CU’s wider placement figures agriculture outcomes?",
+      "answer": "The pages read do not provide an agriculture breakdown, so university-wide placement claims are not used as agriculture outcomes.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for CU?",
+      "answer": "Chandigarh University is recorded as established in 2012.",
+      "source_ids": [
+        "r31_1",
+        "r2_established"
+      ]
+    },
+    {
+      "question": "Where is the official application information for CU?",
+      "answer": "https://www.cuchd.in/admissions/ is a general admissions channel; the researched current catalogue does not confirm an available domestic agriculture intake.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "How can applicants contact CU?",
+      "answer": "Public telephone: 1800 1212 88800; Public email: admissions@cumail.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "r31_1",
+        "r2_established"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Chandigarh University | Agriculture Courses & Admissions",
+    "description": "Review Chandigarh University agriculture: the specific ICAR degree decision, current-intake verification needs, admissions evidence and key applicant checks.",
+    "keywords": [
+      "Chandigarh University",
+      "CU agriculture",
+      "Mohali agriculture admission",
+      "B.Sc. (Hons.) Agriculture Chandigarh University"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.cuchd.in/about/images/about.jpg",
+    "logo_url": "https://www.cuchd.in/home-assets/img/logo.png",
+    "campus_alt": "Students sitting on a lawn in front of a Chandigarh University academic building",
+    "caption": "Students sitting on a lawn in front of a Chandigarh University academic building",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/chandigarh-university/logo.png",
+    "local_campus_image": "media/chandigarh-university/campus-real-01.jpg",
+    "local_gallery": [
+      "media/chandigarh-university/campus-real-01.jpg",
+      "media/chandigarh-university/campus-real-03.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.cuchd.in/academics/institutes.php",
+      "title": "CU institutes",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "faqs.2",
+        "faqs.4",
+        "overview",
+        "placements"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.cuchd.in/admissions/",
+      "title": "CU admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "faqs.4",
+        "overview",
+        "placements"
+      ],
+      "notes": "Page displays Admissions 2027–28 at check time; does not verify a current BSc agriculture intake.",
+      "note": "The page now explicitly promotes CUCET 2027/admissions 2027–28. A current domestic B.Sc. Agriculture offering was not established in the general catalogue."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.cuchd.in/international/international-students/programs/b.sc-mba-agriculture.php",
+      "title": "Legacy integrated agriculture + MBA international page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.3",
+        "overview",
+        "scholarships"
+      ],
+      "notes": "Page navigation says Admissions 2016. Not current domestic BSc degree, fee or scholarship evidence."
+    },
+    {
+      "id": "s5",
+      "url": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf",
+      "title": "ICAR NAEAB 31st meeting proceedings",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.1",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Explicit programme approval and separate non-approval of the institute; exact scope retained."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.cuchd.in/",
+      "title": "Chandigarh University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/chandigarh-university/logo.png. Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.cuchd.in/about/",
+      "title": "Chandigarh University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/chandigarh-university/campus-real-01.jpg. Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.cuchd.in/about/",
+      "title": "Chandigarh University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/chandigarh-university/campus-real-03.jpg. Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected."
+    },
+    {
+      "id": "r31_1",
+      "title": "Chandigarh University official admissions contact",
+      "url": "https://www.cuchd.in/contact/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Current official contact page lists Punjab campus address and university admissions helplines; no agriculture-specific department is inferred."
+    },
+    {
+      "id": "r2_established",
+      "title": "Chandigarh University — institutional foundation year in official NIRF 2025 feature",
+      "url": "https://www.cuchd.in/nirf-university-rankings-2025/",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity.established"
+      ],
+      "note": "Official institutional article explicitly states establishment in 2012. Full page fetch timed out; this is indexed official text. This identity fact does not establish a current domestic agriculture intake."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://www.cuchd.in/admissions/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://www.cuchd.in/admissions/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://www.cuchd.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://www.cuchd.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://www.cuchd.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://www.cuchd.in/admissions/"
+    },
+    {
+      "field": "programmes.0",
+      "reason": "The official current admissions/catalogue pages promote 2027–28 but do not establish a domestic B.Sc. Agriculture offering, current intake, duration or programme regulations. Historic ICAR membership does not establish present admissions.",
+      "next_source": "https://www.cuchd.in/admissions/"
+    },
+    {
+      "field": "recognition.icar_units",
+      "reason": "Workbook names university broadly, but ICAR meeting proceedings explicitly limit approval to BSc Agriculture and do not accredit the institute. Audit membership preserved.",
+      "next_source": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf"
+    },
+    {
+      "field": "campus",
+      "reason": "Current agriculture teaching facilities and student access were not verified.",
+      "next_source": "https://www.cuchd.in/academics/institutes.php"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/19-chandigarh-university.json",
+  "audit_name": "Chandigarh University",
+  "related": [
+    {
+      "id": 14,
+      "name": "Khalsa College of Veterinary and Animal Sciences",
+      "slug": "khalsa-college-of-veterinary-and-animal-sciences",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 15,
+      "name": "Khalsa College, Amritsar",
+      "slug": "khalsa-college-amritsar",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 43,
+      "name": "Lovely Professional University",
+      "slug": "lovely-professional-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

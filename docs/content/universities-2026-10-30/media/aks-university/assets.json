@@ -1,0 +1,60 @@
+{
+  "id": 21,
+  "slug": "aks-university",
+  "name": "AKS University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/aks-university/logo.png",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/AKSU-Logo.png",
+      "source_kind": "official",
+      "description": "AKS University official emblem and Satna wordmark",
+      "alt": "AKS University official emblem and Satna wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "AKS University",
+      "review_status": "verified_source",
+      "notes": ""
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/aks-university/campus-plain.jpg",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/2024-04/akseblcock1.jpg",
+      "source_kind": "official",
+      "description": "AKS University academic block beside a landscaped internal road at Satna",
+      "alt": "AKS University academic block beside a landscaped internal road at Satna",
+      "campus": "Satna, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "AKS University",
+      "review_status": "verified_source",
+      "notes": ""
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/aks-university/campus_primary.jpg",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/2024-04/aks_a_block.jpeg",
+      "source_kind": "official",
+      "description": "Official collage of AKS University A Block and entrance at Satna",
+      "alt": "Official collage of AKS University A Block and entrance at Satna",
+      "campus": "Satna, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "AKS University",
+      "review_status": "verified_source",
+      "notes": "Official multi-photo collage with embedded university branding, preserved intact."
+    }
+  ],
+  "gaps": []
+}

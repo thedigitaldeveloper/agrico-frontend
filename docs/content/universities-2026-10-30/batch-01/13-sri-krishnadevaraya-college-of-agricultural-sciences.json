@@ -1,0 +1,649 @@
+{
+  "id": 13,
+  "slug": "sri-krishnadevaraya-college-of-agricultural-sciences",
+  "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "SKCAS",
+    "ownership": "Self-financed, unaided private coeducational college under Sri Balaji Educational Society",
+    "city": "Anantapuramu",
+    "state": "Andhra Pradesh",
+    "established": 2016,
+    "address": "Alamuru Road, Rudrampet, Anantapuramu, Andhra Pradesh 515001",
+    "parent_university": "Acharya N. G. Ranga Agricultural University, Guntur, Andhra Pradesh",
+    "website": "https://skcas.ac.in/",
+    "admissions_url": "https://www.skcas.ac.in/Academics/CourcesOfferedAdmissions",
+    "phone": "+91 8886621120",
+    "email": "skagricollege@gmail.com",
+    "source_ids": [
+      "r2_admission"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Sri Krishnadevaraya College of Agricultural Sciences",
+    "summary": "SKCAS is a self-financed agriculture college in Anantapuramu, established in 2016 under Sri Balaji Educational Society. It is affiliated to ANGRAU and describes agricultural education tied to farming needs such as crop protection, organic farming and seed technology.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education in Anantapuramu",
+    "paragraphs": [
+      "Sri Krishnadevaraya College of Agricultural Sciences identifies itself as a self-financed, unaided private coeducational institution. Founded in 2016 under Sri Balaji Educational Society, it is affiliated to Acharya N. G. Ranga Agricultural University. Its public contact address is on Alamuru Road in Anantapuramu.",
+      "The college’s stated academic focus connects agriculture study with the needs of farming communities, including pest management, organic production and seed technology. Its about page describes a 110-acre setting. Applicants comparing it with other Andhra colleges should ask for a current farm-use schedule, laboratory inventory and university admission notice so that the practical experience and full costs can be assessed alongside the degree title."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Andhra Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-02-07"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "B.Sc. (Hons.) Agriculture is the relevant programme listed by ANGRAU and ICAR. The college describes agriculture teaching in relation to crop management and farming technology; a complete current curriculum was not captured.",
+      "eligibility": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "admission_route": "2026 AP EAPCET rank and ANGRAU counselling for this BiPC route.",
+      "fees": {
+        "amount_inr": 100600,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college.",
+        "note": "Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 3,01,200; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+        "quota": "convenor",
+        "management_maximum_inr": 301200,
+        "verification": "verified",
+        "source_ids": [
+          "angrau_2026",
+          "r31_1"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Sri Krishnadevaraya College of Agricultural Sciences, Ananthapuramu, Anantapur, Andhra Pradesh for 2024-02-08 to 2029-02-07. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "angrau_2026",
+        "r2_admission"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to SKCAS",
+    "intro": "The college homepage carries a 2026–27 management-seat banner, while a retrievable university web-options notice relates to 2022–23. Neither establishes today’s vacancy position or current entry thresholds. Use the current ANGRAU notification and confirm availability directly. For Sri Krishnadevaraya College of Agricultural Sciences, the applicable ANGRAU counselling route now has a revised 30 October 2026 notice: registered candidates follow the stated November rank/category session and check the university’s live seat position. Being called does not guarantee admission.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Use the Intermediate route where applicable",
+        "text": "The course page requires the relevant Intermediate science qualification and AP EAPCET; the applicable ANGRAU notice determines the actual counselling process."
+      },
+      {
+        "title": "Use the diploma route only with the stated qualification",
+        "text": "The college describes SSC plus an ANGRAU two-year Agriculture diploma and AGRICET. Match your exact diploma and category to the2026–27 ANGRAU rules."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [
+      "All relevant original certificates required by the ANGRAU brochure",
+      "For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable"
+    ],
+    "dates": [
+      {
+        "label": "ANGRAU registered-candidate special-category/AGRICET manual counselling, as applicable",
+        "date": "2026-11-02",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU AP EAPCET rank-band manual-counselling sessions; exact individual slot in notice",
+        "date": "2026-11-03 to 2026-11-10 (excluding 2026-11-05 and 2026-11-08)",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "label": "ANGRAU spot counselling for registered candidates, subject to seats and eligibility",
+        "date": "2026-11-11",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s5",
+      "angrau_2026",
+      "r31_1",
+      "r2_admission"
+    ]
+  },
+  "campus": {
+    "heading": "A published agricultural campus setting",
+    "intro": "SKCAS’s departmental descriptions identify a horticultural garden with propagation structures and model orchards, and a soil-science teaching laboratory. Entomology material links final-year rural experience to crop-pest problems.",
+    "facilities": [
+      {
+        "name": "Horticultural teaching garden",
+        "description": "The department describes propagation structures, a crop cafeteria and model fruit orchards.",
+        "source_ids": [
+          "s7"
+        ]
+      },
+      {
+        "name": "Soil-science laboratory",
+        "description": "A dedicated laboratory is described for undergraduate practical experiments.",
+        "source_ids": [
+          "s7"
+        ]
+      },
+      {
+        "name": "Separate hostel buildings",
+        "description": "SKCAS describes separate boys’ and girls’ buildings, each with 40 rooms. The published layout includes dining/kitchen areas, warden/caretaker offices and visitors’ space; rooms are described as shared by three or four students with basic study furniture.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      },
+      {
+        "name": "SC/ST scholarship application assistance",
+        "description": "The college’s SC/ST Cell describes help with government scholarships and fee-reimbursement matters for eligible students, including hostel residents. The page is a support-channel description and does not publish a current award matrix.",
+        "source_ids": [
+          "r2_scst"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The entomology department describes RAWE and crop-protection practical learning."
+    ],
+    "source_ids": [
+      "s6",
+      "s7",
+      "r2_hostel",
+      "r2_scst"
+    ],
+    "student_services": [
+      {
+        "name": "Separate hostel buildings",
+        "description": "SKCAS describes separate boys’ and girls’ buildings, each with 40 rooms. The published layout includes dining/kitchen areas, warden/caretaker offices and visitors’ space; rooms are described as shared by three or four students with basic study furniture.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      },
+      {
+        "name": "SC/ST scholarship application assistance",
+        "description": "The college’s SC/ST Cell describes help with government scholarships and fee-reimbursement matters for eligible students, including hostel residents. The page is a support-channel description and does not publish a current award matrix.",
+        "source_ids": [
+          "r2_scst"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for SKCAS was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The homepage displays a “placements-2026” count of 40, but gives no definition, cohort denominator, employer breakdown or placement methodology. It is not used here as a verified programme outcome. Request a dated agriculture graduate-destination report.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Sri Krishnadevaraya College of Agricultural Sciences, Ananthapuramu, Anantapur, Andhra Pradesh and the programme labels below from 2024-02-08 through 2029-02-07. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Sri Krishnadevaraya College of Agricultural Sciences, Ananthapuramu, Anantapur, Andhra Pradesh",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake-72)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A21:G21"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official entomology page lists the following teaching roles, checked on 30 October 2026.",
+    "people": [
+      {
+        "name": "Dr. T. Meera Devi",
+        "role": "Assistant Professor & HOD, Entomology",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr. A. Vindya",
+        "role": "Assistant Professor, Entomology",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is SKCAS a university?",
+      "answer": "No. It is an unaided private college affiliated to ANGRAU, according to the college and university directory.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "When did the college begin?",
+      "answer": "The official about page states 2016.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is this Sri Krishnadevaraya University?",
+      "answer": "No. This profile is for Sri Krishnadevaraya College of Agricultural Sciences, the ANGRAU-affiliated agriculture college.",
+      "source_ids": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "question": "Does the homepage banner prove a seat is available?",
+      "answer": "No. Its 2026–27 management-seat message needs direct confirmation and a current university seat-allotment notice.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What ICAR term is recorded?",
+      "answer": "The audited B.Sc. (Hons.) Agriculture row covers 8 February 2024 to 7 February 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for SKCAS?",
+      "answer": "2026–27 BiPC route: Intermediate/equivalent with Physical and Biological/Natural Sciences; eligible ANGRAU diploma categories are separately listed.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "angrau_2026",
+        "r2_admission"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at SKCAS?",
+      "answer": "4 years. ",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "angrau_2026",
+        "r2_admission"
+      ]
+    },
+    {
+      "question": "What published fee period should I use when comparing SKCAS?",
+      "answer": "₹1,00,600 / year · source session 2026-27. Published total annual academic fee for the convenor quota at this ANGRAU-affiliated college. Hostel, transport and mess are excluded. The same table prints a management-quota annual maximum of INR 3,01,200; confirm the actual applicable quota and bill. The revised 30 October 2026 counselling notice repeats this annual convener-quota amount and expressly excludes hostel, transport, mess and other living charges.",
+      "source_ids": [
+        "angrau_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What residential or welfare facilities does SKCAS describe?",
+      "answer": "SKCAS describes separate boys’ and girls’ buildings, each with 40 rooms. The published layout includes dining/kitchen areas, warden/caretaker offices and visitors’ space; rooms are described as shared by three or four students with basic study furniture. The college’s SC/ST Cell describes help with government scholarships and fee-reimbursement matters for eligible students, including hostel residents. The page is a support-channel description and does not publish a current award matrix.",
+      "source_ids": [
+        "r2_hostel",
+        "r2_scst"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for SKCAS?",
+      "answer": "The official entomology page lists the following teaching roles, checked on 30 October 2026. Dr. T. Meera Devi — Assistant Professor & HOD, Entomology; Dr. A. Vindya — Assistant Professor, Entomology.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for SKCAS?",
+      "answer": "All relevant original certificates required by the ANGRAU brochure; For already-joined students, the Associate Dean’s custodian certificate and college fee receipt where applicable. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s3",
+        "s5",
+        "angrau_2026",
+        "r31_1",
+        "r2_admission"
+      ]
+    },
+    {
+      "question": "Which dated admission events are recorded for SKCAS?",
+      "answer": "ANGRAU registered-candidate special-category/AGRICET manual counselling, as applicable — 2026-11-02 — 2026–27; ANGRAU AP EAPCET rank-band manual-counselling sessions; exact individual slot in notice — 2026-11-03 to 2026-11-10 (excluding 2026-11-05 and 2026-11-08) — 2026–27; ANGRAU spot counselling for registered candidates, subject to seats and eligibility — 2026-11-11 — 2026–27. These describe the cited events and do not establish a continuing application window.",
+      "source_ids": [
+        "r31_1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sri Krishnadevaraya College of Agricultural Sciences | Agriculture Courses & Admissions",
+    "description": "Explore SKCAS in Anantapuramu: the agriculture college’s identity, ANGRAU affiliation, campus setting, admission checks and programme-specific ICAR term.",
+    "keywords": [
+      "Sri Krishnadevaraya College of Agricultural Sciences",
+      "SKCAS agriculture",
+      "Anantapuramu agriculture admission",
+      "B.Sc. (Hons.) Agriculture Sri Krishnadevaraya College of Agricultural Sciences"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://skcas.ac.in/content/raw/images/slider/103.png",
+    "logo_url": "https://skcas.ac.in/content/raw/images/152.png",
+    "campus_alt": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+    "caption": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/sri-krishnadevaraya-college-of-agricultural-sciences/logo-emblem.png",
+    "local_campus_image": "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-01.png",
+    "local_gallery": [
+      "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-01.png",
+      "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-02.png"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.2",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://skcas.ac.in/about/college",
+      "title": "About SKCAS",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.1",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://skcas.ac.in/",
+      "title": "SKCAS official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.3",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+      "title": "ANGRAU affiliated-college directory",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.2",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Undated directory confirms the college and affiliation; not a live admission seat matrix."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.skcas.ac.in/content/raw/Downloads/Web%20Options.pdf",
+      "title": "ANGRAU web-options guidance 2022–23",
+      "kind": "affiliating_university",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "overview"
+      ],
+      "notes": "Historical university notice hosted by college; establishes prior EAPCET route only, not current conditions."
+    },
+    {
+      "id": "s6",
+      "url": "https://skcas.ac.in/Dept/Entomology",
+      "title": "SKCAS Department of Entomology",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faculty",
+        "faculty.people.0",
+        "faculty.people.1"
+      ],
+      "notes": "Official page lists curriculum effective from 2024 and a named staff roster."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.skcas.ac.in/Departments",
+      "title": "SKCAS departments",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1"
+      ],
+      "notes": "Official indexed departmental descriptions; current unit capacities not verified."
+    },
+    {
+      "id": "angrau_2026",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf",
+      "title": "ANGRAU BiPC UG information brochure 2026–27 — affiliated-college fee table, page 7",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "admissions",
+        "programmes.eligibility",
+        "programmes.admission_route",
+        "identity.phone"
+      ],
+      "notes": "Public official PDF downloaded and read locally. Full page 7 rendered and visually inspected including table headers and footnotes. Constituent-college fee table on page 6 is not used for these private colleges. Management amount is a printed upper ceiling, not a promised charge. Cover and pages 2–3/8–9 also read for the BiPC channel, entry requirements and institutional contacts."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://skcas.ac.in/",
+      "title": "Sri Krishnadevaraya College of Agricultural Sciences — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-krishnadevaraya-college-of-agricultural-sciences/logo-emblem.png. Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://skcas.ac.in/",
+      "title": "Sri Krishnadevaraya College of Agricultural Sciences — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-01.png. Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://skcas.ac.in/",
+      "title": "Sri Krishnadevaraya College of Agricultural Sciences — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-02.png. Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner."
+    },
+    {
+      "id": "r31_1",
+      "title": "ANGRAU revised manual-counselling schedule and affiliated-college fees,30 October 2026",
+      "url": "https://angrau.ac.in/UPLOADS/AdmissionsPDFs/Revised_Manual_coun_chedule_30_10.pdf",
+      "kind": "affiliating_university",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Applies to registeredAPEAPCET 2026/AGRICET 2026 candidates. Notice attendance does not guarantee an allotment or college-specific vacant seat. Fee tablep 3 visually checked."
+    },
+    {
+      "id": "r2_admission",
+      "title": "SKCAS — course details and admission routes",
+      "url": "https://www.skcas.ac.in/Academics/CourcesOfferedAdmissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.0.duration",
+        "programmes.0.eligibility",
+        "identity.admissions_url",
+        "admissions"
+      ],
+      "note": "The official course page explicitly states 4 years and the Intermediate/AP EAPCET and SSC/ANGRAU-diploma/AGRICET routes; it links 2026–27 counselling. Category and session rules remain tied to ANGRAU notices."
+    },
+    {
+      "id": "r2_hostel",
+      "title": "SKCAS — hostel buildings and room facilities",
+      "url": "https://skcas.ac.in/Infrastructure/Hostel",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities",
+        "campus.student_services"
+      ],
+      "note": "Official page checked 31 October 2026. The page is not a guarantee of current vacancy or intake-year pricing."
+    },
+    {
+      "id": "r2_scst",
+      "title": "SKCAS — SC/ST Cell",
+      "url": "https://skcas.ac.in/cells/cellSCSTCell",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "scholarships.text",
+        "campus.student_services"
+      ],
+      "note": "Official cell description with a 2023–24 committee list. It explains assistance functions, not current award amount or unconditional eligibility."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://skcas.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://skcas.ac.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://skcas.ac.in/"
+    },
+    {
+      "field": "programmes.fees.actual_management_and_living_costs",
+      "reason": "The prospectus gives the convenor annual total and a management maximum, not an individual management invoice or living-cost budget.",
+      "next_source": "https://skcas.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/13-sri-krishnadevaraya-college-of-agricultural-sciences.json",
+  "audit_name": "Sri Krishnadevaraya College of Agricultural Sciences, Ananthapuramu, Anantapur, Andhra Pradesh",
+  "related": [
+    {
+      "id": 11,
+      "name": "SBVR Agricultural College",
+      "slug": "sbvr-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 12,
+      "name": "N.S. Agricultural College",
+      "slug": "n-s-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 46,
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+      "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

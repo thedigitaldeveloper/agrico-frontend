@@ -1,0 +1,72 @@
+{
+  "id": 10,
+  "slug": "udai-pratap-college",
+  "name": "Udai Pratap College",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/udai-pratap-college/logo.png",
+      "source_page": "https://upcollege.ac.in/Home",
+      "download_url": "https://upcollege.ac.in/AppImage/page/logo-footer.png",
+      "source_kind": "official",
+      "description": "Udai Pratap College official circular crest",
+      "alt": "Udai Pratap College official circular crest",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Udai Pratap College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 100,
+      "height": 101,
+      "sha256": "4f88664870fcf61b18dfb2afaf66b264e76c1dc18740b85962d8ecaf14b0237c"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/udai-pratap-college/campus-gate.jpg",
+      "source_page": "https://upcollege.ac.in/about/history",
+      "download_url": "https://upcollege.ac.in/AppImage/page/college-gate.jpg",
+      "source_kind": "official",
+      "description": "Udai Pratap College entrance gate in Varanasi",
+      "alt": "Udai Pratap College entrance gate in Varanasi",
+      "campus": "Varanasi, Uttar Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Udai Pratap College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official history page labels this college gate. Source resolution is 649 × 409; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 649,
+      "height": 409,
+      "sha256": "67e2b9b5ab89184efb426a0a70163c541eea4cf775168ff779df4fefb3ae3ddd"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/udai-pratap-college/campus-office.jpg",
+      "source_page": "https://upcollege.ac.in/about/history",
+      "download_url": "https://upcollege.ac.in/AppImage/page/slide1.jpg",
+      "source_kind": "official",
+      "description": "Udai Pratap College office building and landscaped grounds",
+      "alt": "Udai Pratap College office building and landscaped grounds",
+      "campus": "Varanasi, Uttar Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official Udai Pratap College history page supplies its gate and office photographs, matching Varanasi identity and the institution crest.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Udai Pratap College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official history page labels this college office. Source resolution is 772 × 534; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 772,
+      "height": 534,
+      "sha256": "812bfe06d0f15cbc6296ea800c285935b21ff90638833bcda0214199278ac6be"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

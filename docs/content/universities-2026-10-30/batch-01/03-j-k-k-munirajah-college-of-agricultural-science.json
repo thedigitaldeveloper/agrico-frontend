@@ -1,0 +1,459 @@
+{
+  "id": 3,
+  "slug": "j-k-k-munirajah-college-of-agricultural-science",
+  "name": "J.K.K. Munirajah College of Agricultural Science",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "JKKMCAS",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "T.N. Palayam",
+    "state": "Tamil Nadu",
+    "established": 2014,
+    "address": "T.N. Palayam, Gobi, Erode 638506, Tamil Nadu",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://jkkmcas.org/",
+    "admissions_url": "https://jkkmcas.org/admissions",
+    "phone": "04285 298080",
+    "email": "deanjkkmcas@tnau.ac.in",
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "J.K.K. Munirajah College of Agricultural Science",
+    "summary": "JKKMCAS is a TNAU-affiliated agricultural college in the Erode region. Its published teaching material gives applicants a specific view of agronomy, soil science and farm-management study. The audited ICAR record covers its B.Sc. (Hons.) Agriculture programme for 2024–2029.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Crop and soil learning in the Erode region",
+    "paragraphs": [
+      "J.K.K. Munirajah College of Agricultural Science is a TNAU-affiliated agriculture college in the Erode region. Institutional historical material dates its start to 2014, and a dated college invitation identifies its location at T.N. Palayam, Gobi.",
+      "The crop-management curriculum connects cultivation decisions with scientific analysis. Published subject areas include agronomy, soil science, microbiology, crop physiology and agricultural engineering. The course table provides concrete examples for prospective students, from practical crop production to rainfed agriculture and soil-fertility management. Applicants can use those topics to discuss their interests and request the current laboratory and fieldwork timetable."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-06-19"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "The audited agriculture degree is supported by official crop-management course material covering agronomy, soil resource assessment, fertility management, water conservation and machinery subjects.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at J.K.K. Munirajah College of Agricultural Sciences, Erode, Tamil Nadu for 2024-06-20 to 2029-06-19. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying through TNAU counselling",
+    "intro": "The college’s TNAU affiliation is clear in its official identity material. A current official prospectus with application channels and subject thresholds was not retrievable, so applicants should request it directly rather than infer eligibility from a directory listing.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Register with TNAU",
+        "text": "Submit a single online application."
+      },
+      {
+        "title": "Set course preferences",
+        "text": "Order eligible college and course combinations."
+      },
+      {
+        "title": "Follow counselling",
+        "text": "General-quota counselling runs online; special-reservation sessions may be offline."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "tnau_faq_2026"
+    ],
+    "route_scope": "These steps describe the TNAU counselling channel. Any separate college-management route must be checked independently."
+  },
+  "campus": {
+    "heading": "Practical crop management as a teaching focus",
+    "intro": "The official department description connects crop-management teaching to laboratory analysis and farm management. Its course table includes practical crop production in kharif and rabi seasons, rainfed agriculture and soil-fertility subjects.",
+    "facilities": [
+      {
+        "name": "Crop-management teaching",
+        "description": "The official department page describes laboratory analysis and farm-management learning.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Published course titles include Practical Crop Production for kharif and rabi crops.",
+      "The curriculum material lists rainfed agriculture, watershed management and soil-and-water conservation."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for JKKMCAS was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The official homepage lists career opportunities, but a current graduate-employment report was not verified. General sectors that agriculture graduates may enter should not be presented as this college’s placement record.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records J.K.K. Munirajah College of Agricultural Sciences, Erode, Tamil Nadu and the programme labels below from 2024-06-20 through 2029-06-19. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "J.K.K. Munirajah College of Agricultural Sciences, Erode, Tamil Nadu",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture\n(Intake- 180)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A10:G10"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Why do sources use both Science and Sciences?",
+      "answer": "The current official website uses College of Agricultural Science; the audited ICAR entry uses Agricultural Sciences. The profile preserves the official public-facing name and the exact register wording in recognition.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is JKKMCAS based?",
+      "answer": "The dated 2024 college invitation lists T.N. Palayam, Gobi, Erode 638506.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Which university is it affiliated to?",
+      "answer": "Both the official website excerpt and the ICAR audit identify Tamil Nadu Agricultural University.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "What practical subjects can applicants inspect?",
+      "answer": "The official crop-management course table includes practical crop production, rainfed agriculture and soil-fertility management.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the ICAR entry confirm this year’s admission seats?",
+      "answer": "No. It records accreditation scope, including a printed intake, for 20 June 2024 to 19 June 2029. Ask for the current admission seat matrix.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for JKKMCAS?",
+      "answer": "J.K.K. Munirajah College of Agricultural Science is recorded as established in 2014.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the official application information for JKKMCAS?",
+      "answer": "https://jkkmcas.org/admissions. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "tnau_faq_2026"
+      ]
+    },
+    {
+      "question": "How can applicants contact JKKMCAS?",
+      "answer": "Public telephone: 04285 298080; Public email: deanjkkmcas@tnau.ac.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "J.K.K. Munirajah College of Agricultural Science | Agriculture Courses & Admissions",
+    "description": "Explore JKKMCAS in Erode: agriculture study, crop-management teaching, TNAU affiliation, campus learning notes and the verified ICAR accreditation scope.",
+    "keywords": [
+      "J.K.K. Munirajah College of Agricultural Science",
+      "JKKMCAS agriculture",
+      "T.N. Palayam agriculture admission",
+      "B.Sc. (Hons.) Agriculture J.K.K. Munirajah College of Agricultural Science"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29628/2020/6/24/Campus%20front%20View%20of%20JKK%20Munirajah%20College%20of%20Agricultural%20Science%20Erode_Campus-View.jpg",
+    "logo_url": "https://admistay.blr1.cdn.digitaloceanspaces.com/Institutes/logos/1588618709Untitled.webp",
+    "campus_alt": "Named entrance gateway of J.K.K. Munirajah College of Agricultural Science at T.N. Palayam",
+    "caption": "Named entrance gateway of J.K.K. Munirajah College of Agricultural Science at T.N. Palayam",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/j-k-k-munirajah-college-of-agricultural-science/logo-secondary.webp",
+    "local_campus_image": "media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-01.jpg",
+    "local_gallery": [
+      "media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-01.jpg",
+      "media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.2",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://jkkmcas.org/",
+      "title": "JKKMCAS official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "faqs.2",
+        "overview",
+        "placements"
+      ],
+      "notes": "Opening the page returned no readable body; indexed official excerpt supplied identity and affiliation.",
+      "note": "JavaScript-rendered public homepage read 31 October; subsidiary pages still returned empty or short error bodies during this pass."
+    },
+    {
+      "id": "s3",
+      "url": "https://jkkmcas.org/academics/departments/crop-management",
+      "title": "Department of Crop Management",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "campus.facilities.0",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Official indexed course table read; direct fetch returned a cache miss."
+    },
+    {
+      "id": "s4",
+      "url": "https://jkkmcas.org/images/newsletter/Oct-Dec-2018.pdf",
+      "title": "College newsletter, October–December 2018",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "overview"
+      ],
+      "notes": "Historical official newsletter supports 2014 foundation; not a current facilities or staff audit."
+    },
+    {
+      "id": "s5",
+      "url": "https://jkkmcas.org/images/events/Magizham2K24-Invitation.pdf",
+      "title": "Magizham 2024 invitation",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.1",
+        "overview"
+      ],
+      "notes": "Dated 8 August 2024; used for address only, not current leadership."
+    },
+    {
+      "id": "tnau_faq_2026",
+      "url": "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+      "title": "TNAU and Annamalai University combined admissions FAQs 2026–2027",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.steps"
+      ],
+      "notes": "Public PDF linked by the official TNAU 2026–27 portal; downloaded and text-read, with cover and counselling page visually inspected. Pages 2–4 and 19 support the TNAU counselling channel. Does not establish college-specific fees or management-quota availability."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://admistay.com/admission/india/erode/college/jkk-munirajah-college-of-agricultural-science-jkkmcas-56273",
+      "title": "J.K.K. Munirajah College of Agricultural Science — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/j-k-k-munirajah-college-of-agricultural-science/logo-secondary.webp. Seal lettering explicitly names J.K.K. Munirajah College of Agricultural Science and T.N. Palayam, Gobi; secondary page matches TNAU affiliation and the agricultural-college identity."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.careers360.com/colleges/jkk-munirajah-college-of-agricultural-science-erode?gallery=true",
+      "title": "J.K.K. Munirajah College of Agricultural Science — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-01.jpg. The entrance sign visibly names J.K.K. Munirajah College of Agricultural Science, T.N. Palayam and TNAU; the secondary source separately labels both photographs as this college campus."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.careers360.com/colleges/jkk-munirajah-college-of-agricultural-science-erode?gallery=true",
+      "title": "J.K.K. Munirajah College of Agricultural Science — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-02.jpg. The entrance sign visibly names J.K.K. Munirajah College of Agricultural Science, T.N. Palayam and TNAU; the secondary source separately labels both photographs as this college campus."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://jkkmcas.org/"
+    },
+    {
+      "field": "sources",
+      "reason": "Official homepage body and contact information now read using Chrome. Admission, faculty, academics and campus subroutes returned empty bodies or client-side errors, so their missing details remain unverified.",
+      "next_source": "https://jkkmcas.org/admissions"
+    },
+    {
+      "field": "identity.admissions_url",
+      "reason": "Rendered official navigation identifies /admissions, but the destination supplied no readable admission detail in this pass.",
+      "next_source": "https://jkkmcas.org/admissions"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/03-j-k-k-munirajah-college-of-agricultural-science.json",
+  "audit_name": "J.K.K. Munirajah College of Agricultural Sciences, Erode, Tamil Nadu",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 4,
+      "name": "JSA College of Agriculture and Technology",
+      "slug": "jsa-college-of-agriculture-and-technology",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

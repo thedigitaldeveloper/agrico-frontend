@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-11T19:51:43.415Z",
+  "fixture": "Actual rs-home.ts and home.ts normalizer transpiled by installed TypeScript into isolated CommonJS VM; actual BLOG_SECTIONS; mocked CMS/latest/catalogue dependencies; no network, server or CMS writes",
+  "sourceHashes": {
+    "src/lib/cms/repositories/rs-home.ts": "fc916d9978e0f7e15c7928549ff717012c8049d0f7f811f4cc69d5e278598552",
+    "src/lib/cms/repositories/home.ts": "fad8969c74e93d37e645bf9eeae14fa6e536782fb1bd9861ad982bbcbb3211ff",
+    "src/lib/cms/repositories/blog.ts": "bb05edffb781deaa37358985fe60bed43e72ba1cbf5921d65700019e96d62fab"
+  },
+  "tests": 7,
+  "results": [
+    {
+      "name": "Curated published selections preserve authored order and omit duplicates, missing records and wrong post types",
+      "status": "passed",
+      "news": [
+        "news-b",
+        "news-a"
+      ],
+      "blogs": [
+        "article-a",
+        "blog-b"
+      ],
+      "mentors": [
+        "mentor-b",
+        "mentor-a"
+      ],
+      "testimonials": [
+        "testimonial-b",
+        "testimonial-a"
+      ],
+      "collectionQueries": [
+        {
+          "endpoint": "/blogs",
+          "query": {
+            "status": "published",
+            "filters": {
+              "documentId": {
+                "$in": [
+                  "news-b",
+                  "missing",
+                  "news-a",
+                  "draft-news",
+                  "blog-a",
+                  "no-type"
+                ]
+              }
+            },
+            "pagination": {
+              "page": 1,
+              "pageSize": 100
+            }
+          },
+          "options": {
+            "tags": [
+              "cms:blog"
+            ]
+          }
+        },
+        {
+          "endpoint": "/blogs",
+          "query": {
+            "status": "published",
+            "filters": {
+              "documentId": {
+                "$in": [
+                  "article-a",
+                  "blog-b",
+                  "news-a",
+                  "draft-blog",
+                  "missing"
+                ]
+              }
+            },
+            "pagination": {
+              "page": 1,
+              "pageSize": 100
+            }
+          },
+          "options": {
+            "tags": [
+              "cms:blog"
+            ]
+          }
+        },
+        {
+          "endpoint": "/mentor-profiles",
+          "query": {
+            "status": "published",
+            "filters": {
+              "documentId": {
+                "$in": [
+                  "mentor-b",
+                  "mentor-a",
+                  "draft-mentor",
+                  "missing"
+                ]
+              }
+            },
+            "pagination": {
+              "page": 1,
+              "pageSize": 100
+            }
+          },
+          "options": {
+            "tags": [
+              "cms:mentor-profile"
+            ]
+          }
+        },
+        {
+          "endpoint": "/testimonials",
+          "query": {
+            "status": "published",
+            "filters": {
+              "documentId": {
+                "$in": [
+                  "testimonial-b",
+                  "testimonial-a",
+                  "draft-testimonial",
+                  "missing"
+                ]
+              }
+            },
+            "pagination": {
+              "page": 1,
+              "pageSize": 100
+            }
+          },
+          "options": {
+            "tags": [
+              "cms:testimonial"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Intentional curated empty sections stay empty without any latest or selected-record fetch",
+      "status": "passed",
+      "intentionallyEmptySections": [
+        "news",
+        "blogs",
+        "mentors",
+        "testimonials"
+      ]
+    },
+    {
+      "name": "Latest is the default while mentors and testimonials remain opt-in",
+      "status": "passed",
+      "latestRequests": [
+        {
+          "section": "news",
+          "pageSize": 3
+        },
+        {
+          "section": "blogs",
+          "pageSize": 3
+        }
+      ],
+      "optionalSections": "hidden unless explicitly true"
+    },
+    {
+      "name": "Section visibility false prevents requests in both curated and latest display modes",
+      "status": "passed",
+      "modes": [
+        "curated",
+        "latest"
+      ]
+    },
+    {
+      "name": "Explicit optional-section opt-in uses bounded latest defaults; non-booleans are not opt-ins",
+      "status": "passed",
+      "mentorsPageSize": 6,
+      "testimonialLimit": 9,
+      "rejectedOptIns": [
+        "string true",
+        "number 1"
+      ]
+    },
+    {
+      "name": "More than 100 curated records are paginated and reassembled in authored order",
+      "status": "passed",
+      "selectedCount": 105,
+      "pages": [
+        1,
+        2
+      ],
+      "pageSize": 100,
+      "first": "post-001",
+      "last": "post-105"
+    },
+    {
+      "name": "Unavailable curated records remain empty instead of becoming unrelated latest content",
+      "status": "passed",
+      "latestFallbackRequests": 0
+    }
+  ],
+  "errors": []
+}

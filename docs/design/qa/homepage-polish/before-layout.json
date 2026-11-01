@@ -1,0 +1,466 @@
+[
+  {
+    "width": 1440,
+    "height": 3702,
+    "overflow": false,
+    "sections": [
+      {
+        "name": "rs-hero",
+        "height": 392,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Your degree.Your next big move.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-benefits",
+        "height": 65,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "headingToGrid": null
+      },
+      {
+        "name": "programmes",
+        "height": 594,
+        "padding": [
+          "17px",
+          "9px"
+        ],
+        "heading": "Find the programme that fits you.",
+        "headingToGrid": 105
+      },
+      {
+        "name": "universities",
+        "height": 421,
+        "padding": [
+          "13px",
+          "12px"
+        ],
+        "heading": "Get to know your next university.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-spotlight",
+        "height": 213,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Online MBA",
+        "headingToGrid": null
+      },
+      {
+        "name": "programme-comparison",
+        "height": 263,
+        "padding": [
+          "16px",
+          "16px"
+        ],
+        "heading": "Two good options. One clearer decision.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-steps",
+        "height": 172,
+        "padding": [
+          "14px",
+          "17px"
+        ],
+        "heading": "From shortlist to your next step.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-section rs-news",
+        "height": 439,
+        "padding": [
+          "17px",
+          "10px"
+        ],
+        "heading": "News & updates.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-section rs-blogs",
+        "height": 422,
+        "padding": [
+          "13px",
+          "14px"
+        ],
+        "heading": "From the RS blog.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-section rs-container rs-faq",
+        "height": 238,
+        "padding": [
+          "17px",
+          "17px"
+        ],
+        "heading": "A little more clarity.",
+        "headingToGrid": null
+      },
+      {
+        "name": "guidance",
+        "height": 209,
+        "padding": [
+          "11px",
+          "11px"
+        ],
+        "heading": "Let’s find your next step.",
+        "headingToGrid": null
+      }
+    ]
+  },
+  {
+    "width": 1031,
+    "height": 3653,
+    "overflow": false,
+    "sections": [
+      {
+        "name": "rs-hero",
+        "height": 361,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Your degree.Your next big move.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-benefits",
+        "height": 81,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "headingToGrid": null
+      },
+      {
+        "name": "programmes",
+        "height": 588,
+        "padding": [
+          "17px",
+          "9px"
+        ],
+        "heading": "Find the programme that fits you.",
+        "headingToGrid": 105
+      },
+      {
+        "name": "universities",
+        "height": 415,
+        "padding": [
+          "13px",
+          "12px"
+        ],
+        "heading": "Get to know your next university.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-spotlight",
+        "height": 205,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Online MBA",
+        "headingToGrid": null
+      },
+      {
+        "name": "programme-comparison",
+        "height": 277,
+        "padding": [
+          "16px",
+          "16px"
+        ],
+        "heading": "Two good options. One clearer decision.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-steps",
+        "height": 184,
+        "padding": [
+          "14px",
+          "17px"
+        ],
+        "heading": "From shortlist to your next step.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-section rs-news",
+        "height": 442,
+        "padding": [
+          "17px",
+          "10px"
+        ],
+        "heading": "News & updates.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-section rs-blogs",
+        "height": 380,
+        "padding": [
+          "13px",
+          "14px"
+        ],
+        "heading": "From the RS blog.",
+        "headingToGrid": 36
+      },
+      {
+        "name": "rs-section rs-container rs-faq",
+        "height": 238,
+        "padding": [
+          "17px",
+          "17px"
+        ],
+        "heading": "A little more clarity.",
+        "headingToGrid": null
+      },
+      {
+        "name": "guidance",
+        "height": 209,
+        "padding": [
+          "11px",
+          "11px"
+        ],
+        "heading": "Let’s find your next step.",
+        "headingToGrid": null
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 5399,
+    "overflow": false,
+    "sections": [
+      {
+        "name": "rs-hero",
+        "height": 467,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Your degree.Your next big move.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-benefits",
+        "height": 92,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "headingToGrid": null
+      },
+      {
+        "name": "programmes",
+        "height": 1249,
+        "padding": [
+          "26px",
+          "14px"
+        ],
+        "heading": "Find the programme that fits you.",
+        "headingToGrid": 154
+      },
+      {
+        "name": "universities",
+        "height": 539,
+        "padding": [
+          "16px",
+          "20px"
+        ],
+        "heading": "Get to know your next university.",
+        "headingToGrid": 50
+      },
+      {
+        "name": "rs-spotlight",
+        "height": 225,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Online MBA",
+        "headingToGrid": null
+      },
+      {
+        "name": "programme-comparison",
+        "height": 442,
+        "padding": [
+          "28px",
+          "28px"
+        ],
+        "heading": "Two good options. One clearer decision.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-steps",
+        "height": 325,
+        "padding": [
+          "20px",
+          "24px"
+        ],
+        "heading": "From shortlist to your next step.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-section rs-news",
+        "height": 506,
+        "padding": [
+          "23px",
+          "15px"
+        ],
+        "heading": "News & updates.",
+        "headingToGrid": 50
+      },
+      {
+        "name": "rs-section rs-blogs",
+        "height": 411,
+        "padding": [
+          "20px",
+          "22px"
+        ],
+        "heading": "From the RS blog.",
+        "headingToGrid": 50
+      },
+      {
+        "name": "rs-section rs-container rs-faq",
+        "height": 308,
+        "padding": [
+          "26px",
+          "26px"
+        ],
+        "heading": "A little more clarity.",
+        "headingToGrid": null
+      },
+      {
+        "name": "guidance",
+        "height": 291,
+        "padding": [
+          "16px",
+          "16px"
+        ],
+        "heading": "Let’s find your next step.",
+        "headingToGrid": null
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "height": 9395,
+    "overflow": false,
+    "sections": [
+      {
+        "name": "rs-hero",
+        "height": 811,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Your degree.Your next big move.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-benefits",
+        "height": 214,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "headingToGrid": null
+      },
+      {
+        "name": "programmes",
+        "height": 1700,
+        "padding": [
+          "25px",
+          "14px"
+        ],
+        "heading": "Find the programme that fits you.",
+        "headingToGrid": 212
+      },
+      {
+        "name": "universities",
+        "height": 1084,
+        "padding": [
+          "17px",
+          "23px"
+        ],
+        "heading": "Get to know your next university.",
+        "headingToGrid": 108
+      },
+      {
+        "name": "rs-spotlight",
+        "height": 444,
+        "padding": [
+          "0px",
+          "0px"
+        ],
+        "heading": "Online MBA",
+        "headingToGrid": null
+      },
+      {
+        "name": "programme-comparison",
+        "height": 610,
+        "padding": [
+          "25px",
+          "25px"
+        ],
+        "heading": "Two good options. One clearer decision.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-steps",
+        "height": 466,
+        "padding": [
+          "23px",
+          "23px"
+        ],
+        "heading": "From shortlist to your next step.",
+        "headingToGrid": null
+      },
+      {
+        "name": "rs-section rs-news",
+        "height": 907,
+        "padding": [
+          "26px",
+          "13px"
+        ],
+        "heading": "News & updates.",
+        "headingToGrid": 108
+      },
+      {
+        "name": "rs-section rs-blogs",
+        "height": 1294,
+        "padding": [
+          "20px",
+          "22px"
+        ],
+        "heading": "From the RS blog.",
+        "headingToGrid": 108
+      },
+      {
+        "name": "rs-section rs-container rs-faq",
+        "height": 542,
+        "padding": [
+          "25px",
+          "25px"
+        ],
+        "heading": "A little more clarity.",
+        "headingToGrid": null
+      },
+      {
+        "name": "guidance",
+        "height": 519,
+        "padding": [
+          "26px",
+          "26px"
+        ],
+        "heading": "Let’s find your next step.",
+        "headingToGrid": null
+      }
+    ]
+  }
+]

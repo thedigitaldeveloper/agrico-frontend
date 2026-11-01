@@ -1,0 +1,641 @@
+{
+  "id": 58,
+  "slug": "tilak-dhari-pg-college",
+  "name": "Tilak Dhari P.G. College, Jaunpur",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "T.D. College",
+    "ownership": "Privately managed, grant-in-aid affiliated college",
+    "city": "Jaunpur",
+    "state": "Uttar Pradesh",
+    "established": 1914,
+    "address": "Husainabad, Jaunpur, Uttar Pradesh 222002",
+    "parent_university": "Veer Bahadur Singh Purvanchal University",
+    "website": "https://tdcollege.ac.in/",
+    "admissions_url": "https://online.tdcollege.org/",
+    "phone": "+91 7068319555",
+    "email": "principaltdc1914@gmail.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Tilak Dhari P.G. College, Jaunpur",
+    "summary": "Agriculture at T.D. College sits within a long-established Jaunpur college, with undergraduate study and postgraduate routes across crop production, economics, extension and plant protection. Its agriculture departments give students a subject-based academic setting within a college affiliated to Veer Bahadur Singh Purvanchal University.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture departments within a historic Jaunpur college",
+    "paragraphs": [
+      "T.D. College traces its origins to a school founded by Sri Tilak Dhari Singh in 1914; its own history dates degree-college status to July 1947. Located in Husainabad, Jaunpur, it is a privately managed grant-in-aid college affiliated to Veer Bahadur Singh Purvanchal University. The founding year therefore describes the institution’s origins rather than the start of degree-level agriculture.",
+      "The agriculture faculty spans agronomy, genetics and plant breeding, agricultural economics, engineering, entomology, extension, horticulture, plant pathology, animal husbandry and soil science. The undergraduate agriculture degree is complemented by six postgraduate specialisms in the ICAR register. Applicants interested in a particular specialism can compare the departmental faculty list and the current entrance bulletin before choosing a route."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Tilak Dhari P.G. College, Jaunpur"
+      },
+      {
+        "label": "Location",
+        "value": "Jaunpur, Uttar Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "A broad agriculture degree supported by the college’s subject departments.",
+      "eligibility": "The official Agricultural Extension department page, last updated in 2022, states Agriculture or Science at Class 12; obtain the 2026–27 minimum-mark and subject rules before applying.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited register prints B.S. (Hons). Agriculture, intake 240; the college calls the programme B.Sc. (Ag) Hons. The wording and current intake require confirmation.",
+      "source_ids": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s specialisation in agronomy.",
+      "eligibility": "2022 department criterion: Agriculture-major graduation; current thresholds unverified.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s9"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Agricultural Economics",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "Master’s specialisation in agricultural economics.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Agricultural Extension Education",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s specialisation in agricultural extension education.",
+      "eligibility": "2022 department criterion: Agriculture-major graduation; current thresholds unverified.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Entomology",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s specialisation in entomology.",
+      "eligibility": "2022 department criterion: Agriculture-major graduation; current thresholds unverified.",
+      "admission_route": "The 2022 department page describes TDPGCET admission; the operative 2026–27 notification remains to be checked.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s10"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "Master’s specialisation in genetics and plant breeding.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag) Plant Pathology",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s specialisation in plant pathology.",
+      "eligibility": "2022 department criterion: Agriculture-major graduation; current thresholds unverified.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Current session’s programme fee not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Tilak Dhari P.G. College, Jaunpur; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s11"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to T.D. College",
+    "intro": "The college links an Entrance Test 2026 menu to its registration portal. Its bulletin link opened a 2025-titled document; obtain the operative 2026–27 agriculture rules before applying.",
+    "eligibility_points": [
+      "The older official Extension page describes a four-year B.Sc. and a two-year extension master’s programme; these duration statements do not establish current seat availability."
+    ],
+    "steps": [
+      {
+        "title": "Check the agriculture bulletin",
+        "text": "Use the college’s entrance-test and new-registration links, and obtain the bulletin for the intended admission session."
+      },
+      {
+        "title": "Confirm the specialism and entry rules",
+        "text": "Ask the college to confirm the agriculture subject combination, minimum marks, current intake and programme-specific counselling notice."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s5",
+      "s7"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The Plant Pathology department’s September 2022 account describes research work at the college’s Pili Kothi Farm and in its laboratory, with supervised investigations in field and laboratory conditions. These are documented departmental resources; their current allocation should be confirmed with the college.",
+    "facilities": [
+      {
+        "name": "Pili Kothi Farm research field",
+        "description": "The department’s 2022 page identifies a research field for plant pathology work.",
+        "source_ids": [
+          "s11"
+        ]
+      },
+      {
+        "name": "Plant pathology laboratory",
+        "description": "The same page describes laboratory investigations and supervised thesis activity.",
+        "source_ids": [
+          "s11"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The Plant Pathology department describes supervised field and laboratory investigations in its 2022 account."
+    ],
+    "source_ids": [
+      "s11"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship policy was not found in the official pages reviewed. No award amount or automatic entitlement is established for this draft.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The college’s news page carries campus placement notices dated September 2026, including a general solar-consultant vacancy. These notices establish recruitment communication at college level; they do not provide a verified agriculture placement rate, recruiter list or salary outcome.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists the college’s agriculture bachelor’s and six master’s specialisms for 26 September 2024 to 25 September 2029. Programme labels below preserve its scope.",
+    "icar_units": [
+      {
+        "unit": "Tilak Dhari P.G. College, Jaunpur",
+        "programmes_as_printed": [
+          "•\tB.S. (Hons). Agriculture (intake 240)",
+          "•\tM.Sc. (Ag) Agronomy (intake 20)\n•\tM.Sc. (Ag) Agricultural Economics (intake 20)\n•\tM.Sc. (Ag) Agricultural Extension Education (intake 20)\n•\tM.Sc. (Ag) Entomology (intake 20)\n•\tM.Sc. (Ag) Genetics and Plant Breeding (intake 20)\n•\tM.Sc. (Ag) Plant Pathology (intake 20)"
+        ],
+        "valid_from": "2024-09-26",
+        "valid_until": "2029-09-25",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20ICAR%20Accredited%20Constituent%20affiliated%20Colleges%20Programmes%20of%20General%20Universities%20%28Public%29-%20List-III.xlsx",
+        "source_range": "Sheet1!A11:G11"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The undated official directory identifies subject teachers and Teachers in Charge across agriculture departments.",
+    "people": [
+      {
+        "name": "Dr. Shrish Kumar Singh",
+        "role": "Professor and Teacher in Charge, Agronomy",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Nalin Kumar Mishra",
+        "role": "Professor and Teacher in Charge, Agricultural Extension",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Manoj Kumar Singh",
+        "role": "Professor and Teacher in Charge, Genetics and Plant Breeding",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Is T.D. College a university?",
+      "answer": "It is an affiliated college. The audited entry identifies Veer Bahadur Singh Purvanchal University as its parent university; the college remains the teaching institution.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does 1914 mark the start of degree courses?",
+      "answer": "No. The history traces the institution to a school established in 1914 and dates degree-college status to July 1947.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which agriculture master’s subjects are listed by ICAR?",
+      "answer": "The audited scope covers agronomy, agricultural economics, agricultural extension education, entomology, genetics and plant breeding, and plant pathology. Each printed master’s intake is 20. These are accreditation entries rather than live vacancy figures.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Why do agriculture degree names and seats differ between pages?",
+      "answer": "The ICAR row prints B.S. (Hons). Agriculture with intake 240, while the older department page calls it B.Sc. (Ag) Hons. and shows 220. The current entrance bulletin should settle the name and seats offered for an admission session.",
+      "source_ids": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "question": "Where can applicants contact the college?",
+      "answer": "The official contact page gives Husainabad, Jaunpur 222002, phone +91 7068319555 and principaltdc1914@gmail.com.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Are current agriculture fees published in this draft?",
+      "answer": "No. The official fee page displayed an image without a readable year-specific agriculture table. A dated fee schedule is needed to separate tuition, examination and other charges.",
+      "source_ids": [
+        "s6"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Tilak Dhari P.G. College, Jaunpur | Agriculture Courses & Admissions",
+    "description": "Explore T.D. College Jaunpur agriculture courses, postgraduate subjects, faculty, ICAR programme scope and admission details requiring current confirmation.",
+    "keywords": [
+      "Tilak Dhari P.G. College, Jaunpur agriculture",
+      "Tilak Dhari P.G. College, Jaunpur admissions",
+      "Tilak Dhari P.G. College, Jaunpur ICAR accreditation",
+      "Tilak Dhari P.G. College, Jaunpur agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://tdcollege.ac.in/app/writereaddata/HomePage/Header/H_202602161653403017.jpg",
+    "logo_url": "https://tdcollege.ac.in/images/logo.png",
+    "campus_alt": "Tilak Dhari P.G. College campus in Jaunpur",
+    "caption": "Tilak Dhari P.G. College campus in Jaunpur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_secondary",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/tilak-dhari-pg-college/logo.png",
+    "local_campus_image": "media/tilak-dhari-pg-college/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/tilak-dhari-pg-college/campus-02.jpg",
+      "media/tilak-dhari-pg-college/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20ICAR%20Accredited%20Constituent%20affiliated%20Colleges%20Programmes%20of%20General%20Universities%20%28Public%29-%20List-III.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A11:G11. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://tdcollege.ac.in/en/page/aboutus-history",
+      "title": "Official institutional history",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "overview"
+      ],
+      "notes": "Origins as a school in 1914; degree-college status July 1947."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.tdcollege.ac.in/en/page/faculty-list",
+      "title": "Official faculty directory",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faculty",
+        "overview",
+        "campus"
+      ],
+      "notes": "Undated staff directory; role currency should be confirmed."
+    },
+    {
+      "id": "s4",
+      "url": "https://tdcollege.ac.in/en/page/contact-us",
+      "title": "Official contact page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.phone",
+        "identity.email",
+        "admissions"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.tdcollege.org/article/en/department-of-agricultural-extension",
+      "title": "Official Agricultural Extension department page",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "overview"
+      ],
+      "notes": "Page updated 5 September 2022. Full page returned 503; historical duration and eligibility only, not 2026 admission rules."
+    },
+    {
+      "id": "s6",
+      "url": "https://tdcollege.ac.in/en/page/fee-structure",
+      "title": "Official fee structure page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Image-based fee page; linked image resolved as an unreadable HTML response, so no amount or academic year is quoted."
+    },
+    {
+      "id": "s7",
+      "url": "https://tdcollege.ac.in/en/news?cd=MwAzAA%3D%3D",
+      "title": "Official college news and placement notices",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "placements",
+        "admissions"
+      ],
+      "notes": "September 2026 campus placement notices are not agriculture cohort outcomes."
+    },
+    {
+      "id": "s8",
+      "url": "https://online.tdcollege.org/",
+      "title": "Official registration portal",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Portal opened with no readable programme rules. Official bulletin link opened a file titled Information_brochure_2025.pdf; current-year rules remain unresolved."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.tdcollege.org/article/en/department-of-agronomy",
+      "title": "Official college Agronomy department page",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "admissions"
+      ],
+      "notes": "Updated 7 September 2022. Search excerpt readable; full page returned 502. Historical two-year MSc and Agriculture-major graduation criterion; seats differ from newer ICAR record."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.tdcollege.org/article/en/department-of-entomology",
+      "title": "Official college Entomology department page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "admissions"
+      ],
+      "notes": "Updated 5 September 2022; describes two-year MSc and TDPGCET entry historically, not an operative 2026 notice."
+    },
+    {
+      "id": "s11",
+      "url": "https://tdcollege.org/article/en/department-of-plant-pathology",
+      "title": "Official college Plant Pathology department page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "campus"
+      ],
+      "notes": "Updated 7 September 2022; describes a Pili Kothi research field and laboratory. Current condition and allocation need confirmation."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://tdcollege.ac.in/",
+      "title": "Tilak Dhari P.G. College, Jaunpur — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tilak-dhari-pg-college/logo.png. Image embedded by the institution official website at https://tdcollege.ac.in/; source alt: Tilak Dhari P.G. College, Jaunpur, Uttar Pradesh"
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://tdcollege.ac.in/",
+      "title": "Tilak Dhari P.G. College, Jaunpur — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tilak-dhari-pg-college/campus-02.jpg. Image embedded by the institution official website at https://tdcollege.ac.in/; source alt: Classroom"
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://tdcollege.ac.in/",
+      "title": "Tilak Dhari P.G. College, Jaunpur — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tilak-dhari-pg-college/campus_primary-verified.jpg. Official college homepage slider with alt T.D. College Jaunpur Husainabad Jaunpur Uttar Pradesh."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.eligibility",
+      "reason": "The official department excerpt is from 2022; the current site’s bulletin link resolves to a 2025-titled file and the 2026 agriculture eligibility thresholds could not be read.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "recognition.icar_units",
+      "reason": "Register wording B.S. and intake 240 differ from the older official B.Sc. page and intake 220. Preserve the audit and confirm current nomenclature/seats separately.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "The department’s research field and laboratory are documented in 2022; their present condition and current student allocation have not been verified.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "programmes.duration",
+      "reason": "Explicit official duration was not verified for M.Sc. (Ag) Agricultural Economics; M.Sc. (Ag) Genetics and Plant Breeding. Department-directory links for Agricultural Economics and Genetics/Plant Breeding were malformed, and corrected official article URLs remained inaccessible.",
+      "next_source": "https://tdcollege.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://tdcollege.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

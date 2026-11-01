@@ -1,0 +1,524 @@
+{
+  "id": 38,
+  "slug": "tantia-university",
+  "name": "Tantia University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": null,
+    "ownership": "Private university",
+    "city": "Sri Ganganagar",
+    "state": "Rajasthan",
+    "established": 2013,
+    "address": "Hanumangarh Road, near RIICO Bus Stand, Sri Ganganagar, Rajasthan 335002, India",
+    "parent_university": null,
+    "website": "https://tantiauniversity.com/",
+    "admissions_url": "https://tantiauniversity.com/Admission-Overview",
+    "phone": "0154-2494125",
+    "email": "admission@tantiauniversity.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Tantia University",
+    "summary": "Tantia University offers agricultural study in Sri Ganganagar through its Faculty of Agriculture. Undergraduate agriculture began in 2015-16, and the faculty describes an irrigated farm, laboratories and residential facilities. Its published fee brochure distinguishes admission channels and must be read with its stated year.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture learning in Sri Ganganagar",
+    "paragraphs": [
+      "Tantia’s agriculture faculty introduced its four-year B.Sc. Agriculture programme in the 2015-16 academic session. The official programme catalogue also lists two-year agricultural master’s study across crop, soil, horticultural, economic and extension subjects. These subject choices provide a useful distinction between a broad undergraduate course and later agricultural specialisation.",
+      "The faculty’s infrastructure page describes an irrigated agriculture farm for technical training, together with laboratories and library facilities. The university’s revised 2025-26 brochure gives separate B.Sc. fee rows for JET and CUET. The fee distinction is historical evidence for that session and should not be carried into another admission year without a fresh schedule."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Faculty of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Sri Ganganagar, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "A broad agriculture degree supported by a faculty farm and laboratory teaching resources.",
+      "eligibility": "Official catalogue lists 10+2 PCM/PCB/Agriculture; current minimum marks were not verified.",
+      "admission_route": "2025-26 fee brochure names JET and CUET categories; current route and allocation require confirmation.",
+      "fees": {
+        "amount_inr": 58000,
+        "period": "year",
+        "academic_year": "2025-26",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Historical JET tuition row: INR 58,000/year; CUET row: INR 70,000/year. Admission INR 4,650 and processing INR 10,000 listed separately.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "One of the agricultural master’s specialisations in the university catalogue.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2025-26",
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Historical tuition for MScAgronomy; INR4,650 admission plus INR10,000 processing are separate. Published two-year total INR154,650. Current2026-27 applicability remains unverified.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A crop-improvement specialisation in the official master’s list.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2025-26",
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Historical tuition for MScAgriculture Genetics and Plant Breeding; INR4,650 admission plus INR10,000 processing separate. Published two-year total INR154,650. Not a2026-27 quotation.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The university provides an admission-procedure page and programme enquiry routes. For agriculture, request a current notice confirming whether the intended application is through JET, CUET or another permitted category, together with the corresponding payable charges.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Irrigated farm and residential learning resources",
+    "intro": "The faculty describes an agriculture farm with irrigation for technical training. Its account also identifies classrooms, laboratories, library facilities and separate boys’ and girls’ hostels; its undated hostel price is not treated as current.",
+    "facilities": [
+      {
+        "name": "Irrigated agriculture farm",
+        "description": "The faculty identifies this as a site for field technical training.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Agriculture laboratories and library",
+        "description": "Both appear in the faculty’s infrastructure account.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Soil and water testing laboratory",
+        "description": "The university’s laboratory site identifies a testing service with named technical staff; service availability and sample arrangements require direct confirmation.",
+        "source_ids": [
+          "r2_soil_lab_team"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ],
+    "events": [
+      {
+        "title": "Agricultural marketing excellence centres inauguration",
+        "date": "2024-10-10",
+        "description": "The faculty reported the inauguration of two agricultural-marketing excellence centres with market-committee and industry representatives. This is a dated 2024 academic event, not an admission notice.",
+        "source_ids": [
+          "r2_excellence_event2024"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Faculty of Agriculture for 2024-06-20 to 2029-06-19. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agriculture",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A46:G46"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official soil-and-water-testing directory identifies named laboratory specialists. These undated indexed entries document published service roles, not a complete current 2026 faculty appointment list.",
+    "people": [
+      {
+        "name": "Dr. Satdev",
+        "role": "In-charge, Soil and Water Testing Laboratory (undated directory)",
+        "source_ids": [
+          "r2_soil_lab_team"
+        ]
+      },
+      {
+        "name": "Dr. Naresh Kumar Yadav",
+        "role": "Analysis Officer, Soil and Water Testing Laboratory (undated directory)",
+        "source_ids": [
+          "r2_soil_lab_team"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_soil_lab_team"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "When did Tantia introduce undergraduate agriculture?",
+      "answer": "The faculty account dates the B.Sc. programme to 2015-16.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What school streams does the catalogue list?",
+      "answer": "The undergraduate catalogue accepts 10+2 PCM, PCB or Agriculture; an intake-specific minimum-marks notice remains necessary.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Why are two historical B.Sc. fees mentioned?",
+      "answer": "The 2025-26 brochure has separate JET and CUET tuition rows, INR 58,000 and INR 70,000 per year respectively.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Is there a training farm?",
+      "answer": "The faculty describes an agriculture farm with irrigation for field technical learning.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are master’s subjects included in the checked ICAR entry?",
+      "answer": "The audited Faculty of Agriculture row explicitly names B.Sc. (Hons.) Agriculture. Other advertised degrees are not added to that scope.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Tantia University | Agriculture courses and admissions",
+    "description": "Review Tantia University agriculture in Sri Ganganagar, course options, irrigated farm learning, historical JET/CUET fees and the verified ICAR programme scope.",
+    "keywords": [
+      "Tantia University agriculture",
+      "Tantia University admissions",
+      "Tantia University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://d13loartjoc1yn.cloudfront.net/upload/institute/images/large/230509040954_Tantia_University_campus.webp",
+    "logo_url": "https://www.campusoption.com/images/colleges/logos/08_08_19_072805_tantia-university.jpg",
+    "campus_alt": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+    "caption": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/tantia-university/logo.jpg",
+    "local_campus_image": "media/tantia-university/campus-04.webp",
+    "local_gallery": [
+      "media/tantia-university/campus-04.webp",
+      "media/tantia-university/campus-05.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://tantiauniversity.com/Program",
+      "title": "University programme catalogue",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "overview",
+        "programmes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://foag.tantiauniversity.com/page/about-college",
+      "title": "Faculty of Agriculture about page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.phone",
+        "overview",
+        "campus"
+      ],
+      "notes": "Undated page; hostel price excluded."
+    },
+    {
+      "id": "s4",
+      "url": "https://tantiauniversity.com/public/uploads/brochure.pdf",
+      "title": "Revised fee structure 2025-26, 1 May 2025",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "overview",
+        "programmes.fees",
+        "admissions"
+      ],
+      "notes": "Direct PDF returned 403; historical official indexed fee rows only.",
+      "note": "Historical2025-26 evidence only; not a2026-27 quotation."
+    },
+    {
+      "id": "s5",
+      "url": "https://tantiauniversity.com/Admission-Overview",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s6",
+      "url": "https://foag.tantiauniversity.com/?page=Contact_Us",
+      "title": "Faculty of Agriculture contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.email"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s7",
+      "url": "https://www.tantiauniversity.com/wp-admin/uploads/minutes/sgrc_2022.pdf",
+      "title": "Institutional letterhead address",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address"
+      ],
+      "notes": "Historical letterhead, used for stable postal location only."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.campusoption.com/college/tantia-university",
+      "title": "Tantia University — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tantia-university/logo.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.collegesearch.in/university/tantia-university",
+      "title": "Tantia University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tantia-university/campus-04.webp. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://psychoprodigy.in/TantiaUniversity",
+      "title": "Tantia University — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/tantia-university/campus-05.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "r2_excellence_event2024",
+      "title": "Tantia agriculture marketing centres inauguration, 10 October 2024",
+      "url": "https://foag.tantiauniversity.com/event-gallery/INAUGURATION-OF-AGRICULTURE-EXCELLENCE-CENTERS",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.events"
+      ],
+      "notes": "Dated historical institutional event; does not establish current admissions or outcome statistics."
+    },
+    {
+      "id": "r2_soil_lab_team",
+      "title": "Tantia soil and water testing laboratory team",
+      "url": "https://soiltesting.tantiauniversity.com/",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faculty",
+        "campus.facilities"
+      ],
+      "notes": "Official indexed directory excerpt read; direct fetch returned 403. Selected roles are undated and do not resolve differing dean labels elsewhere."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees.2026-27",
+      "reason": "Latest verified dated fee evidence was 2025-26; the 2026-27 schedule was not verified.",
+      "next_source": "https://tantiauniversity.com/"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "Both missing PG amounts are now sourced to2025-26; a dated2026-27 schedule remains unavailable.",
+      "next_source": "https://tantiauniversity.com/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://tantiauniversity.com/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Named lab specialists are verified in an undated official indexed directory; a dated complete current agriculture faculty roster remains unverified.",
+      "next_source": "https://tantiauniversity.com/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://tantiauniversity.com/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://tantiauniversity.com/Admission-Overview"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://tantiauniversity.com/Admission-Overview"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://tantiauniversity.com/Admission-Overview"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://tantiauniversity.com/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+      "M.Sc. Agriculture — Genetics and Plant Breeding: added source-specific fee amount with period and session status.",
+      "Added a dated academic event, soil/water laboratory and two named specialists with date/access scope."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

@@ -1,0 +1,529 @@
+[
+  {
+    "url": "https://www.apachc.in/",
+    "institution_ids": [
+      1
+    ],
+    "key": "8d9e07145d13e06a",
+    "status": 200,
+    "final_url": "https://www.apachc.in/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.apachc.in/ac/admission-procedure.html",
+    "institution_ids": [
+      1
+    ],
+    "key": "51060bb1cdea2cbb",
+    "status": 200,
+    "final_url": "https://www.apachc.in/ac/admission-procedure.html",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://acar.ac.in/index/",
+    "institution_ids": [
+      2
+    ],
+    "key": "e58a48219755000f",
+    "status": 200,
+    "final_url": "https://acar.ac.in/index/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://acar.ac.in/index/ug-programme/",
+    "institution_ids": [
+      2
+    ],
+    "key": "8593b90a9ace18ea",
+    "status": 200,
+    "final_url": "https://acar.ac.in/index/ug-programme/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://jkkmcas.org/",
+    "institution_ids": [
+      3
+    ],
+    "key": "2874d514c34c09b0",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://jkkmcas.org/academics/departments/crop-management",
+    "institution_ids": [
+      3
+    ],
+    "key": "bd365f0475c4de46",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://www.jsaagri.in/",
+    "institution_ids": [
+      4
+    ],
+    "key": "6dbe125859597032",
+    "status": 200,
+    "final_url": "https://www.jsaagri.in/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.jsaagri.in/eligibility",
+    "institution_ids": [
+      4
+    ],
+    "key": "2dffee67b9f08eb2",
+    "status": 200,
+    "final_url": "https://www.jsaagri.in/eligibility",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://pgpagricollege.ac.in/",
+    "institution_ids": [
+      5
+    ],
+    "key": "3c2c1854ba24f6e4",
+    "status": 200,
+    "final_url": "https://pgpagricollege.ac.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://pgpagricollege.ac.in/admission/",
+    "institution_ids": [
+      5
+    ],
+    "key": "42ef52f92f902f94",
+    "status": 200,
+    "final_url": "https://pgpagricollege.ac.in/admission/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://pushkaram.in/",
+    "institution_ids": [
+      6
+    ],
+    "key": "4e4d5fee1cf3534e",
+    "status": 200,
+    "final_url": "https://pushkaram.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://tiac.rajas.edu/",
+    "institution_ids": [
+      7
+    ],
+    "key": "3824c6b4aa6204c3",
+    "status": 200,
+    "final_url": "https://tiac.rajas.edu/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://tiac.rajas.edu/admission-open/",
+    "institution_ids": [
+      7
+    ],
+    "key": "34305ea367ed0ca3",
+    "status": 200,
+    "final_url": "https://tiac.rajas.edu/admission-open/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://tiac.rajas.edu/campus/",
+    "institution_ids": [
+      7
+    ],
+    "key": "4f1f723c40cdb8d7",
+    "status": 200,
+    "final_url": "https://tiac.rajas.edu/campus/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://palaragri.ac.in/",
+    "institution_ids": [
+      8
+    ],
+    "key": "4588dd1fcffe7927",
+    "status": 200,
+    "final_url": "https://palaragri.ac.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://palaragri.ac.in/admission/",
+    "institution_ids": [
+      8
+    ],
+    "key": "f7154b537896013a",
+    "status": 200,
+    "final_url": "https://palaragri.ac.in/admission/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/",
+    "institution_ids": [
+      9
+    ],
+    "key": "9dd4d5184c30d2d7",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/admission/",
+    "institution_ids": [
+      9
+    ],
+    "key": "d6fb5c957cc935e8",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/admission/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/about-us/",
+    "institution_ids": [
+      9
+    ],
+    "key": "dd3ef00f7fd08327",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/about-us/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://roeveragri.ac.in/facilities/",
+    "institution_ids": [
+      9
+    ],
+    "key": "21a7149f87ea615e",
+    "status": 200,
+    "final_url": "https://roeveragri.ac.in/facilities/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://upcollege.ac.in/Home",
+    "institution_ids": [
+      10
+    ],
+    "key": "93cc17799fea5492",
+    "status": 200,
+    "final_url": "https://upcollege.ac.in/Home",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+    "institution_ids": [
+      10
+    ],
+    "key": "a602c426058ae00e",
+    "status": 200,
+    "final_url": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.sbvr.in/agriculturecollege/",
+    "institution_ids": [
+      11
+    ],
+    "key": "f07b84fce60e0eed",
+    "status": 200,
+    "final_url": "https://www.sbvr.in/agriculturecollege/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.sbvr.in/agriculturecollege/academics/",
+    "institution_ids": [
+      11
+    ],
+    "key": "aec0cf132b213006",
+    "status": 200,
+    "final_url": "https://www.sbvr.in/agriculturecollege/academics/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+    "institution_ids": [
+      11,
+      12
+    ],
+    "key": "9441b772f850d7b0",
+    "status": 200,
+    "final_url": "https://angrau.ac.in/ANGRU/Constituent_Affiliated_Colleges.aspx",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://nsagri.ac.in/",
+    "institution_ids": [
+      12
+    ],
+    "key": "4b9e8e8b6bdf1bdf",
+    "status": 200,
+    "final_url": "https://nsagri.ac.in/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://nsagri.ac.in/admissions-apply",
+    "institution_ids": [
+      12
+    ],
+    "key": "29a84c2b3f233e14",
+    "status": 200,
+    "final_url": "https://nsagri.ac.in/admissions-apply",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://skcas.ac.in/",
+    "institution_ids": [
+      13
+    ],
+    "key": "1f026d19185c0914",
+    "status": 200,
+    "final_url": "https://skcas.ac.in/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://kcvas.com/",
+    "institution_ids": [
+      14
+    ],
+    "key": "5733b71fb4649dd1",
+    "status": 200,
+    "final_url": "https://kcvas.com/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.gadvasu.in/page/admission-ug-2026-27",
+    "institution_ids": [
+      14
+    ],
+    "key": "a368f388dff7751f",
+    "status": 200,
+    "final_url": "https://www.gadvasu.in/page/admission-ug-2026-27",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.gadvasu.in/Welcome/download/document/225",
+    "institution_ids": [
+      14
+    ],
+    "key": "c3a2f9f3d656db99",
+    "status": 200,
+    "final_url": "https://www.gadvasu.in/Welcome/download/document/225",
+    "content_type": "application/octet-stream"
+  },
+  {
+    "url": "https://khalsacollege.edu.in/",
+    "institution_ids": [
+      15
+    ],
+    "key": "69f0e9b2deedf232",
+    "error": "HTTP Error 406: Not Acceptable"
+  },
+  {
+    "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "institution_ids": [
+      15
+    ],
+    "key": "b11774fe8d97d77c",
+    "status": 200,
+    "final_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+    "institution_ids": [
+      15
+    ],
+    "key": "af1608f5ec0a865e",
+    "status": 200,
+    "final_url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://ghru.edu.in/",
+    "institution_ids": [
+      16
+    ],
+    "key": "9ce7bcbbc9120a6e",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://admissions.ghru.edu.in/",
+    "institution_ids": [
+      16
+    ],
+    "key": "0bc5ec1bf8fe33d4",
+    "status": 200,
+    "final_url": "https://admissions.ghru.edu.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://ghru.edu.in/bsc-agriculture",
+    "institution_ids": [
+      16
+    ],
+    "key": "93da456aa6207909",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/bsc-agriculture",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://ghru.edu.in/contact",
+    "institution_ids": [
+      16
+    ],
+    "key": "6bd024c10099375f",
+    "status": 200,
+    "final_url": "https://ghru.edu.in/contact",
+    "content_type": "text/html"
+  },
+  {
+    "url": "https://www.jagannathuniversity.org/",
+    "institution_ids": [
+      17
+    ],
+    "key": "b81340acc127e3de",
+    "status": 200,
+    "final_url": "https://www.jagannathuniversity.org/",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf",
+    "institution_ids": [
+      17
+    ],
+    "key": "a1186fc5d9498544",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.jagannathuniversity.org/admissions/cuet",
+    "institution_ids": [
+      17
+    ],
+    "key": "9fd392d9e1927653",
+    "status": 200,
+    "final_url": "https://www.jagannathuniversity.org/admissions/cuet",
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "url": "https://www.jnujaipur.ac.in/",
+    "institution_ids": [
+      18
+    ],
+    "key": "e60af8c3eaf49f4f",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://apply.jnujaipur.ac.in/",
+    "institution_ids": [
+      18
+    ],
+    "key": "1ced75c72e3444bf",
+    "status": 200,
+    "final_url": "https://apply.jnujaipur.ac.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.jnujaipur.ac.in/programmes/ug-programmes/bsc-hons-agriculture",
+    "institution_ids": [
+      18
+    ],
+    "key": "21926616f0a61339",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.jnujaipur.ac.in/school-of-agricultural-sciences",
+    "institution_ids": [
+      18
+    ],
+    "key": "5b0b3f1335f7e8e1",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "url": "https://www.cuchd.in/",
+    "institution_ids": [
+      19
+    ],
+    "key": "8ec92ac2aebfdaf3",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://www.cuchd.in/admissions/",
+    "institution_ids": [
+      19
+    ],
+    "key": "e6b8879e77959ad7",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/admissions/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf",
+    "institution_ids": [
+      19
+    ],
+    "key": "439d51832e1a0458",
+    "status": 200,
+    "final_url": "https://icar.org.in/sites/default/files/Circulars/N_2009_1663067246340.pdf",
+    "content_type": "application/pdf"
+  },
+  {
+    "url": "https://www.cuchd.in/academics/institutes.php",
+    "institution_ids": [
+      19
+    ],
+    "key": "fa2b81adbeff8cf7",
+    "status": 200,
+    "final_url": "https://www.cuchd.in/academics/institutes.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/",
+    "institution_ids": [
+      20
+    ],
+    "key": "929ae038c2e0c60f",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://portal.eternaluniversity.edu.in/register",
+    "institution_ids": [
+      20
+    ],
+    "key": "3e4f0c12f2239fad",
+    "status": 200,
+    "final_url": "https://portal.eternaluniversity.edu.in/register",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/apec?category=undergraduate&course=course-BACHELOR-PROGRAMME-22",
+    "institution_ids": [
+      20
+    ],
+    "key": "b5eb60763a047315",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/apec?category=undergraduate&course=course-BACHELOR-PROGRAMME-22",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://eternaluniversity.edu.in/college/aca",
+    "institution_ids": [
+      20
+    ],
+    "key": "37dffab75032c5f6",
+    "status": 200,
+    "final_url": "https://eternaluniversity.edu.in/college/aca",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://barusahib.org/our-universities/",
+    "institution_ids": [
+      20
+    ],
+    "key": "5c652f3581a0249a",
+    "status": 200,
+    "final_url": "https://barusahib.org/our-universities/",
+    "content_type": "text/html; charset=UTF-8"
+  }
+]

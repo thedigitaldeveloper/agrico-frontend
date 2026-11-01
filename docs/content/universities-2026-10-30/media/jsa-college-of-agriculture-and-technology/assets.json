@@ -1,0 +1,73 @@
+{
+  "id": 4,
+  "slug": "jsa-college-of-agriculture-and-technology",
+  "name": "JSA College of Agriculture and Technology",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/jsa-college-of-agriculture-and-technology/logo.png",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/JsaAgri-logo.png",
+      "source_kind": "official",
+      "description": "JSA College of Agriculture and Technology standalone seal",
+      "alt": "JSA College of Agriculture and Technology standalone seal",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "JSA College of Agriculture and Technology",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 304,
+      "height": 305,
+      "sha256": "2e4e26babdf8e0b9fae68f1f08ed5b17ea7894582d97277d9bc57d7b5b563435"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/jsa-college-of-agriculture-and-technology/campus-main-building.jpg",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/static/media/main_building.ca73ecb9af87e970a3d0.JPG",
+      "source_kind": "official",
+      "description": "JSA College of Agriculture and Technology main academic building",
+      "alt": "JSA College of Agriculture and Technology main academic building",
+      "campus": "Avatti, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "JSA College of Agriculture and Technology",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Original URL discovered in the official public asset-manifest.json; original building photograph retained.",
+      "width": 1620,
+      "height": 1080,
+      "sha256": "35c7c8973488dcaadccd4fe06d3c18b550b2c810d3313eeb4c4d89140d761c2e"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/jsa-college-of-agriculture-and-technology/campus-library.jpg",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/static/media/library_4.b84c81a436ba7fe5d8a0.JPG",
+      "source_kind": "official",
+      "description": "Students and reading tables in the JSA College library",
+      "alt": "Students and reading tables in the JSA College library",
+      "campus": "Avatti, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "JSA College of Agriculture and Technology",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Original URL discovered as library_4 in the official public asset-manifest.json.",
+      "width": 1620,
+      "height": 1080,
+      "sha256": "712e3f5fbcf7010b0177aef109b8aaa6e41b1d9a3f9e37bcacacc14703c63ef9"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Access/discovery failures during collection: [{\"role\": \"campus_primary\", \"reason\": \"cannot identify image file 'D:\\\\\\\\agrico-frontend\\\\\\\\docs\\\\\\\\content\\\\\\\\universities-2026-10-30\\\\\\\\media\\\\\\\\jsa-college-of-agriculture-and-technology\\\\\\\\campus-01.download'\", \"attempted_sources\": [\"https://www.jsaagri.in/src/assets/images/home/banner/banner-1.webp\"]}]",
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

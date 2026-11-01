@@ -1,0 +1,259 @@
+{
+  "root": "http://localhost:3003",
+  "checks": [
+    "programme: 17 mobile/tablet/desktop widths, no document or text overflow; distinct layout and shared Agrico shell",
+    "programme: searchable directory, filters and useful empty state",
+    "programme: sticky section links, scroll position and active section",
+    "programme: portrait/landscape enquiry dialog, focus restoration, native/server validation and correct context; no valid enquiries submitted",
+    "university: 17 mobile/tablet/desktop widths, no document or text overflow; distinct layout and shared Agrico shell",
+    "university: searchable directory, filters and useful empty state",
+    "university: sticky section links, scroll position and active section",
+    "university: portrait/landscape enquiry dialog, focus restoration, native/server validation and correct context; no valid enquiries submitted",
+    "All six programme and four university guides load with their detail UI",
+    "Legacy programme URL resolves to the canonical detail page",
+    "Unknown programme and university routes retain real 404 responses",
+    "Homepage programme and university links open their matching detail pages",
+    "No browser runtime errors"
+  ],
+  "layouts": [
+    {
+      "kind": "programme",
+      "width": 320,
+      "viewport": 320,
+      "document": 320,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 360,
+      "viewport": 360,
+      "document": 360,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 390,
+      "viewport": 390,
+      "document": 390,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 414,
+      "viewport": 414,
+      "document": 414,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 540,
+      "viewport": 540,
+      "document": 540,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 700,
+      "viewport": 700,
+      "document": 700,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 701,
+      "viewport": 701,
+      "document": 701,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 820,
+      "viewport": 820,
+      "document": 820,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 900,
+      "viewport": 900,
+      "document": 900,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 901,
+      "viewport": 901,
+      "document": 901,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 1024,
+      "viewport": 1024,
+      "document": 1024,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 1150,
+      "viewport": 1150,
+      "document": 1150,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "overflow": []
+    },
+    {
+      "kind": "programme",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 320,
+      "viewport": 320,
+      "document": 320,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 360,
+      "viewport": 360,
+      "document": 360,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 375,
+      "viewport": 375,
+      "document": 375,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 390,
+      "viewport": 390,
+      "document": 390,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 414,
+      "viewport": 414,
+      "document": 414,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 540,
+      "viewport": 540,
+      "document": 540,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 700,
+      "viewport": 700,
+      "document": 700,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 701,
+      "viewport": 701,
+      "document": 701,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 768,
+      "viewport": 768,
+      "document": 768,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 820,
+      "viewport": 820,
+      "document": 820,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 900,
+      "viewport": 900,
+      "document": 900,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 901,
+      "viewport": 901,
+      "document": 901,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 1024,
+      "viewport": 1024,
+      "document": 1024,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 1150,
+      "viewport": 1150,
+      "document": 1150,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 1280,
+      "viewport": 1280,
+      "document": 1280,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "overflow": []
+    },
+    {
+      "kind": "university",
+      "width": 1920,
+      "viewport": 1920,
+      "document": 1920,
+      "overflow": []
+    }
+  ],
+  "errors": []
+}

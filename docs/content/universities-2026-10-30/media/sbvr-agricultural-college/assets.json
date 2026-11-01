@@ -1,0 +1,57 @@
+{
+  "id": 11,
+  "slug": "sbvr-agricultural-college",
+  "name": "SBVR Agricultural College",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sbvr-agricultural-college/logo.png",
+      "source_page": "https://sbvragcollege.in/",
+      "download_url": "https://sbvragcollege.in/images/logo.png",
+      "source_kind": "official",
+      "description": "SBVR Agricultural College official header wordmark",
+      "alt": "SBVR Agricultural College official header wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official alternate college site identifies SBVR Agricultural College, Badvel and supplies the college-branded header, campus entrance and building slideshow photographs.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "SBVR Agricultural College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Header contains the college name and affiliated university marks; retained as supplied.",
+      "width": 1200,
+      "height": 150,
+      "sha256": "af2beadf74d1428ed7fb3df9c66775bb92fa71b5a74df7f0360631fe7521567f"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sbvr-agricultural-college/campus-01.jpg",
+      "source_page": "https://sbvragcollege.in/",
+      "download_url": "https://sbvragcollege.in/admin/uploads/slides/2877CAMPUS%20ENTRANCE.jpg",
+      "source_kind": "official",
+      "description": "SBVR Agricultural College entrance photograph within its official campus slide",
+      "alt": "SBVR Agricultural College entrance photograph within its official campus slide",
+      "campus": "Badvel, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official alternate college site identifies SBVR Agricultural College, Badvel and supplies the college-branded header, campus entrance and building slideshow photographs.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "SBVR Agricultural College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. This is an institution-supplied raster slide with a decorative border and campus-entrance photograph, kept unchanged.",
+      "width": 960,
+      "height": 720,
+      "sha256": "474085de32d0b055ce4f4c29e130deae37e6fcde1716ea646efa898ae3dff06b"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "The other official slideshow building visual appears to be an architectural rendering; excluded from the photographic import set after root Chrome visual review."
+    }
+  ],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "id": 47,
+  "slug": "sri-satya-sai-university-of-technology-and-medical-sciences",
+  "name": "Sri Satya Sai University of Technology and Medical Sciences",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SSSUTMS",
+    "ownership": "Private university",
+    "city": "Sehore",
+    "state": "Madhya Pradesh",
+    "established": 2014,
+    "address": "Opposite Oilfed Plant, Bhopal-Indore Road, Sehore, Madhya Pradesh 466001",
+    "parent_university": null,
+    "website": "https://www.sssutms.co.in/",
+    "admissions_url": "https://www.sssutms.co.in/cms/Website/Admission/AdmissionProcedure",
+    "phone": "+91 7748900028",
+    "email": "info@sssutms.co.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Sri Satya Sai University of Technology and Medical Sciences",
+    "summary": "SSSUTMS teaches agriculture through a dedicated school at Sehore, with a four-year bachelor’s programme and published semester schemes. The school dates its start to July 2015, while the university’s curriculum index identifies a revised first-semester agriculture scheme from the 2025–26 session.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "A Sehore agriculture school with a published curriculum trail",
+    "paragraphs": [
+      "The university prospectus dates the School of Agriculture’s start to July 2015. It describes undergraduate agriculture teaching, and the university’s scheme page makes the degree’s semester documents available. The first-semester listing explicitly refers to the Sixth Deans’ Committee from 2025–26, while earlier schemes remain alongside it.",
+      "Published curriculum documents give applicants a way to examine the agriculture course beyond its title. The scheme index carries both revised and earlier semester documents, so the version applicable to a student’s entry year matters when comparing subjects. The university also operates a training and placement cell whose stated activities include aptitude and interview preparation, and a scholarship section that describes assistance with government applications."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "School of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Sehore, Madhya Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s6",
+      "s7"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The agriculture bachelor’s degree has a university scheme index with semester documents.",
+      "eligibility": "The undated official fee-and-eligibility table lists 10+2 in PCM, PCB or Agriculture with 45%. Obtain the applicable 2026–27 rule before applying.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 61000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published annual tuition figure for B.Sc. (Hons.) Agriculture; additional charges are not itemised in the row.",
+        "note": "Undated official amount; intake-year applicability is not established. This is not a verified current 2026–27/2027 payable quote. Obtain the complete dated charge schedule.",
+        "verification": "verified",
+        "source_ids": [
+          "s8"
+        ]
+      },
+      "icar_scope_note": "Listed under School of Agriculture; accreditation term 2025-01-27 to 2030-12-26.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s8"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to SSSUTMS",
+    "intro": "The official notice index lists entrance and enrolment notices for 2026–27. Its agriculture eligibility table is undated, so applicants should obtain the session-specific notice and confirm the required science or agriculture subjects before registration.",
+    "eligibility_points": [
+      "The official eligibility table states 45% in 10+2 PCM/PCB/Agriculture, but does not identify the admission session."
+    ],
+    "steps": [
+      {
+        "title": "Request the agriculture admission notice",
+        "text": "Confirm the applying-year qualifications, subject requirements and selection route."
+      },
+      {
+        "title": "Obtain the approved cost schedule",
+        "text": "The procedure refers to regulator-approved fees; request the dated B.Sc. Agriculture schedule and its additional charges."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s5",
+      "s8",
+      "s10"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The university disclosure index identifies common facilities and student services. A verifiable current inventory of agriculture farms and laboratories was not available in the pages read.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The university describes assistance with government scholarships for eligible reserved-category and minority students. The page does not establish a current agriculture-specific award amount.",
+    "schemes": [
+      {
+        "name": "Government scholarship application assistance",
+        "details": "The university states that its scholarship department helps students apply to applicable government schemes; eligibility remains governed by the scheme authority.",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "SSSUTMS describes university-wide aptitude, communication and interview preparation, and explicitly includes agriculture in pre-placement training. No dated agriculture-only placement result was established.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies School of Agriculture with validity from 2025-01-27 to 2030-12-26. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "School of Agriculture",
+        "programmes_as_printed": [
+          "School of Agriculture",
+          "B.Sc. (Hons.) Agriculture programme (Intake- 120)"
+        ],
+        "valid_from": "2025-01-27",
+        "valid_until": "2030-12-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A56:G56"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A dated agriculture faculty roster for SSSUTMS has not been verified for this draft.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where is SSSUTMS agriculture based?",
+      "answer": "The university address is on Bhopal-Indore Road at Sehore, opposite the Oilfed plant.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "When did the school begin?",
+      "answer": "The official prospectus excerpt dates the School of Agriculture’s start to July 2015.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "How long is the listed degree?",
+      "answer": "The official prospectus describes B.Sc. Agriculture as a four-year programme.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What curriculum update is visible?",
+      "answer": "The university scheme index lists a first-semester scheme under the Sixth Deans’ Committee effective 2025–26.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What ICAR expiry date is preserved here?",
+      "answer": "The supplied audit prints 26 December 2030 after a 27 January 2025 start. That unusual end date is retained exactly, not recalculated.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does university placement training include agriculture?",
+      "answer": "The official placement-cell page explicitly includes agriculture among the disciplines receiving pre-placement training.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "What agriculture tuition has SSSUTMS published?",
+      "answer": "The official table quotes ₹61,000 annual tuition for B.Sc. (Hons.) Agriculture without an intake-year label. It is a sourced undated figure, not a verified current payable total.",
+      "source_ids": [
+        "s8"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sri Satya Sai University of Technology and Medical Sciences | Agriculture Courses & Admissions",
+    "description": "Explore SSSUTMS agriculture at Sehore, its four-year bachelor’s degree, curriculum evidence, admission checks, support services and audited ICAR scope.",
+    "keywords": [
+      "Sri Satya Sai University of Technology and Medical Sciences agriculture",
+      "Sri Satya Sai University of Technology and Medical Sciences admissions",
+      "Sri Satya Sai University of Technology and Medical Sciences ICAR accreditation",
+      "Sri Satya Sai University of Technology and Medical Sciences agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/1390/2024/1/24/Campus%20Entrance%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Campus-View.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/1390/2024/1/24/Logo%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Logo.png",
+    "campus_alt": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+    "caption": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_campus_primary",
+      "media_logo"
+    ],
+    "local_logo": "media/sri-satya-sai-university-of-technology-and-medical-sciences/logo-verified.jpg",
+    "local_campus_image": "media/sri-satya-sai-university-of-technology-and-medical-sciences/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/sri-satya-sai-university-of-technology-and-medical-sciences/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A56:G56. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sssutms.co.in/cms/Website/Download/Scheme/BScHonsAG",
+      "title": "B.Sc. Agriculture scheme index",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": "Sixth Deans’ Committee first-semester scheme labelled effective 2025–26."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.sssutms.co.in/cms/Areas/Website/Files/Link/Download/SSSUTMS%20Prospectus%20%282%29.pdf",
+      "title": "SSSUTMS prospectus, School of Agriculture",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.duration"
+      ],
+      "notes": "Full PDF exceeded tool content limit; official excerpt gives school start July 2015 and duration."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.sssutms.co.in/cms/Website/About/Public_Self_Disclosure",
+      "title": "Public self-disclosure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "campus",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "Links to central facilities; detailed agriculture inventory unverified."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.sssutms.co.in/cms/Website/Admission/AdmissionProcedure",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "General institutional procedure; page has mixed update dates."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.sssutms.co.in/cms/Website/Academic/Scholarship",
+      "title": "Scholarship support",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Government schemes described without a current award-year schedule."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.sssutms.co.in/cms/Website/Academic/TrainingAndPlacement/TrainingAndPlacementCell",
+      "title": "Training and placement cell",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "placements"
+      ],
+      "notes": "Institution-wide services; agriculture expressly included in pre-placement training."
+    },
+    {
+      "id": "s8",
+      "url": "https://sssutms.co.in/cms/Website/Admission/FeesStructure",
+      "title": "Official university eligibility and annual tuition table",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.eligibility",
+        "programmes.duration",
+        "programmes.fees"
+      ],
+      "notes": "Undated table lists B.Sc. Agriculture four years, PCM/PCB/Agriculture 45%, annual tuition ₹61,000. No intake year established.",
+      "note": "Undated agriculture row quotes 61000 under annual tuition table; preserve unknown intake year."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.sssutms.co.in/cms/Areas/Website/Files/Link/IQAC/NAAC/Criteria%201/1.4.1.pdf",
+      "title": "Official statutory establishment statement in university IQAC document",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "University letterhead identifies establishment under Madhya Pradesh Act 06 of 2014."
+    },
+    {
+      "id": "s10",
+      "url": "https://sssutms.co.in/cms/Website/Admission/AdmissionNotice",
+      "title": "Official admission notices for 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Notice index lists 2026–27 entry and enrolment notices. Linked February 2026 PDF was image-only with no readable text; no deadline inferred."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "title": "Sri Satya Sai University of Technology and Medical Sciences — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-satya-sai-university-of-technology-and-medical-sciences/campus_primary-verified.jpg. Named university Careers360 gallery, full university name and SSSUTMS visibly printed on the entrance."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "title": "Sri Satya Sai University of Technology and Medical Sciences — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-satya-sai-university-of-technology-and-medical-sciences/logo-verified.jpg. Institution-specific Careers360 university profile logo; full institution name and SSSUTMS mark identify the Sehore university."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "campus",
+      "reason": "Dedicated school domain was expired; central facilities detail could not be fetched.",
+      "next_source": "https://www.sssutms.co.in/"
+    },
+    {
+      "field": "programmes.eligibility",
+      "reason": "The official table’s 45% PCM/PCB/Agriculture rule has no intake-year label; confirm that it applies to 2026–27.",
+      "next_source": "https://sssutms.co.in/cms/Website/Admission/AdmissionNotice"
+    },
+    {
+      "field": "programmes.fees.academic_year",
+      "reason": "Official annual agriculture tuition ₹61,000 is readable, but intake-year applicability and other charges remain unverified.",
+      "next_source": "https://www.sssutms.co.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.sssutms.co.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.sssutms.co.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+      "next_source": "https://www.sssutms.co.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.sssutms.co.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

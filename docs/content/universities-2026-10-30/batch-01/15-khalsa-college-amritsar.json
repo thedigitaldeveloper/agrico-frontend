@@ -1,0 +1,480 @@
+{
+  "id": 15,
+  "slug": "khalsa-college-amritsar",
+  "name": "Khalsa College, Amritsar",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "Khalsa College",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "established": 1892,
+    "address": null,
+    "parent_university": "Guru Nanak Dev University, G.T. road, Amirtsar-143002",
+    "website": "https://khalsacollege.edu.in/",
+    "admissions_url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "phone": "0183-5015511",
+    "email": "khalsacollegeamritsar@yahoo.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Khalsa College, Amritsar",
+    "summary": "Khalsa College is an autonomous affiliated college in Amritsar, founded in 1892. Its agriculture department publishes crop-science teaching, rural work experience and experiential-learning activities. This profile concerns the college’s agriculture degree, distinct from the separately affiliated Khalsa veterinary college.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture within a historic Amritsar college",
+    "paragraphs": [
+      "Khalsa College was established in 1892 and is affiliated to Guru Nanak Dev University. Its agriculture department has a long academic history: the official department account records degree affiliation to Panjab University in 1931 and then GNDU in 1971, with postgraduate teaching developed in 1967.",
+      "The department describes dedicated agricultural teaching blocks and laboratories covering agronomy, crop protection, soil science, horticulture and agricultural economics. Its activity archive includes rural work experience, commercial beekeeping, mushroom cultivation and paddy-residue-management programmes. These dated examples help applicants understand the department’s practical orientation while leaving the current cohort’s exact activity calendar for direct confirmation."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Punjab"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-02-07"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "8 semesters (published 2024–2028 batch syllabus)",
+      "mode": null,
+      "summary": "B.Sc. (Hons.) Agriculture is identified by the college and the ICAR register. The department’s teaching and activity material spans crops, soils, horticulture, protection and agricultural economics.",
+      "eligibility": null,
+      "admission_route": "The official 2026–27 homepage provides a separate agriculture entrance-exam registration link; detailed rules in the image-only admission PDF need confirmation.",
+      "fees": {
+        "amount_inr": 120210,
+        "period": "first year",
+        "academic_year": "2026–27",
+        "includes": "Published B.Sc.(Hons.)AgriculturePart-I total academic fee; not the whole-degree or living-cost total.",
+        "note": "2026–27 officialtable lists Part-I₹1,20,210 in instalments₹62,375 and₹57,835; Part-II₹1,09,100; Part-III₹99,970; Part-IV₹93,100. These are year-specific published totals, not a single annual price applied across all four years. Read separately applicable hostel/mess/deposit rules.",
+        "verification": "verified",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Khalsa College, Amritsar for 2024-02-08 to 2029-02-07. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s7",
+        "s5"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to Khalsa College",
+    "intro": "Khalsa College publishes a dedicated agriculture entrance-registration link alongside its 2026–27 admissions material. Its linked procedure and fee PDFs were image-only in the reading tool. Applicants should request accessible current copies before relying on a cutoff or payable amount.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Register in the stated Punjab admission portal",
+        "text": "The 2026–27 college document directs applicants to admission.punjab.gov.in and a separate new registration for UG orPG study."
+      },
+      {
+        "title": "Complete academic and personal registration",
+        "text": "Enter the requested details, board/university roll number and passing year; follow the document’s instructions if academic data is not retrieved automatically."
+      },
+      {
+        "title": "Log in and submit the registration fee/form",
+        "text": "Use the credentials sent to the registered phone/email, then complete the portal form and payment."
+      },
+      {
+        "title": "Follow the agriculture-specific selection notice",
+        "text": "The college document labels B.Sc. Agriculture admission as entrance-test/merit based and leaves actual dates to be notified later. Portal registration alone does not guarantee a seat."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s5",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Agriculture blocks and experiential learning",
+    "intro": "The official agriculture department describes laboratories across its major subject areas. Its archive documents practical and rural engagement, with dates ranging across earlier cohorts rather than a guaranteed current-year schedule.",
+    "facilities": [
+      {
+        "name": "Agricultural teaching laboratories",
+        "description": "The department describes laboratories for agronomy, soils, crop protection, horticultural sciences and economics.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The activity archive lists RAWE training and experiential-learning modules.",
+      "Dated activity examples include commercial beekeeping and paddy-residue-management awareness."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The official homepage links stipends and scholarship information and posts dated support notices. Current agriculture-specific award terms were not readable from the linked PDF, so no concession amount or automatic eligibility is claimed.",
+    "schemes": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "Khalsa College lists a Training and Placement Cell and a Career Guidance Cell at college level. The material read does not separate agriculture employment outcomes from the wider college, so no agriculture placement rate or salary figure is stated.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Khalsa College, Amritsar and the programme labels below from 2024-02-08 through 2029-02-07. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Khalsa College, Amritsar",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake-120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A23:G23"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Is this the same institution as KCVAS?",
+      "answer": "No. Khalsa College, Amritsar is affiliated to GNDU; the separately profiled veterinary college is affiliated to GADVASU.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does the college have a dedicated agriculture department?",
+      "answer": "Yes. Its official site provides a Postgraduate Department of Agriculture page with teaching and activity information.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is a current fee amount verified?",
+      "answer": "Yes. Khalsa College’s 2026–27 fee schedule lists B.Sc.(Hons.)AgriculturePart-I at₹1,20,210, split into₹62,375 and₹57,835 instalments. Later-year totals differ; accommodation and other applicable charges need separate checking.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "What practical activities are documented?",
+      "answer": "The department archive includes RAWE, experiential-learning modules and agriculture extension activities, with dates attached to individual past events.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What ICAR period is verified for agriculture?",
+      "answer": "The audited undergraduate agriculture term runs from 8 February 2024 to 7 February 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at Khalsa College?",
+      "answer": "8 semesters (published 2024–2028 batch syllabus). ",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s7",
+        "s5"
+      ]
+    },
+    {
+      "question": "What establishment year is documented for Khalsa College?",
+      "answer": "Khalsa College, Amritsar is recorded as established in 1892.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for Khalsa College?",
+      "answer": "Guru Nanak Dev University, G.T. road, Amirtsar-143002 is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s7",
+        "s5"
+      ]
+    },
+    {
+      "question": "Where is the official application information for Khalsa College?",
+      "answer": "https://khalsacollege.edu.in/images/admissionprocedure.pdf. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s2",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "question": "How can applicants contact Khalsa College?",
+      "answer": "Public telephone: 0183-5015511; Public email: khalsacollegeamritsar@yahoo.com. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Khalsa College, Amritsar | Agriculture Courses & Admissions",
+    "description": "Explore Khalsa College Amritsar agriculture: its department, practical-learning activities, entrance-registration link, dated fee evidence and ICAR scope.",
+    "keywords": [
+      "Khalsa College, Amritsar",
+      "Khalsa College agriculture",
+      "Amritsar agriculture admission",
+      "B.Sc. (Hons.) Agriculture Khalsa College, Amritsar"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://tripsamachar.com/uploads/0000/8/2025/01/28/khalsa-college-amritsar.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/10234/2019/4/22/logo.png",
+    "campus_alt": "Historic main building and lawns of Khalsa College Amritsar",
+    "caption": "Historic main building and lawns of Khalsa College Amritsar",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/khalsa-college-amritsar/logo-secondary.png",
+    "local_campus_image": "media/khalsa-college-amritsar/campus-tripsamachar.jpg",
+    "local_gallery": [
+      "media/khalsa-college-amritsar/campus-tripsamachar.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://khalsacollege.edu.in/",
+      "title": "Khalsa College official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "overview",
+        "placements",
+        "programmes.0",
+        "scholarships"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://khalsacollege.edu.in/DepartmentList1.php?id=28",
+      "title": "Postgraduate Department of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "faqs.1",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://khalsacollege.edu.in/Prospectus%202024-25.pdf",
+      "title": "Prospectus 2024–25",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.2",
+        "overview",
+        "programmes.0.fees"
+      ],
+      "notes": "Historical official fee table, not a 2026 fee quote."
+    },
+    {
+      "id": "s5",
+      "url": "https://khalsacollege.edu.in/images/feestructure.pdf",
+      "title": "Linked fee structure 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Official homepage labels this link 2026–27; image-only PDF returned no readable text. No amount extracted.",
+      "note": "Image-only officialPDF visually read; page 1/printedprospectusp 46 rows 46–49 distinguish all four B.Sc. Agriculture years and instalments."
+    },
+    {
+      "id": "s6",
+      "url": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+      "title": "Linked admission procedure 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "overview"
+      ],
+      "notes": "Image-only PDF; detailed rules not readable in research tool.",
+      "note": "Image-only admission page visually read; Punjab portal registration steps verified. Agriculture entrance/result/admission dates are explicitly marked To be Notified Later."
+    },
+    {
+      "id": "s7",
+      "url": "https://khalsacollege.edu.in/admin/app/syllabus_file/23_doc_6962866.pdf",
+      "title": "B.Sc. Agriculture syllabus, 2024–2028 batch",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.0"
+      ],
+      "notes": "Official document identifies the 2024–2028 cohort and semesters I–VIII; not a 2026 admission prospectus."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/colleges/khalsa-college-amritsar",
+      "title": "Khalsa College, Amritsar — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/khalsa-college-amritsar/logo-secondary.png. Exact Khalsa College Amritsar secondary profile supplies an 1892 crest; the campus source identifies the college and shows its distinctive historic building."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://tripsamachar.com/blogs/khalsa-college-amritsar-a-landmark-of-education-and-heritage",
+      "title": "Khalsa College, Amritsar — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/khalsa-college-amritsar/campus-tripsamachar.jpg. Exact Khalsa College Amritsar secondary profile supplies an 1892 crest; the campus source identifies the college and shows its distinctive historic building."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "The 2026–27 admission-procedure document is readable after rendering, but B.Sc. Agriculture test/result/admission dates are explicitly To be Notified Later. No current closing date is invented.",
+      "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://khalsacollege.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://khalsacollege.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://khalsacollege.edu.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+    },
+    {
+      "field": "admissions.eligibility_points",
+      "reason": "The current admission-procedure PDF has now been visually read and its registration stages are documented, but it does not contain the agriculture subject/marks threshold matrix.",
+      "next_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf"
+    },
+    {
+      "field": "identity.address",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://khalsacollege.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/15-khalsa-college-amritsar.json",
+  "audit_name": "Khalsa College, Amritsar",
+  "related": [
+    {
+      "id": 14,
+      "name": "Khalsa College of Veterinary and Animal Sciences",
+      "slug": "khalsa-college-of-veterinary-and-animal-sciences",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 19,
+      "name": "Chandigarh University",
+      "slug": "chandigarh-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 43,
+      "name": "Lovely Professional University",
+      "slug": "lovely-professional-university",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

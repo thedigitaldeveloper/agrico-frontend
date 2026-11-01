@@ -1,0 +1,472 @@
+{
+  "id": 51,
+  "slug": "guru-kashi-university",
+  "name": "Guru Kashi University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "GKU",
+    "ownership": "Private university",
+    "city": "Talwandi Sabo",
+    "state": "Punjab",
+    "established": 2011,
+    "address": "Guru Kashi University, Talwandi Sabo, Bathinda, Punjab 151302",
+    "parent_university": null,
+    "website": "https://gku.ac.in/",
+    "admissions_url": "https://gku.ac.in/admissions/admission-procedure",
+    "phone": "+91 9914283400",
+    "email": "info@gku.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Guru Kashi University",
+    "summary": "Guru Kashi University’s Faculty of Agriculture at Talwandi Sabo combines crop study with experimental farms and specialised production units. Students encounter soil, crop protection, horticulture and seed work alongside classroom study. The four-year agriculture bachelor’s degree offers a broad route into this academic setting.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Crop science and farm demonstrations at Talwandi Sabo",
+    "paragraphs": [
+      "GKU’s agriculture programme page describes study in crop production, soil science, plant breeding, biotechnology and agribusiness. It lists a four-year bachelor’s degree and provides a defined school-level entry requirement. The wider agriculture faculty also offers postgraduate routes, which applicants should compare as separate programme choices.",
+      "Its facilities page gives specific examples of practical infrastructure: experimental farms, protected cultivation, seed technology and silkworm work. These are useful indicators of the school’s teaching context. The university’s general admissions procedure describes application scrutiny, merit-based provisional allocation and original-document checking. A dated agriculture fee schedule is still needed to turn the academic comparison into a reliable cost comparison."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Faculty of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Talwandi Sabo, Punjab"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A broad agriculture degree with published crop, resource and agribusiness subject areas.",
+      "eligibility": "Official page states 50% in 10+2 PCB/PCBM/PCM/Agriculture, or 50% in a two- or three-year agriculture/allied diploma after Class 10.",
+      "admission_route": "General procedure describes application scrutiny and merit-based allocation; confirm the course-specific notice.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s5"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to GKU",
+    "intro": "GKU’s general process moves from application and scrutiny to provisional allocation, eligibility verification, fee payment and final allotment.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Submit the application",
+        "text": "The procedure permits online or offline registration."
+      },
+      {
+        "title": "Complete verification",
+        "text": "Original documents are checked for eligibility before the university’s final seat allotment."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The agriculture faculty documents teaching and research resources across production, protection and resource management.",
+    "facilities": [
+      {
+        "name": "Experimental and demonstration farms",
+        "description": "Field areas support crop research and student training.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Protected cultivation units",
+        "description": "Polyhouses support horticultural and crop-diversification work.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Seed technology and processing facilities",
+        "description": "The faculty identifies seed testing, treatment and production research resources.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The faculty FAQ describes live projects, internships and field training.",
+      "The facilities page identifies vermicomposting and silkworm-rearing units."
+    ],
+    "source_ids": [
+      "s3",
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "GKU’s policy describes several fee-concession routes. Its early-admission windows are dated in 2026 and should not be treated as open-ended offers. Written confirmation of programme applicability and combination rules remains necessary.",
+    "schemes": [
+      {
+        "name": "Special Meritorious Scholarship",
+        "details": "The published policy sets first-semester tuition concessions by qualifying-class marks, excludes Ph.D. and restricts combination with government schemes or study packages. Confirm the applicable intake policy.",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "GKU publishes university-wide placement support information. The general admissions page’s promotional placement wording is not a dated agriculture cohort report, so no agriculture placement rate or salary is quoted.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Faculty of Agriculture with validity from 2024-03-29 to 2029-03-28. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agriculture",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture (Intake- 180)"
+        ],
+        "valid_from": "2024-03-29",
+        "valid_until": "2029-03-28",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A60:G60"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official Faculty of Agriculture directory identifies these teachers and roles. The page was checked on 31 October 2026 but does not state appointment-effective dates.",
+    "people": [
+      {
+        "name": "Dr. Amritpal Mehta",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Priyanka Sharma",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Amanpreet Singh",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Veerpal Kaur",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Bablu Singh",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Baljinder Singh",
+        "role": "Associate Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Pallvi Verma",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "completion_gku_faculty"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_gku_faculty"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is GKU’s agriculture faculty located?",
+      "answer": "Guru Kashi University is at Talwandi Sabo in Bathinda district, Punjab.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. Agriculture?",
+      "answer": "The programme page lists four years.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Can an agriculture diploma holder apply?",
+      "answer": "The official course page includes qualifying two- or three-year agriculture/allied diploma routes after Class 10, subject to its 50% requirement.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What specialised practical units are documented?",
+      "answer": "The faculty identifies protected cultivation, seed technology, vermicomposting and sericulture resources.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which degree is covered by this ICAR record?",
+      "answer": "B.Sc. (Hons.) Agriculture under the Faculty of Agriculture, from 29 March 2024 to 28 March 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Is an agriculture fee amount verified here?",
+      "answer": "The course page provides no amount. The recovered 2025–26 scanned prospectus did not yield a verified agriculture fee in the inspected pages; a dated, itemised programme quote is still needed.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Guru Kashi University | Agriculture Courses & Admissions",
+    "description": "Explore Guru Kashi University agriculture at Talwandi Sabo, its four-year degree, entry routes, farm facilities, financial support and ICAR programme scope.",
+    "keywords": [
+      "Guru Kashi University agriculture",
+      "Guru Kashi University admissions",
+      "Guru Kashi University ICAR accreditation",
+      "Guru Kashi University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.gku.ac.in/public/frontend/images/home_bout_campus.webp?v=1793359664",
+    "logo_url": "https://www.gku.ac.in/public/frontend/images/logo.webp?v=1793359664",
+    "campus_alt": "Guru Kashi University campus at Talwandi Sabo",
+    "caption": "Guru Kashi University campus at Talwandi Sabo",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/guru-kashi-university/logo.webp",
+    "local_campus_image": "media/guru-kashi-university/campus-01.webp",
+    "local_gallery": [
+      "media/guru-kashi-university/campus-01.webp",
+      "media/guru-kashi-university/campus_secondary-verified.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A60:G60. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://gku.ac.in/programs/bachelor-of-science-in-agriculture-hons",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.gku.ac.in/faculty/faculty-of-agriculture/faq",
+      "title": "Faculty of Agriculture FAQs",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "campus"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.gku.ac.in/faculty/faculty-of-agriculture/facilities",
+      "title": "Agriculture facilities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://gku.ac.in/admissions/admission-procedure",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://gku.ac.in/admissions/scholarship",
+      "title": "Scholarship policy",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Contains 2026 early-admission windows; benefits not presented as still open."
+    },
+    {
+      "id": "s7",
+      "url": "https://gku.ac.in/admissions/admissions-overview",
+      "title": "Admissions overview",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.city",
+        "placements",
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "University-wide promotional outcome claims omitted."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://gku.ac.in/",
+      "title": "Guru Kashi University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/guru-kashi-university/logo.webp. Image embedded by the institution official website at https://gku.ac.in/; source alt: Guru Kashi University"
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://gku.ac.in/",
+      "title": "Guru Kashi University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/guru-kashi-university/campus-01.webp. Image embedded by the institution official website at https://gku.ac.in/; source alt: Best Private University in Punjab - Guru Kashi University"
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.gku.ac.in/library/library-overview",
+      "title": "Guru Kashi University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/guru-kashi-university/campus_secondary-verified.webp. Official GKU Library Overview page labels this photograph Library and identifies the Central Library in Talwandi Sabo."
+    },
+    {
+      "id": "completion_gku_faculty",
+      "title": "Official GKU Faculty of Agriculture teaching directory",
+      "url": "https://www.gku.ac.in/faculty/faculty-of-agriculture/faculty",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Live undated agriculture directory read on 31 October 2026; image alt labels are not used as staff identities. Appointment-effective dates are not established."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "The official course page has no amount. The linked 2025–26 prospectus was recovered as a 58 MB scanned PDF, but the inspected programme pages did not establish an agriculture fee figure; a dated programme-specific fee schedule remains necessary.",
+      "next_source": "https://gku.ac.in/programs/bachelor-of-science-in-agriculture-hons"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://gku.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://gku.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "The official agriculture directory now supplies named teachers and roles, but appointment-effective dates remain unstated.",
+      "next_source": "https://gku.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://gku.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

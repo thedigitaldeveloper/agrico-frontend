@@ -1,0 +1,75 @@
+{
+  "id": "college-questions",
+  "cms_type": "Blog",
+  "slug": "questions-before-choosing-agriculture-college",
+  "title": "Questions to ask before choosing an agriculture college",
+  "description": "Ask better questions about agriculture degrees, practical teaching, accreditation, fees and student support before making a college decision.",
+  "summary": "A useful college conversation ends with documents you can compare. Start with the exact degree and campus, then ask how teaching works, what it costs to complete the course and which details still need written confirmation.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "identify-the-offer",
+      "heading": "First, identify exactly what you are choosing",
+      "paragraphs": [
+        "Write the degree title, teaching campus, awarding university and admission route at the top of your notes. A familiar institution name can appear on several courses or campuses. Ask the admissions office to confirm the combination that would appear on your offer letter. This makes later questions about eligibility, fees and recognition much more precise.",
+        "Check the programme and validity dates in the relevant official accreditation record. A logo on a brochure does not answer whether the particular degree and teaching unit are covered. Our guide to [checking ICAR accreditation](/articles/icar-accreditation-how-to-check) explains the comparison. Keep recognition checks separate from questions about daily teaching: each needs its own evidence."
+      ]
+    },
+    {
+      "id": "turn-facilities-into-questions",
+      "heading": "Turn a facilities list into teaching questions",
+      "paragraphs": [
+        "A facility becomes useful when you understand what students actually do there. [Palar Agricultural College](/university/palar-agricultural-college) lists an apiary and mushroom cultivation unit. Ask which semester uses each unit, how many students share an activity and what work they submit for assessment. Request a recent timetable or module outline rather than assuming every listed resource is used equally.",
+        "[VIT's agriculture school](/university/vellore-institute-of-technology) identifies botanical and medicinal plant gardens. [Lovely Professional University](/university/lovely-professional-university) describes a post-harvest management laboratory. These suggest different follow-up questions about plant identification and handling produce after harvest. They are examples to investigate, not a comparison of teaching quality or a claim based on a campus visit."
+      ]
+    },
+    {
+      "id": "follow-a-student-week",
+      "heading": "Ask the department to describe a normal student week",
+      "paragraphs": [
+        "Request the split between lectures, laboratory sessions, field assignments and independent work. Find out who supervises practical groups, how missed sessions are handled and whether farm work requires travel beyond the teaching campus. A sample practical record can show whether students measure, interpret and explain results, rather than merely attend demonstrations.",
+        "The [Khalsa College agriculture profile](/university/khalsa-college-amritsar) is another starting point for a department-level conversation. Ask for the current syllabus and teaching roster for your intake. For later rural or enterprise work, discuss placement of students, supervision, transport and assessment using the [RAWE and experiential learning guide](/articles/rawe-and-experiential-learning). A general promise of exposure leaves these practical questions unanswered."
+      ]
+    },
+    {
+      "id": "test-the-full-commitment",
+      "heading": "Test whether you can sustain the full course",
+      "paragraphs": [
+        "Bring a family budget and an ordinary weekday schedule to the discussion. Ask for tuition by period, compulsory academic charges, residential costs and the first payment deadline. Calculate travel time at the hours practical classes may begin. A manageable admission payment can still be followed by an unaffordable semester bill or an exhausting commute.",
+        "Also ask how students obtain academic help, report accommodation problems and contact a responsible staff member. If career support influences your decision, request a dated report for agriculture graduates and ask what its numbers count. A list of possible occupations cannot establish how many students secured work, pursued further study or participated in recruitment."
+      ]
+    },
+    {
+      "id": "close-the-evidence-gaps",
+      "heading": "Leave with a short evidence checklist",
+      "paragraphs": [
+        "After each conversation, label answers confirmed, awaiting a document or unresolved. Give essential questions a deadline before payment. Use [the campus comparison checklist](/blogs/compare-agriculture-campuses) to apply the same questions to your other options."
+      ],
+      "bullets": [
+        "Exact degree, campus and awarding university match the offer.",
+        "Your Class 12 subjects meet the current programme requirements.",
+        "Accreditation scope and dates have an official reference.",
+        "A timetable explains access to farms, laboratories and rural learning.",
+        "An itemised fee schedule and accommodation terms fit your budget.",
+        "A named office will resolve remaining admission or support questions."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Should I choose the college with the longest facilities list?", "answer": "Compare access, supervision and assessed student work. A long list alone does not show how often undergraduates use a facility or how much feedback they receive."},
+    {"question": "Can an older brochure answer my admission questions?", "answer": "Use it to prepare questions, then obtain the rules for your intake. Subjects, fee schedules, admission channels and available accommodation may change."},
+    {"question": "What if an important answer is only given verbally?", "answer": "Send a brief written request identifying the degree, campus and intake. Keep the reply with your documents and leave the issue unresolved until the answer is clear."}
+  ],
+  "related_institution_ids": [8, 32, 43, 15],
+  "related_topic_ids": ["icar-check", "rawe", "campus-compare"],
+  "sources": [
+    {"id":"palar-admission","title":"Palar Agricultural College: official admission and facilities navigation","url":"https://palaragri.ac.in/admission/","checked_on":"2026-10-30","note":"Official page read; identifies apiary and mushroom cultivation units. Used only for the short facilities example in turn-facilities-into-questions; no current access or quality claim."},
+    {"id":"vit-school","title":"VIT School of Agricultural Innovations and Advanced Learning","url":"https://vit.ac.in/schools/vaial/","checked_on":"2026-10-30","note":"Official school page read; identifies botanical and medicinal plant gardens. Does not establish undergraduate access frequency."},
+    {"id":"lpu-school","title":"Lovely Professional University: School of Agriculture","url":"https://www.lpu.in/schools/agriculture/?brochure=Agriculture-Brochure","checked_on":"2026-10-30","note":"Official school page read; supports the post-harvest management laboratory example. No placement or ranking claims reused."},
+    {"id":"khalsa-department","title":"Khalsa College: Postgraduate Department of Agriculture","url":"https://khalsacollege.edu.in/DepartmentList1.php?id=28","checked_on":"2026-10-30","note":"Official department page checked as the starting point for applicant enquiries; no unverified current teaching or fee figures asserted."},
+    {"id":"icar-register","title":"ICAR List II: accredited private colleges and programmes","url":"https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx","checked_on":"2026-10-30","note":"Scope principle cross-checked against the locally audited official register in institutions.json. No university-wide recognition inferred from a programme entry."}
+  ],
+  "verification_notes": ["Original applicant guidance; institutional facts are short examples with official sources, not endorsements.","No campus visit, current seat availability, placement outcome or fee amount is claimed.","Internal institution links match prepared slugs; editorial links match the existing editorial queue."]
+}

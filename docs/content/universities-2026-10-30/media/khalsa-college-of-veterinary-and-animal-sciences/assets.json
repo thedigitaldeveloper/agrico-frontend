@@ -1,0 +1,72 @@
+{
+  "id": 14,
+  "slug": "khalsa-college-of-veterinary-and-animal-sciences",
+  "name": "Khalsa College of Veterinary and Animal Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/logo.png",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/images/logo-kc.png",
+      "source_kind": "official",
+      "description": "Khalsa College of Veterinary and Animal Sciences official header wordmark",
+      "alt": "Khalsa College of Veterinary and Animal Sciences official header wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Khalsa College of Veterinary and Animal Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. This is the separately named veterinary college, not Khalsa College Amritsar.",
+      "width": 1640,
+      "height": 227,
+      "sha256": "d4cf7086e21c8b2cdf68aa89bc12cd10595bce58ff230a3b32399ee46bfc13c7"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/campus-clinic.jpg",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/panel/backend/img/1-copy.jpg",
+      "source_kind": "official",
+      "description": "Veterinary students and staff outside a KCVAS clinical teaching building",
+      "alt": "Veterinary students and staff outside a KCVAS clinical teaching building",
+      "campus": "Amritsar, Punjab",
+      "agriculture_specific": true,
+      "identity_evidence": "Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Khalsa College of Veterinary and Animal Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Source filename 1-copy.jpg is a photograph, not a logo. Role corrected following visual inspection.",
+      "width": 1160,
+      "height": 581,
+      "sha256": "6af917e35f85e2f43a2dcf39ad9d6140d72927f6d7da3b6723c99c24c2761b42"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/campus-02.jpg",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/panel/backend/img/DSC_0623-2.JPG",
+      "source_kind": "official",
+      "description": "Academic conference presentation at Khalsa College of Veterinary and Animal Sciences",
+      "alt": "Academic conference presentation at Khalsa College of Veterinary and Animal Sciences",
+      "campus": null,
+      "agriculture_specific": true,
+      "identity_evidence": "Official kcvas.com wordmark explicitly names the veterinary and animal-sciences college; photographed clinical and conference material concerns veterinary education.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Khalsa College of Veterinary and Animal Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Conference backdrop identifies a veterinary and animal-husbandry academic event; venue/campus is not independently specified.",
+      "width": 4100,
+      "height": 1555,
+      "sha256": "f49897c967a6ee56dd9619c7dfd2f79b9498ab98669b9c0feb3a91b0b226bec6"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

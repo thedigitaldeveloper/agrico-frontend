@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-30T07:23:21.560Z",
+  "build": "npm run build",
+  "root": "http://localhost:3004",
+  "layouts": [
+    {
+      "width": 390,
+      "height": 9179,
+      "scrollWidth": 390,
+      "sections": 12,
+      "guideBackground": "rgb(18, 75, 59)",
+      "devHeight": 9179
+    },
+    {
+      "width": 768,
+      "height": 5570,
+      "scrollWidth": 768,
+      "sections": 12,
+      "guideBackground": "rgb(18, 75, 59)",
+      "devHeight": 5570
+    },
+    {
+      "width": 1024,
+      "height": 4370,
+      "scrollWidth": 1024,
+      "sections": 12,
+      "guideBackground": "rgb(18, 75, 59)",
+      "devHeight": 4370
+    },
+    {
+      "width": 1440,
+      "height": 4346,
+      "scrollWidth": 1440,
+      "sections": 12,
+      "guideBackground": "rgb(18, 75, 59)",
+      "devHeight": 4346
+    },
+    {
+      "width": 1920,
+      "height": 4440,
+      "scrollWidth": 1920,
+      "sections": 12,
+      "guideBackground": "rgb(18, 75, 59)",
+      "devHeight": 4440
+    }
+  ],
+  "checks": [
+    "Production and development CSS dimensions match at five representative widths",
+    "All twelve sections render",
+    "Admission guide CTA has its intended readable background",
+    "Study levels and four programme areas work",
+    "Student guide dialog and Escape work",
+    "Legal links retained in compact footer"
+  ],
+  "errors": []
+}

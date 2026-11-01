@@ -1,0 +1,72 @@
+{
+  "id": 13,
+  "slug": "sri-krishnadevaraya-college-of-agricultural-sciences",
+  "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/logo-emblem.png",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/152.png",
+      "source_kind": "official",
+      "description": "Sri Krishnadevaraya College of Agricultural Sciences standalone emblem",
+      "alt": "Sri Krishnadevaraya College of Agricultural Sciences standalone emblem",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official touch-icon emblem is portrait-shaped, not square; retained as the logo rather than claiming a square card mark.",
+      "width": 152,
+      "height": 183,
+      "sha256": "601c6dcedd11630f3d06619b91ab721a2144de4d6a3520b5821d1371cde6a096"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-01.png",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/slider/103.png",
+      "source_kind": "official",
+      "description": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+      "alt": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+      "campus": "Anantapuramu, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official college homepage photograph; building and academic visit setting are visible.",
+      "width": 1793,
+      "height": 738,
+      "sha256": "95f1db3d09ec203635bb6eab884db1ed56ec84004572ca28d91dba4c183b72e2"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-02.png",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/slider/100.png",
+      "source_kind": "official",
+      "description": "Academic visitors being welcomed at Sri Krishnadevaraya College of Agricultural Sciences",
+      "alt": "Academic visitors being welcomed at Sri Krishnadevaraya College of Agricultural Sciences",
+      "campus": "Anantapuramu, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official skcas.ac.in names the Anantapuramu agricultural college; the standalone emblem matches its college-header seal, distinct from the Sri Balaji society text banner.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official college homepage photograph; no current-date claim is made.",
+      "width": 1793,
+      "height": 738,
+      "sha256": "311b307b1b30659f13e08729438aabb61a3dedead9d2185eba819462853a3bc8"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "id": "msc-pathways",
+  "cms_type": "Articles",
+  "slug": "msc-agriculture-specialisations",
+  "title": "Choosing an M.Sc. Agriculture specialisation",
+  "description": "Compare M.Sc. Agriculture subjects, qualifying degrees, research facilities and admission routes before choosing a postgraduate specialisation.",
+  "summary": "Start with the work you want to learn, then check whether your bachelor's degree fits the exact specialisation. Compare the curriculum, supervisor, research access and full cost together.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "start-with-a-question",
+      "heading": "Start with a problem you want to investigate",
+      "paragraphs": [
+      "Start by naming the questions that hold your attention. You might want to understand why a crop responds differently to irrigation, how a disease spreads, which breeding approach improves a trait, or why farmers adopt one practice and reject another. These interests point towards different kinds of postgraduate work.",
+        "Write down two subjects you enjoyed during your bachelor's degree and one practical assignment you would willingly repeat. Then identify what made them interesting: field observation, laboratory analysis, statistics, crop improvement or conversations with farmers. This gives you a more useful starting point than choosing a subject solely because someone calls it popular."
+      ]
+    },
+    {
+      "id": "check-qualifying-degree",
+      "heading": "Check the qualifying degree for the exact subject",
+      "paragraphs": [
+        "The [ICAR postgraduate counselling brochure for 2026](https://icarcounseling.com/Images/Notifications/33.PDF) lists qualifying degrees by discipline, with separate alternative qualifications where applicable to IARI and NDRI. Its general agriculture-degree assumptions should not be extended to every related science qualification.",
+        "For example, its SAU/CAU eligibility table lists Agriculture for Agronomy; Agriculture or Horticulture for Soil Science; and Forestry for the listed forestry specialisations. These are examples from that route, rather than rules for every university. Read the correct column, degree duration and any special conditions before selecting an entrance subject.",
+        "[Siksha ‘O’ Anusandhan](/university/siksha-o-anusandhan) publishes its own 2026 M.Sc. Agriculture criteria, including Agriculture/Horticulture degrees and category-specific marks or OGPA requirements. The difference illustrates why university admission and ICAR counselling need separate eligibility checks."
+      ]
+    },
+    {
+      "id": "compare-subjects",
+      "heading": "Compare the kind of work each subject develops",
+      "paragraphs": [
+        "The following comparison is an orientation to subject focus, informed by ICAR's revised postgraduate syllabi. The university's adopted curriculum determines your actual papers, credits and research requirements. Use the table to select departments to investigate, then read their course lists."
+      ],
+      "table": {
+        "columns": [
+          "Specialisation",
+          "Questions and work to explore",
+          "A useful department question"
+        ],
+        "rows": [
+          [
+            "Agronomy",
+            "Crop production systems, resource use and field experiments",
+            "Which crops and seasons can master's students study?"
+          ],
+          [
+            "Soil Science",
+            "Soil properties, nutrient behaviour and laboratory interpretation",
+            "Which analyses can students perform themselves?"
+          ],
+          [
+            "Genetics and Plant Breeding",
+            "Inheritance, selection and crop improvement",
+            "Which breeding populations and datasets are available?"
+          ],
+          [
+            "Plant Pathology",
+            "Plant disease diagnosis and pathogen–host relationships",
+            "What diagnostic and protected laboratory access is available?"
+          ],
+          [
+            "Entomology",
+            "Insects, crop damage and pest-management research",
+            "How are field sampling and identification taught?"
+          ],
+          [
+            "Agricultural Economics",
+            "Farm decisions, markets and economic analysis",
+            "Which datasets and analytical methods support dissertations?"
+          ],
+          [
+            "Agricultural Extension Education",
+            "Communication, learning and adoption of agricultural practices",
+            "How are field surveys supervised?"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "investigate-supervision",
+      "heading": "Investigate supervision and access before ranking campuses",
+      "paragraphs": [
+        "A department name tells you less than the work its staff can currently supervise. Ask for recent dissertation titles, a current faculty list and the process for allocating supervisors. Check whether the topics interest you and whether a realistic project could be completed within the programme calendar.",
+        "Follow up on access. A laboratory photograph does not show how often students use its instruments, whether consumables are funded, or who trains new researchers. For field research, ask about irrigation, planting windows, travel and backup arrangements if a crop experiment fails. These questions reveal practical constraints that a prospectus headline cannot resolve."
+      ]
+    },
+    {
+      "id": "compare-admission-routes",
+      "heading": "Keep admission route and subject choice connected",
+      "paragraphs": [
+        "Make a separate application row for each university and specialisation. Record the qualifying-degree wording, selection method, entrance subject, required documents and official notice. If an institution offers several agriculture master's programmes, do not assume one eligibility line applies across all of them.",
+        "Use the researched profiles of [AKS University](/university/aks-university), [SGT University](/university/sgt-university), [Karunya Institute of Technology and Sciences](/university/karunya-institute-of-technology-and-sciences) and [Sanskriti University](/university/sanskriti-university) to build a comparison shortlist. Confirm the intended specialisation and intake with each institution; these links do not establish participation in ICAR counselling.",
+        "An offer should identify the complete degree title. M.Sc. Agriculture, M.Sc. Horticulture and a related technology or management qualification can lead to different academic requirements. Compare the award itself alongside the subject you hope to study."
+      ]
+    },
+    {
+      "id": "cost-and-next-step",
+      "heading": "Assess cost alongside your next academic or work step",
+      "paragraphs": [
+        "Prepare a budget that includes tuition, accommodation, field travel, dissertation materials and the period before any confirmed funding arrives. Ask whether analysis charges, printing and external laboratory work are included. Treat a scholarship as available only after its eligibility, selection and renewal conditions have been established.",
+        "Then test the course against a concrete next step: a research application, a technical role, a family enterprise or further doctoral study. Read actual entry requirements for that next step instead of assuming a specialisation guarantees a job. The [agriculture fee guide](/articles/agriculture-fee-budget) helps organise costs; the [accreditation guide](/articles/icar-accreditation-how-to-check) helps check programme scope."
+      ]
+    },
+    {
+      "id": "make-final-choice",
+      "heading": "Make a short, evidence-based final comparison",
+      "paragraphs": [
+        "Reduce your shortlist to two or three feasible options. For each, write one sentence explaining the research fit, one explaining the supervision and facilities, and one explaining affordability. Mark unanswered questions clearly and send them to the relevant admissions office or department before making a payment.",
+        "A useful choice is one where your qualifying degree is accepted, the subject interests you, and the department can support a workable project. A strong personal fit can be explained through those practical reasons without relying on an unsupported ranking."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can any B.Sc. graduate apply for M.Sc. Agriculture?",
+      "answer": "Do not assume that. Eligibility depends on the specialisation, degree duration, university and admission route. Match the complete title of your bachelor's degree to the current qualifying-degree table."
+    },
+    {
+      "question": "Does an ICAR postgraduate exam result replace the university eligibility check?",
+      "answer": "No. Check the counselling rules and the admitting university's conditions for the exact discipline. A score does not establish that an otherwise different qualifying degree is accepted."
+    },
+    {
+      "question": "Which specialisation has the best career scope?",
+      "answer": "There is no universal answer. Compare the skills you want to develop, research support and the actual requirements of your intended next role or further course."
+    },
+    {
+      "question": "What should I ask a potential supervisor?",
+      "answer": "Ask about feasible project topics, available data or field material, access to equipment, meeting arrangements and the costs students must meet themselves."
+    }
+  ],
+  "related_institution_ids": [
+    21,
+    24,
+    26,
+    28,
+    50
+  ],
+  "related_topic_ids": [
+    "icar-check",
+    "fee-budget",
+    "agri-v-engineering",
+    "college-questions"
+  ],
+  "sources": [
+    {
+      "id": "icar-pg-2026",
+      "title": "ICAR PG online counselling brochure 2026, other than Veterinary stream",
+      "url": "https://icarcounseling.com/Images/Notifications/33.PDF",
+      "checked_on": "2026-10-30",
+      "note": "Official 2026 brochure. Qualifying-degree examples refer to the SAU/CAU table; alternate IARI/NDRI columns are kept distinct. No scholarship or current vacancy is promised."
+    },
+    {
+      "id": "soa-2026",
+      "title": "SOA Agricultural Sciences eligibility, 2026",
+      "url": "https://www.admission.soa.ac.in/agriculture-2026",
+      "checked_on": "2026-10-30",
+      "note": "Official university-specific Agriculture/Horticulture entry and marks/OGPA rules. Not extrapolated to other universities."
+    },
+    {
+      "id": "icar-syllabus-1",
+      "title": "ICAR revised postgraduate syllabi, Volume 1, December 2021",
+      "url": "https://icar.gov.in/sites/default/files/Circulars/PG-Syllabi-Vol-01.pdf",
+      "checked_on": "2026-10-30",
+      "note": "Plant sciences, plant protection and horticultural subject orientation; does not verify each institution's adopted curriculum."
+    },
+    {
+      "id": "icar-syllabus-2",
+      "title": "ICAR revised postgraduate syllabi, Volume 2, December 2021",
+      "url": "https://icar.org.in/sites/default/files/Circulars/PG-Syllabi-Vol-02.pdf",
+      "checked_on": "2026-10-30",
+      "note": "Physical, social, basic and statistical sciences subject orientation. Current institutional course lists remain necessary."
+    }
+  ],
+  "verification_notes": [
+    "Review date records this editorial check, not an application opening or intake guarantee.",
+    "Institution links identify comparison profiles, not confirmed ICAR postgraduate counselling participants.",
+    "No universal marks threshold, blanket acceptance of three-year degrees, salary, placement outcome or research-facility audit is claimed."
+  ]
+}

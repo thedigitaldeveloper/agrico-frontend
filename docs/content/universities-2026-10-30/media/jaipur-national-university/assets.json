@@ -1,0 +1,62 @@
+{
+  "id": 18,
+  "slug": "jaipur-national-university",
+  "name": "Jaipur National University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/jaipur-national-university/logo.png",
+      "source_page": "https://jnujaipur-ac.in/",
+      "download_url": "https://jnujaipur-ac.in/images/jnu-logo.png",
+      "source_kind": "secondary",
+      "description": "Jaipur National University wordmark and crest",
+      "alt": "Jaipur National University wordmark and crest",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "University-branded alternate-domain header names Jaipur National University; the campus building bears the same university name. Publisher relationship is conservatively classified secondary.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "jnujaipur-ac.in",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Downloaded from the publicly accessible university-branded jnujaipur-ac.in alternate domain. Its official-domain relationship was not independently confirmed; classified as secondary.",
+      "width": 405,
+      "height": 116,
+      "sha256": "edf4b8fc5ce534c08a1dfcd1e4e9415e73e0cbe44d16ba88008e4eb4f319d09a"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/jaipur-national-university/campus-01.jpg",
+      "source_page": "https://jnujaipur-ac.in/",
+      "download_url": "https://jnujaipur-ac.in/images/1182imguf_campus-pic1.jpg",
+      "source_kind": "secondary",
+      "description": "Jaipur National University named main building",
+      "alt": "Jaipur National University named main building",
+      "campus": "Jaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "University-branded alternate-domain header names Jaipur National University; the campus building bears the same university name. Publisher relationship is conservatively classified secondary.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "jnujaipur-ac.in",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. University name is visible on the building. Alternate domain classified as secondary; exact Jaipur subcampus is unspecified. Source resolution is 585 × 205; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 585,
+      "height": 205,
+      "sha256": "670edd00492906eac31fa5e4c9eebeff279ff68bb795d240e0f23d50e12dde9e"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "The alternate-domain second facility thumbnail was only 196 × 158px and its institution identity could not be confirmed visually; it was rejected. Main official homepage returned 403.",
+      "attempted_sources": [
+        "https://www.jnujaipur.ac.in/",
+        "https://jnujaipur-ac.in/",
+        "https://jnujaipur-ac.in/images/1183imguf_facility-pic1.jpg"
+      ]
+    }
+  ],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

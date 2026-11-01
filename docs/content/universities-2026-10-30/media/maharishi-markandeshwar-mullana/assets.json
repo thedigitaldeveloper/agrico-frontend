@@ -1,0 +1,43 @@
+{
+  "id": 40,
+  "slug": "maharishi-markandeshwar-mullana",
+  "name": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/maharishi-markandeshwar-mullana/logo.jpg",
+      "source_page": "https://www.careers360.com/university/maharishi-markandeshwar-deemed-be-university-mullana",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/466/2018/5/5/Maharishi-Markandeshwar-University-Mullana.jpg",
+      "source_kind": "secondary",
+      "description": "Maharishi Markandeshwar Mullana institutional emblem",
+      "alt": "Maharishi Markandeshwar Mullana institutional emblem",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original 140 x 140 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/maharishi-markandeshwar-mullana/campus-01.jpg",
+      "source_page": "https://www.mmumullana.org/photo-gallery/",
+      "download_url": "https://i0.wp.com/www.mmumullana.org/wp-content/uploads/2024/03/IMG_5534-3-scaled.jpg?fit=2048%2C2560&ssl=1",
+      "source_kind": "official",
+      "description": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+      "alt": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+      "campus": "Mullana, Ambala, Haryana",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+      "review_status": "verified_source",
+      "notes": "Original 2048 x 2560 JPEG; unchanged downloaded bytes."
+    }
+  ],
+  "gaps": []
+}

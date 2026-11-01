@@ -1,0 +1,438 @@
+{
+  "id": 52,
+  "slug": "arunachal-university-of-studies",
+  "name": "Arunachal University of Studies",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "AUS",
+    "ownership": "Private university, as identified by the Namsai district directory and WHED",
+    "city": "Namsai",
+    "state": "Arunachal Pradesh",
+    "established": 2012,
+    "address": "NH-52, Namsai, Arunachal Pradesh 792103",
+    "parent_university": null,
+    "website": "https://www.arunachaluniversity.ac.in/",
+    "admissions_url": "https://admission.arunachaluniversity.ac.in/",
+    "phone": "+91-8731944477 / +91-8131848860",
+    "email": "info@arunachaluniversity.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Arunachal University of Studies",
+    "summary": "Arunachal University of Studies offers agriculture education at Namsai in Arunachal Pradesh. Its undergraduate agriculture course appears in the official entrance-programme mapping. A documented visit to the local Krishi Vigyan Kendra illustrates student exposure to climate-resilient agricultural technologies and the extension system serving nearby farming communities.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture education in the Namsai setting",
+    "paragraphs": [
+      "Arunachal University of Studies is a private university at Namsai. Its 2026–27 prospectus lists B.Sc. (Honours–Agriculture) as a four-year, eight-semester degree and publishes an annual programme fee of ₹90,000. The table distinguishes school-leaver entry from second-year diploma entry, helping applicants check their appropriate route.",
+      "A documented August 2025 visit took fourth-year agriculture students to KVK Namsai at Momong to see climate-resilient technologies. That external visit offers a specific example of contact with agricultural demonstrations and extension work. Applicants can use it to ask how the degree combines campus teaching with supervised practical exposure and work with farming communities."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Arunachal University of Studies"
+      },
+      {
+        "label": "Location",
+        "value": "Namsai, Arunachal Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "completion_aus_prospectus_2026"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "The 2026–27 prospectus lists an eight-semester agriculture honours degree, with separate first-year and second-year entry qualifications.",
+      "eligibility": "2026–27 prospectus: first-year entry requires 10+2 in Science/Agriculture or equivalent; second-year entry requires a Diploma in Agriculture or equivalent. The agriculture row does not specify minimum marks or the selection test.",
+      "admission_route": "CUET UG 2025 mapping documents a historical route; 2026 participation and selection rules need direct confirmation.",
+      "fees": {
+        "amount_inr": 90000,
+        "period": "year",
+        "academic_year": "2026-2027",
+        "includes": "Annual programme fee in the 2026–27 agriculture table; itemised compulsory, residential and other charges are not specified in this row.",
+        "note": "Published annual amount for the agriculture bachelor’s degree. Obtain a complete payable statement; adjacent Life Sciences examination/OJT charges do not establish agriculture charges.",
+        "verification": "verified",
+        "source_ids": [
+          "completion_aus_prospectus_2026"
+        ]
+      },
+      "icar_scope_note": "Listed under Arunachal University of Studies; accreditation term 2025-09-30 to 2030-09-29.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "completion_aus_prospectus_2026"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to AUS",
+    "intro": "The official 2026–27 prospectus establishes agriculture duration, entry qualifications and an annual fee. It does not settle minimum marks or selection-test rules in the agriculture row. The homepage identifies an application portal, which returned 403 when independently opened; confirm the operative selection notice before paying.",
+    "eligibility_points": [
+      "2026–27 first-year entry: 10+2 in Science/Agriculture or equivalent.",
+      "2026–27 second-year entry: Diploma in Agriculture or equivalent.",
+      "The agriculture table does not specify a minimum percentage or establish a current CUET selection route."
+    ],
+    "steps": [
+      {
+        "title": "Select the correct entry year",
+        "text": "Use the 2026–27 prospectus to distinguish first-year entry from diploma-based second-year entry."
+      },
+      {
+        "title": "Confirm selection and complete charges",
+        "text": "Request the current entrance/merit instructions and an itemised fee statement from the published university contacts."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "media_logo",
+      "completion_aus_prospectus_2026"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "ICAR’s 21 August 2025 report describes an agriculture student visit to KVK Namsai at Momong. It supports external practical exposure rather than a claim about ownership of the KVK facilities.",
+    "facilities": [],
+    "practical_learning": [
+      "Fourth-year AUS agriculture students visited KVK demonstrations of climate-resilient technologies in August 2025."
+    ],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The 2026–27 agriculture table describes government fee-reimbursement assistance for eligible APST students, subject to scheme terms and approval. The university also limits concurrent scholarship applications to one award. Its separate scholarship form deadline of 30 October 2026 is already past.",
+    "schemes": [
+      {
+        "name": "Conditional APST fee-reimbursement assistance",
+        "details": "The 2026–27 agriculture table states reimbursement up to ₹50,000 for APST candidates with annual family income below ₹2,50,000, under Central/State government schemes and prescribed terms. This is a maximum conditional benefit, not an automatic deduction or a guaranteed award; the brochure does not give renewal rules.",
+        "source_ids": [
+          "completion_aus_prospectus_2026"
+        ]
+      },
+      {
+        "name": "Government stipend / scholarship application route",
+        "details": "The university directs eligible students to Arunachal Pradesh or Government of India granting agencies and limits concurrent applications to one award. The listed university submission deadline was30October2026; no current agriculture-specific entitlement is established.",
+        "source_ids": [
+          "completion_aus_scholarships"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_aus_scholarships",
+      "completion_aus_prospectus_2026"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A dated agriculture placement report and current institutional career-support details were not verified from accessible official material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Arunachal University of Studies with validity from 2025-09-30 to 2030-09-29. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Arunachal University of Studies",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture (Intake- 120)"
+        ],
+        "valid_from": "2025-09-30",
+        "valid_until": "2030-09-29",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A61:G61"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A dated agriculture faculty roster for AUS has not been verified for this draft.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where is AUS located?",
+      "answer": "The Namsai district directory gives NH-52, Namsai, Arunachal Pradesh 792103.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is AUS privately funded?",
+      "answer": "WHED identifies its funding as private, and the district directory labels it a private university.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which agriculture course appears in the 2025 entrance mapping?",
+      "answer": "Bachelor of Science (Honours–Agriculture).",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What practical exposure has been independently documented?",
+      "answer": "ICAR reported an August 2025 visit by fourth-year agriculture students to KVK Namsai at Momong.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "What is the ICAR term for the bachelor’s programme?",
+      "answer": "The audited record runs from 30 September 2025 to 29 September 2030.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Can the 2025 CUET rules be used for a 2026 application?",
+      "answer": "They are historical evidence only. Applicants need the current university notice to establish the applicable route and subjects.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "How long is the AUS agriculture degree, and what is its published fee?",
+      "answer": "The 2026–27 prospectus lists four years/eight semesters and ₹90,000 annually. The row does not itemise every compulsory or residential charge.",
+      "source_ids": [
+        "completion_aus_prospectus_2026"
+      ]
+    },
+    {
+      "question": "What qualifications does the current AUS prospectus list?",
+      "answer": "The 2026–27 agriculture table accepts 10+2 Science/Agriculture or equivalent for first-year entry, and an Agriculture diploma or equivalent for second-year entry. Minimum marks and selection-test rules require a separate notice.",
+      "source_ids": [
+        "completion_aus_prospectus_2026"
+      ]
+    },
+    {
+      "question": "Does AUS publish financial assistance for agriculture?",
+      "answer": "Its 2026–27 agriculture table describes reimbursement up to ₹50,000 for eligible APST applicants with family income below ₹2,50,000 annually, subject to government scheme terms and approval. It is not an automatic scholarship.",
+      "source_ids": [
+        "completion_aus_prospectus_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Arunachal University of Studies | Agriculture Courses & Admissions",
+    "description": "Explore Arunachal University of Studies agriculture at Namsai, entrance mapping evidence, documented field exposure and dated ICAR programme accreditation.",
+    "keywords": [
+      "Arunachal University of Studies agriculture",
+      "Arunachal University of Studies admissions",
+      "Arunachal University of Studies ICAR accreditation",
+      "Arunachal University of Studies agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://assets.kollegeapply.com/images/1751550420331-1597663838phpKUsY42.jpeg",
+    "logo_url": "https://www.arunachaluniversity.ac.in//assets/front/base/img/layout/logos/logo-ar2.png",
+    "campus_alt": "Arunachal University of Studies illuminated entrance and academic building in Namsai",
+    "caption": "Arunachal University of Studies illuminated entrance and academic building in Namsai",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/arunachal-university-of-studies/logo.png",
+    "local_campus_image": "media/arunachal-university-of-studies/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/arunachal-university-of-studies/campus_primary-verified.jpg",
+      "media/arunachal-university-of-studies/campus_secondary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A61:G61. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://namsai.nic.in/public-utility/setu-charitable-trust/",
+      "title": "Namsai district university directory",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview"
+      ],
+      "notes": "Directory last-updated field is old; contacts omitted."
+    },
+    {
+      "id": "s3",
+      "url": "https://whed.net/institutions/IAU-024992",
+      "title": "WHED institutional record, AUS",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.ownership"
+      ],
+      "notes": "Institutional database, not a current admissions source."
+    },
+    {
+      "id": "s4",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2025/03/2025032195-1.pdf",
+      "title": "CUET UG 2025 private-university programme mapping",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "admissions"
+      ],
+      "notes": "Historical 2025 admission mapping; no 2026 route inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.icar.gov.in/en/undergraduate-agriculture-students-arunachal-university-studies-exposed-climate-resilient",
+      "title": "ICAR report: AUS student visit to KVK Namsai, 21 August 2025",
+      "kind": "regulator",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "overview"
+      ],
+      "notes": "Full page returned 502; official dated excerpt available."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.careers360.com/university/arunachal-university-of-studies-namsai/bsc-agriculture-hons-course",
+      "title": "AUS B.Sc. Agriculture course profile",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "research_cross_check"
+      ],
+      "notes": "Secondary duration and lateral-entry information not used as current official admission rules."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.arunachaluniversity.ac.in/",
+      "title": "Arunachal University of Studies — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/arunachal-university-of-studies/logo.png. Image embedded by the institution official website at https://www.arunachaluniversity.ac.in/; source alt: ",
+      "note": "The page now loads and identifies the 2026–27 admissions portal and public admissions helplines. Exact portal returned403 when independently opened."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.kollegeapply.com/college/arunachal-university-of-studies-namsai-gallery",
+      "title": "Arunachal University of Studies — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/arunachal-university-of-studies/campus_primary-verified.jpg. Named AUS Namsai gallery photograph; university entrance signage and distinctive clock tower identify the campus."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.careers360.com/university/arunachal-university-of-studies-namsai",
+      "title": "Arunachal University of Studies — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/arunachal-university-of-studies/campus_secondary-verified.jpg. Institution-specific Careers360 campus gallery; visible gate signage identifies the university."
+    },
+    {
+      "id": "completion_aus_scholarships",
+      "title": "Official AUS scholarship policy and submission deadline",
+      "url": "https://www.arunachaluniversity.ac.in/pages/scholarship",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Published application deadline30October2026 is already past as of review. Government rules and award approval remain agency-specific."
+    },
+    {
+      "id": "completion_aus_prospectus_2026",
+      "title": "Official AUS prospectus 2026–27",
+      "url": "https://www.arunachaluniversity.ac.in/aus/prospectus/AUS%20Prospectus%202026-27.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Official homepage identifies this 2026–27 prospectus. Physical PDF page 27 (printed page 24), agriculture block, was visually checked: B.Sc. Agriculture 8 semesters/4 years, annual ₹90,000, entry qualifications and conditional APST assistance. Adjacent Life Sciences charges were not applied to agriculture. The public email also appears in the brochure."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "identity.admissions_url",
+      "reason": "Official homepage now identifies https://admission.arunachaluniversity.ac.in/ for2026–27 applications, but opening that portal returned403; programme terms could not be verified.",
+      "next_source": "https://admission.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "No current university-owned farm or laboratory inventory could be read.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "The 2026–27 agriculture table supplies a conditional APST reimbursement cap and income ceiling; the exact granting scheme, approval and renewal rules remain to be established.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.arunachaluniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

@@ -1,0 +1,43 @@
+{
+  "id": 28,
+  "slug": "karunya-institute-of-technology-and-sciences",
+  "name": "Karunya Institute of Technology and Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/karunya-institute-of-technology-and-sciences/logo.png",
+      "source_page": "https://mybharat.gov.in/KnowledgeInstitutions/university/30/karunya-institute-of-technology-and-sciences-coimbatore",
+      "download_url": "https://cdn-prod.mybharats.in/organization/DL-ns-8ef95a1c-fb77-48ef-9a39-ae6a8c98581a_KITSLHLOGO.png",
+      "source_kind": "secondary",
+      "description": "Karunya Institute of Technology and Sciences profile, torch and gear emblem with wordmark",
+      "alt": "Karunya Institute of Technology and Sciences profile, torch and gear emblem with wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "mybharat.gov.in",
+      "review_status": "verified_source",
+      "notes": "Original 1445 x 409 PNG; unchanged downloaded bytes. Government MYBharat-hosted institutional logo. PNG contains transparency and should render with an alpha-aware image decoder. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/karunya-institute-of-technology-and-sciences/campus-02.jpg",
+      "source_page": "https://theknowledgereview.com/karunya-institute-technology-sciences-towards-excellence-agricultural-research-education-nation/",
+      "download_url": "https://theknowledgereview.com/wp-content/uploads/2018/10/Web_ImageKarunya_Institute_of_Technology_and_Sciences.jpg",
+      "source_kind": "secondary",
+      "description": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+      "alt": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+      "campus": "Coimbatore, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "theknowledgereview.com",
+      "review_status": "verified_source",
+      "notes": "Original 900 x 426 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

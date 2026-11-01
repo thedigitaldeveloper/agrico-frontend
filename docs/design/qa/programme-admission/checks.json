@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-11T19:58:37.146Z",
+  "fixture": "Actual ProgramAdmissionSidebar, program-facts and format helpers transpiled into VM; real React server-rendered output; controlled state and enquiry/site context mocks; actual event handlers invoked; no app server, submission or CMS writes",
+  "sourceHashes": {
+    "src/components/program/program-admission-sidebar.tsx": "13f3593998d5be73a2c9571eb7212716206d082fdfc80039feebe96504366ce3",
+    "src/components/program/program-facts.ts": "9c1cc296bde0720ecd6cfef8565074552d268c80cb1caf826d412e641d940247",
+    "src/lib/format.ts": "0ed84e1da957b9a7dad91c3392bb92f4659a2c9147f280bfeec854b9994940c4"
+  },
+  "tests": 7,
+  "results": [
+    {
+      "name": "Selected university opt-out hides application and preserves exact counselling context",
+      "status": "passed",
+      "applicationHidden": true,
+      "counsellingContext": {
+        "universitySlug": "university-opted-out",
+        "universityName": "Fixture University Without Applications",
+        "programSlug": "fixture-mba",
+        "programName": "Fixture Master of Business Administration",
+        "source": "counselling",
+        "title": "Ask about MBA",
+        "subtitle": "Fixture Master of Business Administration at Fixture University Without Applications"
+      }
+    },
+    {
+      "name": "Selecting an enabled university uses the actual select handler and exact application pair",
+      "status": "passed",
+      "applicationContext": {
+        "universitySlug": "university-enabled",
+        "universityName": "Fixture University With Applications",
+        "programSlug": "fixture-mba",
+        "programName": "Fixture Master of Business Administration",
+        "source": "application-form",
+        "title": "Apply for MBA",
+        "subtitle": "Fixture Master of Business Administration at Fixture University With Applications"
+      }
+    },
+    {
+      "name": "Unpriced selected university cannot inherit another university fee or programme base fee",
+      "status": "passed",
+      "feeText": "Published programme feeRequest current fees"
+    },
+    {
+      "name": "Selected priced university receives only its attached offering fee",
+      "status": "passed",
+      "feeText": "Published programme fee₹1.5 L"
+    },
+    {
+      "name": "Unselected programme may display its base fee with university-specific qualification",
+      "status": "passed",
+      "feeText": "Programme base fee — university-specific fees may differ₹90,000"
+    },
+    {
+      "name": "Single implicit university honours its opt-out without displaying a selector",
+      "status": "passed",
+      "counsellingContext": {
+        "universitySlug": "university-opted-out",
+        "universityName": "Fixture University Without Applications",
+        "programSlug": "fixture-mba",
+        "programName": "Fixture Master of Business Administration",
+        "source": "counselling",
+        "title": "Ask about MBA",
+        "subtitle": "Fixture Master of Business Administration at Fixture University Without Applications"
+      }
+    },
+    {
+      "name": "Programme opt-out also hides application for an enabled university",
+      "status": "passed",
+      "applicationHidden": true,
+      "counsellingAvailable": true
+    }
+  ],
+  "errors": []
+}

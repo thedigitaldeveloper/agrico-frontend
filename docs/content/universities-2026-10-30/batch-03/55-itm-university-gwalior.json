@@ -1,0 +1,462 @@
+{
+  "id": 55,
+  "slug": "itm-university-gwalior",
+  "name": "ITM University, Gwalior",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "ITM University",
+    "ownership": "Private university",
+    "city": "Gwalior",
+    "state": "Madhya Pradesh",
+    "established": 2011,
+    "address": "NH-44, Bypass Turari, Jhansi Road, Gwalior, Madhya Pradesh 475001",
+    "parent_university": null,
+    "website": "https://www.itmuniversity.ac.in/",
+    "admissions_url": "https://www.itmuniversity.ac.in/admission/eligibility",
+    "phone": "+91-9329934215",
+    "email": "admission@itmuniversity.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "ITM University, Gwalior",
+    "summary": "ITM University’s School of Agriculture in Gwalior offers a broad bachelor’s degree and an agronomy master’s route. Its published teaching resources include an instructional farm and subject laboratories. Student READY work and agriculture research partnerships connect crop science with practical training and the needs of farming communities.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "From agricultural foundations to agronomy specialisation",
+    "paragraphs": [
+      "ITM’s agriculture bachelor’s curriculum is organised around fundamental sciences, production systems and later skill development. The university’s brochure places the school at its Sithouli setting and identifies an instructional farm, laboratory and library resources. A separate agronomy master’s course provides a focused postgraduate route.",
+      "The programme pages identify agriculture partnerships with research institutions and describe Student READY learning. For career comparisons, ITM also publishes an agriculture-and-allied-sector NIRF submission with dated undergraduate and postgraduate outcomes. These grouped returns are more specific than the university’s overall salary counters, though they still should not be read as a guarantee for one degree or a future student."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "ITM University, Gwalior"
+      },
+      {
+        "label": "Location",
+        "value": "Gwalior, Madhya Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A broad degree moving from agricultural foundations toward production and skills work.",
+      "eligibility": "Central table: 10+2 Science/Agriculture with at least 50%; the course page names PCMB, PCB, PCM or Agriculture subjects.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under ITM University, Gwalior; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    },
+    {
+      "name": "M.Sc. (Ag.) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A postgraduate route focused on agronomy, listed separately by the school.",
+      "eligibility": "Course page states B.Sc. Agriculture/Honours with minimum 5.5 CGPA; its FAQ also includes horticulture, while the central table states 50% in agriculture stream. Confirm the current governing rule.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under ITM University, Gwalior; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s6"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to ITM University",
+    "intro": "The central eligibility page and individual course pages provide useful entry information. The agronomy pages use differing marks/qualification wording, so applicants should obtain the applying-year rule in writing.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Match the degree-level entry rule",
+        "text": "Check the bachelor’s science/agriculture requirement or the master’s qualifying-degree rule."
+      },
+      {
+        "title": "Resolve the master’s eligibility wording",
+        "text": "Ask admissions to confirm which current minimum and accepted degree apply to M.Sc. Agronomy."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s3",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The brochure identifies an instructional farm and laboratory resources; the programme pages identify agronomy, crop protection and other subject spaces.",
+    "facilities": [
+      {
+        "name": "Instructional farm",
+        "description": "A teaching farm is described in the school’s brochure.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Agronomy and plant protection laboratories",
+        "description": "The agronomy page lists agronomy, entomology and plant pathology laboratories.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Agricultural engineering workshop",
+        "description": "A workshop appears among the programme’s practical resources.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The bachelor’s page describes Student READY work and skill-oriented progression."
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "ITM’s 2026 policy describes merit, sports and special-category support, with continuation conditions involving attendance, backlogs and conduct. A specific agriculture award requires confirmation.",
+    "schemes": [],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The NIRF 2026 agriculture-and-allied return reports 97 placed graduates from 114 four-year undergraduate completers in 2024–25, with 14 selected for higher study. The reported median salary applies to placed graduates in that grouped return.",
+    "statistics": [
+      {
+        "label": "Placed four-year undergraduate graduates",
+        "value": "97 of 114 minimum-time graduates",
+        "year": "2024-25",
+        "scope": "Agriculture and allied sectors four-year UG programmes; not isolated B.Sc. Agriculture",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      {
+        "label": "Median salary of placed four-year undergraduate graduates",
+        "value": "INR 300,000 per year",
+        "year": "2024-25",
+        "scope": "Agriculture and allied sectors four-year UG programmes",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies ITM University, Gwalior with validity from 2024-07-29 to 2029-07-28. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "ITM University, Gwalior",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture  (Intake- 240)",
+          "M.Sc. (Ag) Agronomy (intake 10) "
+        ],
+        "valid_from": "2024-07-29",
+        "valid_until": "2029-07-28",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A65:G65"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The brochure linked for 2026–27 identifies Dr. S. K. Sharma as Dean of Agriculture. Appointment currency should be checked before publication.",
+    "people": [
+      {
+        "name": "Dr. S. K. Sharma",
+        "role": "Dean, Agriculture, as listed in the linked university brochure",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which ITM institution is this?",
+      "answer": "This is ITM University in Gwalior, Madhya Pradesh, with its official address on NH-44, Jhansi Road.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "How long are the two listed courses?",
+      "answer": "The bachelor’s degree is four years; the agronomy master’s is described as two years.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "What practical resource is described in the brochure?",
+      "answer": "The agriculture school’s brochure identifies an instructional farm.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Why should agronomy applicants confirm eligibility?",
+      "answer": "The course page, FAQ and central table use different qualifying-degree and marks wording.",
+      "source_ids": [
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "question": "Are the placement figures from the whole university?",
+      "answer": "The figures here are from the agriculture-and-allied NIRF return, grouped by programme length; they are not a B.Sc.-only outcome.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "What is the ICAR term for the listed programmes?",
+      "answer": "The audited record runs from 29 July 2024 to 28 July 2029 and includes B.Sc. Agriculture and M.Sc. Agronomy.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "ITM University, Gwalior | Agriculture Courses & Admissions",
+    "description": "Explore ITM University Gwalior agriculture degrees, teaching farms, admissions, dated agriculture-and-allied outcomes and programme-specific ICAR accreditation.",
+    "keywords": [
+      "ITM University, Gwalior agriculture",
+      "ITM University, Gwalior admissions",
+      "ITM University, Gwalior ICAR accreditation",
+      "ITM University, Gwalior agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://resources.itmuniversity.ac.in/newweb/home/1620x507.JPG",
+    "logo_url": "https://pbs.twimg.com/profile_images/1678740356031217664/H8VK5Hq8.jpg",
+    "campus_alt": "Panoramic evening view of ITM University Gwalior campus buildings",
+    "caption": "Panoramic evening view of ITM University Gwalior campus buildings",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/itm-university-gwalior/logo-official-social.jpg",
+    "local_campus_image": "media/itm-university-gwalior/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/itm-university-gwalior/campus_primary-verified.jpg",
+      "media/itm-university-gwalior/campus_secondary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A65:G65. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.itmuniversity.ac.in/school-of-agriculture/bachelor-of-science-in-agriculture",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.itmuniversity.ac.in/school-of-agriculture/masters-of-science-in-agronomy",
+      "title": "M.Sc. Agronomy programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "campus",
+        "identity"
+      ],
+      "notes": "Entry text and FAQ differ slightly; central eligibility table gives a different marks presentation."
+    },
+    {
+      "id": "s4",
+      "url": "https://resources.itmuniversity.ac.in/newweb/brochure/Brochure%2025APR.pdf",
+      "title": "University brochure linked as 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "overview",
+        "campus",
+        "faculty"
+      ],
+      "notes": "Agriculture resources described on PDF page71; some school history text is older."
+    },
+    {
+      "id": "s5",
+      "url": "https://resources.itmuniversity.ac.in/newweb/iqac/nirf/2026/NIRF_Agriculture_2025_26.pdf",
+      "title": "NIRF 2026 agriculture and allied sectors submitted data",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "placements"
+      ],
+      "notes": "Self-submitted grouped outcomes; reporting years preserved. PDF screenshot fetch failed; text table readable."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.itmuniversity.ac.in/admission/eligibility",
+      "title": "Admission eligibility table",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "programmes.eligibility"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.itmuniversity.ac.in/scholarship/scholarship_2026",
+      "title": "Scholarship policy 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://x.com/ITMUGwalior",
+      "title": "ITM University, Gwalior — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/itm-university-gwalior/logo-official-social.jpg. Original profile mark of ITM University Gwalior account @ITMUGwalior. Visually inspected image reads ITM UNIVERSITY, GWALIOR MP INDIA and CELEBRATING DREAMS, matching this university."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.itmuniversity.ac.in/",
+      "title": "ITM University, Gwalior — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/itm-university-gwalior/campus_primary-verified.jpg. Large campus image embedded by official university homepage."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.itmuniversity.ac.in/",
+      "title": "ITM University, Gwalior — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/itm-university-gwalior/campus_secondary-verified.jpg. Official university homepage labels image FMS lab image; no agriculture-facility claim."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "Official site links a 2025–26 fee image; it was inaccessible to the reading tool, and no 2026–27 programme fee table was confirmed. A dated, programme-specific fee schedule is needed before quoting a current amount.",
+      "next_source": "https://www.itmuniversity.ac.in/"
+    },
+    {
+      "field": "programmes.1.eligibility",
+      "reason": "Master’s course and central admissions table present differing qualification/marks wording.",
+      "next_source": "https://www.itmuniversity.ac.in/admission/eligibility"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.itmuniversity.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.itmuniversity.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.itmuniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

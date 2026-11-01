@@ -1,0 +1,602 @@
+{
+  "id": 35,
+  "slug": "giet-university",
+  "name": "GIET University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": null,
+    "ownership": "Private university promoted by Vidya Bharati Educational Trust",
+    "city": "Gunupur",
+    "state": "Odisha",
+    "established": 1997,
+    "address": "Gobriguda, PO Kharling, Gunupur, Rayagada, Odisha 765022",
+    "parent_university": null,
+    "website": "https://www.giet.edu/",
+    "admissions_url": "https://www.giet.edu/admissions/gietee/",
+    "phone": "+91-7735745535",
+    "email": "enquiry@giet.edu"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "GIET University",
+    "summary": "GIET University’s School of Agriculture in Gunupur focuses on agricultural education and extension in southern Odisha. Its instructional farms and nearby orchard support crop production, horticulture and enterprise learning, while the university identifies GIETEE as an admission route for undergraduate agriculture.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural teaching at the Eastern Ghats foothills",
+    "paragraphs": [
+      "GIET’s agriculture school dates its establishment to 2017 and locates its work in the farming context of southern Odisha. Its four-year degree covers agronomy, horticulture, soils, crop improvement, plant health, economics and extension. The school describes Student READY as a route to practical and industry exposure.",
+      "The farm account provides specific learning locations: two instructional farms and an orchard at Bandhuguda outside the main campus. It states that undergraduate students receive separate plots for crop-production activities. This field infrastructure can be assessed separately from university-wide claims about placements or facilities in other disciplines."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "School of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Gunupur, Odisha"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "A full-time agricultural science degree with crop-production plots and Student READY activities.",
+      "eligibility": "Historical 2020 official notice: 10+2 PCM/PCB, 50% general and 45% SC/ST; current intake criteria require confirmation.",
+      "admission_route": "GIETEE is identified for B.Sc. Agriculture on the university entrance page; confirm current counselling rules.",
+      "fees": {
+        "amount_inr": 160000,
+        "period": "year",
+        "academic_year": "2024-25",
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Historical B.Sc. Agriculture annual fee, also shown as INR80,000 per semester. Other charges separate; current applicability not established.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_fee2024"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "o31_fee2024"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "Agronomy is among the school’s published postgraduate specialisations.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 120000,
+        "period": "year",
+        "academic_year": "2024-25",
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Historical combined M.Sc. Agriculture row, also INR60,000 per semester. Confirm Agronomy-specific current offer. It is not assigned to the separately named Horticulture course.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_fee2024"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s4",
+        "o31_fee2024"
+      ]
+    },
+    {
+      "name": "M.Sc. Horticulture — Fruit Science",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "Fruit Science is listed as a separate horticultural master’s subject.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The official entrance page identifies GIETEE for B.Sc. Agriculture and displays 2026-27 material, alongside a newer 2027 banner and an old 2020 fee note. Applicants need the specific intake prospectus rather than relying on mixed-year page labels.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s5",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Student plots, crop farms and an off-campus orchard",
+    "intro": "The school describes two instructional farms and an orchard at Bandhuguda. Its facility account names irrigation, a crop cafeteria, research blocks, mushroom, azolla and vermicompost units, and farm machinery.",
+    "facilities": [
+      {
+        "name": "Instructional crop farms",
+        "description": "The farm account describes undergraduate crop-production plots and research blocks.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Bandhuguda orchard",
+        "description": "The university identifies an orchard about one kilometre from the main campus.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "A dated August 2026 university report records a farmer exposure visit to Instructional Farm-I and research demonstration plots."
+    ],
+    "source_ids": [
+      "s3",
+      "s7"
+    ],
+    "student_services": [
+      {
+        "name": "Agriculture hostel allocation",
+        "description": "The school states that five hostels serve agriculture students: three for boys and two for girls. Its description gives three to four students per room; individual allocations require confirmation.",
+        "source_ids": [
+          "r2_agri_hostels"
+        ]
+      },
+      {
+        "name": "Dining and drinking water",
+        "description": "The school describes a central mess, monitored food provision and hostel water coolers.",
+        "source_ids": [
+          "r2_agri_hostels"
+        ]
+      },
+      {
+        "name": "Hostel recreation and emergency support",
+        "description": "The facility account lists indoor games, gymnasiums and emergency ambulance provision, alongside internet access.",
+        "source_ids": [
+          "r2_agri_hostels"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "GIET’s general scholarship page contains schemes with different programme scopes, including GIETEE/Board-of-Governance categories explicitly marked B.Tech-only. Agriculture applicants should ask which government reimbursement or institutional assistance actually applies to their course and entry year. Engineering award limits should not be transferred to agriculture.",
+    "schemes": [],
+    "source_ids": [
+      "o31_scholarship"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "GIET University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+    "statistics": [
+      {
+        "label": "UG four-year programme category outcomes 2024-25",
+        "value": "178 graduates in minimum stipulated time; 144 placed; 32 selected for higher studies; median annual salary of placed graduates INR 4,75,000.",
+        "programme_scope": "UG four-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 178,
+        "placed": 144,
+        "higher_studies": 32,
+        "median_salary_inr": 475000,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "o31_nirf2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists School of Agriculture for 2024-02-08 to 2029-02-07. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "School of Agriculture",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 180)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A43:G43"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "These selected teachers are marked currently working in GIET’s NIRF 2026 Agriculture and Allied Sectors submission. Staff marked as having left in that filing are excluded. The filing is dated evidence, not a continuing appointment guarantee.",
+    "people": [
+      {
+        "name": "Dr. Rinny Swain",
+        "role": "Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Ms. Mita Meher",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Rajeswari Das",
+        "role": "Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Deepak Kumar",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Mamata Behera",
+        "role": "Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Anmol Panda",
+        "role": "Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_nirf2026"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "When was GIET’s agriculture school established?",
+      "answer": "The official school account states 2017.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is agricultural admission through GIETEE?",
+      "answer": "The entrance page explicitly includes B.Sc. Agriculture among GIETEE programmes; the current intake rules still need confirmation.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Are students assigned crop plots?",
+      "answer": "The instructional-farm page says separate plots are allotted to undergraduate students for crop-production activities.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is the orchard inside the main campus?",
+      "answer": "The university identifies the orchard at Bandhuguda outside the campus, about one kilometre away.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is a current fee confirmed?",
+      "answer": "A historical official 2024-25 schedule gives B.Sc. Agriculture at INR1,60,000 per year and a combined M.Sc. Agriculture row at INR1,20,000 per year. These do not establish current 2026-27 charges or a Horticulture-specific amount.",
+      "source_ids": [
+        "o31_fee2024"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "GIET University | Agriculture courses and admissions",
+    "description": "Explore GIET University agriculture in Gunupur, instructional farms, student crop plots, GIETEE admission evidence and the verified ICAR undergraduate scope.",
+    "keywords": [
+      "GIET University agriculture",
+      "GIET University admissions",
+      "GIET University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.giet.edu/wp-content/uploads/2020/06/parallax-about-back-opt.jpg",
+    "logo_url": "https://www.giet.edu/wp-content/uploads/2020/12/logo-2021-optimi.png",
+    "campus_alt": "GIET University white academic building and landscaped gardens at Gunupur",
+    "caption": "GIET University white academic building and landscaped gardens at Gunupur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/giet-university/logo.png",
+    "local_campus_image": "media/giet-university/campus_primary.jpg",
+    "local_gallery": [
+      "media/giet-university/campus_primary.jpg",
+      "media/giet-university/campus_secondary.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.giet.edu/schools/school-of-agriculture/",
+      "title": "School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://www.giet.edu/schools/school-of-agriculture/infrastructure/instructional-farms/",
+      "title": "Instructional farms",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "url": "https://ag.giet.edu/index.php/programme/",
+      "title": "Agriculture programme catalogue",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes"
+      ],
+      "notes": "Direct read returned cache miss. Catalogue does not establish current intake openings."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.giet.edu/admissions/gietee/",
+      "title": "GIETEE admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.contact",
+        "admissions"
+      ],
+      "notes": "Mixed 2026/2027 and 2020 labels; no current application cost inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.giet.edu/wp-content/uploads/2020/04/2020-Eligibility-Criteria.pdf",
+      "title": "Agriculture eligibility 2020",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility"
+      ],
+      "notes": "Historical only."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.giet.edu/news/farmers-exposure-visit-and-farmer-scientist-interaction-programme/",
+      "title": "Farmer exposure visit, 5 August 2026",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus.practical_learning"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s8",
+      "url": "https://www.giet.edu/admissions/programmes-fee-structure/",
+      "title": "Programmes and fee structure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fee_research"
+      ],
+      "notes": "Agriculture fee amount not exposed in checked text."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.giet.edu/about-giet/",
+      "title": "About GIET University",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.ownership"
+      ],
+      "notes": "Institution began 1997; university status conferred 2018."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.giet.edu/",
+      "title": "GIET University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/giet-university/logo.png. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.giet.edu/",
+      "title": "GIET University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/giet-university/campus_primary.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.giet.edu/",
+      "title": "GIET University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/giet-university/campus_secondary.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "o31_nirf2026",
+      "title": "GIET NIRF 2026 Agriculture and Allied Sectors submission",
+      "url": "https://www.giet.edu/wp-content/uploads/2026/03/NIRF-India-Ranking-2026-AGRICULTURE-AND-ALLIED-SECTORS.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Institution-submitted UGfour-year agriculture-category outcomes, not Engineering/Overall data."
+    },
+    {
+      "id": "o31_scholarship",
+      "title": "GIET official scholarship descriptions",
+      "url": "https://www.giet.edu/admissions/scholarships/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Several displayed GIETEE awards are explicitlyB.Tech-only; no blanket agriculture entitlement is inferred."
+    },
+    {
+      "id": "o31_fee2024",
+      "title": "GIET fee structure for academic year 2024-2025",
+      "url": "https://www.giet.edu/wp-content/uploads/2025/05/FEES-STRUCTRUCTURE-FOR-2024-OF-GIETU-GUNUPUR.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The official fee index labels this file 2024-2025. The PDF gives B.Sc. Agriculture and M.Sc. Agriculture rows; it is not a 2026-27 quotation."
+    },
+    {
+      "id": "r2_agri_hostels",
+      "title": "GIET School of Agriculture hostels and amenities",
+      "url": "https://www.giet.edu/schools/school-of-agriculture/infrastructure/hostels-amenities/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services"
+      ],
+      "notes": "Undated agriculture-specific facility account; no individual room availability or current tariff inferred."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.year_consistency",
+      "reason": "Entrance page combines a 2027 banner, 2026-27 body and 2020 fee note; obtain intake-specific prospectus.",
+      "next_source": "https://www.giet.edu/admissions/gietee/"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "Historical 2024-25 B.Sc. and combined M.Sc. Agriculture amounts are now recorded; the current schedule and Horticulture-specific price remain unverified.",
+      "next_source": "https://www.giet.edu/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "Official policy scope is now documented, including B.Tech-only exclusions; dated agriculture award conditions remain unverified.",
+      "next_source": "https://www.giet.edu/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://www.giet.edu/admissions/gietee/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://www.giet.edu/admissions/gietee/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://www.giet.edu/admissions/gietee/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.giet.edu/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added 1 scoped NIRF agriculture placement/higher-study cohort rows.",
+      "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+      "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+      "Added 6 named academic staff entries with scope/date labels.",
+      "Added three agriculture-specific residential and student-support entries."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

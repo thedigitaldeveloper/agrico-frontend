@@ -1,0 +1,441 @@
+{
+  "id": 27,
+  "slug": "bhupal-nobles-university",
+  "name": "Bhupal Nobles' University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "BNU",
+    "ownership": "Private university promoted by Vidya Pracharini Sabha, Bhupal Nobles' Sansthan",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "established": 2015,
+    "address": "Maharana Pratap Station Road, Sevashram Circle, Udaipur-313001, Rajasthan, India",
+    "parent_university": null,
+    "website": "https://www.bnuniversity.ac.in/",
+    "admissions_url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+    "phone": "0294-2414498",
+    "email": "deanag@bnuniversity.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Bhupal Nobles' University",
+    "summary": "Bhupal Nobles' University offers undergraduate agriculture in Udaipur. Its official course table describes a four-year degree with Hindi and English as teaching media. The audited ICAR record identifies B.N. College of Agriculture as the accredited unit within the university.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An Udaipur university with a named agricultural college",
+    "paragraphs": [
+      "Bhupal Nobles' University identifies its establishing legislation as Rajasthan Act No. 23 of 2015 and names Vidya Pracharini Sabha, Bhupal Nobles' Sansthan as its promoter. Its agriculture course listing provides a faculty contact and a defined undergraduate route rather than a broad catalogue of unrelated professional courses.",
+      "The course table lists a four-year agriculture degree for students from science or agriculture at 10+2 level. It identifies Hindi and English as media of instruction. The university’s general admission guidelines emphasise completion of the application and final university approval. Those general rules should be read alongside a current agriculture admission notice, which was not verified in this research."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "B.N. College of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Udaipur, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The official table lists B.Sc. Agriculture with Hindi and English media; the audited ICAR label includes Honours.",
+      "eligibility": "Undated official course table: 10+2 Science/Agriculture with 45%. Reconfirm the intake threshold.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "Bhupal Nobles’ official registration page identifies the 2026-27 first-year/first-semester admission form. Linked common instructions describe account creation, document upload and an online INR500 form payment. The instructions are undated; confirm the agriculture offer and payable application charge before paying.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Obtain the information bulletin",
+        "text": "The university instructs applicants to read the bulletin before filling the form."
+      },
+      {
+        "title": "Complete the application carefully",
+        "text": "The guidelines state that incomplete forms will not be accepted and final admission requires university approval."
+      }
+    ],
+    "documents": [
+      "Class X and XII mark sheets, photograph and signature for upload under the common form instructions.",
+      "A valid email address and mobile number for registration/login."
+    ],
+    "dates": [],
+    "application_fee_inr": 500,
+    "source_ids": [
+      "s3",
+      "o31_online",
+      "o31_instructions"
+    ]
+  },
+  "campus": {
+    "heading": "Agriculture within the Udaipur campus",
+    "intro": "The checked university pages establish the agriculture faculty and Udaipur contact location. They did not provide a sufficiently detailed, dated inventory of agricultural farms or laboratories to reproduce here.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "Bhupal Nobles' University publishes an Agriculture and Allied Sectors submission for NIRF 2026. Its programme-duration cohorts report the graduating group, students placed, students entering higher studies and the median salary of placed graduates. These historical institutional submissions are not a placement promise or a salary estimate for every student or individual specialisation.",
+    "statistics": [
+      {
+        "label": "UG four-year programme category outcomes 2024-25",
+        "value": "54 graduates in minimum stipulated time; 12 placed; 15 selected for higher studies; median annual salary of placed graduates INR 3,00,000.",
+        "programme_scope": "UG four-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 54,
+        "placed": 12,
+        "higher_studies": 15,
+        "median_salary_inr": 300000,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "label": "PG two-year programme category outcomes 2024-25",
+        "value": "5 graduates in minimum stipulated time; 2 placed; 1 selected for higher studies; median annual salary of placed graduates INR 2,50,000.",
+        "programme_scope": "PG two-year programme category",
+        "academic_year": "2024-25",
+        "graduates_in_minimum_time": 5,
+        "placed": 2,
+        "higher_studies": 1,
+        "median_salary_inr": 250000,
+        "reporting_source": "NIRF 2026 Agriculture and Allied Sectors; institution-submitted data, not an independently audited placement guarantee",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "o31_nirf2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists B.N. College of Agriculture for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "B.N. College of Agriculture",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 60)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A35:G35"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "Selected staff listed as currently working in the NIRF 2026 Agriculture and Allied Sectors submission are shown here. The dated filing is a staffing snapshot rather than a guarantee of unchanged appointments.",
+    "people": [
+      {
+        "name": "Dr. Dilip Singh",
+        "role": "Dean / Principal / Director category in the NIRF 2026 agriculture filing",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Garima Babel",
+        "role": "Associate Dean",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Jaipal Singh",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Fateh Lal Sharma",
+        "role": "Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Pratap Singh Rao",
+        "role": "Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      },
+      {
+        "name": "Dr. Shilpa Rathore",
+        "role": "Associate Professor",
+        "source_ids": [
+          "o31_nirf2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_nirf2026"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which unit appears in Bhupal Nobles' ICAR entry?",
+      "answer": "The audited register names B.N. College of Agriculture and lists B.Sc. (Hons.) Agriculture.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What is the published course duration?",
+      "answer": "The university’s agriculture table gives four years.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which teaching languages are listed?",
+      "answer": "The official table identifies Hindi and English. Confirm how individual classes and examinations are delivered.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What school qualification is shown?",
+      "answer": "The undated course table lists 10+2 Science or Agriculture with 45%. An intake-specific rule is still needed.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does submitting a form make admission final?",
+      "answer": "The university guidelines state that finalisation requires its approval.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Bhupal Nobles' University | Agriculture courses and admissions",
+    "description": "Explore Bhupal Nobles' University agriculture in Udaipur, the four-year course, teaching media, admission guidance and B.N. College's ICAR accreditation scope.",
+    "keywords": [
+      "Bhupal Nobles' University agriculture",
+      "Bhupal Nobles' University admissions",
+      "Bhupal Nobles' University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://bnuniversity.ac.in/images/slider-01.jpg",
+    "logo_url": "https://bnuniversity.ac.in/images/bhupal-nobles-university-logo.png",
+    "campus_alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+    "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/bhupal-nobles-university/logo.png",
+    "local_campus_image": "media/bhupal-nobles-university/campus-01.jpg",
+    "local_gallery": [
+      "media/bhupal-nobles-university/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.bnuniversity.ac.in/Courses",
+      "title": "Agriculture course table and university identity",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview",
+        "programmes"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+      "title": "University admission guidelines",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "admissions"
+      ],
+      "notes": "Undated general guidance; current regulatory fee-refund rules not inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture",
+      "title": "Faculty of Agriculture profile",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faculty"
+      ],
+      "notes": "Checked profile did not expose a detailed agricultural facilities inventory."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://bnuniversity.ac.in/home",
+      "title": "Bhupal Nobles' University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/bhupal-nobles-university/logo.png. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://bnuniversity.ac.in/home",
+      "title": "Bhupal Nobles' University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/bhupal-nobles-university/campus-01.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "o31_online",
+      "title": "Bhupal Nobles University admission registration 2026-27",
+      "url": "https://www.bnuniversity.ac.in/Online-Admission",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The link labelled Fee structure2026-27 points to /documents/fee-structure-2020-21.pdf, which returned404; no amount was inferred."
+    },
+    {
+      "id": "o31_instructions",
+      "title": "Bhupal Nobles official application instructions",
+      "url": "https://www.bnuniversity.ac.in/documents/instructions-for-filling-application-form.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated common online-application instructions linked by the2026-27 registration page."
+    },
+    {
+      "id": "o31_nirf2026",
+      "title": "Bhupal Nobles NIRF 2026 Agriculture and Allied Sectors submission",
+      "url": "https://www.bnuniversity.ac.in/NIRF/agriculture%20BHUPAL%20NOBLES'%20UNIVERSITY20260219--5.pdf",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Institution-submitted duration-category outcomes and currently-working faculty table. PG category outcomes cannot be attributed to a specific specialisation."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "campus.facilities",
+      "reason": "No detailed current agricultural facility inventory was verified on the checked official pages.",
+      "next_source": "https://www.bnuniversity.ac.in/FacultyProfile?p=Faculty+of+Agriculture"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "The purported2026-27 fee link was checked and found to target a missing2020-21 PDF. No current agriculture amount was recovered.",
+      "next_source": "https://www.bnuniversity.ac.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://www.bnuniversity.ac.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "Linked common instructions identify marksheets/photo/signature; a programme-specific current checklist remains unverified.",
+      "next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://www.bnuniversity.ac.in/Admission_Guidlines"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.bnuniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added actual registration and upload requirements and documented the misleading/broken fee target.",
+      "Added 2 scoped NIRF agriculture placement/higher-study cohort rows.",
+      "Added 6 named academic staff entries with scope/date labels."
+    ]
+  }
+}

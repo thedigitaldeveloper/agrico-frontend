@@ -1,0 +1,2934 @@
+{
+  "version": "1.0",
+  "status": "prepared_not_executed",
+  "target": "api::university.university",
+  "matching_key": "slug",
+  "instructions": [
+    "Upload local files through the configured CMS upload provider.",
+    "Resolve $upload keys to returned upload ids, then attach the named university fields.",
+    "Match university records by the prepared content slug; do not create duplicate institutions.",
+    "Secondary photos are gallery candidates; upload them for future use without replacing the primary campus image.",
+    "Preserve original source provenance and recorded rights status."
+  ],
+  "uploads": [
+    {
+      "key": "adhiparasakthi-agricultural-college:logo",
+      "file": "media/adhiparasakthi-agricultural-college/logo.jpg",
+      "name": "Adhiparasakthi Agricultural College — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 52955,
+      "sha256": "96b5bb06312d49100471c03b44f656ce81444a020fdd2a9ff5f99fba796e58ea",
+      "alternativeText": "Adhiparasakthi Agricultural College official wordmark and seal",
+      "caption": "Adhiparasakthi Agricultural College official wordmark and seal",
+      "source_page": "https://www.apachc.in/ac/",
+      "download_url": "https://www.apachc.in/ac/img/logo.jpg"
+    },
+    {
+      "key": "adhiparasakthi-agricultural-college:card_logo",
+      "file": "media/adhiparasakthi-agricultural-college/card-logo.png",
+      "name": "Adhiparasakthi Agricultural College — card logo",
+      "mime": "image/png",
+      "bytes": 110522,
+      "sha256": "755756e3ac185ae04f0e78f9fd59a6f1eb491bb81312b2d8cb0bf4816c342f85",
+      "alternativeText": "Adhiparasakthi Agricultural College standalone square seal",
+      "caption": "Adhiparasakthi Agricultural College standalone square seal",
+      "source_page": "https://www.apachc.in/ac/",
+      "download_url": "https://www.apachc.in/ac/img/logo3.png"
+    },
+    {
+      "key": "adhiparasakthi-agricultural-college:campus_primary",
+      "file": "media/adhiparasakthi-agricultural-college/campus-gallery-01.jpg",
+      "name": "Adhiparasakthi Agricultural College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 377698,
+      "sha256": "28e09e127b1d47f251676f96dd23660d7ac3a681a2b1e4a8ef28044efda44d65",
+      "alternativeText": "Graduate and faculty during the first joint graduation ceremony of the Adhiparasakthi agricultural and horticultural colleges",
+      "caption": "Graduate and faculty during the first joint graduation ceremony of the Adhiparasakthi agricultural and horticultural colleges",
+      "source_page": "https://www.apachc.in/ac/",
+      "download_url": "https://www.apachc.in/ac/img/ff1.jpg"
+    },
+    {
+      "key": "adhiparasakthi-agricultural-college:campus_secondary",
+      "file": "media/adhiparasakthi-agricultural-college/campus-real-01.jpg",
+      "name": "Adhiparasakthi Agricultural College — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 207860,
+      "sha256": "c49c2aabaa366f827802e4c874030de20ad19120c5dc457c050fd88afe281f5a",
+      "alternativeText": "Adhiparasakthi Agricultural College NSS student group outdoors",
+      "caption": "Adhiparasakthi Agricultural College NSS student group outdoors",
+      "source_page": "https://www.apachc.in/ac/gallery.html",
+      "download_url": "https://www.apachc.in/ac/img/q1.jpg"
+    },
+    {
+      "key": "adhiyamaan-college-of-agriculture-and-research:logo",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/logo.png",
+      "name": "Adhiyamaan College of Agriculture and Research — institution logo",
+      "mime": "image/png",
+      "bytes": 365531,
+      "sha256": "2efc93b0d686be5cd17d4caabe14070035ab5aab64a5fa45d44b25fc284a36a0",
+      "alternativeText": "ACAR shield identifying Adhiyamaan College of Agriculture and Research",
+      "caption": "ACAR shield identifying Adhiyamaan College of Agriculture and Research",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2025/02/WhatsApp_Image_2025-03-05_at_11.44.15_AM-removebg-preview-1.png"
+    },
+    {
+      "key": "adhiyamaan-college-of-agriculture-and-research:campus_primary",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/campus-01.png",
+      "name": "Adhiyamaan College of Agriculture and Research — campus primary",
+      "mime": "image/png",
+      "bytes": 5875691,
+      "sha256": "f0da646723758d24d5339f2e9b110ccef1181ee7981ee2a5d4d8b3e57f10f852",
+      "alternativeText": "ACAR students working in a flooded paddy field during practical learning",
+      "caption": "ACAR students working in a flooded paddy field during practical learning",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2026/10/Picture8-scaled.png"
+    },
+    {
+      "key": "adhiyamaan-college-of-agriculture-and-research:campus_secondary",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/campus-02.png",
+      "name": "Adhiyamaan College of Agriculture and Research — campus secondary",
+      "mime": "image/png",
+      "bytes": 550675,
+      "sha256": "0a3fd1e0d1d4dbe0b9915ceedbba1f5c50457ea3adc3aaaa21102b4faee28bca",
+      "alternativeText": "ACAR students undertaking a paddy-field practical",
+      "caption": "ACAR students undertaking a paddy-field practical",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2026/10/Picture2.png"
+    },
+    {
+      "key": "j-k-k-munirajah-college-of-agricultural-science:logo",
+      "file": "media/j-k-k-munirajah-college-of-agricultural-science/logo-secondary.webp",
+      "name": "J.K.K. Munirajah College of Agricultural Science — institution logo",
+      "mime": "image/webp",
+      "bytes": 37446,
+      "sha256": "b56453f20bceef5f55c0f09961a37de5c916098d767a68fbe6c30ada9f82e3d9",
+      "alternativeText": "J.K.K. Munirajah College of Agricultural Science seal with T.N. Palayam and the Plough Produce Prosper motto",
+      "caption": "J.K.K. Munirajah College of Agricultural Science seal with T.N. Palayam and the Plough Produce Prosper motto",
+      "source_page": "https://admistay.com/admission/india/erode/college/jkk-munirajah-college-of-agricultural-science-jkkmcas-56273",
+      "download_url": "https://admistay.blr1.cdn.digitaloceanspaces.com/Institutes/logos/1588618709Untitled.webp"
+    },
+    {
+      "key": "j-k-k-munirajah-college-of-agricultural-science:campus_primary",
+      "file": "media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-01.jpg",
+      "name": "J.K.K. Munirajah College of Agricultural Science — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 36234,
+      "sha256": "b863b2786e98b2f694c036830ae70b740f4aeb13953d28cdb625ca63411a042f",
+      "alternativeText": "Named entrance gateway of J.K.K. Munirajah College of Agricultural Science at T.N. Palayam",
+      "caption": "Named entrance gateway of J.K.K. Munirajah College of Agricultural Science at T.N. Palayam",
+      "source_page": "https://www.careers360.com/colleges/jkk-munirajah-college-of-agricultural-science-erode?gallery=true",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29628/2020/6/24/Campus%20front%20View%20of%20JKK%20Munirajah%20College%20of%20Agricultural%20Science%20Erode_Campus-View.jpg"
+    },
+    {
+      "key": "j-k-k-munirajah-college-of-agricultural-science:campus_secondary",
+      "file": "media/j-k-k-munirajah-college-of-agricultural-science/campus-careers-02.jpg",
+      "name": "J.K.K. Munirajah College of Agricultural Science — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 26044,
+      "sha256": "4fcf1e57088d5e7deb52f6229bae23fa17874594dfd59c2b9af2d06ac2b55c33",
+      "alternativeText": "J.K.K. Munirajah College of Agricultural Science academic building and campus path",
+      "caption": "J.K.K. Munirajah College of Agricultural Science academic building and campus path",
+      "source_page": "https://www.careers360.com/colleges/jkk-munirajah-college-of-agricultural-science-erode?gallery=true",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29628/2020/6/24/Campus%20View%20of%20JKK%20Munirajah%20College%20of%20Agricultural%20Science%20Erode_Campus-View.jpg"
+    },
+    {
+      "key": "jsa-college-of-agriculture-and-technology:logo",
+      "file": "media/jsa-college-of-agriculture-and-technology/logo.png",
+      "name": "JSA College of Agriculture and Technology — institution logo",
+      "mime": "image/png",
+      "bytes": 99859,
+      "sha256": "2e4e26babdf8e0b9fae68f1f08ed5b17ea7894582d97277d9bc57d7b5b563435",
+      "alternativeText": "JSA College of Agriculture and Technology standalone seal",
+      "caption": "JSA College of Agriculture and Technology standalone seal",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/JsaAgri-logo.png"
+    },
+    {
+      "key": "jsa-college-of-agriculture-and-technology:campus_primary",
+      "file": "media/jsa-college-of-agriculture-and-technology/campus-main-building.jpg",
+      "name": "JSA College of Agriculture and Technology — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 363889,
+      "sha256": "35c7c8973488dcaadccd4fe06d3c18b550b2c810d3313eeb4c4d89140d761c2e",
+      "alternativeText": "JSA College of Agriculture and Technology main academic building",
+      "caption": "JSA College of Agriculture and Technology main academic building",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/static/media/main_building.ca73ecb9af87e970a3d0.JPG"
+    },
+    {
+      "key": "jsa-college-of-agriculture-and-technology:campus_secondary",
+      "file": "media/jsa-college-of-agriculture-and-technology/campus-library.jpg",
+      "name": "JSA College of Agriculture and Technology — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 398471,
+      "sha256": "712e3f5fbcf7010b0177aef109b8aaa6e41b1d9a3f9e37bcacacc14703c63ef9",
+      "alternativeText": "Students and reading tables in the JSA College library",
+      "caption": "Students and reading tables in the JSA College library",
+      "source_page": "https://www.jsaagri.in/",
+      "download_url": "https://www.jsaagri.in/static/media/library_4.b84c81a436ba7fe5d8a0.JPG"
+    },
+    {
+      "key": "pgp-college-of-agricultural-sciences:logo",
+      "file": "media/pgp-college-of-agricultural-sciences/logo-college.jpg",
+      "name": "PGP College of Agricultural Sciences — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 4412,
+      "sha256": "6faa37cfec199dc3b21197ac1efbe48819b3ccb57baca09fb25f433a237d31cb",
+      "alternativeText": "PGP group mark used to identify PGP College of Agricultural Sciences",
+      "caption": "PGP group mark used to identify PGP College of Agricultural Sciences",
+      "source_page": "https://www.careers360.com/colleges/pgp-college-of-agricultural-sciences-namakkal",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_PGP_College_of_Agricultural_Sciences_Namakkal_Logo.png"
+    },
+    {
+      "key": "pgp-college-of-agricultural-sciences:campus_primary",
+      "file": "media/pgp-college-of-agricultural-sciences/campus-admistay-01.webp",
+      "name": "PGP College of Agricultural Sciences — campus primary",
+      "mime": "image/webp",
+      "bytes": 23308,
+      "sha256": "fc7b0ceb723ab33825592779329c14eef4d0dc0d22017545d3c67de9678cf350",
+      "alternativeText": "Named academic block of PGP College of Agricultural Sciences at Namakkal",
+      "caption": "Named academic block of PGP College of Agricultural Sciences at Namakkal",
+      "source_page": "https://admistay.com/admission/india/namakkal/college/pgp-college-of-agricultural-science-56277",
+      "download_url": "https://admistay.blr1.cdn.digitaloceanspaces.com/Institutes/gallery_images/infrastructure/pgp-college-of-agricultural-science_001.jpg"
+    },
+    {
+      "key": "pgp-college-of-agricultural-sciences:campus_secondary",
+      "file": "media/pgp-college-of-agricultural-sciences/campus-careers-01.jpg",
+      "name": "PGP College of Agricultural Sciences — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 25247,
+      "sha256": "fa51ed56743ed0a8ce34f137dafabddb8b18138a683811ee30abcbf65adffbf0",
+      "alternativeText": "Another view of the PGP College of Agricultural Sciences academic block",
+      "caption": "Another view of the PGP College of Agricultural Sciences academic block",
+      "source_page": "https://www.careers360.com/colleges/pgp-college-of-agricultural-sciences-namakkal?gallery=true",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29633/2020/6/15/Campus%20view%20of%20PGP%20College%20of%20Agricultural%20Sciences%20Namakkal_Campus-View.jpg"
+    },
+    {
+      "key": "pushkaram-college-of-agriculture-sciences:logo",
+      "file": "media/pushkaram-college-of-agriculture-sciences/logo.jpg",
+      "name": "Pushkaram College of Agriculture Sciences — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 42497,
+      "sha256": "d1b339c9cbf2857c2a7c1346b1cfdf51d2f72305dff8e7c6c2b2b6d2c01771e6",
+      "alternativeText": "Pushkaram College of Agriculture Sciences shield from its institutional social profile",
+      "caption": "Pushkaram College of Agriculture Sciences shield from its institutional social profile",
+      "source_page": "https://x.com/AgriPcas",
+      "download_url": "https://pbs.twimg.com/profile_images/1252168427499708416/t0J7QZlA.jpg"
+    },
+    {
+      "key": "pushkaram-college-of-agriculture-sciences:campus_primary",
+      "file": "media/pushkaram-college-of-agriculture-sciences/campus-01.jpg",
+      "name": "Pushkaram College of Agriculture Sciences — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 30549,
+      "sha256": "052e0f4096020799bf5bba8d304528a0b50b7d604eff02cdb8947e56fa1e7813",
+      "alternativeText": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+      "caption": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+      "source_page": "https://www.careers360.com/colleges/pushkaram-college-of-agricultural-sciences-pudukkottai",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29634/2024/2/12/Campus%20Entrance%20View%20of%20Pushkaram%20College%20of%20Agricultural%20Sciences%20Pudukkottai_Campus-View.png"
+    },
+    {
+      "key": "the-indian-agriculture-college:logo",
+      "file": "media/the-indian-agriculture-college/logo.jpg",
+      "name": "The Indian Agriculture College — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 142169,
+      "sha256": "c12bbf1af663b5353ff4a8a087f1d9046eb57bea56f6c62be3fe17e4a7c1c3ed",
+      "alternativeText": "The Indian Agriculture College official header wordmark",
+      "caption": "The Indian Agriculture College official header wordmark",
+      "source_page": "https://tiac.rajas.edu/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/04/TIAC-Logo-new-scaled.jpg"
+    },
+    {
+      "key": "the-indian-agriculture-college:campus_primary",
+      "file": "media/the-indian-agriculture-college/campus-02.jpg",
+      "name": "The Indian Agriculture College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 366481,
+      "sha256": "0277bcacd72bb9e261744a19db5660628ea4ca7cd03d5789c1f0d5bea78e4c79",
+      "alternativeText": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+      "caption": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+      "source_page": "https://tiac.rajas.edu/about-the-college/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/07/00fdb79e-7b24-4ae0-925f-b70627eb9831.jpg"
+    },
+    {
+      "key": "the-indian-agriculture-college:campus_secondary",
+      "file": "media/the-indian-agriculture-college/campus-01.jpg",
+      "name": "The Indian Agriculture College — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 99644,
+      "sha256": "bc3b7ce0a26cc1fad3df170f8c4a2935a546b8f479c071a91c3bda0a469ebb4d",
+      "alternativeText": "The Indian Agriculture College named entrance at Radhapuram",
+      "caption": "The Indian Agriculture College named entrance at Radhapuram",
+      "source_page": "https://tiac.rajas.edu/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/02/IAc-e1739873750897.jpeg"
+    },
+    {
+      "key": "palar-agricultural-college:logo",
+      "file": "media/palar-agricultural-college/logo-college.png",
+      "name": "Palar Agricultural College — institution logo",
+      "mime": "image/png",
+      "bytes": 63752,
+      "sha256": "6a80441b66b5049553dedeee708d6f2bcb56d4cac4db7eeb7e0876dadcd5822c",
+      "alternativeText": "Palar Agricultural College header wordmark and seal",
+      "caption": "Palar Agricultural College header wordmark and seal",
+      "source_page": "https://palaragri.ac.in/",
+      "download_url": "https://palaragri.ac.in/wp-content/uploads/2023/05/top-header.png"
+    },
+    {
+      "key": "palar-agricultural-college:card_logo",
+      "file": "media/palar-agricultural-college/card-logo.png",
+      "name": "Palar Agricultural College — card logo",
+      "mime": "image/png",
+      "bytes": 71608,
+      "sha256": "d00162a025b94018ecbe45f47614faa31f00fcb6f99228a7d20f77d78f7ecc2d",
+      "alternativeText": "Palar Agricultural College official square seal",
+      "caption": "Palar Agricultural College official square seal",
+      "source_page": "https://palaragri.ac.in/",
+      "download_url": "https://palaragri.ac.in/wp-content/uploads/2025/02/cropped-PAC-192x192.png"
+    },
+    {
+      "key": "palar-agricultural-college:campus_primary",
+      "file": "media/palar-agricultural-college/campus-02.jpg",
+      "name": "Palar Agricultural College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 95234,
+      "sha256": "7f37524cba6a3d02391e22da1692a18b9ef5297b446a70be10c3e07dc0520daa",
+      "alternativeText": "Palar Agricultural College entrance gateway",
+      "caption": "Palar Agricultural College entrance gateway",
+      "source_page": "https://palaragri.ac.in/",
+      "download_url": "https://palaragri.ac.in/wp-content/uploads/2023/12/BHA_4981.jpg"
+    },
+    {
+      "key": "palar-agricultural-college:campus_secondary",
+      "file": "media/palar-agricultural-college/campus-01.jpg",
+      "name": "Palar Agricultural College — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 93143,
+      "sha256": "d4db746a1d958f829560d5924176306b8bb3c9d4ad545521790a44c2e20c850a",
+      "alternativeText": "Traditional agricultural plough exhibit inside Palar Agricultural College",
+      "caption": "Traditional agricultural plough exhibit inside Palar Agricultural College",
+      "source_page": "https://palaragri.ac.in/",
+      "download_url": "https://palaragri.ac.in/wp-content/uploads/2023/12/BHA_5077.jpg"
+    },
+    {
+      "key": "thanthai-roever-institute-of-agriculture-and-rural-development:logo",
+      "file": "media/thanthai-roever-institute-of-agriculture-and-rural-development/logo.png",
+      "name": "Thanthai Roever Institute of Agriculture and Rural Development — institution logo",
+      "mime": "image/png",
+      "bytes": 17488,
+      "sha256": "1b79786b0c301a7f1f586e8b01416868e118da8731e69d079c6098225e43d21d",
+      "alternativeText": "TRIARD official institution seal",
+      "caption": "TRIARD official institution seal",
+      "source_page": "https://roeveragri.ac.in/",
+      "download_url": "https://roeveragri.ac.in/wp-content/uploads/elementor/thumbs/logo-agricultural-rcdag475ud0wk3a5i67mytzcxrpmf8avgxgnw6zmi8.png"
+    },
+    {
+      "key": "thanthai-roever-institute-of-agriculture-and-rural-development:card_logo",
+      "file": "media/thanthai-roever-institute-of-agriculture-and-rural-development/card-logo.png",
+      "name": "Thanthai Roever Institute of Agriculture and Rural Development — card logo",
+      "mime": "image/png",
+      "bytes": 40598,
+      "sha256": "66245c10ea1dcbdcb5ef6e1be96c12bfb909b72db6a6e866b12fdb3c30ab968d",
+      "alternativeText": "TRIARD square institution seal published as an official site icon",
+      "caption": "TRIARD square institution seal published as an official site icon",
+      "source_page": "https://roeveragri.ac.in/",
+      "download_url": "https://roeveragri.ac.in/wp-content/uploads/2020/07/cropped-agri-logo-192x192.png"
+    },
+    {
+      "key": "thanthai-roever-institute-of-agriculture-and-rural-development:campus_primary",
+      "file": "media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-biochemistry-lab.jpg",
+      "name": "Thanthai Roever Institute of Agriculture and Rural Development — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 254802,
+      "sha256": "5fdbbd3d983fcca6c4653f3c0173a979382e5b99bed753a110b7afe658273b2a",
+      "alternativeText": "TRIARD students conducting practical work in the biochemistry laboratory",
+      "caption": "TRIARD students conducting practical work in the biochemistry laboratory",
+      "source_page": "https://roeveragri.ac.in/facilities/",
+      "download_url": "https://roeveragri.ac.in/wp-content/uploads/2020/09/biochemistry-lab.jpg"
+    },
+    {
+      "key": "thanthai-roever-institute-of-agriculture-and-rural-development:campus_secondary",
+      "file": "media/thanthai-roever-institute-of-agriculture-and-rural-development/campus-library.jpg",
+      "name": "Thanthai Roever Institute of Agriculture and Rural Development — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 210254,
+      "sha256": "4fb61c2ab5182a6e7685ba266ea037cd28a29c9fcf163a4902448ff91ab40b88",
+      "alternativeText": "TRIARD students and book shelves in the college library",
+      "caption": "TRIARD students and book shelves in the college library",
+      "source_page": "https://roeveragri.ac.in/facilities/",
+      "download_url": "https://roeveragri.ac.in/wp-content/uploads/2021/01/roever-agricultural-college-library.jpg"
+    },
+    {
+      "key": "udai-pratap-college:logo",
+      "file": "media/udai-pratap-college/logo.png",
+      "name": "Udai Pratap College — institution logo",
+      "mime": "image/png",
+      "bytes": 6937,
+      "sha256": "4f88664870fcf61b18dfb2afaf66b264e76c1dc18740b85962d8ecaf14b0237c",
+      "alternativeText": "Udai Pratap College official circular crest",
+      "caption": "Udai Pratap College official circular crest",
+      "source_page": "https://upcollege.ac.in/Home",
+      "download_url": "https://upcollege.ac.in/AppImage/page/logo-footer.png"
+    },
+    {
+      "key": "udai-pratap-college:campus_primary",
+      "file": "media/udai-pratap-college/campus-gate.jpg",
+      "name": "Udai Pratap College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 36644,
+      "sha256": "67e2b9b5ab89184efb426a0a70163c541eea4cf775168ff779df4fefb3ae3ddd",
+      "alternativeText": "Udai Pratap College entrance gate in Varanasi",
+      "caption": "Udai Pratap College entrance gate in Varanasi",
+      "source_page": "https://upcollege.ac.in/about/history",
+      "download_url": "https://upcollege.ac.in/AppImage/page/college-gate.jpg"
+    },
+    {
+      "key": "udai-pratap-college:campus_secondary",
+      "file": "media/udai-pratap-college/campus-office.jpg",
+      "name": "Udai Pratap College — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 95608,
+      "sha256": "812bfe06d0f15cbc6296ea800c285935b21ff90638833bcda0214199278ac6be",
+      "alternativeText": "Udai Pratap College office building and landscaped grounds",
+      "caption": "Udai Pratap College office building and landscaped grounds",
+      "source_page": "https://upcollege.ac.in/about/history",
+      "download_url": "https://upcollege.ac.in/AppImage/page/slide1.jpg"
+    },
+    {
+      "key": "sbvr-agricultural-college:logo",
+      "file": "media/sbvr-agricultural-college/logo.png",
+      "name": "SBVR Agricultural College — institution logo",
+      "mime": "image/png",
+      "bytes": 238335,
+      "sha256": "af2beadf74d1428ed7fb3df9c66775bb92fa71b5a74df7f0360631fe7521567f",
+      "alternativeText": "SBVR Agricultural College official header wordmark",
+      "caption": "SBVR Agricultural College official header wordmark",
+      "source_page": "https://sbvragcollege.in/",
+      "download_url": "https://sbvragcollege.in/images/logo.png"
+    },
+    {
+      "key": "sbvr-agricultural-college:campus_primary",
+      "file": "media/sbvr-agricultural-college/campus-01.jpg",
+      "name": "SBVR Agricultural College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 104861,
+      "sha256": "474085de32d0b055ce4f4c29e130deae37e6fcde1716ea646efa898ae3dff06b",
+      "alternativeText": "SBVR Agricultural College entrance photograph within its official campus slide",
+      "caption": "SBVR Agricultural College entrance photograph within its official campus slide",
+      "source_page": "https://sbvragcollege.in/",
+      "download_url": "https://sbvragcollege.in/admin/uploads/slides/2877CAMPUS%20ENTRANCE.jpg"
+    },
+    {
+      "key": "n-s-agricultural-college:logo",
+      "file": "media/n-s-agricultural-college/logo.png",
+      "name": "N.S. Agricultural College — institution logo",
+      "mime": "image/png",
+      "bytes": 30620,
+      "sha256": "b6f99e9efb060df3e7c2e31767f3f87f4d46e4a548cfc83de0f8dfd64a9a74d4",
+      "alternativeText": "N.S. Agricultural College Markapur official seal",
+      "caption": "N.S. Agricultural College Markapur official seal",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/B7cMhRPlCqVqCJM0UVlWzos2tg.png"
+    },
+    {
+      "key": "n-s-agricultural-college:campus_primary",
+      "file": "media/n-s-agricultural-college/campus-01.jpg",
+      "name": "N.S. Agricultural College — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 2336730,
+      "sha256": "927ae128a05bcc5644b2d4f046e530cbff4ab25618b12086fe672bb15b99ede9",
+      "alternativeText": "N.S. Agricultural College academic block and courtyard",
+      "caption": "N.S. Agricultural College academic block and courtyard",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/lQauinUG70mNCMPVKApP0VsdSY.jpg?width=5184&height=3456"
+    },
+    {
+      "key": "n-s-agricultural-college:campus_secondary",
+      "file": "media/n-s-agricultural-college/campus-02.jpg",
+      "name": "N.S. Agricultural College — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 4157453,
+      "sha256": "b39e4e78c02ce9325d99a4ae849695c4ac899aaf639a189245fc038929c9b2e3",
+      "alternativeText": "N.S. Agricultural College entrance gateway",
+      "caption": "N.S. Agricultural College entrance gateway",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/uaNIeAA1R2aprhENaPVcdaKi9w.jpg?width=6000&height=4000"
+    },
+    {
+      "key": "sri-krishnadevaraya-college-of-agricultural-sciences:logo",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/logo-emblem.png",
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences — institution logo",
+      "mime": "image/png",
+      "bytes": 62696,
+      "sha256": "601c6dcedd11630f3d06619b91ab721a2144de4d6a3520b5821d1371cde6a096",
+      "alternativeText": "Sri Krishnadevaraya College of Agricultural Sciences standalone emblem",
+      "caption": "Sri Krishnadevaraya College of Agricultural Sciences standalone emblem",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/152.png"
+    },
+    {
+      "key": "sri-krishnadevaraya-college-of-agricultural-sciences:campus_primary",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-01.png",
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences — campus primary",
+      "mime": "image/png",
+      "bytes": 2068909,
+      "sha256": "95f1db3d09ec203635bb6eab884db1ed56ec84004572ca28d91dba4c183b72e2",
+      "alternativeText": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+      "caption": "Visitors and students on the steps of Sri Krishnadevaraya College of Agricultural Sciences",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/slider/103.png"
+    },
+    {
+      "key": "sri-krishnadevaraya-college-of-agricultural-sciences:campus_secondary",
+      "file": "media/sri-krishnadevaraya-college-of-agricultural-sciences/campus-02.png",
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences — campus secondary",
+      "mime": "image/png",
+      "bytes": 1779040,
+      "sha256": "311b307b1b30659f13e08729438aabb61a3dedead9d2185eba819462853a3bc8",
+      "alternativeText": "Academic visitors being welcomed at Sri Krishnadevaraya College of Agricultural Sciences",
+      "caption": "Academic visitors being welcomed at Sri Krishnadevaraya College of Agricultural Sciences",
+      "source_page": "https://skcas.ac.in/",
+      "download_url": "https://skcas.ac.in/content/raw/images/slider/100.png"
+    },
+    {
+      "key": "khalsa-college-of-veterinary-and-animal-sciences:logo",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/logo.png",
+      "name": "Khalsa College of Veterinary and Animal Sciences — institution logo",
+      "mime": "image/png",
+      "bytes": 1507161,
+      "sha256": "d4cf7086e21c8b2cdf68aa89bc12cd10595bce58ff230a3b32399ee46bfc13c7",
+      "alternativeText": "Khalsa College of Veterinary and Animal Sciences official header wordmark",
+      "caption": "Khalsa College of Veterinary and Animal Sciences official header wordmark",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/images/logo-kc.png"
+    },
+    {
+      "key": "khalsa-college-of-veterinary-and-animal-sciences:campus_primary",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/campus-clinic.jpg",
+      "name": "Khalsa College of Veterinary and Animal Sciences — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 259503,
+      "sha256": "6af917e35f85e2f43a2dcf39ad9d6140d72927f6d7da3b6723c99c24c2761b42",
+      "alternativeText": "Veterinary students and staff outside a KCVAS clinical teaching building",
+      "caption": "Veterinary students and staff outside a KCVAS clinical teaching building",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/panel/backend/img/1-copy.jpg"
+    },
+    {
+      "key": "khalsa-college-of-veterinary-and-animal-sciences:campus_secondary",
+      "file": "media/khalsa-college-of-veterinary-and-animal-sciences/campus-02.jpg",
+      "name": "Khalsa College of Veterinary and Animal Sciences — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 833840,
+      "sha256": "f49897c967a6ee56dd9619c7dfd2f79b9498ab98669b9c0feb3a91b0b226bec6",
+      "alternativeText": "Academic conference presentation at Khalsa College of Veterinary and Animal Sciences",
+      "caption": "Academic conference presentation at Khalsa College of Veterinary and Animal Sciences",
+      "source_page": "https://kcvas.com/",
+      "download_url": "https://kcvas.com/panel/backend/img/DSC_0623-2.JPG"
+    },
+    {
+      "key": "khalsa-college-amritsar:logo",
+      "file": "media/khalsa-college-amritsar/logo-secondary.png",
+      "name": "Khalsa College, Amritsar — institution logo",
+      "mime": "image/png",
+      "bytes": 38420,
+      "sha256": "2791150546433bf20fbe24d2d38ec8ac422a518cb393195ad482b3089f55e0f8",
+      "alternativeText": "Khalsa College Amritsar crest with the 1892 establishment date",
+      "caption": "Khalsa College Amritsar crest with the 1892 establishment date",
+      "source_page": "https://www.careers360.com/colleges/khalsa-college-amritsar",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/10234/2019/4/22/logo.png"
+    },
+    {
+      "key": "khalsa-college-amritsar:campus_primary",
+      "file": "media/khalsa-college-amritsar/campus-tripsamachar.jpg",
+      "name": "Khalsa College, Amritsar — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 138224,
+      "sha256": "27d7cbd3c5bfd91f7e1c73d3e03449a91cb1fdcd2495ec2dea4e8bd6084a139e",
+      "alternativeText": "Historic main building and lawns of Khalsa College Amritsar",
+      "caption": "Historic main building and lawns of Khalsa College Amritsar",
+      "source_page": "https://tripsamachar.com/blogs/khalsa-college-amritsar-a-landmark-of-education-and-heritage",
+      "download_url": "https://tripsamachar.com/uploads/0000/8/2025/01/28/khalsa-college-amritsar.jpg"
+    },
+    {
+      "key": "g-h-raisoni-university-chhindwara:logo",
+      "file": "media/g-h-raisoni-university-chhindwara/logo-colour.webp",
+      "name": "G H Raisoni University, Chhindwara — institution logo",
+      "mime": "image/webp",
+      "bytes": 38164,
+      "sha256": "477632ab3653ffa68ca7421ca5247e77e59336462c2e277e5bef27f2882fa973",
+      "alternativeText": "G H Raisoni University Saikheda full-colour logo",
+      "caption": "Official full-colour G H Raisoni University Saikheda wordmark with purple lettering and gold emblem",
+      "source_page": "https://rucet.in/ghru-saikheda.php",
+      "download_url": "https://rgicdn.s3.ap-south-1.amazonaws.com/rucet/images/logos/ghrus.webp"
+    },
+    {
+      "key": "g-h-raisoni-university-chhindwara:campus_primary",
+      "file": "media/g-h-raisoni-university-chhindwara/campus-01.webp",
+      "name": "G H Raisoni University, Chhindwara — campus primary",
+      "mime": "image/webp",
+      "bytes": 205022,
+      "sha256": "7b4e05eece036f46a5a46b92f5f1ac3befbb60c5ba7a113678b7c0c2812b93be",
+      "alternativeText": "G H Raisoni University Saikheda academic building",
+      "caption": "G H Raisoni University Saikheda academic building",
+      "source_page": "https://ghru.edu.in/",
+      "download_url": "https://ghrus.s3.ap-south-1.amazonaws.com/ghru/images-new/cdn/campus-ghru.webp"
+    },
+    {
+      "key": "jagan-nath-university-jaipur:logo",
+      "file": "media/jagan-nath-university-jaipur/logo.png",
+      "name": "Jagan Nath University, Jaipur — institution logo",
+      "mime": "image/png",
+      "bytes": 50826,
+      "sha256": "96736e3a0af90a8c457d669cbd8d00cd7427f52cba4bbf3a03c92eb414df8b0b",
+      "alternativeText": "Jagan Nath University Jaipur official wordmark",
+      "caption": "Jagan Nath University Jaipur official wordmark",
+      "source_page": "https://www.jagannathuniversity.org/",
+      "download_url": "https://www.jagannathuniversity.org/assets/images/UNIVERSITY%20NEW%20LOGO.png"
+    },
+    {
+      "key": "jagan-nath-university-jaipur:campus_primary",
+      "file": "media/jagan-nath-university-jaipur/campus-infra-01.webp",
+      "name": "Jagan Nath University, Jaipur — campus primary",
+      "mime": "image/webp",
+      "bytes": 722262,
+      "sha256": "3331d79ce1c03e8990e6284ca357bb5a3bb48dd07a9e47ea4ad7a0a5d582a629",
+      "alternativeText": "Jagan Nath University Jaipur academic building and landscaped approach",
+      "caption": "Jagan Nath University Jaipur academic building and landscaped approach",
+      "source_page": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "download_url": "https://cdn.jagannathuniversity.org/docs/life-at-ju/infra/DSC_0848.webp"
+    },
+    {
+      "key": "jagan-nath-university-jaipur:campus_secondary",
+      "file": "media/jagan-nath-university-jaipur/campus-infra-02.webp",
+      "name": "Jagan Nath University, Jaipur — campus secondary",
+      "mime": "image/webp",
+      "bytes": 913732,
+      "sha256": "446f520b4c879704bce41955895ddb7987a9a72686fae9560593f8897c6877c9",
+      "alternativeText": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+      "caption": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+      "source_page": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "download_url": "https://cdn.jagannathuniversity.org/docs/life-at-ju/infra/DSC_9363.webp"
+    },
+    {
+      "key": "jaipur-national-university:logo",
+      "file": "media/jaipur-national-university/logo.png",
+      "name": "Jaipur National University — institution logo",
+      "mime": "image/png",
+      "bytes": 12152,
+      "sha256": "edf4b8fc5ce534c08a1dfcd1e4e9415e73e0cbe44d16ba88008e4eb4f319d09a",
+      "alternativeText": "Jaipur National University wordmark and crest",
+      "caption": "Jaipur National University wordmark and crest",
+      "source_page": "https://jnujaipur-ac.in/",
+      "download_url": "https://jnujaipur-ac.in/images/jnu-logo.png"
+    },
+    {
+      "key": "jaipur-national-university:campus_primary",
+      "file": "media/jaipur-national-university/campus-01.jpg",
+      "name": "Jaipur National University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 16411,
+      "sha256": "670edd00492906eac31fa5e4c9eebeff279ff68bb795d240e0f23d50e12dde9e",
+      "alternativeText": "Jaipur National University named main building",
+      "caption": "Jaipur National University named main building",
+      "source_page": "https://jnujaipur-ac.in/",
+      "download_url": "https://jnujaipur-ac.in/images/1182imguf_campus-pic1.jpg"
+    },
+    {
+      "key": "chandigarh-university:logo",
+      "file": "media/chandigarh-university/logo.png",
+      "name": "Chandigarh University — institution logo",
+      "mime": "image/png",
+      "bytes": 7942,
+      "sha256": "74b2a6b9b439f85eefb4042649f200cc3ad29baa43543c945800c149448e2903",
+      "alternativeText": "Chandigarh University official wordmark",
+      "caption": "Chandigarh University official wordmark",
+      "source_page": "https://www.cuchd.in/",
+      "download_url": "https://www.cuchd.in/home-assets/img/logo.png"
+    },
+    {
+      "key": "chandigarh-university:campus_primary",
+      "file": "media/chandigarh-university/campus-real-01.jpg",
+      "name": "Chandigarh University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 736206,
+      "sha256": "b1567e4287e866c42d52eed6aeea7a80348d35d0c2e6375d5a869be388e3082b",
+      "alternativeText": "Students sitting on a lawn in front of a Chandigarh University academic building",
+      "caption": "Students sitting on a lawn in front of a Chandigarh University academic building",
+      "source_page": "https://www.cuchd.in/about/",
+      "download_url": "https://www.cuchd.in/about/images/about.jpg"
+    },
+    {
+      "key": "chandigarh-university:campus_secondary",
+      "file": "media/chandigarh-university/campus-real-03.jpg",
+      "name": "Chandigarh University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 948371,
+      "sha256": "30180a778baa834d741b0ae2cac7473978a4db22774d53b1b4f4f47abb5a4d86",
+      "alternativeText": "Student consulting journals in a Chandigarh University library",
+      "caption": "Student consulting journals in a Chandigarh University library",
+      "source_page": "https://www.cuchd.in/about/",
+      "download_url": "https://www.cuchd.in/about/images/about2.jpg"
+    },
+    {
+      "key": "eternal-university:logo",
+      "file": "media/eternal-university/logo.png",
+      "name": "Eternal University — institution logo",
+      "mime": "image/png",
+      "bytes": 223046,
+      "sha256": "3b5cc631ae8026e9ac34ca2ff3bda80033c1187cdbb37c498347fc662b8ed7f7",
+      "alternativeText": "Eternal University official globe and dove mark",
+      "caption": "Eternal University official globe and dove mark",
+      "source_page": "https://eternaluniversity.edu.in/",
+      "download_url": "https://eternaluniversity.edu.in/docs/logoUniversity-One%281%29.png"
+    },
+    {
+      "key": "eternal-university:campus_primary",
+      "file": "media/eternal-university/campus-01.png",
+      "name": "Eternal University — campus primary",
+      "mime": "image/png",
+      "bytes": 783203,
+      "sha256": "f1454f4744c79d20cb6773d237d4d18613af3ef73bdeda49a37c1cb5ef80bc7e",
+      "alternativeText": "Eternal University building at Baru Sahib",
+      "caption": "Eternal University building at Baru Sahib",
+      "source_page": "https://barusahib.org/our-universities/",
+      "download_url": "https://barusahib.org/wp-content/uploads/2026/09/Eternal-University-Building.png"
+    },
+    {
+      "key": "eternal-university:campus_secondary",
+      "file": "media/eternal-university/campus-02.jpg",
+      "name": "Eternal University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 60927,
+      "sha256": "37512ee863a084e2a734ed61f990c4ff9f32820ed6ab3724babf524105eba0d1",
+      "alternativeText": "Health-sciences students reading together in an Eternal University academic setting",
+      "caption": "Health-sciences students reading together in an Eternal University academic setting",
+      "source_page": "https://barusahib.org/our-universities/",
+      "download_url": "https://barusahib.org/wp-content/uploads/2022/10/University-Future-n.jpg"
+    },
+    {
+      "key": "aks-university:logo",
+      "file": "media/aks-university/logo.png",
+      "name": "AKS University — institution logo",
+      "mime": "image/png",
+      "bytes": 17314,
+      "sha256": "a519227fbf549c92adb9171a83038bb65d2e05df257426ba67b520fa8a725ae8",
+      "alternativeText": "AKS University official emblem and Satna wordmark",
+      "caption": "AKS University official emblem and Satna wordmark",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/AKSU-Logo.png"
+    },
+    {
+      "key": "aks-university:campus_primary",
+      "file": "media/aks-university/campus-plain.jpg",
+      "name": "AKS University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 34279,
+      "sha256": "27773d44e6fa8960cbd3296687548da84631c818fbb8c0e4279e0f259f1aacdf",
+      "alternativeText": "AKS University academic block beside a landscaped internal road at Satna",
+      "caption": "AKS University academic block beside a landscaped internal road at Satna",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/2024-04/akseblcock1.jpg"
+    },
+    {
+      "key": "aks-university:campus_secondary",
+      "file": "media/aks-university/campus_primary.jpg",
+      "name": "AKS University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 176339,
+      "sha256": "705feb419bcd610a06c1bf4068c153a5298336542ff3cee37898cac70af20911",
+      "alternativeText": "Official collage of AKS University A Block and entrance at Satna",
+      "caption": "Official collage of AKS University A Block and entrance at Satna",
+      "source_page": "https://www.aksuniversity.ac.in/",
+      "download_url": "https://www.aksuniversity.ac.in/sites/default/files/2024-04/aks_a_block.jpeg"
+    },
+    {
+      "key": "sri-sri-university:logo",
+      "file": "media/sri-sri-university/logo.png",
+      "name": "Sri Sri University — institution logo",
+      "mime": "image/png",
+      "bytes": 226385,
+      "sha256": "57f430793fca2345f537a265b5040f38f48e4389536b22affa766b9b817d7dd3",
+      "alternativeText": "Sri Sri University emblem and wordmark",
+      "caption": "Sri Sri University emblem and wordmark",
+      "source_page": "https://srisriuniversity.edu.in/",
+      "download_url": "https://srisriuniversity.edu.in/wp-content/uploads/2020/11/Untitled-design-min.png"
+    },
+    {
+      "key": "sri-sri-university:card_logo",
+      "file": "media/sri-sri-university/card_logo.png",
+      "name": "Sri Sri University — card logo",
+      "mime": "image/png",
+      "bytes": 21636,
+      "sha256": "495c292929ce18994a30f672e0fd912ebbf43a8c07adb6c173d643acedf2d78e",
+      "alternativeText": "Sri Sri University round tree emblem",
+      "caption": "Sri Sri University round tree emblem",
+      "source_page": "https://srisriuniversity.edu.in/",
+      "download_url": "https://srisriuniversity.edu.in/wp-content/uploads/2020/11/sri-logo.png"
+    },
+    {
+      "key": "sri-sri-university:campus_primary",
+      "file": "media/sri-sri-university/campus-01.jpg",
+      "name": "Sri Sri University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 114818,
+      "sha256": "860ffa4ef5d159511c7405d42d2d061449bf4971b4ac33ecc31825c6f83bd7ad",
+      "alternativeText": "Sri Sri University academic building and courtyard with SSU letters at Cuttack",
+      "caption": "Sri Sri University academic building and courtyard with SSU letters at Cuttack",
+      "source_page": "https://srisriuniversity.edu.in/campus-facilities/",
+      "download_url": "https://srisriuniversity.edu.in/wp-content/uploads/2021/03/Campus-Facilties-1.jpg"
+    },
+    {
+      "key": "sri-sri-university:campus_secondary",
+      "file": "media/sri-sri-university/campus-02.jpg",
+      "name": "Sri Sri University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 1386178,
+      "sha256": "6d5e47bb6e4ec2b93aa8d70a951faf5abb7e6f5ce940002c3c777cc135f25ba4",
+      "alternativeText": "Student browsing shelves in the Sri Sri University library at Cuttack",
+      "caption": "Student browsing shelves in the Sri Sri University library at Cuttack",
+      "source_page": "https://srisriuniversity.edu.in/campus-facilities/",
+      "download_url": "https://srisriuniversity.edu.in/wp-content/uploads/2021/04/Library-scaled.jpg"
+    },
+    {
+      "key": "janardan-rai-nagar-rajasthan-vidyapeeth:logo",
+      "file": "media/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 5085,
+      "sha256": "256d35d4f166ac54f9857813eb93c8d94cbe565f3727aabc3dd82aede277acd1",
+      "alternativeText": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+      "caption": "Janardan Rai Nagar Rajasthan Vidyapeeth institutional seal shown on its Careers360 profile",
+      "source_page": "https://www.careers360.com/university/janardan-rai-nagar-rajasthan-vidyapeeth-udaipur",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/329/2022/3/16/Untitled.png"
+    },
+    {
+      "key": "janardan-rai-nagar-rajasthan-vidyapeeth:campus_primary",
+      "file": "media/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 96603,
+      "sha256": "fb0783a4e4ac7c2300a9e4e2c15f3d9b2a588c0de8896f57f7488dd8bb336a22",
+      "alternativeText": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+      "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+      "source_page": "https://theacademicinsights.com/jrn-rajasthan-vidyapeeth-a-hub-of-relentless-educational-service/",
+      "download_url": "https://theacademicinsights.com/wp-content/uploads/2022/01/JRN-Rajasthan-Vidyapeeth-Udaipur.jpg"
+    },
+    {
+      "key": "sanskriti-university:logo",
+      "file": "media/sanskriti-university/logo.png",
+      "name": "Sanskriti University — institution logo",
+      "mime": "image/png",
+      "bytes": 129998,
+      "sha256": "8c514a2c58c957e14c38fc03a98fc9b853076dffbcc3aced5015167924bce900",
+      "alternativeText": "Sanskriti University blue and gold temple emblem and wordmark",
+      "caption": "Sanskriti University blue and gold temple emblem and wordmark",
+      "source_page": "https://mtech.collegevidya.in/",
+      "download_url": "https://mtech.collegevidya.in/images/sanskriti.png"
+    },
+    {
+      "key": "sanskriti-university:campus_primary",
+      "file": "media/sanskriti-university/campus-01.jpg",
+      "name": "Sanskriti University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 66302,
+      "sha256": "4543ee9583c11c619a55ca71e4a1a3acf9a81d4f797ee9ced70b8b4a4b7ff641",
+      "alternativeText": "Sanskriti University domed entrance facade with university lettering at Mathura",
+      "caption": "Sanskriti University domed entrance facade with university lettering at Mathura",
+      "source_page": "https://www.getmyuni.com/college/sanskriti-university-mathura",
+      "download_url": "https://media.getmyuni.com/azure/college-images-test/sanskriti-university-mathura/exterior-images-aeef5e411b83308d8512e32c56a8932f.jpg"
+    },
+    {
+      "key": "vivekananda-global-university:logo",
+      "file": "media/vivekananda-global-university/logo.png",
+      "name": "Vivekananda Global University — institution logo",
+      "mime": "image/png",
+      "bytes": 100996,
+      "sha256": "98cbd84db979c9854c2b67e942e9d8e4d0cb9fbdb377a65220efdd0b73ab67a1",
+      "alternativeText": "Vivekananda Global University emblem and VGU wordmark",
+      "caption": "Vivekananda Global University emblem and VGU wordmark",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/vgu-logo-n.png"
+    },
+    {
+      "key": "vivekananda-global-university:campus_primary",
+      "file": "media/vivekananda-global-university/campus_primary.webp",
+      "name": "Vivekananda Global University — campus primary",
+      "mime": "image/webp",
+      "bytes": 293368,
+      "sha256": "838273fe244bc93e2939df9f2effe3585158761add96f3712ce7796085543354",
+      "alternativeText": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+      "caption": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/faculty/faq/faq1(2).webp"
+    },
+    {
+      "key": "vivekananda-global-university:campus_secondary",
+      "file": "media/vivekananda-global-university/campus_secondary.webp",
+      "name": "Vivekananda Global University — campus secondary",
+      "mime": "image/webp",
+      "bytes": 99596,
+      "sha256": "383527bf030ea1c9a01380e8336d01e305f488c8bd36a747d42f3abab3a465f0",
+      "alternativeText": "VGU students reviewing papers outside a Jaipur campus building",
+      "caption": "VGU students reviewing papers outside a Jaipur campus building",
+      "source_page": "https://vgu.ac.in/",
+      "download_url": "https://vgu.ac.in/assets/images/faculty/faq/faq1(1).webp"
+    },
+    {
+      "key": "sgt-university:logo",
+      "file": "media/sgt-university/logo.jpg",
+      "name": "SGT University — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 4623,
+      "sha256": "81f4589f01e590c648d3275cf5ab2f9339ca13d94d4e5243ff7bf9d903409d48",
+      "alternativeText": "Shree Guru Gobind Singh Tricentenary University circular blue institutional seal",
+      "caption": "Shree Guru Gobind Singh Tricentenary University circular blue institutional seal",
+      "source_page": "https://www.careers360.com/university/shree-guru-gobind-singh-tricentenary-university-gurgaon",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/1230/2018/5/15/SGT-University-Gurgaon-logo.png"
+    },
+    {
+      "key": "sgt-university:campus_primary",
+      "file": "media/sgt-university/campus-05.webp",
+      "name": "SGT University — campus primary",
+      "mime": "image/webp",
+      "bytes": 44772,
+      "sha256": "bf2a6815c79e81662571aafc9fc788104bbb9e89a92ec2aed2b5afccb2586037",
+      "alternativeText": "SGT University main academic building and courtyard fountain at Gurugram",
+      "caption": "SGT University main academic building and courtyard fountain at Gurugram",
+      "source_page": "https://www.collegesimplified.in/college-details/sgt-university-gurugram",
+      "download_url": "https://static.wixstatic.com/media/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp/v1/fill/w_1200%2Ch_628%2Cq_90%2Cenc_avif%2Cquality_auto/46ae6b_1758b06ac0a74a799bc53a4d0286d23f~mv2.webp"
+    },
+    {
+      "key": "bhupal-nobles-university:logo",
+      "file": "media/bhupal-nobles-university/logo.png",
+      "name": "Bhupal Nobles' University — institution logo",
+      "mime": "image/png",
+      "bytes": 65146,
+      "sha256": "0597c853f3f2575e5a491fcfb167e728f5f98af1c23dbd66026a4a2a25bbb14e",
+      "alternativeText": "Bhupal Nobles University Udaipur decorative institutional emblem",
+      "caption": "Bhupal Nobles University Udaipur decorative institutional emblem",
+      "source_page": "https://bnuniversity.ac.in/home",
+      "download_url": "https://bnuniversity.ac.in/images/bhupal-nobles-university-logo.png"
+    },
+    {
+      "key": "bhupal-nobles-university:campus_primary",
+      "file": "media/bhupal-nobles-university/campus-01.jpg",
+      "name": "Bhupal Nobles' University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 217473,
+      "sha256": "8f247179ae0d2f81959adf09809d674dbc125531a27a812d5bd161d53ffa6e42",
+      "alternativeText": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+      "caption": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+      "source_page": "https://bnuniversity.ac.in/home",
+      "download_url": "https://bnuniversity.ac.in/images/slider-01.jpg"
+    },
+    {
+      "key": "karunya-institute-of-technology-and-sciences:logo",
+      "file": "media/karunya-institute-of-technology-and-sciences/logo.png",
+      "name": "Karunya Institute of Technology and Sciences — institution logo",
+      "mime": "image/png",
+      "bytes": 211696,
+      "sha256": "9bd4b7ce44a415f84700eabc9a929d742fc1b6125121ed5dbe8200ba5341660d",
+      "alternativeText": "Karunya Institute of Technology and Sciences profile, torch and gear emblem with wordmark",
+      "caption": "Karunya Institute of Technology and Sciences profile, torch and gear emblem with wordmark",
+      "source_page": "https://mybharat.gov.in/KnowledgeInstitutions/university/30/karunya-institute-of-technology-and-sciences-coimbatore",
+      "download_url": "https://cdn-prod.mybharats.in/organization/DL-ns-8ef95a1c-fb77-48ef-9a39-ae6a8c98581a_KITSLHLOGO.png"
+    },
+    {
+      "key": "karunya-institute-of-technology-and-sciences:campus_primary",
+      "file": "media/karunya-institute-of-technology-and-sciences/campus-02.jpg",
+      "name": "Karunya Institute of Technology and Sciences — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 53626,
+      "sha256": "8da90d809174ab0f5351ba13fc45445cdf758f8b3b364843d86e6cfe3652b967",
+      "alternativeText": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+      "caption": "Aerial view of Karunya academic buildings around landscaped campus grounds in Coimbatore",
+      "source_page": "https://theknowledgereview.com/karunya-institute-technology-sciences-towards-excellence-agricultural-research-education-nation/",
+      "download_url": "https://theknowledgereview.com/wp-content/uploads/2018/10/Web_ImageKarunya_Institute_of_Technology_and_Sciences.jpg"
+    },
+    {
+      "key": "suresh-gyan-vihar-university:logo",
+      "file": "media/suresh-gyan-vihar-university/logo.svg",
+      "name": "Suresh Gyan Vihar University — institution logo",
+      "mime": "image/svg+xml",
+      "bytes": 302339,
+      "sha256": "e5906050096443559cd7575300561bcb4b7cfec033b9cf001f58d94563a58bf7",
+      "alternativeText": "Suresh Gyan Vihar University official wordmark",
+      "caption": "Suresh Gyan Vihar University official wordmark",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://www.gyanvihar.org/logo.svg"
+    },
+    {
+      "key": "suresh-gyan-vihar-university:campus_primary",
+      "file": "media/suresh-gyan-vihar-university/campus_primary.webp",
+      "name": "Suresh Gyan Vihar University — campus primary",
+      "mime": "image/webp",
+      "bytes": 28538,
+      "sha256": "14156a002fd756970576f8b512f89f4c7624fa0550ac9c763d2af9a5fca223b2",
+      "alternativeText": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+      "caption": "Gyan Vihar academic building and landscaped plaza at Jaipur",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://cms.gyanvihar.org/uploads/campus_01_bb7a3d1599.webp"
+    },
+    {
+      "key": "suresh-gyan-vihar-university:campus_secondary",
+      "file": "media/suresh-gyan-vihar-university/campus_secondary.webp",
+      "name": "Suresh Gyan Vihar University — campus secondary",
+      "mime": "image/webp",
+      "bytes": 1452816,
+      "sha256": "f6bea51380332d014903ac71e03140a4f503d4d87054ad52c2e25f2de1b48a28",
+      "alternativeText": "Interior of the Gyan Vihar campus cafeteria at Jaipur",
+      "caption": "Interior of the Gyan Vihar campus cafeteria at Jaipur",
+      "source_page": "https://www.gyanvihar.org/",
+      "download_url": "https://cms.gyanvihar.org/uploads/campus_02_4b32bedfd4.webp"
+    },
+    {
+      "key": "gd-goenka-university:logo",
+      "file": "media/gd-goenka-university/logo.svg",
+      "name": "GD Goenka University — institution logo",
+      "mime": "image/svg+xml",
+      "bytes": 103701,
+      "sha256": "0876eb4eeb559a38d584b000d9dc6115487a67fb21ec934162dc0b30cd207feb",
+      "alternativeText": "GD Goenka University official wordmark and NAAC A plus brand strip",
+      "caption": "GD Goenka University official wordmark and NAAC A plus brand strip",
+      "source_page": "https://www.gdgoenkauniversity.com/",
+      "download_url": "https://www.gdgoenkauniversity.com/siteassets/images/gd-goenka-img/home-logo.svg"
+    },
+    {
+      "key": "gd-goenka-university:campus_primary",
+      "file": "media/gd-goenka-university/campus-02.webp",
+      "name": "GD Goenka University — campus primary",
+      "mime": "image/webp",
+      "bytes": 106822,
+      "sha256": "00b7d7ce2714ff4e50d37d76111a43eed0f3a759bd1456d32fbcff1e94f8dbb6",
+      "alternativeText": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+      "caption": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+      "source_page": "https://www.gdgoenkauniversity.com/about-us/about-gd-goenka-university",
+      "download_url": "https://www.gdgoenkauniversity.com/siteassets/images/state_art1.webp"
+    },
+    {
+      "key": "shri-guru-ram-rai-university:logo",
+      "file": "media/shri-guru-ram-rai-university/logo.png",
+      "name": "Shri Guru Ram Rai University — institution logo",
+      "mime": "image/png",
+      "bytes": 13751,
+      "sha256": "affc7a4d8ef3b9bdea17d464c03d6f6f32d5702d23a95879454b1482eb3ce99e",
+      "alternativeText": "Shri Guru Ram Rai University red emblem and SGRRU wordmark",
+      "caption": "Shri Guru Ram Rai University official red emblem and SGRRU wordmark",
+      "source_page": "https://www.sgrru.ac.in/",
+      "download_url": "https://www.sgrru.ac.in/assets/logo.png"
+    },
+    {
+      "key": "shri-guru-ram-rai-university:campus_primary",
+      "file": "media/shri-guru-ram-rai-university/campus-01.jpg",
+      "name": "Shri Guru Ram Rai University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 197002,
+      "sha256": "6d9ceb556b19a4959ef0d57fb85961438ef934ebe2c49e7e3a10d8031056e9f9",
+      "alternativeText": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+      "caption": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+      "source_page": "https://collegeforum.in/sgrrits-dehradun",
+      "download_url": "https://collegeforum.in/apis/assets/uploads/collegePhotoGallery/collegephotogallery-1765800475726.jpg"
+    },
+    {
+      "key": "vellore-institute-of-technology:logo",
+      "file": "media/vellore-institute-of-technology/logo-colour.webp",
+      "name": "Vellore Institute of Technology — institution logo",
+      "mime": "image/webp",
+      "bytes": 9152,
+      "sha256": "1168602dd622c75c0814e5b8d4eaf4c4deb018f77892ffaaac1bc93c4c2b1709",
+      "alternativeText": "Vellore Institute of Technology blue circular university seal",
+      "caption": "Vellore Institute of Technology official blue circular university seal",
+      "source_page": "https://vit.ac.in/",
+      "download_url": "https://vit.ac.in/wp-content/uploads/2023/06/images.webp"
+    },
+    {
+      "key": "vellore-institute-of-technology:campus_primary",
+      "file": "media/vellore-institute-of-technology/campus-01.webp",
+      "name": "Vellore Institute of Technology — campus primary",
+      "mime": "image/webp",
+      "bytes": 437076,
+      "sha256": "01466efc5a52d7159689769177b9d63fd09a71fd27fd564d5226c632762a56d7",
+      "alternativeText": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+      "caption": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+      "source_page": "https://vit.ac.in/about/infrastructure",
+      "download_url": "https://vit.ac.in/wp-content/uploads/2023/08/infra_image1.webp"
+    },
+    {
+      "key": "srm-institute-of-science-and-technology:logo",
+      "file": "media/srm-institute-of-science-and-technology/logo.png",
+      "name": "SRM Institute of Science and Technology — institution logo",
+      "mime": "image/png",
+      "bytes": 113377,
+      "sha256": "0b5f2bca86ad4bae2a26bb84491c8fe4a5f702b5ba2b081c971e6263f7196741",
+      "alternativeText": "SRM Institute of Science and Technology official tree emblem and wordmark",
+      "caption": "SRM Institute of Science and Technology official tree emblem and wordmark",
+      "source_page": "https://dld.srmist.edu.in/ktrshelab2024/",
+      "download_url": "https://dld.srmist.edu.in/ktrshelab2024/static/media/SRM-KTR.eb873de9.png"
+    },
+    {
+      "key": "srm-institute-of-science-and-technology:campus_primary",
+      "file": "media/srm-institute-of-science-and-technology/campus-02.webp",
+      "name": "SRM Institute of Science and Technology — campus primary",
+      "mime": "image/webp",
+      "bytes": 87630,
+      "sha256": "b59cca06b74cd7c50d161a15be9a517de3784c5224cdcd0f852ee9436e71f256",
+      "alternativeText": "SRM Institute of Science and Technology academic building with blue arched windows at Kattankulathur",
+      "caption": "SRM Institute of Science and Technology academic building with blue arched windows at Kattankulathur",
+      "source_page": "https://www.igauge.in/institution/universities/srm-institute-of-science-and-technology-kattankulathur",
+      "download_url": "https://qs-igauge.blr1.cdn.digitaloceanspaces.com/1040262-srm.webp"
+    },
+    {
+      "key": "rabindranath-tagore-university:logo",
+      "file": "media/rabindranath-tagore-university/logo.png",
+      "name": "Rabindranath Tagore University — institution logo",
+      "mime": "image/png",
+      "bytes": 10544,
+      "sha256": "139414be74653bc55000663e3ab18078838a4fe539f8705b8fd7e0956786f685",
+      "alternativeText": "Rabindranath Tagore University RNTU wordmark and portrait brand strip",
+      "caption": "Rabindranath Tagore University RNTU wordmark and portrait brand strip",
+      "source_page": "https://rntu.ac.in/",
+      "download_url": "https://rntu.ac.in/public/uploads/images/logo.png"
+    },
+    {
+      "key": "rabindranath-tagore-university:campus_primary",
+      "file": "media/rabindranath-tagore-university/campus-02.jpg",
+      "name": "Rabindranath Tagore University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 3425511,
+      "sha256": "1713ba461b1f9930797ec1a6826d47074ebd8af20adfca461edeb42a7171044f",
+      "alternativeText": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+      "caption": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+      "source_page": "https://rntu.ac.in/campuslife/AU_Campus",
+      "download_url": "https://rntu.ac.in/admin/public/uploads/images/medias/download7.jpg"
+    },
+    {
+      "key": "giet-university:logo",
+      "file": "media/giet-university/logo.png",
+      "name": "GIET University — institution logo",
+      "mime": "image/png",
+      "bytes": 14965,
+      "sha256": "78280ee8bb4e33b516abe5c45aa63590557fc273b39276fcf53c26475289d4e9",
+      "alternativeText": "GIET University Gunupur institutional seal and wordmark",
+      "caption": "GIET University Gunupur institutional seal and wordmark",
+      "source_page": "https://www.giet.edu/",
+      "download_url": "https://www.giet.edu/wp-content/uploads/2020/12/logo-2021-optimi.png"
+    },
+    {
+      "key": "giet-university:campus_primary",
+      "file": "media/giet-university/campus_primary.jpg",
+      "name": "GIET University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 264460,
+      "sha256": "f49130bc3c2c7f0addfb445b625e5f8836f72342898725f87bca345d0ed71271",
+      "alternativeText": "GIET University white academic building and landscaped gardens at Gunupur",
+      "caption": "GIET University white academic building and landscaped gardens at Gunupur",
+      "source_page": "https://www.giet.edu/",
+      "download_url": "https://www.giet.edu/wp-content/uploads/2020/06/parallax-about-back-opt.jpg"
+    },
+    {
+      "key": "giet-university:campus_secondary",
+      "file": "media/giet-university/campus_secondary.jpg",
+      "name": "GIET University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 114825,
+      "sha256": "c9a0b3f271dc5daa905bc620ca9a5a138379a1b762aebffd9354e992b1897719",
+      "alternativeText": "GIET University hostel buildings lining a campus walkway at Gunupur",
+      "caption": "GIET University hostel buildings lining a campus walkway at Gunupur",
+      "source_page": "https://www.giet.edu/",
+      "download_url": "https://www.giet.edu/wp-content/uploads/2019/08/accomodation-building.jpg"
+    },
+    {
+      "key": "rnt-college-of-agriculture:logo",
+      "file": "media/rnt-college-of-agriculture/logo.jpg",
+      "name": "RNT College of Agriculture — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 4272,
+      "sha256": "75eb1f57b3dc3a79114c2dbed9c146de51e7a3376aacb20d2f4483dda3f43e54",
+      "alternativeText": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+      "caption": "RNT Group of Colleges Kapasan emblem used for the RNT College of Agriculture profile",
+      "source_page": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/53474/2023/2/13/Logo%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Logo.png"
+    },
+    {
+      "key": "rnt-college-of-agriculture:campus_primary",
+      "file": "media/rnt-college-of-agriculture/campus-01.jpg",
+      "name": "RNT College of Agriculture — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 46036,
+      "sha256": "673adcce98258fbfb9c03baeeb34f44d5c77af09fd45d8d0834cb8925a7859d7",
+      "alternativeText": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+      "caption": "Yellow crenellated entrance gateway of RNT College of Agriculture at Kapasan",
+      "source_page": "https://www.careers360.com/colleges/rnt-college-of-agriculture-kapasan",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/53474/2025/10/24/Campus%20Entrans%20View%20of%20RNT%20College%20of%20Agriculture%20Kapasan_Campus-View.jpg"
+    },
+    {
+      "key": "amrita-vishwa-vidyapeetham:logo",
+      "file": "media/amrita-vishwa-vidyapeetham/logo.svg",
+      "name": "Amrita Vishwa Vidyapeetham — institution logo",
+      "mime": "image/svg+xml",
+      "bytes": 53586,
+      "sha256": "4f128ef6e8cd36efc77117a5943b618e8508e7e31a49b56d875a3c8ba1a04ca2",
+      "alternativeText": "Amrita Vishwa Vidyapeetham official emblem and wordmark",
+      "caption": "Amrita Vishwa Vidyapeetham official emblem and wordmark",
+      "source_page": "https://www.amrita.edu/",
+      "download_url": "https://webfiles.amrita.edu/2026/02/amrita-red-logo-new.svg"
+    },
+    {
+      "key": "amrita-vishwa-vidyapeetham:campus_primary",
+      "file": "media/amrita-vishwa-vidyapeetham/campus-03.jpg",
+      "name": "Amrita Vishwa Vidyapeetham — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 158963,
+      "sha256": "99926e9488e76ac3fdc5b4dcda42286bcad182c956cc38fb894ec37c8d371cfd",
+      "alternativeText": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+      "caption": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+      "source_page": "https://www.amrita.edu/school/agriculture/",
+      "download_url": "https://webfiles.amrita.edu/2019/06/4fW7dnkf-Banner-1384-agri-college-e1609590035197.jpg"
+    },
+    {
+      "key": "amrita-vishwa-vidyapeetham:campus_secondary",
+      "file": "media/amrita-vishwa-vidyapeetham/campus-02.jpg",
+      "name": "Amrita Vishwa Vidyapeetham — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 636821,
+      "sha256": "cf87153627a9c8b3acce8a66e0134a4b8e82231af3065a573cf34c7e8aadd131",
+      "alternativeText": "Amrita agriculture students inspecting vegetable crops during field practical learning",
+      "caption": "Amrita agriculture students inspecting vegetable crops during field practical learning",
+      "source_page": "https://www.amrita.edu/school/agriculture/",
+      "download_url": "https://webfiles.amrita.edu/2019/06/xAtxfSyK-Banner-1384-cbt-agri.jpg"
+    },
+    {
+      "key": "tantia-university:logo",
+      "file": "media/tantia-university/logo.jpg",
+      "name": "Tantia University — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 211005,
+      "sha256": "5d25741a982597115d05b88ad6c8ce8debf9e8f97bf328138a7ed9c820a27dec",
+      "alternativeText": "Tantia University Sri Ganganagar torch, microscope and open-book emblem",
+      "caption": "Tantia University Sri Ganganagar torch, microscope and open-book emblem",
+      "source_page": "https://www.campusoption.com/college/tantia-university",
+      "download_url": "https://www.campusoption.com/images/colleges/logos/08_08_19_072805_tantia-university.jpg"
+    },
+    {
+      "key": "tantia-university:campus_primary",
+      "file": "media/tantia-university/campus-04.webp",
+      "name": "Tantia University — campus primary",
+      "mime": "image/webp",
+      "bytes": 71216,
+      "sha256": "94a70539fd8890af63cd3d251450d7d9330d224ca11a75e49c9739df3d3b2441",
+      "alternativeText": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+      "caption": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+      "source_page": "https://www.collegesearch.in/university/tantia-university",
+      "download_url": "https://d13loartjoc1yn.cloudfront.net/upload/institute/images/large/230509040954_Tantia_University_campus.webp"
+    },
+    {
+      "key": "tantia-university:campus_secondary",
+      "file": "media/tantia-university/campus-05.jpg",
+      "name": "Tantia University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 31946,
+      "sha256": "1d99df3e26df2274c94334ca330deccf41e60f0d16e59b12b1e98e1b999a649c",
+      "alternativeText": "Tantia University red and cream academic buildings and landscaped grounds at Sri Ganganagar",
+      "caption": "Tantia University red and cream academic buildings and landscaped grounds at Sri Ganganagar",
+      "source_page": "https://psychoprodigy.in/TantiaUniversity",
+      "download_url": "https://psychoprodigy.in/sites/default/files/inline-images/images%20%2815%29_1.jpeg"
+    },
+    {
+      "key": "raffles-university:logo",
+      "file": "media/raffles-university/logo.png",
+      "name": "Raffles University — institution logo",
+      "mime": "image/png",
+      "bytes": 32920,
+      "sha256": "d9abd6e18d2c3d403f042e9d6e3b6c8255b9ccfc40e0d0927dd149157566141d",
+      "alternativeText": "Raffles University shield emblem and wordmark",
+      "caption": "Raffles University shield emblem and wordmark",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/logo1.png"
+    },
+    {
+      "key": "raffles-university:campus_primary",
+      "file": "media/raffles-university/campus_primary.png",
+      "name": "Raffles University — campus primary",
+      "mime": "image/png",
+      "bytes": 1814446,
+      "sha256": "e5deee7a55bc495d9698df0d9c5ab1b67c9f14a0982d5081227a1133d21f6412",
+      "alternativeText": "Raffles University entrance gate, academic blocks and circular landscaped campus at Neemrana",
+      "caption": "Raffles University entrance gate, academic blocks and circular landscaped campus at Neemrana",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/2025/campus_img.png"
+    },
+    {
+      "key": "raffles-university:campus_secondary",
+      "file": "media/raffles-university/campus_secondary.png",
+      "name": "Raffles University — campus secondary",
+      "mime": "image/png",
+      "bytes": 3532539,
+      "sha256": "9f0e53390360d1fa6d12e4c1b146e08214e31fb984b23264b8d55fd1d7734224",
+      "alternativeText": "Elevated view of Raffles University Neemrana entrance gate, campus roads and academic blocks",
+      "caption": "Elevated view of Raffles University Neemrana entrance gate, campus roads and academic blocks",
+      "source_page": "https://rafflesuniversity.edu.in/",
+      "download_url": "https://rafflesuniversity.edu.in/images/2025/campus_img02.png"
+    },
+    {
+      "key": "maharishi-markandeshwar-mullana:logo",
+      "file": "media/maharishi-markandeshwar-mullana/logo.jpg",
+      "name": "Maharishi Markandeshwar (Deemed to be University), Mullana — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 4171,
+      "sha256": "8c03f454ef35752db285396255b59c97528fbf53ee9af8aaa4bdb5101f7d52c4",
+      "alternativeText": "Maharishi Markandeshwar Mullana institutional emblem",
+      "caption": "Maharishi Markandeshwar Mullana institutional emblem",
+      "source_page": "https://www.careers360.com/university/maharishi-markandeshwar-deemed-be-university-mullana",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/466/2018/5/5/Maharishi-Markandeshwar-University-Mullana.jpg"
+    },
+    {
+      "key": "maharishi-markandeshwar-mullana:campus_primary",
+      "file": "media/maharishi-markandeshwar-mullana/campus-01.jpg",
+      "name": "Maharishi Markandeshwar (Deemed to be University), Mullana — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 753490,
+      "sha256": "5edafe492db4823183a0d2edf7d4b752ea9701053f921d2cad69aa8b5f875e3e",
+      "alternativeText": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+      "caption": "Maharishi Markandeshwar Deemed to be University entrance gate and landscaped approach at Mullana",
+      "source_page": "https://www.mmumullana.org/photo-gallery/",
+      "download_url": "https://i0.wp.com/www.mmumullana.org/wp-content/uploads/2024/03/IMG_5534-3-scaled.jpg?fit=2048%2C2560&ssl=1"
+    },
+    {
+      "key": "the-neotia-university:campus_primary",
+      "file": "media/the-neotia-university/campus-01.webp",
+      "name": "The Neotia University — campus primary",
+      "mime": "image/webp",
+      "bytes": 10730,
+      "sha256": "2ba4fe4bd0b8bc419cd07393fcb40968e3b3547c723134a9ba4a04a80714f2fb",
+      "alternativeText": "Teaching ship and surroundings on the Sarisa campus",
+      "caption": "Teaching ship and surroundings on the Sarisa campus",
+      "source_page": "https://www.tnu.in/",
+      "download_url": "https://www.tnu.in/wp-content/uploads/2025/07/campus-photo-ship-in-campus.webp"
+    },
+    {
+      "key": "the-neotia-university:campus_secondary",
+      "file": "media/the-neotia-university/campus-02.webp",
+      "name": "The Neotia University — campus secondary",
+      "mime": "image/webp",
+      "bytes": 16558,
+      "sha256": "adaa034ba9404d6f0caff16cbc9e0b1a831ff3ec7b0cd345d72e92572cd52cb5",
+      "alternativeText": "Cricket ground at The Neotia University campus",
+      "caption": "Cricket ground at The Neotia University campus",
+      "source_page": "https://www.tnu.in/",
+      "download_url": "https://www.tnu.in/wp-content/uploads/2025/07/campus-photo-cricket.webp"
+    },
+    {
+      "key": "the-neotia-university:logo",
+      "file": "media/the-neotia-university/logo-verified.png",
+      "name": "The Neotia University — institution logo",
+      "mime": "image/png",
+      "bytes": 5495,
+      "sha256": "cd05ae46165b9b75a3118c24037ce3c5db11901824346a6ea0be474dab9464d9",
+      "alternativeText": "The Neotia University official emblem and wordmark",
+      "caption": "The Neotia University official emblem and wordmark",
+      "source_page": "https://www.tnu.in/",
+      "download_url": "https://www.tnu.in/wp-content/uploads/2025/07/TNU-Logo-Last-01-e1765342189306.png"
+    },
+    {
+      "key": "centurion-university-of-technology-and-management:logo",
+      "file": "media/centurion-university-of-technology-and-management/logo-verified.png",
+      "name": "Centurion University of Technology and Management, Odisha — institution logo",
+      "mime": "image/png",
+      "bytes": 411017,
+      "sha256": "ed82abb1e1b8135905bff76a7a3971090e3172e0f8da708789651e29f600853e",
+      "alternativeText": "Centurion University official emblem and wordmark",
+      "caption": "Centurion University official emblem and wordmark",
+      "source_page": "https://scopes.cutm.ac.in/",
+      "download_url": "https://scopes.cutm.ac.in/assets/cutm_logo.png"
+    },
+    {
+      "key": "centurion-university-of-technology-and-management:campus_primary",
+      "file": "media/centurion-university-of-technology-and-management/campus_primary-verified.jpg",
+      "name": "Centurion University of Technology and Management, Odisha — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 707514,
+      "sha256": "a541a435904d6e37f750ebd4203193d2ba869a5ec8c3e68282f48e271b1b2275",
+      "alternativeText": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+      "caption": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+      "source_page": "https://www.kollegeapply.com/college/centurion-university-of-technology-and-management-paralakhemundi-bhubaneswar-gallery",
+      "download_url": "https://assets.kollegeapply.com/images/1751561909957-1731922041phpAAhUFA.jpeg"
+    },
+    {
+      "key": "lovely-professional-university:logo",
+      "file": "media/lovely-professional-university/logo.svg",
+      "name": "Lovely Professional University — institution logo",
+      "mime": "image/svg+xml",
+      "bytes": 1743294,
+      "sha256": "e64d961dd1b1372a20c3e8cb4c4501b1d7fa3db3f46a20a093be27a81dd1c000",
+      "alternativeText": "Lovely Professional University official mark",
+      "caption": "Lovely Professional University official mark",
+      "source_page": "https://www.lpu.in/",
+      "download_url": "https://www.lpu.in/images/logo/lpu-logo.svg"
+    },
+    {
+      "key": "lovely-professional-university:campus_primary",
+      "file": "media/lovely-professional-university/campus-01.jpg",
+      "name": "Lovely Professional University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 155815,
+      "sha256": "c8c094280ed284dece6af8c4c4d95cf9cd90732656e2574982112b7bf194743d",
+      "alternativeText": "Panoramic campus view at Lovely Professional University, Phagwara",
+      "caption": "Panoramic campus view at Lovely Professional University, Phagwara",
+      "source_page": "https://www.lpu.in/",
+      "download_url": "https://www.lpu.in/_next/image?url=%2Fimages%2Fhomepage%2Fcampus-experience%2F360degree-view.webp&w=1920&q=75"
+    },
+    {
+      "key": "kalasalingam-academy-of-research-and-education:logo",
+      "file": "media/kalasalingam-academy-of-research-and-education/logo.png",
+      "name": "Kalasalingam Academy of Research and Education — institution logo",
+      "mime": "image/png",
+      "bytes": 2048564,
+      "sha256": "6345dc3f3ac6b7fccee9beadbc55d2ca91293056f2a2203cda64b2a6fae96dcb",
+      "alternativeText": "Kalasalingam Academy of Research and Education official mark",
+      "caption": "Kalasalingam Academy of Research and Education official mark",
+      "source_page": "https://www.kalasalingam.ac.in/",
+      "download_url": "https://www.kalasalingam.ac.in/wp-content/uploads/2022/02/Logo.png"
+    },
+    {
+      "key": "kalasalingam-academy-of-research-and-education:campus_primary",
+      "file": "media/kalasalingam-academy-of-research-and-education/campus-01.jpg",
+      "name": "Kalasalingam Academy of Research and Education — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 710391,
+      "sha256": "6cbc50d88446e4e4ceaafea16e70f8629a89c64cc530457aa7c65898f606ffd9",
+      "alternativeText": "Academic building at Kalasalingam in Krishnankoil",
+      "caption": "Academic building at Kalasalingam in Krishnankoil",
+      "source_page": "https://www.kalasalingam.ac.in/",
+      "download_url": "https://www.kalasalingam.ac.in/wp-content/uploads/2021/08/building-19-scaled.jpg"
+    },
+    {
+      "key": "kalasalingam-academy-of-research-and-education:campus_secondary",
+      "file": "media/kalasalingam-academy-of-research-and-education/campus-02.jpg",
+      "name": "Kalasalingam Academy of Research and Education — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 32284,
+      "sha256": "69715648078f3e878f360b9001141de7c02bf7a1aaee3cd2f62a5f3eaf3c1256",
+      "alternativeText": "Biotechnology laboratory at Kalasalingam",
+      "caption": "Biotechnology laboratory at Kalasalingam",
+      "source_page": "https://www.kalasalingam.ac.in/",
+      "download_url": "https://www.kalasalingam.ac.in/wp-content/uploads/2021/08/biotech-lab-5.jpg"
+    },
+    {
+      "key": "integral-university:logo",
+      "file": "media/integral-university/logo-verified.png",
+      "name": "Integral University, Lucknow — institution logo",
+      "mime": "image/png",
+      "bytes": 107229,
+      "sha256": "9bfd81e6c02c4b362cab1871b7b2b33e5fd61f66db762564b68c495c435f2861",
+      "alternativeText": "Integral University Lucknow official wordmark",
+      "caption": "Integral University Lucknow official wordmark",
+      "source_page": "https://www.iul.ac.in/Default.aspx",
+      "download_url": "https://www.iul.ac.in/img/IntegralUniversityLogo.png?v=114122&format=webp"
+    },
+    {
+      "key": "integral-university:card_logo",
+      "file": "media/integral-university/card_logo-verified.png",
+      "name": "Integral University, Lucknow — card logo",
+      "mime": "image/png",
+      "bytes": 79898,
+      "sha256": "d39e4f7e099fcdba3cb8ba717711b094fbed2e641db378ff3b3f4937abf12c2f",
+      "alternativeText": "Integral University circular official emblem",
+      "caption": "Integral University circular official emblem",
+      "source_page": "https://www.iul.ac.in/Default.aspx",
+      "download_url": "https://www.iul.ac.in/img/logo_circle.PNG"
+    },
+    {
+      "key": "integral-university:campus_primary",
+      "file": "media/integral-university/campus_primary-verified.jpg",
+      "name": "Integral University, Lucknow — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 136332,
+      "sha256": "de03bb13c7ff02ec3569860b524195ca133abba836390ccaeff70f9b53658805",
+      "alternativeText": "Integral University Lucknow academic campus buildings",
+      "caption": "Integral University Lucknow academic campus buildings",
+      "source_page": "https://www.iul.ac.in/Default.aspx",
+      "download_url": "https://www.iul.ac.in/img/aboutusimage.jpeg?v=190&format=webp"
+    },
+    {
+      "key": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences:logo",
+      "file": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/logo-verified.jpg",
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 5025,
+      "sha256": "e3ffa3ddeaaedb2ea0f6f75246a1219785fc6d5890da495248667367bba047a4",
+      "alternativeText": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences college seal",
+      "caption": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences college seal",
+      "source_page": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_Sri_Kinjarapu_Yerran_Naidu_College_of_Agricultural_Sc_7GcFQf1.jpg"
+    },
+    {
+      "key": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences:campus_primary",
+      "file": "media/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus_primary-verified.jpg",
+      "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 103359,
+      "sha256": "9f4dacd0733c837b2aaaa456f7027863e08a63125f5ec5dd85a69902e3babf12",
+      "alternativeText": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+      "caption": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences academic campus at SSR Puram, Etcherla",
+      "source_page": "https://www.careers360.com/colleges/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences-srikakulam?gallery=true",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/61093/2024/11/29/Campus%20View%20of%20Sri%20Kinjarapu%20Yerran%20Naidu%20College%20of%20Agricultural%20Sciences%20Srikakulam_Campus-View.jpg"
+    },
+    {
+      "key": "sri-satya-sai-university-of-technology-and-medical-sciences:campus_primary",
+      "file": "media/sri-satya-sai-university-of-technology-and-medical-sciences/campus_primary-verified.jpg",
+      "name": "Sri Satya Sai University of Technology and Medical Sciences — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 31662,
+      "sha256": "de6634a4f53ededf119f1275879b2f3df6054bb25c426f201a68d3d172ba57a6",
+      "alternativeText": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+      "caption": "Sri Satya Sai University of Technology and Medical Sciences entrance, Sehore",
+      "source_page": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/1390/2024/1/24/Campus%20Entrance%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Campus-View.jpg"
+    },
+    {
+      "key": "sri-satya-sai-university-of-technology-and-medical-sciences:logo",
+      "file": "media/sri-satya-sai-university-of-technology-and-medical-sciences/logo-verified.jpg",
+      "name": "Sri Satya Sai University of Technology and Medical Sciences — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 4192,
+      "sha256": "61fd22b71b81e3808e077ec31b150c4429c66773fe90476bd6e1886b6a6d7483",
+      "alternativeText": "Sri Satya Sai University of Technology and Medical Sciences official emblem",
+      "caption": "Sri Satya Sai University of Technology and Medical Sciences official emblem",
+      "source_page": "https://www.careers360.com/university/sri-satya-sai-university-of-technology-and-medical-sciences-sehore",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/1390/2024/1/24/Logo%20of%20Sri%20Satya%20Sai%20University%20of%20Technology%20and%20Medical%20Sciences%20Sehore_Logo.png"
+    },
+    {
+      "key": "gla-university:logo",
+      "file": "media/gla-university/logo-verified.png",
+      "name": "GLA University — institution logo",
+      "mime": "image/png",
+      "bytes": 39347,
+      "sha256": "51695edcd8047355617f9d7c1d135f5ad587f8db0313e40d9dd318a2e9550194",
+      "alternativeText": "GLA University Mathura emblem and wordmark",
+      "caption": "GLA University Mathura emblem and wordmark",
+      "source_page": "https://www.mindclubfoundation.in/",
+      "download_url": "https://www.mindclubfoundation.in/assets/colleges/10-m5hyq5ta.png"
+    },
+    {
+      "key": "gla-university:campus_primary",
+      "file": "media/gla-university/campus_primary-verified.jpg",
+      "name": "GLA University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 134285,
+      "sha256": "a71192e98157c7d52512e0271545d9aee479cae5218ac06d625078c06dea7927",
+      "alternativeText": "Aerial view of GLA University academic blocks and landscaped central courtyard, Mathura",
+      "caption": "Aerial view of GLA University academic blocks and landscaped central courtyard, Mathura",
+      "source_page": "https://www.colleges18.com/university/11228-gla-university-mathura",
+      "download_url": "https://colleges18.s3.ap-south-1.amazonaws.com/institute_overview_81e40d4f78.jpg"
+    },
+    {
+      "key": "gla-university:campus_secondary",
+      "file": "media/gla-university/campus_secondary-verified.jpg",
+      "name": "GLA University — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 75836,
+      "sha256": "7f103ba456bcd4f1c768e0fe91c5ce62306d2fb6da4515dc0e5bb6d849fd4249",
+      "alternativeText": "GLA University Mathura central academic block and campus walkway",
+      "caption": "GLA University Mathura central academic block and campus walkway",
+      "source_page": "https://www.collegedekho.com/colleges/gla-university",
+      "download_url": "https://media.collegedekho.com/media/img/institute/crawled_images/gl6.jpg"
+    },
+    {
+      "key": "shri-shivaji-agriculture-college:logo",
+      "file": "media/shri-shivaji-agriculture-college/logo.png",
+      "name": "Shri Shivaji Agriculture College, Amravati — institution logo",
+      "mime": "image/png",
+      "bytes": 417925,
+      "sha256": "50ae41bf38879296168011a80fd9e816ff34924b8577b6dd9b8e9c508ef6aa98",
+      "alternativeText": "Shri Shivaji Education Society emblem used in the college header",
+      "caption": "Shri Shivaji Education Society emblem used in the college header",
+      "source_page": "https://www.ssacpdkv.org/index.php",
+      "download_url": "https://www.ssacpdkv.org/images/shivaji_society_logo.png"
+    },
+    {
+      "key": "shri-shivaji-agriculture-college:campus_primary",
+      "file": "media/shri-shivaji-agriculture-college/campus-01.jpg",
+      "name": "Shri Shivaji Agriculture College, Amravati — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 126300,
+      "sha256": "c9dee324f8375f08ee8e3bb16896bbe910e30d1965de60a2b663e64ce7ee09a1",
+      "alternativeText": "Shri Shivaji Agriculture College campus view",
+      "caption": "Shri Shivaji Agriculture College campus view",
+      "source_page": "https://www.ssacpdkv.org/index.php",
+      "download_url": "https://www.ssacpdkv.org/images/slider1.jpg"
+    },
+    {
+      "key": "shri-shivaji-agriculture-college:campus_secondary",
+      "file": "media/shri-shivaji-agriculture-college/campus-02.jpg",
+      "name": "Shri Shivaji Agriculture College, Amravati — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 80356,
+      "sha256": "e83c3afbf6f51aa667fc508a499c9650b9af989520d6e993c93896d960cf272c",
+      "alternativeText": "Shri Shivaji Agriculture College academic setting",
+      "caption": "Shri Shivaji Agriculture College academic setting",
+      "source_page": "https://www.ssacpdkv.org/index.php",
+      "download_url": "https://www.ssacpdkv.org/images/slider2.jpg"
+    },
+    {
+      "key": "siksha-o-anusandhan:campus_primary",
+      "file": "media/siksha-o-anusandhan/campus-01.jpg",
+      "name": "Siksha ‘O’ Anusandhan — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 697421,
+      "sha256": "33d33cf16a3d467fa751844439e7a8d1bef794364eb7564370da8c7db5973145",
+      "alternativeText": "Siksha O Anusandhan campus aerial view in Bhubaneswar",
+      "caption": "Siksha O Anusandhan campus aerial view in Bhubaneswar",
+      "source_page": "https://www.soa.ac.in/",
+      "download_url": "https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1706003156365-1ISMFJWBRMP75F81UR6C/DJI_0937+Web.jpg"
+    },
+    {
+      "key": "siksha-o-anusandhan:logo",
+      "file": "media/siksha-o-anusandhan/logo-verified.png",
+      "name": "Siksha ‘O’ Anusandhan — institution logo",
+      "mime": "image/png",
+      "bytes": 30724,
+      "sha256": "c943407515740a4569528c28fe973c060a800049a63109bf409a8c189a2a0099",
+      "alternativeText": "Siksha O Anusandhan official emblem",
+      "caption": "Siksha O Anusandhan official emblem",
+      "source_page": "https://www.infra.soa.ac.in/",
+      "download_url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/20b21ff0-b528-435e-a329-07450e7dbbd4/SOA+Logo.png?format=1500w"
+    },
+    {
+      "key": "siksha-o-anusandhan:campus_secondary",
+      "file": "media/siksha-o-anusandhan/campus_secondary-verified.jpg",
+      "name": "Siksha ‘O’ Anusandhan — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 695298,
+      "sha256": "8a173eee18f1fdf78f431ac938ec50f37d9bca42540d92573acef2175016dfc6",
+      "alternativeText": "SOA university infrastructure in Bhubaneswar",
+      "caption": "SOA university infrastructure in Bhubaneswar",
+      "source_page": "https://www.infra.soa.ac.in/",
+      "download_url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg"
+    },
+    {
+      "key": "guru-kashi-university:logo",
+      "file": "media/guru-kashi-university/logo.webp",
+      "name": "Guru Kashi University — institution logo",
+      "mime": "image/webp",
+      "bytes": 43894,
+      "sha256": "0e57689de57d5ffd8e26a2c189fedf281317d8727acfd031b9e2c502342cf259",
+      "alternativeText": "Guru Kashi University official wordmark",
+      "caption": "Guru Kashi University official wordmark",
+      "source_page": "https://gku.ac.in/",
+      "download_url": "https://www.gku.ac.in/public/frontend/images/logo.webp?v=1793359664"
+    },
+    {
+      "key": "guru-kashi-university:campus_primary",
+      "file": "media/guru-kashi-university/campus-01.webp",
+      "name": "Guru Kashi University — campus primary",
+      "mime": "image/webp",
+      "bytes": 68066,
+      "sha256": "f56d3204f5ea5b76b7818b364d6c04e4f6bd00bc7e19ea6494f7077d1c3e78b3",
+      "alternativeText": "Guru Kashi University campus at Talwandi Sabo",
+      "caption": "Guru Kashi University campus at Talwandi Sabo",
+      "source_page": "https://gku.ac.in/",
+      "download_url": "https://www.gku.ac.in/public/frontend/images/home_bout_campus.webp?v=1793359664"
+    },
+    {
+      "key": "guru-kashi-university:campus_secondary",
+      "file": "media/guru-kashi-university/campus_secondary-verified.webp",
+      "name": "Guru Kashi University — campus secondary",
+      "mime": "image/webp",
+      "bytes": 15934,
+      "sha256": "1b45756b7ca122a03042e01dd8c100b6fdbfe8be5012157f0ca53ac1fd253ff1",
+      "alternativeText": "Student selecting books in Guru Kashi University central library",
+      "caption": "Student selecting books in Guru Kashi University central library",
+      "source_page": "https://www.gku.ac.in/library/library-overview",
+      "download_url": "https://www.gku.ac.in/public/frontend/images/library-3.webp?v=1791270952"
+    },
+    {
+      "key": "arunachal-university-of-studies:logo",
+      "file": "media/arunachal-university-of-studies/logo.png",
+      "name": "Arunachal University of Studies — institution logo",
+      "mime": "image/png",
+      "bytes": 78897,
+      "sha256": "09811d64b82253906d3701334c7a3442a3342053b063c0c7c1b382201840a474",
+      "alternativeText": "Arunachal University of Studies official mark",
+      "caption": "Arunachal University of Studies official mark",
+      "source_page": "https://www.arunachaluniversity.ac.in/",
+      "download_url": "https://www.arunachaluniversity.ac.in//assets/front/base/img/layout/logos/logo-ar2.png"
+    },
+    {
+      "key": "arunachal-university-of-studies:campus_primary",
+      "file": "media/arunachal-university-of-studies/campus_primary-verified.jpg",
+      "name": "Arunachal University of Studies — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 236212,
+      "sha256": "d657ca4fd24eb78750eea9dcd5fbbf0e2405a96eb561e725179603642f146fdc",
+      "alternativeText": "Arunachal University of Studies illuminated entrance and academic building in Namsai",
+      "caption": "Arunachal University of Studies illuminated entrance and academic building in Namsai",
+      "source_page": "https://www.kollegeapply.com/college/arunachal-university-of-studies-namsai-gallery",
+      "download_url": "https://assets.kollegeapply.com/images/1751550420331-1597663838phpKUsY42.jpeg"
+    },
+    {
+      "key": "arunachal-university-of-studies:campus_secondary",
+      "file": "media/arunachal-university-of-studies/campus_secondary-verified.jpg",
+      "name": "Arunachal University of Studies — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 41456,
+      "sha256": "5d963e355bfe38bb7a4835170d126959840eba89c9b1e45c83bc69b853f8fd73",
+      "alternativeText": "Students at the Arunachal University of Studies entrance in Namsai",
+      "caption": "Students at the Arunachal University of Studies entrance in Namsai",
+      "source_page": "https://www.careers360.com/university/arunachal-university-of-studies-namsai",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/1354/2017/7/1/Arunachal-University-of-Studies-Namsai4.JPG"
+    },
+    {
+      "key": "sr-university:logo",
+      "file": "media/sr-university/logo-verified.jpg",
+      "name": "SR University — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 7715,
+      "sha256": "b050230747969adc2f77e3195799207d4ab18e222964895fbe5d5df405eda1fa",
+      "alternativeText": "SR University official SRU mark",
+      "caption": "SR University official SRU mark",
+      "source_page": "https://x.com/sr_university",
+      "download_url": "https://pbs.twimg.com/profile_images/1819596467734036480/wml0FFB-_400x400.jpg"
+    },
+    {
+      "key": "sr-university:campus_primary",
+      "file": "media/sr-university/campus_primary-verified.jpg",
+      "name": "SR University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 286957,
+      "sha256": "f4df32308a0544c1faddd9e85b34804d6f7f1484df389114eb122d9d818ea3ea",
+      "alternativeText": "Students on steps beside an SR University academic block, Warangal",
+      "caption": "Students on steps beside an SR University academic block, Warangal",
+      "source_page": "https://www.sjkarchitects.com/educational-architecture/sr-university-warangal",
+      "download_url": "https://static.wixstatic.com/media/e751e0_dcc213c6041242a78dc02367ec212911~mv2.jpg"
+    },
+    {
+      "key": "sr-university:campus_secondary",
+      "file": "media/sr-university/campus_secondary-verified.png",
+      "name": "SR University — campus secondary",
+      "mime": "image/png",
+      "bytes": 449368,
+      "sha256": "4d43dc967c4a6d78f23e130159c1ed6705310d12cf98c3be89f749c55b7f5ac2",
+      "alternativeText": "SR University academic building and courtyard in Warangal",
+      "caption": "SR University academic building and courtyard in Warangal",
+      "source_page": "https://collegedunia.com/university/15181-sr-university-sru-warangal/gallery",
+      "download_url": "https://image-static.collegedunia.com/public/college_data/images/campusimage/1471931840sr%202.png"
+    },
+    {
+      "key": "malla-reddy-university:logo",
+      "file": "media/malla-reddy-university/logo-colour.png",
+      "name": "Malla Reddy University — institution logo",
+      "mime": "image/png",
+      "bytes": 19346,
+      "sha256": "a151af36dfcedbbd19b1d94da51aebcb5459475c0c9192f8db1778135918217b",
+      "alternativeText": "Malla Reddy University official colour emblem",
+      "caption": "Malla Reddy University official colour emblem",
+      "source_page": "https://www.mallareddyuniversity.ac.in/",
+      "download_url": "https://static.wixstatic.com/media/4526cf_695fcce7fa68430f875150ef0060ff7b~mv2.png"
+    },
+    {
+      "key": "malla-reddy-university:campus_primary",
+      "file": "media/malla-reddy-university/campus_primary-verified.jpg",
+      "name": "Malla Reddy University — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 973672,
+      "sha256": "35f26c1a9d881249cc94ad1174ea15cc83b7350190f233554d33556873a4e279",
+      "alternativeText": "Malla Reddy University academic building, Hyderabad",
+      "caption": "Malla Reddy University academic building, Hyderabad",
+      "source_page": "https://www.mallareddyuniversity.ac.in/",
+      "download_url": "https://static.wixstatic.com/media/6685d7_6e0152e43a644a81983bf25b49d26ea6~mv2.jpg"
+    },
+    {
+      "key": "itm-university-gwalior:logo",
+      "file": "media/itm-university-gwalior/logo-official-social.jpg",
+      "name": "ITM University, Gwalior — institution logo",
+      "mime": "image/jpeg",
+      "bytes": 18136,
+      "sha256": "f57e124ca17981c0405ec877eb61706a4ee5369863e30eb6b445d68a81de264d",
+      "alternativeText": "ITM University Gwalior official red square mark",
+      "caption": "ITM University Gwalior official red square mark",
+      "source_page": "https://x.com/ITMUGwalior",
+      "download_url": "https://pbs.twimg.com/profile_images/1678740356031217664/H8VK5Hq8.jpg"
+    },
+    {
+      "key": "itm-university-gwalior:campus_primary",
+      "file": "media/itm-university-gwalior/campus_primary-verified.jpg",
+      "name": "ITM University, Gwalior — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 94356,
+      "sha256": "78d382b0e2cb9bba98ab0c42936394f8059c221d92715dafaf99774f1f1c6827",
+      "alternativeText": "Panoramic evening view of ITM University Gwalior campus buildings",
+      "caption": "Panoramic evening view of ITM University Gwalior campus buildings",
+      "source_page": "https://www.itmuniversity.ac.in/",
+      "download_url": "https://resources.itmuniversity.ac.in/newweb/home/1620x507.JPG"
+    },
+    {
+      "key": "itm-university-gwalior:campus_secondary",
+      "file": "media/itm-university-gwalior/campus_secondary-verified.jpg",
+      "name": "ITM University, Gwalior — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 88548,
+      "sha256": "523b0c6fe3103ca138f03b5d7050f584879dd9729e9c42afa27892626666888d",
+      "alternativeText": "Students in a computer-based teaching laboratory at ITM University Gwalior",
+      "caption": "Students in a computer-based teaching laboratory at ITM University Gwalior",
+      "source_page": "https://www.itmuniversity.ac.in/",
+      "download_url": "https://resources.itmuniversity.ac.in/newweb/soet/images/CS13.jpg"
+    },
+    {
+      "key": "rkdf-university-bhopal:logo",
+      "file": "media/rkdf-university-bhopal/logo.png",
+      "name": "RKDF University, Bhopal — institution logo",
+      "mime": "image/png",
+      "bytes": 28620,
+      "sha256": "649d5754141b990f17d1964b4c510ac9ddc5e7d3755e48f032aa7ba1c30477f9",
+      "alternativeText": "RKDF University official mark",
+      "caption": "RKDF University official mark",
+      "source_page": "https://rkdf.ac.in/",
+      "download_url": "https://rkdf.ac.in/images/img/logo33.png"
+    },
+    {
+      "key": "rkdf-university-bhopal:campus_secondary",
+      "file": "media/rkdf-university-bhopal/campus_secondary-verified.jpg",
+      "name": "RKDF University, Bhopal — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 40968,
+      "sha256": "388f1b64fecfab9086ffad843762c58657371fbe116d40b8269e82947badbe96",
+      "alternativeText": "Students demonstrating academic equipment at RKDF University Bhopal",
+      "caption": "Students demonstrating academic equipment at RKDF University Bhopal",
+      "source_page": "https://rkdf.ac.in/",
+      "download_url": "https://rkdf.ac.in/images/08/acadmic.JPG"
+    },
+    {
+      "key": "rkdf-university-bhopal:campus_primary",
+      "file": "media/rkdf-university-bhopal/campus_primary-verified.jpg",
+      "name": "RKDF University, Bhopal — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 535296,
+      "sha256": "1f1cee5d2b5f1250866dcdeec2eb5dd4c267ed023aadc16f39ef42b257754dd6",
+      "alternativeText": "RKDF University Bhopal administrative block and landscaped courtyard",
+      "caption": "RKDF University Bhopal administrative block and landscaped courtyard",
+      "source_page": "https://collegedunia.com/university/25684-rkdf-university-bhopal/gallery",
+      "download_url": "https://image-static.collegedunia.com/public/college_data/images/campusimage/162607017620201007_090525.jpg"
+    },
+    {
+      "key": "rnb-global-university:logo",
+      "file": "media/rnb-global-university/logo-verified.svg",
+      "name": "RNB Global University — institution logo",
+      "mime": "image/svg+xml",
+      "bytes": 218097,
+      "sha256": "840c0718b6c82dc570712048766c84bfc9f9b60d0a69313a9329ef5087a524fb",
+      "alternativeText": "RNB Global University official wordmark",
+      "caption": "RNB Global University official wordmark",
+      "source_page": "https://www.rnbglobal.edu.in/",
+      "download_url": "https://www.rnbglobal.edu.in/assets/images/logo.svg"
+    },
+    {
+      "key": "rnb-global-university:campus_primary",
+      "file": "media/rnb-global-university/campus_primary-verified.svg",
+      "name": "RNB Global University — campus primary",
+      "mime": "image/svg+xml",
+      "bytes": 11364,
+      "sha256": "29315671dbd38952bd97c616f06c8c5641872a8e048458e7f75dd15c58a1a466",
+      "alternativeText": "RNB Global University academic block at the Bikaner campus",
+      "caption": "RNB Global University academic block at the Bikaner campus",
+      "source_page": "https://www.rnbglobal.edu.in/photo-gallery/album/infrastructure-at-rnb-global-university",
+      "download_url": "https://www.rnbglobal.edu.in/assets/images/media-photogallery/PhbY-RNBGU-Academic-Block-at-Campus.svg"
+    },
+    {
+      "key": "rnb-global-university:campus_secondary",
+      "file": "media/rnb-global-university/campus_secondary-verified.svg",
+      "name": "RNB Global University — campus secondary",
+      "mime": "image/svg+xml",
+      "bytes": 15918,
+      "sha256": "c41d421a243377b6c5b2eb6a9a2aeace2332d31c1ea565c3a280511f84168093",
+      "alternativeText": "RNB Global University central courtyard in Bikaner",
+      "caption": "RNB Global University central courtyard in Bikaner",
+      "source_page": "https://www.rnbglobal.edu.in/photo-gallery/album/infrastructure-at-rnb-global-university",
+      "download_url": "https://www.rnbglobal.edu.in/assets/images/media-photogallery/mule-RNBGU-Central-Courtyard.svg"
+    },
+    {
+      "key": "tilak-dhari-pg-college:logo",
+      "file": "media/tilak-dhari-pg-college/logo.png",
+      "name": "Tilak Dhari P.G. College, Jaunpur — institution logo",
+      "mime": "image/png",
+      "bytes": 51684,
+      "sha256": "65639ca480386fed1f385787d5528d977d4e4f425aa30ff46998c1beaaa3c585",
+      "alternativeText": "Tilak Dhari P.G. College official emblem",
+      "caption": "Tilak Dhari P.G. College official emblem",
+      "source_page": "https://tdcollege.ac.in/",
+      "download_url": "https://tdcollege.ac.in/images/logo.png"
+    },
+    {
+      "key": "tilak-dhari-pg-college:campus_secondary",
+      "file": "media/tilak-dhari-pg-college/campus-02.jpg",
+      "name": "Tilak Dhari P.G. College, Jaunpur — campus secondary",
+      "mime": "image/jpeg",
+      "bytes": 403265,
+      "sha256": "6081c1946c35c64696ac1162238ba8526fcc14907a58ec5d4310da172e1094c7",
+      "alternativeText": "Basketball court and adjacent academic building at Tilak Dhari P.G. College, Jaunpur",
+      "caption": "Basketball court and adjacent academic building at Tilak Dhari P.G. College, Jaunpur",
+      "source_page": "https://tdcollege.ac.in/",
+      "download_url": "https://tdcollege.ac.in/images/gallery4.jpg"
+    },
+    {
+      "key": "tilak-dhari-pg-college:campus_primary",
+      "file": "media/tilak-dhari-pg-college/campus_primary-verified.jpg",
+      "name": "Tilak Dhari P.G. College, Jaunpur — campus primary",
+      "mime": "image/jpeg",
+      "bytes": 846650,
+      "sha256": "7dac40c724185af02a17763bc2faa0ca96d42f29de4a66256c3df5a1571a15a7",
+      "alternativeText": "Tilak Dhari P.G. College campus in Jaunpur",
+      "caption": "Tilak Dhari P.G. College campus in Jaunpur",
+      "source_page": "https://tdcollege.ac.in/",
+      "download_url": "https://tdcollege.ac.in/app/writereaddata/HomePage/Header/H_202602161653403017.jpg"
+    }
+  ],
+  "universities": [
+    {
+      "id": 1,
+      "slug": "adhiparasakthi-agricultural-college",
+      "content_profile": "batch-01/01-adhiparasakthi-agricultural-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "adhiparasakthi-agricultural-college:logo"
+        },
+        "card_logo": {
+          "$upload": "adhiparasakthi-agricultural-college:card_logo"
+        },
+        "image": {
+          "$upload": "adhiparasakthi-agricultural-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "adhiparasakthi-agricultural-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 2,
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "content_profile": "batch-01/02-adhiyamaan-college-of-agriculture-and-research.json",
+      "fields": {
+        "logo": {
+          "$upload": "adhiyamaan-college-of-agriculture-and-research:logo"
+        },
+        "image": {
+          "$upload": "adhiyamaan-college-of-agriculture-and-research:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "adhiyamaan-college-of-agriculture-and-research:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 3,
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "content_profile": "batch-01/03-j-k-k-munirajah-college-of-agricultural-science.json",
+      "fields": {
+        "logo": {
+          "$upload": "j-k-k-munirajah-college-of-agricultural-science:logo"
+        },
+        "image": {
+          "$upload": "j-k-k-munirajah-college-of-agricultural-science:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "j-k-k-munirajah-college-of-agricultural-science:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 4,
+      "slug": "jsa-college-of-agriculture-and-technology",
+      "content_profile": "batch-01/04-jsa-college-of-agriculture-and-technology.json",
+      "fields": {
+        "logo": {
+          "$upload": "jsa-college-of-agriculture-and-technology:logo"
+        },
+        "image": {
+          "$upload": "jsa-college-of-agriculture-and-technology:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "jsa-college-of-agriculture-and-technology:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 5,
+      "slug": "pgp-college-of-agricultural-sciences",
+      "content_profile": "batch-01/05-pgp-college-of-agricultural-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "pgp-college-of-agricultural-sciences:logo"
+        },
+        "image": {
+          "$upload": "pgp-college-of-agricultural-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "pgp-college-of-agricultural-sciences:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 6,
+      "slug": "pushkaram-college-of-agriculture-sciences",
+      "content_profile": "batch-01/06-pushkaram-college-of-agriculture-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "pushkaram-college-of-agriculture-sciences:logo"
+        },
+        "image": {
+          "$upload": "pushkaram-college-of-agriculture-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 7,
+      "slug": "the-indian-agriculture-college",
+      "content_profile": "batch-01/07-the-indian-agriculture-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "the-indian-agriculture-college:logo"
+        },
+        "image": {
+          "$upload": "the-indian-agriculture-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "the-indian-agriculture-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 8,
+      "slug": "palar-agricultural-college",
+      "content_profile": "batch-01/08-palar-agricultural-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "palar-agricultural-college:logo"
+        },
+        "card_logo": {
+          "$upload": "palar-agricultural-college:card_logo"
+        },
+        "image": {
+          "$upload": "palar-agricultural-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "palar-agricultural-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 9,
+      "slug": "thanthai-roever-institute-of-agriculture-and-rural-development",
+      "content_profile": "batch-01/09-thanthai-roever-institute-of-agriculture-and-rural-development.json",
+      "fields": {
+        "logo": {
+          "$upload": "thanthai-roever-institute-of-agriculture-and-rural-development:logo"
+        },
+        "card_logo": {
+          "$upload": "thanthai-roever-institute-of-agriculture-and-rural-development:card_logo"
+        },
+        "image": {
+          "$upload": "thanthai-roever-institute-of-agriculture-and-rural-development:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "thanthai-roever-institute-of-agriculture-and-rural-development:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 10,
+      "slug": "udai-pratap-college",
+      "content_profile": "batch-01/10-udai-pratap-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "udai-pratap-college:logo"
+        },
+        "image": {
+          "$upload": "udai-pratap-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "udai-pratap-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 11,
+      "slug": "sbvr-agricultural-college",
+      "content_profile": "batch-01/11-sbvr-agricultural-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "sbvr-agricultural-college:logo"
+        },
+        "image": {
+          "$upload": "sbvr-agricultural-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 12,
+      "slug": "n-s-agricultural-college",
+      "content_profile": "batch-01/12-n-s-agricultural-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "n-s-agricultural-college:logo"
+        },
+        "image": {
+          "$upload": "n-s-agricultural-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "n-s-agricultural-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 13,
+      "slug": "sri-krishnadevaraya-college-of-agricultural-sciences",
+      "content_profile": "batch-01/13-sri-krishnadevaraya-college-of-agricultural-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "sri-krishnadevaraya-college-of-agricultural-sciences:logo"
+        },
+        "image": {
+          "$upload": "sri-krishnadevaraya-college-of-agricultural-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "sri-krishnadevaraya-college-of-agricultural-sciences:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 14,
+      "slug": "khalsa-college-of-veterinary-and-animal-sciences",
+      "content_profile": "batch-01/14-khalsa-college-of-veterinary-and-animal-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "khalsa-college-of-veterinary-and-animal-sciences:logo"
+        },
+        "image": {
+          "$upload": "khalsa-college-of-veterinary-and-animal-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "khalsa-college-of-veterinary-and-animal-sciences:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 15,
+      "slug": "khalsa-college-amritsar",
+      "content_profile": "batch-01/15-khalsa-college-amritsar.json",
+      "fields": {
+        "logo": {
+          "$upload": "khalsa-college-amritsar:logo"
+        },
+        "image": {
+          "$upload": "khalsa-college-amritsar:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 16,
+      "slug": "g-h-raisoni-university-chhindwara",
+      "content_profile": "batch-01/16-g-h-raisoni-university-chhindwara.json",
+      "fields": {
+        "logo": {
+          "$upload": "g-h-raisoni-university-chhindwara:logo"
+        },
+        "image": {
+          "$upload": "g-h-raisoni-university-chhindwara:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {
+        "logo": {
+          "background": "white",
+          "note": "Preserve original logo colours and use a contrasting container."
+        }
+      }
+    },
+    {
+      "id": 17,
+      "slug": "jagan-nath-university-jaipur",
+      "content_profile": "batch-01/17-jagan-nath-university-jaipur.json",
+      "fields": {
+        "logo": {
+          "$upload": "jagan-nath-university-jaipur:logo"
+        },
+        "image": {
+          "$upload": "jagan-nath-university-jaipur:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "jagan-nath-university-jaipur:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 18,
+      "slug": "jaipur-national-university",
+      "content_profile": "batch-01/18-jaipur-national-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "jaipur-national-university:logo"
+        },
+        "image": {
+          "$upload": "jaipur-national-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 19,
+      "slug": "chandigarh-university",
+      "content_profile": "batch-01/19-chandigarh-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "chandigarh-university:logo"
+        },
+        "image": {
+          "$upload": "chandigarh-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "chandigarh-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 20,
+      "slug": "eternal-university",
+      "content_profile": "batch-01/20-eternal-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "eternal-university:logo"
+        },
+        "image": {
+          "$upload": "eternal-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "eternal-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 21,
+      "slug": "aks-university",
+      "content_profile": "batch-02/21-aks-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "aks-university:logo"
+        },
+        "image": {
+          "$upload": "aks-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "aks-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 22,
+      "slug": "sri-sri-university",
+      "content_profile": "batch-02/22-sri-sri-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "sri-sri-university:logo"
+        },
+        "card_logo": {
+          "$upload": "sri-sri-university:card_logo"
+        },
+        "image": {
+          "$upload": "sri-sri-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "sri-sri-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 23,
+      "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+      "content_profile": "batch-02/23-janardan-rai-nagar-rajasthan-vidyapeeth.json",
+      "fields": {
+        "logo": {
+          "$upload": "janardan-rai-nagar-rajasthan-vidyapeeth:logo"
+        },
+        "image": {
+          "$upload": "janardan-rai-nagar-rajasthan-vidyapeeth:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 24,
+      "slug": "sanskriti-university",
+      "content_profile": "batch-02/24-sanskriti-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "sanskriti-university:logo"
+        },
+        "image": {
+          "$upload": "sanskriti-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 25,
+      "slug": "vivekananda-global-university",
+      "content_profile": "batch-02/25-vivekananda-global-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "vivekananda-global-university:logo"
+        },
+        "image": {
+          "$upload": "vivekananda-global-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "vivekananda-global-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 26,
+      "slug": "sgt-university",
+      "content_profile": "batch-02/26-sgt-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "sgt-university:logo"
+        },
+        "image": {
+          "$upload": "sgt-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 27,
+      "slug": "bhupal-nobles-university",
+      "content_profile": "batch-02/27-bhupal-nobles-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "bhupal-nobles-university:logo"
+        },
+        "image": {
+          "$upload": "bhupal-nobles-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 28,
+      "slug": "karunya-institute-of-technology-and-sciences",
+      "content_profile": "batch-02/28-karunya-institute-of-technology-and-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "karunya-institute-of-technology-and-sciences:logo"
+        },
+        "image": {
+          "$upload": "karunya-institute-of-technology-and-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 29,
+      "slug": "suresh-gyan-vihar-university",
+      "content_profile": "batch-02/29-suresh-gyan-vihar-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "suresh-gyan-vihar-university:logo"
+        },
+        "image": {
+          "$upload": "suresh-gyan-vihar-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "suresh-gyan-vihar-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 30,
+      "slug": "gd-goenka-university",
+      "content_profile": "batch-02/30-gd-goenka-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "gd-goenka-university:logo"
+        },
+        "image": {
+          "$upload": "gd-goenka-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {
+        "logo": {
+          "background": "dark",
+          "note": "Preserve original logo colours and use a contrasting container."
+        }
+      }
+    },
+    {
+      "id": 31,
+      "slug": "shri-guru-ram-rai-university",
+      "content_profile": "batch-02/31-shri-guru-ram-rai-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "shri-guru-ram-rai-university:logo"
+        },
+        "image": {
+          "$upload": "shri-guru-ram-rai-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 32,
+      "slug": "vellore-institute-of-technology",
+      "content_profile": "batch-02/32-vellore-institute-of-technology.json",
+      "fields": {
+        "logo": {
+          "$upload": "vellore-institute-of-technology:logo"
+        },
+        "image": {
+          "$upload": "vellore-institute-of-technology:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 33,
+      "slug": "srm-institute-of-science-and-technology",
+      "content_profile": "batch-02/33-srm-institute-of-science-and-technology.json",
+      "fields": {
+        "logo": {
+          "$upload": "srm-institute-of-science-and-technology:logo"
+        },
+        "image": {
+          "$upload": "srm-institute-of-science-and-technology:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 34,
+      "slug": "rabindranath-tagore-university",
+      "content_profile": "batch-02/34-rabindranath-tagore-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "rabindranath-tagore-university:logo"
+        },
+        "image": {
+          "$upload": "rabindranath-tagore-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 35,
+      "slug": "giet-university",
+      "content_profile": "batch-02/35-giet-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "giet-university:logo"
+        },
+        "image": {
+          "$upload": "giet-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "giet-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 36,
+      "slug": "rnt-college-of-agriculture",
+      "content_profile": "batch-02/36-rnt-college-of-agriculture.json",
+      "fields": {
+        "logo": {
+          "$upload": "rnt-college-of-agriculture:logo"
+        },
+        "image": {
+          "$upload": "rnt-college-of-agriculture:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 37,
+      "slug": "amrita-vishwa-vidyapeetham",
+      "content_profile": "batch-02/37-amrita-vishwa-vidyapeetham.json",
+      "fields": {
+        "logo": {
+          "$upload": "amrita-vishwa-vidyapeetham:logo"
+        },
+        "image": {
+          "$upload": "amrita-vishwa-vidyapeetham:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "amrita-vishwa-vidyapeetham:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 38,
+      "slug": "tantia-university",
+      "content_profile": "batch-02/38-tantia-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "tantia-university:logo"
+        },
+        "image": {
+          "$upload": "tantia-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "tantia-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 39,
+      "slug": "raffles-university",
+      "content_profile": "batch-02/39-raffles-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "raffles-university:logo"
+        },
+        "image": {
+          "$upload": "raffles-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "raffles-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 40,
+      "slug": "maharishi-markandeshwar-mullana",
+      "content_profile": "batch-02/40-maharishi-markandeshwar-mullana.json",
+      "fields": {
+        "logo": {
+          "$upload": "maharishi-markandeshwar-mullana:logo"
+        },
+        "image": {
+          "$upload": "maharishi-markandeshwar-mullana:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 41,
+      "slug": "the-neotia-university",
+      "content_profile": "batch-03/41-the-neotia-university.json",
+      "fields": {
+        "image": {
+          "$upload": "the-neotia-university:campus_primary"
+        },
+        "logo": {
+          "$upload": "the-neotia-university:logo"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "the-neotia-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 42,
+      "slug": "centurion-university-of-technology-and-management",
+      "content_profile": "batch-03/42-centurion-university-of-technology-and-management.json",
+      "fields": {
+        "logo": {
+          "$upload": "centurion-university-of-technology-and-management:logo"
+        },
+        "image": {
+          "$upload": "centurion-university-of-technology-and-management:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 43,
+      "slug": "lovely-professional-university",
+      "content_profile": "batch-03/43-lovely-professional-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "lovely-professional-university:logo"
+        },
+        "image": {
+          "$upload": "lovely-professional-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 44,
+      "slug": "kalasalingam-academy-of-research-and-education",
+      "content_profile": "batch-03/44-kalasalingam-academy-of-research-and-education.json",
+      "fields": {
+        "logo": {
+          "$upload": "kalasalingam-academy-of-research-and-education:logo"
+        },
+        "image": {
+          "$upload": "kalasalingam-academy-of-research-and-education:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "kalasalingam-academy-of-research-and-education:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 45,
+      "slug": "integral-university",
+      "content_profile": "batch-03/45-integral-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "integral-university:logo"
+        },
+        "card_logo": {
+          "$upload": "integral-university:card_logo"
+        },
+        "image": {
+          "$upload": "integral-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 46,
+      "slug": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+      "content_profile": "batch-03/46-sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences.json",
+      "fields": {
+        "logo": {
+          "$upload": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences:logo"
+        },
+        "image": {
+          "$upload": "sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 47,
+      "slug": "sri-satya-sai-university-of-technology-and-medical-sciences",
+      "content_profile": "batch-03/47-sri-satya-sai-university-of-technology-and-medical-sciences.json",
+      "fields": {
+        "image": {
+          "$upload": "sri-satya-sai-university-of-technology-and-medical-sciences:campus_primary"
+        },
+        "logo": {
+          "$upload": "sri-satya-sai-university-of-technology-and-medical-sciences:logo"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {}
+    },
+    {
+      "id": 48,
+      "slug": "gla-university",
+      "content_profile": "batch-03/48-gla-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "gla-university:logo"
+        },
+        "image": {
+          "$upload": "gla-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "gla-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 49,
+      "slug": "shri-shivaji-agriculture-college",
+      "content_profile": "batch-03/49-shri-shivaji-agriculture-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "shri-shivaji-agriculture-college:logo"
+        },
+        "image": {
+          "$upload": "shri-shivaji-agriculture-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "shri-shivaji-agriculture-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 50,
+      "slug": "siksha-o-anusandhan",
+      "content_profile": "batch-03/50-siksha-o-anusandhan.json",
+      "fields": {
+        "image": {
+          "$upload": "siksha-o-anusandhan:campus_primary"
+        },
+        "logo": {
+          "$upload": "siksha-o-anusandhan:logo"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "siksha-o-anusandhan:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 51,
+      "slug": "guru-kashi-university",
+      "content_profile": "batch-03/51-guru-kashi-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "guru-kashi-university:logo"
+        },
+        "image": {
+          "$upload": "guru-kashi-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "guru-kashi-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 52,
+      "slug": "arunachal-university-of-studies",
+      "content_profile": "batch-03/52-arunachal-university-of-studies.json",
+      "fields": {
+        "logo": {
+          "$upload": "arunachal-university-of-studies:logo"
+        },
+        "image": {
+          "$upload": "arunachal-university-of-studies:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "arunachal-university-of-studies:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 53,
+      "slug": "sr-university",
+      "content_profile": "batch-03/53-sr-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "sr-university:logo"
+        },
+        "image": {
+          "$upload": "sr-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "sr-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 54,
+      "slug": "malla-reddy-university",
+      "content_profile": "batch-03/54-malla-reddy-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "malla-reddy-university:logo"
+        },
+        "image": {
+          "$upload": "malla-reddy-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [],
+      "display_hints": {
+        "logo": {
+          "background": "light",
+          "note": "Preserve original logo colours and use a contrasting container."
+        }
+      }
+    },
+    {
+      "id": 55,
+      "slug": "itm-university-gwalior",
+      "content_profile": "batch-03/55-itm-university-gwalior.json",
+      "fields": {
+        "logo": {
+          "$upload": "itm-university-gwalior:logo"
+        },
+        "image": {
+          "$upload": "itm-university-gwalior:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "itm-university-gwalior:campus_secondary"
+        }
+      ],
+      "display_hints": {
+        "logo": {
+          "background": "light",
+          "note": "Preserve original logo colours and use a contrasting container."
+        }
+      }
+    },
+    {
+      "id": 56,
+      "slug": "rkdf-university-bhopal",
+      "content_profile": "batch-03/56-rkdf-university-bhopal.json",
+      "fields": {
+        "logo": {
+          "$upload": "rkdf-university-bhopal:logo"
+        },
+        "image": {
+          "$upload": "rkdf-university-bhopal:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "rkdf-university-bhopal:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 57,
+      "slug": "rnb-global-university",
+      "content_profile": "batch-03/57-rnb-global-university.json",
+      "fields": {
+        "logo": {
+          "$upload": "rnb-global-university:logo"
+        },
+        "image": {
+          "$upload": "rnb-global-university:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "rnb-global-university:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    },
+    {
+      "id": 58,
+      "slug": "tilak-dhari-pg-college",
+      "content_profile": "batch-03/58-tilak-dhari-pg-college.json",
+      "fields": {
+        "logo": {
+          "$upload": "tilak-dhari-pg-college:logo"
+        },
+        "image": {
+          "$upload": "tilak-dhari-pg-college:campus_primary"
+        }
+      },
+      "gallery_candidates": [
+        {
+          "$upload": "tilak-dhari-pg-college:campus_secondary"
+        }
+      ],
+      "display_hints": {}
+    }
+  ]
+}

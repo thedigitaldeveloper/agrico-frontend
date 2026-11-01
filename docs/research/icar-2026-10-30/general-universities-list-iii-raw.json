@@ -1,0 +1,158 @@
+{
+  "Sheet1": {
+    "rows": [
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "List: III"
+      ],
+      [
+        "List of ICAR Accredited Constituent/affiliated Colleges/Programmes of General Universities (Public)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "S.No.",
+        "Name  of University",
+        "Period of Accreditation ",
+        "Accredited College/Programmes",
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        "College ",
+        "Bachelor Degree Programmes",
+        "Master Degree Programmes",
+        "Ph.D Programmes"
+      ],
+      [
+        1,
+        "Annamalai University, Annamalainagar, Tamil Nadu",
+        "From 29/07/2021 to 28/07/2026 ",
+        "Faculty of Agriculture",
+        "• B.Sc. (Hons.) Agriculture (with intake of 240)\n\n• B.Sc. (Hons.) Horticulture\n",
+        "• M. Sc. (Agri.) Agronomy\n• M. Sc. (Agri.) Agricultural Economics\n• M. Sc. (Agri.) Agricultural Extension Education\n• M. Sc. (Agri.) Microbiology\n• M. Sc. (Agri.) Entomology\n• M. Sc. (Agri.) Genetics and Plant Breeding\n• M. Sc. (Agri.) Plant Pathology\nM. Sc. (Ag.) Soil Science",
+        "• Ph. D. Agronomy\n• Ph. D. Agricultural Economics\n• Ph. D. Agricultural Extension Education\n• Ph. D. Microbiology\n• Ph. D. Entomology\n• Ph. D. Genetics and Plant Breeding\n• Ph. D. Plant Pathology\nPh. D. Soil Science\n\n"
+      ],
+      [
+        2,
+        "Mahatma Gandhi Chitrakoot Gramodaya Vishwavidyalaya,Chitrakoot, Madhya Pradesh ",
+        "From 09.11.2021 to 08.11.2026",
+        "College of Agriculture",
+        "• B.Sc. (Hons) in Agriculture",
+        "• M.Sc. (Ag) in Agronomy\nM.Sc. (Ag) in Soil Science\nM.Sc. (Ag) in Agril Extension\n",
+        null
+      ],
+      [
+        3,
+        "School of Agriculture and Allied Sciences Hemvati Nandan Bahuguna Garhwal University, Srinagar, UK",
+        "From 08/02/2024 to 07/02/2029",
+        null,
+        "B.Sc.(Hons.) Forestry ",
+        null,
+        null
+      ],
+      [
+        4,
+        "Nagaland University, Kohima Sadar, Nagaland",
+        "From 01.04.2024 to 31/03/2029.",
+        "School of Agricultural Sciences and Rural Development, Medziphema",
+        "•\tB.Sc. (Hons.) Agriculture",
+        "•\tM.Sc. (Agri) Soil Science\n•\tM.Sc. (Agri) Agricultural Economics\n•\tM.Sc. (Agri) Agronomy\n•\tM.Sc. (Agri) Entomology\n•\tM.Sc. (Agri) Genetics and Plant Breeding\n•\tM.Sc. (Agri) Plant Pathology\n•\tM.Sc. (Agri) Agricultural Extension Education",
+        "•\tPh.D. Soil Science\n•\tPh.D. Agricultural Economics\n•\tPh.D. Agronomy\n•\tPh.D. Entomology\n•\tPh.D. Genetics and Plant Breeding\n•\tPh.D. Plant Pathology\n•\tPh.D. Agricultural Extension Education"
+      ],
+      [
+        5,
+        "Institute of Agricultural Sciences, Banaras Hindu University, Varanasi. UP",
+        "From 01/04/2022 to 31/03/2027",
+        null,
+        "• B. Sc. (Hons.) Ag\n• B.Tech (Dairy Technology)\n• B.Tech (Food Technology)",
+        "• M.Sc. (Ag.) Agricultural Economics\n• M.Sc. (Ag) Agronomy\n• M. Tech Dairy Technology\n• M.Sc. (Ag.) Entomology\n• M.Sc. (Ag.) Plant Physiology",
+        "• Ph.D (Agricultural Economics)\n• Ph. D. in Agronomy\n• Ph.D. Entomology\n• Ph.D. Plant Physiology"
+      ],
+      [
+        6,
+        "Faculty of Veterinary and Animal Sciences, Banaras Hindu University, Barkachha, Mirzapur UP",
+        "From 20/06/2024 to 19/06/2029",
+        null,
+        "B. V. Sc. & A. H.",
+        null,
+        null
+      ],
+      [
+        7,
+        "Tilak Dhari P.G. College, Jaunpur, U.P.( Purvanchal University, Jaunpur)",
+        "from 26/9/2024 to 25/9/2029",
+        null,
+        "•\tB.S. (Hons). Agriculture (intake 240)",
+        "•\tM.Sc. (Ag) Agronomy (intake 20)\n•\tM.Sc. (Ag) Agricultural Economics (intake 20)\n•\tM.Sc. (Ag) Agricultural Extension Education (intake 20)\n•\tM.Sc. (Ag) Entomology (intake 20)\n•\tM.Sc. (Ag) Genetics and Plant Breeding (intake 20)\n•\tM.Sc. (Ag) Plant Pathology (intake 20)",
+        null
+      ],
+      [
+        8,
+        "Palli Siksha Bhavana (Institute of Agriculture), (Visva Bharti, Sriniketan, Birbhum, West Bengal)",
+        "from 1/4/2024 to 31/3/2029",
+        null,
+        "•\tB.Sc. (Hons.) Agriculture",
+        "•\tM.Sc. (Ag.) Entomology\n•\tM.Sc. (Ag.) Agricultural Extension Education\n•\tM.Sc. (Ag.) Agronomy\n•\tM.Sc. (Ag.) Genetics and Plant Breeding\n•\tM.Sc. (Ag.) Plant Pathology\n•\tM.Sc. (Ag.) Soil Science",
+        null
+      ],
+      [
+        9,
+        "Pondicherry University, Puducherry ",
+        "five years w.e.f. 9.11.2021 to 8.11.2026",
+        "Rajiv Gandhi Institute of Veterinary Education and Research, Kurumbapet, Puducherry",
+        "• B.V.Sc. & A.H.\n(Intake- 80)",
+        "M. V. Sc. \n• Veterinary Biochemistry\n• Veterinary and Animal Husbandry Extension Education\n• Veterinary Gynecology & Obstetrics\n• Veterinary Surgery & Radiology \n• Veterinary Medicine \n• Veterinary Microbiology \n• Veterinary Pathology\n• Veterinary Public Health and Epidemiology\n• Livestock Production & Management \n• Livestock Products Technology",
+        "_"
+      ],
+      [
+        10,
+        null,
+        "five years w.e.f. 29.7.2024 to 28.7.2029",
+        "Pandit Jawaharlal Nehru College of Agriculture and Research Institute, Karaikal ",
+        "•\tB.Sc. (Hons.) Agriculture\n•\tB.Sc. (Hons.) Horticulture",
+        "·    M.Sc. (Agri) Agricultural Economics\n•\tM.Sc. (Agri) Agricultural Entomology\n•\tM.Sc. (Agri) Agronomy\n•\tM.Sc. (Agri) Genetics and Plant Breeding\n•\tM.Sc. (Agri) Soil Science\n•\tM.Sc. (Horti.) Vegetable Science",
+        null
+      ],
+      [
+        11,
+        "Tripura University, Tripura",
+        "five years w.e.f. 29/07/2021 to 28/07/2026",
+        "College of Agriculture, Tripura Lembucherra ",
+        "B.Sc. (Hons.) Agriculture ",
+        "_",
+        "_"
+      ],
+      [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "merged": [
+      "D3:G3",
+      "B13:B14",
+      "C3:C4",
+      "B3:B4",
+      "A3:A4",
+      "A2:G2"
+    ]
+  }
+}

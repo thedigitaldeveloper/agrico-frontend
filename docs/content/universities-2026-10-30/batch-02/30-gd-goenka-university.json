@@ -1,0 +1,469 @@
+{
+  "id": 30,
+  "slug": "gd-goenka-university",
+  "name": "GD Goenka University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": null,
+    "ownership": "Private university",
+    "city": "Gurugram",
+    "state": "Haryana",
+    "established": 2013,
+    "address": "Gate No. 3, GD Goenka Education City, Gurugram-Sohna Road, Haryana 122103, India",
+    "parent_university": null,
+    "website": "https://www.gdgoenkauniversity.com/",
+    "admissions_url": "https://applications.gdgoenkauniversity.com/",
+    "phone": "+91-9910000062",
+    "email": "admissions@gdgu.org"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "GD Goenka University",
+    "summary": "GD Goenka University’s School of Agricultural Sciences offers undergraduate agriculture and specialist postgraduate study on the Gurugram-Sohna campus. Its course page explains a test-and-interview admission route, while the school records recent activities on crop water use, soil quality and agricultural technology.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural science with a documented application route",
+    "paragraphs": [
+      "The four-year B.Sc. Agriculture page describes study across crop production and protection, including plant disease, insects, weeds and nutrient problems. The school also lists master’s study and a separate agribusiness MBA offered by the School of Management. Applicants can therefore distinguish agricultural science specialisation from a management pathway.",
+      "The official undergraduate page sets out an application, entrance test and interview sequence. Its fee figures are not clearly labelled by academic year, however. The school’s events list provides dated evidence of activity: 2026 entries include crop water-use discussions, soil-quality sessions and a Pusa Krishi Vigyan Mela visit. These records show specific educational activity without establishing a standard experience for every student."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "G. D. Goenka University, Gurugram"
+      },
+      {
+        "label": "Location",
+        "value": "Gurugram, Haryana"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The course describes agricultural and allied science with field exposure and crop-protection topics.",
+      "eligibility": "Official undated page: 10+2 Agriculture, or Physics and Chemistry with Mathematics/Biotechnology/Biology/Technical Vocational subject; GATA and interview required.",
+      "admission_route": "GATA aptitude test and personal interview, as stated on the undated official course page.",
+      "fees": {
+        "amount_inr": 175000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "An agricultural master’s specialisation in the official fee and programme tables.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 215000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "name": "M.Sc. Horticulture — Vegetable Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A horticultural master’s option listed separately from agronomy.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 215000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published programme fee; other charges are separate unless stated.",
+        "note": "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The B.Sc. course page describes an application followed by an entrance test and interview, shortlisting and an offer. Reconfirm the intake-specific test arrangements and any revised academic criteria.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Complete the university application",
+        "text": "The official course page begins its admission sequence with the application."
+      },
+      {
+        "title": "Take the test and interview",
+        "text": "The programme requirement identifies GATA and a personal interview."
+      },
+      {
+        "title": "Review the offer",
+        "text": "The page describes shortlisting and an offer letter after assessment."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "Published scholarship-form and evidence deadline (scholarship scope only)",
+        "date": "2026-10-31",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "r2_scholarships2026"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "r2_scholarships2026"
+    ]
+  },
+  "campus": {
+    "heading": "Recent agricultural activities",
+    "intro": "The school’s dated event feed records a Pusa Krishi Vigyan Mela visit in February 2026 and sessions on water-use efficiency and soil quality later that year. A current inventory of dedicated farms and laboratory equipment was not verified.",
+    "facilities": [],
+    "practical_learning": [
+      "Educational visit to Pusa Krishi Vigyan Mela, 25–27 February 2026, as recorded by the school."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The scholarship policy expressly includes B.Sc. Agriculture in the 70–79.99% school-mark band and lists higher merit bands. Awards cover the stated academic fee, require evidence and remain subject to limited seats and the approved offer. The published scholarship-document deadline is 31 October 2026.",
+    "schemes": [
+      {
+        "name": "UG academic merit scholarship including B.Sc. Agriculture",
+        "details": "The agriculture-specific 70–79.99% band offers 10%; 80–87.99% offers 20%, 88–91.99% 30%, 92–94.99% 50%, and 95%+ 100% academic-fee scholarship. Only one category applies. Continuation depends on performance and the applicable policy.",
+        "award": "Published academic-fee concessions: 10%, 20%, 30%, 50% or 100%.",
+        "eligibility": "Agriculture explicitly named for the 70–79.99% band; qualifying-subject aggregation and other policy restrictions apply.",
+        "renewal": "Continuation depends on qualifying-year performance and the policy; initial eligibility does not guarantee a full-course award.",
+        "documents": "Original board marksheet/transcript and scholarship form with supporting evidence through the student portal by 31 October 2026.",
+        "source_ids": [
+          "r2_scholarships2026"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_scholarships2026"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The school refers to a career advisory and placement team for counselling. Its displayed drive and company totals do not define an agriculture graduating cohort or reporting year, so they are not reproduced as agriculture outcomes.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists G. D. Goenka University, Gurugram for 2023-07-13 to 2028-07-12. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "G. D. Goenka University, Gurugram",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2023-07-13",
+        "valid_until": "2028-07-12",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A38:G38"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official School of Agricultural Sciences profile identifies Dr. Deepak Maurya in Vegetable Science. This selected web entry was checked on 31 October 2026; a dated complete staff roster remains to be confirmed.",
+    "people": [
+      {
+        "name": "Dr. Deepak Maurya",
+        "role": "Assistant Professor, Horticulture (Vegetable Science)",
+        "source_ids": [
+          "r2_faculty_vegetable"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r2_faculty_vegetable"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the undergraduate admission assessment?",
+      "answer": "The official course page names GATA and a personal interview; confirm arrangements for the intended intake.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. Agriculture?",
+      "answer": "The university lists four years.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is the agribusiness MBA taught by the agriculture school?",
+      "answer": "The school catalogue explicitly says it is offered by the School of Management.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are fee figures confirmed for 2026-27?",
+      "answer": "No. The checked fee table and course page are undated, so their amounts are not labelled as current intake prices.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "What is the exact checked ICAR scope?",
+      "answer": "The audited row prints B.Sc. (Hons.) Agriculture for 13 July 2023 to 12 July 2028.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "GD Goenka University | Agriculture courses and admissions",
+    "description": "Review GD Goenka University agriculture courses, the GATA and interview route, recent agricultural activities, fee verification gaps and exact ICAR coverage.",
+    "keywords": [
+      "GD Goenka University agriculture",
+      "GD Goenka University admissions",
+      "GD Goenka University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.gdgoenkauniversity.com/siteassets/images/state_art1.webp",
+    "logo_url": "https://www.gdgoenkauniversity.com/siteassets/images/gd-goenka-img/home-logo.svg",
+    "campus_alt": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+    "caption": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/gd-goenka-university/logo.svg",
+    "local_campus_image": "media/gd-goenka-university/campus-02.webp",
+    "local_gallery": [
+      "media/gd-goenka-university/campus-02.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.gdgoenkauniversity.com/course/bsc-hons-agriculture",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview",
+        "programmes",
+        "admissions"
+      ],
+      "notes": "Undated total INR 7.25 lakh and semester figures are not treated as a current fee quotation."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.gdgoenkauniversity.com/school/school-of-agricultural-sciences",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus",
+        "placements"
+      ],
+      "notes": "2026 event dates are specific; overall placement banners lack agriculture cohort definitions."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.gdgoenkauniversity.com/admissions/fee-structure",
+      "title": "University fee structure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes"
+      ],
+      "notes": "Undated B.Sc. annual INR 1,75,000 figure not used as a 2026-27 amount.",
+      "note": "School of Agricultural Sciences table is undated; no2026/2027 price claim is made."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.gdgoenkauniversity.com/siteassets/pdf/strategic-plan.pdf",
+      "title": "University identity in strategic plan 2023-28",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.gdgoenkauniversity.com/",
+      "title": "GD Goenka University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/gd-goenka-university/logo.svg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.gdgoenkauniversity.com/about-us/about-gd-goenka-university",
+      "title": "GD Goenka University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/gd-goenka-university/campus-02.webp. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "r2_scholarships2026",
+      "title": "GD Goenka scholarship rules and 2026 deadline",
+      "url": "https://www.gdgoenkauniversity.com/admissions/scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "scholarships",
+        "admissions.dates"
+      ],
+      "notes": "Agriculture-specific 70–79.99% band, higher merit bands, 31 October 2026 evidence deadline and one-award/continuation rules read."
+    },
+    {
+      "id": "r2_faculty_vegetable",
+      "title": "GD Goenka Vegetable Science faculty profile",
+      "url": "https://www.gdgoenkauniversity.com/faculty/dr-deepak-maurya",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faculty"
+      ],
+      "notes": "Undated professional web entry checked 31 October 2026; no personal family details copied."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "All three listed programmes now have source-specific annual amounts, but the official table is undated; current-year confirmation remains open.",
+      "next_source": "https://www.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A named Vegetable Science faculty member is verified on the official page; a separately dated complete roster is not established.",
+      "next_source": "https://www.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://applications.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://applications.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://applications.gdgoenkauniversity.com/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.gdgoenkauniversity.com/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+      "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+      "M.Sc. Horticulture — Vegetable Science: added source-specific fee amount with period and session status.",
+      "Filled agriculture scholarship slabs, conditions and deadline, and added a named Vegetable Science teacher."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

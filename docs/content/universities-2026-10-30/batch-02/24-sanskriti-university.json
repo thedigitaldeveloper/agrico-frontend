@@ -1,0 +1,478 @@
+{
+  "id": 24,
+  "slug": "sanskriti-university",
+  "name": "Sanskriti University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": null,
+    "ownership": "Private university",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "established": 2016,
+    "address": "28 K. M. Stone, Mathura - Delhi Highway, Mathura, Uttar Pradesh, India",
+    "parent_university": null,
+    "website": "https://www.sanskriti.edu.in/",
+    "admissions_url": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+    "phone": "1800 120 2880",
+    "email": "info@sanskriti.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Sanskriti University",
+    "summary": "Sanskriti University’s School of Agriculture combines degree teaching with an ecological farming centre at its Mathura campus. Its 2026-27 brochure lists undergraduate agriculture and postgraduate agronomy and horticulture, allowing applicants to compare broad agricultural training with more specialised study.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture teaching alongside an ecological farming centre",
+    "paragraphs": [
+      "The School of Agriculture describes laboratory experiments as a regular part of its teaching. It also reports a Centre of Excellence on Ecological Farming under the guidance of the Process and Products Development Centre associated with MSME. The centre’s stated remit includes sustainable practices and farm mechanisation training for students and farmers.",
+      "For costs and entry rules, the dated brochure is more useful than older course pages. The 2026-27 brochure lists a four-year B.Sc. (Hons.) Agriculture and two-year postgraduate options in agronomy and horticulture. An older undergraduate page displays a lower annual figure, so this profile follows the explicitly dated brochure rather than silently mixing prices."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "School of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Mathura, Uttar Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "An undergraduate agricultural science course with laboratory-based teaching described by the school.",
+      "eligibility": "2026-27 brochure: 10+2 with PCM, PCB or Agriculture and at least 50% aggregate.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 90000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Annual course fee in the 2026-27 brochure; semester payment is separately shown as INR 47,000.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Specialist postgraduate study listed in the agriculture section of the brochure.",
+      "eligibility": "2026-27 brochure: graduation in the relevant subject with at least 50% aggregate.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Annual course fee; additional charges must be checked.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. Horticulture",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A separate postgraduate horticulture route in the same brochure.",
+      "eligibility": "2026-27 brochure: graduation in the relevant subject with at least 50% aggregate.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Annual course fee; additional charges must be checked.",
+        "verification": "verified",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "Sanskriti publishes an admission-procedure page and links its application portal. Use the 2026-27 brochure for the programme-specific academic threshold and request the selection and document requirements for the intended course.",
+    "eligibility_points": [
+      "B.Sc. Agriculture: 10+2 PCM, PCB or Agriculture with 50% aggregate in the 2026-27 brochure.",
+      "Postgraduate agronomy and horticulture: relevant graduation with 50% aggregate in that brochure."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [
+      "Signed admission form and proof of date of birth.",
+      "Class X and XII certificates/mark sheets; graduation or postgraduate records where applicable.",
+      "Migration/transfer certificate and conduct/character certificate.",
+      "Medical-fitness certificate from an MBBS or equivalent practitioner, and Aadhaar.",
+      "Originals and three photocopy sets; ten applicant and four parent passport-size photographs.",
+      "Prescribed result-awaited undertaking when applicable; anti-ragging undertakings at course registration."
+    ],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Ecological farming and subject laboratories",
+    "intro": "The school’s official account identifies subject laboratories and an ecological farming centre. Its description links the centre to training in sustainable farming and mechanisation; it does not document an identical practical timetable for every cohort.",
+    "facilities": [
+      {
+        "name": "Agriculture subject laboratories",
+        "description": "The school describes experiments supported by subject laboratories and technicians.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Centre of Excellence on Ecological Farming",
+        "description": "The centre is described as a training resource for students and farmers.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s2"
+    ],
+    "student_services": [
+      {
+        "name": "Separate residential hostels",
+        "description": "The university describes separate hostels for boys and girls, with cleaning and maintenance provision. A room offer and its applicable charges require written confirmation.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      },
+      {
+        "name": "Campus and hostel safety",
+        "description": "Its infrastructure account describes a secured campus boundary and measures restricting unauthorised entry.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "Sanskriti’s undated scholarship policy describes general categories including sports, defence, girls and disability. Its published conditions limit awards to tuition, allow one scheme at a time and require academic continuation without back papers. Agriculture applicants should obtain a dated programme-specific award; engineering and MBA merit tables are not agriculture entitlements.",
+    "schemes": [
+      {
+        "name": "General-category scholarship conditions (undated)",
+        "details": "The page lists defence, girls, disability and sports categories, with supporting-proof requirements. Only one scheme may apply, tuition-only limits and continuation conditions apply, and the stated exclusions include BAMS, BUMS, B.Sc. Nursing and Ph.D. Agriculture-specific current approval is still required.",
+        "source_ids": [
+          "o31_scholarship"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_scholarship"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists School of Agriculture for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "School of Agriculture",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A32:G32"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A verified current list of agriculture teaching staff has not yet been added.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "What annual agriculture fee does Sanskriti publish for 2026-27?",
+      "answer": "The dated brochure lists INR 90,000 annually for B.Sc. (Hons.) Agriculture. This is not a full living-cost budget.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which 10+2 subject combinations are accepted?",
+      "answer": "The 2026-27 brochure lists PCM, PCB or Agriculture, with a minimum 50% aggregate.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does Sanskriti offer postgraduate agricultural study?",
+      "answer": "The brochure lists two-year M.Sc. options in Agronomy and Horticulture.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What is the ecological farming centre?",
+      "answer": "The school describes a centre working under PPDC/MSME guidance for training related to sustainable practices and mechanisation.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the ICAR entry automatically cover the M.Sc. programmes?",
+      "answer": "No. The audited School of Agriculture row explicitly prints B.Sc. (Hons.) Agriculture.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sanskriti University | Agriculture courses and admissions",
+    "description": "Review Sanskriti University agriculture courses in Mathura, verified 2026-27 brochure fees, eligibility, ecological farming facilities and ICAR course scope.",
+    "keywords": [
+      "Sanskriti University agriculture",
+      "Sanskriti University admissions",
+      "Sanskriti University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://media.getmyuni.com/azure/college-images-test/sanskriti-university-mathura/exterior-images-aeef5e411b83308d8512e32c56a8932f.jpg",
+    "logo_url": "https://mtech.collegevidya.in/images/sanskriti.png",
+    "campus_alt": "Sanskriti University domed entrance facade with university lettering at Mathura",
+    "caption": "Sanskriti University domed entrance facade with university lettering at Mathura",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/sanskriti-university/logo.png",
+    "local_campus_image": "media/sanskriti-university/campus-01.jpg",
+    "local_gallery": [
+      "media/sanskriti-university/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sanskriti.edu.in/agriculture.php",
+      "title": "School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "identity.phone"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://www.sanskriti.edu.in/pdf/brochure.pdf",
+      "title": "Sanskriti University brochure 2026-27, agriculture section",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "admissions"
+      ],
+      "notes": "Direct fetch exceeded web tool size limit; indexed table explicitly labels 2026-27. Re-read source PDF before publication."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.sanskriti.edu.in/m-new-assets/ug-program/bsc-agriculture.php",
+      "title": "Older B.Sc. Agriculture course page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.email",
+        "overview.fee_conflict"
+      ],
+      "notes": "Undated annual INR 75,000 differs from 2026-27 brochure; not used."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "",
+      "note": "Undated university-wide reporting checklist; intake-specific amendments should be checked."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.sanskriti.edu.in/about-us/the-university.php",
+      "title": "About Sanskriti University",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://mtech.collegevidya.in/",
+      "title": "Sanskriti University — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sanskriti-university/logo.png. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.getmyuni.com/college/sanskriti-university-mathura",
+      "title": "Sanskriti University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sanskriti-university/campus-01.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "o31_scholarship",
+      "title": "Sanskriti official scholarship policy",
+      "url": "https://www.sanskriti.edu.in/admissions/scholarship.php",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Policy page is undated. General categories are documented; agriculture intake-year award applicability must be confirmed in writing."
+    },
+    {
+      "id": "r2_hostel",
+      "title": "Sanskriti infrastructure: hostel and campus safety",
+      "url": "https://www.sanskriti.edu.in/infrastructure/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services"
+      ],
+      "notes": "Undated official hostel availability description; no current tariff inferred."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "sources.s3",
+      "reason": "The 20 MB brochure could not be fully fetched by web tooling; current fees and criteria were read from its indexed official search excerpt.",
+      "next_source": "https://www.sanskriti.edu.in/pdf/brochure.pdf"
+    },
+    {
+      "field": "scholarships",
+      "reason": "General official policy categories and exclusions now recorded; dated agriculture-specific award applicability remains unverified.",
+      "next_source": "https://www.sanskriti.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A dated current agriculture staff roster was not verified.",
+      "next_source": "https://www.sanskriti.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.sanskriti.edu.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://www.sanskriti.edu.in/admissions/admission-procedure.php"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.sanskriti.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added supported general scholarship categories and conditions without importing engineering/MBA percentages.",
+      "Added documented hostel and campus-safety arrangements."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

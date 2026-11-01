@@ -1,0 +1,1103 @@
+{
+  "date": "2026-10-11T19:17:23.596Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "sourceHashes": {
+    "src/components/rs/home.tsx": "894100c9c342aef170fcee447e0ce587ca36f2a16b79d7a41e108a0da314f509",
+    "src/components/rs/home-types.ts": "8562663323f0578592b1676753c432b294d02dbe2a2130a087b08eb17e2b39f9",
+    "src/components/rs/university-section.tsx": "c36194b5c265f97b70763f10760050e4d1868aebe7a49dfc038f5b234dddae85",
+    "src/components/rs/university-section.css": "d80ee9f32bf8deaa18cb22f9dbcff8dfe1bbe6361781fa66af12745061175afb",
+    "src/components/rs/programme-spotlight.tsx": "a4ddc97fa1b7e20a7d0c426ea85040a617220fad6b2e553b0c95a989a009aac9",
+    "src/components/rs/programme-spotlight.css": "57ac6d3859ae8783be9ef33a2defbe3183785111eb3fe1f5bb4ff329c53efa0c",
+    "src/lib/cms/repositories/home.ts": "4078e56a9abbedfea4225b3b5727dd28d87a6ae696c2a95a36147539b2304563",
+    "src/lib/cms/repositories/rs-home.ts": "4ae412ac98933fdea8cd025fe788a05dd04d450a188075145c11e05cc95098be",
+    "src/lib/cms/repositories/rs-catalogue.ts": "57171afd386d0a1498ad0d9b37dc6e86468c7f91f9eb78007466657d95d03579",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "checks": [
+    "Expected selection, marks, programme relationships and spotlight read from public CMS GETs",
+    {
+      "width": 1440,
+      "interaction": {
+        "width": 1440,
+        "scrollable": false,
+        "visible": 4,
+        "checks": [
+          "controls hidden when all fit"
+        ]
+      }
+    },
+    "1440px: CMS order/media/links, compact geometry, no overflow and carousel controls",
+    {
+      "width": 1031,
+      "interaction": {
+        "width": 1031,
+        "scrollable": true,
+        "visible": 3,
+        "checks": [
+          "arrows",
+          "disabled endpoints",
+          "keyboard arrows/Home/End",
+          "nested link keys"
+        ]
+      }
+    },
+    "1031px: CMS order/media/links, compact geometry, no overflow and carousel controls",
+    {
+      "width": 768,
+      "interaction": {
+        "width": 768,
+        "scrollable": true,
+        "visible": 2,
+        "checks": [
+          "arrows",
+          "disabled endpoints",
+          "keyboard arrows/Home/End",
+          "nested link keys"
+        ]
+      }
+    },
+    "768px: CMS order/media/links, compact geometry, no overflow and carousel controls",
+    {
+      "width": 390,
+      "interaction": {
+        "width": 390,
+        "scrollable": true,
+        "visible": 1,
+        "checks": [
+          "arrows",
+          "disabled endpoints",
+          "keyboard arrows/Home/End",
+          "nested link keys",
+          "native browser touch swipe"
+        ]
+      }
+    },
+    "390px: CMS order/media/links, compact geometry, no overflow and carousel controls",
+    {
+      "width": 360,
+      "interaction": {
+        "width": 360,
+        "scrollable": true,
+        "visible": 1,
+        "checks": [
+          "arrows",
+          "disabled endpoints",
+          "keyboard arrows/Home/End",
+          "nested link keys",
+          "native browser touch swipe"
+        ]
+      }
+    },
+    "360px: CMS order/media/links, compact geometry, no overflow and carousel controls",
+    "University name navigates to /university/manipal-university-jaipur",
+    "Explore university navigates to /university/manipal-university-jaipur",
+    "University programme chip navigates to /offering/manipal-university-jaipur/manipal-university-jaipur-online-mba",
+    "Spotlight programme CTA navigates to /offering/manipal-university-jaipur/manipal-university-jaipur-online-mba"
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "universities": {
+        "x": 80,
+        "y": 1071.90625,
+        "width": 1280,
+        "height": 228.03125,
+        "right": 1360,
+        "bottom": 1299.9375
+      },
+      "heading": {
+        "x": 80,
+        "y": 1091.90625,
+        "width": 1280,
+        "height": 66.03125,
+        "right": 1360,
+        "bottom": 1157.9375
+      },
+      "track": {
+        "x": 80,
+        "y": 1169.9375,
+        "width": 1280,
+        "height": 118,
+        "right": 1360,
+        "bottom": 1287.9375
+      },
+      "sharedContainer": {
+        "x": 80,
+        "y": 49,
+        "width": 1280,
+        "height": 389.875,
+        "right": 1360,
+        "bottom": 438.875
+      },
+      "spotlight": {
+        "x": 0,
+        "y": 1299.9375,
+        "width": 1440,
+        "height": 227.984375,
+        "right": 1440,
+        "bottom": 1527.921875
+      },
+      "cards": [
+        {
+          "id": "ylbg4aoq90iu6wwmklmfv2rk",
+          "x": 80,
+          "y": 1169.9375,
+          "width": 309.5,
+          "height": 118,
+          "right": 389.5,
+          "bottom": 1287.9375,
+          "copy": {
+            "x": 81,
+            "y": 1170.9375,
+            "width": 307.5,
+            "height": 116,
+            "right": 388.5,
+            "bottom": 1286.9375
+          },
+          "programmeCount": 1,
+          "nameLength": 25,
+          "contentOverflow": false
+        },
+        {
+          "id": "fsxgzlniewe7gye2univyc25",
+          "x": 403.5,
+          "y": 1169.9375,
+          "width": 309.5,
+          "height": 118,
+          "right": 713,
+          "bottom": 1287.9375,
+          "copy": {
+            "x": 404.5,
+            "y": 1170.9375,
+            "width": 307.5,
+            "height": 116,
+            "right": 712,
+            "bottom": 1286.9375
+          },
+          "programmeCount": 1,
+          "nameLength": 21,
+          "contentOverflow": false
+        },
+        {
+          "id": "ahbn038222z1ocr280pgxtot",
+          "x": 727,
+          "y": 1169.9375,
+          "width": 309.5,
+          "height": 118,
+          "right": 1036.5,
+          "bottom": 1287.9375,
+          "copy": {
+            "x": 728,
+            "y": 1170.9375,
+            "width": 307.5,
+            "height": 116,
+            "right": 1035.5,
+            "bottom": 1286.9375
+          },
+          "programmeCount": 1,
+          "nameLength": 16,
+          "contentOverflow": false
+        },
+        {
+          "id": "m32e2xs1wzmjpf9peinipfn1",
+          "x": 1050.5,
+          "y": 1169.9375,
+          "width": 309.5,
+          "height": 118,
+          "right": 1360,
+          "bottom": 1287.9375,
+          "copy": {
+            "x": 1051.5,
+            "y": 1170.9375,
+            "width": 307.5,
+            "height": 116,
+            "right": 1359,
+            "bottom": 1286.9375
+          },
+          "programmeCount": 1,
+          "nameLength": 30,
+          "contentOverflow": false
+        }
+      ],
+      "spotlightCta": {
+        "x": 256.75,
+        "y": 1461.921875,
+        "width": 218.046875,
+        "height": 44,
+        "right": 474.796875,
+        "bottom": 1505.921875
+      },
+      "spotlightImage": {
+        "x": 806.40625,
+        "y": 1299.9375,
+        "width": 633.59375,
+        "height": 227.984375,
+        "right": 1440,
+        "bottom": 1527.921875
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 48
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=640&q=75",
+          "naturalWidth": 494,
+          "naturalHeight": 451
+        }
+      ]
+    },
+    {
+      "width": 1031,
+      "documentWidth": 1031,
+      "universities": {
+        "x": 52,
+        "y": 1044.828125,
+        "width": 927,
+        "height": 270.171875,
+        "right": 979,
+        "bottom": 1315
+      },
+      "heading": {
+        "x": 52,
+        "y": 1064.828125,
+        "width": 927,
+        "height": 56.171875,
+        "right": 979,
+        "bottom": 1121
+      },
+      "track": {
+        "x": 52,
+        "y": 1133,
+        "width": 927,
+        "height": 118,
+        "right": 979,
+        "bottom": 1251
+      },
+      "sharedContainer": {
+        "x": 52,
+        "y": 49,
+        "width": 927,
+        "height": 365.875,
+        "right": 979,
+        "bottom": 414.875
+      },
+      "spotlight": {
+        "x": 0,
+        "y": 1315,
+        "width": 1031,
+        "height": 216,
+        "right": 1031,
+        "bottom": 1531
+      },
+      "cards": [
+        {
+          "id": "ylbg4aoq90iu6wwmklmfv2rk",
+          "x": 52,
+          "y": 1133,
+          "width": 299.65625,
+          "height": 118,
+          "right": 351.65625,
+          "bottom": 1251,
+          "copy": {
+            "x": 53,
+            "y": 1134,
+            "width": 297.65625,
+            "height": 116,
+            "right": 350.65625,
+            "bottom": 1250
+          },
+          "programmeCount": 1,
+          "nameLength": 25,
+          "contentOverflow": false
+        },
+        {
+          "id": "fsxgzlniewe7gye2univyc25",
+          "x": 365.65625,
+          "y": 1133,
+          "width": 299.65625,
+          "height": 118,
+          "right": 665.3125,
+          "bottom": 1251,
+          "copy": {
+            "x": 366.65625,
+            "y": 1134,
+            "width": 297.65625,
+            "height": 116,
+            "right": 664.3125,
+            "bottom": 1250
+          },
+          "programmeCount": 1,
+          "nameLength": 21,
+          "contentOverflow": false
+        },
+        {
+          "id": "ahbn038222z1ocr280pgxtot",
+          "x": 679.3125,
+          "y": 1133,
+          "width": 299.65625,
+          "height": 118,
+          "right": 978.96875,
+          "bottom": 1251,
+          "copy": {
+            "x": 680.3125,
+            "y": 1134,
+            "width": 297.65625,
+            "height": 116,
+            "right": 977.96875,
+            "bottom": 1250
+          },
+          "programmeCount": 1,
+          "nameLength": 16,
+          "contentOverflow": false
+        },
+        {
+          "id": "m32e2xs1wzmjpf9peinipfn1",
+          "x": 992.96875,
+          "y": 1133,
+          "width": 299.65625,
+          "height": 118,
+          "right": 1292.625,
+          "bottom": 1251,
+          "copy": {
+            "x": 993.96875,
+            "y": 1134,
+            "width": 297.65625,
+            "height": 116,
+            "right": 1291.625,
+            "bottom": 1250
+          },
+          "programmeCount": 1,
+          "nameLength": 30,
+          "contentOverflow": false
+        }
+      ],
+      "spotlightCta": {
+        "x": 228.75,
+        "y": 1461.875,
+        "width": 218.046875,
+        "height": 44,
+        "right": 446.796875,
+        "bottom": 1505.875
+      },
+      "spotlightImage": {
+        "x": 577.375,
+        "y": 1315,
+        "width": 453.625,
+        "height": 216,
+        "right": 1031,
+        "bottom": 1531
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 48
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=640&q=75",
+          "naturalWidth": 354,
+          "naturalHeight": 323
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "universities": {
+        "x": 24,
+        "y": 1059.640625,
+        "width": 720,
+        "height": 270.734375,
+        "right": 744,
+        "bottom": 1330.375
+      },
+      "heading": {
+        "x": 24,
+        "y": 1079.640625,
+        "width": 720,
+        "height": 56.734375,
+        "right": 744,
+        "bottom": 1136.375
+      },
+      "track": {
+        "x": 24,
+        "y": 1148.375,
+        "width": 720,
+        "height": 118,
+        "right": 744,
+        "bottom": 1266.375
+      },
+      "sharedContainer": {
+        "x": 24,
+        "y": 65,
+        "width": 720,
+        "height": 389.09375,
+        "right": 744,
+        "bottom": 454.09375
+      },
+      "spotlight": {
+        "x": 0,
+        "y": 1330.375,
+        "width": 768,
+        "height": 216,
+        "right": 768,
+        "bottom": 1546.375
+      },
+      "cards": [
+        {
+          "id": "ylbg4aoq90iu6wwmklmfv2rk",
+          "x": 24,
+          "y": 1148.375,
+          "width": 353,
+          "height": 118,
+          "right": 377,
+          "bottom": 1266.375,
+          "copy": {
+            "x": 25,
+            "y": 1149.375,
+            "width": 351,
+            "height": 116,
+            "right": 376,
+            "bottom": 1265.375
+          },
+          "programmeCount": 1,
+          "nameLength": 25,
+          "contentOverflow": false
+        },
+        {
+          "id": "fsxgzlniewe7gye2univyc25",
+          "x": 391,
+          "y": 1148.375,
+          "width": 353,
+          "height": 118,
+          "right": 744,
+          "bottom": 1266.375,
+          "copy": {
+            "x": 392,
+            "y": 1149.375,
+            "width": 351,
+            "height": 116,
+            "right": 743,
+            "bottom": 1265.375
+          },
+          "programmeCount": 1,
+          "nameLength": 21,
+          "contentOverflow": false
+        },
+        {
+          "id": "ahbn038222z1ocr280pgxtot",
+          "x": 758,
+          "y": 1148.375,
+          "width": 353,
+          "height": 118,
+          "right": 1111,
+          "bottom": 1266.375,
+          "copy": {
+            "x": 759,
+            "y": 1149.375,
+            "width": 351,
+            "height": 116,
+            "right": 1110,
+            "bottom": 1265.375
+          },
+          "programmeCount": 1,
+          "nameLength": 16,
+          "contentOverflow": false
+        },
+        {
+          "id": "m32e2xs1wzmjpf9peinipfn1",
+          "x": 1125,
+          "y": 1148.375,
+          "width": 353,
+          "height": 118,
+          "right": 1478,
+          "bottom": 1266.375,
+          "copy": {
+            "x": 1126,
+            "y": 1149.375,
+            "width": 351,
+            "height": 116,
+            "right": 1477,
+            "bottom": 1265.375
+          },
+          "programmeCount": 1,
+          "nameLength": 30,
+          "contentOverflow": false
+        }
+      ],
+      "spotlightCta": {
+        "x": 192.75,
+        "y": 1471.96875,
+        "width": 218.046875,
+        "height": 44,
+        "right": 410.796875,
+        "bottom": 1515.96875
+      },
+      "spotlightImage": {
+        "x": 445.453125,
+        "y": 1330.375,
+        "width": 322.546875,
+        "height": 216,
+        "right": 768,
+        "bottom": 1546.375
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 48
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "naturalWidth": 322,
+          "naturalHeight": 294
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "universities": {
+        "x": 18,
+        "y": 1541.921875,
+        "width": 354,
+        "height": 370.46875,
+        "right": 372,
+        "bottom": 1912.390625
+      },
+      "heading": {
+        "x": 18,
+        "y": 1563.921875,
+        "width": 354,
+        "height": 156.46875,
+        "right": 372,
+        "bottom": 1720.390625
+      },
+      "track": {
+        "x": 18,
+        "y": 1728.390625,
+        "width": 354,
+        "height": 118,
+        "right": 372,
+        "bottom": 1846.390625
+      },
+      "sharedContainer": {
+        "x": 18,
+        "y": 63,
+        "width": 354,
+        "height": 656.921875,
+        "right": 372,
+        "bottom": 719.921875
+      },
+      "spotlight": {
+        "x": 0,
+        "y": 1912.390625,
+        "width": 390,
+        "height": 307.0625,
+        "right": 390,
+        "bottom": 2219.453125
+      },
+      "cards": [
+        {
+          "id": "ylbg4aoq90iu6wwmklmfv2rk",
+          "x": 18,
+          "y": 1728.390625,
+          "width": 354,
+          "height": 118,
+          "right": 372,
+          "bottom": 1846.390625,
+          "copy": {
+            "x": 19,
+            "y": 1729.390625,
+            "width": 352,
+            "height": 116,
+            "right": 371,
+            "bottom": 1845.390625
+          },
+          "programmeCount": 1,
+          "nameLength": 25,
+          "contentOverflow": false
+        },
+        {
+          "id": "fsxgzlniewe7gye2univyc25",
+          "x": 384,
+          "y": 1728.390625,
+          "width": 354,
+          "height": 118,
+          "right": 738,
+          "bottom": 1846.390625,
+          "copy": {
+            "x": 385,
+            "y": 1729.390625,
+            "width": 352,
+            "height": 116,
+            "right": 737,
+            "bottom": 1845.390625
+          },
+          "programmeCount": 1,
+          "nameLength": 21,
+          "contentOverflow": false
+        },
+        {
+          "id": "ahbn038222z1ocr280pgxtot",
+          "x": 750,
+          "y": 1728.390625,
+          "width": 354,
+          "height": 118,
+          "right": 1104,
+          "bottom": 1846.390625,
+          "copy": {
+            "x": 751,
+            "y": 1729.390625,
+            "width": 352,
+            "height": 116,
+            "right": 1103,
+            "bottom": 1845.390625
+          },
+          "programmeCount": 1,
+          "nameLength": 16,
+          "contentOverflow": false
+        },
+        {
+          "id": "m32e2xs1wzmjpf9peinipfn1",
+          "x": 1116,
+          "y": 1728.390625,
+          "width": 354,
+          "height": 118,
+          "right": 1470,
+          "bottom": 1846.390625,
+          "copy": {
+            "x": 1117,
+            "y": 1729.390625,
+            "width": 352,
+            "height": 116,
+            "right": 1469,
+            "bottom": 1845.390625
+          },
+          "programmeCount": 1,
+          "nameLength": 30,
+          "contentOverflow": false
+        }
+      ],
+      "spotlightCta": {
+        "x": 18,
+        "y": 2157.453125,
+        "width": 354,
+        "height": 44,
+        "right": 372,
+        "bottom": 2201.453125
+      },
+      "spotlightImage": {
+        "x": 260,
+        "y": 1992.453125,
+        "width": 112,
+        "height": 112,
+        "right": 372,
+        "bottom": 2104.453125
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 48
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "naturalWidth": 112,
+          "naturalHeight": 102
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "documentWidth": 360,
+      "universities": {
+        "x": 18,
+        "y": 1600.609375,
+        "width": 324,
+        "height": 370.46875,
+        "right": 342,
+        "bottom": 1971.078125
+      },
+      "heading": {
+        "x": 18,
+        "y": 1622.609375,
+        "width": 324,
+        "height": 156.46875,
+        "right": 342,
+        "bottom": 1779.078125
+      },
+      "track": {
+        "x": 18,
+        "y": 1787.078125,
+        "width": 324,
+        "height": 118,
+        "right": 342,
+        "bottom": 1905.078125
+      },
+      "sharedContainer": {
+        "x": 18,
+        "y": 63,
+        "width": 324,
+        "height": 693.109375,
+        "right": 342,
+        "bottom": 756.109375
+      },
+      "spotlight": {
+        "x": 0,
+        "y": 1971.078125,
+        "width": 360,
+        "height": 307.0625,
+        "right": 360,
+        "bottom": 2278.140625
+      },
+      "cards": [
+        {
+          "id": "ylbg4aoq90iu6wwmklmfv2rk",
+          "x": 18,
+          "y": 1787.078125,
+          "width": 324,
+          "height": 118,
+          "right": 342,
+          "bottom": 1905.078125,
+          "copy": {
+            "x": 19,
+            "y": 1788.078125,
+            "width": 322,
+            "height": 116,
+            "right": 341,
+            "bottom": 1904.078125
+          },
+          "programmeCount": 1,
+          "nameLength": 25,
+          "contentOverflow": false
+        },
+        {
+          "id": "fsxgzlniewe7gye2univyc25",
+          "x": 354,
+          "y": 1787.078125,
+          "width": 324,
+          "height": 118,
+          "right": 678,
+          "bottom": 1905.078125,
+          "copy": {
+            "x": 355,
+            "y": 1788.078125,
+            "width": 322,
+            "height": 116,
+            "right": 677,
+            "bottom": 1904.078125
+          },
+          "programmeCount": 1,
+          "nameLength": 21,
+          "contentOverflow": false
+        },
+        {
+          "id": "ahbn038222z1ocr280pgxtot",
+          "x": 690,
+          "y": 1787.078125,
+          "width": 324,
+          "height": 118,
+          "right": 1014,
+          "bottom": 1905.078125,
+          "copy": {
+            "x": 691,
+            "y": 1788.078125,
+            "width": 322,
+            "height": 116,
+            "right": 1013,
+            "bottom": 1904.078125
+          },
+          "programmeCount": 1,
+          "nameLength": 16,
+          "contentOverflow": false
+        },
+        {
+          "id": "m32e2xs1wzmjpf9peinipfn1",
+          "x": 1026,
+          "y": 1787.078125,
+          "width": 324,
+          "height": 118,
+          "right": 1350,
+          "bottom": 1905.078125,
+          "copy": {
+            "x": 1027,
+            "y": 1788.078125,
+            "width": 322,
+            "height": 116,
+            "right": 1349,
+            "bottom": 1904.078125
+          },
+          "programmeCount": 1,
+          "nameLength": 30,
+          "contentOverflow": false
+        }
+      ],
+      "spotlightCta": {
+        "x": 18,
+        "y": 2216.140625,
+        "width": 324,
+        "height": 44,
+        "right": 342,
+        "bottom": 2260.140625
+      },
+      "spotlightImage": {
+        "x": 237.609375,
+        "y": 2051.140625,
+        "width": 104.390625,
+        "height": 112,
+        "right": 342,
+        "bottom": 2163.140625
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png%3Fv%3D2026-10-11T18%253A05%253A12.989Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_amity_university_card_logo_original_672eb5adf9.png%3Fv%3D2026-10-11T18%253A05%253A13.359Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 48
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_lovely_professional_university_card_logo_original_f604059fb6.png%3Fv%3D2026-10-11T18%253A05%253A13.724Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png%3Fv%3D2026-10-11T18%253A05%253A12.649Z&w=48&q=75",
+          "naturalWidth": 40,
+          "naturalHeight": 40
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "naturalWidth": 112,
+          "naturalHeight": 102
+        }
+      ]
+    }
+  ],
+  "network": [
+    {
+      "width": 1440,
+      "phase": "Initial homepage and university-only logo scroll; before explicit Spotlight visit",
+      "universityCampusImagesInDom": 0,
+      "universityOnlyCampusRequests": [],
+      "sharedCampusRequestsFromRetainedSections": [
+        {
+          "url": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=640&q=75",
+          "asset": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+        }
+      ]
+    },
+    {
+      "width": 1031,
+      "phase": "Initial homepage and university-only logo scroll; before explicit Spotlight visit",
+      "universityCampusImagesInDom": 0,
+      "universityOnlyCampusRequests": [],
+      "sharedCampusRequestsFromRetainedSections": [
+        {
+          "url": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=640&q=75",
+          "asset": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "phase": "Initial homepage and university-only logo scroll; before explicit Spotlight visit",
+      "universityCampusImagesInDom": 0,
+      "universityOnlyCampusRequests": [],
+      "sharedCampusRequestsFromRetainedSections": [
+        {
+          "url": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "asset": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "phase": "Initial homepage and university-only logo scroll; before explicit Spotlight visit",
+      "universityCampusImagesInDom": 0,
+      "universityOnlyCampusRequests": [],
+      "sharedCampusRequestsFromRetainedSections": [
+        {
+          "url": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "asset": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "phase": "Initial homepage and university-only logo scroll; before explicit Spotlight visit",
+      "universityCampusImagesInDom": 0,
+      "universityOnlyCampusRequests": [],
+      "sharedCampusRequestsFromRetainedSections": [
+        {
+          "url": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Frs_official_manipal_university_jaipur_image_7d3542589a.jpg%3Fv%3D2026-10-11T15%253A38%253A02.076Z&w=384&q=75",
+          "asset": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "limitations": [],
+  "cmsSelection": {
+    "universities": [
+      {
+        "documentId": "ylbg4aoq90iu6wwmklmfv2rk",
+        "slug": "manipal-university-jaipur",
+        "name": "Manipal University Jaipur",
+        "cardLogo": "/uploads/rs_official_manipal_university_jaipur_card_logo_original_b7ffe60f48.png",
+        "logo": "/uploads/rs_official_manipal_university_jaipur_logo_f2dbf95b2a.svg",
+        "image": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg",
+        "links": [
+          {
+            "label": "MBA",
+            "href": "/offering/manipal-university-jaipur/manipal-university-jaipur-online-mba"
+          }
+        ]
+      },
+      {
+        "documentId": "fsxgzlniewe7gye2univyc25",
+        "slug": "chandigarh-university",
+        "name": "Chandigarh University",
+        "cardLogo": "/uploads/rs_official_chandigarh_university_card_logo_original_b81d8ddeb7.png",
+        "logo": "/uploads/rs_official_chandigarh_university_logo_93d7a804c7.webp",
+        "image": "/uploads/rs_official_chandigarh_university_image_7334ec5507.jpg",
+        "links": [
+          {
+            "label": "BBA",
+            "href": "/offering/chandigarh-university/chandigarh-university-online-bba"
+          }
+        ]
+      },
+      {
+        "documentId": "ahbn038222z1ocr280pgxtot",
+        "slug": "amity-university",
+        "name": "Amity University",
+        "cardLogo": "/uploads/rs_official_amity_university_card_logo_original_672eb5adf9.png",
+        "logo": "/uploads/rs_official_amity_university_logo_d1e229f1d1.jpg",
+        "image": "/uploads/rs_official_amity_university_image_1b6889eb89.jpg",
+        "links": [
+          {
+            "label": "MCA",
+            "href": "/offering/amity-university/amity-university-online-mca"
+          }
+        ]
+      },
+      {
+        "documentId": "m32e2xs1wzmjpf9peinipfn1",
+        "slug": "lovely-professional-university",
+        "name": "Lovely Professional University",
+        "cardLogo": "/uploads/rs_official_lovely_professional_university_card_logo_original_f604059fb6.png",
+        "logo": "/uploads/rs_official_lovely_professional_university_logo_ab58bb7858.svg",
+        "image": "/uploads/rs_official_lovely_professional_university_image_bb4da8a835.jpg",
+        "links": [
+          {
+            "label": "MBA",
+            "href": "/offering/lovely-professional-university/lovely-professional-university-online-mba"
+          }
+        ]
+      }
+    ],
+    "spotlight": {
+      "university": "manipal-university-jaipur",
+      "program": "manipal-university-jaipur-online-mba",
+      "href": "/offering/manipal-university-jaipur/manipal-university-jaipur-online-mba",
+      "mode": "Online",
+      "duration": "2 years",
+      "image": "/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg"
+    }
+  },
+  "status": "passed"
+}

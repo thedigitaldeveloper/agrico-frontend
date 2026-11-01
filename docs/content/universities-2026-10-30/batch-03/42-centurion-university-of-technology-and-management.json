@@ -1,0 +1,804 @@
+{
+  "id": 42,
+  "slug": "centurion-university-of-technology-and-management",
+  "name": "Centurion University of Technology and Management, Odisha",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "CUTM",
+    "ownership": "Private university",
+    "city": "Paralakhemundi",
+    "state": "Odisha",
+    "established": 2010,
+    "address": "Village Alluri Nagar, P.O. R Sitapur, via Uppalada, Paralakhemundi, Gajapati, Odisha 761211",
+    "parent_university": null,
+    "website": "https://cutm.ac.in/",
+    "admissions_url": "https://admissions.cutm.ac.in/",
+    "phone": "+91 82600 77222",
+    "email": null
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Centurion University of Technology and Management, Odisha",
+    "summary": "Centurion’s Odisha agriculture and fisheries schools connect degree study with working fields, production enterprises and aquaculture facilities. At Paralakhemundi, agricultural learning includes rural and industrial attachments, while fisheries students study aquatic production, health, processing and resource management in a separate specialist school.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Two allied schools within one Odisha university",
+    "paragraphs": [
+      "The M.S. Swaminathan School of Agriculture describes learning through fields, laboratories and enterprise activity. Its school page identifies agronomy, crop improvement, horticulture, soil science and extension as teaching and research areas. Student READY activities connect experiential work, rural exposure and agro-industrial attachment.",
+      "The School of Fisheries provides another applied pathway at Paralakhemundi. Its regulations describe aquaculture, fish processing, aquatic health and resource management, supported by training ponds, a hatchery and specialist production activity. Agriculture and fisheries therefore offer different practical settings within the university, and applicants can compare crop-based, engineering, agribusiness and aquatic-science routes according to their interests."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "M.S. Swaminathan School of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Paralakhemundi, Odisha"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "Crop, resource and rural-learning undergraduate route.",
+      "eligibility": "The official programme page specifies 50% in 10+2 Science and prints the subject combination as Physics/Math, Chemistry, Biology. Confirm that wording against the intake-year bulletin.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 150000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Separate first-year B.Sc./M.Sc. Agriculture charges total ₹30,000; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s8"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s8"
+      ]
+    },
+    {
+      "name": "B.Tech. Agricultural Engineering",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "Engineering applications in agricultural production and processing.",
+      "eligibility": "10+2 with Physics, Chemistry and Mathematics/Biology, at least 50%; the programme page also requires a CUEE score. Confirm applicability to the intended intake year.",
+      "admission_route": "Centurion University Entrance Exam (CUEE), as stated on the undated programme page.",
+      "fees": {
+        "amount_inr": 110000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s11"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Specialist study in agronomy.",
+      "eligibility": "A four-year Agriculture bachelor’s degree or equivalent with at least 50%, from a recognised university listed under UGC/AIU. Confirm applicability to the intended intake year.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 250000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s12"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s12"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Agricultural Extension Education",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate study in agricultural extension.",
+      "eligibility": "Agriculture, Horticulture or Forestry bachelor’s degree from a recognised Indian university with at least 50%. Confirm applicability to the intended intake year.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 200000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s15"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s15"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Crop-improvement and genetics master’s route.",
+      "eligibility": "Agriculture bachelor’s degree with second division and at least 50%, from a recognised college or university. Confirm applicability to the intended intake year.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 200000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s13"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s13"
+      ]
+    },
+    {
+      "name": "M.Sc. (Hort.) Vegetable Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Specialist postgraduate study in vegetable science.",
+      "eligibility": "Four-year Agriculture bachelor’s degree or equivalent with at least 50%, from a recognised university listed under UGC/AIU. Confirm applicability to the intended intake year.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 200000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s14"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s14"
+      ]
+    },
+    {
+      "name": "MBA Agribusiness Management",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Management study focused on agribusiness.",
+      "eligibility": "Graduation in any discipline plus an entrance examination, as stated on the undated official programme page. Confirm the accepted test and intake-specific minimum marks.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 700000,
+        "period": "total",
+        "academic_year": "2026",
+        "includes": "Published all-inclusive package fee for the Paralakhemundi programme.",
+        "note": "Published package; obtain itemised inclusions and cohort confirmation.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s16"
+        ]
+      },
+      "icar_scope_note": "Listed under M.S. Swaminathan School of Agriculture; accreditation term 2024-03-29 to 2029-03-28.",
+      "source_ids": [
+        "s1",
+        "s16"
+      ]
+    },
+    {
+      "name": "Bachelor of Fisheries Science (B.F.Sc.)",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "Aquatic production, health, processing and resource-management degree.",
+      "eligibility": "The programme page lists PCB, biology-containing PCMB/PCBA combinations, with at least 50% for General/OBC/UPS and 40% for SC/ST/PwD. The page has no intake-year label.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 125000,
+        "period": "year",
+        "academic_year": "2026",
+        "includes": "Paralakhemundi published programme fee.",
+        "note": "Other fees and accommodation are separate; confirm cohort applicability.",
+        "verification": "verified",
+        "source_ids": [
+          "s10",
+          "s9"
+        ]
+      },
+      "icar_scope_note": "School of Fisheries; separate ICAR term 2024-02-08 to 2029-02-07, not the agriculture school term.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s9"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to CUTM",
+    "intro": "Choose the agriculture, agricultural-engineering, fisheries or agribusiness route before checking entry rules. The fee table labels its Paralakhemundi rows 2026 but retains a 2025–26 heading; obtain a cohort-specific statement including other fees and accommodation.",
+    "eligibility_points": [
+      "B.Sc. Agriculture: the programme page specifies 50% in 10+2 Science; obtain confirmation of its printed subject combination.",
+      "B.F.Sc.: the programme page states biology-containing science combinations and category-specific 50%/40% thresholds. These web criteria are undated by intake year."
+    ],
+    "steps": [
+      {
+        "title": "Choose the school and course",
+        "text": "Confirm agriculture, engineering, agribusiness or fisheries and its teaching campus before applying."
+      },
+      {
+        "title": "Check the current entry rules",
+        "text": "Use the linked admissions portal to obtain the relevant intake-year eligibility and fee notice."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s8",
+      "s9",
+      "s6",
+      "s10"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "Agriculture uses research farms and laboratories, while fisheries has its own aquaculture teaching resources documented in the 2022 regulations.",
+    "facilities": [
+      {
+        "name": "Agricultural research farms",
+        "description": "The agriculture school identifies farm-based teaching and enterprise learning.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Aquaculture Research Farm",
+        "description": "The 2022 fisheries regulations describe fish ponds and a carp hatchery.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Agriculture READY activities include experiential learning, rural work and agro-industrial attachment.",
+      "Fisheries regulations describe hands-on aquaponics and ornamental fish culture."
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The published Amrit Kaal table includes Agricultural Engineering within its non-CSE B.Tech group at Paralakhemundi/Bhubaneswar. It sets first-year fee concessions by qualifying results. This is not evidence of the same award for B.Sc. Agriculture, M.Sc. Agriculture or Fisheries, and the page does not give a governing academic year.",
+    "schemes": [
+      {
+        "name": "Amrit Kaal scholarship: non-CSE B.Tech including Agri",
+        "details": "The official table lists 10% for 60–70% qualifying marks and 15% for 70–80%; a separate top-score/JEE/OJEE band lists 20%. These are first-year fee concessions. Boundary wording, programme/campus eligibility and the current policy must be confirmed in the award letter.",
+        "source_ids": [
+          "completion_cutm_scholarship"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_cutm_scholarship"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university's NIRF 2026 Agriculture and Allied Sectors submission reports graduates, placements, higher-study progression and the median annual salary of placed graduates for the cohorts below. The figures apply to the reported programme-duration group, rather than an individual specialisation, and do not predict an applicant's future outcome.",
+    "statistics": [
+      {
+        "label": "UG four-year programmes: 2024-2025",
+        "value": "253 graduates in minimum stipulated time; 170 placed; 83 selected for higher studies; median annual salary of placed graduates ₹4,80,000.",
+        "programme_scope": "UG four-year programmes",
+        "academic_year": "2024-2025",
+        "graduates_in_minimum_time": 253,
+        "placed": 170,
+        "higher_studies": 83,
+        "median_salary_inr": 480000,
+        "reporting_source": "NIRF 2026, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_cutm_nirf_2026"
+        ]
+      },
+      {
+        "label": "PG two-year programmes: 2024-2025",
+        "value": "54 graduates in minimum stipulated time; 37 placed; 13 selected for higher studies; median annual salary of placed graduates ₹4,30,000.",
+        "programme_scope": "PG two-year programmes",
+        "academic_year": "2024-2025",
+        "graduates_in_minimum_time": 54,
+        "placed": 37,
+        "higher_studies": 13,
+        "median_salary_inr": 430000,
+        "reporting_source": "NIRF 2026, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_cutm_nirf_2026"
+        ]
+      }
+    ],
+    "recruiters": [
+      "Coromandel",
+      "Kaveri Seeds",
+      "Syngenta"
+    ],
+    "source_ids": [
+      "s2",
+      "completion_cutm_nirf_2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "Centurion is counted once in the audit. Its agriculture school has the 29 March 2024–28 March 2029 term; the School of Fisheries has the separate 8 February 2024–7 February 2029 term. Only the exact programmes below are supported by these records.",
+    "icar_units": [
+      {
+        "unit": "M.S. Swaminathan School of Agriculture",
+        "programmes_as_printed": [
+          "•\tB.Sc. (Hons.) Agriculture (intake 240)\n•\tB.Tech. Agricultural Engineering (intake 30)\n",
+          "•\tMSc. (Agri) Agronomy (inatke20)\n•\tM.Sc. (Agri) Agricultural Extension Education (intake 10)\n•\tM.Sc. (Agri.) Genetics and Plant Breeding (intake 10) \n•\tM.Sc. (Hort.) Vegetable Science (intake 10)\n•\tMBA Agribusiness Management (intake 10)"
+        ],
+        "valid_from": "2024-03-29",
+        "valid_until": "2029-03-28",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A51:G51"
+      },
+      {
+        "unit": "School of Fisheries",
+        "programmes_as_printed": [
+          "B. F. Sc. (Intake- 40)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A50:G50"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official agriculture faculty excerpt identifies teaching staff by discipline. Appointment status should be rechecked before publishing names as a current directory.",
+    "people": [
+      {
+        "name": "Dr. Sagar Maitra",
+        "role": "Professor and Head, Agronomy, as listed in the official directory excerpt",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Dr. Sambid Swain",
+        "role": "Associate Dean, School of Fisheries",
+        "source_ids": [
+          "s9"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s4",
+      "s9"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Why are two ICAR units shown for Centurion?",
+      "answer": "Agriculture and fisheries have separate source rows; they belong to one Odisha university profile.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does the fisheries degree use the agriculture accreditation dates?",
+      "answer": "No. The fisheries record runs from 8 February 2024 to 7 February 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Where is the fisheries school described in the regulations?",
+      "answer": "The July 2022 regulations place it at the Paralakhemundi campus in Gajapati district.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is agricultural engineering in the audit?",
+      "answer": "Yes. B.Tech. Agricultural Engineering is included under the agriculture school record.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What distinguishes agriculture practical work?",
+      "answer": "The school describes READY activities involving enterprise, rural and industrial exposure.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How are Centurion’s agriculture and fisheries fees quoted?",
+      "answer": "The central table labels its Paralakhemundi rows 2026, while an older heading says 2025–26. Programme pages confirm annual B.Sc./B.F.Sc. charges and an MBA package; obtain a cohort-specific, itemised payable statement.",
+      "source_ids": [
+        "s10"
+      ]
+    },
+    {
+      "question": "Are verified agriculture placement figures available?",
+      "answer": "The NIRF 2026 agriculture/allied submission reports UG four-year programmes (2024-2025): 170 placed from 253 graduates in minimum time, with ₹4,80,000 median annual salary among those placed; PG two-year programmes (2024-2025): 37 placed from 54 graduates in minimum time, with ₹4,30,000 median annual salary among those placed. These are historical group-level outcomes, not specialisation-level placement promises.",
+      "source_ids": [
+        "completion_cutm_nirf_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Centurion University of Technology and Management, Odisha | Agriculture Courses & Admissions",
+    "description": "Explore Centurion Odisha agriculture and fisheries programmes, practical learning, admission checks and separate ICAR accreditation terms for both schools.",
+    "keywords": [
+      "Centurion University of Technology and Management, Odisha agriculture",
+      "Centurion University of Technology and Management, Odisha admissions",
+      "Centurion University of Technology and Management, Odisha ICAR accreditation",
+      "Centurion University of Technology and Management, Odisha agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://assets.kollegeapply.com/images/1751561909957-1731922041phpAAhUFA.jpeg",
+    "logo_url": "https://scopes.cutm.ac.in/assets/cutm_logo.png",
+    "campus_alt": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+    "caption": "Academic building at Centurion University Paralakhemundi campus in Odisha",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/centurion-university-of-technology-and-management/logo-verified.png",
+    "local_campus_image": "media/centurion-university-of-technology-and-management/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/centurion-university-of-technology-and-management/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A51:G51. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://cutm.ac.in/schools/soa/",
+      "title": "M.S. Swaminathan School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "admissions",
+        "placements"
+      ],
+      "notes": "Undated school outcome counters omitted."
+    },
+    {
+      "id": "s3",
+      "url": "https://cutm.ac.in/wp-content/uploads/aregulation/Academic%20Regulations%20for%20B.F.Sc.pdf",
+      "title": "School of Fisheries academic regulations, July 2022",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus"
+      ],
+      "notes": "Historical regulations; 2026 eligibility and document rules need confirmation."
+    },
+    {
+      "id": "s4",
+      "url": "https://faculty.cutm.ac.in/faculty_bscag.php",
+      "title": "Faculty information, M.S. Swaminathan School of Agriculture",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faculty"
+      ],
+      "notes": "Full fetch timed out; official search excerpt identifies the named staff."
+    },
+    {
+      "id": "s5",
+      "url": "https://cutm.ac.in/school/m-s-swaminathan-school-of-agriculture/",
+      "title": "Agriculture course archive",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://cutm.ac.in/contact/",
+      "title": "Official Centurion campus contacts",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.phone"
+      ],
+      "notes": "Paralakhemundi campus contact; Bhubaneswar administrative contact is separately listed. Email addresses are masked in retrieved page text."
+    },
+    {
+      "id": "s7",
+      "url": "https://cutm.ac.in/schools/sovas/",
+      "title": "Official Centurion institutional background",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "University establishment in 2010; veterinary-school page used only for university history, not agriculture programme accreditation."
+    },
+    {
+      "id": "s8",
+      "url": "https://cutm.ac.in/courses/b-sc-hons-agriculture/",
+      "title": "Official B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees"
+      ],
+      "notes": "Undated programme page checked 30 October 2026; course-specific subject wording is reproduced cautiously."
+    },
+    {
+      "id": "s9",
+      "url": "https://cutm.ac.in/courses/bachelor-of-fisheries-science/",
+      "title": "Official Bachelor of Fisheries Science programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "faculty"
+      ],
+      "notes": "Current public programme page; no intake-year label on eligibility."
+    },
+    {
+      "id": "s10",
+      "url": "https://cutm.ac.in/course-fees/",
+      "title": "Official domestic programme fee tables labelled 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Paralakhemundi table and other-fee schedule explicitly say 2026, while a higher-level heading still says 2025–2026. Confirm the applicable cohort and fee period before payment."
+    },
+    {
+      "id": "s11",
+      "url": "https://cutm.ac.in/courses/bachelor-of-technology-in-agricultural-engineering/",
+      "title": "Official Centurion B.Tech. Agricultural Engineering programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "programmes.admission_route"
+      ],
+      "notes": "Programme page has no intake-year label; annual fee corroborates the central table labelled 2026."
+    },
+    {
+      "id": "s12",
+      "url": "https://cutm.ac.in/courses/master-of-agriculture-science-in-agronomy/",
+      "title": "Official Centurion M.Sc. (Agri.) Agronomy programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "programmes.admission_route"
+      ],
+      "notes": "Programme page has no intake-year label; annual fee corroborates the central table labelled 2026."
+    },
+    {
+      "id": "s13",
+      "url": "https://cutm.ac.in/courses/master-of-agriculture-science-in-genetics-plant-breeding/",
+      "title": "Official Centurion M.Sc. (Agri.) Genetics and Plant Breeding programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "programmes.admission_route"
+      ],
+      "notes": "Programme page has no intake-year label; annual fee corroborates the central table labelled 2026."
+    },
+    {
+      "id": "s14",
+      "url": "https://cutm.ac.in/courses/master-of-agriculture-science-in-horticulture-vegetable-science/",
+      "title": "Official Centurion M.Sc. (Hort.) Vegetable Science programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "programmes.admission_route"
+      ],
+      "notes": "Programme page has no intake-year label; annual fee corroborates the central table labelled 2026."
+    },
+    {
+      "id": "s15",
+      "url": "https://cutm.ac.in/courses/master-of-agriculture-science-in-agriculture-extension-and-communication/",
+      "title": "Official Centurion M.Sc. (Agri.) Agricultural Extension Education programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.fees",
+        "programmes.admission_route"
+      ],
+      "notes": "Programme page has no intake-year label; annual fee corroborates the central table labelled 2026."
+    },
+    {
+      "id": "s16",
+      "url": "https://cutm.ac.in/courses/master-in-business-administration-in-agribusiness-management",
+      "title": "Official Centurion MBA Agribusiness programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.duration",
+        "programmes.fees"
+      ],
+      "notes": "Undated programme page describes ₹700,000 package fees all inclusive; central table says 2026 but its header also retains 2025–26. Package contents require written clarification.",
+      "note": "Undated programme text: graduation in any discipline plus an entrance examination."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://scopes.cutm.ac.in/",
+      "title": "Centurion University of Technology and Management, Odisha — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/centurion-university-of-technology-and-management/logo-verified.png. Logo deployed by the SCOPES conference on the university's cutm.ac.in domain."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.kollegeapply.com/college/centurion-university-of-technology-and-management-paralakhemundi-bhubaneswar-gallery",
+      "title": "Centurion University of Technology and Management, Odisha — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/centurion-university-of-technology-and-management/campus_primary-verified.jpg. Identified Paralakhemundi college gallery; building signage identifies Centurion University, and hills and facade match the Odisha campus. Not the Andhra Pradesh campus."
+    },
+    {
+      "id": "completion_cutm_scholarship",
+      "title": "Official Centurion scholarship and loan policy",
+      "url": "https://cutm.ac.in/scholarship-loans/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Amrit Kaal policy includes B.Tech non-CSE Agri, but does not establish B.Sc./M.Sc./B.F.Sc. awards or an academic-year label."
+    },
+    {
+      "id": "completion_cutm_nirf_2026",
+      "title": "Official NIRF 2026 Agriculture and Allied Sectors submitted data",
+      "url": "https://cutm.ac.in/wp-content/uploads/about/nirf/2026/AGRICULTURE.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Institution-submitted Agriculture and Allied Sectors report, NIRF 2026. Cohorts and programme-duration groups are explicitly retained; these are historical outcomes, not an independently audited placement guarantee or a specialisation-specific result."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://cutm.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Official first-year Amrit Kaal concessions include B.Tech Agri; the policy year, renewal terms and awards for the other agriculture/fisheries programmes remain unverified.",
+      "next_source": "https://cutm.ac.in/"
+    },
+    {
+      "field": "identity.email",
+      "reason": "Email addresses in the official campus contact page were masked in the retrieved text; no address was guessed.",
+      "next_source": "https://cutm.ac.in/contact/"
+    },
+    {
+      "field": "programmes.fees.academic_year",
+      "reason": "Programme pages confirm annual periods and the MBA package, but central fee tables labelled 2026 coexist with a higher-level 2025–26 heading. Confirm cohort applicability and all inclusions before payment.",
+      "next_source": "https://cutm.ac.in/course-fees/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://cutm.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

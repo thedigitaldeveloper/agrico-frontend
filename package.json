@@ -1,0 +1,43 @@
+{
+  "name": "agrico-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3003",
+    "build": "next build",
+    "start": "next start --port 3003",
+    "lint": "eslint",
+    "verify:university-cms": "node scripts/verify-university-cms.mjs",
+    "verify:leads": "node scripts/verify-leads.cjs",
+    "verify:hero": "node scripts/verify-hero-selection.cjs",
+    "verify:html-section": "node scripts/verify-html-section.cjs",
+    "verify:password-recovery": "node scripts/verify-password-recovery.cjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.42.0",
+    "next": "16.3.4",
+    "postcss": "^8.5.29",
+    "postcss-selector-parser": "^7.1.7",
+    "postcss-value-parser": "^4.2.0",
+    "qs": "^6.16.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "sanitize-html": "^2.18.0",
+    "server-only": "^0.0.1",
+    "tailwind-merge": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/qs": "^6.15.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  },
+  "description": "Agrico frontend"
+}

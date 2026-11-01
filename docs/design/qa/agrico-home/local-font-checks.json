@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-30T06:38:27.447Z",
+  "status": 200,
+  "widths": [
+    320,
+    360,
+    390,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "fonts": [
+    {
+      "family": "dmSans",
+      "status": "loaded"
+    },
+    {
+      "family": "dmSans Fallback",
+      "status": "unloaded"
+    },
+    {
+      "family": "__nextjs-Geist",
+      "status": "unloaded"
+    },
+    {
+      "family": "__nextjs-Geist Mono",
+      "status": "unloaded"
+    },
+    {
+      "family": "__nextjs-Geist",
+      "status": "unloaded"
+    },
+    {
+      "family": "__nextjs-Geist Mono",
+      "status": "unloaded"
+    }
+  ],
+  "remoteFonts": [],
+  "errors": []
+}

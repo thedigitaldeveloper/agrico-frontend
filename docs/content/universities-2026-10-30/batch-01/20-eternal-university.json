@@ -1,0 +1,513 @@
+{
+  "id": 20,
+  "slug": "eternal-university",
+  "name": "Eternal University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "EU",
+    "ownership": "Private women’s university governed by The Kalgidhar Trust",
+    "city": "Baru Sahib",
+    "state": "Himachal Pradesh",
+    "established": null,
+    "address": "Baru Sahib, Via Rajgarh, Sirmour District, Himachal Pradesh",
+    "parent_university": null,
+    "website": "https://eternaluniversity.edu.in/",
+    "admissions_url": "https://portal.eternaluniversity.edu.in/register",
+    "phone": "+91 9816640660",
+    "email": "admissions@eternaluniversity.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Eternal University",
+    "summary": "Eternal University at Baru Sahib is a women’s university governed by The Kalgidhar Trust. Agriculture teaching sits within Dr. Khem Singh Gill Akal College of Agriculture, established in 2014. Its course material spans crop, soil, horticultural and food-related sciences in a residential university setting.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Women’s agriculture education at Baru Sahib",
+    "paragraphs": [
+      "Eternal University is based in the Baru Valley of Himachal Pradesh and is governed by The Kalgidhar Trust. Its registration portal explicitly restricts programmes to female applicants. This is a material admission condition for families considering agriculture at the university.",
+      "Dr. Khem Singh Gill Akal College of Agriculture was established within the university in 2014. The college’s published curriculum covers agronomy, horticulture, soils, crop improvement and protection, livestock production and food-related subjects. It also publishes laboratory manuals and a named academic roster. Applicants can assess how these subjects connect to their goals while confirming the current practical timetable, residential costs and entry-year eligibility directly."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private university"
+      },
+      {
+        "label": "State",
+        "value": "Himachal Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-07-18"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "B.Sc. (Hons.) Agriculture is the undergraduate agriculture programme identified in the university’s 2026–27 listing. The college curriculum covers crop, soil, horticultural and allied sciences; a current explicit duration statement was not captured.",
+      "eligibility": "The undated Akal College of Agriculture table gives 10+2 Agriculture orPCB/PCM/PCMB with 50% aggregate,40% forSC/ST/physically challenged categories, and age 16 by 1 July. The newer programme chooser did not reliably match its displayed criteria to this agriculture record during recheck; obtain the intended-intake prospectus before relying on a category threshold.",
+      "admission_route": "Apply through the official university portal; current selection and document rules must be confirmed from the 2026–27 prospectus.",
+      "fees": {
+        "amount_inr": 45600,
+        "period": "first semester",
+        "academic_year": null,
+        "includes": "Published first-semester programme fee; includes the page’s₹5,000 one-time refundable caution-money note.",
+        "note": "Undated official amount, not a verified 2026–27/2027 quote. The fee table lists BSc(Hons)Agriculture₹45,600 for the first semester and₹40,600 from the second semester onward, with₹5,000 one-time refundable caution money noted. Hostel, mess and a complete current charge statement need separate confirmation.",
+        "verification": "verified",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Eternal University, Baru Sahib, Distt. Sirmour, H.P. for 2022-07-19 to 2027-07-18. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "r31_1"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to EU",
+    "intro": "The registration portal states that all programmes are for female aspirants and refers to the 2025–26 and 2026–27 sessions. Confirm the current eligibility table before applying: the indexed 2026–27 page and older college page give different reserved-category thresholds.",
+    "eligibility_points": [
+      "The official registration portal limits programmes to female aspirants.",
+      "The 2026–27 listing names Agriculture, PCB, PCM and PCMB school pathways with the stated aggregate conditions."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Agriculture resources within the Baru Sahib campus",
+    "intro": "The college publishes laboratory manuals in protected cultivation, machinery, soil-and-water conservation and related subjects. University navigation also identifies apiary, vermicompost and food-quality-control units; current student access and capacity should be checked.",
+    "facilities": [
+      {
+        "name": "Agriculture learning resources",
+        "description": "The college page provides laboratory-manual links covering practical agricultural subjects.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The university identifies agricultural learning units including apiary and vermicompost resources."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "Eternal’s published tuition-concession page contains a 2024–25 policy for newly admitted undergraduate and postgraduate students. It uses qualifying marks to set a first-semester tuition concession and separately describes certain family/category waivers. The session is historical; applicants need the policy for their intended intake.",
+    "schemes": [
+      {
+        "name": "Historical 2024–25 first-semester merit tuition concession",
+        "details": "The published 2024–25 matrix gives 75% tuition concession for 95%and above,50% for 90–below 95,30% for 80–below 90, and 10% for 70–below 80, in the first semester for new UG/PG admissions, subject to the stated fee-payment condition. This is not a current-session scholarship promise.",
+        "source_ids": [
+          "r31_2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6",
+      "r31_2"
+    ],
+    "verification_scope": "historical_2024_25_policy",
+    "current_policy_verified": false
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university provides a Training and Placement Cell link. No dated agriculture cohort outcome table was verified, and individual alumni comments are not used as employment statistics.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Eternal University, Baru Sahib, Distt. Sirmour, H.P. and the programme labels below from 2022-07-19 through 2027-07-18. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Eternal University, Baru Sahib, Distt. Sirmour, H.P.",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture \n(Intake- 90)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-07-19",
+        "valid_until": "2027-07-18",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A28:G28"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The agriculture college page lists academic staff by specialism. The following public roles were checked on 30 October 2026.",
+    "people": [
+      {
+        "name": "Dr. Sunita Chandel",
+        "role": "Professor & Dean, listed under Plant Pathology",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Dr. Ankit",
+        "role": "Assistant Professor & HOD, Agronomy",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Can male applicants apply for agriculture at Eternal University?",
+      "answer": "The official registration portal states that all university programmes are exclusively for female aspirants.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which college teaches agriculture?",
+      "answer": "Dr. Khem Singh Gill Akal College of Agriculture, established within Eternal University in 2014.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Who governs the university?",
+      "answer": "The official sponsoring-organisation page identifies The Kalgidhar Trust.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Why should category thresholds be reconfirmed?",
+      "answer": "The 2026–27 listing shows 45% for the named reserved categories, while the older college page shows 40%. Obtain written confirmation of the applicable rule.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the ICAR row cover every agriculture postgraduate course?",
+      "answer": "No. The audited university row explicitly lists B.Sc. (Hons.) Agriculture for 19 July 2022 to 18 July 2027. Other offerings need separate accreditation evidence.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Is the published first-semester fee a current-session quote?",
+      "answer": "Eternal’s undated fee table lists B.Sc.(Hons.)Agriculture at₹45,600 for the first semester and₹40,600 from the second semester onward, with a₹5,000 refundable caution-money note. Its intake-year applicability is not established, so obtain a dated offer before budgeting.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which scholarship or support information is published for EU?",
+      "answer": "Eternal’s published tuition-concession page contains a 2024–25 policy for newly admitted undergraduate and postgraduate students. It uses qualifying marks to set a first-semester tuition concession and separately describes certain family/category waivers. The session is historical; applicants need the policy for their intended intake. The published 2024–25 matrix gives 75% tuition concession for 95%and above,50% for 90–below 95,30% for 80–below 90, and 10% for 70–below 80, in the first semester for new UG/PG admissions, subject to the stated fee-payment condition. This is not a current-session scholarship promise.",
+      "source_ids": [
+        "s6",
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Which learning facilities are documented at EU?",
+      "answer": "Agriculture learning resources: The college page provides laboratory-manual links covering practical agricultural subjects.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the official application information for EU?",
+      "answer": "https://portal.eternaluniversity.edu.in/register. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "question": "How can applicants contact EU?",
+      "answer": "Public telephone: +91 9816640660; Public email: admissions@eternaluniversity.edu.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Eternal University | Agriculture Courses & Admissions",
+    "description": "Explore Eternal University agriculture at Baru Sahib: women’s admission conditions, academic resources, eligibility evidence, faculty and ICAR programme scope.",
+    "keywords": [
+      "Eternal University",
+      "EU agriculture",
+      "Baru Sahib agriculture admission",
+      "B.Sc. (Hons.) Agriculture Eternal University"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://barusahib.org/wp-content/uploads/2026/09/Eternal-University-Building.png",
+    "logo_url": "https://eternaluniversity.edu.in/docs/logoUniversity-One%281%29.png",
+    "campus_alt": "Eternal University building at Baru Sahib",
+    "caption": "Eternal University building at Baru Sahib",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/eternal-university/logo.png",
+    "local_campus_image": "media/eternal-university/campus-01.png",
+    "local_gallery": [
+      "media/eternal-university/campus-01.png",
+      "media/eternal-university/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://eternaluniversity.edu.in/college/aca",
+      "title": "Dr. Khem Singh Gill Akal College of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "faculty",
+        "faculty.people.0",
+        "faculty.people.1",
+        "faqs.1",
+        "faqs.3",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026.",
+      "note": "Undated programme table gives agriculture-specific criteria and fees; the generic chooser’s mismatched display is not used as a newer agriculture rule."
+    },
+    {
+      "id": "s3",
+      "url": "https://eternaluniversity.edu.in/apec?category=undergraduate&course=course-BACHELOR-PROGRAMME-22",
+      "title": "Academic programmes and eligibility 2026–27",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "2026–27 indexed course details show 45% reserved-category threshold, differing from the older college page’s 40%."
+    },
+    {
+      "id": "s4",
+      "url": "https://portal.eternaluniversity.edu.in/register",
+      "title": "Eternal University registration",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s5",
+      "url": "https://barusahib.org/our-universities/",
+      "title": "Kalgidhar: our universities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s6",
+      "url": "https://eternaluniversity.edu.in/JoinNow.html",
+      "title": "Admissions 2026–27",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "scholarships"
+      ],
+      "notes": "Promotional landing page; maximum scholarship claims not treated as individual awards."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://eternaluniversity.edu.in/",
+      "title": "Eternal University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/eternal-university/logo.png. Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://barusahib.org/our-universities/",
+      "title": "Eternal University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/eternal-university/campus-01.png. Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://barusahib.org/our-universities/",
+      "title": "Eternal University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/eternal-university/campus-02.jpg. Official Eternal University site supplies its mark; official parent Trust page explicitly distinguishes the Eternal University building at Baru Sahib from Akal University at Talwandi Sabo."
+    },
+    {
+      "id": "r31_1",
+      "title": "Eternal University official programme fee table",
+      "url": "https://eternaluniversity.edu.in/fee",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated fee table distinguishes first semester from second semester onward; no current intake-year applicability inferred."
+    },
+    {
+      "id": "r31_2",
+      "title": "Eternal University historical 2024–25 tuition concessions",
+      "url": "https://eternaluniversity.edu.in/content/university-scholarships",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The page’s dated tuition concession rules expressly cover newly admitted UG/PG students in 2024–25. Historical first-semester policy, not a current award offer."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "Exact first/later semester amounts and refundable-caution note are now verified on the official fee page. The table is undated; intake-year applicability and a complete current charge statement remain unverified.",
+      "next_source": "https://eternaluniversity.edu.in/fee"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://portal.eternaluniversity.edu.in/register"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Dated 2024–25 merit-concession criteria now documented as historical. No 2026–27 ornext-intake renewal/award policy was verified.",
+      "next_source": "https://eternaluniversity.edu.in/content/university-scholarships"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://eternaluniversity.edu.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Undated agriculture-college table confirms 50%general/40%specified categories, while the programme chooser did not reliably map the agriculture selection to its criteria. Current intake-year category thresholds remain unverified.",
+      "next_source": "https://eternaluniversity.edu.in/college/aca"
+    },
+    {
+      "field": "programmes.0.duration",
+      "reason": "No explicit current undergraduate duration statement captured in the sources read.",
+      "next_source": "https://eternaluniversity.edu.in/college/aca"
+    },
+    {
+      "field": "identity.established",
+      "reason": "Sponsoring-organisation page uses 2008–09 and cites 2009 legislation; exact single foundation year not harmonised.",
+      "next_source": "https://barusahib.org/our-universities/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/20-eternal-university.json",
+  "audit_name": "Eternal University, Baru Sahib, Distt. Sirmour, H.P.",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Other researched agriculture/allied institution"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Other researched agriculture/allied institution"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Other researched agriculture/allied institution"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

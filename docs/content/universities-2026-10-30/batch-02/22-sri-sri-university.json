@@ -1,0 +1,638 @@
+{
+  "id": 22,
+  "slug": "sri-sri-university",
+  "name": "Sri Sri University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SSU",
+    "ownership": "Private university",
+    "city": "Cuttack",
+    "state": "Odisha",
+    "established": 2012,
+    "address": "Sri Sri Vihar, Bidyadharpur Arilo, Ward 3, PS GodiSahi, Cuttack, Odisha 754006",
+    "parent_university": null,
+    "website": "https://srisriuniversity.edu.in/",
+    "admissions_url": "https://srisriuniversity.edu.in/admission-process/",
+    "phone": "+91 78944 24562",
+    "email": "admissions@srisriuniversity.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Sri Sri University",
+    "summary": "Sri Sri University combines agricultural teaching with working farmland at its Cuttack campus. Its documented activities include crop cultivation, beekeeping and mushroom production. The undergraduate agriculture programme appears in the audited ICAR register, while other allied degrees require their own scope checks.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural study connected with campus food production",
+    "paragraphs": [
+      "The Faculty of Agriculture offers more than one route into agricultural study. University sustainability reporting describes undergraduate agriculture, horticulture, agribusiness and food, nutrition and dietetics, together with postgraduate agricultural disciplines. Applicants should compare the science and business orientation of these qualifications before selecting a course.",
+      "The university reports that its farmland contributes produce to campus food services. A 2026 sustainability submission describes fruit, vegetable and cereal cultivation, together with apiculture and mushroom units. These activities place agricultural production within a working campus food system, while the different science and business degrees allow students to choose an emphasis suited to their interests."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Sri Sri University, Cuttack, Odisha"
+      },
+      {
+        "label": "Location",
+        "value": "Cuttack, Odisha"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": "Full time",
+      "summary": "A broad agricultural science degree listed by the university and NTA.",
+      "eligibility": "Undated official course fact sheet: 10+2 science with PCB or PCM and at least 50%; confirm the intended intake rule.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 85000,
+        "period": "semester",
+        "academic_year": null,
+        "includes": "Tuition per semester.",
+        "note": "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_course0"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4",
+        "o31_course0"
+      ]
+    },
+    {
+      "name": "B.Sc. (Hons.) Horticulture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": "Full time",
+      "summary": "An allied undergraduate option named in university sustainability reporting.",
+      "eligibility": "Undated official course fact sheet: 10+2 science with PCB or PCM and at least 50%; confirm the intended intake rule.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 68000,
+        "period": "semester",
+        "academic_year": null,
+        "includes": "Tuition per semester.",
+        "note": "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_course1"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4",
+        "o31_course1"
+      ]
+    },
+    {
+      "name": "B.Sc. (Hons.) Agribusiness",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": "Full time",
+      "summary": "An agriculture-related business option distinct from the crop-science degree.",
+      "eligibility": "The undated official course fact sheet requires 10+2 science with PCB or PCM and at least 50%. This differs from the NTA 2025 listing, which accepted any 10+2 stream with 50%; obtain the intended intake rule.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 63000,
+        "period": "semester",
+        "academic_year": null,
+        "includes": "Tuition per semester.",
+        "note": "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_course2"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s4",
+        "o31_course2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "SSU’s admission guideline page describes online applications and a non-refundable INR 500 application charge for Indian nationals. Its displayed 2026-27 dates are internally inconsistent, so obtain the applicable selection notice and deadline directly.",
+    "eligibility_points": [
+      "The undated Agriculture and Horticulture fact sheets specify PCB/PCM science with at least 50%.",
+      "Agribusiness has a source conflict: its official course fact sheet specifies PCB/PCM science, while NTA’s 2025 listing accepted any 10+2 stream. Confirm the intended intake before applying."
+    ],
+    "steps": [
+      {
+        "title": "Apply through the university",
+        "text": "The guidelines specify an online application and a separate form for each programme."
+      },
+      {
+        "title": "Read the selection and offer communication",
+        "text": "The university describes email notification of selection arrangements and a provisional offer identifying fees and required documents."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": 500,
+    "source_ids": [
+      "s4",
+      "s9"
+    ]
+  },
+  "campus": {
+    "heading": "Farmland and small agricultural enterprises",
+    "intro": "University sustainability evidence describes 40 acres of agricultural land, apiculture and mushroom production. Its report associates farm output with campus kitchens and local food procurement.",
+    "facilities": [
+      {
+        "name": "University farmland",
+        "description": "The 2026 sustainability evidence describes fruits, vegetables and cereals grown on campus.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Apiculture and mushroom units",
+        "description": "Both units are identified in the university’s campus food-production account.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ],
+    "student_services": [
+      {
+        "name": "Hostel and mess support",
+        "description": "The finance help page directs hostel and mess questions to officeofdirectoratestudentaffairs@srisriuniversity.edu.in. It describes optional booking subject to capacity; applicants need confirmation of an available room.",
+        "source_ids": [
+          "r2_student_payments"
+        ]
+      },
+      {
+        "name": "Student grievance channel",
+        "description": "The published student support channel is studentgrievance@srisriuniversity.edu.in. Individual dues and receipts are accessed through the university payment system.",
+        "source_ids": [
+          "r2_student_payments"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "SSU’s Scholarship Support Division helps its enrolled students find scholarship information and complete applications. Its published scope covers bona fide students across faculties. The checked page does not establish a dated agriculture-specific award amount or renewal entitlement.",
+    "schemes": [
+      {
+        "name": "Scholarship application support",
+        "details": "The division disseminates available scheme information and helps students complete scholarship processes. A support service does not itself guarantee an award.",
+        "source_ids": [
+          "o31_scholarship_support"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_scholarship_support"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Sri Sri University, Cuttack, Odisha for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Sri Sri University, Cuttack, Odisha",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 60)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A30:G30"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "SSU’s public agriculture directory identifies its dean, assistant deans and subject teachers. These selected entries are a website snapshot checked on 31 October 2026; they do not represent a separately dated staffing certificate.",
+    "people": [
+      {
+        "name": "Prof. Kumaraswamy S",
+        "role": "Dean and Professor",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Anupama Singh",
+        "role": "Assistant Professor; Assistant Dean, Student Affairs",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Chinmayee Mohapatra",
+        "role": "Assistant Professor, Plant Pathology; Assistant Dean, Academic Affairs",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Mahipal Singh",
+        "role": "Assistant Professor; Assistant Dean, Research",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Madhab Kumar Datta",
+        "role": "Assistant Professor, Agronomy",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Lopamudra Jena",
+        "role": "Assistant Professor, Horticulture",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr Mandakini Kabi",
+        "role": "Assistant Professor, Plant Breeding and Genetics",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Does SSU’s ICAR entry cover all its allied degrees?",
+      "answer": "The audited row explicitly lists B.Sc. (Hons.) Agriculture. Horticulture and agribusiness are verified offerings but are not added to that accreditation scope.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "What science subjects did SSU require for agriculture in 2025?",
+      "answer": "The NTA listing states PCB or PCM at 10+2 level with at least 50%. Later intake rules need confirmation.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Is there an agribusiness option for non-science students?",
+      "answer": "The NTA 2025 listing accepted any 10+2 stream with at least 50%, but SSU’s undated Agribusiness course fact sheet specifies science with PCB/PCM. Because those sources differ, a non-science applicant should obtain the intended intake rule directly.",
+      "source_ids": [
+        "s4",
+        "o31_course2"
+      ]
+    },
+    {
+      "question": "What practical agricultural units are documented?",
+      "answer": "SSU reports farmland, an apiculture unit and mushroom production in its sustainability evidence.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are the tuition figures on this page current intake fees?",
+      "answer": "The programme fact sheets quote INR85,000 for Agriculture, INR68,000 for Horticulture and INR63,000 for Agribusiness per semester, but do not identify an intake year. These are undated official amounts rather than confirmed 2026/2027 prices.",
+      "source_ids": [
+        "o31_course0",
+        "o31_course1",
+        "o31_course2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sri Sri University | Agriculture courses and admissions",
+    "description": "Review Sri Sri University agriculture and allied courses, Cuttack campus farming, dated eligibility and historical fees, plus the verified ICAR degree scope.",
+    "keywords": [
+      "Sri Sri University agriculture",
+      "Sri Sri University admissions",
+      "Sri Sri University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://srisriuniversity.edu.in/wp-content/uploads/2021/03/Campus-Facilties-1.jpg",
+    "logo_url": "https://srisriuniversity.edu.in/wp-content/uploads/2020/11/Untitled-design-min.png",
+    "campus_alt": "Sri Sri University academic building and courtyard with SSU letters at Cuttack",
+    "caption": "Sri Sri University academic building and courtyard with SSU letters at Cuttack",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_card_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/sri-sri-university/logo.png",
+    "local_card_logo": "media/sri-sri-university/card_logo.png",
+    "local_campus_image": "media/sri-sri-university/campus-01.jpg",
+    "local_gallery": [
+      "media/sri-sri-university/campus-01.jpg",
+      "media/sri-sri-university/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://srisriuniversity.edu.in/wp-content/uploads/2025/11/SDG2-REPORT-2024.pdf",
+      "title": "SDG2 report: academic agriculture activities",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes.duration"
+      ],
+      "notes": "Report contains 2024 activities and describes a submission for the 2026 sustainability rating."
+    },
+    {
+      "id": "s3",
+      "url": "https://srisriuniversity.edu.in/wp-content/uploads/2025/11/SDG2-2.5.4.pdf",
+      "title": "2026 sustainability evidence: food procurement and farmland",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Direct PDF read returned 403; factual search excerpt only."
+    },
+    {
+      "id": "s4",
+      "url": "https://cuet.nta.nic.in/sri-sri-university-cuttack-odisha/",
+      "title": "NTA CUET-UG 2025: SSU programme eligibility",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility",
+        "admissions"
+      ],
+      "notes": "2025 cycle only."
+    },
+    {
+      "id": "s5",
+      "url": "https://srisriuniversity.edu.in/wp-content/uploads/2023/07/7.-BSc-Agriculture.pdf",
+      "title": "Agriculture fees for 2023-27 cohort",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "PDF read returned 403; indexed table identifies the historical cohort."
+    },
+    {
+      "id": "s6",
+      "url": "https://srisriuniversity.edu.in/faculty-of-agriculture-teachers/",
+      "title": "Agriculture teaching staff",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "faculty"
+      ],
+      "notes": "Direct page read returned 403; undated staff listing.",
+      "note": "Full official page downloaded and read on 31 October 2026; roster publication date is not stated."
+    },
+    {
+      "id": "s7",
+      "url": "https://srisriuniversity.edu.in/faculty-of-agriculture/",
+      "title": "Faculty of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity.website"
+      ],
+      "notes": "Direct page read returned 403.",
+      "note": "Full official page read on 31 October 2026."
+    },
+    {
+      "id": "s8",
+      "url": "https://srisriuniversity.edu.in/wp-content/uploads/2023/01/SSR-Cycle-1.pdf",
+      "title": "Institutional self-study profile",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address"
+      ],
+      "notes": "2023 institutional profile; stable identity facts only."
+    },
+    {
+      "id": "s9",
+      "url": "https://srisriuniversity.edu.in/admission-process/",
+      "title": "Admission process and guidelines 2026-27",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.admissions_url",
+        "admissions"
+      ],
+      "notes": "Page combines application opening 1 November 2026 with final admission July/August 2026; no live-open claim or deadline adopted."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://srisriuniversity.edu.in/",
+      "title": "Sri Sri University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-sri-university/logo.png. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "media_card_logo",
+      "url": "https://srisriuniversity.edu.in/",
+      "title": "Sri Sri University — card logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-sri-university/card_logo.png. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://srisriuniversity.edu.in/campus-facilities/",
+      "title": "Sri Sri University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-sri-university/campus-01.jpg. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://srisriuniversity.edu.in/campus-facilities/",
+      "title": "Sri Sri University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sri-sri-university/campus-02.jpg. Official institution page directly links this unchanged image. Visual review confirms the university wordmark/signage and the campus or library photo described by the page."
+    },
+    {
+      "id": "o31_course0",
+      "title": "SSU B.Sc. (Hons.) Agriculture official fact sheet",
+      "url": "https://srisriuniversity.edu.in/bsc-honsagriculture/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated programme fact sheet: four years, eight semesters, full time; fee applicability to a particular intake is not stated."
+    },
+    {
+      "id": "o31_course1",
+      "title": "SSU B.Sc. (Hons.) Horticulture official fact sheet",
+      "url": "https://srisriuniversity.edu.in/bsc-hons-horticulture/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated programme fact sheet: four years, eight semesters, full time; fee applicability to a particular intake is not stated."
+    },
+    {
+      "id": "o31_course2",
+      "title": "SSU B.Sc. (Hons.) Agribusiness official fact sheet",
+      "url": "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated programme fact sheet: four years, eight semesters, full time; fee applicability to a particular intake is not stated."
+    },
+    {
+      "id": "o31_scholarship_support",
+      "title": "SSU Scholarship Support Division",
+      "url": "https://srisriuniversity.edu.in/scholarship-support-division/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The page describes assistance to bona fide students, not a dated agriculture-specific award schedule."
+    },
+    {
+      "id": "r2_student_payments",
+      "title": "Sri Sri University finance and student support",
+      "url": "https://srisriuniversity.edu.in/registration/pay_fees.php",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services"
+      ],
+      "notes": "Mixed-year payment-help page; older 2021 tariffs/refund wording not adopted as current."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees.2026-27",
+      "reason": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established.",
+      "next_source": "https://srisriuniversity.edu.in/"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established.",
+      "next_source": "https://srisriuniversity.edu.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "Official university-wide scholarship support is now described; dated agriculture-specific award rules remain unverified.",
+      "next_source": "https://srisriuniversity.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://srisriuniversity.edu.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Page labels 2026-27 but shows application opening on 1 November 2026 after July/August 2026 final admission dates. Current calendar is unresolved.",
+      "next_source": "https://srisriuniversity.edu.in/admission-process/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://srisriuniversity.edu.in/admission-process/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://srisriuniversity.edu.in/"
+    },
+    {
+      "field": "programmes.eligibility.agribusiness",
+      "reason": "The undated official Agribusiness fact sheet requires science PCB/PCM with 50%, while the NTA 2025 listing accepts any 10+2 stream with 50%. The intended intake rule remains unresolved.",
+      "next_source": "https://srisriuniversity.edu.in/b-sc-hons-agribusiness-management/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added 7 named academic staff entries with scope/date labels.",
+      "Replaced the one-person roster with named leadership and subject faculty from the recovered official directory.",
+      "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+      "B.Sc. (Hons.) Horticulture: added source-specific fee amount with period and session status.",
+      "B.Sc. (Hons.) Agribusiness: added source-specific fee amount with period and session status.",
+      "Recovered all three original programme fact sheets, including full-time mode, exact undated semester tuition and an explicit Agribusiness eligibility conflict.",
+      "Added actual hostel/mess and student grievance support channels."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

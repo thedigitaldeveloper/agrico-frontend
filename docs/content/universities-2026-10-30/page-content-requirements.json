@@ -1,0 +1,32 @@
+{
+  "project": "Agrico",
+  "language": "English, matching the existing public website",
+  "scope": "58 agriculture/allied institution profiles: 39 private/deemed universities and 19 independent private colleges; content preparation before CMS integration",
+  "sections": [
+    { "id": "identity", "label": "Identity and quick facts", "required": ["official institution name", "college versus university", "city and state", "ownership", "established year when verified", "parent/affiliating university for a college", "official website", "verified address and contact when available"], "current_ui": "University hero and University at a glance" },
+    { "id": "hero", "label": "Hero introduction and buttons", "required": ["institution title", "short original agriculture-focused introduction", "admission guidance CTA", "programme directory CTA"], "current_ui": "University identity hero" },
+    { "id": "overview", "label": "About and highlights", "required": ["original institution-specific overview", "agriculture school or college context", "supported academic strengths", "factual highlights"], "current_ui": "Get to know your university and highlights" },
+    { "id": "programmes", "label": "Agriculture and allied programmes", "required": ["one row per relevant programme", "UG/PG/PhD level", "verified duration and study mode", "course summary", "eligibility", "admission route", "exact programme accreditation scope"], "current_ui": "Searchable programme directory" },
+    { "id": "fees", "label": "Fees and charges", "required": ["programme-specific tuition only when verified", "INR amount", "semester/year/total period", "actual source academic year", "included and excluded charges", "official source", "unverified fee status when no reliable schedule is available"], "current_ui": "Programme fee rows; null maps to Request current fees" },
+    { "id": "admissions", "label": "Eligibility and admission process", "required": ["institution-specific application introduction", "verified entry requirements", "selection or counselling route", "application steps", "official admission URL", "verified documents and dated events when available"], "current_ui": "Admission journey; institution-specific copy needs content binding during integration" },
+    { "id": "campus", "label": "Campus and practical learning", "required": ["supported laboratories and learning facilities", "teaching/research farm facts where verified", "fieldwork/experiential learning", "hostel/library/student facilities only where supported"], "current_ui": "Campus and practical learning; detailed copy needs content binding" },
+    { "id": "scholarships", "label": "Scholarships and financial support", "required": ["verified scheme names and scope", "terms and source year", "clear distinction between a possible scheme and an awarded scholarship"], "current_ui": "Prepared as an additional authored content section; no invented guarantee" },
+    { "id": "placements", "label": "Career support and outcomes", "required": ["verified placement or career-support activities", "agriculture versus university-wide scope", "reporting year on every numeric outcome", "agriculture-linked recruiters only when supported"], "current_ui": "Recruiters and an authored career section; programme-specific statistics require binding" },
+    { "id": "recognition", "label": "Recognition and accreditation", "required": ["ICAR accredited unit", "exact programmes as printed", "start and expiry dates", "ICAR workbook/cell source", "other recognitions with precise scope and year"], "current_ui": "Recognition and accreditation" },
+    { "id": "faculty", "label": "Academic people", "required": ["verified current names and roles where available", "source for each person", "no inferred or invented staff"], "current_ui": "Optional academic-community cards" },
+    { "id": "faqs", "label": "Applicant FAQs", "required": ["5-7 institution-specific questions", "original factual answers", "programme, eligibility, admissions, fees and recognition coverage", "source links"], "current_ui": "FAQ accordions; per-institution answers need content binding" },
+    { "id": "seo", "label": "Search and sharing text", "required": ["unique SEO title", "unique meta description", "relevant institution-specific keywords", "no unsupported rank or current-open admission claims"], "current_ui": "Route metadata" },
+    { "id": "media", "label": "Image text and asset references", "required": ["original campus-image alt text idea", "caption", "verified official asset references only if available", "rights/acquisition status"], "current_ui": "University hero and logo; actual downloaded originals are now tracked in media-manifest.json and the CMS media import plan" },
+    { "id": "related", "label": "Related institutions", "required": ["three relevant profiles from the researched 58", "clear internal editorial selection", "no inferred affiliation or endorsement"], "current_ui": "Explore other universities" },
+    { "id": "sources", "label": "Editorial evidence and gaps", "required": ["exact source URL and title", "primary versus secondary source", "date checked", "page read versus search excerpt", "supported sections", "unresolved facts and next source"], "current_ui": "Internal editorial review only; not intended as student-facing copy" }
+  ],
+  "publication_rules": [
+    "This package is an editorial research draft, not a live CMS import or published admission notice.",
+    "Prepare all content types; do not equate section coverage with verification of every volatile fact.",
+    "Use current-year official fee/admission evidence where available and keep older-year information labelled.",
+    "Do not transplant a university-wide placement claim into an agriculture programme outcome.",
+    "A missing optional fact remains missing instead of being replaced with an estimate.",
+    "Preserve 19 independent college identities under the existing university route family.",
+    "Write from researched factual notes rather than copying or lightly rewording another publisher's prose."
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "id": 57,
+  "slug": "rnb-global-university",
+  "name": "RNB Global University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "RNBGU",
+    "ownership": "Private university",
+    "city": "Bikaner",
+    "state": "Rajasthan",
+    "established": 2015,
+    "address": "RNB Global City, Ganganagar Road, Bikaner, Rajasthan 334601",
+    "parent_university": null,
+    "website": "https://www.rnbglobal.edu.in/",
+    "admissions_url": "https://www.rnbglobal.edu.in/admission-procedure",
+    "phone": "0151 3507600",
+    "email": "admissions@rnbglobal.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "RNB Global University",
+    "summary": "RNB Global University’s School of Agriculture in Bikaner combines a four-year honours degree with crop-based practical work. Rural experience, an agro-industrial attachment and live projects feature in the school’s published pedagogy. Separate fee categories for Rajasthan and outside-state students make the applicant’s domicile an important cost-checking detail.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study with rural and enterprise exposure",
+    "paragraphs": [
+      "RNBGU’s agriculture school describes a curriculum that connects classroom subjects with farms and commercial activity. Its published pedagogy includes rural agricultural work experience, skill and entrepreneurship modules, and demonstrations involving crop production, nurseries and horticultural crops. The programme page lists a four-year bachelor’s degree.",
+      "The university was established under a Rajasthan act in 2015. Its agriculture course pages distinguish Rajasthan-domicile applicants from those outside the state. Applicants should therefore compare the correct category, tuition, examination fee and one-time enrolment charges. The university also publishes a dated 2026 scholarship policy, which specifies that awards apply to tuition and have academic continuation conditions."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "RNB Global University, Bikaner"
+      },
+      {
+        "label": "Location",
+        "value": "Bikaner, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "An honours agriculture degree with rural work, industry exposure and production projects.",
+      "eligibility": "Programme page states 10+2 PCM/PCB/Agriculture from a recognised board; obtain the intake-year marks requirement.",
+      "admission_route": "The university procedure describes RNBGU Aptitude and Proficiency Test and application review; confirm agriculture-specific exemptions or accepted routes.",
+      "fees": {
+        "amount_inr": 55000,
+        "period": "semester",
+        "academic_year": "2026",
+        "includes": "Outside-Rajasthan programme page: ₹45,000 tuition and ₹10,000 examination fee.",
+        "note": "The official 2026 schedule lists outside-Rajasthan tuition ₹45,000 plus examination ₹10,000 per semester; Rajasthan domicile tuition ₹35,000 plus examination ₹10,000, total ₹45,000. Non-refundable enrolment ₹10,000 is one time. Accommodation is separate.",
+        "verification": "verified",
+        "source_ids": [
+          "s2",
+          "s8"
+        ]
+      },
+      "icar_scope_note": "Listed under RNB Global University, Bikaner; accreditation term 2025-05-16 to 2030-05-15.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to RNBGU",
+    "intro": "RNBGU’s procedure describes application, documents, aptitude testing, committee review and an offer specifying payment and reporting requirements.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Apply using the appropriate programme category",
+        "text": "Select agriculture and establish whether the Rajasthan-domicile category applies."
+      },
+      {
+        "title": "Check the admission offer",
+        "text": "The university says the offer specifies fees and the academic-session requirements."
+      }
+    ],
+    "documents": [
+      "Class 10 marksheet copy",
+      "Class 12 marksheet copy",
+      "One passport-size photograph"
+    ],
+    "dates": [
+      {
+        "label": "University procedure page’s stated admission closing date (past; header still advertises 2026)",
+        "date": "2026-07-30",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The school identifies an attached agriculture farm, laboratories and crop-based demonstrations.",
+    "facilities": [
+      {
+        "name": "Attached agriculture farm",
+        "description": "The school states that an agriculture farm is attached to the campus.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Agriculture laboratories",
+        "description": "Laboratory teaching is identified in the school pedagogy.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The school describes a three-week agro-industrial attachment.",
+      "Live projects include nursery raising, organic farming, vegetable production and orchard management."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The 2026 policy includes agriculture within its undergraduate scholarship grouping. Awards are limited to tuition; attendance, grades, backlogs and conduct affect continuation.",
+    "schemes": [
+      {
+        "name": "Undergraduate merit scholarships, 2026",
+        "details": "The official 2026 policy sets achievement-based categories for its agriculture grouping. Confirm the award and exam-validity conditions; examination and enrolment charges are excluded from scholarship coverage.",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The school describes practical and industry exposure as part of career preparation. A dated agriculture-only placement report or salary figure was not established.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies RNB Global University, Bikaner with validity from 2025-05-16 to 2030-05-15. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "RNB Global University, Bikaner",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture  (Intake- 60)"
+        ],
+        "valid_from": "2025-05-16",
+        "valid_until": "2030-05-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A67:G67"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official faculty directory identifies an Agricultural Extension Education teacher. His role is reported as published in the directory checked on31October2026; no dated appointment order was established.",
+    "people": [
+      {
+        "name": "Mr. Tribhuwan Singh Rajpurohit",
+        "role": "Assistant Professor, Agricultural Extension Education",
+        "source_ids": [
+          "completion_rnb_faculty"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_rnb_faculty"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is RNBGU located?",
+      "answer": "The university gives RNB Global City, Ganganagar Road, Bikaner, Rajasthan 334601.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "How long is the agriculture honours programme?",
+      "answer": "The course page lists four years.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Why does domicile matter when checking fees?",
+      "answer": "The university publishes separate agriculture course pages for Rajasthan-domicile and outside-Rajasthan applicants.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "What does the 2026 outside-Rajasthan agriculture fee include?",
+      "answer": "The official schedule totals ₹55,000 per semester: ₹45,000 tuition and ₹10,000 examination fee. Non-refundable enrolment is ₹10,000 once; accommodation is separate.",
+      "source_ids": [
+        "s8"
+      ]
+    },
+    {
+      "question": "Do scholarships reduce every charge?",
+      "answer": "No. The 2026 policy restricts scholarship coverage to tuition and excludes charges such as examination, enrolment and accommodation.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Which ICAR term covers the listed degree?",
+      "answer": "The audited B.Sc. Agriculture record runs from 16 May 2025 to 15 May 2030.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "RNB Global University | Agriculture Courses & Admissions",
+    "description": "Explore RNB Global University agriculture at Bikaner, its four-year degree, practical learning, domicile fee categories, scholarships and ICAR programme scope.",
+    "keywords": [
+      "RNB Global University agriculture",
+      "RNB Global University admissions",
+      "RNB Global University ICAR accreditation",
+      "RNB Global University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.rnbglobal.edu.in/assets/images/media-photogallery/PhbY-RNBGU-Academic-Block-at-Campus.svg",
+    "logo_url": "https://www.rnbglobal.edu.in/assets/images/logo.svg",
+    "campus_alt": "RNB Global University academic block at the Bikaner campus",
+    "caption": "RNB Global University academic block at the Bikaner campus",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/rnb-global-university/logo-verified.svg",
+    "local_campus_image": "media/rnb-global-university/campus_primary-verified.svg",
+    "local_gallery": [
+      "media/rnb-global-university/campus_primary-verified.svg",
+      "media/rnb-global-university/campus_secondary-verified.svg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A67:G67. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.rnbglobal.edu.in/ug/bsc-hons-agriculture-outside-rajasthan-student",
+      "title": "B.Sc. Agriculture, outside Rajasthan students",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "programmes"
+      ],
+      "notes": "Fee table has no explicit academic-year label; domicile-specific category."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.rnbglobal.edu.in/schools/agriculture",
+      "title": "School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Includes a 2025–26 programme link; no current performance claim inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.rnbglobal.edu.in/admission-procedure",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Page states admissions close 30 July 2026 while its header still says Admission Open 2026; retain the past date and unresolved current availability. Procedure includes applicant review and possible PI/GD; document requirements vary by entry level."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.rnbglobal.edu.in/uploads/vpiu-rnbgu-scholarships-2026.pdf",
+      "title": "Scholarships 2026 policy",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Policy explicitly refers to academic year2026–27; some test-validity wording needs confirmation."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.rnbglobal.edu.in/visit-us",
+      "title": "Visit and contact information",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.rnbglobal.edu.in/courses-fees",
+      "title": "Courses and fees directory",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Lists separate Rajasthan and outside-Rajasthan agriculture pages."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.rnbglobal.edu.in/uploads/rjmd-rnbgu-fees-structure-2026.pdf",
+      "title": "Official RNB course fee structure 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Explicit 2026 table distinguishes Rajasthan domicile from outside-Rajasthan students. Scholarship columns are not an eligibility guarantee. Web PDF screenshot returned no pixels; readable text table corroborates course page."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.rnbglobal.edu.in/",
+      "title": "RNB Global University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rnb-global-university/logo-verified.svg. Official homepage header image alt RNB Global University Logo."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.rnbglobal.edu.in/photo-gallery/album/infrastructure-at-rnb-global-university",
+      "title": "RNB Global University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rnb-global-university/campus_primary-verified.svg. Official infrastructure gallery captions this image Academic Block at Campus. Original source is an SVG with photographic content; file preserved unchanged."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.rnbglobal.edu.in/photo-gallery/album/infrastructure-at-rnb-global-university",
+      "title": "RNB Global University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rnb-global-university/campus_secondary-verified.svg. Official infrastructure gallery identifies this photograph as Central Courtyard; original SVG source preserved unchanged."
+    },
+    {
+      "id": "completion_rnb_faculty",
+      "title": "Official RNB profile: Tribhuwan Singh Rajpurohit, Agricultural Extension Education",
+      "url": "https://www.rnbglobal.edu.in/faculty-details/tribhuwan-singh-rajpurohit",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Live directory lists Assistant Professor; qualifications identify agriculture extension. No appointment-effective date is printed."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "The official procedure states a past 30 July 2026 closing date but retains an Admission Open 2026 header; no later programme-specific extension or present vacancy is verified.",
+      "next_source": "https://www.rnbglobal.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.rnbglobal.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "The official agriculture-extension profile identifies a teacher and role, but a dated complete agriculture appointment roster remains unverified.",
+      "next_source": "https://www.rnbglobal.edu.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.rnbglobal.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

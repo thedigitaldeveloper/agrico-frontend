@@ -1,0 +1,799 @@
+{
+  "id": 50,
+  "slug": "siksha-o-anusandhan",
+  "source_page": "https://www.infra.soa.ac.in/",
+  "candidates": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/515d4c53-3f37-4223-bf56-1613630bf0a9/favicon.ico",
+      "kind": "link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/20b21ff0-b528-435e-a329-07450e7dbbd4/SOA+Logo.png?format=1500w",
+      "kind": "source:srcset",
+      "alt": "",
+      "context": "     "
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/x",
+      "kind": "source:srcset",
+      "alt": "",
+      "context": "     "
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657009627670-F4REKL2CS9WPJ7U0YMHN/DJI_0462_2.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2250 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG",
+      "kind": "img:src",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1657010349516-W7C77SZZO810UE3QD70T/DJI_0766+-+Copy.JPG?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 1525 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1655802997236-8W3PNGBP47KGZMPU27ED/DJI_0611_1.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "list-slideshow-image   4000 2126 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   4000 2250"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/1dc0cb18-adab-4b5f-bea5-b5c9b91cc605/DJI_0863_1-min.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   2927 2052"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/3fa26d3d-d220-4c9b-9563-b21bb1ffe72a/IMG-0846.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   2927 2052 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   1280 890"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/6ffad509-5c68-48cb-ac38-7ab750aa2c9f/4.jpeg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1280 890 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   3058 2250"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/c5a59595-3734-483d-b3ee-83676013ae6e/DJI_0840_15.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3058 2250 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   4000 3000"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/be31ba1d-5585-48fc-883c-449777af8b50/DJI_0013_11.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   4000 3000"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/53219822-36fb-400b-81b5-434d8e255106/DJI_0978_1.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 3000 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   4000 2250"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/fe229afe-782b-4160-a91e-951db356e8ae/YBWI5018_1.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   4000 2250 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   3474 2175"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/9065a1e2-6bec-4d38-b2ac-456c2a909c18/LNDL9306_1.jpg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   3474 2175 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "   1170 960"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=100w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 100w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=300w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 300w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=750w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 750w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=1000w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 1000w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=1500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 1500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/807d4e9c-164b-490b-bc25-fe71bad82c9a/3.jpeg?format=2500w",
+      "kind": "img:srcset",
+      "alt": "",
+      "context": "   1170 960 2500w"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/20b21ff0-b528-435e-a329-07450e7dbbd4/SOA+Logo.png",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0462_2.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0611_1.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0863_1-min.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/IMG-0846.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/4.jpeg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0840_15.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0013_11.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/DJI_0978_1.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/YBWI5018_1.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/LNDL9306_1.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.infra.soa.ac.in/3.jpeg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/28866714-3a03-4fde-b82e-bcffd944752e/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/ab6b1da4-72e3-4abf-a176-e7a8a24b53d1/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/7d30df3b-ed0a-4cdd-824a-b3c7e5e49f0d/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/d03c0883-8248-47bf-9fa3-437f8474b0b7/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/da0c3c0d-458f-46e2-9c64-bac004d4e8c1/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/7050a57e-968a-4317-a487-11e4374878d9/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/1e5ca8c8-e239-4a8d-9415-517c411c1f25/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/00d1a230-e215-4217-b1cf-31145362801e/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e7e7e312-9961-4208-abdd-6ed469c34828/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/ea875279-d663-4261-b690-7ed00c65ccb1/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2f156972-5ae9-401b-8fd5-29a0fc4e4742/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e1217d90-e3f1-4318-af30-972ddbb752f6/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e5441b3f-475c-4dd0-815e-d1493a6eef24/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/e364ec28-4783-442b-b46f-59d33a99dd2c/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/67451c8f-d5ad-40d0-a48b-1e842ade5679/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/106cf02d-1fea-47b3-beaa-607012f765b3/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/2200ecd2-8cab-4e5f-98a1-74a7a1427ea4/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/abb8d202-34bc-4174-a25f-c00d4154bb44/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/95402d3d-cf4f-4ff3-b652-fa1bddbe79de/latin.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/31f2dfaf-de1e-40ab-ac18-8641e6ac98d0/devanagari.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://file.squarespace-cdn.com/content/v2/namespaces/fonts/libraries/sqsp/assets/ab5cf469-e78c-4791-92a2-a2e360e24c1d/latin-ext.woff2",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    }
+  ]
+}

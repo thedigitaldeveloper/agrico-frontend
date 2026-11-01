@@ -1,0 +1,72 @@
+{
+  "id": 19,
+  "slug": "chandigarh-university",
+  "name": "Chandigarh University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/chandigarh-university/logo.png",
+      "source_page": "https://www.cuchd.in/",
+      "download_url": "https://www.cuchd.in/home-assets/img/logo.png",
+      "source_kind": "official",
+      "description": "Chandigarh University official wordmark",
+      "alt": "Chandigarh University official wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Chandigarh University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 323,
+      "height": 114,
+      "sha256": "74b2a6b9b439f85eefb4042649f200cc3ad29baa43543c945800c149448e2903"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/chandigarh-university/campus-real-01.jpg",
+      "source_page": "https://www.cuchd.in/about/",
+      "download_url": "https://www.cuchd.in/about/images/about.jpg",
+      "source_kind": "official",
+      "description": "Students sitting on a lawn in front of a Chandigarh University academic building",
+      "alt": "Students sitting on a lawn in front of a Chandigarh University academic building",
+      "campus": "Mohali, Punjab",
+      "agriculture_specific": false,
+      "identity_evidence": "Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Chandigarh University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official Punjab-campus About page; not an agriculture-facility photograph.",
+      "width": 1349,
+      "height": 757,
+      "sha256": "b1567e4287e866c42d52eed6aeea7a80348d35d0c2e6375d5a869be388e3082b"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/chandigarh-university/campus-real-03.jpg",
+      "source_page": "https://www.cuchd.in/about/",
+      "download_url": "https://www.cuchd.in/about/images/about2.jpg",
+      "source_kind": "official",
+      "description": "Student consulting journals in a Chandigarh University library",
+      "alt": "Student consulting journals in a Chandigarh University library",
+      "campus": "Mohali, Punjab",
+      "agriculture_specific": false,
+      "identity_evidence": "Official cuchd.in About page is the Punjab/Mohali university site, distinct from linked Lucknow campus domain; its branded logo and academic-setting photos were inspected.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Chandigarh University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official Punjab-campus About page; no agriculture-specific facility claim.",
+      "width": 1349,
+      "height": 757,
+      "sha256": "30180a778baa834d741b0ae2cac7473978a4db22774d53b1b4f4f47abb5a4d86"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

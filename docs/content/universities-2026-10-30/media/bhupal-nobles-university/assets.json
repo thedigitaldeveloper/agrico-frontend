@@ -1,0 +1,43 @@
+{
+  "id": 27,
+  "slug": "bhupal-nobles-university",
+  "name": "Bhupal Nobles' University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/bhupal-nobles-university/logo.png",
+      "source_page": "https://bnuniversity.ac.in/home",
+      "download_url": "https://bnuniversity.ac.in/images/bhupal-nobles-university-logo.png",
+      "source_kind": "official",
+      "description": "Bhupal Nobles University Udaipur decorative institutional emblem",
+      "alt": "Bhupal Nobles University Udaipur decorative institutional emblem",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Bhupal Nobles' University",
+      "review_status": "verified_source",
+      "notes": "Original 166 x 195 PNG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/bhupal-nobles-university/campus-01.jpg",
+      "source_page": "https://bnuniversity.ac.in/home",
+      "download_url": "https://bnuniversity.ac.in/images/slider-01.jpg",
+      "source_kind": "official",
+      "description": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+      "alt": "Official collage showing the Bhupal Nobles University gate and Udaipur campus buildings",
+      "campus": "Udaipur, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Bhupal Nobles' University",
+      "review_status": "verified_source",
+      "notes": "Original 1920 x 734 JPEG; unchanged downloaded bytes. Official two-view photo collage, retained intact."
+    }
+  ],
+  "gaps": []
+}

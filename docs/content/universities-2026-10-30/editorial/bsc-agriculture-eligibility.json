@@ -1,0 +1,93 @@
+{
+  "id": "bsc-eligibility",
+  "cms_type": "Articles",
+  "slug": "bsc-agriculture-eligibility",
+  "title": "B.Sc. Agriculture eligibility: subjects and admission routes",
+  "description": "Check B.Sc. Agriculture subjects, mark calculations, category rules and admission channels using programme-specific official notices.",
+  "summary": "There is no single percentage or subject rule that safely describes every B.Sc. Agriculture admission. Build your shortlist around your actual Class 12 subjects, then match them to the university, campus, admission route and intake-year notice.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "read-the-notice",
+      "heading": "Find the rules for your programme and intake",
+      "paragraphs": [
+        "Begin with the official prospectus or admission portal for the year you intend to join. Confirm the degree title, campus and applicant category before reading the eligibility table. An institution may offer agriculture, horticulture and engineering degrees through different rules. A general university application page cannot settle every programme's requirements.",
+        "Separate eligibility from selection. Eligibility tells you whether your qualification can be considered; selection concerns merit, entrance results, reservation, preferences and available seats. Meeting a minimum does not promise admission. Keep a copy of the notice and any later correction so that a changing webpage does not leave you unsure which version informed your application."
+      ]
+    },
+    {
+      "id": "subject-check",
+      "heading": "Map your actual subjects before using abbreviations",
+      "paragraphs": [
+        "Write each subject exactly as it appears on your marksheet. PCB, PCM and PCMB are convenient shorthand, but a notice may specify Biology, Botany and Zoology, Agriculture, an agricultural vocational stream, English, or a particular equivalent qualification. Do not replace the printed requirement with the broad statement that you studied science.",
+        "If you studied a vocational course, a diploma, an international curriculum or additional subjects, check the applicable equivalence and route separately. Explain the qualification precisely when asking the admissions office for a written answer. A friend's acceptance with a different board or subject combination does not establish your own eligibility."
+      ],
+      "table": {
+        "columns": ["Your record", "Question to resolve", "Evidence to keep"],
+        "rows": [
+          ["Physics, Chemistry, Biology", "Is this exact combination accepted?", "Programme's subject rule"],
+          ["Physics, Chemistry, Mathematics", "Is Biology required for this route?", "Explicit PCM provision, if any"],
+          ["Agriculture or vocational subjects", "Which subjects and streams qualify?", "Named combination or equivalence decision"],
+          ["Diploma", "Is there a separate diploma-entry channel?", "Diploma title and route notice"],
+          ["International or other board", "How are subjects and grades evaluated?", "Accepted qualification and conversion rules"]
+        ]
+      }
+    },
+    {
+      "id": "marks-categories",
+      "heading": "Calculate marks using the university's own definition",
+      "paragraphs": [
+        "A threshold can refer to the overall aggregate, a specified subject group, each individual subject, or more than one of these. Recalculate each requirement from the marksheet instead of entering your best-looking percentage. Check whether practical marks, additional subjects, improvement attempts or grade conversion are addressed. If the notice is silent and the answer affects your eligibility, request clarification.",
+        "Category relaxations also belong to a particular rule. Identify the accepted certificate, issuing authority and document requirements rather than assuming that a concession at one university transfers elsewhere. For example, [VIT's Vellore agriculture profile](/university/vellore-institute-of-technology) is supported by its 2026–27 portal: it specifies 60% overall and 60% in PCB, with a published 10% relaxation for named categories or regions. These are VIT's stated conditions, not national B.Sc. Agriculture thresholds."
+      ]
+    },
+    {
+      "id": "route-examples",
+      "heading": "Check the admission channel after the academic conditions",
+      "paragraphs": [
+        "An examination application, a university application and counselling registration can be separate steps. Check the governing authority and the seats covered before choosing a form. The [CUET and ICAR admission-route guide](/articles/cuet-icar-agriculture-admission-route) explains why an exam score and an allotted college seat are different stages.",
+        "For 2026–27, ANGRAU's BiPC brochure includes [SBVR Agricultural College](/university/sbvr-agricultural-college) and [N.S. Agricultural College](/university/n-s-agricultural-college) among its affiliated colleges and describes selection through AP EAPCET 2026 rank. Its qualifying-subject provision names Physical Sciences and Biological or Natural Sciences. That example should not be substituted for a separate university's admission policy.",
+        "The official CUET UG 2026 mapping for [Lovely Professional University](/university/lovely-professional-university) lists English and three school subjects from Physics, Chemistry, Mathematics, Biology and Agriculture for its agriculture qualification. Check the mapped test subjects and the university's subsequent process separately. A university's participation in CUET does not mean every degree uses identical subjects or that every applicant applies through ICAR counselling."
+      ]
+    },
+    {
+      "id": "other-conditions",
+      "heading": "Look beyond subjects and minimum marks",
+      "paragraphs": [
+        "Check age, nationality or residency rules, board equivalence, study-history requirements, local-area provisions and any category documentation named by your route. These details can decide whether an otherwise strong application is accepted. Record each requirement separately; a high score cannot automatically compensate for an unmet qualification condition.",
+        "For affiliated colleges, read the university notice alongside the college's instructions. [Palar Agricultural College](/university/palar-agricultural-college), for example, refers applicants to TNAU norms. Ask which current TNAU document governs your stream and channel. If two official pages conflict, send both to the admissions authority and request the operative rule rather than choosing the more favourable version yourself."
+      ]
+    },
+    {
+      "id": "ready-to-apply",
+      "heading": "Turn the checks into an application-ready shortlist",
+      "paragraphs": [
+        "Create one row per college-programme-route combination. Mark subjects, marks, age and other conditions as confirmed, unresolved or not met. Add the source date, application steps and required documents. Prioritise resolving questions that would make the application ineligible; then compare curriculum, practical learning, location and affordability among the options that remain.",
+        "Before payment, check the [programme's ICAR scope](/articles/icar-accreditation-how-to-check) where relevant and build a [complete fee budget](/articles/agriculture-fee-budget). Keep the acknowledgement, submitted form and written clarifications. Treat provisional acceptance as conditional until the institution completes the checks described in its notice. This approach gives you an explainable shortlist instead of relying on a generic percentage circulated online."
+      ]
+    }
+  ],
+  "faqs": [
+    {"question": "Can a PCM student apply for B.Sc. Agriculture?", "answer": "Some published programme routes accept Mathematics among their subjects; others require Biology. Check the exact degree, subject combination and intake-year notice. PCM alone is not a universal yes or no."},
+    {"question": "Is 50% the eligibility requirement everywhere?", "answer": "No. Universities and routes can use different thresholds, subject aggregates and category provisions. Use the calculation and conditions printed in your applicable notice."},
+    {"question": "Does meeting eligibility secure a seat?", "answer": "No. Selection can also depend on entrance or qualifying-examination merit, reservation, preferences, verification and seat availability."},
+    {"question": "Can I use a previous year's prospectus?", "answer": "Use it for background only when a current notice is unavailable. Request the rules for the intended intake and do not treat older dates, subject combinations or concessions as confirmed current terms."}
+  ],
+  "related_institution_ids": [8, 11, 12, 32, 43],
+  "related_topic_ids": ["icar-check", "fee-budget", "cuet-icar", "tnau-route", "angrau-route", "counselling-prep"],
+  "sources": [
+    {"id": "vit-2026", "title": "VIT B.Sc. (Hons.) Agriculture admission portal 2026–27, Vellore", "url": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login", "checked_on": "2026-10-30", "note": "Official intake-specific portal read, including subject eligibility and selection conditions. Distinct from the mixed-year general course page."},
+    {"id": "angrau-2026", "title": "ANGRAU BiPC undergraduate information brochure 2026–27", "url": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/viewFile?filename=PDF20260729114322.pdf", "checked_on": "2026-10-30", "note": "Official brochure, printed pages 2–3: affiliated-college list, AP EAPCET selection and qualifying subjects. Separate diploma route rules are not inferred here."},
+    {"id": "lpu-cuet-2026", "title": "NTA CUET UG 2026: LPU programme mapping", "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2025/12/202512282065344259.pdf", "checked_on": "2026-10-30", "note": "Official mapping read, page 1; qualifying-school subjects are distinguished from CUET test-subject mapping. Age line retains a 2025 date; the article deliberately does not repeat that date."},
+    {"id": "palar-admission", "title": "Palar Agricultural College admission procedure", "url": "https://palaragri.ac.in/admission/", "checked_on": "2026-10-30", "note": "Undated institutional page from the locally checked profile; used only for reference to TNAU norms, not as a current category threshold or seat matrix."},
+    {"id": "tnau-portal", "title": "TNAU undergraduate admissions", "url": "https://tnau.ac.in/ugadmission/", "checked_on": "2026-10-30", "note": "Official university starting page read; points applicants to the admission portal. No universal eligibility claim drawn from it."}
+  ],
+  "verification_notes": [
+    "No national minimum-percentage claim. Numeric VIT conditions are explicitly confined to Vellore B.Sc. Agriculture 2026–27.",
+    "No open-application or future deadline claim. Historical and undated examples are labelled in source notes.",
+    "Five prepared institution links and six prepared topic relationships; only supplied slugs are used.",
+    "Guidance is original and does not substitute an informal equivalence judgement for university confirmation."
+  ]
+}

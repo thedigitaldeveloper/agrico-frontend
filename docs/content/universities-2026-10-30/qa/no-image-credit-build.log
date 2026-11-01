@@ -1,0 +1,115 @@
+
+> agrico-frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.3.4 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 66ms
+- Experiments (use with caution):
+  · cpus: 2
+  · staticGenerationMaxConcurrency: 1
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 5.1s
+  Running TypeScript ...
+  Finished TypeScript in 4.6s ...
+  Collecting page data using 2 workers ...
+[cms] optional read fallback (503) /legals
+[cms] optional read fallback (503) /blogs
+  Generating static pages using 2 workers (0/136) ...
+[cms] optional read fallback (503) /examinations
+  Generating static pages using 2 workers (34/136) 
+  Generating static pages using 2 workers (68/136) 
+  Generating static pages using 2 workers (102/136) 
+[cms] optional read fallback (503) /universities
+✓ Generating static pages using 2 workers (136/136) in 3.1s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├   /[slug]
+│ ├ ● /bsc-agriculture
+│ ├ ● /btech-agricultural-engineering
+│ ├ ● /bsc-horticulture
+│ └ ● [+3 more paths]
+├ ƒ /[slug]/[section]
+├ ○ /about-us
+├ ƒ /agriculture-colleges
+├   /agriculture-colleges/[state]
+│ ├ ● /agriculture-colleges/tamil-nadu
+│ ├ ● /agriculture-colleges/uttar-pradesh
+│ ├ ● /agriculture-colleges/andhra-pradesh
+│ └ ● [+5 more paths]
+├ ƒ /api/revalidate
+├ ○ /apple-icon.png
+├ ƒ /articles
+├   /articles/[slug]
+│ ├ ● /articles/agriculture-fee-budget
+│ ├ ● /articles/angrau-private-agriculture-college-admission
+│ ├ ● /articles/bsc-agriculture-eligibility
+│ └ ● [+7 more paths]
+├ ƒ /blogs
+├   /blogs/[slug]
+│ ├ ● /blogs/compare-agriculture-campuses
+│ ├ ● /blogs/agriculture-study-plan-after-class-12
+│ ├ ● /blogs/questions-before-choosing-agriculture-college
+│ └ ● [+3 more paths]
+├ ƒ /common-application-form
+├ ƒ /compare
+├ ○ /contact-us
+├ ƒ /course/[slug]
+├ ƒ /dashboard
+├ ƒ /dashboard/leads
+├ ƒ /dashboard/leads/export
+├ ƒ /dashboard/mentor
+├ ƒ /dashboard/profile
+├ ○ /design-preview
+├ ○ /editorial-policy
+├ ƒ /exams
+├ ● /exams/[slug]
+├ ƒ /exams/[slug]/[section]
+├ ○ /forgot-password
+├ ○ /icon.png
+├ ƒ /login
+├ ƒ /mentors
+├ ● /mentors/[slug]
+├ ƒ /news
+├   /news/[slug]
+│ ├ ● /news/tnau-undergraduate-rank-list-3-july-2026
+│ └ ● /news/tnau-second-phase-counselling-announcement-september-2026
+├ ƒ /offering/[university]/[program]
+├ ƒ /program/[slug]
+├ ƒ /program/[slug]/[section]
+├ ƒ /programs
+├ ƒ /qna
+├ ● /qna/[slug]
+├ ƒ /register
+├ ƒ /reset-password
+├ ○ /robots.txt
+├ ● /scholarship/[slug]
+├ ƒ /scholarship/[slug]/[section]
+├ ƒ /scholarships
+├ ƒ /search
+├ ○ /sitemap
+├ ○ /sitemap.xml
+├   /sitemap/[segment]
+│ ├ ● /sitemap/static.xml
+│ ├ ● /sitemap/universities.xml
+│ ├ ● /sitemap/programs.xml
+│ └ ● [+5 more paths]
+├ ƒ /universities
+├   /university/[slug]
+│ ├ ● /university/punjab-agricultural-university
+│ ├ ● /university/tamil-nadu-agricultural-university
+│ ├ ● /university/indian-agricultural-research-institute
+│ └ ● [+58 more paths]
+└ ○ /university/[slug]/[section]
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

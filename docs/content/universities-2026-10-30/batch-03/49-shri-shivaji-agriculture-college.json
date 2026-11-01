@@ -1,0 +1,490 @@
+{
+  "id": 49,
+  "slug": "shri-shivaji-agriculture-college",
+  "name": "Shri Shivaji Agriculture College, Amravati",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "Shri Shivaji Agriculture College",
+    "ownership": "Privately managed college run by Shri Shivaji Education Society, Amravati",
+    "city": "Amravati",
+    "state": "Maharashtra",
+    "established": null,
+    "address": "Morshi Road, Amravati, Maharashtra",
+    "parent_university": "Dr.PDKV Akola, Maharashtra (State university)",
+    "website": "https://www.ssacpdkv.org/index.php",
+    "admissions_url": "https://agri2026.mahacet.org/",
+    "phone": "+91-9767824381 (Dr. S. S. Thakare, 2026–27 admissions nodal officer)",
+    "email": "shivajiagricollege@rediffmail.com"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Shri Shivaji Agriculture College, Amravati",
+    "summary": "Shri Shivaji Agriculture College in Amravati is run by Shri Shivaji Education Society and affiliated to Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola. Its academic departments cover crop production, plant protection, resources and allied subjects. The college combines a longstanding regional identity with an agriculture bachelor’s programme.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education rooted in Amravati",
+    "paragraphs": [
+      "The college traces its founding to Dr. Panjabrao Deshmukh and is managed by Shri Shivaji Education Society. Its official history records earlier affiliation to Nagpur University, followed by agricultural-university affiliation. It identifies Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola, as the present affiliating university.",
+      "Its departmental structure includes agronomy and meteorology, agricultural botany, chemistry, engineering, horticulture and plant pathology. That spread places crop production alongside weather, soils, equipment and crop health in the college’s teaching setting. The official facilities page describes library and internet resources, and the homepage also mentions postgraduate work in agricultural economics and extension. The college’s affiliation gives applicants a clear university framework for comparing its undergraduate agriculture route."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV"
+      },
+      {
+        "label": "Location",
+        "value": "Amravati, Maharashtra"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": "Full time",
+      "summary": "An undergraduate agriculture programme taught within the PDKV-affiliated college setting.",
+      "eligibility": "2026–27 state prospectus: Class 12 Science with PCB/PCMB/PCM or Intermediate Agriculture and English passed; minimum 45% aggregate for Open applicants and 40% for the specified reserved categories. The prospectus requires an applicable entrance score above zero; follow its programme/category and candidature rules.",
+      "admission_route": "Maharashtra agriculture CAP 2026–27, institution code 11107, under the official state prospectus and category/candidature rules. The published 2026 admission cutoff has passed.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV; accreditation term 2025-02-27 to 2030-02-26.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s6",
+        "s7",
+        "completion_mcaer_prospectus_2026"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to Shri Shivaji Agriculture College",
+    "intro": "The 2026–27 state prospectus identifies Shri Shivaji as an aided PDKV-affiliated agriculture college, institution code 11107, with an intake of 120. Admission follows the state agriculture CAP framework. Its published final admission cutoff was 17 September 2026; this historical calendar does not establish an open vacancy.",
+    "eligibility_points": [
+      "B.Sc. Agriculture is a full-time four-year/eight-semester degree under the 2026–27 state framework.",
+      "Class 12 Science PCB/PCMB/PCM or Intermediate Agriculture with English passed; minimum aggregate 45% Open or 40% for the prospectus-specified reserved categories.",
+      "An applicable entrance score above zero and the published programme, category and candidature conditions apply; school marks alone do not assure admission."
+    ],
+    "steps": [
+      {
+        "title": "Check the official state framework",
+        "text": "Use the 2026–27 agriculture prospectus and college code 11107 to verify candidature, entrance and reservation rules."
+      },
+      {
+        "title": "Use the relevant CAP round",
+        "text": "Follow registration, preference submission, allotment and reporting instructions. The published 2026–27 admission cutoff was 17 September 2026, so ask the authority about any separate later notice."
+      },
+      {
+        "title": "Verify reporting and cost",
+        "text": "Confirm the full document list and approved aided-college fee statement before reporting or paying."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "2026–27 CAP online registration opened (historical state-channel calendar)",
+        "date": "2026-07-10",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_mcaer_schedule_2026"
+        ]
+      },
+      {
+        "label": "2026–27 CAP application deadline (past)",
+        "date": "2026-08-02",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_mcaer_schedule_2026"
+        ]
+      },
+      {
+        "label": "2026–27 first CAP allotment (historical)",
+        "date": "2026-08-16",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_mcaer_schedule_2026"
+        ]
+      },
+      {
+        "label": "2026–27 college-level admission round (past)",
+        "date": "2026-09-13 to 2026-09-17",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_mcaer_schedule_2026"
+        ]
+      },
+      {
+        "label": "2026–27 final admission cutoff (past; not a closing rank)",
+        "date": "2026-09-17",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_mcaer_schedule_2026"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s7",
+      "completion_mcaer_prospectus_2026",
+      "completion_mcaer_schedule_2026"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The facilities page identifies a library with text and reference resources and internet access. A November 2021 government report records inauguration of a new administrative building.",
+    "facilities": [
+      {
+        "name": "College library",
+        "description": "Textbooks, reference material and digital access are described on the college facilities page.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Administrative building",
+        "description": "A government report records its inauguration in November 2021.",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      {
+        "name": "Hostels in the 2026–27 admissions listing",
+        "description": "The state prospectus marks both male and female hostel availability as limited. This does not guarantee accommodation for an admitted student.",
+        "source_ids": [
+          "completion_mcaer_prospectus_2026"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3",
+      "s5",
+      "completion_mcaer_prospectus_2026"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship schedule for Shri Shivaji Agriculture College was not verified. Award availability, eligibility and renewal conditions need confirmation.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A dated programme-level placement report was not located on the official pages used. Graduate salary, placement rate and recruiter claims remain unverified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV with validity from 2025-02-27 to 2030-02-26. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV",
+        "programmes_as_printed": [
+          "Sri Shivaji college of Agriculture, Amravati affiliated to Dr. PDKV",
+          "• B.Sc (Hons.) Agriculture Programme (Intake- 120)"
+        ],
+        "valid_from": "2025-02-27",
+        "valid_until": "2030-02-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A58:G58"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The college homepage lists Dr. S.S. Lande as Principal. The entry is undated, so it should be reconfirmed before publication as a current staff listing.",
+    "people": [
+      {
+        "name": "Dr. S.S. Lande",
+        "role": "Principal, as listed on the official college homepage",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Who manages Shri Shivaji Agriculture College?",
+      "answer": "The college is run by Shri Shivaji Education Society, Amravati.",
+      "source_ids": [
+        "s2",
+        "s5"
+      ]
+    },
+    {
+      "question": "Which university is it affiliated to?",
+      "answer": "Dr. Panjabrao Deshmukh Krishi Vidyapeeth, Akola.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is this a university profile or a college profile?",
+      "answer": "It is a college profile. PDKV is the affiliating university.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "Which course is in the ICAR record?",
+      "answer": "B.Sc. (Hons.) Agriculture, with the audited term 27 February 2025 to 26 February 2030.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does the college publish a current fee amount?",
+      "answer": "The procedure page says fees are determined by MCAER Pune, but no current amount was verified.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Is postgraduate teaching mentioned?",
+      "answer": "The homepage mentions agriculture economics and extension at master’s level. Their current admission and accreditation positions need separate confirmation.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the verified 2026–27 eligibility framework?",
+      "answer": "The state prospectus lists English with PCB/PCMB/PCM or Intermediate Agriculture, minimum 45% aggregate for Open applicants and 40% for specified reserved categories, together with the applicable entrance and candidature rules.",
+      "source_ids": [
+        "completion_mcaer_prospectus_2026"
+      ]
+    },
+    {
+      "question": "Is the listed CAP admission window still open?",
+      "answer": "The official 2026–27 schedule sets 17 September 2026 as the final admission cutoff. That date has passed; a later opportunity requires a separate official notice.",
+      "source_ids": [
+        "completion_mcaer_schedule_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Shri Shivaji Agriculture College, Amravati | Agriculture Courses & Admissions",
+    "description": "Explore Shri Shivaji Agriculture College Amravati, PDKV affiliation, agriculture study, campus evidence, admission checks and programme-level ICAR scope.",
+    "keywords": [
+      "Shri Shivaji Agriculture College, Amravati agriculture",
+      "Shri Shivaji Agriculture College, Amravati admissions",
+      "Shri Shivaji Agriculture College, Amravati ICAR accreditation",
+      "Shri Shivaji Agriculture College, Amravati agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.ssacpdkv.org/images/slider1.jpg",
+    "logo_url": "https://www.ssacpdkv.org/images/shivaji_society_logo.png",
+    "campus_alt": "Shri Shivaji Agriculture College campus view",
+    "caption": "Shri Shivaji Agriculture College campus view",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/shri-shivaji-agriculture-college/logo.png",
+    "local_campus_image": "media/shri-shivaji-agriculture-college/campus-01.jpg",
+    "local_gallery": [
+      "media/shri-shivaji-agriculture-college/campus-01.jpg",
+      "media/shri-shivaji-agriculture-college/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A58:G58. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.ssacpdkv.org/index.php",
+      "title": "College homepage and history",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview",
+        "faculty",
+        "identity.address",
+        "identity.email"
+      ],
+      "notes": "Homepage says 1959; library PDF excerpt says 1958. Placeholder phone number is not used."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.ssacpdkv.org/pages/facilities.php",
+      "title": "College facilities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "Undated facilities description; accommodation availability needs direct reconfirmation."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.ssacpdkv.org/pages/admission_procedure.php",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Refers to MCAER and PDKV rules; no current fee amount."
+    },
+    {
+      "id": "s5",
+      "url": "https://rajbhavan-maharashtra.gov.in/en/24-11-2021-governor-inaugurated-the-new-administrative-building-of-the-shri-shivaji-agriculture-college/",
+      "title": "Government report on new administrative building, November 2021",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.ownership",
+        "campus"
+      ],
+      "notes": "Historical event, not a current facilities audit."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.ssacpdkv.org/pdf/Library%20website%20information.pdf",
+      "title": "College library information",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration"
+      ],
+      "notes": "PDF fetch timed out; official excerpt states four-year bachelor’s and two-year master’s duration."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.pdkv.ac.in/?page_id=147",
+      "title": "Affiliating university agriculture entry requirements",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility",
+        "admissions"
+      ],
+      "notes": "Undated academic-programmes page; subject and deficiency-course framework only. Its legacy entrance-exam list is not treated as a current 2026 exam notification."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.ssacpdkv.org/index.php",
+      "title": "Shri Shivaji Agriculture College, Amravati — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/shri-shivaji-agriculture-college/logo.png. Image embedded by the institution official website at https://www.ssacpdkv.org/index.php; source alt: "
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.ssacpdkv.org/index.php",
+      "title": "Shri Shivaji Agriculture College, Amravati — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/shri-shivaji-agriculture-college/campus-01.jpg. Image embedded by the institution official website at https://www.ssacpdkv.org/index.php; source alt: "
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.ssacpdkv.org/index.php",
+      "title": "Shri Shivaji Agriculture College, Amravati — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/shri-shivaji-agriculture-college/campus-02.jpg. Image embedded by the institution official website at https://www.ssacpdkv.org/index.php; source alt: "
+    },
+    {
+      "id": "completion_mcaer_prospectus_2026",
+      "title": "Maharashtra agriculture undergraduate admission prospectus 2026–27",
+      "url": "https://mail.mcaer.org/documents/MAURB/print%20UG%20Prospectus26-27%20english.pdf",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Official state admissions authority prospectus issued 10 July 2026. College table identifies Shri Shivaji aided College of Agriculture, Amravati, code 11107, PDKV, intake 120, named admissions nodal contact and limited hostels. Full-time programme and entry requirements are from the 2026–27 framework."
+    },
+    {
+      "id": "completion_mcaer_schedule_2026",
+      "title": "Official Maharashtra agriculture CAP schedule 2026–27",
+      "url": "https://mail.mcaer.org/documents/MAURB/AGRI_UG_CAP_SCHEDULE_2026_2027_English.pdf",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "State channel-level historical calendar: online registration started 10 July, application deadline 2 August, first allotment 16 August, college-level round 13–17 September, final admission cutoff 17 September 2026. This is not a college cutoff rank or proof of current vacancies."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "identity.established",
+      "reason": "Official homepage gives 1959; official library PDF excerpt gives 1958. No single year chosen.",
+      "next_source": "https://www.ssacpdkv.org/index.php"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+      "next_source": "https://www.ssacpdkv.org/index.php"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.ssacpdkv.org/index.php"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.ssacpdkv.org/index.php"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

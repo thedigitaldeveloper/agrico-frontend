@@ -1,0 +1,179 @@
+{
+  "checked_on": "2026-10-30",
+  "profiles": [
+    {
+      "id": 21,
+      "file": "21-aks-university.json",
+      "editorial_words": 546,
+      "source_count": 7,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 22,
+      "file": "22-sri-sri-university.json",
+      "editorial_words": 571,
+      "source_count": 9,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 23,
+      "file": "23-janardan-rai-nagar-rajasthan-vidyapeeth.json",
+      "editorial_words": 534,
+      "source_count": 4,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 24,
+      "file": "24-sanskriti-university.json",
+      "editorial_words": 531,
+      "source_count": 6,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 25,
+      "file": "25-vivekananda-global-university.json",
+      "editorial_words": 480,
+      "source_count": 5,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 26,
+      "file": "26-sgt-university.json",
+      "editorial_words": 485,
+      "source_count": 6,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 27,
+      "file": "27-bhupal-nobles-university.json",
+      "editorial_words": 426,
+      "source_count": 4,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 28,
+      "file": "28-karunya-institute-of-technology-and-sciences.json",
+      "editorial_words": 556,
+      "source_count": 8,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 29,
+      "file": "29-suresh-gyan-vihar-university.json",
+      "editorial_words": 485,
+      "source_count": 4,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 30,
+      "file": "30-gd-goenka-university.json",
+      "editorial_words": 529,
+      "source_count": 5,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 31,
+      "file": "31-shri-guru-ram-rai-university.json",
+      "editorial_words": 546,
+      "source_count": 7,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 32,
+      "file": "32-vellore-institute-of-technology.json",
+      "editorial_words": 514,
+      "source_count": 3,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 33,
+      "file": "33-srm-institute-of-science-and-technology.json",
+      "editorial_words": 491,
+      "source_count": 7,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 34,
+      "file": "34-rabindranath-tagore-university.json",
+      "editorial_words": 513,
+      "source_count": 5,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 35,
+      "file": "35-giet-university.json",
+      "editorial_words": 511,
+      "source_count": 9,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 36,
+      "file": "36-rnt-college-of-agriculture.json",
+      "editorial_words": 440,
+      "source_count": 7,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 37,
+      "file": "37-amrita-vishwa-vidyapeetham.json",
+      "editorial_words": 564,
+      "source_count": 6,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 38,
+      "file": "38-tantia-university.json",
+      "editorial_words": 511,
+      "source_count": 7,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 39,
+      "file": "39-raffles-university.json",
+      "editorial_words": 485,
+      "source_count": 10,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    },
+    {
+      "id": 40,
+      "file": "40-maharishi-markandeshwar-mullana.json",
+      "editorial_words": 568,
+      "source_count": 9,
+      "faq_count": 5,
+      "exact_icar_scope_preserved": true
+    }
+  ],
+  "errors": [],
+  "profile_count": 20,
+  "editorial_word_range": [
+    426,
+    571
+  ],
+  "fee_year_note": "2026-27 fees verified for AKS, Sanskriti, VGU, Karunya, VIT, Raffles and MM(DU). Earlier explicitly dated fee evidence is retained for Sri Sri, Amrita and Tantia. Other current intake fees remain unresolved.",
+  "notes": [
+    "All 20 required IDs present, 5 FAQs each, exact audited ICAR units/terms/programme labels preserved.",
+    "RNT College remains a private college profile with MPUAT affiliation.",
+    "Sri Sri institution pages returned 403; full NTA eligibility page read and official search excerpts logged.",
+    "SRM ICAR scope is horticulture only; broader course catalogue is kept separate.",
+    "Two profiles below 450 editorial words avoid padding unavailable evidence."
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "checked_on": "2026-10-30",
+  "institutions": 58,
+  "complete": 58,
+  "asset_records": 156,
+  "unique_files": 156,
+  "logos": 58,
+  "card_logos": 5,
+  "campus_photos": 93,
+  "total_bytes": 59078729,
+  "missing": [],
+  "cross_institution_duplicate_files": [],
+  "warnings": [
+    {
+      "id": 1,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 9,
+      "role": "campus_primary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 9,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 18,
+      "role": "campus_primary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 29,
+      "role": "campus_primary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 41,
+      "role": "campus_primary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 41,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 44,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 51,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 53,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 56,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 57,
+      "role": "campus_primary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    },
+    {
+      "id": 57,
+      "role": "campus_secondary",
+      "message": "Authentic image is below 600px wide; prefer a larger original when available."
+    }
+  ],
+  "issues": []
+}

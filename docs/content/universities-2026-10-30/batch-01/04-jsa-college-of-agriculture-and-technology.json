@@ -1,0 +1,559 @@
+{
+  "id": 4,
+  "slug": "jsa-college-of-agriculture-and-technology",
+  "name": "JSA College of Agriculture and Technology",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "JSACAT",
+    "ownership": "Private college established by Sri Venkateswara Educational Trust, Salem",
+    "city": "Avatti",
+    "state": "Tamil Nadu",
+    "established": 2015,
+    "address": "Ma. Podaiyur, Avatti, Tholudur, Cuddalore District, Tamil Nadu 606108",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://www.jsaagri.in/",
+    "admissions_url": "https://www.jsaagri.in/eligibility",
+    "phone": "+91 93619 09163",
+    "email": "deanjsacat@tnau.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "JSA College of Agriculture and Technology",
+    "summary": "JSACAT is a TNAU-affiliated agriculture college at Avatti in Cuddalore district. Founded in 2015 by Sri Venkateswara Educational Trust, it describes fieldwork, RAWE and experiential learning alongside classroom study. Its audited ICAR entry specifically lists B.Sc. (Hons.) Agriculture.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture education on the Chennai–Trichy corridor",
+    "paragraphs": [
+      "JSA College of Agriculture and Technology is based around Ma. Podaiyur and Avatti, near Tholudhur in Cuddalore district. Sri Venkateswara Educational Trust, Salem, established the college in 2015. It is affiliated to TNAU, with agricultural communities surrounding its highway-corridor location.",
+      "The college describes learning through projects, fieldwork and rural agricultural experience. Its published support includes computer and language laboratories, while the training and placement cell describes interview and competitive-examination preparation. Applicants considering undergraduate agriculture can ask how classroom learning, field assignments and rural activities are balanced, and confirm which practical modules are available for their cohort."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-06-19"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years / 8 semesters",
+      "mode": null,
+      "summary": "The college lists B.Sc. (Hons.) Agriculture and describes a syllabus spanning agronomy, plant pathology, entomology, agricultural economics and extension. Current detailed entry rules need the college and TNAU prospectus.",
+      "eligibility": "College page lists Physics/Chemistry with Biology and Mathematics; or Biology with Biochemistry/Biotechnology/Microbiology/Home Science/Computer Science; or Botany and Zoology. Its displayed four-subject thresholds are OC 55%, BC/BCC/BCM 50%, MBC/DNC 45%, and a qualifying-subject pass for SC/ST. Confirm these undated college-page criteria against the intended TNAU intake-year prospectus.",
+      "admission_route": "The official 2026–27 homepage banner asks aspiring students to register with TNAU and also with the college; exact current selection conditions were not readable.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at JSA College of Agriculture and Technology for 2024-06-20 to 2029-06-19. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s5",
+        "r31_2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying through TNAU counselling",
+    "intro": "JSACAT publishes an academic-stream subject table and category thresholds on its eligibility page. Its banner asks students to register with TNAU and the college. Confirm the current university rules, because the banner year does not prove the eligibility table was revised.",
+    "eligibility_points": [
+      "The official eligibility page lists three academic science subject groups.",
+      "The published category thresholds are undated despite a 2026–27 banner; obtain the current TNAU rule before applying."
+    ],
+    "steps": [
+      {
+        "title": "Register with TNAU",
+        "text": "Submit a single online application."
+      },
+      {
+        "title": "Set course preferences",
+        "text": "Order eligible college and course combinations."
+      },
+      {
+        "title": "Follow counselling",
+        "text": "General-quota counselling runs online; special-reservation sessions may be offline."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s5",
+      "tnau_faq_2026"
+    ],
+    "route_scope": "These steps describe the TNAU counselling channel. Any separate college-management route must be checked independently."
+  },
+  "campus": {
+    "heading": "Fieldwork and communication practice at Avatti",
+    "intro": "JSACAT describes experiential learning and RAWE, while the parent group reports village-based agricultural activities. A separate official laboratory page describes computer access and a language laboratory for listening, speaking, reading and writing practice.",
+    "facilities": [
+      {
+        "name": "Computer laboratory",
+        "description": "The official facility page describes networked computer access.",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      {
+        "name": "Language laboratory",
+        "description": "The laboratory description includes listening and speaking practice with recording and review.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The official site identifies RAWE and experiential learning among its teaching methods.",
+      "The parent group describes agricultural specialist seminars and village engagement.",
+      "The published course structure uses an English-medium semester course-credit system."
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4",
+      "r31_2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for JSACAT was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "JSA’s outcomes page gives named B.Sc. Agriculture alumni examples across employment, enterprise and higher study. It lists roles connected with Central Bank of India, the Indian Postal Department, IFFCO/MC Crop Science and agricultural producer organisations. The list is undated and does not establish an annual placement percentage or salary.",
+    "statistics": [],
+    "recruiters": [
+      {
+        "name": "Named alumni destinations, not a campus-recruiter guarantee",
+        "description": "The college page identifies Central Bank of India, Indian Postal Department and IFFCO/MC Crop Science among individual graduate destinations; the route and year of each appointment are not verified.",
+        "source_ids": [
+          "r31_3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "r31_3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records JSA College of Agriculture and Technology and the programme labels below from 2024-06-20 through 2029-06-19. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "JSA College of Agriculture and Technology",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture\n(Intake- 175)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A11:G11"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "JSA’s crop-management faculty page names teachers in agronomy, soils, microbiology, environmental science and agricultural engineering. The selected entries retain the role/qualification combinations shown on that page.",
+    "people": [
+      {
+        "name": "Ms. S. Dhivya",
+        "role": "Assistant Professor, Agronomy",
+        "qualification": "M.Sc.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. Paulraj Suryakala",
+        "role": "Assistant Professor, Agronomy",
+        "qualification": "M.Sc.; Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. R. Ragunath",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "qualification": "M.Sc.; Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. A. Mohamed Ansari Raja",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "A. R. Revathi",
+        "role": "Assistant Professor, Agricultural Engineering",
+        "qualification": "M.E. Energy Engineering",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is JSACAT located?",
+      "answer": "The official site places it at Avatti near Tholudhur, in Cuddalore district on the Chennai–Trichy highway corridor.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Who established the college?",
+      "answer": "The parent-group page says Sri Venkateswara Educational Trust, Salem, established it in 2015.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the website list courses beyond agriculture?",
+      "answer": "Yes, it advertises horticulture and selected agriculture postgraduate programmes. This draft’s confirmed ICAR scope remains the B.Sc. (Hons.) Agriculture row in the audit.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "What rural learning does JSACAT describe?",
+      "answer": "The official material lists RAWE, fieldwork, experiential learning and village interaction.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which school subject groups are published?",
+      "answer": "The official page lists PCMB, PCB with a listed elective, and Physics/Chemistry/Botany/Zoology. Confirm current TNAU eligibility and category thresholds before applying.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at JSACAT?",
+      "answer": "4 years / 8 semesters. ",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s5",
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for JSACAT?",
+      "answer": "JSA’s crop-management faculty page names teachers in agronomy, soils, microbiology, environmental science and agricultural engineering. The selected entries retain the role/qualification combinations shown on that page. Ms. S. Dhivya — Assistant Professor, Agronomy — M.Sc.; Dr. Paulraj Suryakala — Assistant Professor, Agronomy — M.Sc.; Ph.D.; Dr. R. Ragunath — Assistant Professor, Soil Science and Agricultural Chemistry — M.Sc.; Ph.D..",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which learning facilities are documented at JSACAT?",
+      "answer": "Computer laboratory: The official facility page describes networked computer access. Language laboratory: The laboratory description includes listening and speaking practice with recording and review.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for JSACAT?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s5",
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Where is the official application information for JSACAT?",
+      "answer": "https://www.jsaagri.in/eligibility. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s2",
+        "s5",
+        "tnau_faq_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "JSA College of Agriculture and Technology | Agriculture Courses & Admissions",
+    "description": "Explore JSACAT at Avatti: TNAU affiliation, agriculture courses, RAWE and laboratory learning, admission checks and the programme-specific ICAR term.",
+    "keywords": [
+      "JSA College of Agriculture and Technology",
+      "JSACAT agriculture",
+      "Avatti agriculture admission",
+      "B.Sc. (Hons.) Agriculture JSA College of Agriculture and Technology"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.jsaagri.in/static/media/main_building.ca73ecb9af87e970a3d0.JPG",
+    "logo_url": "https://www.jsaagri.in/JsaAgri-logo.png",
+    "campus_alt": "JSA College of Agriculture and Technology main academic building",
+    "caption": "JSA College of Agriculture and Technology main academic building",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/jsa-college-of-agriculture-and-technology/logo.png",
+    "local_campus_image": "media/jsa-college-of-agriculture-and-technology/campus-main-building.jpg",
+    "local_gallery": [
+      "media/jsa-college-of-agriculture-and-technology/campus-main-building.jpg",
+      "media/jsa-college-of-agriculture-and-technology/campus-library.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.2",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.jsaagri.in/",
+      "title": "JSA official home",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "faqs.0",
+        "faqs.2",
+        "faqs.3",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Direct open showed a JavaScript shell. Indexed official text includes a 2026–27 banner; no closing date verified."
+    },
+    {
+      "id": "s3",
+      "url": "https://jsagroups.in/group-of-institutions/jsacat",
+      "title": "JSA group: JSACAT",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faqs.1",
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "Parent-group official excerpt; direct open showed JavaScript shell."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.jsaagri.in/computer-lab",
+      "title": "Computer and language laboratories",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "overview"
+      ],
+      "notes": "Official indexed facility description; current technical capacities not independently audited."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.jsaagri.in/eligibility",
+      "title": "Admission eligibility",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "admissions",
+        "faqs.4",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Detailed official indexed subject/mark table read in a targeted search; direct open was a JavaScript shell. Banner says 2026–27 but table itself is undated.",
+      "note": "College page displays academic subject groups and category thresholds but no dated TNAU prospectus citation; confirm intake-year changes before applying."
+    },
+    {
+      "id": "tnau_faq_2026",
+      "url": "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+      "title": "TNAU and Annamalai University combined admissions FAQs 2026–2027",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.steps"
+      ],
+      "notes": "Public PDF linked by the official TNAU 2026–27 portal; downloaded and text-read, with cover and counselling page visually inspected. Pages 2–4 and 19 support the TNAU counselling channel. Does not establish college-specific fees or management-quota availability."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.jsaagri.in/",
+      "title": "JSA College of Agriculture and Technology — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jsa-college-of-agriculture-and-technology/logo.png. Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.jsaagri.in/",
+      "title": "JSA College of Agriculture and Technology — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jsa-college-of-agriculture-and-technology/campus-main-building.jpg. Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.jsaagri.in/",
+      "title": "JSA College of Agriculture and Technology — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/jsa-college-of-agriculture-and-technology/campus-library.jpg. Official JSA domain identifies the Avatti agricultural college; its supplied seal and asset-manifest main-building/library photographs were visually checked."
+    },
+    {
+      "id": "r31_1",
+      "title": "JSA crop-management teaching faculty",
+      "url": "https://www.jsaagri.in/faculty/cropManagement",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Read in Chrome 31 October; specific departmental roles and qualifications shown."
+    },
+    {
+      "id": "r31_2",
+      "title": "JSA courses offered and semester structure",
+      "url": "https://www.jsaagri.in/courses",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Read rendered courses page; UG 4 years/8 semesters and PG 2 years/4 semesters. Additional listed courses are not represented as ICAR-accredited."
+    },
+    {
+      "id": "r31_3",
+      "title": "JSA named graduate outcome examples",
+      "url": "https://www.jsaagri.in/placements",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated B.Sc. Agriculture alumni examples mix employment, self-employment and higher study; no cohort denominator, salary or placement rate established."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://www.jsaagri.in/eligibility"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://www.jsaagri.in/eligibility"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://www.jsaagri.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "Named agriculture graduate destination examples are now sourced; no dated cohort, eligible-student denominator or salary definitions establish a placement rate.",
+      "next_source": "https://www.jsaagri.in/placements"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "College subject-group and category-mark tables have been read. The body is undated and other procedure text still references 2022, so the applicable 2026–27/next-intake TNAU prospectus must confirm the thresholds.",
+      "next_source": "https://www.jsaagri.in/eligibility"
+    },
+    {
+      "field": "programmes",
+      "reason": "Courses page now confirms four-year BScHorticulture and two-year M.Sc. Agronomy, Genetics & Plant Breeding and Soil Science & Agricultural Chemistry as additional website-listed offerings; their separate approvals, current admission eligibility and ICAR coverage are not established.",
+      "next_source": "https://www.jsaagri.in/courses"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/04-jsa-college-of-agriculture-and-technology.json",
+  "audit_name": "JSA College of Agriculture and Technology",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

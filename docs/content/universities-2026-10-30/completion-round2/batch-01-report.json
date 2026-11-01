@@ -1,0 +1,749 @@
+{
+  "checked_on": "2026-10-31",
+  "scope": "Second bounded official-source pass over all20batch01institutions; facts are rewritten, session/campus scope retained. No complete internet exhaustion is claimed.",
+  "assessed_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "changed_ids": [
+    2,
+    5,
+    8,
+    11,
+    12,
+    13,
+    17,
+    18,
+    19,
+    1,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    14,
+    15,
+    16,
+    20
+  ],
+  "resolved_flags": [
+    {
+      "institution_id": 13,
+      "field": "programmes.0.duration",
+      "note": "Official course page explicitly states B.Sc.(Hons.)Agriculture4years."
+    },
+    {
+      "institution_id": 13,
+      "field": "identity.admissions_url",
+      "note": "Read official course/admissions destination and its2026–27 counselling link."
+    },
+    {
+      "institution_id": 18,
+      "field": "placements.statistics",
+      "note": "Primary NIRF2025Agriculture submission provides three past UG4-year cohorts with denominators, placed counts, median salary and higher-study figures."
+    },
+    {
+      "institution_id": 19,
+      "field": "identity.established",
+      "note": "Official university article explicitly states2012."
+    }
+  ],
+  "unresolved_note": "Unverified numerical fees, exact current scholarship awards, current college closing ranks and absent cohort outcomes remain unfilled rather than estimated. Historical rosters are explicitly labelled; they do not establish current appointments.",
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "file": "01-adhiparasakthi-agricultural-college.json",
+      "search_query": "site:apachc.in agriculture admission fee hostel2026scholarship",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "identity.established"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "file": "02-adhiyamaan-college-of-agriculture-and-research.json",
+      "search_query": "site:acar.ac.in agriculture admission fee scholarship hostel",
+      "changes": [
+        "Added official hostel-study amenities and health-support arrangements.",
+        "Expanded useful source-linked FAQ coverage from5to11using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 11,
+      "new_sources": [
+        {
+          "id": "r2_hostel",
+          "title": "ACAR — hostel services",
+          "url": "https://acar.ac.in/index/hostel/",
+          "kind": "official",
+          "access": "search_excerpt",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Official hostel page was indexed with detailed service text; direct full-page fetch timed out. Undated institutional facilities description, not room availability or fee evidence."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "file": "03-j-k-k-munirajah-college-of-agricultural-science.json",
+      "search_query": "site:jkkmcas.org agriculture admission eligibility fee hostel",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to8using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 8,
+      "remaining_gap_count": 8,
+      "faq_before": 5,
+      "faq_after": 8,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "faculty.people",
+        "programmes.0.eligibility",
+        "sources",
+        "identity.admissions_url"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "JSA College of Agriculture and Technology",
+      "file": "04-jsa-college-of-agriculture-and-technology.json",
+      "search_query": "site:jsaagri.in agriculture admission fees hostel scholarship",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 6,
+      "remaining_gap_count": 6,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility",
+        "programmes"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PGP College of Agricultural Sciences",
+      "file": "05-pgp-college-of-agricultural-sciences.json",
+      "search_query": "site:pgpagricollege.ac.in hostel fees scholarship admission",
+      "changes": [
+        "Added separately sourced boys/girls residential accommodation instead of a generic campus-life checklist alone.",
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 4,
+      "remaining_gap_count": 4,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [
+        {
+          "id": "r2_hostel",
+          "title": "PGPCAS — hostel accommodation",
+          "url": "https://pgpagricollege.ac.in/hostel/",
+          "kind": "official",
+          "access": "search_excerpt",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Indexed official hostel description confirms separate boys/girls accommodation. Direct fetch returned403; numeric charges and capacity were not established."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Pushkaram College of Agriculture Sciences",
+      "file": "06-pushkaram-college-of-agriculture-sciences.json",
+      "search_query": "Pushkaram College Agriculture official admission TNAU2026",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to8using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 13,
+      "remaining_gap_count": 13,
+      "faq_before": 5,
+      "faq_after": 8,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "faculty.people",
+        "programmes.0.eligibility",
+        "identity.address",
+        "campus.facilities",
+        "programmes.0.duration",
+        "identity.phone",
+        "identity.admissions_url",
+        "identity.website",
+        "identity.established"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Indian Agriculture College",
+      "file": "07-the-indian-agriculture-college.json",
+      "search_query": "site:tiac.rajas.edu hostel scholarship admission agriculture",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "placements.statistics",
+        "programmes.0.eligibility",
+        "campus.facilities"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Palar Agricultural College",
+      "file": "08-palar-agricultural-college.json",
+      "search_query": "site:palaragri.ac.in hostel scholarship agriculture fee",
+      "changes": [
+        "Added hostel facilities and welfare spaces from the dedicated official hostel page.",
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [
+        {
+          "id": "r2_hostel",
+          "title": "Palar Agricultural College — student hostels",
+          "url": "https://palaragri.ac.in/hostel/",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Official page checked31October2026. The page is not a guarantee of current vacancy or intake-year pricing."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Thanthai Roever Institute of Agriculture and Rural Development",
+      "file": "09-thanthai-roever-institute-of-agriculture-and-rural-development.json",
+      "search_query": "site:roeveragri.ac.in agriculture hostel scholarship fees",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "placements.statistics",
+        "identity.established",
+        "campus.facilities"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Udai Pratap College",
+      "file": "10-udai-pratap-college.json",
+      "search_query": "site:upcollege.ac.in2026agriculture fees hostel prospectus",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 6,
+      "remaining_gap_count": 6,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes",
+        "identity.phone",
+        "identity.email"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "SBVR Agricultural College",
+      "file": "11-sbvr-agricultural-college.json",
+      "search_query": "site:sbvr.in agriculturecollege hostel scholarship",
+      "changes": [
+        "Added source-reported hostel capacities/room options, health support and banking.",
+        "Added actual student-support channels without inventing scholarship rates.",
+        "Expanded useful source-linked FAQ coverage from5to12using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 4,
+      "remaining_gap_count": 4,
+      "faq_before": 5,
+      "faq_after": 12,
+      "new_sources": [
+        {
+          "id": "r2_campus",
+          "title": "SBVR — residential and student support facilities",
+          "url": "https://www.sbvr.in/agriculturecollege/campus/",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Official page checked31October2026. The page is not a guarantee of current vacancy or intake-year pricing."
+        },
+        {
+          "id": "r2_studentlife",
+          "title": "SBVR — student life and support cells",
+          "url": "https://www.sbvr.in/agriculturecollege/student-life/",
+          "kind": "official",
+          "access": "search_excerpt",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.student_services",
+            "scholarships.text"
+          ],
+          "note": "Official student-life description; assistance activity is not an award schedule or entitlement."
+        }
+      ],
+      "remaining_fields": [
+        "scholarships.schemes",
+        "placements.statistics",
+        "admissions",
+        "programmes.fees.actual_management_and_living_costs"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "N.S. Agricultural College",
+      "file": "12-n-s-agricultural-college.json",
+      "search_query": "site:nsagri.ac.in hostel scholarship agriculture",
+      "changes": [
+        "Added actual hostels/mess facilities and the student-welfare office; omitted inconsistent capacity claims.",
+        "Expanded useful source-linked FAQ coverage from5to13using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 4,
+      "remaining_gap_count": 4,
+      "faq_before": 5,
+      "faq_after": 13,
+      "new_sources": [
+        {
+          "id": "r2_hostel",
+          "title": "N.S. Agricultural College — hostels and mess",
+          "url": "https://nsagri.ac.in/infrastructure/hostels-mess",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Dedicated official page read. Its capacity counts differ from the older student-affairs page, so no harmonised current numeric capacity is claimed."
+        },
+        {
+          "id": "r2_studentaffairs",
+          "title": "N.S. Agricultural College — student affairs",
+          "url": "https://nsagri.ac.in/academics/student_affairs",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.student_services"
+          ],
+          "note": "Official page checked31October2026. The page is not a guarantee of current vacancy or intake-year pricing."
+        }
+      ],
+      "remaining_fields": [
+        "scholarships.schemes",
+        "placements.statistics",
+        "admissions",
+        "programmes.fees.actual_management_and_living_costs"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+      "file": "13-sri-krishnadevaraya-college-of-agricultural-sciences.json",
+      "search_query": "site:skcas.ac.in hostel scholarship agriculture admission",
+      "changes": [
+        "Verified explicit degree duration, supplied operative admissions URL and clarified the two published entry routes.",
+        "Added room/furniture facts and the actual scholarship-support cell, preserving current-award uncertainty.",
+        "Expanded useful source-linked FAQ coverage from5to12using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 6,
+      "remaining_gap_count": 4,
+      "faq_before": 5,
+      "faq_after": 12,
+      "new_sources": [
+        {
+          "id": "r2_admission",
+          "title": "SKCAS — course details and admission routes",
+          "url": "https://www.skcas.ac.in/Academics/CourcesOfferedAdmissions",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "programmes.0.duration",
+            "programmes.0.eligibility",
+            "identity.admissions_url",
+            "admissions"
+          ],
+          "note": "The official course page explicitly states4years and the Intermediate/AP EAPCET and SSC/ANGRAU-diploma/AGRICET routes; it links2026–27 counselling. Category and session rules remain tied to ANGRAU notices."
+        },
+        {
+          "id": "r2_hostel",
+          "title": "SKCAS — hostel buildings and room facilities",
+          "url": "https://skcas.ac.in/Infrastructure/Hostel",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "campus.facilities",
+            "campus.student_services"
+          ],
+          "note": "Official page checked31October2026. The page is not a guarantee of current vacancy or intake-year pricing."
+        },
+        {
+          "id": "r2_scst",
+          "title": "SKCAS — SC/ST Cell",
+          "url": "https://skcas.ac.in/cells/cellSCSTCell",
+          "kind": "official",
+          "access": "search_excerpt",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "scholarships.text",
+            "campus.student_services"
+          ],
+          "note": "Official cell description with a2023–24committee list. It explains assistance functions, not current award amount or unconditional eligibility."
+        }
+      ],
+      "remaining_fields": [
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility",
+        "programmes.fees.actual_management_and_living_costs"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Khalsa College of Veterinary and Animal Sciences",
+      "file": "14-khalsa-college-of-veterinary-and-animal-sciences.json",
+      "search_query": "site:kcvas.com hostel scholarship fee2026",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from6to13using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 2,
+      "remaining_gap_count": 2,
+      "faq_before": 6,
+      "faq_after": 13,
+      "new_sources": [],
+      "remaining_fields": [
+        "placements.statistics",
+        "recognition.icar_units"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Khalsa College, Amritsar",
+      "file": "15-khalsa-college-amritsar.json",
+      "search_query": "site:khalsacollege.edu.in agriculture2026eligibility hostel fee",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 7,
+      "remaining_gap_count": 7,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "faculty.people",
+        "programmes.0.eligibility",
+        "admissions.eligibility_points",
+        "identity.address"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "G H Raisoni University, Chhindwara",
+      "file": "16-g-h-raisoni-university-chhindwara.json",
+      "search_query": "site:ghru.edu.in agriculture Chhindwara fee scholarship hostel",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from5to8using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 8,
+      "remaining_gap_count": 8,
+      "faq_before": 5,
+      "faq_after": 8,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "faculty.people",
+        "recognition.icar_units",
+        "identity",
+        "identity.established"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Jagan Nath University, Jaipur",
+      "file": "17-jagan-nath-university-jaipur.json",
+      "search_query": "site:jagannathuniversity.org agriculture2026fee hostel scholarship Jaipur",
+      "changes": [
+        "Added the university’s actual category-scholarship processing instruction, with undated deadline caveat.",
+        "Expanded useful source-linked FAQ coverage from5to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 5,
+      "remaining_gap_count": 5,
+      "faq_before": 5,
+      "faq_after": 10,
+      "new_sources": [
+        {
+          "id": "r2_scholarship",
+          "title": "Jagan Nath University Jaipur — scholarship application guidance",
+          "url": "https://www.jagannathuniversity.org/admissions/scholarship",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "scholarships.schemes",
+            "scholarships.text"
+          ],
+          "note": "Official page checked31October2026. The page is not a guarantee of current vacancy or intake-year pricing."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "placements.statistics",
+        "faculty.people",
+        "admissions"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Jaipur National University",
+      "file": "18-jaipur-national-university.json",
+      "search_query": "site:jnujaipur.ac.in agriculture hostel fees2026scholarship",
+      "changes": [
+        "Added three source-scoped historical graduate outcome rows and four named historical faculty profiles; kept current-roster caveat.",
+        "Expanded useful source-linked FAQ coverage from5to9using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 8,
+      "remaining_gap_count": 7,
+      "faq_before": 5,
+      "faq_after": 9,
+      "new_sources": [
+        {
+          "id": "r2_nirf2025",
+          "title": "Jaipur National University — NIRF2025 Agriculture and Allied Sectors submission",
+          "url": "https://www.jnujaipur.ac.in/pdf/nirf-agriculture.pdf",
+          "kind": "official",
+          "access": "page_read",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "placements.statistics",
+            "faculty.people"
+          ],
+          "note": "Three-page primary PDF read as extracted text. Page1 supplies UG4-year category outcomes for2021–22to2023–24; page3 lists faculty in the2025submission. This is historical submitted data, not an independently audited2026cohort or a current appointment roster. Web screenshots could not be retrieved."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "faculty.people",
+        "recognition",
+        "campus.facilities",
+        "identity.address"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Chandigarh University",
+      "file": "19-chandigarh-university.json",
+      "search_query": "site:cuchd.in agriculture BSc2026fees eligibility; follow-up established2012",
+      "changes": [
+        "Filled official foundation year while retaining all current-agriculture-offering restrictions.",
+        "Expanded useful source-linked FAQ coverage from5to8using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 10,
+      "remaining_gap_count": 9,
+      "faq_before": 5,
+      "faq_after": 8,
+      "new_sources": [
+        {
+          "id": "r2_established",
+          "title": "Chandigarh University — institutional foundation year in official NIRF2025 feature",
+          "url": "https://www.cuchd.in/nirf-university-rankings-2025/",
+          "kind": "official",
+          "access": "search_excerpt",
+          "checked_on": "2026-10-31",
+          "supports": [
+            "identity.established"
+          ],
+          "note": "Official institutional article explicitly states establishment in2012. Full page fetch timed out; this is indexed official text. This identity fact does not establish a current domestic agriculture intake."
+        }
+      ],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "faculty.people",
+        "programmes.0.eligibility",
+        "programmes.0",
+        "recognition.icar_units",
+        "campus"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Eternal University",
+      "file": "20-eternal-university.json",
+      "search_query": "site:eternaluniversity.edu.in agriculture hostel scholarship fees",
+      "changes": [
+        "Expanded useful source-linked FAQ coverage from6to10using existing and newly verified institution facts."
+      ],
+      "original_gap_count": 7,
+      "remaining_gap_count": 7,
+      "faq_before": 6,
+      "faq_after": 10,
+      "new_sources": [],
+      "remaining_fields": [
+        "programmes.0.fees",
+        "admissions.dates",
+        "scholarships.schemes",
+        "placements.statistics",
+        "programmes.0.eligibility",
+        "programmes.0.duration",
+        "identity.established"
+      ]
+    }
+  ],
+  "additional_source_access_notes": [
+    {
+      "url": "https://nsagri.ac.in/academics/student_affairs",
+      "result": "Read; numeric hostel counts differ from dedicated hostel page, so do not claim a harmonised current capacity."
+    },
+    {
+      "url": "https://tiac.rajas.edu/",
+      "result": "Direct web fetch timed out. Historical2024–25TNAU handbook was not transferred into a current TIAC hostel guarantee."
+    },
+    {
+      "url": "https://www.apachc.in/ac/",
+      "result": "Direct fetch unavailable. Horticultural college scholarship/admission rules were not transferred to agricultural college."
+    },
+    {
+      "url": "https://www.cuchd.in/agriculture/",
+      "result": "Unavailable; no current programme intake inferred."
+    },
+    {
+      "url": "https://www.cuchd.in/academics/agriculture.php",
+      "result": "Unavailable; no current programme intake inferred."
+    },
+    {
+      "url": "https://www.jnujaipur.ac.in/pdf/nirf-agriculture.pdf",
+      "result": "Full PDF text read; screenshots cache-miss. Past outcomes retained in their exactNIRF2025UG4-year category scope."
+    }
+  ],
+  "new_factual_source_institution_ids": [
+    2,
+    5,
+    8,
+    11,
+    12,
+    13,
+    17,
+    18,
+    19
+  ],
+  "original_gap_count": 123,
+  "remaining_gap_count": 119,
+  "faq_total_before": 102,
+  "faq_total_after": 202,
+  "important_scope_notes": [
+    "JNU faculty selection is explicitly historicalNIRF2025; current-roster gap remains. Metrics code must not equate a historical roster with confirmed current appointments.",
+    "NSAC hostel capacity figures differ across official pages; only common physical service facts were added.",
+    "ACAR andPGPCAS hostel services use official indexed excerpts after direct fetch timeout/403; their access fields say search_excerpt.",
+    "CU foundation year resolved from official indexed text; current agriculture intake restrictions remain.",
+    "No numerical fee was added without a period and scope; this batch adds no new fee amount."
+  ]
+}

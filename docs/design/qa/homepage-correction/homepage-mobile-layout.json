@@ -1,0 +1,58 @@
+{
+  "width": 390,
+  "height": 9395,
+  "sections": [
+    {
+      "className": "rs-header",
+      "height": 63
+    },
+    {
+      "className": "rs-hero",
+      "height": 811
+    },
+    {
+      "className": "rs-benefits",
+      "height": 214
+    },
+    {
+      "className": "rs-section rs-container",
+      "height": 1700
+    },
+    {
+      "className": "rs-section rs-container",
+      "height": 1084
+    },
+    {
+      "className": "rs-spotlight",
+      "height": 444
+    },
+    {
+      "className": "rs-section rs-comparison",
+      "height": 610
+    },
+    {
+      "className": "rs-steps",
+      "height": 466
+    },
+    {
+      "className": "rs-section rs-news",
+      "height": 907
+    },
+    {
+      "className": "rs-section rs-blogs",
+      "height": 1294
+    },
+    {
+      "className": "rs-section rs-container rs-faq",
+      "height": 542
+    },
+    {
+      "className": "rs-guidance",
+      "height": 519
+    },
+    {
+      "className": "rs-footer",
+      "height": 742
+    }
+  ]
+}

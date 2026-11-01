@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "width": 390,
+      "route": "/btech-agricultural-engineering",
+      "layout": {
+        "title": "B.Tech. Agricultural Engineering",
+        "width": 390,
+        "hero": 637,
+        "page": 6319,
+        "colour": "rgb(21, 54, 45)"
+      }
+    },
+    {
+      "width": 390,
+      "route": "/university/lovely-professional-university",
+      "layout": {
+        "title": "Lovely Professional University",
+        "width": 390,
+        "hero": 625,
+        "page": 6120,
+        "colour": "rgb(21, 54, 45)"
+      }
+    },
+    {
+      "width": 1440,
+      "route": "/btech-agricultural-engineering",
+      "layout": {
+        "title": "B.Tech. Agricultural Engineering",
+        "width": 1440,
+        "hero": 364,
+        "page": 3262,
+        "colour": "rgb(21, 54, 45)"
+      }
+    },
+    {
+      "width": 1440,
+      "route": "/university/lovely-professional-university",
+      "layout": {
+        "title": "Lovely Professional University",
+        "width": 1440,
+        "hero": 388,
+        "page": 3202,
+        "colour": "rgb(21, 54, 45)"
+      }
+    }
+  ],
+  "productionServerValidation": "passed; only empty invalid form submitted",
+  "errors": []
+}

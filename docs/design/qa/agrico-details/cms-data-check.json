@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Pure adapters with in-memory fixtures; no CMS records or enquiries written",
+  "checks": [
+    "Zero fees and waivers preserved",
+    "Unknown fees remain unknown",
+    "University-specific fee note preserved",
+    "Actual CMS context slugs preserved",
+    "Authored rich content and section navigation preserved",
+    "Highlights, average package, affiliations and rankings preserved",
+    "University and offering destination types correct"
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "id": 16,
+  "slug": "g-h-raisoni-university-chhindwara",
+  "name": "G H Raisoni University, Chhindwara",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "GHRU",
+    "ownership": "Private university in the audited ICAR register",
+    "city": "Saikheda",
+    "state": "Madhya Pradesh",
+    "established": null,
+    "address": "G H Raisoni Nagar, Gram Doda Borgaon, Tehsil Sausar, District Pandhurna, Madhya Pradesh 480337",
+    "parent_university": null,
+    "website": "https://ghru.edu.in/",
+    "admissions_url": "https://admissions.ghru.edu.in/",
+    "phone": "+91 91110 42900",
+    "email": "info@ghru.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "G H Raisoni University, Chhindwara",
+    "summary": "G H Raisoni University offers a full-time agriculture honours degree at its Saikheda campus. The programme page describes eight semesters, an institutional field for practical learning, study tours and projects. Its audited ICAR term ends in November 2026, making renewal confirmation particularly important.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study at the Saikheda campus",
+    "paragraphs": [
+      "G H Raisoni University’s agriculture course is located at Saikheda in Madhya Pradesh. The official programme page describes a four-year full-time honours degree divided into eight semesters. It brings together soil science, plant breeding, microbiology and crop-health subjects with practical exposure.",
+      "The university describes field practice, trips, study tours and projects within agricultural learning. Its course page also discusses work with farmers and agricultural companies as a way to connect classroom study with the sector. Applicants should ask for the current fieldwork calendar and internship arrangements, alongside a written fee statement and the admission rules for their intended entry year."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private university"
+      },
+      {
+        "label": "State",
+        "value": "Madhya Pradesh"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2026-11-08"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": "Full time",
+      "summary": "The four-year full-time degree spans agricultural microbiology, soils, genetics and plant breeding, plant pathology and related subjects. The university describes field practice, projects and study tours.",
+      "eligibility": "The undated university course page lists 12th Science in PCM/PCB/PCMB/Crop Science with 45% for open and 40% for reserved categories. NTA’s 2025 table repeats those thresholds; 2026 conditions need confirmation.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at G H Raisoni University, Chhindwara for 2021-11-09 to 2026-11-08. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to GHRU",
+    "intro": "The course page links to the university application portal. Its eligibility thresholds are corroborated by an NTA table explicitly for 2025, so they are not treated as a verified 2026 policy. Ask admissions to confirm the applicable selection route and subject eligibility for the new cycle.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the current prospectus",
+        "text": "Ask the admissions office for the applicable intake, subject requirements and selection rules before submitting an application."
+      },
+      {
+        "title": "Request a written cost statement",
+        "text": "Obtain tuition, compulsory charges, accommodation options and refund terms for the intended entry year."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "campus": {
+    "heading": "An institutional field alongside study tours",
+    "intro": "The agriculture page describes a university field used for practice and lists field trips, study tours and projects. Specific crop acreage, laboratory capacities and residential arrangements were not verified from the agriculture-specific sources read.",
+    "facilities": [
+      {
+        "name": "Agriculture practice field",
+        "description": "The university describes a field available for agriculture students’ practical learning.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The degree page identifies field trips, study tours and projects as practical elements."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for GHRU was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The agriculture page lists potential sectors such as agricultural production, food processing and input industries. These are career possibilities, not a dated GHRU placement result. No agriculture-specific employer or salary statistics were verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records G H Raisoni University, Chhindwara and the programme labels below from 2021-11-09 through 2026-11-08. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "G H Raisoni University, Chhindwara",
+        "programmes_as_printed": [
+          "•B.Sc.(Hons) Agriculture \n(Intake- 120)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2021-11-09",
+        "valid_until": "2026-11-08",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A24:G24"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Which GHRU campus is the agriculture course at?",
+      "answer": "The official course overview identifies GHRU Saikheda. The audited institution name retains Chhindwara.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the duration and mode?",
+      "answer": "The official programme page specifies four years, eight semesters and full-time study.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which school qualifications are listed?",
+      "answer": "The undated university page lists PCM, PCB, PCMB or Crop Science with category-based thresholds. NTA’s matching table is for 2025; confirm current rules.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Is a verified 2026 fee available here?",
+      "answer": "No. A secondary calculated fee total was found, but no dated official tuition schedule was verified.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "When does the audited ICAR term end?",
+      "answer": "It runs from 9 November 2021 through 8 November 2026. A later renewal must be checked separately.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Which learning facilities are documented at GHRU?",
+      "answer": "Agriculture practice field: The university describes a field available for agriculture students’ practical learning.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the official application information for GHRU?",
+      "answer": "https://admissions.ghru.edu.in/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "How can applicants contact GHRU?",
+      "answer": "Public telephone: +91 91110 42900; Public email: info@ghru.edu.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "s5"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "G H Raisoni University, Chhindwara | Agriculture Courses & Admissions",
+    "description": "Explore G H Raisoni University agriculture at Saikheda: course duration, eligibility evidence, field-learning notes, admission checks and ICAR validity.",
+    "keywords": [
+      "G H Raisoni University, Chhindwara",
+      "GHRU agriculture",
+      "Saikheda agriculture admission",
+      "B.Sc. (Hons.) Agriculture G H Raisoni University, Chhindwara"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://ghrus.s3.ap-south-1.amazonaws.com/ghru/images-new/cdn/campus-ghru.webp",
+    "logo_url": "https://rgicdn.s3.ap-south-1.amazonaws.com/rucet/images/logos/ghrus.webp",
+    "campus_alt": "G H Raisoni University Saikheda academic building",
+    "caption": "G H Raisoni University Saikheda academic building",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/g-h-raisoni-university-chhindwara/logo-colour.webp",
+    "local_campus_image": "media/g-h-raisoni-university-chhindwara/campus-01.webp",
+    "local_gallery": [
+      "media/g-h-raisoni-university-chhindwara/campus-01.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://ghru.edu.in/bsc-agriculture",
+      "title": "B.Sc. Agriculture Honours",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "campus.facilities.0",
+        "faqs.0",
+        "faqs.1",
+        "faqs.2",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://cuet.nta.nic.in/g-h-raisoni-university-chhindwara-madhya-pradesh/",
+      "title": "NTA CUET-UG 2025: G H Raisoni University",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "overview"
+      ],
+      "notes": "Explicitly 2025 eligibility table; retained as historical cross-check, not 2026 admission conditions."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.careers360.com/university/gh-raisoni-university-chhindwara/bsc-agriculture-hons-course",
+      "title": "GHRU agriculture course directory",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.3",
+        "overview"
+      ],
+      "notes": "Undated/calculated fee figure not adopted as an official fee quote."
+    },
+    {
+      "id": "s5",
+      "url": "https://ghru.edu.in/contact",
+      "title": "GHRU official contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "Research discovery or access limitation; no unsupported facts adopted"
+      ],
+      "notes": "Official indexed contact read; direct open returned only an analytics iframe. Current page uses Pandhurna district."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://rucet.in/ghru-saikheda.php",
+      "title": "G H Raisoni University, Chhindwara — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/g-h-raisoni-university-chhindwara/logo-colour.webp. Raisoni Education RUCET admissions portal explicitly identifies G H Raisoni University Saikheda, its 13 June 2016 founding and Madhya Pradesh campus, and directly references this ghrus.webp logo. The logo visibly says Saikheda and matches the lion emblem and wordmark of the university official-site white variant. The portal supplies Raisoni institutional email contacts and Raisoni policy links."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://ghru.edu.in/",
+      "title": "G H Raisoni University, Chhindwara — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/g-h-raisoni-university-chhindwara/campus-01.webp. Official ghru.edu.in and its linked CDN identify the Saikheda university in Madhya Pradesh; downloaded wordmark explicitly says Saikheda."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://admissions.ghru.edu.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://admissions.ghru.edu.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://ghru.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://ghru.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://ghru.edu.in/"
+    },
+    {
+      "field": "recognition.icar_units",
+      "reason": "Recorded ICAR term ends 8 November 2026. Targeted official-source recheck on 31 October found no separately verified renewal decision; do not extend the recorded term.",
+      "next_source": "https://icar.org.in/en/list-accreditation-status-agricultural-universitiescollegesinstitutionprogrammes"
+    },
+    {
+      "field": "identity",
+      "reason": "The audited name says Chhindwara while the current official contact page uses Pandhurna district; the audited identity is retained and current contact wording is recorded.",
+      "next_source": "https://ghru.edu.in/contact"
+    },
+    {
+      "field": "identity.established",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://ghru.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/16-g-h-raisoni-university-chhindwara.json",
+  "audit_name": "G H Raisoni University, Chhindwara",
+  "related": [
+    {
+      "id": 21,
+      "name": "AKS University",
+      "slug": "aks-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 34,
+      "name": "Rabindranath Tagore University",
+      "slug": "rabindranath-tagore-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 47,
+      "name": "Sri Satya Sai University of Technology and Medical Sciences",
+      "slug": "sri-satya-sai-university-of-technology-and-medical-sciences",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

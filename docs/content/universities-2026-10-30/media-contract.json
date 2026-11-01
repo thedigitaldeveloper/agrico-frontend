@@ -1,0 +1,44 @@
+{
+  "purpose": "Collect authentic institution logos and campus/practical-learning photographs for a later CMS import. Do not import or publish yet.",
+  "checked_on": "2026-10-30",
+  "input": "institutions.json: 58 profiles with id, slug, official identity.website and source register",
+  "directory_rule": "Store unchanged downloaded image bytes under docs/content/universities-2026-10-30/media/{profile.slug}/. One assets.json per institution. Do not modify content batch files or other institutions.",
+  "target": "At least one authentic logo and one verified campus/academic-setting photograph per institution; aim for two useful campus photos when available. Save a separate official square mark as card-logo only when actually available.",
+  "asset_manifest_shape": {
+    "id": "matching integer profile id",
+    "slug": "matching profile slug",
+    "name": "matching profile name",
+    "checked_on": "2026-10-30",
+    "assets": [{
+      "role": "logo, card_logo, campus_primary, campus_secondary",
+      "cms_field": "logo, card_logo, image, or gallery_candidate",
+      "file": "media/{slug}/logo.png or campus-01.jpg etc, relative to this content-pack directory",
+      "source_page": "actual web page establishing institution and image identity",
+      "download_url": "exact publicly accessible image URL",
+      "source_kind": "official, official_affiliating_university, official_social or secondary",
+      "description": "what the image depicts; be specific about campus where known",
+      "alt": "original descriptive alt text",
+      "campus": "verified location or null",
+      "agriculture_specific": "true/false/null; do not infer every university-wide photograph is an agriculture facility",
+      "identity_evidence": "why this is this institution or the correct campus",
+      "rights_status": "public_source_no_explicit_license, explicit_license, or institution_supplied",
+      "attribution": "source credit if stated; otherwise institution/source name",
+      "review_status": "verified_source or needs_visual_review",
+      "notes": "important limitations, low resolution or variant notes"
+    }],
+    "gaps": [{ "role": "missing role", "reason": "specific access/discovery/identity problem", "attempted_sources": ["exact URLs tried"] }]
+  },
+  "rules": [
+    "Use official institution pages, linked assets, official galleries/media kits or authoritative parent-university pages first. Search Google/web for inaccessible or thin sites; a correctly identified secondary gallery/CDN is a fallback with explicit provenance.",
+    "Use public, normally accessible resources. Do not bypass authentication, bot challenges, paywalls or access denials. Record failures and find another legitimate public source.",
+    "Download actual image files, not links-only manifests, HTML error pages or screenshots pretending to be photos. Preserve originals unchanged. No AI generation, invented seals, stock substitutes or watermark removal.",
+    "Verify the university/college and campus identity. Keep independent colleges distinct from their parent university; Centurion Odisha distinct from its Andhra campus; agriculture and horticulture units distinct where relevant.",
+    "Prefer logos at least 96px or genuine SVG marks and photos at least 800px wide. Lower resolution can be retained when it is the best authentic source, with an explicit note. Do not upscale to manufacture quality.",
+    "Exclude generic UGC/NAAC/ICAR badges, other institution logos, social icons and stock marketing banners from the institution-logo/campus roles.",
+    "Do not claim image reuse permission simply because a file is public. Preserve credit/license text when provided; record provenance without an unsolicited permission workflow.",
+    "Use stable descriptive filenames with a real matching extension. If download is WebP/AVIF/SVG, preserve that format rather than relabelling it JPG.",
+    "Check that downloaded files decode and visually inspect logos and campus selections. Report any uncertain identity rather than silently marking it verified.",
+    "Write each institution's assets.json incrementally. Only edit your assigned institution directories. Do not write CMS records, alter application code or touch other client directories.",
+    "For downloads prefer public read-only tools or curl. Network access may require exec_command sandbox_permissions=require_escalated with a short scoped justification. This is already authorized by the user; do not ask the user again. Do not print credentials or cookies."
+  ]
+}

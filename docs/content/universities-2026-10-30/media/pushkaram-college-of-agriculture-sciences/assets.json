@@ -1,0 +1,60 @@
+{
+  "id": 6,
+  "slug": "pushkaram-college-of-agriculture-sciences",
+  "name": "Pushkaram College of Agriculture Sciences",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/pushkaram-college-of-agriculture-sciences/logo.jpg",
+      "source_page": "https://x.com/AgriPcas",
+      "download_url": "https://pbs.twimg.com/profile_images/1252168427499708416/t0J7QZlA.jpg",
+      "source_kind": "official_social",
+      "description": "Pushkaram College of Agriculture Sciences shield from its institutional social profile",
+      "alt": "Pushkaram College of Agriculture Sciences shield from its institutional social profile",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "College name is legible in both the social-profile emblem and the photographed Pudukkottai entrance gateway.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Pushkaram College of Agriculture Sciences",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Source is the college-branded @AgriPcas public profile, rather than a GTN parent-institution logo.",
+      "width": 400,
+      "height": 400,
+      "sha256": "d1b339c9cbf2857c2a7c1346b1cfdf51d2f72305dff8e7c6c2b2b6d2c01771e6"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/pushkaram-college-of-agriculture-sciences/campus-01.jpg",
+      "source_page": "https://www.careers360.com/colleges/pushkaram-college-of-agricultural-sciences-pudukkottai",
+      "download_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29634/2024/2/12/Campus%20Entrance%20View%20of%20Pushkaram%20College%20of%20Agricultural%20Sciences%20Pudukkottai_Campus-View.png",
+      "source_kind": "secondary",
+      "description": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+      "alt": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+      "campus": "Pudukkottai, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "College name is legible in both the social-profile emblem and the photographed Pudukkottai entrance gateway.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.careers360.com",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official website returned 403. Careers360 explicitly labels this the campus entrance of this college; its name is visible on the gateway. Source resolution is 720 × 480; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 720,
+      "height": 480,
+      "sha256": "052e0f4096020799bf5bba8d304528a0b50b7d604eff02cdb8947e56fa1e7813"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "No second verified photograph obtained: official pushkaram.in homepage returned 403, and the accessible secondary image search yielded only the clearly named entrance used here.",
+      "attempted_sources": [
+        "https://pushkaram.in/"
+      ]
+    }
+  ],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

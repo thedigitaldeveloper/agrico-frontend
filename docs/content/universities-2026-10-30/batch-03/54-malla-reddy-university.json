@@ -1,0 +1,409 @@
+{
+  "id": 54,
+  "slug": "malla-reddy-university",
+  "name": "Malla Reddy University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "MRU",
+    "ownership": "Private university",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "established": 2020,
+    "address": "Maisammaguda, Dulapally, Hyderabad, Telangana 500100",
+    "parent_university": null,
+    "website": "https://www.mallareddyuniversity.ac.in/",
+    "admissions_url": "https://www.mallareddyuniversity.ac.in/eligibility-criteria",
+    "phone": "94971-94971",
+    "email": "admissions@mallareddyuniversity.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Malla Reddy University",
+    "summary": "Malla Reddy University’s School of Agricultural Sciences in Hyderabad offers an agriculture honours bachelor’s degree alongside allied food and horticulture study. Its published learning approach includes rural work experience, industrial attachment, hands-on training and student projects, placing practical activity within a wider university setting.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture learning at Maisammaguda",
+    "paragraphs": [
+      "MRU’s agricultural sciences school lists the agriculture bachelor’s degree alongside horticulture and food science. The university locates the school at Maisammaguda, Dulapally, in Hyderabad. Its dedicated school pages identify academic practices and provide access points for curriculum, staff and facilities information.",
+      "The school describes Student READY components that include rural agricultural work, experiential learning, industrial training and student projects. These components offer useful questions for a campus visit: where students complete each activity, how supervision works and how their work is assessed. The undergraduate eligibility page separately states a relevant-subject 10+2 requirement and marks threshold for agriculture applicants."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Malla Reddy University"
+      },
+      {
+        "label": "Location",
+        "value": "Hyderabad, Telangana"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "The school’s agriculture degree is associated with a published Student READY practical-learning approach.",
+      "eligibility": "Official eligibility page states 10+2 or equivalent in relevant subjects with at least 50%; confirm exact subject combinations for the intake.",
+      "admission_route": "The eligibility page refers to applicable national/state tests or qualifying-examination merit; confirm the agriculture selection notice.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Malla Reddy University; accreditation term 2026-03-16 to 2031-03-15.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to MRU",
+    "intro": "MRU publishes separate eligibility and fee pages. Use the agriculture entry conditions and request an intake-specific selection and cost notice before completing the application.",
+    "eligibility_points": [
+      "The official undergraduate agriculture category states at least 50% in relevant 10+2 subjects."
+    ],
+    "steps": [
+      {
+        "title": "Check the agriculture category",
+        "text": "Confirm that your subject combination meets the school’s current requirements."
+      },
+      {
+        "title": "Obtain the current programme notice",
+        "text": "Request the applicable selection route and the complete B.Sc. Agriculture fee schedule."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The school describes experiential learning, rural attachment, industry training, skills work and projects. A detailed current laboratory inventory could not be verified from the linked pages. A readable official school inventory identifies genetics/plant-breeding, plant-pathology, horticulture and agronomy equipment. Confirm present access and practical schedules with the department.",
+    "facilities": [
+      {
+        "name": "Genetics and plant breeding laboratory",
+        "description": "The official inventory lists seed display boxes, a seed germinator, BOD incubator, hot-air oven, deep freezer and binocular microscope.",
+        "source_ids": [
+          "completion_mru_infrastructure"
+        ]
+      },
+      {
+        "name": "Plant pathology laboratory",
+        "description": "The official school inventory identifies microscopes, hot-air oven, autoclave and incubator.",
+        "source_ids": [
+          "completion_mru_infrastructure"
+        ]
+      },
+      {
+        "name": "Horticulture and agronomy practical equipment",
+        "description": "The school page lists garden tools, sprayers and protected structures including shade nets/polyhouses, alongside tillage implements and agricultural hand tools.",
+        "source_ids": [
+          "completion_mru_infrastructure"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The school lists experiential learning and Rural Agricultural Work Experience.",
+      "Its published practices include in-plant/industry attachment, skills training and student projects."
+    ],
+    "source_ids": [
+      "s3",
+      "completion_mru_infrastructure"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The official eligibility page states that merit scholarships exist across academic programmes. Agriculture-specific award amounts, score bands and renewal conditions were not verified.",
+    "schemes": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "MRU provides a university placement route, but the agriculture sources used do not establish a dated programme-level employment result. No general-university salary is transferred to the agriculture degree.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Malla Reddy University with validity from 2026-03-16 to 2031-03-15. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Malla Reddy University",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture  (Intake- 240)"
+        ],
+        "valid_from": "2026-03-16",
+        "valid_until": "2031-03-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A64:G64"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A dated agriculture faculty roster for MRU has not been verified for this draft.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where is MRU’s agriculture school located?",
+      "answer": "The official school page gives Maisammaguda, Dulapally, Hyderabad, Telangana 500100.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the published 10+2 marks threshold?",
+      "answer": "The eligibility page states at least 50% for the undergraduate agriculture category, with relevant subjects.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What practical components does the school name?",
+      "answer": "Its academic-practices page names experiential learning, RAWE, industry training, hands-on work and projects.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are horticulture and food science also listed?",
+      "answer": "Yes, the school lists them alongside agriculture. Their accreditation must be checked separately.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which degree is covered by this ICAR record?",
+      "answer": "B.Sc. (Hons.) Agriculture, with the term 16 March 2026 to 15 March 2031.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Is a current agriculture tuition amount verified?",
+      "answer": "No. The official fee page is labelled 2025–26, but its programme amounts were not readable in the source used.",
+      "source_ids": [
+        "s6"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Malla Reddy University | Agriculture Courses & Admissions",
+    "description": "Explore Malla Reddy University agriculture in Hyderabad, its undergraduate entry requirements, practical learning, admission checks and ICAR programme scope.",
+    "keywords": [
+      "Malla Reddy University agriculture",
+      "Malla Reddy University admissions",
+      "Malla Reddy University ICAR accreditation",
+      "Malla Reddy University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://static.wixstatic.com/media/6685d7_6e0152e43a644a81983bf25b49d26ea6~mv2.jpg",
+    "logo_url": "https://static.wixstatic.com/media/4526cf_695fcce7fa68430f875150ef0060ff7b~mv2.png",
+    "campus_alt": "Malla Reddy University academic building, Hyderabad",
+    "caption": "Malla Reddy University academic building, Hyderabad",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/malla-reddy-university/logo-colour.png",
+    "local_campus_image": "media/malla-reddy-university/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/malla-reddy-university/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A64:G64. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.mallareddyuniversity.ac.in/school/school-of-agriculture-sciences",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity",
+        "overview",
+        "programmes"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.mallareddyuniversity.ac.in/details/school-of-agriculture/unique",
+      "title": "Agriculture academic practices",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "overview"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.mallareddyuniversity.ac.in/eligibility-criteria",
+      "title": "Eligibility criteria",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "scholarships"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.mallareddyuniversity.ac.in/admissions",
+      "title": "Admissions and programme list",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "admissions"
+      ],
+      "notes": "Body contains 2022–23 admission text; founding act is 2020. Historical routes not treated as current."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.mallareddyuniversity.ac.in/fee-structure-of-courses",
+      "title": "Fee structure of courses",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Page is labelled AY2025–2026, but programme amounts were not exposed in text."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.mallareddyuniversity.ac.in/details/school-of-agriculture/about",
+      "title": "Agriculture school about page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "General school description; detailed infrastructure PDF and laboratory page returned cache misses."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.mallareddyuniversity.ac.in/",
+      "title": "Malla Reddy University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/malla-reddy-university/logo-colour.png. Official university homepage deploys this distinct coloured emblem with source alt Copy of MRU-Logo2_edited.png. Visually confirmed orange mortarboard and blue crest."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.mallareddyuniversity.ac.in/",
+      "title": "Malla Reddy University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/malla-reddy-university/campus_primary-verified.jpg. Official university website serves this original Wix media asset with alt MRU_BuildingPhotoBest.jpg."
+    },
+    {
+      "id": "completion_mru_infrastructure",
+      "title": "Official MRU School of Agriculture laboratory inventory",
+      "url": "https://www.mallareddyuniversity.ac.in/infrastructure-soa",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Legacy official page remains readable and names equipment. Present student access/schedules are not documented."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.duration",
+      "reason": "No explicit duration was exposed on the current official school/eligibility pages.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/school/school-of-agriculture-sciences"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "Official fee page is headed AY 2025–26 but exposes no agriculture amount. The notification index labels links 2026–27, yet they all resolve to an inaccessible 2020 PDF; no current fee is inferred.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.mallareddyuniversity.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

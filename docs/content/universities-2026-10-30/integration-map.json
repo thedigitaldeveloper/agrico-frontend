@@ -1,0 +1,122 @@
+{
+  "purpose": "Map researched editorial content onto the existing Agrico university detail structure before any CMS import.",
+  "publication": "No live website or CMS records are changed by this content package.",
+  "identity_rule": "The /university/ route family also hosts 19 independent college profiles. Preserve the college name, affiliation and private_college identity; do not rename them as universities.",
+  "mappings": [
+    {
+      "content": "name, slug, identity.city, identity.state, identity.ownership",
+      "existing_target": "University name, slug, city, state, ownership_type; UniversityModel identity hero",
+      "action": "Map taxonomy relations to real CMS records rather than treating labels as relation ids."
+    },
+    {
+      "content": "identity.established, identity.address",
+      "existing_target": "University establish/established_year and address; University at a glance",
+      "action": "Import verified facts only; retain nulls as unpublished optional facts."
+    },
+    {
+      "content": "hero.summary, overview.paragraphs, overview.highlights",
+      "existing_target": "UniversityModel description, authored content section and University highlights",
+      "action": "Bind institution-specific text in the detail adapter; current generic fallback prose should yield to this content."
+    },
+    {
+      "content": "programmes",
+      "existing_target": "Program records, university/programme relations, searchable DetailExplorer rows",
+      "action": "Create or match one canonical programme per qualification; retain institution-specific eligibility, admission route and accreditation scope."
+    },
+    {
+      "content": "programmes[*].fees",
+      "existing_target": "University program_fees / programme offering price and note",
+      "action": "Preserve the fee period, source year, charge scope and scholarship conditions. Do not import a total or a scholarship-adjusted amount as an unconditional annual tuition price."
+    },
+    {
+      "content": "admissions",
+      "existing_target": "University admissions section and Journey content",
+      "action": "Add content binding for institution-specific eligibility, steps, documents, dates and official admission links. Retain historical dates as historical context."
+    },
+    {
+      "content": "campus",
+      "existing_target": "Campus and practical learning section",
+      "action": "Replace the generic checklist with verified institutional facilities and practical-learning copy when integrating."
+    },
+    {
+      "content": "scholarships",
+      "existing_target": "Additional authored scholarship section",
+      "action": "Keep award eligibility, exclusions and source year; no individual scholarship promise."
+    },
+    {
+      "content": "placements",
+      "existing_target": "Authored career-support section and recruiter cards",
+      "action": "Carry metric reporting year and exact programme/campus/institution scope. Do not promote a university-wide statistic to agriculture-specific outcomes."
+    },
+    {
+      "content": "recognition.icar_units, recognition.other_recognitions",
+      "existing_target": "Recognition and accreditation section",
+      "action": "Retain dates and programme/unit scope as structured fields. Recheck renewal before any claim after a printed expiry; avoid one blanket ICAR badge for all degrees."
+    },
+    {
+      "content": "faculty",
+      "existing_target": "University faculties and academic-community cards",
+      "action": "Import only sourced people/roles; no default staff or invented portraits."
+    },
+    {
+      "content": "faqs",
+      "existing_target": "University FAQ accordions",
+      "action": "Bind per-institution answers; do not reuse the generic FAQ set for every profile."
+    },
+    {
+      "content": "seo",
+      "existing_target": "Route metadata / university SEO fields",
+      "action": "Use unique meta titles and descriptions. Canonical URLs are configured by the application, not scraped from source publishers."
+    },
+    {
+      "content": "media",
+      "existing_target": "University hero and logo media",
+      "action": "Local originals and source/alt metadata are prepared in media-manifest.json. Resolve cms-media-import-plan.json upload keys to media IDs for logo, card_logo and image. Secondary photos remain gallery candidates. See recorded source/rights and native-resolution notes."
+    },
+    {
+      "content": "related",
+      "existing_target": "Related institution cards",
+      "action": "Match actual published CMS slugs before showing links; the prepared selection is editorial, not an affiliation."
+    },
+    {
+      "content": "sources, verification_gaps",
+      "existing_target": "Internal editorial provenance",
+      "action": "Retain outside student-facing marketing copy. Resolve material unknowns before publishing their factual fields."
+    },
+    {
+      "content": "university_tabs",
+      "existing_target": "University.agriculture_content.tab_pages; /university/[slug]/[section]",
+      "action": "Import all ten structured tab documents with their parent overview. Preserve each tab_slug, canonical path, sections, FAQs, media and sources; do not flatten the ten documents into the overview."
+    }
+  ],
+  "local_implementation": {
+    "status": "implemented",
+    "university_renderer": "src/components/agrico/publication-page.tsx",
+    "university_content_field": "University.agriculture_content",
+    "editorial_content_field": "Blog.editorial_content",
+    "editorial_relations": [
+      "Blog.universities",
+      "Blog.programs",
+      "University.editorial_posts"
+    ],
+    "publication_data": "publication.json",
+    "cms_payload": "cms-content-import-plan.json",
+    "media_payload": "cms-media-import-plan.json",
+    "cms_data_import": "not_executed",
+    "remote_deployment": "not_executed",
+    "university_overview_pages": 58,
+    "university_tab_pages": 580,
+    "tab_content_field": "University.agriculture_content.tab_pages",
+    "tab_route": "/university/[slug]/[section]",
+    "runtime_data": "publication-runtime.json + tab-pages/<slug>.json",
+    "tab_navigation": "Eleven URL-based pages per institution, each with its own content, TOC and canonical URL",
+    "browser_validation": "publication-browser-verification.json",
+    "indexing_policy": "123 evidence-poor tabs remain noindex/follow; preserve supplied per-document indexing decisions.",
+    "quality_audit": "content-seo-audit.json",
+    "primary_body_import": "cms-html-content-import-plan.json",
+    "body_editor": "Content Section.content → common.html-section → code.html/code.css",
+    "university_tab_sequence": "Content Section.position 0–10, owner+secondary_slug matching",
+    "editorial_body_field": "Blog.body_html (common.html-section component)",
+    "structured_content_role": "Research, metadata, regeneration and offline fallback; marked CMS HTML overrides the displayed body."
+  }
+}

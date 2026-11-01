@@ -1,0 +1,1044 @@
+{
+  "checked_on": "2026-10-31",
+  "batch": "21-40",
+  "scope": "Second targeted official-source research pass; historical and undated evidence retain source sessions.",
+  "assessed_ids": [
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+  ],
+  "changed_ids": [
+    21,
+    22,
+    23,
+    24,
+    26,
+    28,
+    29,
+    30,
+    32,
+    35,
+    37,
+    38
+  ],
+  "records": [
+    {
+      "id": 21,
+      "name": "AKS University",
+      "before_gaps": 5,
+      "source_checks": [
+        {
+          "url": "https://fast.aksuniversity.ac.in/department-of-agronomy/",
+          "outcome": "Head identity and qualifications read; wider staff page timed out."
+        },
+        {
+          "url": "https://www.aksuniversity.ac.in/Faculty-of-Agriculture-Science-and-Technology",
+          "outcome": "Faculty-level facilities read."
+        }
+      ],
+      "changes": [
+        "Added a named Agronomy HOD and three scoped faculty facility entries."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 5,
+      "remaining": [
+        {
+          "field": "faculty.people",
+          "reason": "A named Agronomy HOD is verified in the undated official directory; a dated complete current agriculture staff roster remains unverified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "Procedural steps and common documents are verified; programme-specific selection notice and deadlines remain unverified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "site:aksuniversity.ac.in agriculture faculty hostel scholarship 2026"
+    },
+    {
+      "id": 22,
+      "name": "Sri Sri University",
+      "before_gaps": 8,
+      "source_checks": [
+        {
+          "url": "https://srisriuniversity.edu.in/registration/pay_fees.php",
+          "outcome": "Service contacts and booking scope read; older tariff wording excluded."
+        }
+      ],
+      "changes": [
+        "Added actual hostel/mess and student grievance support channels."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 8,
+      "remaining": [
+        {
+          "field": "programmes.fees.2026-27",
+          "reason": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "All three programme leaves now supply undated semester tuition and full-time duration; no current 2026-27 fee schedule was established."
+        },
+        {
+          "field": "scholarships",
+          "reason": "Official university-wide scholarship support is now described; dated agriculture-specific award rules remain unverified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Page labels 2026-27 but shows application opening on 1 November 2026 after July/August 2026 final admission dates. Current calendar is unresolved."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        },
+        {
+          "field": "programmes.eligibility.agribusiness",
+          "reason": "The undated official Agribusiness fact sheet requires science PCB/PCM with 50%, while the NTA 2025 listing accepts any 10+2 stream with 50%. The intended intake rule remains unresolved."
+        }
+      ],
+      "targeted_search": "site:srisriuniversity.edu.in agriculture hostel fee 2026 scholarship"
+    },
+    {
+      "id": 23,
+      "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+      "before_gaps": 9,
+      "source_checks": [
+        {
+          "url": "https://agriculture.jrnrvu.edu.in/",
+          "outcome": "Page read; explicit casino spam and mixed-institution text found. Its tempting fee rows were rejected."
+        }
+      ],
+      "changes": [
+        "Quarantined compromised agriculture leaf, removed its fact references and changed the admission channel to the main school page."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 10,
+      "remaining": [
+        {
+          "field": "programmes.additional_specialisations",
+          "reason": "The school lists more agricultural M.Sc. and doctoral subjects; a complete intake-specific prospectus with entry requirements is needed before expanding course rows."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A dated current agriculture staff roster was not verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        },
+        {
+          "field": "sources.s3",
+          "reason": "Agriculture subdomain contains casino spam and mixed-institution template material. Its fee and outcome claims remain quarantined pending a clean official document."
+        }
+      ],
+      "targeted_search": "site:jrnrvu.edu.in agriculture fee faculty scholarship"
+    },
+    {
+      "id": 24,
+      "name": "Sanskriti University",
+      "before_gaps": 6,
+      "source_checks": [
+        {
+          "url": "https://www.sanskriti.edu.in/infrastructure/",
+          "outcome": "Hostel and safety sections read; faculty page did not establish a full agriculture roster."
+        }
+      ],
+      "changes": [
+        "Added documented hostel and campus-safety arrangements."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 6,
+      "remaining": [
+        {
+          "field": "sources.s3",
+          "reason": "The 20 MB brochure could not be fully fetched by web tooling; current fees and criteria were read from its indexed official search excerpt."
+        },
+        {
+          "field": "scholarships",
+          "reason": "General official policy categories and exclusions now recorded; dated agriculture-specific award applicability remains unverified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A dated current agriculture staff roster was not verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "site:sanskriti.edu.in agriculture faculty hostel 2026"
+    },
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "before_gaps": 5,
+      "after_gaps": 5,
+      "targeted_search": "site:vgu.ac.in agriculture scholarship 2026 hostel",
+      "source_checks": [
+        {
+          "url": "https://www.vgu.ac.in/Student%20Handbook%202025%20.pdf",
+          "outcome": "Targeted official search returned historical 2025 handbook and older scholarship policy. Current agriculture-specific award/selection gap not resolved."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "programmes.admission_route",
+          "reason": "UG page says JET appearance mandatory; overview lists JET/VGUCET. An intake-specific clarification is required."
+        },
+        {
+          "field": "scholarships",
+          "reason": "Added dated historical 2025-26 policy conditions; current 2026-27 agriculture applicability remains unverified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "The 24 July 2026 reporting event is now recorded; a separate agriculture-specific application/counselling deadline was not established."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "SGT University",
+      "before_gaps": 8,
+      "source_checks": [
+        {
+          "url": "https://sgtuniversity.ac.in/faq",
+          "outcome": "Common documents, optional hostel, health support and ERP bus-pass process read; period-free prices excluded."
+        }
+      ],
+      "changes": [
+        "Added common admission-document requirements and three actual student-service entries."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 8,
+      "remaining": [
+        {
+          "field": "programmes.eligibility",
+          "reason": "Current undated B.Sc. eligibility box says 50%, its FAQ says 50-60%, and 2024-25 table says 60%. Obtain the signed 2026-27 rule."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "Official programme-specific annual amounts are recorded with year null; a dated current-intake schedule remains unverified."
+        },
+        {
+          "field": "scholarships",
+          "reason": "Agriculture-specific Agronomy exclusion is verified; dated intake-year B.Sc./Agronomy award terms remain unverified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "identity.email",
+          "reason": "Official contact page obscured email text in the accessible rendering; no address was guessed."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "site:sgtuniversity.ac.in agriculture hostel scholarships 2026"
+    },
+    {
+      "id": 27,
+      "name": "Bhupal Nobles' University",
+      "before_gaps": 7,
+      "after_gaps": 7,
+      "targeted_search": "site:bnuniversity.ac.in agriculture fee 2026 faculty",
+      "source_checks": [
+        {
+          "url": "https://www.bnuniversity.ac.in/NIRF/agriculture.pdf",
+          "outcome": "Read NIRF2025 agriculture data; newer existing NIRF2026 rows already in the profile were preserved and not counted as newly verified. No current fee table established."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "campus.facilities",
+          "reason": "No detailed current agricultural facility inventory was verified on the checked official pages."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "The purported2026-27 fee link was checked and found to target a missing2020-21 PDF. No current agriculture amount was recovered."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "Linked common instructions identify marksheets/photo/signature; a programme-specific current checklist remains unverified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Karunya Institute of Technology and Sciences",
+      "before_gaps": 8,
+      "source_checks": [
+        {
+          "url": "https://admissions.karunya.edu/sites/admissions/files/uploads/content/Fee/OtherPGPrograms2026-27-IndianNationals.pdf",
+          "outcome": "Complete 2026–28 Indian PG schedule read; three missing rows filled."
+        },
+        {
+          "url": "https://admissions.karunya.edu/scholarship/",
+          "outcome": "Read 2026–27 agriculture-specific merit amounts."
+        },
+        {
+          "url": "https://admissions.karunya.edu/founder-scholarship/",
+          "outcome": "Read agriculture eligibility, documentation and past scholarship deadline."
+        }
+      ],
+      "changes": [
+        "Filled three current PG tuition amounts and two agriculture-applicable 2026 scholarship schemes with conditions."
+      ],
+      "resolved_flags": [
+        "programmes.fees",
+        "scholarships"
+      ],
+      "after_gaps": 6,
+      "remaining": [
+        {
+          "field": "recognition.ICAR_postgraduate_claim",
+          "reason": "School webpage claims B.Sc. and M.Sc. accreditation; audited 2026 row names only B.Sc. Agriculture. Later regulator evidence is required."
+        },
+        {
+          "field": "programmes.eligibility",
+          "reason": "Official academics page and brochure differ on eligible school subjects and routes."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "site:karunya.edu MSc agriculture fee 2026 2027"
+    },
+    {
+      "id": 29,
+      "name": "Suresh Gyan Vihar University",
+      "before_gaps": 8,
+      "source_checks": [
+        {
+          "url": "https://cms.gyanvihar.org/uploads/Booklet_of_Programs_and_Scholarships_2025_Final_1bb0f04066.pdf",
+          "outcome": "Official indexed 2025 annual fee table used; PDF text extraction unavailable."
+        },
+        {
+          "url": "https://www.gyanvihar.org/school/agriculture/m-sc-in-agriculture",
+          "outcome": "Undated MSc entry criteria and route read; fee conflict retained."
+        },
+        {
+          "url": "https://www.gyanvihar.org/wp-content/uploads/attach/IQAC/mentors/mentors_list.pdf",
+          "outcome": "Dated July 2025 named agriculture supervisors read."
+        }
+      ],
+      "changes": [
+        "Added three historical fee amounts, sourced MSc Agronomy entry rules and five historical supervisor entries."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 8,
+      "remaining": [
+        {
+          "field": "programmes.fees",
+          "reason": "Three listed programmes now have historical 2025 annual amounts. A consistent dated 2026–27 offer remains unverified; an undated MSc fee differs."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Named research supervisors are verified in the July 2025 list; a dated full current 2026 teaching roster remains unverified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "agriculture fee scholarship 2026; domain gyanvihar.org"
+    },
+    {
+      "id": 30,
+      "name": "GD Goenka University",
+      "before_gaps": 8,
+      "source_checks": [
+        {
+          "url": "https://www.gdgoenkauniversity.com/admissions/scholarships",
+          "outcome": "Agriculture inclusion, percentage slabs, policy notes and 2026 deadline read."
+        },
+        {
+          "url": "https://www.gdgoenkauniversity.com/faculty/dr-deepak-maurya",
+          "outcome": "Professional name and role read."
+        }
+      ],
+      "changes": [
+        "Filled agriculture scholarship slabs, conditions and deadline, and added a named Vegetable Science teacher."
+      ],
+      "resolved_flags": [
+        "scholarships"
+      ],
+      "after_gaps": 7,
+      "remaining": [
+        {
+          "field": "programmes.fees",
+          "reason": "All three listed programmes now have source-specific annual amounts, but the official table is undated; current-year confirmation remains open."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A named Vegetable Science faculty member is verified on the official page; a separately dated complete roster is not established."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "agriculture hostel scholarship 2026; domain gdgoenkauniversity.com"
+    },
+    {
+      "id": 31,
+      "name": "Shri Guru Ram Rai University",
+      "before_gaps": 8,
+      "after_gaps": 8,
+      "targeted_search": "agriculture hostel fee scholarship faculty; domain sgrru.ac.in",
+      "source_checks": [
+        {
+          "url": "https://www.sgrru.ac.in/fee-structure-international-students",
+          "outcome": "Official indexed international-student accommodation tariff is a different applicant category; not transferred to domestic agriculture pricing."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "campus.area",
+          "reason": "School page gives both 30+ hectares and 25 acres without defining different sites."
+        },
+        {
+          "field": "programmes.admission_route",
+          "reason": "2025 prospectus states entrance test; undated course page says university norms. Current selection rule needs confirmation."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Vellore Institute of Technology",
+      "before_gaps": 5,
+      "source_checks": [
+        {
+          "url": "https://ugresults.vit.ac.in/bscagri/index.jsp",
+          "outcome": "Public rank-based allotment and category-choice instructions read; no closing rank inferred."
+        }
+      ],
+      "changes": [
+        "Added the actual fee-category preference step for 2026 counselling."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 5,
+      "remaining": [
+        {
+          "field": "faculty.people",
+          "reason": "Dean roster page was last updated June 2025; confirm appointment before publishing as current."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "BSc agriculture hostel fee admission 2026; domain vit.ac.in"
+    },
+    {
+      "id": 33,
+      "name": "SRM Institute of Science and Technology",
+      "before_gaps": 9,
+      "after_gaps": 9,
+      "targeted_search": "BSc agriculture fee 2026 hostel scholarship; domain srmist.edu.in",
+      "source_checks": [
+        {
+          "url": "https://applications.srmist.edu.in/agricultural-sciences-form",
+          "outcome": "Official indexed2026 programme requirements confirm the existing50% and accepted-subject rules. No new programme tuition found. Older2024 form and unrelated Science/Humanities scholarships excluded."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "identity.address",
+          "reason": "Regulator and older portal use Kattankulathur; recent college materials give Baburayanpettai. Full current postal address needs confirmation."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A dated current agriculture staff roster was not verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "Current 2026 course-specific qualification requirements and application link are now read directly; the historical 2024 form does not establish current selection, documents or deadlines."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Rabindranath Tagore University",
+      "before_gaps": 6,
+      "after_gaps": 6,
+      "targeted_search": "agriculture fee scholarship faculty 2026; domain rntu.ac.in",
+      "source_checks": [
+        {
+          "url": "https://rntu.ac.in/admission",
+          "outcome": "Read official admissions and scholarship material;2022ShikshaMitra BScAgriculture exclusion remains. General scholarship grids do not resolve agriculture-specific eligibility or current fees."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "programmes.fees",
+          "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A dated current agriculture staff roster was not verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "GIET University",
+      "before_gaps": 7,
+      "source_checks": [
+        {
+          "url": "https://www.giet.edu/schools/school-of-agriculture/infrastructure/hostels-amenities/",
+          "outcome": "Agriculture hostel allocation, dining and support read; engineering disclosure tariffs were not transferred."
+        }
+      ],
+      "changes": [
+        "Added three agriculture-specific residential and student-support entries."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 7,
+      "remaining": [
+        {
+          "field": "admissions.year_consistency",
+          "reason": "Entrance page combines a 2027 banner, 2026-27 body and 2020 fee note; obtain intake-specific prospectus."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "Historical 2024-25 B.Sc. and combined M.Sc. Agriculture amounts are now recorded; the current schedule and Horticulture-specific price remain unverified."
+        },
+        {
+          "field": "scholarships",
+          "reason": "Official policy scope is now documented, including B.Tech-only exclusions; dated agriculture award conditions remain unverified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "agriculture fee scholarship hostel 2026; domain giet.edu"
+    },
+    {
+      "id": 36,
+      "name": "RNT College of Agriculture",
+      "before_gaps": 12,
+      "after_gaps": 12,
+      "targeted_search": "agriculture fee faculty hostel scholarship; domain rntagcollege.edu.in",
+      "source_checks": [
+        {
+          "url": "https://rntagcollege.edu.in/",
+          "outcome": "Homepage read and targeted staff/fee searches completed; sparse page and non-functional generic menu links do not establish new current fees, dates or roster."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "programmes.fees",
+          "reason": "Linked official fee page timed out; no dated 2026-27 agriculture fees verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Linked staff page timed out."
+        },
+        {
+          "field": "campus.facilities",
+          "reason": "Farm page gives no usable inventory or current operational detail."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "A dated current agriculture staff roster was not verified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "identity.established",
+          "reason": "An authoritative exact value was not verified after official-page and targeted search checks."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Amrita Vishwa Vidyapeetham",
+      "before_gaps": 7,
+      "source_checks": [
+        {
+          "url": "https://webfiles.amrita.edu/2026/03/aeel-information-handbook-2026.pdf",
+          "outcome": "Dated agriculture eligibility and tentative historical test calendar read."
+        },
+        {
+          "url": "https://www.amrita.edu/program/ph-d-in-agronomy/",
+          "outcome": "PhD qualification/interview, undated tuition and 30 September 2026 phase 2 deadline read."
+        },
+        {
+          "url": "https://webfiles.amrita.edu/2026/06/annual-fee-hostel-mess-2026-2027-coimbatore.pdf",
+          "outcome": "2026–27 campus hostel/mess tariff read; separate from historical tuition."
+        }
+      ],
+      "changes": [
+        "Resolved the 2026 undergraduate subject ambiguity; added PhD entry/undated tuition, past dates and a current campus living tariff."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 7,
+      "remaining": [
+        {
+          "field": "programmes.fees.2026-27",
+          "reason": "Explicit tuition table remains labelled 2025-26 although hostel/mess headings say 2026-27."
+        },
+        {
+          "field": "programmes.eligibility",
+          "reason": "Dated AEEL 2026 handbook resolves undergraduate PCB requirements and PhD entry is now sourced. Later-intake and MSc entry criteria need their own notice."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "Original-certificate and candidate/guardian counselling requirements are now sourced; a complete currentAEEL document checklist is still not established."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "Past tentative AEEL May 2026 dates and PhD 30 September deadline are recorded. No current undergraduate reopening or deadline is established."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "agriculture hostel fees scholarship 2026; domain amrita.edu"
+    },
+    {
+      "id": 38,
+      "name": "Tantia University",
+      "before_gaps": 9,
+      "source_checks": [
+        {
+          "url": "https://foag.tantiauniversity.com/event-gallery/INAUGURATION-OF-AGRICULTURE-EXCELLENCE-CENTERS",
+          "outcome": "Unambiguous 10 October 2024 event read; sunflower story with conflicting dates excluded."
+        },
+        {
+          "url": "https://soiltesting.tantiauniversity.com/",
+          "outcome": "Official indexed directory read; direct 403 recorded."
+        }
+      ],
+      "changes": [
+        "Added a dated academic event, soil/water laboratory and two named specialists with date/access scope."
+      ],
+      "resolved_flags": [],
+      "after_gaps": 9,
+      "remaining": [
+        {
+          "field": "programmes.fees.2026-27",
+          "reason": "Latest verified dated fee evidence was 2025-26; the 2026-27 schedule was not verified."
+        },
+        {
+          "field": "programmes.fees",
+          "reason": "Both missing PG amounts are now sourced to2025-26; a dated2026-27 schedule remains unavailable."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Named lab specialists are verified in an undated official indexed directory; a dated complete current agriculture faculty roster remains unverified."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ],
+      "targeted_search": "agriculture fee faculty scholarship 2026; domain tantiauniversity.com"
+    },
+    {
+      "id": 39,
+      "name": "Raffles University",
+      "before_gaps": 6,
+      "after_gaps": 6,
+      "targeted_search": "agriculture hostel fee scholarships 2026; domain rafflesuniversity.edu.in",
+      "source_checks": [
+        {
+          "url": "https://rafflesuniversity.edu.in/pdf/2025/Fee%20Structure%202025-26.pdf",
+          "outcome": "Official indexed older fee/hostel schedule does not improve existing2026–27 fee evidence. Existing named faculty preserved; no dated agriculture cohort placement report established."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "programmes.admission_route",
+          "reason": "General Situation Test/interview procedure and historical agriculture JET notice need reconciliation for current intake."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "Named agriculture roster entries and subject roles are now verified on the official page; a separately dated current staffing publication is not established."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "No agriculture-specific placement report with cohort, year and denominator was verified."
+        },
+        {
+          "field": "admissions",
+          "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+      "before_gaps": 7,
+      "after_gaps": 7,
+      "targeted_search": "agriculture scholarships hostel admission 2026; domain mmumullana.org",
+      "source_checks": [
+        {
+          "url": "https://www.mmumullana.org/wp-content/uploads/2026/04/MM%28DU%29%20Information%20Booklet%20%282026-27%29.pdf",
+          "outcome": "Public brochure fetch rejected as14MB content too large. International portal instructions were not transferred to domestic applicants; existing programme/faculty evidence retained."
+        }
+      ],
+      "changes": [],
+      "resolved_flags": [],
+      "remaining": [
+        {
+          "field": "admissions.application_procedure",
+          "reason": "Current main course pages expose no readable application process. Historical 2024-25 landing page cannot establish 2026 procedure."
+        },
+        {
+          "field": "scholarships",
+          "reason": "No dated agriculture-applicable award rules were verified."
+        },
+        {
+          "field": "faculty.people",
+          "reason": "The official self-study report now supplies named subject faculty; its mixed/older academic context does not establish a dated current roster."
+        },
+        {
+          "field": "placements.statistics",
+          "reason": "Agriculture-specific placement coordination is now described from the official report; no dated cohort/denominator/salary outcome was established."
+        },
+        {
+          "field": "admissions.documents",
+          "reason": "No current programme-specific document checklist was verified."
+        },
+        {
+          "field": "admissions.dates",
+          "reason": "No unambiguous intake-specific application or counselling dates were verified for publication."
+        },
+        {
+          "field": "recognition.other_recognitions",
+          "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "assessed": 20,
+    "changed": 12,
+    "added_source_records": 20,
+    "new_numerical_fee_rows": 7,
+    "new_current_2026_fee_rows": 3,
+    "new_historical_or_undated_fee_rows": 4,
+    "resolved_flags": 3,
+    "new_source_integrity_flags": 1,
+    "qa_errors": [],
+    "note": "Owner handles source-derived tab/overview FAQs and related guides. No mass FAQ padding or source-year reclassification. Existing o31 NIRF additions observed in profiles were preserved and are not claimed as this pass research. This is bounded public-source research, not proof that missing facts do not exist."
+  }
+}

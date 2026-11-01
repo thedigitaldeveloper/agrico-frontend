@@ -1,0 +1,514 @@
+{
+  "id": 7,
+  "slug": "the-indian-agriculture-college",
+  "name": "The Indian Agriculture College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "TIAC",
+    "ownership": "Private college established under Joshua Educational and Charitable Trust",
+    "city": "Radhapuram",
+    "state": "Tamil Nadu",
+    "established": 2016,
+    "address": "Kavalkinaru to Radhapuram Road, Radhapuram 627111, Tirunelveli District, Tamil Nadu",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://tiac.rajas.edu/",
+    "admissions_url": "https://tiac.rajas.edu/admission-open/",
+    "phone": "+91 70944 34295",
+    "email": "info@rajas.edu"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "The Indian Agriculture College",
+    "summary": "TIAC is an agriculture college in Radhapuram, Tirunelveli district, affiliated to TNAU. Established in 2016 under Joshua Educational and Charitable Trust, it focuses on agricultural education and the farming needs of southern Tamil Nadu. Its verified ICAR entry covers the agriculture undergraduate degree.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education in southern Tamil Nadu",
+    "paragraphs": [
+      "The Indian Agriculture College is located on the Kavalkinaru–Radhapuram Road in Tirunelveli district. Established in 2016 under Joshua Educational and Charitable Trust, it focuses on agricultural education and the farming needs of southern Tamil Nadu.",
+      "Its four-year degree is organised over eight semesters. The course page covers agricultural science alongside surveying, soils, water management and allied subjects. The college also publishes campus material grouped around laboratories, agricultural fields, farms and industrial visits. Applicants can use those resources to identify which practical areas interest them and request the current timetable for field and laboratory learning."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2030-01-26"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "A four-year, eight-semester TNAU-affiliated agriculture degree. TIAC’s course page includes soils, surveying, water-resource management, animal/poultry management and biotechnology fundamentals.",
+      "eligibility": "The course page requires Higher Secondary science and lists OC 55%, BC/BCM 50%, MBC/Denotified Communities 45%, and a pass for SC/ST. The subject table is inconsistently formatted; confirm the exact current combination with TNAU/TIAC.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Indian Agriculture College, Radhapuram for 2025-01-27 to 2030-01-26. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s6"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to TIAC",
+    "intro": "TIAC publishes a four-year, eight-semester agriculture course page and category-based entry thresholds. Its online form is an application starting point; the current TNAU selection channel, deadline and itemised fees should be confirmed before submission.",
+    "eligibility_points": [
+      "Higher Secondary science is required by the course page.",
+      "Published category thresholds are OC 55%, BC/BCM 50%, MBC/DNC 45%, and pass for SC/ST; verify the current rule and exact subjects."
+    ],
+    "steps": [
+      {
+        "title": "Read the college application form",
+        "text": "The official page collects personal, parent and contact information and identifies the agriculture degree."
+      },
+      {
+        "title": "Confirm formal admission requirements",
+        "text": "Before submitting sensitive records, obtain the current TNAU-linked eligibility, selection channel, deadline and fee schedule from TIAC."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s4",
+      "s6"
+    ]
+  },
+  "campus": {
+    "heading": "Farm and laboratory material published by TIAC",
+    "intro": "The campus gallery includes labelled sections for laboratories, agricultural fields, farm activity and industrial visits. A current facilities inventory and detailed participation records were not verified.",
+    "facilities": [],
+    "practical_learning": [
+      "The official gallery documents categories for farm activity and industrial visits; ask the college for current cohort schedules."
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "TIAC publishes information about the 7.5% government-school reservation route and past supported batches. This is a specific access/support route, not a universal cash scholarship. Confirm current schooling, counselling and funding conditions before claiming support.",
+    "schemes": [
+      {
+        "name": "7.5% government-school quota information",
+        "details": "The college describes Class 6–12 study in Tamil Nadu government schools and publishes batch counts through 2024–25. Current eligibility and financial coverage require the applicable official admission rules.",
+        "source_ids": [
+          "s7"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s7"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current TIAC agriculture placement report was not found in the pages read. The college’s stated employability and entrepreneurship objectives describe its educational aims, rather than an independently evidenced employment result.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Indian Agriculture College, Radhapuram and the programme labels below from 2025-01-27 through 2030-01-26. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Indian Agriculture College, Radhapuram",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+        ],
+        "valid_from": "2025-01-27",
+        "valid_until": "2030-01-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A14:G14"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "TIAC publishes subject-wise teacher profiles with specialisations and teaching assignments. Visiting and guest positions below are identified separately from regular academic titles.",
+    "people": [
+      {
+        "name": "Dr. R. Vijayan",
+        "role": "Visiting Professor, Veterinary and Animal Husbandry",
+        "qualification": "M.V.Sc.; Ph.D.; F.V.A.Sc.",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. C. David Devadhas",
+        "role": "Guest Faculty, Horticulture",
+        "qualification": "Ph.D. Horticulture; MBA Marketing",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. J. Purushothaman",
+        "role": "Assistant Professor, Horticulture",
+        "qualification": "Ph.D.; ASRB-NET",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. Senthil Kumar A",
+        "role": "Assistant Professor, Soil Science and Agricultural Chemistry",
+        "qualification": "Ph.D.; ASRB-NET",
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. M. Syamala",
+        "role": "Associate Professor, Plant Pathology",
+        "qualification": "Ph.D.; ASRB-NET",
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is TIAC’s public-facing name?",
+      "answer": "Its official website uses The Indian Agriculture College; the audited row omits the initial “The”. Both identities are preserved in their respective contexts.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the college?",
+      "answer": "It lists Kavalkinaru to Radhapuram Road, Radhapuram 627111, Tirunelveli district.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "How long is the TIAC agriculture degree?",
+      "answer": "The official course page specifies four years and eight semesters.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "Can the banner establish the final admission date?",
+      "answer": "No. The page body mentions 2026–27 but does not provide a verified closing date in the material read.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which ICAR dates apply?",
+      "answer": "The audited entry covers 27 January 2025 to 26 January 2030 for the agriculture programme.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for TIAC?",
+      "answer": "The course page requires Higher Secondary science and lists OC 55%, BC/BCM 50%, MBC/Denotified Communities 45%, and a pass for SC/ST. The subject table is inconsistently formatted; confirm the exact current combination with TNAU/TIAC.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for TIAC?",
+      "answer": "TIAC publishes subject-wise teacher profiles with specialisations and teaching assignments. Visiting and guest positions below are identified separately from regular academic titles. Dr. R. Vijayan — Visiting Professor, Veterinary and Animal Husbandry — M.V.Sc.; Ph.D.; F.V.A.Sc.; Dr. C. David Devadhas — Guest Faculty, Horticulture — Ph.D. Horticulture; MBA Marketing; Dr. J. Purushothaman — Assistant Professor, Horticulture — Ph.D.; ASRB-NET.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which scholarship or support information is published for TIAC?",
+      "answer": "TIAC publishes information about the 7.5% government-school reservation route and past supported batches. This is a specific access/support route, not a universal cash scholarship. Confirm current schooling, counselling and funding conditions before claiming support. The college describes Class 6–12 study in Tamil Nadu government schools and publishes batch counts through 2024–25. Current eligibility and financial coverage require the applicable official admission rules.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for TIAC?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "question": "Where is the official application information for TIAC?",
+      "answer": "https://tiac.rajas.edu/admission-open/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s4",
+        "s6"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "The Indian Agriculture College | Agriculture Courses & Admissions",
+    "description": "Explore TIAC in Radhapuram: agriculture education, TNAU affiliation, the official application page, campus evidence and programme-specific ICAR dates.",
+    "keywords": [
+      "The Indian Agriculture College",
+      "TIAC agriculture",
+      "Radhapuram agriculture admission",
+      "B.Sc. (Hons.) Agriculture The Indian Agriculture College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://tiac.rajas.edu/wp-content/uploads/2025/07/00fdb79e-7b24-4ae0-925f-b70627eb9831.jpg",
+    "logo_url": "https://tiac.rajas.edu/wp-content/uploads/2025/04/TIAC-Logo-new-scaled.jpg",
+    "campus_alt": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+    "caption": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/the-indian-agriculture-college/logo.jpg",
+    "local_campus_image": "media/the-indian-agriculture-college/campus-02.jpg",
+    "local_gallery": [
+      "media/the-indian-agriculture-college/campus-02.jpg",
+      "media/the-indian-agriculture-college/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://tiac.rajas.edu/about-the-college/",
+      "title": "About TIAC",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.0",
+        "overview",
+        "placements"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://tiac.rajas.edu/campus/",
+      "title": "TIAC campus and contact",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faqs.1",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://tiac.rajas.edu/admission-open/",
+      "title": "TIAC admission form",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Page body shows 2026–27, while search/title metadata refers to 2025; no deadline or selection rules confirmed."
+    },
+    {
+      "id": "s5",
+      "url": "https://tiac.rajas.edu/LAYOUT%20OF%20THE%20INDIAN%20AGRICULTURE%20COLLEGE.pdf",
+      "title": "TIAC self-study report",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview"
+      ],
+      "notes": "Institutional historical identity evidence; direct PDF retrieval failed."
+    },
+    {
+      "id": "s6",
+      "url": "https://tiac.rajas.edu/courses/",
+      "title": "TIAC agriculture course and eligibility",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.2",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Official page carries a 2026–27 banner. Subject table includes inconsistent column wording, so exact combinations need confirmation."
+    },
+    {
+      "id": "s7",
+      "url": "https://tiac.rajas.edu/scholarships/7-5-quota/",
+      "title": "TIAC government-school quota support",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships",
+        "scholarships.schemes.0"
+      ],
+      "notes": "Published support counts cover 2021–22 through 2024–25. This is a reservation/support route, not a universal scholarship award."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://tiac.rajas.edu/",
+      "title": "The Indian Agriculture College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-indian-agriculture-college/logo.jpg. Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://tiac.rajas.edu/about-the-college/",
+      "title": "The Indian Agriculture College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-indian-agriculture-college/campus-02.jpg. Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://tiac.rajas.edu/",
+      "title": "The Indian Agriculture College — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/the-indian-agriculture-college/campus-01.jpg. Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph."
+    },
+    {
+      "id": "r31_1",
+      "title": "TIAC subject-wise faculty directory",
+      "url": "https://tiac.rajas.edu/faculty/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Published faculty roles distinguish visiting/guest faculty from assistant professors; selected exact roles only."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://tiac.rajas.edu/admission-open/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://tiac.rajas.edu/admission-open/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://tiac.rajas.edu/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://tiac.rajas.edu/admission-open/"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "The read campus page is primarily a gallery; facility capacity and current access were not documented.",
+      "next_source": "https://tiac.rajas.edu/campus/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/07-the-indian-agriculture-college.json",
+  "audit_name": "Indian Agriculture College, Radhapuram",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

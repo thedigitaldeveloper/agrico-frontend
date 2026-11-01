@@ -1,0 +1,2680 @@
+{
+  "checked_on": "2026-10-31",
+  "content_sha256": "4e0404a096f61a99fe217a139c6e22c38ec01fefb801fc00a0e68ffac4272be9",
+  "base": "http://localhost:3005",
+  "checks": [
+    "All 156 public image copies match the stored authentic originals byte for byte",
+    "All 664 offline documents render the matching body, TOC targets and FAQs",
+    "Offline content-type filters, search and 320–1440px layouts work",
+    "All 664 local frontend routes return 200 with one H1 and the complete content body",
+    "No gallery caption links are rendered on any content route",
+    "All 664 routes match their indexing policy and have social-image/page schema metadata; editorial images, author links and draft dates are accurate",
+    "Representative institution, veterinary, article, blog, news and state pages have working TOCs, canonicals, breadcrumbs and responsive tables",
+    "All ten RNB tab pages have their own body, H1, canonical and correct active university tab",
+    "Wrong editorial route families redirect to their canonical Article/Blog URLs",
+    "Directory search and institution-preserving enquiry dialog work without submitting a lead",
+    "Sitemap segments include eligible canonical URLs and exclude all 123 evidence-deferred tabs",
+    "Overview aliases redirect, sitemap dates are honest and the editorial methodology page is available"
+  ],
+  "errors": [],
+  "documents": 664,
+  "public_images": 156,
+  "responses": [
+    {
+      "route": "/university/adhiparasakthi-agricultural-college",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiparasakthi-agricultural-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/adhiyamaan-college-of-agriculture-and-research/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/j-k-k-munirajah-college-of-agricultural-science/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/jsa-college-of-agriculture-and-technology/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/pgp-college-of-agricultural-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/pushkaram-college-of-agriculture-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/the-indian-agriculture-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/palar-agricultural-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/thanthai-roever-institute-of-agriculture-and-rural-development/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/udai-pratap-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sbvr-agricultural-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/n-s-agricultural-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-krishnadevaraya-college-of-agricultural-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-of-veterinary-and-animal-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/khalsa-college-amritsar/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/g-h-raisoni-university-chhindwara/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/jagan-nath-university-jaipur/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/jaipur-national-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/chandigarh-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/eternal-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/aks-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-sri-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/janardan-rai-nagar-rajasthan-vidyapeeth/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sanskriti-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/vivekananda-global-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sgt-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/bhupal-nobles-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/karunya-institute-of-technology-and-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/suresh-gyan-vihar-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/gd-goenka-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-guru-ram-rai-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/vellore-institute-of-technology/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/srm-institute-of-science-and-technology/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/rabindranath-tagore-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/giet-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/rnt-college-of-agriculture/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/amrita-vishwa-vidyapeetham/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/tantia-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/raffles-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/maharishi-markandeshwar-mullana/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/the-neotia-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/centurion-university-of-technology-and-management/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/lovely-professional-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/kalasalingam-academy-of-research-and-education/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/integral-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sri-satya-sai-university-of-technology-and-medical-sciences/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/gla-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/shri-shivaji-agriculture-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/siksha-o-anusandhan/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/guru-kashi-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/arunachal-university-of-studies/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/sr-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/malla-reddy-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/itm-university-gwalior/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/rkdf-university-bhopal/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/rnb-global-university/faqs",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/admission-process",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/course-fee",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/scholarship",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/training-and-placements",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/cut-off",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/infrastructure",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/campus-life",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/gallery",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/news-and-notifications",
+      "status": 200
+    },
+    {
+      "route": "/university/tilak-dhari-pg-college/faqs",
+      "status": 200
+    },
+    {
+      "route": "/articles/agriculture-fee-budget",
+      "status": 200
+    },
+    {
+      "route": "/articles/angrau-private-agriculture-college-admission",
+      "status": 200
+    },
+    {
+      "route": "/articles/bsc-agriculture-eligibility",
+      "status": 200
+    },
+    {
+      "route": "/articles/bsc-agriculture-vs-agricultural-engineering",
+      "status": 200
+    },
+    {
+      "route": "/blogs/compare-agriculture-campuses",
+      "status": 200
+    },
+    {
+      "route": "/blogs/agriculture-study-plan-after-class-12",
+      "status": 200
+    },
+    {
+      "route": "/blogs/questions-before-choosing-agriculture-college",
+      "status": 200
+    },
+    {
+      "route": "/blogs/prepare-for-agriculture-counselling",
+      "status": 200
+    },
+    {
+      "route": "/articles/cuet-icar-agriculture-admission-route",
+      "status": 200
+    },
+    {
+      "route": "/blogs/reading-an-agriculture-fee-letter",
+      "status": 200
+    },
+    {
+      "route": "/articles/icar-accreditation-how-to-check",
+      "status": 200
+    },
+    {
+      "route": "/articles/msc-agriculture-specialisations",
+      "status": 200
+    },
+    {
+      "route": "/articles/rajasthan-jet-agriculture-admission",
+      "status": 200
+    },
+    {
+      "route": "/articles/rawe-and-experiential-learning",
+      "status": 200
+    },
+    {
+      "route": "/blogs/agriculture-scholarship-conditions",
+      "status": 200
+    },
+    {
+      "route": "/articles/tnau-private-agriculture-college-admission",
+      "status": 200
+    },
+    {
+      "route": "/news/tnau-undergraduate-rank-list-3-july-2026",
+      "status": 200
+    },
+    {
+      "route": "/news/tnau-second-phase-counselling-announcement-september-2026",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/tamil-nadu",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/uttar-pradesh",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/andhra-pradesh",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/punjab",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/madhya-pradesh",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/rajasthan",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/odisha",
+      "status": 200
+    },
+    {
+      "route": "/agriculture-colleges/haryana",
+      "status": 200
+    }
+  ]
+}

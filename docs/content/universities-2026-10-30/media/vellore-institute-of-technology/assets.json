@@ -1,0 +1,43 @@
+{
+  "id": 32,
+  "slug": "vellore-institute-of-technology",
+  "name": "Vellore Institute of Technology",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/vellore-institute-of-technology/logo-colour.webp",
+      "source_page": "https://vit.ac.in/",
+      "download_url": "https://vit.ac.in/wp-content/uploads/2023/06/images.webp",
+      "source_kind": "official",
+      "description": "Vellore Institute of Technology official blue circular university seal",
+      "alt": "Vellore Institute of Technology blue circular university seal",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The VIT official homepage publishes this exact image as its 192px site icon and Apple touch icon. Visual review confirms the named VIT Vellore emblem.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Vellore Institute of Technology",
+      "review_status": "verified_source",
+      "notes": "Original 210 x 210 WebP; unchanged downloaded bytes. Genuine coloured official square seal, selected for visibility on white backgrounds."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/vellore-institute-of-technology/campus-01.webp",
+      "source_page": "https://vit.ac.in/about/infrastructure",
+      "download_url": "https://vit.ac.in/wp-content/uploads/2023/08/infra_image1.webp",
+      "source_kind": "official",
+      "description": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+      "alt": "Aerial view of VIT Vellore academic buildings and green campus grounds",
+      "campus": "Vellore, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Vellore Institute of Technology",
+      "review_status": "verified_source",
+      "notes": "Original 1280 x 640 WEBP; unchanged downloaded bytes."
+    }
+  ],
+  "gaps": []
+}

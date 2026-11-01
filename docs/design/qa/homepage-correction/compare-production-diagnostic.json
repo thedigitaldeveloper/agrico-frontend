@@ -1,0 +1,34 @@
+{
+  "errors": [],
+  "console": [],
+  "navigations": [
+    "http://127.0.0.1:3001/",
+    "http://127.0.0.1:3001/"
+  ],
+  "status": 200,
+  "heading": "Your degree.\nYour next big move.",
+  "campusImages": [
+    {
+      "src": "http://127.0.0.1:3001/_next/image?url=http://localhost:1338/uploads/rs_official_manipal_university_jaipur_image_7d3542589a.jpg?v=2026-10-11T15%3A38%3A02.076Z&w=3840&q=75",
+      "alt": "Manipal University Jaipur campus dome and entrance sign"
+    },
+    {
+      "src": "http://127.0.0.1:3001/_next/image?url=http://localhost:1338/uploads/rs_official_chandigarh_university_image_7334ec5507.jpg?v=2026-10-11T15%3A35%3A48.496Z&w=3840&q=75",
+      "alt": "Chandigarh University campus"
+    },
+    {
+      "src": "http://127.0.0.1:3001/_next/image?url=http://localhost:1338/uploads/rs_official_amity_university_image_1b6889eb89.jpg?v=2026-10-11T15%3A38%3A18.124Z&w=3840&q=75",
+      "alt": "Amity University campus buildings and central lawn"
+    },
+    {
+      "src": "http://127.0.0.1:3001/_next/image?url=http://localhost:1338/uploads/rs_official_lovely_professional_university_image_bb4da8a835.jpg?v=2026-10-11T15%3A36%3A07.138Z&w=3840&q=75",
+      "alt": "Lovely Professional University campus"
+    }
+  ],
+  "postImages": 6,
+  "comparisonExpanded": "true",
+  "comparisonRows": 5,
+  "focus": "rs-comparison-details",
+  "closed": true,
+  "focusReturned": true
+}

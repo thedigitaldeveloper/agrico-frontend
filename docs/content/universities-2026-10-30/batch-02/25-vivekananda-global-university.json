@@ -1,0 +1,418 @@
+{
+  "id": 25,
+  "slug": "vivekananda-global-university",
+  "name": "Vivekananda Global University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "VGU",
+    "ownership": "Private university",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "established": 2012,
+    "address": "Sector 36, NRI Road, Jagatpura, Jaipur, Rajasthan 303012, India",
+    "parent_university": null,
+    "website": "https://vgu.ac.in/",
+    "admissions_url": "https://vgu.ac.in/admission/ug-admission",
+    "phone": "18003131415",
+    "email": "admissions@vgu.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Vivekananda Global University",
+    "summary": "Vivekananda Global University offers agriculture in Jaipur through a dedicated faculty. Its 2026-27 undergraduate page gives course duration, academic eligibility and an annual fee, while the faculty describes subject laboratories, crop trials and educational visits to agricultural research institutions.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An agriculture faculty with published intake information",
+    "paragraphs": [
+      "VGU’s agriculture faculty combines undergraduate teaching with postgraduate subject options. The faculty page lists agronomy, horticulture, soil science and plant breeding and genetics at master’s level. These advertised offerings should be considered separately from the specific undergraduate programme supported by the audited ICAR record.",
+      "The most useful applicant evidence is the 2026-27 undergraduate table: it identifies a four-year B.Sc. (Hons.) Agriculture and a published annual fee. Entrance wording differs between two official pages, however. The course table says appearing in Rajasthan JET is mandatory, while the wider admission overview also mentions VGUCET. This unresolved detail should be settled with the university before applying."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Vivekananda Global University, Jaipur"
+      },
+      {
+        "label": "Location",
+        "value": "Jaipur, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The undergraduate course is supported by laboratory and field activities described by the faculty.",
+      "eligibility": "2026-27 UG page: 10+2 Agriculture or listed science subjects with at least 45%.",
+      "admission_route": "Official pages differ: UG table requires JET appearance; admission overview lists JET/VGUCET. Confirm before applying.",
+      "fees": {
+        "amount_inr": 110000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Published annual course fee; request the complete payable schedule.",
+        "verification": "verified",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The dated undergraduate table is the preferred starting point for academic requirements. Applicants need written confirmation of the applicable entrance route because the two checked official admissions pages use different wording.",
+    "eligibility_points": [
+      "The 2026-27 UG table states at least 45% in 10+2 with Agriculture or its listed science combinations."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [
+      "Class X certificate and mark sheet.",
+      "Class XII certificate/mark sheet or appearing proof.",
+      "Transfer or migration certificate.",
+      "Entrance rank/score card where applicable; the page marks it optional in the common checklist.",
+      "Aadhaar or another valid government photo ID.",
+      "Colour passport-size photographs and relevant caste/category proof.",
+      "The page requires ABC/APAAR ID creation; originals are verified at reporting."
+    ],
+    "dates": [
+      {
+        "label": "University UG reporting date (historical published notice)",
+        "date": "2026-07-24",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Subject laboratories and educational visits",
+    "intro": "The faculty identifies horticulture, soil science, genetics and plant breeding, plant pathology, agronomy and agricultural engineering laboratories. It describes crop experiments and visits to institutions such as Rajasthan Agricultural Research Institute.",
+    "facilities": [
+      {
+        "name": "Soil science laboratory",
+        "description": "The faculty describes soil-property and nutrient-related practical work.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Horticulture laboratory",
+        "description": "The faculty links this laboratory with fruit, vegetable and ornamental-crop training.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "VGU’s scholarship page labels its detailed policy as 2025-26. It describes qualifying-mark, alumni/employee and co-curricular categories. Awards are restricted to academic fees for Indian students, credited in even semesters, and continue only with the stated performance and attendance conditions. A current agriculture-specific award should be confirmed separately.",
+    "schemes": [
+      {
+        "name": "Historical general scholarship policy, 2025-26",
+        "details": "The policy requires at least 6 SGPA each semester, no detention for attendance shortage and only one applicable category. A later agriculture intake must not assume the older policy continues unchanged.",
+        "source_ids": [
+          "o31_scholarship"
+        ]
+      }
+    ],
+    "source_ids": [
+      "o31_scholarship"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Vivekananda Global University, Jaipur for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Vivekananda Global University, Jaipur",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture   (Intake-120)",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A33:G33"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The official faculty page names Prof. Hoshiyar Singh as Dean of Agriculture. This is an undated web listing checked on 30 October 2026.",
+    "people": [
+      {
+        "name": "Prof. (Dr.) Hoshiyar Singh",
+        "role": "Dean, Faculty of Agriculture (official web listing)",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is VGU’s published agriculture fee for 2026-27?",
+      "answer": "The undergraduate admission table lists INR 1,10,000 per year. Obtain the additional-charge breakdown separately.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is Rajasthan JET required?",
+      "answer": "The UG table calls JET appearance mandatory; the wider overview lists JET/VGUCET. The university needs to resolve the applicable route.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "What minimum marks are published?",
+      "answer": "The 2026-27 undergraduate table gives 45% with the specified Agriculture or science subjects.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Which practical laboratories are named?",
+      "answer": "The faculty names soil science, horticulture, agronomy, plant health, plant breeding and agricultural engineering facilities.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which VGU programme is covered in the audited ICAR row?",
+      "answer": "B.Sc. (Hons.) Agriculture, for the term 11 October 2022 to 10 October 2027.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Vivekananda Global University | Agriculture courses and admissions",
+    "description": "Explore VGU agriculture in Jaipur, its 2026-27 undergraduate fee and eligibility, subject laboratories, entrance-route clarification and ICAR programme scope.",
+    "keywords": [
+      "Vivekananda Global University agriculture",
+      "Vivekananda Global University admissions",
+      "Vivekananda Global University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://vgu.ac.in/assets/images/faculty/faq/faq1(2).webp",
+    "logo_url": "https://vgu.ac.in/assets/images/vgu-logo-n.png",
+    "campus_alt": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+    "caption": "Aerial view of Vivekananda Global University academic blocks and landscaped lawns at Jaipur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/vivekananda-global-university/logo.png",
+    "local_campus_image": "media/vivekananda-global-university/campus_primary.webp",
+    "local_gallery": [
+      "media/vivekananda-global-university/campus_primary.webp",
+      "media/vivekananda-global-university/campus_secondary.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://vgu.ac.in/admission/ug-admission",
+      "title": "UG admission 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "admissions"
+      ],
+      "notes": "",
+      "note": "2026-27 page records reporting on 24 July 2026; this is historical, not an open application window."
+    },
+    {
+      "id": "s3",
+      "url": "https://vgu.ac.in/agriculture",
+      "title": "Faculty of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "faculty"
+      ],
+      "notes": "University-wide placement and ranking banners are not agriculture outcomes."
+    },
+    {
+      "id": "s4",
+      "url": "https://vgu.ac.in/admission",
+      "title": "Admission overview 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "overview.route_conflict"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s5",
+      "url": "https://forms.vgu.ac.in/Vgu/vgu/",
+      "title": "VGU 2026 admissions and contact",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address",
+        "identity.email"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://vgu.ac.in/",
+      "title": "Vivekananda Global University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/vivekananda-global-university/logo.png. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://vgu.ac.in/",
+      "title": "Vivekananda Global University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/vivekananda-global-university/campus_primary.webp. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://vgu.ac.in/",
+      "title": "Vivekananda Global University — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/vivekananda-global-university/campus_secondary.webp. Image linked from the official institutional homepage; campus facility context identifies the university."
+    },
+    {
+      "id": "o31_scholarship",
+      "title": "VGU scholarship policy 2025-26",
+      "url": "https://vgu.ac.in/admission/scholarship",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The main policy explicitly identifies 2025-26 despite the global Admissions 2026 header; do not relabel it as 2026-27."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.admission_route",
+      "reason": "UG page says JET appearance mandatory; overview lists JET/VGUCET. An intake-specific clarification is required.",
+      "next_source": "https://vgu.ac.in/admission"
+    },
+    {
+      "field": "scholarships",
+      "reason": "Added dated historical 2025-26 policy conditions; current 2026-27 agriculture applicability remains unverified.",
+      "next_source": "https://vgu.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://vgu.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "The 24 July 2026 reporting event is now recorded; a separate agriculture-specific application/counselling deadline was not established.",
+      "next_source": "https://vgu.ac.in/admission/ug-admission"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://vgu.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Filled admissions checklist/reporting-date content and historical scholarship conditions."
+    ]
+  }
+}

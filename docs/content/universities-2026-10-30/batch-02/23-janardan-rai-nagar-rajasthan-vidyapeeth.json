@@ -1,0 +1,423 @@
+{
+  "id": 23,
+  "slug": "janardan-rai-nagar-rajasthan-vidyapeeth",
+  "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "JRNRVU",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Udaipur",
+    "state": "Rajasthan",
+    "established": 1937,
+    "address": "School of Agricultural Sciences, Dabok Campus, Dabok, Udaipur district, Rajasthan, India",
+    "parent_university": null,
+    "website": "https://jrnrvu.edu.in/",
+    "admissions_url": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php",
+    "phone": "+91-7240421618",
+    "email": "info@jrnrvu.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+    "summary": "Rajasthan Vidyapeeth’s School of Agricultural Sciences operates at Dabok near Udaipur. Its course list spans undergraduate agriculture, specialist postgraduate study and agricultural research. The school’s stated priorities include crop management, postharvest value addition and knowledge transfer to farming communities in southern Rajasthan.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education with a southern Rajasthan focus",
+    "paragraphs": [
+      "The School of Agricultural Sciences is based at the university’s Dabok campus, rather than simply sharing the central administrative address in Udaipur. Its published teaching objectives address crop and pest management, preventing postharvest losses and taking agricultural knowledge to farming communities. These priorities provide useful context for applicants interested in extension as well as production science.",
+      "The official school page lists B.Sc. Agriculture, several M.Sc. Agriculture and Horticulture specialisations, an agribusiness MBA and doctoral study. These are distinct awards with different academic entry points. The published postgraduate list includes crop production, plant health, agricultural economics, extension and livestock management, together with fruit, vegetable and ornamental horticulture."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Janardan Rai Nagar Rajasthan Vidyapeeth"
+      },
+      {
+        "label": "Location",
+        "value": "Udaipur, Rajasthan"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The school’s broad undergraduate agricultural science route.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A specialist postgraduate option in the published agriculture course list.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. (Horticulture) Fruit Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A horticultural specialisation listed separately from vegetable science and floriculture.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "name": "MBA Agribusiness Management",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A management pathway connected with the agricultural sector.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The school page directs applicants to a dedicated agriculture enquiry form. The landing page publishes course durations and annual fee figures but does not state the academic year of those prices. Confirm the applicable course notice with the school.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "campus": {
+    "heading": "Dabok campus and agricultural extension",
+    "intro": "The school identifies Dabok as its teaching location, around 18 kilometres from Udaipur in its introductory description. It also advertises professional workshops, industry visits and a university startup incubator.",
+    "facilities": [
+      {
+        "name": "Dabok teaching campus",
+        "description": "The official school identifies Dabok as the agricultural college location.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The school describes industry visits and professional workshops as part of its educational approach."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The school describes an agriculture placement cell supporting training, internships and career guidance. Its webpage also displays headline placement numbers without clear cohort or reporting-year definitions, so those numbers are excluded here.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Janardan Rai Nagar Rajasthan Vidyapeeth for 2022-10-11 to 2027-10-10. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 90)*",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-10-11",
+        "valid_until": "2027-10-10",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A31:G31"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A verified current list of agriculture teaching staff has not yet been added.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where does the School of Agricultural Sciences teach?",
+      "answer": "The official school page locates it at Dabok, near Udaipur. The university’s administrative contact address is a separate reference.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is the B.Sc. Agriculture entry date-valid in the audited ICAR list?",
+      "answer": "Yes. The listed term runs from 11 October 2022 to 10 October 2027.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Can students study fruit science after a bachelor’s degree?",
+      "answer": "The school lists a two-year M.Sc. Horticulture in Fruit Science. Its current entrance conditions should be obtained separately.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the school list a business qualification?",
+      "answer": "Yes. A two-year MBA Agribusiness Management appears in the official school course list.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Can the annual fee on the enquiry page be treated as a 2026-27 quotation?",
+      "answer": "No. The page shows INR 84,000 annually for undergraduate agriculture without an academic year; a dated schedule is needed.",
+      "source_ids": []
+    }
+  ],
+  "seo": {
+    "title": "Janardan Rai Nagar Rajasthan Vidyapeeth | Agriculture courses and admissions",
+    "description": "Explore Rajasthan Vidyapeeth agriculture at Dabok, Udaipur: B.Sc. and postgraduate options, campus context, admissions questions and exact ICAR coverage.",
+    "keywords": [
+      "Janardan Rai Nagar Rajasthan Vidyapeeth agriculture",
+      "Janardan Rai Nagar Rajasthan Vidyapeeth admissions",
+      "Janardan Rai Nagar Rajasthan Vidyapeeth ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://theacademicinsights.com/wp-content/uploads/2022/01/JRN-Rajasthan-Vidyapeeth-Udaipur.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/329/2022/3/16/Untitled.png",
+    "campus_alt": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+    "caption": "JRN Rajasthan Vidyapeeth academic building, founder statue and landscaped garden at Udaipur",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg",
+    "local_campus_image": "media/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg",
+    "local_gallery": [
+      "media/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus",
+        "placements"
+      ],
+      "notes": "Headline placement counts have no clear year or cohort and are excluded."
+    },
+    {
+      "id": "s3",
+      "url": "https://agriculture.jrnrvu.edu.in/",
+      "title": "Agriculture admissions landing page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.contact",
+        "admissions",
+        "programmes"
+      ],
+      "notes": "Rechecked on 31 October 2026: explicit casino/togel outbound spam and mixed Madhav University template text. Fee, farm-area and placement claims quarantined.",
+      "link_status": "quarantined"
+    },
+    {
+      "id": "s4",
+      "url": "https://jrnrvu.edu.in/about.php",
+      "title": "About Rajasthan Vidyapeeth",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "Institution began 1937; deemed status conferred 1987."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/university/janardan-rai-nagar-rajasthan-vidyapeeth-udaipur",
+      "title": "Janardan Rai Nagar Rajasthan Vidyapeeth — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/janardan-rai-nagar-rajasthan-vidyapeeth/logo.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://theacademicinsights.com/jrn-rajasthan-vidyapeeth-a-hub-of-relentless-educational-service/",
+      "title": "Janardan Rai Nagar Rajasthan Vidyapeeth — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/janardan-rai-nagar-rajasthan-vidyapeeth/campus-01.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.additional_specialisations",
+      "reason": "The school lists more agricultural M.Sc. and doctoral subjects; a complete intake-specific prospectus with entry requirements is needed before expanding course rows.",
+      "next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+      "next_source": "https://jrnrvu.edu.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://jrnrvu.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A dated current agriculture staff roster was not verified.",
+      "next_source": "https://jrnrvu.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://jrnrvu.edu.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://jrnrvu.edu.in/"
+    },
+    {
+      "field": "sources.s3",
+      "reason": "Agriculture subdomain contains casino spam and mixed-institution template material. Its fee and outcome claims remain quarantined pending a clean official document.",
+      "next_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Quarantined compromised agriculture leaf, removed its fact references and changed the admission channel to the main school page."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

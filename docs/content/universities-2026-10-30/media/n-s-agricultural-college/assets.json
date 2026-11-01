@@ -1,0 +1,72 @@
+{
+  "id": 12,
+  "slug": "n-s-agricultural-college",
+  "name": "N.S. Agricultural College",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/n-s-agricultural-college/logo.png",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/B7cMhRPlCqVqCJM0UVlWzos2tg.png",
+      "source_kind": "official",
+      "description": "N.S. Agricultural College Markapur official seal",
+      "alt": "N.S. Agricultural College Markapur official seal",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "N.S. Agricultural College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 300,
+      "height": 280,
+      "sha256": "b6f99e9efb060df3e7c2e31767f3f87f4d46e4a548cfc83de0f8dfd64a9a74d4"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/n-s-agricultural-college/campus-01.jpg",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/lQauinUG70mNCMPVKApP0VsdSY.jpg?width=5184&height=3456",
+      "source_kind": "official",
+      "description": "N.S. Agricultural College academic block and courtyard",
+      "alt": "N.S. Agricultural College academic block and courtyard",
+      "campus": "Gobburu, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "N.S. Agricultural College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Full-resolution official homepage photograph served by the college Framer CDN.",
+      "width": 5184,
+      "height": 3456,
+      "sha256": "927ae128a05bcc5644b2d4f046e530cbff4ab25618b12086fe672bb15b99ede9"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/n-s-agricultural-college/campus-02.jpg",
+      "source_page": "https://nsagri.ac.in/",
+      "download_url": "https://framerusercontent.com/images/uaNIeAA1R2aprhENaPVcdaKi9w.jpg?width=6000&height=4000",
+      "source_kind": "official",
+      "description": "N.S. Agricultural College entrance gateway",
+      "alt": "N.S. Agricultural College entrance gateway",
+      "campus": "Gobburu, Andhra Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official nsagri.ac.in identifies the Gobburu/Markapur college and directly links these Framer-hosted seal, academic-block and gateway originals.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "N.S. Agricultural College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Full-resolution official homepage photograph served by the college Framer CDN.",
+      "width": 6000,
+      "height": 4000,
+      "sha256": "b39e4e78c02ce9325d99a4ae849695c4ac899aaf639a189245fc038929c9b2e3"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

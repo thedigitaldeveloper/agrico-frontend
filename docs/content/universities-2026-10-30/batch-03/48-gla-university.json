@@ -1,0 +1,441 @@
+{
+  "id": 48,
+  "slug": "gla-university",
+  "name": "GLA University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "GLA",
+    "ownership": "Private university",
+    "city": "Mathura",
+    "state": "Uttar Pradesh",
+    "established": 2010,
+    "address": "17 km Stone, NH-19, Delhi–Mathura Road, P.O. Chaumuhan, Mathura, Uttar Pradesh 281406",
+    "parent_university": null,
+    "website": "https://www.gla.ac.in/",
+    "admissions_url": "https://www.gla.ac.in/info/bsc-agri/",
+    "phone": "+91 9027068068",
+    "email": "glauniversity@gla.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "GLA University",
+    "summary": "GLA’s agriculture faculty in Mathura connects crop science with field experiments, laboratory work and experiential study. Its undergraduate page highlights work with vegetables, herbs and flowers. A four-year degree, GLAET-based admission route and published 2026–27 academic fees give applicants concrete academic and cost details to compare.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study and field learning at Mathura",
+    "paragraphs": [
+      "GLA’s faculty page presents agriculture teaching around crop science, research and extension. It identifies field experiments, internships and industry exposure within its approach to experiential learning. The faculty also describes emerging areas such as precision agriculture and value addition, giving applicants a clearer picture than a general university overview alone.",
+      "The undergraduate page gives practical examples including vegetables, herbs and flowers, making the faculty’s crop-based work more tangible. Its entry criteria can be read alongside the 2026–27 Mathura fee schedule, which sets out academic charges for each of the four years. The faculty also describes postgraduate and doctoral teaching, allowing applicants to distinguish a broad first degree from later specialist study."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "GLA University, Mathura, (Private)"
+      },
+      {
+        "label": "Location",
+        "value": "Mathura, Uttar Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": "Full time",
+      "summary": "An agriculture degree with published field and laboratory learning elements.",
+      "eligibility": "The official 2026 landing page states 10+2 with 50% in Physics, Chemistry and Biology/Mathematics/Agriculture, or a two-year agriculture diploma with 50%.",
+      "admission_route": "GLA Entrance Test (GLAET).",
+      "fees": {
+        "amount_inr": 83000,
+        "period": "year",
+        "academic_year": "2026-2027",
+        "includes": "First-year academic fee for B.Sc. (Hons.) Agriculture, Mathura campus.",
+        "note": "Published later-year academic fees are ₹85,000, ₹87,000 and ₹89,000. Examination, alumni, refundable caution and accommodation charges are separate; obtain the complete payable statement.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Listed under GLA University, Mathura, (Private); accreditation term 2025-02-27 to 2030-02-26.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to GLA",
+    "intro": "GLA’s agriculture landing page sets out eligibility followed by GLAET. Applicants should also read the full university admission instructions for their category.",
+    "eligibility_points": [
+      "The 2026 programme page states the specified 50% school or agriculture-diploma entry threshold."
+    ],
+    "steps": [
+      {
+        "title": "Check the stated qualifications",
+        "text": "Match your subjects or agriculture diploma with the programme entry requirements."
+      },
+      {
+        "title": "Follow the GLAET instructions",
+        "text": "The programme page identifies GLAET; confirm the applying-year test and counselling details."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "GLA’s agriculture pages identify practical crop work and subject laboratories within the faculty’s teaching approach.",
+    "facilities": [
+      {
+        "name": "Agriculture teaching land",
+        "description": "The programme page identifies farming land for hands-on work.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Agricultural workshops and laboratories",
+        "description": "The landing page identifies these as practical teaching resources.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The degree page describes harvesting vegetables, herbs and flowers for experiential study.",
+      "The faculty page identifies field experiments and internships."
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "GLA maintains a scholarship page with both programme-specific and government-linked support. A dated B.Sc. Agriculture merit award was not verified; terms for B.Tech or pharmacy should not be transferred to this course.",
+    "schemes": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The agriculture admission page displays some university-wide career counters, including an explicitly overall highest package. They are not presented here as agriculture outcomes. A dated B.Sc. Agriculture placement report remains unverified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies GLA University, Mathura, (Private) with validity from 2025-02-27 to 2030-02-26. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "GLA University, Mathura, (Private)",
+        "programmes_as_printed": [
+          "• B.Sc (Hons.) Agriculture (Intake- 60)"
+        ],
+        "valid_from": "2025-02-27",
+        "valid_until": "2030-02-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A57:G57"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The agriculture department page checked on 31 October 2026 names its dean and teaching staff. This is a live official listing rather than an independently dated appointment record.",
+    "people": [
+      {
+        "name": "Prof. Shailesh Kumar Singh",
+        "role": "Professor and Dean, Faculty of Agricultural Sciences",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Prof. Rajvir Sharma",
+        "role": "Professor",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Dr. Sanjeev Kumar",
+        "role": "Associate Professor",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Dr. Amitabh Singh",
+        "role": "Associate Professor",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Dr. Vineeta Pandey",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Dr. Rohit Kumar",
+        "role": "Assistant Professor",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which GLA campus does the fee table describe?",
+      "answer": "The agriculture row appears in the Mathura campus academic fee table for 2026–27.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What is the first-year academic fee listed?",
+      "answer": "The 2026–27 table lists ₹83,000; other compulsory charges and accommodation need separate checking.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which entrance test is stated for B.Sc. Agriculture?",
+      "answer": "The programme page names GLAET.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does GLA describe field work?",
+      "answer": "Yes. Its agriculture pages identify field experiments and crop-based experiential learning.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which course is covered by this ICAR record?",
+      "answer": "B.Sc. (Hons.) Agriculture, with a term of 27 February 2025 to 26 February 2030.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Is the overall highest salary an agriculture result?",
+      "answer": "No. The university page labels the highest package as overall; no agriculture-only result is established here.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "GLA University | Agriculture Courses & Admissions",
+    "description": "Explore GLA University agriculture at Mathura, practical learning, GLAET admission evidence, official 2026–27 academic fees and B.Sc. ICAR accreditation.",
+    "keywords": [
+      "GLA University agriculture",
+      "GLA University admissions",
+      "GLA University ICAR accreditation",
+      "GLA University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://colleges18.s3.ap-south-1.amazonaws.com/institute_overview_81e40d4f78.jpg",
+    "logo_url": "https://www.mindclubfoundation.in/assets/colleges/10-m5hyq5ta.png",
+    "campus_alt": "Aerial view of GLA University academic blocks and landscaped central courtyard, Mathura",
+    "caption": "Aerial view of GLA University academic blocks and landscaped central courtyard, Mathura",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/gla-university/logo-verified.png",
+    "local_campus_image": "media/gla-university/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/gla-university/campus_primary-verified.jpg",
+      "media/gla-university/campus_secondary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A57:G57. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.gla.ac.in/academics/department-of-agriculture-science",
+      "title": "Faculty of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "General faculty description; no agriculture cohort outcomes.",
+      "note": "Live department page explicitly describes full-time UG/PG/doctoral programmes and lists agriculture staff."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.gla.ac.in/info/bsc-agri/",
+      "title": "B.Sc. Agriculture admissions information",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus"
+      ],
+      "notes": "2026 landing page; overall placement counters not agriculture outcomes."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.gla.ac.in/admissions/fee-structure",
+      "title": "Fee structure, session 2026-2027",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees",
+        "programmes.duration",
+        "identity.address",
+        "identity.phone"
+      ],
+      "notes": "Mathura campus table; accommodation is separate."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.gla.ac.in/admissions/scholorship",
+      "title": "Scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Programme-specific schemes listed for other degrees are not applied to agriculture."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.gla.ac.in/about-us/vice-chancellor",
+      "title": "Official GLA institutional history in leadership biography",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "States university establishment in 2010, distinct from the earlier institute’s 1998 origin."
+    },
+    {
+      "id": "s7",
+      "url": "https://student.glauniversity.in/Main/Contact",
+      "title": "Official GLA student-portal contact page",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.email"
+      ],
+      "notes": "Search excerpt provides the general university email; full page timed out."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.mindclubfoundation.in/",
+      "title": "GLA University — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/gla-university/logo-verified.png. Identified GLA University partner logo on education foundation website; visible institution name and Mathura location match the profile."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.colleges18.com/university/11228-gla-university-mathura",
+      "title": "GLA University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/gla-university/campus_primary-verified.jpg. Identified Colleges18 GLA University Mathura profile campus photograph; matches the distinctive white academic campus in official GLA conference pages."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.collegedekho.com/colleges/gla-university",
+      "title": "GLA University — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/gla-university/campus_secondary-verified.jpg. Institution-specific CollegeDekho university gallery; campus architecture matches the Mathura academic block."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.gla.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.gla.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.gla.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "The official agriculture directory now provides names and roles; its effective date and individual appointment dates are unstated.",
+      "next_source": "https://www.gla.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

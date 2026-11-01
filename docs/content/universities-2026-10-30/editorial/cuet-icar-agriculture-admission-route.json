@@ -1,0 +1,185 @@
+{
+  "id": "cuet-icar",
+  "cms_type": "Articles",
+  "slug": "cuet-icar-agriculture-admission-route",
+  "title": "CUET and ICAR UG counselling: understand the admission route",
+  "description": "Understand CUET examination registration, ICAR rank generation and counselling, university eligibility and the checks needed before choosing agriculture seats.",
+  "summary": "CUET examination registration and ICAR undergraduate counselling are separate stages. A university accepting CUET scores does not automatically offer that programme through ICAR's All India Quota.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-30",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "two-processes",
+      "heading": "Understand what NTA and ICAR each handle",
+      "paragraphs": [
+        "For the ICAR undergraduate route, CUET (UG) provides the examination scores and ICAR conducts the subsequent admission counselling for its notified seats. Completing the examination application does not complete the counselling application. The [ICAR notice of 11 June 2026](https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20ICAR%20Counseling%202026.pdf) identifies registration, rank generation, choice filling and allotment as later counselling activities.",
+        "Think of your application as a sequence of completed steps. After each stage, save the confirmation or result and identify the next action that still requires your attention. A confirmation page, scorecard, ICAR rank and allotment letter serve different purposes; none should be treated as a substitute for the next."
+      ]
+    },
+    {
+      "id": "subject-eligibility",
+      "heading": "Check school subjects before choosing examination papers",
+      "paragraphs": [
+        "Start with the university-wise programme eligibility in the [CUET (ICAR-UG) 2026 information bulletin](https://www.icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf). The bulletin has separate entries for essential subjects and other conditions. A broad label such as agriculture and allied sciences is not a single eligibility rule.",
+        "Build a small subject-check sheet with your Class XII subjects, the CUET papers attempted and the essential combination for each target programme. Investigate any mismatch before relying on a possible seat. Read the marks, age, board-equivalence and category requirements in the applicable documents as well.",
+        "The 2026 counselling brochure specifically requires the relevant CUET combination to match subjects studied and passed in Class XII. Taking an additional entrance paper cannot by itself repair missing school-level eligibility."
+      ]
+    },
+    {
+      "id": "stage-comparison",
+      "heading": "Keep a record of the stages and their outputs",
+      "paragraphs": [
+        "The table separates the examination from admission decisions. Exact screens, payment instructions and deadlines must come from the official notice for the relevant cycle and round."
+      ],
+      "table": {
+        "columns": [
+          "Stage",
+          "Responsible process",
+          "Record to retain"
+        ],
+        "rows": [
+          [
+            "Examination application and papers",
+            "NTA CUET (UG) instructions",
+            "Submitted application and payment confirmation"
+          ],
+          [
+            "Examination result",
+            "NTA result process",
+            "Scorecard and examination identifiers"
+          ],
+          [
+            "ICAR registration and rank generation",
+            "ICAR counselling notices",
+            "Registration acknowledgement and ICAR rank"
+          ],
+          [
+            "Counselling choices and verification",
+            "ICAR counselling portal and admitting university",
+            "Saved choices, uploaded records and query responses"
+          ],
+          [
+            "Acceptance and university admission",
+            "Allotment instructions and university requirements",
+            "Allotment, receipts and reporting acknowledgement"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "participation-check",
+      "heading": "Verify the exact university and programme in the seat matrix",
+      "paragraphs": [
+        "Use the final ICAR counselling seat matrix, including essential subjects and special conditions, when deciding which ICAR choices are available. A university's own CUET listing, an accreditation entry and an ICAR counselling seat are different pieces of information. Check each for the purpose it actually serves.",
+        "The [2026 ICAR counselling brochure](https://icarcounseling.com/Images/Notifications/26.PDF?a=20260727124849) also explains that ICAR allots a university; the university regulates placement in its constituent colleges. Ask which teaching location applies before treating an allotment as admission to a particular campus.",
+        "A useful comparison example is [Jagan Nath University, Jaipur](/university/jagan-nath-university-jaipur): its official CUET page maps agriculture, while another programme document uses different route wording. Resolve the intended seat category with admissions instead of combining those labels into one assumed process."
+      ]
+    },
+    {
+      "id": "independent-university-routes",
+      "heading": "Track university applications separately",
+      "paragraphs": [
+        "When comparing [Lovely Professional University](/university/lovely-professional-university), [Tantia University](/university/tantia-university) or [Arunachal University of Studies](/university/arunachal-university-of-studies), open the institution's own current programme instructions as a separate task. These profile links are comparison starting points and do not identify confirmed ICAR counselling participants.",
+        "For every university application, record whether CUET is required, accepted as one option or used for a particular category. Also record the institution's application requirement and decision process. Keeping this sheet separate from ICAR choices helps prevent a missed application when the same examination score is relevant to more than one route."
+      ]
+    },
+    {
+      "id": "choice-and-budget",
+      "heading": "Order choices around eligibility, location and affordability",
+      "paragraphs": [
+        "Create your preference list only after checking the complete degree title and likely teaching location. Compare academic fees, accommodation, travel and practical-learning arrangements. Remove choices you would be unable or unwilling to join; an impressive name is not enough if the actual campus or cost does not work for your family.",
+        "Keep examination fees, counselling payments, seat-acceptance payments and university charges in separate budget lines. Before paying, read the relevant adjustment and withdrawal rules rather than assuming every payment is refundable or covers the same service. The [agriculture fee guide](/articles/agriculture-fee-budget) offers a structure for that comparison."
+      ]
+    },
+    {
+      "id": "documents-and-notices",
+      "heading": "Prepare documents and read the latest applicable notice",
+      "paragraphs": [
+        "Set up a folder for academic records, identity, category claims, examination documents and counselling confirmations. Check spelling and dates across the records before uploading. Use the portal's current file specifications and keep legible copies of anything you submit.",
+        "Do a final check against the official notice register whenever a round changes. Earlier bulletins can be supplemented by counselling instructions or revised notices. This article explains the route and does not announce an open registration window. Use the [counselling preparation checklist](/blogs/prepare-for-agriculture-counselling) to turn the relevant official requirements into your own action list."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does registering for CUET automatically register me for ICAR counselling?",
+      "answer": "No. Follow ICAR's separate registration and counselling instructions after the examination stage. Save confirmation of every required admission step."
+    },
+    {
+      "question": "Is every university accepting CUET available through ICAR counselling?",
+      "answer": "No. Verify the exact university, degree and seat category in the applicable ICAR seat matrix. A university's own CUET admission route can be separate."
+    },
+    {
+      "question": "Can I choose any agriculture college affiliated to an allotted university?",
+      "answer": "Do not assume that. The 2026 ICAR brochure assigns university allotment to ICAR and constituent-college placement to the university. Confirm the teaching location and programme."
+    },
+    {
+      "question": "Should I wait for a message before checking an allotment?",
+      "answer": "Keep checking the official portal and the applicable schedule yourself. Record each action and deadline so that a delayed message does not become your only source of information."
+    }
+  ],
+  "related_institution_ids": [
+    17,
+    38,
+    43,
+    52
+  ],
+  "related_topic_ids": [
+    "bsc-eligibility",
+    "icar-check",
+    "fee-budget",
+    "counselling-prep",
+    "rajasthan-jet"
+  ],
+  "sources": [
+    {"id":"jnu-programme-list","title":"Jagan Nath University programme list 2026–27","url":"https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf","checked_on":"2026-10-30","note":"Official document uses JET/ICAR wording for agriculture. Read alongside the CUET mapping and obtain seat-category clarification."},
+    {
+      "id": "icar-notice-2026",
+      "title": "ICAR public notice on 2026–27 counselling, 11 June 2026",
+      "url": "https://icar.org.in/sites/default/files/Circulars/Public%20Notice%20ICAR%20Counseling%202026.pdf",
+      "checked_on": "2026-10-30",
+      "note": "Separates CUET results and the subsequent ICAR registration, rank generation, counselling and allotment activities."
+    },
+    {
+      "id": "icar-ug-bulletin",
+      "title": "CUET (ICAR-UG) 2026 information bulletin",
+      "url": "https://www.icar.gov.in/sites/default/files/Circulars/CUET%20%28ICAR-UG%29%202026_IB_20260114.pdf",
+      "checked_on": "2026-10-30",
+      "note": "Programme-wise essential-subject and university conditions. Indicative examination-stage information must be read with the final counselling material."
+    },
+    {
+      "id": "icar-counselling-2026",
+      "title": "ICAR UG online counselling brochure 2026",
+      "url": "https://icarcounseling.com/Images/Notifications/26.PDF?a=20260727124849",
+      "checked_on": "2026-10-30",
+      "note": "Class XII/CUET subject matching, notified seat matrix, university rather than college allotment, verification and admission framework. No numerical quota or fee promise added."
+    },
+    {
+      "id": "icar-notice-register",
+      "title": "ICAR counselling official notice register",
+      "url": "https://icarcounseling.com/Notice",
+      "checked_on": "2026-10-30",
+      "note": "Current register contains revised notices and dated 2026 documents; this article does not reproduce a live deadline."
+    },
+    {
+      "id": "nta-documents",
+      "title": "NTA CUET official document register",
+      "url": "https://cuet.nta.nic.in/documents/page/3/",
+      "checked_on": "2026-10-30",
+      "note": "Official examination bulletin, registration notices and FAQs remain separate from ICAR counselling."
+    },
+    {
+      "id": "jnu-cuet",
+      "title": "Jagan Nath University CUET 2026–27 programme mapping",
+      "url": "https://www.jagannathuniversity.org/admissions/cuet",
+      "checked_on": "2026-10-30",
+      "note": "Agriculture mapping is present; this does not prove ICAR All India Quota participation. Local institution profile records conflicting route wording in another official document."
+    }
+  ],
+  "verification_notes": [
+    "No institution in the related list is described as a confirmed ICAR counselling participant.",
+    "No current opening, deadline, cutoff, seat count, guaranteed allotment or scholarship is stated.",
+    "The article uses the 2026 route as documented; applicants in later years need that year's notices."
+  ]
+}

@@ -1,0 +1,680 @@
+{
+  "id": 50,
+  "slug": "siksha-o-anusandhan",
+  "name": "Siksha ‘O’ Anusandhan",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SOA",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Bhubaneswar",
+    "state": "Odisha",
+    "established": 2007,
+    "address": "Khandagiri, Bhubaneswar, Odisha 751030",
+    "parent_university": null,
+    "website": "https://www.soa.ac.in/",
+    "admissions_url": "https://www.admission.soa.ac.in/agriculture-2026",
+    "phone": "+91 82605 01310",
+    "email": "saat2026@soa.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Siksha ‘O’ Anusandhan",
+    "summary": "Siksha ‘O’ Anusandhan’s Institute of Agricultural Sciences offers undergraduate and specialist postgraduate study in Bhubaneswar. Crop sciences, resources and extension sit within a broad departmental structure. Documented village attachment work in Khordha district and a rice-research collaboration give students concrete links with farming communities and agricultural research.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture learning through departments, villages and research",
+    "paragraphs": [
+      "SOA’s Institute of Agricultural Sciences lists departments spanning agricultural engineering, economics, extension, crop production, plant protection and horticulture. The 2026 programme list describes a four-year agriculture bachelor’s degree and two-year master’s routes, providing both a broad foundation and routes into specialised study.",
+      "A 2026 university report describes village attachment in Khordha district, where students assessed cropping systems and worked on village action plans. Another 2026 report records an ICAR-CRRI partnership concerning rice research and postgraduate training. These are documented examples of academic activity; access to a particular research placement still depends on the programme and arrangements in force."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Faculty of Agricultural Sciences"
+      },
+      {
+        "label": "Location",
+        "value": "Bhubaneswar, Odisha"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "Broad undergraduate agriculture degree.",
+      "eligibility": "2026: 10+2 PCM/PCB/PCMB with English passed; 60% General/OBC or 50% SC/ST/PH; minimum age 16 on 31 August 2026.",
+      "admission_route": "SAAT 2026 agriculture merit list using PCM/PCB examination performance, followed by rank-based counselling subject to available seats.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Agricultural Economics",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Master’s specialisation in agricultural economics.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate study in agronomy.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Entomology",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Specialist master’s study in entomology.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Agricultural Extension Education",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate focus on agricultural extension.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Hort.) Vegetable Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Horticulture master’s specialisation in vegetable science.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Master’s study in genetics and crop breeding.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Plant Pathology",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "Postgraduate specialisation in plant pathology.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agri.) Soil Science",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A master’s route in soil science.",
+      "eligibility": "2026: B.Sc. Agriculture/Horticulture; shared postgraduate criteria below apply.",
+      "admission_route": "SAAT 2026 includes a separate M.Sc. Agriculture merit list; check the applicable specialisation, exemption and counselling instructions.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under Faculty of Agricultural Sciences; accreditation term 2024-07-29 to 2029-07-28.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s4",
+        "completion_soa_merit_2026"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to SOA",
+    "intro": "SOA publishes a dedicated 2026 agriculture eligibility page. Bachelor’s and master’s applicants face different subject, marks/OGPA and minimum-age requirements. The SAAT 2026 merit framework explicitly includes B.Sc. and M.Sc. Agriculture, with rank-based counselling subject to seats.",
+    "eligibility_points": [
+      "2026 bachelor’s entry: English with PCM/PCB/PCMB; 60% General/OBC or 50% SC/ST/PH; minimum age 16 on 31 August 2026.",
+      "2026 master’s entry: B.Sc. Agriculture/Horticulture; 60% General/OBC or 50% SC/ST, with published OGPA alternatives; minimum age 19 on 31 August 2026. Eligibility marks cannot be rounded."
+    ],
+    "steps": [
+      {
+        "title": "Use the agriculture eligibility page",
+        "text": "Check the correct degree level and category-specific criteria."
+      },
+      {
+        "title": "Confirm the selection and fee notice",
+        "text": "Obtain the applicable admission instructions and the complete academic and residential fee documents."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "SAAT 2026 B.Sc. Agriculture stray-vacancy results announced (historical)",
+        "date": "2026-08-11",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_soa_dates_2026"
+        ]
+      },
+      {
+        "label": "SAAT 2026 M.Sc. Agriculture stray-vacancy results announced (historical)",
+        "date": "2026-08-12",
+        "academic_year": "2026-2027",
+        "source_ids": [
+          "completion_soa_dates_2026"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s10",
+      "completion_soa_merit_2026",
+      "completion_soa_dates_2026"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "SOA’s 2026 village attachment report documents supervised community and field activity. Its research agreement also describes shared instrumentation and library access for eligible researchers.",
+    "facilities": [
+      {
+        "name": "Shared research resources under the ICAR-CRRI agreement",
+        "description": "The 2026 report describes access to research instrumentation and libraries for faculty and research scholars under the collaboration.",
+        "source_ids": [
+          "s6"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The 2026 village attachment report describes farming-system assessment and preparation of village action plans in Khordha district."
+    ],
+    "source_ids": [
+      "s5",
+      "s6"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship schedule for SOA was not verified. Award availability, eligibility and renewal conditions need confirmation.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The sources establish academic and research exposure, including rural attachment. A dated agriculture graduate employment or salary report was not verified; the ICAR-CRRI collaboration is not treated as recruitment.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Faculty of Agricultural Sciences with validity from 2024-07-29 to 2029-07-28. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agricultural Sciences",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture (Intake- 360)",
+          "• M.Sc. (Agri.) Agricultural Economics(Intake-10)\n• M.Sc. (Agri.) Agronomy (Intake-20),\n•  M.Sc. (Agri.) Entomology (Intake-15),\n• M.Sc. (Agri.) Agricultural Extension Education (Intake-20), \n• M.Sc. (Horti.) Vegetable Science (Intake-20),\n• M.Sc. (Agri.) Genetics and Plant Breeding (Intake-10), \n• M.Sc. (Agri.) Plant Pathology (Intake-15)\n• M.Sc. (Agri.) Soil Science (Intake-20)"
+        ],
+        "valid_from": "2024-07-29",
+        "valid_until": "2029-07-28",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A59:G59"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A 2026 official activity report names the IAS dean and extension department head in connection with the village attachment programme.",
+    "people": [
+      {
+        "name": "Prof. Santosh Kumar Rout",
+        "role": "Dean, IAS, identified in a 2026 university report",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      {
+        "name": "Prof. Bibudha Parasar",
+        "role": "Head, Agricultural Extension and Communication, identified in a 2026 university report",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is IAS at SOA?",
+      "answer": "IAS is the Institute of Agricultural Sciences, SOA’s agriculture teaching and research unit.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How long are the 2026 agriculture degrees?",
+      "answer": "The bachelor’s programme is four years; the listed agriculture master’s programmes are two years.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Does undergraduate study include rural exposure?",
+      "answer": "A 2026 university report documents village attachment activity in Khordha district.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "What does the ICAR-CRRI agreement concern?",
+      "answer": "The 2026 report describes collaboration in rice research, training and postgraduate research support.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "What is the ICAR term here?",
+      "answer": "The audited Faculty of Agricultural Sciences record runs from 29 July 2024 to 28 July 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Are the 2026 fee amounts verified?",
+      "answer": "The official fee index is available, but its linked academic-fee document could not be read in this research session.",
+      "source_ids": [
+        "s7"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Siksha ‘O’ Anusandhan | Agriculture Courses & Admissions",
+    "description": "Explore SOA agriculture study in Bhubaneswar, bachelor’s and master’s programmes, 2026 eligibility, village learning and specific ICAR accreditation scope.",
+    "keywords": [
+      "Siksha ‘O’ Anusandhan agriculture",
+      "Siksha ‘O’ Anusandhan admissions",
+      "Siksha ‘O’ Anusandhan ICAR accreditation",
+      "Siksha ‘O’ Anusandhan agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://images.squarespace-cdn.com/content/v1/57713a8e2994cae381dd86fe/1706003156365-1ISMFJWBRMP75F81UR6C/DJI_0937+Web.jpg",
+    "logo_url": "https://images.squarespace-cdn.com/content/v1/61f67a5654c7526c799cce1d/20b21ff0-b528-435e-a329-07450e7dbbd4/SOA+Logo.png?format=1500w",
+    "campus_alt": "Siksha O Anusandhan campus aerial view in Bhubaneswar",
+    "caption": "Siksha O Anusandhan campus aerial view in Bhubaneswar",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_campus_primary",
+      "media_logo",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/siksha-o-anusandhan/logo-verified.png",
+    "local_campus_image": "media/siksha-o-anusandhan/campus-01.jpg",
+    "local_gallery": [
+      "media/siksha-o-anusandhan/campus-01.jpg",
+      "media/siksha-o-anusandhan/campus_secondary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A59:G59. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.soa.ac.in/ias",
+      "title": "Institute of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.admission.soa.ac.in/agriculture-2026",
+      "title": "Agricultural sciences eligibility, 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "programmes.eligibility"
+      ],
+      "notes": "Official agriculture criteria linked from the 2026 admissions site; bachelor’s and master’s requirements differ. No fee or outcome inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.admission.soa.ac.in/programmes-offered",
+      "title": "Programmes offered, 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.soa.ac.in/general-notifications/2026/8/31/soas-village-attachment-program-concludes-with-focus-on-farmer-centric-learning-varsity-village-linkage",
+      "title": "Village attachment programme report, 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faculty"
+      ],
+      "notes": "URL year 2026; displayed day/month differs from URL path. No precise event date inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.soa.ac.in/general-notifications/2026/6/5/soa-icar-crri-sign-mou-for-long-term-collaborative-partnership-for-cutting-edge-agricultural-research",
+      "title": "SOA–ICAR-CRRI research collaboration, 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Reported collaboration, not a guaranteed individual placement."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.admission.soa.ac.in/fees-structure",
+      "title": "2026 admission batch fee links",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Academic fees link redirects to Box; linked document was inaccessible via web tool."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.soa.ac.in/contact-us",
+      "title": "Official SOA central contact page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.email"
+      ],
+      "notes": "Central university contact, not a specific agricultural campus delivery address."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.research.soa.ac.in/about-soa",
+      "title": "Official SOA institutional background",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "Dates deemed-to-be university inception to 2007. Rankings on page are not used."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.admission.soa.ac.in/admission-helpline",
+      "title": "Official SOA admission helpline 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.phone",
+        "identity.email",
+        "admissions"
+      ],
+      "notes": "General 2026 admissions helpline; not an agriculture-only departmental number."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.soa.ac.in/",
+      "title": "Siksha ‘O’ Anusandhan — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/siksha-o-anusandhan/campus-01.jpg. Image embedded by the institution official website at https://www.soa.ac.in/; source alt: DJI_0937 Web.jpg"
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.infra.soa.ac.in/",
+      "title": "Siksha ‘O’ Anusandhan — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/siksha-o-anusandhan/logo-verified.png. Official SOA infrastructure microsite header logo, linked by the main SOA website."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.infra.soa.ac.in/",
+      "title": "Siksha ‘O’ Anusandhan — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/siksha-o-anusandhan/campus_secondary-verified.jpg. Original photograph in the official university infrastructure microsite gallery; specific faculty campus not asserted."
+    },
+    {
+      "id": "completion_soa_merit_2026",
+      "title": "Official SOA SAAT 2026 merit-list and counselling framework",
+      "url": "https://www.admission.soa.ac.in/merit-list-2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Official text describes separate B.Sc. Agriculture PCM/PCB and M.Sc. Agriculture merit lists; selection is by rank and available seats. This does not establish a programme closing rank."
+    },
+    {
+      "id": "completion_soa_dates_2026",
+      "title": "Official SOA dated 2026 admissions result notices",
+      "url": "https://www.admission.soa.ac.in/important-admission-dates-soa",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Agriculture result notice dates are historical: B.Sc. stray vacancy results 11 August; M.Sc. stray vacancy results 12 August 2026. Results do not establish a current application deadline or an open vacancy."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "Official 2026 fee index links an academic-fee file hosted on Box; tool could not access the redirected document. A dated, programme-specific fee schedule is needed before quoting a current amount.",
+      "next_source": "https://www.admission.soa.ac.in/fees-structure"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Historical agriculture stray-vacancy result dates in August 2026 are verified; a current application deadline or later vacant-seat notice is not established.",
+      "next_source": "https://www.soa.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.soa.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.soa.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.soa.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

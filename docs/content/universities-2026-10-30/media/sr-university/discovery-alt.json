@@ -1,0 +1,49 @@
+{
+  "id": 53,
+  "slug": "sr-university",
+  "source_page": "https://sraap.in/",
+  "candidates": [
+    {
+      "url": "https://sraap.in/assets/img/sru_favicon.png",
+      "kind": "link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/SRU_white.png",
+      "kind": "img:src",
+      "alt": "SRU logo",
+      "context": "logo    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/NIRF_BANNER_2025.jpg",
+      "kind": "img:src",
+      "alt": "Banner 1",
+      "context": "d-block w-100    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/ICAR_BANNER.jpeg",
+      "kind": "img:src",
+      "alt": "Banner 1",
+      "context": "d-block w-100    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/banner2_2025_1.jpg",
+      "kind": "img:src",
+      "alt": "Banner 2",
+      "context": "d-block w-100    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/SRAaP_01.WEBP",
+      "kind": "img:src",
+      "alt": "Banner 3",
+      "context": "d-block w-100    "
+    },
+    {
+      "url": "https://sraap.in/assets/img/SRAaP_02.WEBP",
+      "kind": "img:src",
+      "alt": "Banner 4",
+      "context": "d-block w-100    "
+    }
+  ]
+}

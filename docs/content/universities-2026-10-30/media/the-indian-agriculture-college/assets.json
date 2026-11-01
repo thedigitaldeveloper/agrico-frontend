@@ -1,0 +1,72 @@
+{
+  "id": 7,
+  "slug": "the-indian-agriculture-college",
+  "name": "The Indian Agriculture College",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/the-indian-agriculture-college/logo.jpg",
+      "source_page": "https://tiac.rajas.edu/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/04/TIAC-Logo-new-scaled.jpg",
+      "source_kind": "official",
+      "description": "The Indian Agriculture College official header wordmark",
+      "alt": "The Indian Agriculture College official header wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "The Indian Agriculture College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official header includes the Rajas group mark and the college seal; retained as supplied.",
+      "width": 2560,
+      "height": 414,
+      "sha256": "c12bbf1af663b5353ff4a8a087f1d9046eb57bea56f6c62be3fe17e4a7c1c3ed"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/the-indian-agriculture-college/campus-02.jpg",
+      "source_page": "https://tiac.rajas.edu/about-the-college/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/07/00fdb79e-7b24-4ae0-925f-b70627eb9831.jpg",
+      "source_kind": "official",
+      "description": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+      "alt": "Aerial view of The Indian Agriculture College academic blocks and surrounding farm plots",
+      "campus": "Radhapuram, Tamil Nadu",
+      "agriculture_specific": true,
+      "identity_evidence": "Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "The Indian Agriculture College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official About the College page publishes this view; the entrance and green-roof campus match the college entrance photograph.",
+      "width": 1280,
+      "height": 720,
+      "sha256": "0277bcacd72bb9e261744a19db5660628ea4ca7cd03d5789c1f0d5bea78e4c79"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/the-indian-agriculture-college/campus-01.jpg",
+      "source_page": "https://tiac.rajas.edu/",
+      "download_url": "https://tiac.rajas.edu/wp-content/uploads/2025/02/IAc-e1739873750897.jpeg",
+      "source_kind": "official",
+      "description": "The Indian Agriculture College named entrance at Radhapuram",
+      "alt": "The Indian Agriculture College named entrance at Radhapuram",
+      "campus": "Radhapuram, Tamil Nadu",
+      "agriculture_specific": false,
+      "identity_evidence": "Official TIAC page and wordmark identify the Radhapuram college; the named gate matches the green-roof campus in its aerial photograph.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "The Indian Agriculture College",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. College name is visible on the gate. Source resolution is 667 × 432; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 667,
+      "height": 432,
+      "sha256": "bc3b7ce0a26cc1fad3df170f8c4a2935a546b8f479c071a91c3bda0a469ebb4d"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

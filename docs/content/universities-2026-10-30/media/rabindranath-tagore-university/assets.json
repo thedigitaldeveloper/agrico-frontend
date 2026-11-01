@@ -1,0 +1,43 @@
+{
+  "id": 34,
+  "slug": "rabindranath-tagore-university",
+  "name": "Rabindranath Tagore University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/rabindranath-tagore-university/logo.png",
+      "source_page": "https://rntu.ac.in/",
+      "download_url": "https://rntu.ac.in/public/uploads/images/logo.png",
+      "source_kind": "official",
+      "description": "Rabindranath Tagore University RNTU wordmark and portrait brand strip",
+      "alt": "Rabindranath Tagore University RNTU wordmark and portrait brand strip",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Rabindranath Tagore University",
+      "review_status": "verified_source",
+      "notes": "Original 244 x 65 PNG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/rabindranath-tagore-university/campus-02.jpg",
+      "source_page": "https://rntu.ac.in/campuslife/AU_Campus",
+      "download_url": "https://rntu.ac.in/admin/public/uploads/images/medias/download7.jpg",
+      "source_kind": "official",
+      "description": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+      "alt": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+      "campus": "Raisen district, near Bhopal, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Rabindranath Tagore University",
+      "review_status": "verified_source",
+      "notes": "Original 5472 x 3078 JPEG; unchanged downloaded bytes."
+    }
+  ],
+  "gaps": []
+}

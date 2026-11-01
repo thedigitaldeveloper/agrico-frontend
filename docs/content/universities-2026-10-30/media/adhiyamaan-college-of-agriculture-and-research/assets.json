@@ -1,0 +1,72 @@
+{
+  "id": 2,
+  "slug": "adhiyamaan-college-of-agriculture-and-research",
+  "name": "Adhiyamaan College of Agriculture and Research",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/logo.png",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2025/02/WhatsApp_Image_2025-03-05_at_11.44.15_AM-removebg-preview-1.png",
+      "source_kind": "official",
+      "description": "ACAR shield identifying Adhiyamaan College of Agriculture and Research",
+      "alt": "ACAR shield identifying Adhiyamaan College of Agriculture and Research",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official ACAR homepage identifies the independent agriculture college at Athimugam; the named shield and homepage practical-learning carousel were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Adhiyamaan College of Agriculture and Research",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. ",
+      "width": 500,
+      "height": 500,
+      "sha256": "2efc93b0d686be5cd17d4caabe14070035ab5aab64a5fa45d44b25fc284a36a0"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/campus-01.png",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2026/10/Picture8-scaled.png",
+      "source_kind": "official",
+      "description": "ACAR students working in a flooded paddy field during practical learning",
+      "alt": "ACAR students working in a flooded paddy field during practical learning",
+      "campus": "Athimugam, Tamil Nadu",
+      "agriculture_specific": true,
+      "identity_evidence": "Official ACAR homepage identifies the independent agriculture college at Athimugam; the named shield and homepage practical-learning carousel were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Adhiyamaan College of Agriculture and Research",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Photograph from the official college homepage carousel; original camera/location annotation retained.",
+      "width": 2560,
+      "height": 1152,
+      "sha256": "f0da646723758d24d5339f2e9b110ccef1181ee7981ee2a5d4d8b3e57f10f852"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/adhiyamaan-college-of-agriculture-and-research/campus-02.png",
+      "source_page": "https://acar.ac.in/index/",
+      "download_url": "https://acar.ac.in/wp-content/uploads/2026/10/Picture2.png",
+      "source_kind": "official",
+      "description": "ACAR students undertaking a paddy-field practical",
+      "alt": "ACAR students undertaking a paddy-field practical",
+      "campus": "Athimugam, Tamil Nadu",
+      "agriculture_specific": true,
+      "identity_evidence": "Official ACAR homepage identifies the independent agriculture college at Athimugam; the named shield and homepage practical-learning carousel were visually checked.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Adhiyamaan College of Agriculture and Research",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official carousel photograph. Source resolution is 666 × 497; retained without upscaling despite falling below the preferred 800px photo width.",
+      "width": 666,
+      "height": 497,
+      "sha256": "0a3fd1e0d1d4dbe0b9915ceedbba1f5c50457ea3adc3aaaa21102b4faee28bca"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

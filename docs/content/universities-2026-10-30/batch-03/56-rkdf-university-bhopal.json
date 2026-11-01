@@ -1,0 +1,439 @@
+{
+  "id": 56,
+  "slug": "rkdf-university-bhopal",
+  "name": "RKDF University, Bhopal",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "RKDF University",
+    "ownership": "Private university sponsored by Ayushmati Education and Social Society, Bhopal",
+    "city": "Bhopal",
+    "state": "Madhya Pradesh",
+    "established": 2011,
+    "address": "Airport Bypass Road, Gandhi Nagar, Bhopal, Madhya Pradesh 462033",
+    "parent_university": null,
+    "website": "https://rkdf.ac.in/",
+    "admissions_url": "https://rkdf.ac.in/ADMISSION%20POLICY%202026-27.pdf",
+    "phone": "18002700320",
+    "email": "registrar@rkdf.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "RKDF University, Bhopal",
+    "summary": "RKDF University’s Faculty of Agriculture in Bhopal offers an eight-semester honours agriculture degree. The university publishes a detailed 2026–27 course-and-eligibility table with PAT, CUET or school-merit routes. Its Gandhi Nagar location places agricultural study within a university that also maintains research, scholarship and student-service information.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An agriculture degree within the Gandhi Nagar university",
+    "paragraphs": [
+      "RKDF’s agriculture faculty page identifies its bachelor’s degree and entry subjects. The 2026–27 university admission guidelines give a more detailed programme row, setting out eight semesters, category-specific marks and the available selection routes. This helps applicants separate agriculture requirements from the university’s many other disciplines.",
+      "The main university site also carries 2026 notices concerning precision-farming and smart-agriculture research positions. Those notices indicate activity in agricultural research, but they do not establish a guaranteed undergraduate research placement. Applicants interested in practical training should ask the faculty for the current farm, laboratory and attachment arrangements, as a detailed accessible inventory was not verified."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "RKDF University, Bhopal"
+      },
+      {
+        "label": "Location",
+        "value": "Bhopal, Madhya Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "8 semesters",
+      "mode": null,
+      "summary": "The Faculty of Agriculture’s undergraduate route, with a separate 2026–27 eligibility row.",
+      "eligibility": "2026–27: 10+2 PCM/PCB or agriculture subjects, with 50% for General/OBC non-creamy-layer and 45% for SC/ST.",
+      "admission_route": "2026–27 table: PAT 2026, CUET UG 2026 or qualifying-examination marks.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "An academic-year-specific official fee schedule for this programme was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under RKDF University, Bhopal; accreditation term 2026-03-16 to 2031-03-15.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to RKDF University",
+    "intro": "RKDF’s 2026–27 policy describes university registration, verification and counselling. Its agriculture row identifies PAT, CUET or qualifying-examination merit.",
+    "eligibility_points": [
+      "The 2026–27 agriculture row specifies the stated subject combinations and category-specific marks."
+    ],
+    "steps": [
+      {
+        "title": "Register through the university route",
+        "text": "The policy allows online registration and assistance at the campus counselling centre."
+      },
+      {
+        "title": "Complete original-document checking",
+        "text": "Selected applicants report with applicable originals and copies under the published policy."
+      }
+    ],
+    "documents": [
+      "Class 10 and Class 12 marksheets",
+      "Aadhaar card",
+      "Transfer/leaving, character and migration certificates",
+      "Applicable category, domicile and income certificates"
+    ],
+    "dates": [],
+    "application_fee_inr": 283,
+    "source_ids": [
+      "s3",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The university’s 2026 notices identify precision-farming and smart-agriculture project activity. A current programme-level facility and attachment inventory remains to be confirmed.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "RKDF describes government-linked scholarship routes and provides application information. Its scheme thresholds are undated; current category, domicile and programme eligibility must be checked with the scheme authority.",
+    "schemes": [],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "No dated B.Sc. Agriculture employment or salary report was verified. Research-position advertisements on the main site are separate from student placement outcomes.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies RKDF University, Bhopal with validity from 2026-03-16 to 2031-03-15. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "RKDF University, Bhopal",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture  (Intake- 120)"
+        ],
+        "valid_from": "2026-03-16",
+        "valid_until": "2031-03-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A66:G66"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A dated agriculture faculty roster for RKDF University has not been verified for this draft.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where is RKDF University Bhopal?",
+      "answer": "The official contact page gives Airport Bypass Road, Gandhi Nagar, Bhopal 462033.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "How long is the agriculture bachelor’s programme?",
+      "answer": "The 2026–27 programme table lists eight semesters.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What selection routes are published for 2026–27?",
+      "answer": "The agriculture row lists PAT 2026, CUET UG 2026 or qualifying-examination marks.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What marks thresholds are stated?",
+      "answer": "The 2026–27 agriculture entry gives 50% for General/OBC non-creamy-layer and 45% for SC/ST, with its specified subjects.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the ₹283 amount cover tuition?",
+      "answer": "No. The 2026–27 policy identifies it as portal registration charges, with counselling fees separately mentioned.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What is the ICAR term?",
+      "answer": "The audited B.Sc. Agriculture record runs from 16 March 2026 to 15 March 2031.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "RKDF University, Bhopal | Agriculture Courses & Admissions",
+    "description": "Explore RKDF University Bhopal agriculture, eight-semester study, official 2026–27 eligibility and selection routes, support information and ICAR programme scope.",
+    "keywords": [
+      "RKDF University, Bhopal agriculture",
+      "RKDF University, Bhopal admissions",
+      "RKDF University, Bhopal ICAR accreditation",
+      "RKDF University, Bhopal agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://image-static.collegedunia.com/public/college_data/images/campusimage/162607017620201007_090525.jpg",
+    "logo_url": "https://rkdf.ac.in/images/img/logo33.png",
+    "campus_alt": "RKDF University Bhopal administrative block and landscaped courtyard",
+    "caption": "RKDF University Bhopal administrative block and landscaped courtyard",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_secondary",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/rkdf-university-bhopal/logo.png",
+    "local_campus_image": "media/rkdf-university-bhopal/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/rkdf-university-bhopal/campus_secondary-verified.jpg",
+      "media/rkdf-university-bhopal/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A66:G66. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://rkdf.ac.in/Agriculture.php",
+      "title": "Faculty of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://rkdf.ac.in/admission_guidelines_2026-27.pdf",
+      "title": "Course eligibility and admission modes, 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "programmes"
+      ],
+      "notes": "Agriculture row on PDF page25."
+    },
+    {
+      "id": "s4",
+      "url": "https://rkdf.ac.in/ADMISSION%20POLICY%202026-27.pdf",
+      "title": "Admission rules and procedure, 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Contains apparent counselling-date typo; no inferred corrected date used."
+    },
+    {
+      "id": "s5",
+      "url": "https://rkdf.ac.in/",
+      "title": "University homepage and 2026 research notices",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Research recruitment notices are not undergraduate placement promises."
+    },
+    {
+      "id": "s6",
+      "url": "https://rkdf.ac.in/scholarship.php",
+      "title": "Scholarship information",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Undated government scheme thresholds not treated as current award rules."
+    },
+    {
+      "id": "s7",
+      "url": "https://rkdf.ac.in/contact-us.php",
+      "title": "University contact page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s8",
+      "url": "https://rkdf.ac.in/University_Fees_Structure.pdf",
+      "title": "University fee compilation",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Agriculture amount not verified from extracted text; screenshot fetch failed."
+    },
+    {
+      "id": "s9",
+      "url": "https://mpnvva.in/Home/UIntakeDetails?instituteID=7",
+      "title": "Madhya Pradesh private university regulator: RKDF record",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.ownership"
+      ],
+      "notes": "Regulator records establishment on 19 July 2011. University launch/teaching dates in 2012 are distinct."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.rkdf.ac.in/Chancellor.php",
+      "title": "Official RKDF history and sponsoring society",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.ownership",
+        "overview"
+      ],
+      "notes": "States sponsorship by Ayushmati Education and Social Society and formal launch on 14 February 2012; regulator establishes 19 July 2011."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://rkdf.ac.in/",
+      "title": "RKDF University, Bhopal — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rkdf-university-bhopal/logo.png. Image embedded by the institution official website at https://rkdf.ac.in/; source alt: "
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://rkdf.ac.in/",
+      "title": "RKDF University, Bhopal — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rkdf-university-bhopal/campus_secondary-verified.jpg. Official RKDF Bhopal homepage academic section photograph."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://collegedunia.com/university/25684-rkdf-university-bhopal/gallery",
+      "title": "RKDF University, Bhopal — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rkdf-university-bhopal/campus_primary-verified.jpg. Named RKDF University Bhopal gallery; visible RKDF UNIVERSITY and RAM KRISHNA DHARMARTH FOUNDATION signage match the Bhopal university, not the Ranchi institution."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "admissions.application_fee_inr",
+      "reason": "₹283 is portal registration charges only; the policy also mentions counselling fees without an amount.",
+      "next_source": "https://rkdf.ac.in/ADMISSION%20POLICY%202026-27.pdf"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "Linked campus facility PDF returned a cache miss; agriculture facilities were not independently confirmed.",
+      "next_source": "https://rkdf.ac.in/Agriculture.php"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "A dated, programme-specific fee schedule is needed before quoting a current amount.",
+      "next_source": "https://rkdf.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://rkdf.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://rkdf.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://rkdf.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Current agriculture staff appointments require confirmation from a dated directory.",
+      "next_source": "https://rkdf.ac.in/"
+    },
+    {
+      "field": "identity.established",
+      "reason": "The regulator lists 19 July 2011 establishment; the university describes a 14 February 2012 launch. The year field uses legal establishment, with teaching/launch dates kept distinct.",
+      "next_source": "https://mpnvva.in/Home/UIntakeDetails?instituteID=7"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://rkdf.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

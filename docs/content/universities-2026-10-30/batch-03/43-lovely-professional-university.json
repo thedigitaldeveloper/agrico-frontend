@@ -1,0 +1,726 @@
+{
+  "id": 43,
+  "slug": "lovely-professional-university",
+  "name": "Lovely Professional University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "LPU",
+    "ownership": "Private university",
+    "city": "Phagwara",
+    "state": "Punjab",
+    "established": 2005,
+    "address": "Jalandhar–Delhi G.T. Road, Phagwara, Punjab 144411",
+    "parent_university": null,
+    "website": "https://www.lpu.in/",
+    "admissions_url": "https://www.lpu.in/admission/admissions.php",
+    "phone": "+91 1824 517000",
+    "email": "admissions@lpu.co.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Lovely Professional University",
+    "summary": "LPU’s School of Agriculture in Phagwara brings crop, livestock and post-harvest learning into one academic setting. Farms, a dairy unit, protected cultivation and subject laboratories support its broad bachelor’s programme, while master’s routes offer specialisation in production, crop improvement, plant protection, soils and horticultural subjects.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture foundations and specialist postgraduate study",
+    "paragraphs": [
+      "LPU’s agriculture school brings crop, livestock and post-harvest learning into one academic setting. Its facilities page identifies an animal husbandry and dairy unit, agricultural farms and subject laboratories. The breadth matters when comparing a general agriculture degree with a focused postgraduate specialisation.",
+      "The bachelor’s degree offers a broad entry to agriculture, while the school’s master’s subjects allow a closer focus on agronomy, genetics, plant protection, soils or horticulture. These choices share an agricultural setting but serve different stages of study. The official CUET 2026 mapping supplies a dated bachelor’s eligibility reference, and the admissions office can clarify how that route fits the intended intake."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "School of Agriculture, Phagwara"
+      },
+      {
+        "label": "Location",
+        "value": "Phagwara, Punjab"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s7"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The 2025 prospectus describes a four-year semester programme.",
+      "eligibility": "The official CUET UG 2026 mapping requires 60% in 10+2/Intermediate with English and three subjects from Physics, Chemistry, Mathematics, Biology and Agriculture.",
+      "admission_route": "CUET UG 2026 is an officially mapped route; confirm the applicable LPU counselling and alternative entrance rules for the chosen intake.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": [
+          "s10"
+        ]
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s7"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s specialisation in agronomy.",
+      "eligibility": "2026: 60% in a four-year B.Sc. Agriculture/Honours.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Genetics and Plant Breeding",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Postgraduate focus on genetics and crop breeding.",
+      "eligibility": "2026: 60% in four-year Agriculture/Honours or Agriculture Biotechnology.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Hort.) Fruit Science",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "A horticulture master’s route in fruit science.",
+      "eligibility": "2026: 60% in four-year Agriculture/Honours or Horticulture.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Plant Pathology",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Specialist postgraduate study of plant pathology.",
+      "eligibility": "2026: 60% in a four-year B.Sc. Agriculture/Honours.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Entomology",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Master’s study in agricultural entomology.",
+      "eligibility": "2026: 60% in Agriculture/Honours (four years) or Horticulture.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Vegetable Science",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Postgraduate specialisation in vegetable science.",
+      "eligibility": "2026: 60% in four-year Agriculture/Honours or Horticulture.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Soil Science",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "A master’s route focused on soils.",
+      "eligibility": "2026: 60% in four-year Agriculture/Honours or equivalent.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "name": "M.Sc. (Agriculture) Floriculture and Landscaping",
+      "level": "Postgraduate",
+      "duration": "2 years (4 semesters)",
+      "mode": null,
+      "summary": "Postgraduate study in floriculture and landscaping.",
+      "eligibility": "2026: 60% in four-year Agriculture/Honours or Horticulture.",
+      "admission_route": "LPUNEST merit, subject to eligibility (2026).",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "Dated programme tuition not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Listed under School of Agriculture, Phagwara; accreditation term 2023-04-01 to 2028-03-31.",
+      "source_ids": [
+        "s1",
+        "s11"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to LPU",
+    "intro": "Use the 2026 CUET mapping for bachelor’s subject requirements and the dated School of Agriculture article for master’s entry combinations. Confirm the governing prospectus, counselling route and fee statement with LPU. The live B.Sc. Agriculture page now advertises Admission 2027. The 2026 CUET mapping and dated 2026 school guidance below retain their historical session; obtain the 2027 rules before a next-cycle application.",
+    "eligibility_points": [
+      "For the 2026 CUET mapping, 60% in 10+2 with English and three listed science/agriculture subjects is required.",
+      "The mapping specifies English plus PCM, English plus PCB, or English plus Agriculture as CUET subject combinations.",
+      "For master’s entry, the school’s May 2026 article specifies 60% in accepted bachelor’s degrees and LPUNEST merit. Check the specialism’s degree combinations."
+    ],
+    "steps": [
+      {
+        "title": "Select the agriculture programme",
+        "text": "Use the central admissions page to distinguish the bachelor’s degree from the relevant master’s specialisation."
+      },
+      {
+        "title": "Check intake-year conditions",
+        "text": "Confirm the accepted qualifications, LPUNEST rules and fee category directly for that programme."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s4",
+      "s7",
+      "s8",
+      "s11",
+      "intake_cycle_2027"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The school identifies teaching spaces spanning crop production, livestock and the handling of harvested produce.",
+    "facilities": [
+      {
+        "name": "Hi-Tech Polyhouse",
+        "description": "A controlled-environment crop teaching facility.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Post-harvest management laboratory",
+        "description": "A laboratory concerned with produce preservation and processing.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Soil science laboratory",
+        "description": "A space for soil analysis and fertility practicals.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Agricultural farms provide a setting for crop cultivation work.",
+      "The school lists apiculture alongside its other agriculture facilities."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "LPU publishes university-wide scholarship categories based on academic performance, LPUNEST and other achievements. Agriculture applicants must establish which category and renewal conditions apply to their exact programme.",
+    "schemes": [
+      {
+        "name": "LPUNEST-linked scholarship",
+        "details": "The official scholarship page identifies performance in LPUNEST as one basis for scholarship consideration; no individual award is promised.",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The university's NIRF 2026 Agriculture and Allied Sectors submission reports graduates, placements, higher-study progression and the median annual salary of placed graduates for the cohorts below. The figures apply to the reported programme-duration group, rather than an individual specialisation, and do not predict an applicant's future outcome.",
+    "statistics": [
+      {
+        "label": "UG four-year programmes: 2024-2025",
+        "value": "449 graduates in minimum stipulated time; 359 placed; 90 selected for higher studies; median annual salary of placed graduates ₹6,60,000.",
+        "programme_scope": "UG four-year programmes",
+        "academic_year": "2024-2025",
+        "graduates_in_minimum_time": 449,
+        "placed": 359,
+        "higher_studies": 90,
+        "median_salary_inr": 660000,
+        "reporting_source": "NIRF 2026, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_lpu_nirf_2026"
+        ]
+      },
+      {
+        "label": "PG two-year programmes: 2024-2025",
+        "value": "193 graduates in minimum stipulated time; 160 placed; 13 selected for higher studies; median annual salary of placed graduates ₹7,20,000.",
+        "programme_scope": "PG two-year programmes",
+        "academic_year": "2024-2025",
+        "graduates_in_minimum_time": 193,
+        "placed": 160,
+        "higher_studies": 13,
+        "median_salary_inr": 720000,
+        "reporting_source": "NIRF 2026, Agriculture and Allied Sectors, institutional submission",
+        "source_ids": [
+          "completion_lpu_nirf_2026"
+        ]
+      }
+    ],
+    "recruiters": [],
+    "source_ids": [
+      "s4",
+      "completion_lpu_nirf_2026"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies School of Agriculture, Phagwara with validity from 2023-04-01 to 2028-03-31. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "School of Agriculture, Phagwara",
+        "programmes_as_printed": [
+          "•\tB.Sc. (Hons.) Agriculture (with intake 540)",
+          "•\tM.Sc. (Agriculture) Agronomy (with intake 30)\n•\tM.Sc. (Agriculture) Genetics and Plant Breeding (with intake 20)\n•\tM.Sc. (Hort.) Fruit Science (with intake 20)\n•\tM.Sc. (Agriculture) Plant Pathology (with intake 20)\n•\tM.Sc. (Agriculture) Entomology (with intake 15)\n•\tM.Sc. (Agriculture) Vegetable Science (with intake 20)\n•\tM.Sc. (Agriculture) Soil Science (with intake 15)\n•\tM.Sc. (Agriculture) Floriculture and Landscaping (with intake 10)"
+        ],
+        "valid_from": "2023-04-01",
+        "valid_until": "2028-03-31",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A52:G52"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The agriculture school page identifies Prof. Dr. Pardeep Kumar Chhuneja as Dean. This is an undated directory listing checked for this draft.",
+    "people": [
+      {
+        "name": "Prof. Dr. Pardeep Kumar Chhuneja",
+        "role": "Dean, School of Agriculture, as listed on the official page",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Which campus location appears in the ICAR record?",
+      "answer": "The accredited unit is the School of Agriculture, Phagwara.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Does this record include agriculture master’s courses?",
+      "answer": "Yes. It includes eight named master’s specialisations as well as the bachelor’s degree.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What is the ICAR term for LPU’s listed programmes?",
+      "answer": "The audited term is 1 April 2023 to 31 March 2028.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What is the verified 2026 B.Sc. Agriculture eligibility at LPU?",
+      "answer": "The NTA CUET UG 2026 mapping requires 60% in 10+2 with English and three subjects from Physics, Chemistry, Mathematics, Biology and Agriculture. Confirm the age cutoff, because its age sentence still refers to December 2025.",
+      "source_ids": [
+        "s7"
+      ]
+    },
+    {
+      "question": "Does the school show protected cultivation facilities?",
+      "answer": "Yes. The official school page lists a Hi-Tech Polyhouse.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Can a scholarship amount be assumed from LPUNEST participation?",
+      "answer": "No. LPU’s scholarship page describes several categories; the award depends on the applicable programme rules and performance.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Are verified agriculture placement figures available?",
+      "answer": "The NIRF 2026 agriculture/allied submission reports UG four-year programmes (2024-2025): 359 placed from 449 graduates in minimum time, with ₹6,60,000 median annual salary among those placed; PG two-year programmes (2024-2025): 160 placed from 193 graduates in minimum time, with ₹7,20,000 median annual salary among those placed. These are historical group-level outcomes, not specialisation-level placement promises.",
+      "source_ids": [
+        "completion_lpu_nirf_2026"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Lovely Professional University | Agriculture Courses & Admissions",
+    "description": "Explore LPU School of Agriculture at Phagwara, bachelor’s and master’s options, practical facilities, admissions checks and programme-level ICAR scope.",
+    "keywords": [
+      "Lovely Professional University agriculture",
+      "Lovely Professional University admissions",
+      "Lovely Professional University ICAR accreditation",
+      "Lovely Professional University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.lpu.in/_next/image?url=%2Fimages%2Fhomepage%2Fcampus-experience%2F360degree-view.webp&w=1920&q=75",
+    "logo_url": "https://www.lpu.in/images/logo/lpu-logo.svg",
+    "campus_alt": "Panoramic campus view at Lovely Professional University, Phagwara",
+    "caption": "Panoramic campus view at Lovely Professional University, Phagwara",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/lovely-professional-university/logo.svg",
+    "local_campus_image": "media/lovely-professional-university/campus-01.jpg",
+    "local_gallery": [
+      "media/lovely-professional-university/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A52:G52. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.lpu.in/schools/agriculture/?brochure=Agriculture-Brochure",
+      "title": "School of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus",
+        "faculty"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.lpu.in/admission/Prospectus/Part-B.pdf",
+      "title": "Programme details, Prospectus 2025",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "admissions"
+      ],
+      "notes": "2025 prospectus; not a 2026 admission confirmation."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.lpu.in/admission/admissions.php",
+      "title": "Admissions 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.lpu.in/scholarship/scholarship.php",
+      "title": "Scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "scholarships"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.shiksha.com/university/lpu-lovely-professional-university-jalandhar-28499/course-b-sc-hons-in-agriculture-168281?scrollFeeDetails=true",
+      "title": "B.Sc. (Hons.) Agriculture profile",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "research_cross_check"
+      ],
+      "notes": "Direct open returned cache miss; secondary eligibility not substituted for current official terms."
+    },
+    {
+      "id": "s7",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d1a21da7bca4abff8b0b61b87597de73/uploads/2025/12/202512282065344259.pdf",
+      "title": "NTA CUET UG 2026: LPU programme mapping",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility",
+        "programmes.admission_route",
+        "admissions"
+      ],
+      "notes": "Page 1 gives 60%, English plus three of Physics, Chemistry, Mathematics, Biology and Agriculture. Its age line retains 31 December 2025 despite the 2026 heading; confirm the operative cutoff."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.lpu.in/contact-us/contact-us.php?state=index",
+      "title": "Official LPU contact directory",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "Current public contact page, checked 30 October 2026."
+    },
+    {
+      "id": "s9",
+      "url": "https://www.lpu.in/about-lpu/",
+      "title": "Official LPU history timeline",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "Timeline states establishment of LPU in 2005."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.lpu.in/programmes/bsc-hons-agriculture",
+      "title": "Official LPU agriculture programme and fee page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Page title has advanced to admissions 2027, with 2026–27 footer and 2025 refund examples. Fee values render as unavailable images/placeholders; no amount is inferred."
+    },
+    {
+      "id": "s11",
+      "url": "https://www.lpu.in/blog/msc-agriculture-reasons-to-choose-lpu/",
+      "title": "Official School of Agriculture article: MSc admissions in 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility",
+        "programmes.admission_route",
+        "admissions"
+      ],
+      "notes": "Authored by Dr Sanjeet, Associate Professor, 2 May 2026. Its 60% MSc table differs from the 2025 prospectus; current degree pages also show misplaced undergraduate criteria, so confirm the governing prospectus. Outcome claims without a cohort are excluded."
+    },
+    {
+      "id": "s12",
+      "url": "https://www.lpu.in/programmes/msc-agriculture-soil-science",
+      "title": "Official MSc Soil Science programme page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.duration",
+        "programmes.eligibility"
+      ],
+      "notes": "Two-year/four-semester duration is readable, but its eligibility text names 10+2 Physics/Mathematics and JEE Main, apparently misplaced for a master’s course. That entry criterion is excluded."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.lpu.in/",
+      "title": "Lovely Professional University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/lovely-professional-university/logo.svg. Image embedded by the institution official website at https://www.lpu.in/; source alt: LPU Logo"
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.lpu.in/",
+      "title": "Lovely Professional University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/lovely-professional-university/campus-01.jpg. Image embedded by the institution official website at https://www.lpu.in/; source alt: 360° Campus View"
+    },
+    {
+      "id": "intake_cycle_2027",
+      "url": "https://www.lpu.in/programmes/bsc-hons-agriculture",
+      "title": "LPU B.Sc. Agriculture course page: 2027 wording",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "The live page now labels its next admission cycle as 2027; do not silently treat this as a 2026 rule."
+    },
+    {
+      "id": "completion_lpu_nirf_2026",
+      "title": "Official NIRF 2026 Agriculture and Allied Sectors submitted data",
+      "url": "https://www.lpu.in/downloads/nirf/2026/Agriculture.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "notes": "Institution-submitted Agriculture and Allied Sectors report, NIRF 2026. Cohorts and programme-duration groups are explicitly retained; these are historical outcomes, not an independently audited placement guarantee or a specialisation-specific result."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "The official programme page exposes fee headings but the amounts are unreadable image/placeholders and the page mixes 2027/2026–27/2025 references. Obtain a dated agriculture fee statement.",
+      "next_source": "https://www.lpu.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.lpu.in/"
+    },
+    {
+      "field": "admissions.eligibility_points",
+      "reason": "The CUET 2026 mapping’s minimum-age sentence retains a 31 December 2025 cutoff; confirm the correct age reference before admission.",
+      "next_source": "https://www.lpu.in/admission/admissions.php"
+    },
+    {
+      "field": "programmes.eligibility",
+      "reason": "The dated 2026 MSc article states 60%, compared with 55% in the 2025 prospectus; the current soil-science page displays an apparent undergraduate-template error. Confirm the governing intake prospectus.",
+      "next_source": "https://www.lpu.in/admission/admissions.php"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.lpu.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

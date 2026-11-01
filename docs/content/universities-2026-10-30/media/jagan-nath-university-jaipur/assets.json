@@ -1,0 +1,72 @@
+{
+  "id": 17,
+  "slug": "jagan-nath-university-jaipur",
+  "name": "Jagan Nath University, Jaipur",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/jagan-nath-university-jaipur/logo.png",
+      "source_page": "https://www.jagannathuniversity.org/",
+      "download_url": "https://www.jagannathuniversity.org/assets/images/UNIVERSITY%20NEW%20LOGO.png",
+      "source_kind": "official",
+      "description": "Jagan Nath University Jaipur official wordmark",
+      "alt": "Jagan Nath University Jaipur official wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Jagan Nath University, Jaipur",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Wordmark explicitly identifies Jaipur, Rajasthan; distinct from the Jhajjar university.",
+      "width": 1016,
+      "height": 345,
+      "sha256": "96736e3a0af90a8c457d669cbd8d00cd7427f52cba4bbf3a03c92eb414df8b0b"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/jagan-nath-university-jaipur/campus-infra-01.webp",
+      "source_page": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "download_url": "https://cdn.jagannathuniversity.org/docs/life-at-ju/infra/DSC_0848.webp",
+      "source_kind": "official",
+      "description": "Jagan Nath University Jaipur academic building and landscaped approach",
+      "alt": "Jagan Nath University Jaipur academic building and landscaped approach",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Jagan Nath University, Jaipur",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official university infrastructure gallery; the individual Chaksu/Sitapura site is not labelled, so campus is null.",
+      "width": 4240,
+      "height": 2384,
+      "sha256": "3331d79ce1c03e8990e6284ca357bb5a3bb48dd07a9e47ea4ad7a0a5d582a629"
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/jagan-nath-university-jaipur/campus-infra-02.webp",
+      "source_page": "https://www.jagannathuniversity.org/life-at-ju/infrastructure",
+      "download_url": "https://cdn.jagannathuniversity.org/docs/life-at-ju/infra/DSC_9363.webp",
+      "source_kind": "official",
+      "description": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+      "alt": "Jagan Nath University Jaipur campus blocks and landscaped grounds",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Official Jaipur-university domain and wordmark identify Jaipur/Rajasthan; both building photographs are on its official infrastructure page.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Jagan Nath University, Jaipur",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official university infrastructure gallery; the individual Chaksu/Sitapura site is not labelled, so campus is null.",
+      "width": 4928,
+      "height": 3264,
+      "sha256": "446f520b4c879704bce41955895ddb7987a9a72686fae9560593f8897c6877c9"
+    }
+  ],
+  "gaps": [],
+  "research_notes": [
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected."
+  ]
+}

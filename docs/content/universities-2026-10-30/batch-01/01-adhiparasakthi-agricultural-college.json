@@ -1,0 +1,541 @@
+{
+  "id": 1,
+  "slug": "adhiparasakthi-agricultural-college",
+  "name": "Adhiparasakthi Agricultural College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "APAC",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "Kalavai",
+    "state": "Tamil Nadu",
+    "established": null,
+    "address": "G. B. Nagar, Kalavai 632506, Ranipet District, Tamil Nadu, India",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://www.apachc.in/",
+    "admissions_url": "https://www.apachc.in/ac/admission-procedure.html",
+    "phone": "+91 7094791773",
+    "email": "apacadmissions@apachc.in",
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Adhiparasakthi Agricultural College",
+    "summary": "Study agriculture at Kalavai in Ranipet district through a college affiliated to Tamil Nadu Agricultural University. APAC combines a four-year agriculture degree with farm and laboratory learning, including rural work experience. Its audited ICAR entry specifically covers B.Sc. (Hons.) Agriculture.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "An agriculture college at Kalavai",
+    "paragraphs": [
+      "Adhiparasakthi Agricultural College is based at G. B. Nagar in Kalavai, Ranipet district. It is affiliated to Tamil Nadu Agricultural University and focuses on agriculture education, research and rural development. Its learning environment combines academic study with laboratory and farm facilities.",
+      "The four-year agriculture degree brings crop, soil and plant-health subjects into practical settings. The published course outline includes rural work experience and skill-based activities, giving applicants specific elements to discuss when comparing colleges. Ask how farm assignments and rural learning are scheduled for the intended cohort, alongside the current entry requirements and full residential or day-scholar costs."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2027-03-16"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A four-year degree covering crop production, soil science, plant protection and related agricultural sciences. The official course outline includes practical farm work, rural exposure and Student READY activities.",
+      "eligibility": "The undated official course page lists 10+2 or equivalent with Physics, Chemistry and Biology/Botany/Zoology, and also refers to Agricultural Science/Vocational Agriculture streams. Minimum aggregate is subject to applicable admission regulations.",
+      "admission_route": "Merit/ranking and the selection guidelines of the affiliated university, as described on the undated course page.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Adhiparasakthi Agricultural College, Ranipet, Vellore for 2022-03-17 to 2027-03-16. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying through TNAU counselling",
+    "intro": "Adhiparasakthi Agricultural College describes an application review followed by counselling or document verification. Its B.Sc. Agriculture page requires the relevant higher-secondary science or vocational agriculture background, while the applicable TNAU rules determine the final qualifying threshold and seat route.",
+    "eligibility_points": [
+      "The course page requires Higher Secondary or an accepted equivalent qualification.",
+      "Exact minimum marks follow the applicable admission regulations; no current numerical cutoff was verified."
+    ],
+    "steps": [
+      {
+        "title": "Check the programme and applicable route",
+        "text": "Confirm the TNAU entry rules for B.Sc. Agriculture and the seat category before using the college form."
+      },
+      {
+        "title": "Submit the college application",
+        "text": "The college accepts its prescribed application with the relevant supporting documents, online or at the admission office."
+      },
+      {
+        "title": "Complete counselling and verification",
+        "text": "Shortlisted applicants follow counselling/document-verification instructions; a form submission is not an admission guarantee."
+      },
+      {
+        "title": "Confirm a verified offer",
+        "text": "Pay the applicable charges and complete registration only after checking the written seat offer and current fee statement."
+      }
+    ],
+    "documents": [
+      "Higher-secondary/12th marksheet for UG applicants",
+      "Transfer certificate",
+      "Community certificate where applicable",
+      "Conduct/character certificate",
+      "Recent passport-size photographs",
+      "Aadhaar card or another valid identity document",
+      "Originals for verification and application photocopies"
+    ],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "tnau_faq_2026",
+      "r31_1"
+    ],
+    "route_scope": "These steps describe the TNAU counselling channel. Any separate college-management route must be checked independently."
+  },
+  "campus": {
+    "heading": "From crop science to village experience",
+    "intro": "The official degree page identifies demonstration farms, research plots and crop-protection teaching facilities. Its practical curriculum includes field diagnostics and rural interaction; these are programme descriptions rather than measured student outcomes.",
+    "facilities": [
+      {
+        "name": "Farm facilities",
+        "description": "The college describes farm-based teaching alongside academic study.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Laboratories",
+        "description": "The degree page identifies seed-testing and crop-protection laboratories.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Rural Agricultural Work Experience is listed as a curriculum component involving village and farmer interaction.",
+      "Student READY is described through internships, skill modules and experiential units."
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for APAC was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The course page outlines possible agricultural, banking, research and enterprise careers. These are potential pathways, not evidence of APAC graduate placement. A dated programme-level recruitment or salary report was not verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Adhiparasakthi Agricultural College, Ranipet, Vellore and the programme labels below from 2022-03-17 through 2027-03-16. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Adhiparasakthi Agricultural College, Ranipet, Vellore",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture\n(Intake- 120)\n\n",
+          "_",
+          "_"
+        ],
+        "valid_from": "2022-03-17",
+        "valid_until": "2027-03-16",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A8:G8"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "APAC publishes a teaching-employee directory with qualifications. The selection below preserves its general teaching-faculty classification; individual professorial ranks and department assignments are not inferred.",
+    "people": [
+      {
+        "name": "Dr. P. Kalaiselvan",
+        "role": "Teaching faculty",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Ms. K. Sivasakthi",
+        "role": "Teaching faculty",
+        "qualification": "M.Sc. Agriculture; NET",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. C. Navinkumar",
+        "role": "Teaching faculty",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. P. Dhamodharan",
+        "role": "Teaching faculty",
+        "qualification": "Ph.D.; NET",
+        "source_ids": [
+          "r31_2"
+        ]
+      },
+      {
+        "name": "Dr. M. Valarmathi",
+        "role": "Teaching faculty",
+        "qualification": "Ph.D.",
+        "source_ids": [
+          "r31_2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_2"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is APAC located?",
+      "answer": "The college lists G. B. Nagar, Kalavai, in Ranipet district, Tamil Nadu.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is this the agricultural or horticultural college?",
+      "answer": "This profile concerns Adhiparasakthi Agricultural College; the wider website also presents a separate horticultural college.",
+      "source_ids": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "How long is the agriculture degree?",
+      "answer": "The official B.Sc. (Hons.) Agriculture page specifies four years.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What practical components are described?",
+      "answer": "The published outline includes farm work, RAWE and Student READY activities. Ask for the current timetable and allocation of practical hours.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What does the ICAR entry cover?",
+      "answer": "The audited row covers B.Sc. (Hons.) Agriculture from 17 March 2022 to 16 March 2027.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for APAC?",
+      "answer": "The undated official course page lists 10+2 or equivalent with Physics, Chemistry and Biology/Botany/Zoology, and also refers to Agricultural Science/Vocational Agriculture streams. Minimum aggregate is subject to applicable admission regulations.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for APAC?",
+      "answer": "APAC publishes a teaching-employee directory with qualifications. The selection below preserves its general teaching-faculty classification; individual professorial ranks and department assignments are not inferred. Dr. P. Kalaiselvan — Teaching faculty — Ph.D.; Ms. K. Sivasakthi — Teaching faculty — M.Sc. Agriculture; NET; Dr. C. Navinkumar — Teaching faculty — Ph.D..",
+      "source_ids": [
+        "r31_2"
+      ]
+    },
+    {
+      "question": "Which application documents are listed for APAC?",
+      "answer": "Higher-secondary/12 th marksheet for UG applicants; Transfer certificate; Community certificate where applicable; Conduct/character certificate; Recent passport-size photographs; Aadhaar card or another valid identity document; Originals for verification and application photocopies. Match these to the official requirements for your chosen programme and quota.",
+      "source_ids": [
+        "s3",
+        "tnau_faq_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for APAC?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Where is the official application information for APAC?",
+      "answer": "https://www.apachc.in/ac/admission-procedure.html. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3",
+        "tnau_faq_2026",
+        "r31_1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Adhiparasakthi Agricultural College | Agriculture Courses & Admissions",
+    "description": "Explore Adhiparasakthi Agricultural College in Kalavai: the agriculture degree, TNAU affiliation, practical learning, admissions checks and ICAR scope.",
+    "keywords": [
+      "Adhiparasakthi Agricultural College",
+      "APAC agriculture",
+      "Kalavai agriculture admission",
+      "B.Sc. (Hons.) Agriculture Adhiparasakthi Agricultural College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.apachc.in/ac/img/ff1.jpg",
+    "logo_url": "https://www.apachc.in/ac/img/logo.jpg",
+    "campus_alt": "Graduate and faculty during the first joint graduation ceremony of the Adhiparasakthi agricultural and horticultural colleges",
+    "caption": "Graduate and faculty during the first joint graduation ceremony of the Adhiparasakthi agricultural and horticultural colleges",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_card_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/adhiparasakthi-agricultural-college/logo.jpg",
+    "local_card_logo": "media/adhiparasakthi-agricultural-college/card-logo.png",
+    "local_campus_image": "media/adhiparasakthi-agricultural-college/campus-gallery-01.jpg",
+    "local_gallery": [
+      "media/adhiparasakthi-agricultural-college/campus-gallery-01.jpg",
+      "media/adhiparasakthi-agricultural-college/campus-real-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.apachc.in/ac/about-the-college.html",
+      "title": "About the College",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "faqs.0",
+        "faqs.1",
+        "overview"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.apachc.in/ac/bsc-agriculture.html",
+      "title": "B.Sc. (Hons.) Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "campus",
+        "campus.facilities.1",
+        "faqs.1",
+        "faqs.2",
+        "faqs.3",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.apahc.in/Doc/ICAR.pdf",
+      "title": "College notice: ICAR accreditation",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview"
+      ],
+      "notes": "Institutional notice independently echoes the 2022–2027 accreditation term."
+    },
+    {
+      "id": "tnau_faq_2026",
+      "url": "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+      "title": "TNAU and Annamalai University combined admissions FAQs 2026–2027",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.steps"
+      ],
+      "notes": "Public PDF linked by the official TNAU 2026–27 portal; downloaded and text-read, with cover and counselling page visually inspected. Pages 2–4 and 19 support the TNAU counselling channel. Does not establish college-specific fees or management-quota availability."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.apachc.in/ac/",
+      "title": "Adhiparasakthi Agricultural College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/adhiparasakthi-agricultural-college/logo.jpg. Official agricultural-college /ac pages identify APAC at Kalavai; the seal reads Adhiparasakthi Agricultural College, and event banners identify its students or joint agriculture/horticulture ceremony."
+    },
+    {
+      "id": "media_card_logo",
+      "url": "https://www.apachc.in/ac/",
+      "title": "Adhiparasakthi Agricultural College — card logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/adhiparasakthi-agricultural-college/card-logo.png. Official agricultural-college /ac pages identify APAC at Kalavai; the seal reads Adhiparasakthi Agricultural College, and event banners identify its students or joint agriculture/horticulture ceremony."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.apachc.in/ac/",
+      "title": "Adhiparasakthi Agricultural College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/adhiparasakthi-agricultural-college/campus-gallery-01.jpg. Official agricultural-college /ac pages identify APAC at Kalavai; the seal reads Adhiparasakthi Agricultural College, and event banners identify its students or joint agriculture/horticulture ceremony."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.apachc.in/ac/gallery.html",
+      "title": "Adhiparasakthi Agricultural College — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/adhiparasakthi-agricultural-college/campus-real-01.jpg. Official agricultural-college /ac pages identify APAC at Kalavai; the seal reads Adhiparasakthi Agricultural College, and event banners identify its students or joint agriculture/horticulture ceremony."
+    },
+    {
+      "id": "r31_1",
+      "title": "Agricultural College admission procedure and documents",
+      "url": "https://www.apachc.in/ac/admission-procedure.html",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Read successfully on 31 October 2026; UG requirements and verification checklist are distinct from PG/Diploma requirements."
+    },
+    {
+      "id": "r31_2",
+      "title": "Agricultural College teaching employee directory",
+      "url": "https://www.apachc.in/ac/faculty.html",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "The teaching-employee list supplies names and qualifications but does not assign a professorial rank to every member."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://www.apachc.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://www.apachc.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://www.apachc.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://www.apachc.in/"
+    },
+    {
+      "field": "identity.established",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://www.apachc.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/01-adhiparasakthi-agricultural-college.json",
+  "audit_name": "Adhiparasakthi Agricultural College, Ranipet, Vellore",
+  "related": [
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 4,
+      "name": "JSA College of Agriculture and Technology",
+      "slug": "jsa-college-of-agriculture-and-technology",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

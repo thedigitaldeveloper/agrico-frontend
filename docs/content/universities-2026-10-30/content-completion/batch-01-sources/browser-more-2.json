@@ -1,0 +1,62 @@
+{
+  "institution_id": 3,
+  "url": "https://jkkmcas.org/academics",
+  "status": 200,
+  "final_url": "https://jkkmcas.org/academics",
+  "title": "JKKMCAS | J.K.K. Munirajah College of Agricultural Science",
+  "text": "JKKMCAS\n\nExcellence in Education",
+  "links": [
+    {
+      "label": "JKKM College Of Agricultural Science",
+      "href": "https://jkkmcas.org/"
+    },
+    {
+      "label": "Home",
+      "href": "https://jkkmcas.org/"
+    },
+    {
+      "label": "About Us",
+      "href": "https://jkkmcas.org/about"
+    },
+    {
+      "label": "Vision & Mission",
+      "href": "https://jkkmcas.org/vision-mission"
+    },
+    {
+      "label": "Governance",
+      "href": "https://jkkmcas.org/governance"
+    },
+    {
+      "label": "Admissions",
+      "href": "https://jkkmcas.org/admissions"
+    },
+    {
+      "label": "Academics",
+      "href": "https://jkkmcas.org/academics"
+    },
+    {
+      "label": "Faculty",
+      "href": "https://jkkmcas.org/faculty"
+    },
+    {
+      "label": "Students",
+      "href": "https://jkkmcas.org/students"
+    },
+    {
+      "label": "Campus",
+      "href": "https://jkkmcas.org/campus"
+    },
+    {
+      "label": "Newsletter",
+      "href": "https://jkkmcas.org/newsletter"
+    },
+    {
+      "label": "Tender",
+      "href": "https://jkkmcas.org/tender"
+    },
+    {
+      "label": "Contact",
+      "href": "https://jkkmcas.org/contact"
+    }
+  ]
+}

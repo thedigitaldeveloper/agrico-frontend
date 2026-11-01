@@ -1,0 +1,905 @@
+[
+  {
+    "id": 1,
+    "name": "Adhiparasakthi Agricultural College",
+    "university_url": "/university/adhiparasakthi-agricultural-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.apachc.in/ac/admission-procedure.html",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": [
+      {
+        "title": "TNAU released its 2026 undergraduate rank list on 3 July",
+        "path": "/news/tnau-undergraduate-rank-list-3-july-2026",
+        "official_notice_date": "2026-07-03"
+      },
+      {
+        "title": "TNAU announced second-phase UG counselling for 9 September 2026",
+        "path": "/news/tnau-second-phase-counselling-announcement-september-2026",
+        "official_notice_date": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Adhiyamaan College of Agriculture and Research",
+    "university_url": "/university/adhiyamaan-college-of-agriculture-and-research",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://acar.ac.in/index/ug-programme/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 3,
+    "name": "J.K.K. Munirajah College of Agricultural Science",
+    "university_url": "/university/j-k-k-munirajah-college-of-agricultural-science",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://jkkmcas.org/admissions",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": [
+      {
+        "title": "TNAU released its 2026 undergraduate rank list on 3 July",
+        "path": "/news/tnau-undergraduate-rank-list-3-july-2026",
+        "official_notice_date": "2026-07-03"
+      },
+      {
+        "title": "TNAU announced second-phase UG counselling for 9 September 2026",
+        "path": "/news/tnau-second-phase-counselling-announcement-september-2026",
+        "official_notice_date": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "JSA College of Agriculture and Technology",
+    "university_url": "/university/jsa-college-of-agriculture-and-technology",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.jsaagri.in/eligibility",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 5,
+    "name": "PGP College of Agricultural Sciences",
+    "university_url": "/university/pgp-college-of-agricultural-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://pgpagricollege.ac.in/admission/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 6,
+    "name": "Pushkaram College of Agriculture Sciences",
+    "university_url": "/university/pushkaram-college-of-agriculture-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://tnau.ucanapply.com/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 7,
+    "name": "The Indian Agriculture College",
+    "university_url": "/university/the-indian-agriculture-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://tiac.rajas.edu/admission-open/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 8,
+    "name": "Palar Agricultural College",
+    "university_url": "/university/palar-agricultural-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://palaragri.ac.in/admission/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": [
+      {
+        "title": "TNAU released its 2026 undergraduate rank list on 3 July",
+        "path": "/news/tnau-undergraduate-rank-list-3-july-2026",
+        "official_notice_date": "2026-07-03"
+      },
+      {
+        "title": "TNAU announced second-phase UG counselling for 9 September 2026",
+        "path": "/news/tnau-second-phase-counselling-announcement-september-2026",
+        "official_notice_date": "2026-09-03"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Thanthai Roever Institute of Agriculture and Rural Development",
+    "university_url": "/university/thanthai-roever-institute-of-agriculture-and-rural-development",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://roeveragri.ac.in/admission/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 10,
+    "name": "Udai Pratap College",
+    "university_url": "/university/udai-pratap-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://upcollege.ac.in/document/pdf/ent/26/brochure.pdf?v=19032026",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 11,
+    "name": "SBVR Agricultural College",
+    "university_url": "/university/sbvr-agricultural-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.sbvr.in/agriculturecollege/academics/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 12,
+    "name": "N.S. Agricultural College",
+    "university_url": "/university/n-s-agricultural-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://nsagri.ac.in/admissions-apply",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 13,
+    "name": "Sri Krishnadevaraya College of Agricultural Sciences",
+    "university_url": "/university/sri-krishnadevaraya-college-of-agricultural-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.skcas.ac.in/Academics/CourcesOfferedAdmissions",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 14,
+    "name": "Khalsa College of Veterinary and Animal Sciences",
+    "university_url": "/university/khalsa-college-of-veterinary-and-animal-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.gadvasu.in/page/admission-ug-2026-27",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 15,
+    "name": "Khalsa College, Amritsar",
+    "university_url": "/university/khalsa-college-amritsar",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://khalsacollege.edu.in/images/admissionprocedure.pdf",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 16,
+    "name": "G H Raisoni University, Chhindwara",
+    "university_url": "/university/g-h-raisoni-university-chhindwara",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.ghru.edu.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 17,
+    "name": "Jagan Nath University, Jaipur",
+    "university_url": "/university/jagan-nath-university-jaipur",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://cdn.jagannathuniversity.org/docs/admissions/Program-List-Fee-Structure-2026-27-JU-Jaipur.pdf",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 18,
+    "name": "Jaipur National University",
+    "university_url": "/university/jaipur-national-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://apply.jnujaipur.ac.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 19,
+    "name": "Chandigarh University",
+    "university_url": "/university/chandigarh-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.cuchd.in/admissions/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 20,
+    "name": "Eternal University",
+    "university_url": "/university/eternal-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://portal.eternaluniversity.edu.in/register",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 21,
+    "name": "AKS University",
+    "university_url": "/university/aks-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admission.aksuniversity.ac.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 22,
+    "name": "Sri Sri University",
+    "university_url": "/university/sri-sri-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://srisriuniversity.edu.in/admission-process/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 23,
+    "name": "Janardan Rai Nagar Rajasthan Vidyapeeth",
+    "university_url": "/university/janardan-rai-nagar-rajasthan-vidyapeeth",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://jrnrvu.edu.in/school-of-agricultural-sciences.php",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 24,
+    "name": "Sanskriti University",
+    "university_url": "/university/sanskriti-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.sanskriti.edu.in/admissions/admission-procedure.php",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 25,
+    "name": "Vivekananda Global University",
+    "university_url": "/university/vivekananda-global-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://vgu.ac.in/admission/ug-admission",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 26,
+    "name": "SGT University",
+    "university_url": "/university/sgt-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://sgtuniversity.ac.in/admissions/admission-procedure",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 27,
+    "name": "Bhupal Nobles' University",
+    "university_url": "/university/bhupal-nobles-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.bnuniversity.ac.in/Admission_Guidlines",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 28,
+    "name": "Karunya Institute of Technology and Sciences",
+    "university_url": "/university/karunya-institute-of-technology-and-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.karunya.edu/campaign/admissions/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 29,
+    "name": "Suresh Gyan Vihar University",
+    "university_url": "/university/suresh-gyan-vihar-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.gyanvihar.org/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 30,
+    "name": "GD Goenka University",
+    "university_url": "/university/gd-goenka-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://applications.gdgoenkauniversity.com/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 31,
+    "name": "Shri Guru Ram Rai University",
+    "university_url": "/university/shri-guru-ram-rai-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.sgrru.ac.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 32,
+    "name": "Vellore Institute of Technology",
+    "university_url": "/university/vellore-institute-of-technology",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.vit.ac.in/bsc-hons-agri-2026-applications/login",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 33,
+    "name": "SRM Institute of Science and Technology",
+    "university_url": "/university/srm-institute-of-science-and-technology",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://applications.srmist.edu.in/agricultural-sciences-form",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 34,
+    "name": "Rabindranath Tagore University",
+    "university_url": "/university/rabindranath-tagore-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://rntu.ac.in/admission",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 35,
+    "name": "GIET University",
+    "university_url": "/university/giet-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.giet.edu/admissions/gietee/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 36,
+    "name": "RNT College of Agriculture",
+    "university_url": "/university/rnt-college-of-agriculture",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://rntagcollege.edu.in/Onlineadm.html",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 37,
+    "name": "Amrita Vishwa Vidyapeetham",
+    "university_url": "/university/amrita-vishwa-vidyapeetham",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.amrita.edu/admissions/aeel/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 38,
+    "name": "Tantia University",
+    "university_url": "/university/tantia-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://tantiauniversity.com/Admission-Overview",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 39,
+    "name": "Raffles University",
+    "university_url": "/university/raffles-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://rafflesuniversity.edu.in/admission-procedure",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 40,
+    "name": "Maharishi Markandeshwar (Deemed to be University), Mullana",
+    "university_url": "/university/maharishi-markandeshwar-mullana",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admission.mmumullana.org/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 41,
+    "name": "The Neotia University",
+    "university_url": "/university/the-neotia-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.tnu.in/admissions/admission-process-best-private-colleges-in-kolkata/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 42,
+    "name": "Centurion University of Technology and Management, Odisha",
+    "university_url": "/university/centurion-university-of-technology-and-management",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admissions.cutm.ac.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 43,
+    "name": "Lovely Professional University",
+    "university_url": "/university/lovely-professional-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.lpu.in/admission/admissions.php",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 44,
+    "name": "Kalasalingam Academy of Research and Education",
+    "university_url": "/university/kalasalingam-academy-of-research-and-education",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.kalasalingam.ac.in/admissions/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 45,
+    "name": "Integral University, Lucknow",
+    "university_url": "/university/integral-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.iul.ac.in/admissioninfo/Admission_Criteria.aspx",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 46,
+    "name": "Sri Kinjarapu Yerran Naidu College of Agricultural Sciences",
+    "university_url": "/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://ugadmissionsangrau.aptonline.in/ANGRAUGRADU/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 47,
+    "name": "Sri Satya Sai University of Technology and Medical Sciences",
+    "university_url": "/university/sri-satya-sai-university-of-technology-and-medical-sciences",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.sssutms.co.in/cms/Website/Admission/AdmissionProcedure",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 48,
+    "name": "GLA University",
+    "university_url": "/university/gla-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.gla.ac.in/info/bsc-agri/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 49,
+    "name": "Shri Shivaji Agriculture College, Amravati",
+    "university_url": "/university/shri-shivaji-agriculture-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://agri2026.mahacet.org/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 50,
+    "name": "Siksha ‘O’ Anusandhan",
+    "university_url": "/university/siksha-o-anusandhan",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.admission.soa.ac.in/agriculture-2026",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 51,
+    "name": "Guru Kashi University",
+    "university_url": "/university/guru-kashi-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://gku.ac.in/admissions/admission-procedure",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 52,
+    "name": "Arunachal University of Studies",
+    "university_url": "/university/arunachal-university-of-studies",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://admission.arunachaluniversity.ac.in/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 53,
+    "name": "SR University",
+    "university_url": "/university/sr-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://sru.edu.in/admissions-2026/agriculture",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 54,
+    "name": "Malla Reddy University",
+    "university_url": "/university/malla-reddy-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.mallareddyuniversity.ac.in/eligibility-criteria",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 55,
+    "name": "ITM University, Gwalior",
+    "university_url": "/university/itm-university-gwalior",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.itmuniversity.ac.in/admission/eligibility",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 56,
+    "name": "RKDF University, Bhopal",
+    "university_url": "/university/rkdf-university-bhopal",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://rkdf.ac.in/ADMISSION%20POLICY%202026-27.pdf",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 57,
+    "name": "RNB Global University",
+    "university_url": "/university/rnb-global-university",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://www.rnbglobal.edu.in/admission-procedure",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  },
+  {
+    "id": 58,
+    "name": "Tilak Dhari P.G. College, Jaunpur",
+    "university_url": "/university/tilak-dhari-pg-college",
+    "status": "event_driven_not_fabricated",
+    "official_admission_source": "https://online.tdcollege.org/",
+    "trigger_types": [
+      "Official admission calendar or revised deadline",
+      "Published fee revision",
+      "Dated ICAR decision",
+      "Documented curriculum or programme change"
+    ],
+    "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+    "written_historical_updates": []
+  }
+]

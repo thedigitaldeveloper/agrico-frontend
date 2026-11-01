@@ -1,0 +1,60 @@
+{
+  "id": 37,
+  "slug": "amrita-vishwa-vidyapeetham",
+  "name": "Amrita Vishwa Vidyapeetham",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/amrita-vishwa-vidyapeetham/logo.svg",
+      "source_page": "https://www.amrita.edu/",
+      "download_url": "https://webfiles.amrita.edu/2026/02/amrita-red-logo-new.svg",
+      "source_kind": "official",
+      "description": "Amrita Vishwa Vidyapeetham official emblem and wordmark",
+      "alt": "Amrita Vishwa Vidyapeetham official emblem and wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Amrita Vishwa Vidyapeetham",
+      "review_status": "verified_source",
+      "notes": "Original 129.0 x 44.0 SVG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/amrita-vishwa-vidyapeetham/campus-03.jpg",
+      "source_page": "https://www.amrita.edu/school/agriculture/",
+      "download_url": "https://webfiles.amrita.edu/2019/06/4fW7dnkf-Banner-1384-agri-college-e1609590035197.jpg",
+      "source_kind": "official",
+      "description": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+      "alt": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+      "campus": "Coimbatore, Tamil Nadu",
+      "agriculture_specific": true,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Amrita Vishwa Vidyapeetham",
+      "review_status": "verified_source",
+      "notes": "Original 1383 x 428 JPEG; unchanged downloaded bytes."
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/amrita-vishwa-vidyapeetham/campus-02.jpg",
+      "source_page": "https://www.amrita.edu/school/agriculture/",
+      "download_url": "https://webfiles.amrita.edu/2019/06/xAtxfSyK-Banner-1384-cbt-agri.jpg",
+      "source_kind": "official",
+      "description": "Amrita agriculture students inspecting vegetable crops during field practical learning",
+      "alt": "Amrita agriculture students inspecting vegetable crops during field practical learning",
+      "campus": "Coimbatore, Tamil Nadu",
+      "agriculture_specific": true,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Amrita Vishwa Vidyapeetham",
+      "review_status": "verified_source",
+      "notes": "Original 1384 x 590 JPEG; unchanged downloaded bytes."
+    }
+  ],
+  "gaps": []
+}

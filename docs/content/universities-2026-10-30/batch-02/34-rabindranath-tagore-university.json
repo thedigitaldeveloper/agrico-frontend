@@ -1,0 +1,401 @@
+{
+  "id": 34,
+  "slug": "rabindranath-tagore-university",
+  "name": "Rabindranath Tagore University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "RNTU",
+    "ownership": "Private university",
+    "city": "Raisen district, near Bhopal",
+    "state": "Madhya Pradesh",
+    "established": 2010,
+    "address": "Village Mendua, Post Bhojpur, near Bangrasiya Chouraha, Bhopal-Chiklod Road, Raisen district, Madhya Pradesh 464993",
+    "parent_university": null,
+    "website": "https://rntu.ac.in/",
+    "admissions_url": "https://rntu.ac.in/admission",
+    "phone": "0755-2700401",
+    "email": "info@rntu.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Rabindranath Tagore University",
+    "summary": "Rabindranath Tagore University’s Faculty of Agriculture began undergraduate teaching in 2015-16 in Raisen district near Bhopal. Its four-year agriculture programme links crop and soil science with rural work, agricultural enterprises and a research farm supported by irrigation and machinery.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture teaching with a rural development context",
+    "paragraphs": [
+      "RNTU’s agriculture faculty describes its original purpose as expanding agricultural education in underserved parts of Raisen district. The degree began in 2015-16. The current course account covers agronomy, horticulture, soil science, plant health, breeding, economics and extension, bringing production science and the social setting of farming into the same undergraduate route.",
+      "The published programme structure includes village surveys, soil sampling, plant-protection interventions and agro-industrial attachment. It also lists enterprise learning options such as beekeeping, mushroom cultivation and seed production. These are curriculum descriptions; applicants should ask which modules will actually run for their cohort and how the practical timetable is organised."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Faculty of Agriculture"
+      },
+      {
+        "label": "Location",
+        "value": "Raisen district, near Bhopal, Madhya Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "The course structure combines agricultural science with village-oriented work and enterprise modules.",
+      "eligibility": "Official course page: 12th PCM/PCB/PCMB/Agriculture with 60% for general and reserved categories; intake date not explicit.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. Agronomy",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "A specialist agricultural master’s course in the faculty list.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "name": "M.Sc. Horticulture — Fruit Science",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "A fruit-science master’s route in the official agriculture faculty list.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The 2026-27 admissions page describes account registration, programme selection, application completion, payment and submission. A course-specific tuition schedule and final agriculture selection notice were not located.",
+    "eligibility_points": [
+      "The current B.Sc. page lists 60% in the specified 12th science/agriculture combinations for general and reserved categories."
+    ],
+    "steps": [
+      {
+        "title": "Create an account and choose the course",
+        "text": "The university admission page lists registration and programme selection as its initial steps."
+      },
+      {
+        "title": "Complete and review the application",
+        "text": "The published sequence asks applicants to complete the form, pay the application fee and review before submission; the amount was not verified."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Research farms, machinery and processing",
+    "intro": "The faculty identifies an irrigated research farm and greenhouse, together with agricultural implements and a food-processing training centre. Farm experiments and demonstrations are described as outdoor teaching resources.",
+    "facilities": [
+      {
+        "name": "Research farm and greenhouse",
+        "description": "Both are named by the Faculty of Agriculture.",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Food-processing training centre",
+        "description": "The faculty identifies this facility alongside farm machinery and a custom-hiring centre.",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The admissions page names Shiksha Mitra Scholarships but its displayed 2022 scheme explicitly excludes B.Sc. Agriculture. Applicants should not assume that the advertised percentage waivers apply to this degree.",
+    "schemes": [],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "A current agriculture-specific placement report was not available in the checked material.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Faculty of Agriculture for 2024-02-08 to 2029-02-07. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agriculture",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A42:G42"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A verified current list of agriculture teaching staff has not yet been added.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "When did RNTU’s agriculture degree begin?",
+      "answer": "The faculty account dates the four-year programme to the 2015-16 academic session.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which 12th backgrounds does the course page list?",
+      "answer": "PCM, PCB, PCMB or Agriculture, with a stated 60% threshold for general and reserved categories. Confirm intake applicability.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does Shiksha Mitra automatically cover agriculture?",
+      "answer": "No. The displayed 2022 scheme on the admissions page specifically excludes B.Sc. Agriculture.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "What enterprise options appear in the curriculum?",
+      "answer": "The course page lists options including beekeeping, mushrooms and seed-production technology; availability for each cohort needs confirmation.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What is the checked ICAR term?",
+      "answer": "The Faculty of Agriculture’s B.Sc. (Hons.) Agriculture row runs from 8 February 2024 to 7 February 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Rabindranath Tagore University | Agriculture courses and admissions",
+    "description": "Review RNTU agriculture near Bhopal, course structure, farm and enterprise learning, entry requirements and scholarship exclusions, with ICAR course coverage.",
+    "keywords": [
+      "Rabindranath Tagore University agriculture",
+      "Rabindranath Tagore University admissions",
+      "Rabindranath Tagore University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://rntu.ac.in/admin/public/uploads/images/medias/download7.jpg",
+    "logo_url": "https://rntu.ac.in/public/uploads/images/logo.png",
+    "campus_alt": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+    "caption": "Rabindranath Tagore University academic building and group on the lawn near Bhopal",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/rabindranath-tagore-university/logo.png",
+    "local_campus_image": "media/rabindranath-tagore-university/campus-02.jpg",
+    "local_gallery": [
+      "media/rabindranath-tagore-university/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://rntu.ac.in/courses/prog-bachelor-of-science-honours-agriculture",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "admissions",
+        "campus.curriculum"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s3",
+      "url": "https://rntu.ac.in/academics/faculty-of-agriculture",
+      "title": "Faculty of Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "url": "https://rntu.ac.in/admission",
+      "title": "Admissions 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "admissions",
+        "scholarships"
+      ],
+      "notes": "Scholarship text is explicitly a 2022 scheme and excludes B.Sc. Agriculture."
+    },
+    {
+      "id": "s5",
+      "url": "https://rntu.ac.in/studentlife/student-handbook",
+      "title": "Student handbook 2023-24",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "Historical institutional contact; stable address used."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://rntu.ac.in/",
+      "title": "Rabindranath Tagore University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rabindranath-tagore-university/logo.png. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://rntu.ac.in/campuslife/AU_Campus",
+      "title": "Rabindranath Tagore University — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/rabindranath-tagore-university/campus-02.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees",
+      "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+      "next_source": "https://rntu.ac.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A dated current agriculture staff roster was not verified.",
+      "next_source": "https://rntu.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://rntu.ac.in/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://rntu.ac.in/admission"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://rntu.ac.in/admission"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://rntu.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": []
+  }
+}

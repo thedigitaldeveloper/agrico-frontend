@@ -1,0 +1,394 @@
+{
+  "date": "2026-10-11T20:06:13.159Z",
+  "sourceHashes": {
+    "src/components/rs/home.tsx": "4e665ecf3e1279f21793c03c184bc2aa603cf525b70a969f170ab8e7ff114e01",
+    "src/components/rs/home-types.ts": "f4775cf2b0cca0b089afba763f63bf5edadd491151de4d85a8a5b9bdcb48a5de",
+    "src/components/rs/home-interactions.tsx": "d5a3dbc02bf97bf74eef2591b5efb011dc5365ce4bcfe9ad7593f8fbf4cfdfd0",
+    "src/components/rs/home-sections.css": "b1b00b867b708c53ecbaa67b38955791876f8111e6f75771eb4669f1dc2fef4c",
+    "src/components/rs/university-section.tsx": "ddb97e9a78d1b774feb30b90b7da62ff7b904dc979c80d6390f61ae983c11d99",
+    "src/components/rs/university-section.css": "da98e8ff8b02498f98d911390e8d026b4094ae3d80772d177c0bbbb10f958125",
+    "src/components/rs/content-carousel.tsx": "95e60377ef0ffe59917eb0b95efe805d7c267c3ef8c596c67cc0e77b89dcb3c0",
+    "src/components/rs/content-carousel.css": "51e9c9511fc1283889a0e5705f13b3eb90425e85554b759e1c720221200a8615",
+    "src/lib/cms/repositories/home.ts": "fad8969c74e93d37e645bf9eeae14fa6e536782fb1bd9861ad982bbcbb3211ff",
+    "src/lib/cms/repositories/rs-home.ts": "fc916d9978e0f7e15c7928549ff717012c8049d0f7f811f4cc69d5e278598552",
+    "src/lib/cms/repositories/rs-catalogue.ts": "20bec6aa38de9edee9483df5bdde4b185b90f5fdd050bf438b27fb7c4f8a98cb",
+    "src/components/university/university-card.tsx": "5b01e95e6c8cf5cd9eac02e442ad436b865854ed69bac8fdfbca63bef5493a06",
+    "src/components/ui/listing.css": "1b7860d230233ddf4c5581482fda30cb3674cb29d8bb67d18a1aa57c906912ab",
+    "src/app/programs/page.tsx": "33576d36a1b29446e50d11f9229051b07d47a80b8b873b97bb3807ee6e64a7e5",
+    "src/app/universities/page.tsx": "6ee6ab4a1dd40d33d35e5f1474a3fbd8488e288437dc1a4da136ede32afc0760"
+  },
+  "checks": [
+    "Full imported published catalogue is present, with exact valid university/programme pairs",
+    "Home: five responsive widths, CMS order/data, 4/3/2/1 cards, aligned guides and no university campus photos or page overflow",
+    "Home degree tabs, comparison limit/clear/details/focus, FAQ and invalid enquiry preservation work",
+    "MBA/BBA/MCA finder shows every published matching offering; exact CTAs, retained filters, search reset and pagination work",
+    "All17 university records are accessible through compact responsive listing and pagination",
+    "Four legacy homepage offering links redirect to their exact canonical university/programme pairs",
+    "Editorial destinations work and no browser runtime errors occurred"
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 4209,
+      "sections": [
+        {
+          "selector": "#programmes",
+          "height": 566.4375,
+          "visible": 4,
+          "leftDelta": 0,
+          "cardHeights": [
+            327,
+            327,
+            327,
+            327
+          ]
+        },
+        {
+          "selector": "#universities",
+          "height": 515.015625,
+          "visible": 4,
+          "leftDelta": 0,
+          "cardHeights": [
+            383.578125,
+            383.578125,
+            383.578125,
+            383.578125
+          ]
+        },
+        {
+          "selector": "#news",
+          "height": 481.40625,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            337.96875
+          ]
+        },
+        {
+          "selector": "#blogs",
+          "height": 534,
+          "visible": 3,
+          "leftDelta": 0,
+          "cardHeights": [
+            390.5625,
+            390.5625,
+            390.5625
+          ]
+        },
+        {
+          "selector": "#admission-steps",
+          "height": 196.921875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": ".rs-faq",
+          "height": 309.6875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": "#guidance",
+          "height": 266.59375,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        }
+      ]
+    },
+    {
+      "width": 1031,
+      "height": 4177,
+      "sections": [
+        {
+          "selector": "#programmes",
+          "height": 556.125,
+          "visible": 3,
+          "leftDelta": 0,
+          "cardHeights": [
+            327,
+            327,
+            327,
+            327
+          ]
+        },
+        {
+          "selector": "#universities",
+          "height": 504.703125,
+          "visible": 3,
+          "leftDelta": 0,
+          "cardHeights": [
+            383.578125,
+            383.578125,
+            383.578125,
+            383.578125
+          ]
+        },
+        {
+          "selector": "#news",
+          "height": 511.09375,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            377.96875
+          ]
+        },
+        {
+          "selector": "#blogs",
+          "height": 461.953125,
+          "visible": 3,
+          "leftDelta": 0,
+          "cardHeights": [
+            328.828125,
+            328.828125,
+            328.828125
+          ]
+        },
+        {
+          "selector": "#admission-steps",
+          "height": 203.40625,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": ".rs-faq",
+          "height": 309.6875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": "#guidance",
+          "height": 266.59375,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 4873,
+      "sections": [
+        {
+          "selector": "#programmes",
+          "height": 555.125,
+          "visible": 2,
+          "leftDelta": 0,
+          "cardHeights": [
+            327,
+            327,
+            327,
+            327
+          ]
+        },
+        {
+          "selector": "#universities",
+          "height": 503.703125,
+          "visible": 2,
+          "leftDelta": 0,
+          "cardHeights": [
+            383.578125,
+            383.578125,
+            383.578125,
+            383.578125
+          ]
+        },
+        {
+          "selector": "#news",
+          "height": 618.0625,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            485.9375
+          ]
+        },
+        {
+          "selector": "#blogs",
+          "height": 487.796875,
+          "visible": 2,
+          "leftDelta": 0,
+          "cardHeights": [
+            355.671875,
+            355.671875,
+            355.671875
+          ]
+        },
+        {
+          "selector": "#admission-steps",
+          "height": 323.625,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": ".rs-faq",
+          "height": 321.59375,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": "#guidance",
+          "height": 315.46875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 6932,
+      "sections": [
+        {
+          "selector": "#programmes",
+          "height": 632.96875,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            331.21875,
+            331.21875,
+            331.21875,
+            331.21875
+          ]
+        },
+        {
+          "selector": "#universities",
+          "height": 592.828125,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            379.578125,
+            379.578125,
+            379.578125,
+            379.578125
+          ]
+        },
+        {
+          "selector": "#news",
+          "height": 926.953125,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            731.328125
+          ]
+        },
+        {
+          "selector": "#blogs",
+          "height": 552.296875,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            356.671875,
+            356.671875,
+            356.671875
+          ]
+        },
+        {
+          "selector": "#admission-steps",
+          "height": 469.3125,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": ".rs-faq",
+          "height": 561.1875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": "#guidance",
+          "height": 510.546875,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 7289,
+      "sections": [
+        {
+          "selector": "#programmes",
+          "height": 655.46875,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            331.21875,
+            331.21875,
+            331.21875,
+            331.21875
+          ]
+        },
+        {
+          "selector": "#universities",
+          "height": 592.828125,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            379.578125,
+            379.578125,
+            379.578125,
+            379.578125
+          ]
+        },
+        {
+          "selector": "#news",
+          "height": 946.453125,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            750.828125
+          ]
+        },
+        {
+          "selector": "#blogs",
+          "height": 537.296875,
+          "visible": 1,
+          "leftDelta": 0,
+          "cardHeights": [
+            341.671875,
+            341.671875,
+            341.671875
+          ]
+        },
+        {
+          "selector": "#admission-steps",
+          "height": 508.5,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": ".rs-faq",
+          "height": 583.578125,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        },
+        {
+          "selector": "#guidance",
+          "height": 602.34375,
+          "visible": 0,
+          "leftDelta": null,
+          "cardHeights": []
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "inventory": {
+    "universities": 17,
+    "programmes": 141,
+    "offeringPairs": 2094,
+    "selectedUniversities": 4,
+    "selectedOfferings": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-11T20:13:33.145Z",
+  "status": "passed",
+  "routeWidthCases": 17,
+  "initialReport": "checks.json",
+  "authRecheck": "auth-recheck.json",
+  "earlierListingSourceHashesUnchanged": true,
+  "resolved": [
+    {
+      "issue": "Password toggle target was43×43px on login and register.",
+      "resolution": "The served fix renders both targets44×44px; empty-password show/hide interactions pass.",
+      "measured": [
+        {
+          "path": "/login",
+          "width": 390,
+          "toggle": {
+            "label": "Show password",
+            "width": 44,
+            "height": 44
+          }
+        },
+        {
+          "path": "/register",
+          "width": 390,
+          "toggle": {
+            "label": "Show password",
+            "width": 44,
+            "height": 44
+          }
+        }
+      ]
+    }
+  ],
+  "remainingDefects": [],
+  "browserErrors": 0,
+  "failedResponses": 0,
+  "blockedMutations": 0,
+  "notes": [
+    "15 original listing cases remain preserved in checks.json.",
+    "Two auth cases passed against the rebuilt production server; both have no page overflow and aligned shell guides.",
+    "The initial auth recheck hit a QA-only currentSrc race; element-based image readiness fixed the check. Prior report remains in auth-image-timing-before-qa-fix.json.",
+    "Public GETs only; no valid forms submitted and no CMS changes."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "generator": "Built-in image_gen imagegen",
+  "files": [
+    {
+      "file": "hero-campus.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a18b54-58fc-7103-869d-0cb193b4a342\\exec-d16ce014-c121-4d9c-b3cb-3fbf739c9f92.png"
+    },
+    {
+      "file": "agritech-workshop.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a18b54-58fc-7103-869d-0cb193b4a342\\exec-26f400cb-af7c-4d57-b07c-32e12d7dc47a.png"
+    },
+    {
+      "file": "nursery-learning.png",
+      "width": 1536,
+      "height": 1024,
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a18b54-58fc-7103-869d-0cb193b4a342\\exec-45139119-e630-4494-9759-e4067e6feac4.png"
+    },
+    {
+      "file": "academic-illustrations.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\DELL\\.codex\\generated_images\\01a18b54-58fc-7103-869d-0cb193b4a342\\exec-02014ac5-8981-44d6-9ea5-738d110b2ae5.png"
+    }
+  ],
+  "purpose": "Production homepage assets matching the user-selected Agrico Sample 2 / Concept B.",
+  "references": [
+    "D:/agrico-frontend/docs/design/agriculture-sections-v3-2026-10-30/concept-b-upper.png",
+    "D:/agrico-frontend/docs/design/agriculture-sections-v3-2026-10-30/concept-b-lower.png"
+  ],
+  "imageryNotice": "Generated illustrative university student/laboratory imagery; not authenticated photographs of named institutions.",
+  "atlas": {
+    "file": "academic-illustrations.png",
+    "columns": 3,
+    "rows": 3,
+    "background": "transparent",
+    "width": 1254,
+    "height": 1254,
+    "cellWidth": 418,
+    "cellHeight": 418,
+    "cssBackgroundSize": "300% 300%",
+    "cssPositions": { "columns": ["0%", "50%", "100%"], "rows": ["0%", "50%", "100%"], "optionalThirdRow": "97.5%" },
+    "items": [
+      {
+        "row": 0,
+        "column": 0,
+        "name": "farm-machinery"
+      },
+      {
+        "row": 0,
+        "column": 1,
+        "name": "soil-water"
+      },
+      {
+        "row": 0,
+        "column": 2,
+        "name": "food-processing"
+      },
+      {
+        "row": 1,
+        "column": 0,
+        "name": "plant-science"
+      },
+      {
+        "row": 1,
+        "column": 1,
+        "name": "engineering-greenhouse"
+      },
+      {
+        "row": 1,
+        "column": 2,
+        "name": "counselling"
+      },
+      {
+        "row": 2,
+        "column": 0,
+        "name": "field-research"
+      },
+      {
+        "row": 2,
+        "column": 1,
+        "name": "engineering-student"
+      },
+      {
+        "row": 2,
+        "column": 2,
+        "name": "agribusiness"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "file": "hero-campus.png",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit / photo extraction.\nInput image is an approved AGRICO homepage UI mockup. Extract/recreate ONLY the photographic scene in the UPPER RIGHT HERO. Deliver a standalone high-resolution landscape photograph, about 3:2 ratio, with no website/UI and no extra border. Preserve the three adult Indian university students around age 21-24: a woman on the left leaning toward a teaching drone on the table, a bespectacled male student in the middle, and another male student on the right with a laptop. Match their clothing, faces, relative positions, camera angle, university laboratory/studio setting, whiteboard behind them, morning natural light, colours, tabletop drone model, notebooks and laptop as closely as possible to the reference. Reconstruct a little usable breathing room around the group, keep hands plausible. Educational project-learning photograph, not equipment advertising. Remove all homepage headers, headline, tabs, buttons, UI rules, text overlays and logo. Remove legible writing on the whiteboard; retain only subtle unlabelled scientific/sketch marks. Output just the beautiful full-bleed photograph. No captions, typography, watermark or collage."
+    },
+    {
+      "file": "agritech-workshop.png",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit / photo extraction.\nInput image is an approved AGRICO homepage. Extract/recreate ONLY the photograph on the RIGHT of the dark-green section headed \"Learn the technology behind modern agriculture.\" Deliver a standalone high-resolution landscape photograph, about 3:2 ratio, no UI. Preserve the adult Indian male student/instructor on the left in a dark blue shirt and glasses, the adult Indian female student on the right in glasses and casual academic clothing, both examining a teaching drone/model and technical work on a university engineering laboratory bench. Match original faces, pose, clothing, natural soft laboratory daylight, camera perspective, laptops/notebooks, and the background of an academic engineering workshop. The pair is clearly learning, not selling equipment. Reconstruct enough crop margin for website use, keep hands realistic. Remove every green website panel, text, button, label, header, logo or UI edge. No typography, watermark or collage. Output only this complete photographic scene."
+    },
+    {
+      "file": "nursery-learning.png",
+      "transparent": false,
+      "prompt": "Use case: precise-object-edit / photo extraction.\nInput image is an approved AGRICO lower homepage mockup. Extract/recreate ONLY the small photograph at the LEFT of the first NEWS AND UPDATES story \"Precision learning and student projects\". Deliver a standalone high-resolution 3:2 landscape photograph, no website UI. Show the same adult Indian university woman leaning over small research seedlings in a university teaching greenhouse, another adult Indian student in the background, studying plants with notebooks and a quiet academic atmosphere. Preserve natural light, composition and education context as closely as possible. This is university plant-science learning, not vegetables for sale or a produce market. Crop generously enough for a small editorial card, natural colours, believable hands and fine plant detail. Remove all story text, labels, website panels, buttons, typography and borders. No names, watermark or collage. Output only a beautiful student-learning greenhouse photograph."
+    },
+    {
+      "file": "academic-illustrations.png",
+      "transparent": true,
+      "prompt": "Use case: illustration-story / reusable website illustration atlas.\nUse the two approved AGRICO mockups ONLY as STYLE REFERENCES for the beautiful forest-green academic monoline artwork. Create ONE TRANSPARENT PNG illustration sprite atlas. Square canvas, ideally 1536x1536 or larger. Exactly 3 columns and 3 rows of evenly sized square CELLS, no grid lines and no text. Every independent illustration is centered within its cell, confined to the middle 76% width and height, with clear transparent gutters and no overlap across cell boundaries. Each cell has the same scale, line weight, refinement and deep forest-green #285C45 colour. Crisp detailed hand-drawn architectural/scientific monoline strokes, a little restrained cross-hatching, sparse pale-sage detail is acceptable, but the background is genuinely transparent. Do not include any UI, photo, lettering, numbers, card panels, circles or borders.\nRow 1 left: a compact tractor/farm-machinery academic line drawing in a research plot, similar to reference curriculum tile.\nRow 1 middle: an irrigation pivot/water-engineering academic schematic with a few fine soil/field lines.\nRow 1 right: food-processing silos and a small processing building, elegant engineering line art.\nRow 2 left: microscope with a small plant-science leaf/seedling and notebook, suitable for a B.Sc. Agriculture comparison.\nRow 2 middle: an engineering greenhouse/campus structure with a small technical diagram, suitable for Agricultural Engineering comparison.\nRow 2 right: adult university counsellor and adult student at a desk reviewing degree choices, tasteful human line art.\nRow 3 left: adult university field-research student with a notebook recording observations, clearly academic.\nRow 3 middle: adult engineering student at a desk with a small drone teaching model and laptop, clearly learning.\nRow 3 right: adult agribusiness student at a laptop with a small simple business graph on paper, clearly academic.\nKeep all nine scenes distinct and centered in their exact grid cells. All artwork shares the same premium monochrome academic green line-art family seen in the screenshots. No vegetable sales imagery, product advertisements, logos, watermarks, text or edge-to-edge backgrounds. Output one transparent 3x3 atlas and nothing else."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": 43,
+  "slug": "lovely-professional-university",
+  "name": "Lovely Professional University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/lovely-professional-university/logo.svg",
+      "source_page": "https://www.lpu.in/",
+      "download_url": "https://www.lpu.in/images/logo/lpu-logo.svg",
+      "source_kind": "official",
+      "description": "Lovely Professional University official mark",
+      "alt": "Lovely Professional University official mark",
+      "campus": "Phagwara, Punjab",
+      "agriculture_specific": false,
+      "identity_evidence": "Image embedded by the institution official website at https://www.lpu.in/; source alt: LPU Logo",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Lovely Professional University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Header wordmark has a short native height; preserve aspect ratio. Full self-contained SVG rendered and visually reviewed in Chrome, including the LPU emblem, wordmark and anniversary mark.",
+      "width": 328.0,
+      "height": 78.0,
+      "sha256": "e64d961dd1b1372a20c3e8cb4c4501b1d7fa3db3f46a20a093be27a81dd1c000"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/lovely-professional-university/campus-01.jpg",
+      "source_page": "https://www.lpu.in/",
+      "download_url": "https://www.lpu.in/_next/image?url=%2Fimages%2Fhomepage%2Fcampus-experience%2F360degree-view.webp&w=1920&q=75",
+      "source_kind": "official",
+      "description": "Panoramic campus view at Lovely Professional University, Phagwara",
+      "alt": "Panoramic campus view at Lovely Professional University, Phagwara",
+      "campus": "Phagwara, Punjab",
+      "agriculture_specific": false,
+      "identity_evidence": "Image embedded by the institution official website at https://www.lpu.in/; source alt: 360° Campus View",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Lovely Professional University",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved.",
+      "width": 1288,
+      "height": 484,
+      "sha256": "c8c094280ed284dece6af8c4c4d95cf9cd90732656e2574982112b7bf194743d"
+    }
+  ],
+  "gaps": []
+}

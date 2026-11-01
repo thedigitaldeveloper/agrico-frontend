@@ -1,0 +1,48 @@
+AGRICO — CONTENT + MEDIA + SEO PLAN
+Latest research check: 2026-10-31
+
+OPEN THESE FILES AFTER EXTRACTING THE WHOLE ZIP:
+1. review.html — original researched copy for all 58 institutions; source and factual-gap logs.
+2. media-review.html — 58 institution logos, 5 compact marks and 93 campus/academic photos.
+3. publication-review.html — complete linked copy: 58 overviews + 580 separate tab pages, 10 Articles, 6 Blogs, 2 historical News stories and 8 state collections.
+4. seo-review.html — reference audit and implementation status.
+5. content-seo-audit.html — technical fixes, 123 deferred-indexing tabs and 371 recorded research flags.
+6. cms-html-preview.html — actual editable HTML/CSS bodies: 638 university pages plus18 editorial pages.
+
+institutions.json combines all 58 profiles. Individual editable JSON profiles are in batch-01/02/03.
+The selected downloaded originals and per-institution source manifests are in media/<slug>/.
+Any preserved variant marked import_selected:false is a reference original, excluded from the upload queue.
+media-manifest.json contains dimensions, alt text, exact sources, identity evidence, visual notes and hashes.
+cms-media-import-plan.json maps local files to symbolic uploads and University.logo/card_logo/image.
+Resolve upload keys to actual upload IDs during a future CMS import; no import was executed.
+Secondary photographs are included in the structured campus gallery as well as the media import map.
+Public gallery/article image captions have no image-credit or source links. Acquisition details remain in the internal media manifests.
+publication.json contains the overview and separate tab documents; each CMS university payload includes all ten tab pages in agriculture_content.tab_pages; editorial/ contains the original complete article/blog/news JSON files.
+cms-content-import-plan.json contains slug-matched university/editorial field payloads and relation-resolution instructions.
+cms-html-content-import-plan.json adds the existing CMS HTML/CSS editor payloads. Resolve each university relation,
+then upsert Content Section by owner+secondary_slug. Position0 is Overview and positions1–10 are the subject tabs.
+Each Content Section has one common.html-section with code.html and code.css; the frontend supplies H1, tabs and enquiry.
+Keep the data-agrico-document attribute on the HTML root, matching that tab's canonical path. Preserve heading IDs,
+and keep the HTML TOC and heading order in sync when making subsequent manual edits. CSS is isolated per component.
+For Articles/Blogs/News, import the prepared Blog.body_html component. Structured JSON remains research/metadata fallback.
+Import both plans; existing marked CMS HTML takes precedence for the tab body. Media URLs must be resolved for the target host.
+Original-gap completion ledgers and before/after counts are under content-completion/. Research source PDFs are not bundled.
+
+The complete written content is integrated locally. It is not a certificate that every changing institution fact is known.
+123 tabs lack enough separate source evidence for indexing. They remain readable with self-canonicals and noindex/follow,
+and are excluded from the sitemap. Preserve the agriculture_content.tab_pages[*].indexing decisions on import.
+Resolve the facts, regenerate the content and review indexing before enabling those pages. See content-seo-audit.json.
+Only 52 fee rows have sourced amounts; 33 explicitly cite a 2026 session.
+Unknown fees/dates/placement figures remain null or empty. Preserve source year, quota and fee period.
+Preserve precise ICAR programme/unit terms; recheck terms before claims beyond their recorded expiry.
+Public-source image acquisition and its provenance are recorded; no independent image licence is claimed.
+Lower-resolution originals and shared/group logos are labelled. Do not upscale or relabel them as unique campus proofs.
+
+TOCs, body links, honest editorial bylines, university/editorial relations, distinct canonical article/blog/news routes,
+frontend content binding, image display and sitemap entries are implemented. Browser QA covers all 664 content routes.
+News describes genuine historical official notices; the source notice date is not our own publication date.
+No remote deployment, live CMS data import, ranking or immediate-indexing claim is made.
+
+Frontend source and CMS schema were updated. CMS record IDs, media IDs and taxonomy IDs must be resolved during actual import.
+Browser validation checks the complete offline reader, all 664 frontend routes, canonical aliases, sitemaps and responsive tables.
+Raw source PDFs, rejected candidates and QA screenshots are excluded. See package-manifest.json for counts.

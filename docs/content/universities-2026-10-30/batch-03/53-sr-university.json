@@ -1,0 +1,472 @@
+{
+  "id": 53,
+  "slug": "sr-university",
+  "name": "SR University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SRU",
+    "ownership": "Private university",
+    "city": "Warangal",
+    "state": "Telangana",
+    "established": 2020,
+    "address": "Ananthasagar, Hasanparthy, Warangal, Telangana 506371",
+    "parent_university": null,
+    "website": "https://sru.edu.in/",
+    "admissions_url": "https://sru.edu.in/admissions-2026/agriculture",
+    "phone": "+91 8331004040",
+    "email": "info@sru.edu.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "SR University",
+    "summary": "SR University’s agriculture school at Warangal combines a four-year bachelor’s degree with instructional farm and laboratory learning. Its published curriculum includes rural work experience, experiential learning and agro-industrial attachment. The university also provides a programme-specific fee and scholarship table for applicants comparing the cost of agricultural study.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture teaching with farms and Student READY work",
+    "paragraphs": [
+      "SRU describes agriculture as a four-year professional undergraduate programme. Its course page identifies instructional farms and a horticulture garden, while the R24 curriculum provides a subject-level reference. Rural Agricultural Work Experience, experiential learning and industrial attachment are named components of its teaching approach.",
+      "The university programme directory gives a specific science-subject and marks requirement for the bachelor’s degree, with a separate diploma route. Its agriculture admissions page discusses innovation resources and career guidance. Applicants should distinguish the broad school’s additional postgraduate offerings from the undergraduate degree named in the ICAR record, and obtain written confirmation of current payable fees and scholarship conditions."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "SR University"
+      },
+      {
+        "label": "Location",
+        "value": "Warangal, Telangana"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A bachelor’s degree with rural, experiential and industrial learning components.",
+      "eligibility": "Official programme directory: at least 55% in 10+2 with PCB; first-class two-year Agriculture/Seed Technology diploma after Class 10 is also listed.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 97500,
+        "period": "semester",
+        "academic_year": null,
+        "includes": "Tuition only in the published B.Sc. (Hons.) Agriculture table.",
+        "note": "Undated official amount; intake-year applicability is not established. Separate table charges: enrolment ₹5,000 and one-time admission ₹25,000. Do not treat this as a current2026–27/2027 payable quote or an all-inclusive attendance cost.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Listed under SR University; accreditation term 2026-03-16 to 2031-03-15.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to SRU",
+    "intro": "SRU’s programme directory specifies B.Sc. Agriculture entry qualifications. Confirm selection requirements and the academic year of the fee table through the agriculture admissions route.",
+    "eligibility_points": [
+      "The official directory states 55% at 10+2 with PCB and a qualifying diploma alternative."
+    ],
+    "steps": [
+      {
+        "title": "Check the bachelor’s eligibility",
+        "text": "Use the B.Sc. Agriculture entry rather than a general engineering or science rule."
+      },
+      {
+        "title": "Confirm fees and scholarship together",
+        "text": "Ask for a dated payable statement identifying tuition, enrolment, admission and any concession."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "The course page identifies instructional farm and horticulture resources, and explicitly describes Student READY learning components.",
+    "facilities": [
+      {
+        "name": "Instructional farm and horticulture garden",
+        "description": "The course page identifies these as settings for field learning.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Agriculture laboratories",
+        "description": "The university describes laboratories supporting experiential study.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The course page lists RAWE, experiential learning, internships and agro-industrial attachment."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "SRU publishes an agriculture-specific tuition scholarship table with board and entrance-score categories. Its applicability and academic-year coverage need written confirmation; the separate April 2026 early-admission promotion has already passed.",
+    "schemes": [
+      {
+        "name": "B.Sc. Agriculture merit scholarship table",
+        "details": "The official page displays different tuition concessions according to qualifying scores and examinations. The draft does not assign an award to any applicant.",
+        "source_ids": [
+          "s4"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s4"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "SRU’s agriculture admissions material describes industry connections, skills and career guidance. A dated bachelor’s placement cohort, salary or recruiter report was not verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s5"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies SR University with validity from 2026-03-16 to 2031-03-15. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "SR University",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture  (Intake- 120)"
+        ],
+        "valid_from": "2026-03-16",
+        "valid_until": "2031-03-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A62:G62"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The School of Agriculture directory lists its dean and teachers by discipline. These are the official page’s published roles checked on31October2026; their appointment-effective dates are not stated.",
+    "people": [
+      {
+        "name": "Dr. G. Bhupal Raj",
+        "role": "Dean, School of Agriculture",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      },
+      {
+        "name": "Dr. M. Mohana Keerthi",
+        "role": "Associate Professor and Head, Agronomy",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Ashokkumar",
+        "role": "Associate Professor, Agricultural Extension Education",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Boda Somraj",
+        "role": "Associate Professor, Horticulture",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      },
+      {
+        "name": "Dr. G. Venkatasubba Reddy",
+        "role": "Associate Professor, Agricultural Microbiology",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      },
+      {
+        "name": "Dr. Narkhede Gopal Wasudeo",
+        "role": "Associate Professor, Genetics and Plant Breeding",
+        "source_ids": [
+          "completion_sru_faculty"
+        ]
+      }
+    ],
+    "source_ids": [
+      "completion_sru_faculty"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long is SRU’s agriculture bachelor’s degree?",
+      "answer": "The official course page states four years and eight semesters.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the programme include rural learning?",
+      "answer": "Yes. The course page includes rural work experience and other Student READY elements.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What school subjects are stated for direct entry?",
+      "answer": "The programme directory specifies PCB with at least 55% at 10+2.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is there a diploma route?",
+      "answer": "The directory lists a first-class two-year Agriculture or Seed Technology diploma after Class 10.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What is the tuition table’s limitation?",
+      "answer": "It displays ₹97,500 per semester but does not explicitly identify the academic year of that table. Obtain a dated confirmation.",
+      "source_ids": [
+        "s4"
+      ]
+    },
+    {
+      "question": "Which ICAR term applies to the listed bachelor’s programme?",
+      "answer": "The audited record runs from 16 March 2026 to 15 March 2031.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What tuition does SR University publish for agriculture?",
+      "answer": "The undated official table lists ₹97,500 per semester for B.Sc. Agriculture, plus separate ₹5,000 enrolment and ₹25,000 one-time admission charges. The governing intake year is unverified; scholarship net fees must not be inferred from inconsistent rounded figures.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "SR University | Agriculture Courses & Admissions",
+    "description": "Explore SR University agriculture at Warangal, its four-year degree, farms, Student READY learning, official entry criteria and ICAR programme accreditation.",
+    "keywords": [
+      "SR University agriculture",
+      "SR University admissions",
+      "SR University ICAR accreditation",
+      "SR University agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://static.wixstatic.com/media/e751e0_dcc213c6041242a78dc02367ec212911~mv2.jpg",
+    "logo_url": "https://pbs.twimg.com/profile_images/1819596467734036480/wml0FFB-_400x400.jpg",
+    "campus_alt": "Students on steps beside an SR University academic block, Warangal",
+    "caption": "Students on steps beside an SR University academic block, Warangal",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/sr-university/logo-verified.jpg",
+    "local_campus_image": "media/sr-university/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/sr-university/campus_primary-verified.jpg",
+      "media/sr-university/campus_secondary-verified.png"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A62:G62. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sru.edu.in/schools/bsc-in-agriculture",
+      "title": "B.Sc. Agriculture course page",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "programmes",
+        "campus"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://sru.edu.in/academics/program/",
+      "title": "Programme directory",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes.eligibility",
+        "programmes.duration"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://sru.edu.in/fee-scholarship/",
+      "title": "Fee structure and scholarships",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.fees",
+        "scholarships"
+      ],
+      "notes": "Table does not explicitly label an academic year; page includes a separately dated April 2026 admission promotion. Do not treat the promotion as current.",
+      "note": "Agriculture table explicitly per semester; academic-year heading absent. Published concession rupee values contain rounding/inconsistency, so no net amount inferred."
+    },
+    {
+      "id": "s5",
+      "url": "https://sru.edu.in/admissions-2026/agriculture",
+      "title": "Agriculture admissions page",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "placements",
+        "campus",
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "2026 URL has mixed 2025–26 banner text; undated counters excluded."
+    },
+    {
+      "id": "s6",
+      "url": "https://sru.edu.in/assets/pdf/SoA-R24-B.Sc.%28Hons.%29AgricultureCourseStructure.pdf",
+      "title": "R24 B.Sc. Agriculture course structure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "campus"
+      ],
+      "notes": "Curriculum source, not an intake-year fee schedule."
+    },
+    {
+      "id": "s7",
+      "url": "https://sru.edu.in/about/",
+      "title": "Official SR University history",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "History dates university notification to May 2020; predecessor engineering college began in 2002."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://x.com/sr_university",
+      "title": "SR University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sr-university/logo-verified.jpg. Profile mark of official SR University X account @sr_university."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.sjkarchitects.com/educational-architecture/sr-university-warangal",
+      "title": "SR University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sr-university/campus_primary-verified.jpg. Campus architect's completed-project page explicitly identifies SR University Warangal, client SR Educational Trust, and photographer Rajesh Vora."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://collegedunia.com/university/15181-sr-university-sru-warangal/gallery",
+      "title": "SR University — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/sr-university/campus_secondary-verified.png. Institution-specific Collegedunia SR University Warangal academic-building gallery; architectural facade matches the campus architect's project photography."
+    },
+    {
+      "id": "completion_sru_faculty",
+      "title": "Official SRU School of Agriculture faculty directory",
+      "url": "https://www.sru.edu.in/faculty/deptFaculties/agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "note": "Undated live directory checked on31October2026; role dates are unstated."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees.academic_year",
+      "reason": "Official per-semester fee is readable, but its table has no explicit academic-year label.",
+      "next_source": "https://sru.edu.in/fee-scholarship/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://sru.edu.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://sru.edu.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "Official agriculture directory names and roles are available; effective and individual appointment dates remain unstated.",
+      "next_source": "https://sru.edu.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://sru.edu.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

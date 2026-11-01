@@ -1,0 +1,249 @@
+{
+  "version": "3.0",
+  "checked_on": "2026-10-30",
+  "status": "content_written_local_frontend_implemented",
+  "conclusion": "All 58 institutions have an overview and ten separate subject tab pages. The page structure is complete but factual coverage is uneven: 365 research gaps remain and 0 evidence-poor tabs defer search indexing while remaining readable. Ten Articles, six Blogs, two historical News stories and eight state collections are written. Local frontend and CMS payloads are prepared; no remote publication or CMS data import has occurred.",
+  "reference_audit": {
+    "source": "https://www.merishiksha.org/university/rnb-global-university",
+    "observed": [
+      "Eleven named institution navigation tabs.",
+      "Nine working in-page TOC anchors on the main overview.",
+      "Four tables on the main overview.",
+      "Four linked supporting articles; a sampled article links back to the university.",
+      "Compare/brochure/counselling interactions and related-institution discovery.",
+      "Entity/breadcrumb markup on the overview and Article markup on the sampled guide."
+    ],
+    "cautions": [
+      "Reference rankings, traffic and conversion performance were not available; structure alone does not establish SEO success.",
+      "The initial course-and-fee audit used a different path from the actual course-fee navigation target; do not infer that the supplied fee tab itself was broken.",
+      "The sampled news route contained three H1 elements; our target is one main H1 with meaningful H2/H3 sections.",
+      "Approximate fees, financial-scheme eligibility and aggregate ratings require their own evidence; do not borrow those claims."
+    ]
+  },
+  "gap_analysis": [
+    {
+      "feature": "Content quality and indexing gates",
+      "current": "0 Cut-off, Scholarship and News tabs use noindex/follow and are excluded from sitemaps because their separate search intent lacks source evidence.",
+      "next": "Resolve the dated official facts, regenerate and review indexing before enabling these tabs. See content-seo-audit.html and content-seo-audit.json."
+    },
+    {
+      "feature": "Institution content",
+      "current": "58 overview pages plus 580 separate tab pages for admissions, fees, scholarships, placements, eligibility/cutoffs, infrastructure, campus life, gallery, news and FAQs.",
+      "next": "Maintain dated facts without replacing unknown values with assumptions."
+    },
+    {
+      "feature": "TOC and section navigation",
+      "current": "Deterministic headings and anchors are rendered in the complete reader and local university pages.",
+      "next": "Keep headings and TOC in sync when editing imported content."
+    },
+    {
+      "feature": "Internal links and supporting reading",
+      "current": "All 16 queued articles/blogs and two sourced historical updates are written, linked and served on canonical local routes.",
+      "next": "Keep new related content relevant and validate targets during publication."
+    },
+    {
+      "feature": "CMS content and editorial relations",
+      "current": "University agriculture_content, blog editorial_content, byline/review fields and university/programme relations are implemented. CMS payloads are prepared.",
+      "next": "Execute the prepared import against the intended CMS environment when importing data."
+    },
+    {
+      "feature": "Canonical editorial routes",
+      "current": "Articles, Blogs and News have distinct canonical routes; a wrong route family redirects to the canonical address.",
+      "next": "Preserve the canonical route when migrating existing CMS posts."
+    },
+    {
+      "feature": "Facts and source scope",
+      "current": "Fee periods, source sessions, quotas and exact ICAR terms remain visible. Unsupported numbers remain unquoted.",
+      "next": "Recheck new intake facts and accreditation renewals from official evidence."
+    },
+    {
+      "feature": "Media",
+      "current": "All 58 profiles have stored authentic logos and campus/academic imagery bound to the local frontend. Background and native-resolution notes are preserved.",
+      "next": "Resolve local media paths to uploaded provider URLs during CMS import."
+    }
+  ],
+  "page_outline": [
+    {
+      "id": "overview",
+      "title": "Agriculture study at this institution",
+      "intent": "Identify the school/college and explain the relevant learning setting.",
+      "content": "overview",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "quick-facts",
+      "title": "Key facts at a glance",
+      "intent": "Location, ownership, affiliation and verified establishment details in a small table.",
+      "content": "identity",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "programmes-fees",
+      "title": "Agriculture programmes, fees and eligibility",
+      "intent": "Programme table with duration, qualifying subjects, fee period, quota, source year and offering-detail links.",
+      "content": "programmes",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "admission-process",
+      "title": "How to apply and which route applies",
+      "intent": "Programme-specific entry route, documents and dated notices; distinguish university admissions from state/ICAR counselling.",
+      "content": "admissions",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "icar-accreditation",
+      "title": "ICAR accreditation: course, unit and validity",
+      "intent": "Show the precise listed programme/unit and term; link to the official source and the accreditation explainer.",
+      "content": "recognition",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "curriculum-practical",
+      "title": "Curriculum and practical learning",
+      "intent": "Verified subjects, farm/lab work, RAWE or experiential learning where the institution actually documents them.",
+      "content": "campus.practical_learning",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "campus-facilities",
+      "title": "Campus, laboratories and student facilities",
+      "intent": "Authentic photos, useful captions and verified facilities, with location/campus scope.",
+      "content": "campus",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "scholarships",
+      "title": "Scholarships and cost support",
+      "intent": "Applicable scheme, source year, conditions and exclusions; never assume every general scholarship covers agriculture.",
+      "content": "scholarships",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "career-placements",
+      "title": "Career support and reported outcomes",
+      "intent": "Separate general career possibilities from programme-specific placement evidence; attach year and scope to figures.",
+      "content": "placements",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "compare-options",
+      "title": "Other agriculture institutions to compare",
+      "intent": "Relevant alternatives by programme, location and verified facts; no unsupported ranking.",
+      "content": "related",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "updates-guides",
+      "title": "Admission updates and useful guides",
+      "intent": "Relevant published news plus explanatory articles/blogs, automatically selected through CMS relations.",
+      "content": "new_editorial_relations",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "faqs",
+      "title": "Applicant questions answered",
+      "intent": "Institution-specific answers with useful contextual links, without repeating entire sections.",
+      "content": "faqs",
+      "status": "implemented_with_source_scoped_content"
+    },
+    {
+      "id": "sources-review",
+      "title": "Sources and content review date",
+      "intent": "Concise official references and a real editorial review date/byline; keep internal research gaps outside public marketing copy.",
+      "content": "sources",
+      "status": "implemented_with_source_scoped_content"
+    }
+  ],
+  "architecture": [
+    "University profile links to its actual course offerings, relevant programme guides and a small contextual reading set.",
+    "Each guide links back to relevant institution profiles and the correct programme page.",
+    "News links to the affected institution/programme; the institution shows the same published update.",
+    "State collection pages connect relevant profiles where there is enough distinct useful information."
+  ],
+  "editorial_types": [
+    {
+      "type": "Articles",
+      "role": "Evergreen explanatory guides backed by official sources.",
+      "example": "How to check an agriculture programme’s ICAR term."
+    },
+    {
+      "type": "Blog",
+      "role": "Decision support, comparison methods and practical applicant checklists.",
+      "example": "Questions to ask before choosing an agriculture campus."
+    },
+    {
+      "type": "News",
+      "role": "Dated, verified admission/fee/exam/accreditation changes.",
+      "example": "A specific official revised counselling notice; not a generic admissions-open headline."
+    },
+    {
+      "type": "Press release",
+      "role": "Only a genuine attributed institutional announcement.",
+      "example": "An actual sourced announcement, labelled by its publisher and date."
+    }
+  ],
+  "linking_rules": [
+    "Use ordinary crawlable <a href> links with concise descriptive anchor text.",
+    "Link where the destination answers the reader’s next question; avoid repeated keyword anchors and unrelated footer link dumps.",
+    "Do not activate planned URLs until the destination is published and returns its real content.",
+    "Give the main hub a useful summary; create separate admission/fee pages only when each can answer a distinct query with enough unique verified information.",
+    "Keep one canonical address for each post and institution intent; no duplicated article/blog copies.",
+    "Do not publish blanket exam routes, loan-scheme eligibility or all-course ICAR claims."
+  ],
+  "cms_changes_needed": [
+    "Implemented: structured university/editorial content fields with deterministic TOC and source references.",
+    "Implemented: university/programme editorial relations and published related-reading display.",
+    "Implemented: an honest Agrico Editorial byline and review date, separate from publication and official-notice dates.",
+    "Implemented: canonical editorial routes, local images and sitemap entries.",
+    "Prepared: slug-matched CMS content and media payloads. No CMS data import or remote deployment was executed."
+  ],
+  "google_guidance": [
+    "Original useful analysis and institution-specific facts matter more than merely rewriting another publisher.",
+    "There is no Google-prescribed word-count target; depth follows the applicant question and available evidence.",
+    "Use meaningful links and a coherent hierarchy; links are not a guaranteed ranking formula.",
+    "FAQ answers remain useful for students, but Google retired FAQ rich results from 7 May 2026. Do not promise FAQ snippets.",
+    "Use accurate entity, breadcrumb and editorial structured data matching visible content; never invent AggregateRating.",
+    "Public crawlability, canonical URLs, sitemaps, mobile usability and Search Console verification are launch checks. No one can guarantee immediate first position."
+  ],
+  "publication_sequence": [
+    "Completed: all 58 overview pages and 580 separate subject tab pages, with agriculture-specific tables and cross-page links.",
+    "Completed: 10 Articles, six Blogs, two sourced historical News stories and eight state collections.",
+    "Completed: local frontend routes, canonical redirects, TOC, contextual links, source references and media binding.",
+    "Prepared: CMS import payloads with content and media fields; preserve actual dates and resolve IDs during import.",
+    "After a public launch: verify the real domain, indexing and query performance in Search Console."
+  ],
+  "ranking_expectation": "No guaranteed first position or immediate indexing. This is a content and technical preparation plan, not proof of search performance.",
+  "sources": [
+    {
+      "id": "reference",
+      "title": "Reference university page and its linked admission/article routes",
+      "url": "https://www.merishiksha.org/university/rnb-global-university"
+    },
+    {
+      "id": "helpful",
+      "title": "Google: helpful, reliable content",
+      "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+    },
+    {
+      "id": "links",
+      "title": "Google: crawlable links and descriptive anchor text",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+    },
+    {
+      "id": "rankings",
+      "title": "Google: no guaranteed first position",
+      "url": "https://developers.google.com/search/docs/fundamentals/do-i-need-seo"
+    },
+    {
+      "id": "faq-2026",
+      "title": "Google: FAQ rich results retired from 7 May 2026",
+      "url": "https://developers.google.com/search/updates"
+    },
+    {
+      "id": "breadcrumbs",
+      "title": "Google: breadcrumb markup",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "id": 31,
+  "slug": "shri-guru-ram-rai-university",
+  "name": "Shri Guru Ram Rai University",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SGRRU",
+    "ownership": "Private university",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "established": 2017,
+    "address": "Shri Guru Ram Rai University, Patel Nagar, Dehradun, Uttarakhand 248001",
+    "parent_university": null,
+    "website": "https://www.sgrru.ac.in/",
+    "admissions_url": "https://admissions.sgrru.ac.in/",
+    "phone": "1800 120 102 102",
+    "email": "info@sgrru.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Shri Guru Ram Rai University",
+    "summary": "Shri Guru Ram Rai University’s School of Agricultural Sciences offers a four-year agriculture degree in Dehradun. The school describes research farms, protected cultivation and enterprise units, with teaching departments covering crops, soils, horticulture, plant health and seed science.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural study across production and plant-health disciplines",
+    "paragraphs": [
+      "SGRRU places agriculture in a dedicated constituent school. Its departmental list includes agronomy, horticulture, seed science, soil science, entomology, plant pathology, genetics and plant breeding, and food technology. For an undergraduate applicant, this shows the range of scientific subjects surrounding the agriculture degree rather than a single crop specialism.",
+      "The B.Sc. course page describes an eight-semester programme with laboratory and farm learning. Its eligibility text accepts specified science, agriculture or horticulture backgrounds. A 2025 prospectus names an entrance examination, whereas the current webpage only says admission follows university norms. Applicants should request the rule for their intended intake rather than assuming that an older route is unchanged."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "School of Agricultural Sciences"
+      },
+      {
+        "label": "Location",
+        "value": "Dehradun, Uttarakhand"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "The undergraduate degree is delivered by the School of Agricultural Sciences with farm and laboratory components.",
+      "eligibility": "Undated official course page: intermediate with 45%, using PCB/PCM or Agriculture/Horticulture subjects; SC/ST as university rules.",
+      "admission_route": "2025 prospectus says entrance examination; current webpage states university norms. Confirm intake procedure.",
+      "fees": {
+        "amount_inr": 475000,
+        "period": "total",
+        "academic_year": "2026-27",
+        "includes": "The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+        "note": "Published whole-course total for the Uttarakhand-domicile column: four years/eight semesters. The other-state column totals INR 5,52,000. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_fee2026_0"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "o31_fee2026_0"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "A postgraduate crop-management specialisation in the 2025 prospectus.",
+      "eligibility": "2025 prospectus: B.Sc. Agriculture with 45% aggregate; reconfirm for intended intake.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 198474,
+        "period": "total",
+        "academic_year": "2026-27",
+        "includes": "The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+        "note": "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_fee2026_1"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s4",
+        "o31_fee2026_1"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Horticulture",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": null,
+      "summary": "An allied postgraduate pathway in the published prospectus.",
+      "eligibility": "2025 prospectus: B.Sc. Agriculture/Horticulture with 45% aggregate; reconfirm for intended intake.",
+      "admission_route": null,
+      "fees": {
+        "amount_inr": 198474,
+        "period": "total",
+        "academic_year": "2026-27",
+        "includes": "The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+        "note": "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
+        "verification": "verified",
+        "source_ids": [
+          "o31_fee2026_2"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s4",
+        "o31_fee2026_2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "Use the university’s official admission enquiry route for a current course notice. The 2025 prospectus and undated B.Sc. page give useful academic information, but a confirmed 2026-27 entrance and counselling schedule was not verified.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "campus": {
+    "heading": "Protected cultivation and enterprise units",
+    "intro": "The course page names a polyhouse, weather station, apiary, mushroom unit, nursery, orchard, vermicompost unit and biogas plant. The school page gives conflicting farm-area figures, so no acreage is presented as settled.",
+    "facilities": [
+      {
+        "name": "Apiary and mushroom unit",
+        "description": "Both are identified in the B.Sc. programme’s facility account.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Polyhouse and weather station",
+        "description": "These are named as part of the school’s agricultural learning resources.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s2",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship and its current conditions have not yet been verified for this profile.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The school describes internships, farm visits, guest lectures and a placement cell. A dated agriculture cohort outcome report was not verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists School of Agricultural Sciences for 2024-02-08 to 2029-02-07. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "School of Agricultural Sciences",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-02-08",
+        "valid_until": "2029-02-07",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A39:G39"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The school’s public roster names its dean and subject heads across agronomy, horticulture, plant protection and supporting agricultural sciences. This is an undated website snapshot checked31October2026.",
+    "people": [
+      {
+        "name": "Prof. (Dr.) Priyanka Bankoti",
+        "role": "Professor and Dean",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Hitendra Kumar",
+        "role": "Associate Professor and Head, Entomology",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. J. P. Singh",
+        "role": "Associate Professor and Head, Agronomy",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Suneeta Singh",
+        "role": "Professor and Head, Horticulture",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. A. K. Saxena",
+        "role": "Professor and Head, Soil Science",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Girish Chandra",
+        "role": "Associate Professor and Head, Seed Science and Technology",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Himanki Dabral",
+        "role": "Associate Professor and Head, Genetics and Plant Breeding",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "name": "Dr. Khilendra Singh",
+        "role": "Associate Professor and Head, Plant Pathology",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "How long is SGRRU’s agriculture degree?",
+      "answer": "The official programme page gives four years and eight semesters.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What minimum marks are shown?",
+      "answer": "The undated course page gives 45% at intermediate level with listed science/agriculture/horticulture subjects, with SC/ST conditions under university rules.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "What practical enterprise units are named?",
+      "answer": "The programme account names an apiary, mushroom, vermicompost and biogas units, among other resources.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does the checked ICAR row include the M.Sc. courses?",
+      "answer": "The row explicitly names B.Sc. (Hons.) Agriculture; the verified postgraduate offerings are not added to that accreditation scope.",
+      "source_ids": [
+        "s1",
+        "s4"
+      ]
+    },
+    {
+      "question": "Who is named as the agriculture dean?",
+      "answer": "The official school page lists Prof. Priyanka Bankoti. The roster has no explicit appointment date.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Shri Guru Ram Rai University | Agriculture courses and admissions",
+    "description": "Explore SGRRU agriculture in Dehradun, B.Sc. and master’s options, practical units, faculty and dated admissions evidence, with exact ICAR programme coverage.",
+    "keywords": [
+      "Shri Guru Ram Rai University agriculture",
+      "Shri Guru Ram Rai University admissions",
+      "Shri Guru Ram Rai University ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://collegeforum.in/apis/assets/uploads/collegePhotoGallery/collegephotogallery-1765800475726.jpg",
+    "logo_url": "https://www.sgrru.ac.in/assets/logo.png",
+    "campus_alt": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+    "caption": "Shri Guru Ram Rai University academic complex and lawns at Dehradun",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/shri-guru-ram-rai-university/logo.png",
+    "local_campus_image": "media/shri-guru-ram-rai-university/campus-01.jpg",
+    "local_gallery": [
+      "media/shri-guru-ram-rai-university/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sgrru.ac.in/bsc-hons-agriculture-course",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "campus",
+        "admissions"
+      ],
+      "notes": "Fee table is undated; boilerplate education-teaching claims are excluded."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.sgrru.ac.in/sgrrsas",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "overview",
+        "campus",
+        "faculty",
+        "placements"
+      ],
+      "notes": "Page mentions both 30+ hectares and a 25-acre farm; acreage unresolved.",
+      "note": "Undated public school roster checked31October2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.sgrru.ac.in/Uploads/image/1288imguf_Prospectus-2025.pdf",
+      "title": "University prospectus 2025",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "admissions"
+      ],
+      "notes": "Historical programme and selection evidence only."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.sgrru.ac.in/sgrru-fee-structure",
+      "title": "Fee structure index",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.fee_research"
+      ],
+      "notes": "Links 2026-27 agriculture image; exact charge interpretation still required."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.sgrru.ac.in/uploads/statutorybodies/SGRR%20University%20Ordinance.pdf",
+      "title": "University ordinance",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address"
+      ],
+      "notes": "University created under Uttarakhand Act 2017."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.sgrru.ac.in/contact-us/",
+      "title": "University contact page",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.email",
+        "identity.address"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.sgrru.ac.in/",
+      "title": "Shri Guru Ram Rai University — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/shri-guru-ram-rai-university/logo.png. The official university homepage directly links this header logo. Alpha-aware rendering confirms the named SGRRU emblem and full wordmark."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://collegeforum.in/sgrrits-dehradun",
+      "title": "Shri Guru Ram Rai University — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/shri-guru-ram-rai-university/campus-01.jpg. The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset."
+    },
+    {
+      "id": "o31_fee2026_0",
+      "title": "SGRRU B.Sc. (Hons.) Agriculture fee schedule 2026-2027",
+      "url": "https://www.sgrru.ac.in/uploads/prospectus/88crsfile_BSC-AGRICULTURE.jpg",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Original official image visually read in full; header explicitly states Session 2026-2027. Domicile columns and whole-course totals are preserved."
+    },
+    {
+      "id": "o31_fee2026_1",
+      "title": "SGRRU M.Sc. Agriculture — Agronomy fee schedule 2026-2027",
+      "url": "https://www.sgrru.ac.in/uploads/prospectus/33crsfile_MSC-AGRICULTURE-AGRONOMY.jpg",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Original official image visually read in full; header explicitly states Session 2026-2027. Domicile columns and whole-course totals are preserved."
+    },
+    {
+      "id": "o31_fee2026_2",
+      "title": "SGRRU M.Sc. Agriculture — Horticulture fee schedule 2026-2027",
+      "url": "https://www.sgrru.ac.in/uploads/prospectus/34crsfile_MSC-AGRICULTURE-HOLTICULTURE.jpg",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Original official image visually read in full; header explicitly states Session 2026-2027. Domicile columns and whole-course totals are preserved."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "campus.area",
+      "reason": "School page gives both 30+ hectares and 25 acres without defining different sites.",
+      "next_source": "https://www.sgrru.ac.in/sgrrsas"
+    },
+    {
+      "field": "programmes.admission_route",
+      "reason": "2025 prospectus states entrance test; undated course page says university norms. Current selection rule needs confirmation.",
+      "next_source": "https://admissions.sgrru.ac.in/"
+    },
+    {
+      "field": "scholarships",
+      "reason": "No dated agriculture-applicable award rules were verified.",
+      "next_source": "https://www.sgrru.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.sgrru.ac.in/"
+    },
+    {
+      "field": "admissions",
+      "reason": "A current intake-specific selection notice, document checklist and deadlines were not verified. Listed steps are applicant preparation actions.",
+      "next_source": "https://admissions.sgrru.ac.in/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "No current programme-specific document checklist was verified.",
+      "next_source": "https://admissions.sgrru.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "No unambiguous intake-specific application or counselling dates were verified for publication.",
+      "next_source": "https://admissions.sgrru.ac.in/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.sgrru.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added 8 named academic staff entries with scope/date labels.",
+      "Expanded agriculture academic leadership with eight source-backed entries.",
+      "B.Sc. (Hons.) Agriculture: added source-specific fee amount with period and session status.",
+      "M.Sc. Agriculture — Agronomy: added source-specific fee amount with period and session status.",
+      "M.Sc. Agriculture — Horticulture: added source-specific fee amount with period and session status."
+    ]
+  }
+}

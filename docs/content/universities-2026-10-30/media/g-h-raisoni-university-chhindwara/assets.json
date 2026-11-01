@@ -1,0 +1,88 @@
+{
+  "id": 16,
+  "slug": "g-h-raisoni-university-chhindwara",
+  "name": "G H Raisoni University, Chhindwara",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/g-h-raisoni-university-chhindwara/logo-colour.webp",
+      "source_page": "https://rucet.in/ghru-saikheda.php",
+      "download_url": "https://rgicdn.s3.ap-south-1.amazonaws.com/rucet/images/logos/ghrus.webp",
+      "source_kind": "official",
+      "description": "Official full-colour G H Raisoni University Saikheda wordmark with purple lettering and gold emblem",
+      "alt": "G H Raisoni University Saikheda full-colour logo",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "Raisoni Education RUCET admissions portal explicitly identifies G H Raisoni University Saikheda, its 13 June 2016 founding and Madhya Pradesh campus, and directly references this ghrus.webp logo. The logo visibly says Saikheda and matches the lion emblem and wordmark of the university official-site white variant. The portal supplies Raisoni institutional email contacts and Raisoni policy links.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "Raisoni Education — RUCET",
+      "review_status": "verified_source",
+      "notes": "Original official full-colour WebP bytes downloaded unchanged. Visually inspected on white; purple wording and gold emblem remain visible. No recolouring, cropping, background insertion or upscaling. Replaces the white wordmark for CMS import.",
+      "display_background": "white",
+      "variant": "full_colour",
+      "width": 1716,
+      "height": 539,
+      "sha256": "477632ab3653ffa68ca7421ca5247e77e59336462c2e277e5bef27f2882fa973"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/g-h-raisoni-university-chhindwara/campus-01.webp",
+      "source_page": "https://ghru.edu.in/",
+      "download_url": "https://ghrus.s3.ap-south-1.amazonaws.com/ghru/images-new/cdn/campus-ghru.webp",
+      "source_kind": "official",
+      "description": "G H Raisoni University Saikheda academic building",
+      "alt": "G H Raisoni University Saikheda academic building",
+      "campus": "Saikheda, Madhya Pradesh",
+      "agriculture_specific": false,
+      "identity_evidence": "Official ghru.edu.in and its linked CDN identify the Saikheda university in Madhya Pradesh; downloaded wordmark explicitly says Saikheda.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "G H Raisoni University, Chhindwara",
+      "review_status": "verified_source",
+      "notes": "Original downloaded bytes preserved. Official homepage open-graph campus photograph; no claim that this building is an agriculture department.",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "7b4e05eece036f46a5a46b92f5f1ac3befbb60c5ba7a113678b7c0c2812b93be"
+    }
+  ],
+  "gaps": [
+    {
+      "role": "campus_secondary",
+      "reason": "The accessible official homepage and public main JavaScript exposed one clearly identified Saikheda campus photograph; a second distinct verified campus photograph was not obtained.",
+      "attempted_sources": [
+        "https://ghru.edu.in/"
+      ]
+    }
+  ],
+  "research_notes": [
+    "Access/discovery failures during collection: [{\"role\": \"logo\", \"reason\": \"No unambiguous candidate in homepage HTML\", \"attempted_sources\": [\"https://ghru.edu.in/\"]}]",
+    "Only the files in assets were selected after image decode and visual/source review. Rejected stock graphics, unrelated banners, ambiguous photographs and failed HTML payloads are not selected.",
+    "Logo display correction: full-colour official RUCET wordmark selected for white CMS surfaces; original white transparent logo retained separately under originals with display_background=dark and import_selected=false. No added card logo; selected asset count is unchanged."
+  ],
+  "originals": [
+    {
+      "role": "logo_original",
+      "cms_field": null,
+      "file": "media/g-h-raisoni-university-chhindwara/logo-white-original.png",
+      "source_page": "https://ghru.edu.in/",
+      "download_url": "https://ghrus.s3.ap-south-1.amazonaws.com/ghru/images-new/cdn/ghrus-logo.webp",
+      "source_kind": "official",
+      "description": "Original official white transparent G H Raisoni University Saikheda wordmark for dark surfaces",
+      "alt": "G H Raisoni University Saikheda white wordmark",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official homepage JavaScript resolves its ghrus-logo asset through the public S3 images-new CDN; the visually inspected wordmark explicitly says Saikheda, distinguishing it from other Raisoni campuses.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "G H Raisoni University, Chhindwara",
+      "review_status": "verified_source",
+      "notes": "Original bytes preserved. URL ends in WebP but the supplied decoded format is PNG; stored with its correct PNG extension. Archived as an original variant after visual QA showed that its white lettering disappears on white CMS logo surfaces; only use against a dark display background. Source pixels are unchanged.",
+      "width": 500,
+      "height": 157,
+      "sha256": "19c57bd2beaa37457150a1cb46cf3cd898681b38d51319b2aaa0252f79af786a",
+      "display_background": "dark",
+      "import_selected": false
+    }
+  ]
+}

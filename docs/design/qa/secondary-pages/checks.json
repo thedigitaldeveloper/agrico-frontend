@@ -1,0 +1,1417 @@
+{
+  "date": "2026-10-11T20:07:32.337Z",
+  "origin": "http://localhost:3001",
+  "cms": "http://127.0.0.1:1338",
+  "buildId": "Dglw7zyGMt27mqvyX0a1u",
+  "sourceHashes": {
+    "src/app/news/page.tsx": "797bcc9e1f2ace898dff6e661824868df1090cf75235165db7964c1c20c48cf2",
+    "src/app/blogs/page.tsx": "16b37eb8dbe0e07bb20c3f0f3d1aca9ac38ad236acbcbbd1a67878b94859198a",
+    "src/app/exams/page.tsx": "28b6ac06ead937f89f7bb15f859888bef921653c07490f6f0e90c70a0509f8b7",
+    "src/app/scholarships/page.tsx": "155ed4fb9a1e6a8228ccdb3e77b2689f4ef88ae9969152902bdc334f4f018ab4",
+    "src/app/search/page.tsx": "42330ed8ee10253b46e461cca9d71f362351dada1bb898850ae317283fae1378",
+    "src/app/login/page.tsx": "06d8b1dd2a318a9bb2769f65af2082b5687fb232c580d9ea987ce53405a69c77",
+    "src/app/register/page.tsx": "d8d78cd1884a6d96fa3d44df81bdd45a5e4e89df2d8dc6e40bb08fd06561348b",
+    "src/components/ui/listing.css": "1b7860d230233ddf4c5581482fda30cb3674cb29d8bb67d18a1aa57c906912ab",
+    "src/components/blog/post-listing.tsx": "4959f077c8e4fb05901061a0969f759d63e478ec51594b5d595291f3e9af5e92",
+    "src/components/blog/post-card.tsx": "fb103ba7c3a8f7066a135fd980c3edd9e404b8a5340bb643c0eb52d432487037",
+    "src/components/rs/auth-shell.tsx": "72a71711de69a74a073706a2d49b3bd88b74b83c3cfb056c58b49f9338623b39",
+    "src/components/auth/auth-forms.tsx": "6e8116e8fd24f2653b381f3cd6afa21f0117ea90c67df45d11c2b39f8d9ad2dc"
+  },
+  "expected": {
+    "news": {
+      "total": 3,
+      "firstPage": [
+        {
+          "name": "Get guidance for your next application",
+          "slug": "student-accounts-available-in-the-local-preview"
+        },
+        {
+          "name": "Compare programmes before you decide",
+          "slug": "programme-comparison-added-to-the-preview"
+        },
+        {
+          "name": "Explore university programmes with RS Education",
+          "slug": "rs-education-local-platform-preview-is-ready"
+        }
+      ]
+    },
+    "blogs": {
+      "total": 8,
+      "firstPage": [
+        {
+          "name": "What to keep ready before you apply",
+          "slug": "what-to-keep-ready-before-you-apply"
+        },
+        {
+          "name": "Questions to ask before you choose a study mode",
+          "slug": "questions-to-ask-before-you-choose-a-study-mode"
+        },
+        {
+          "name": "A practical checklist for your programme shortlist",
+          "slug": "a-practical-checklist-for-your-programme-shortlist"
+        },
+        {
+          "name": "How to compare online universities in India",
+          "slug": "top-ugc-deb-approved-online-universities-india-2026"
+        },
+        {
+          "name": "Online MBA and regular MBA: comparing your options",
+          "slug": "online-mba-vs-regular-mba-validity-salary-scope"
+        },
+        {
+          "name": "Online degree recognition: questions to check before applying",
+          "slug": "is-online-degree-valid-for-govt-jobs-wes-foreign-visas"
+        },
+        {
+          "name": "Choosing an online MCA or BCA specialisation",
+          "slug": "best-online-mca-bca-specializations-high-paying-tech-jobs"
+        },
+        {
+          "name": "Online and distance degrees: comparing study formats",
+          "slug": "online-degree-vs-distance-education-key-differences"
+        }
+      ]
+    },
+    "exams": {
+      "total": 4,
+      "firstPage": [
+        {
+          "name": "JEE Main 2026",
+          "slug": "jee-main-2026"
+        },
+        {
+          "name": "CAT 2026",
+          "slug": "cat-2026"
+        },
+        {
+          "name": "CUET UG 2026",
+          "slug": "cuet-ug-2026"
+        },
+        {
+          "name": "GATE 2026",
+          "slug": "gate-2026"
+        }
+      ]
+    },
+    "scholarships": {
+      "total": 4,
+      "firstPage": [
+        {
+          "name": "Central Sector Scholarship for College Students",
+          "slug": "central-sector-scholarship-for-college-students"
+        },
+        {
+          "name": "National Merit Scholarship",
+          "slug": "national-merit-scholarship"
+        },
+        {
+          "name": "Post Matric Scholarship for SC Students",
+          "slug": "post-matric-scholarship-for-sc-students"
+        },
+        {
+          "name": "Prime Minister Special Scholarship Scheme",
+          "slug": "prime-minister-special-scholarship-scheme"
+        }
+      ]
+    },
+    "search": {
+      "query": "MBA",
+      "total": 20,
+      "results": [
+        {
+          "title": "DY Patil University Online Navi Mumbai",
+          "href": "/university/dpu-navi-mumbai-online",
+          "group": "universities"
+        },
+        {
+          "title": "NMIMS Online (CDOE)",
+          "href": "/university/nmims-online",
+          "group": "universities"
+        },
+        {
+          "title": "Executive MBA in Digital Business",
+          "href": "/program/online-executive-mba-digital-business",
+          "group": "programs"
+        },
+        {
+          "title": "Executive MBA (Dual Specialization)",
+          "href": "/program/online-executive-mba-dual",
+          "group": "programs"
+        },
+        {
+          "title": "Big Data",
+          "href": "/program/online-mba-big-data",
+          "group": "programs"
+        },
+        {
+          "title": "HR Analytics",
+          "href": "/program/online-mba-hr-analytics",
+          "group": "programs"
+        },
+        {
+          "title": "Data Science",
+          "href": "/program/online-mba-data-science",
+          "group": "programs"
+        },
+        {
+          "title": "IT Management",
+          "href": "/program/online-mba-information-technology-management",
+          "group": "programs"
+        },
+        {
+          "title": "Public Policy",
+          "href": "/program/online-mba-public-policy",
+          "group": "programs"
+        },
+        {
+          "title": "Generative AI",
+          "href": "/program/online-mba-generative-ai",
+          "group": "programs"
+        },
+        {
+          "title": "Cyber Security",
+          "href": "/program/online-mba-cyber-security",
+          "group": "programs"
+        },
+        {
+          "title": "Data Analytics",
+          "href": "/program/online-mba-data-analytics",
+          "group": "programs"
+        },
+        {
+          "title": "Online MBA",
+          "href": "/programs?course=mba",
+          "group": "courses"
+        },
+        {
+          "title": "Executive MBA",
+          "href": "/programs?course=online-executive-mba",
+          "group": "courses"
+        },
+        {
+          "title": "Online MBA and regular MBA: comparing your options",
+          "href": "/blogs/online-mba-vs-regular-mba-validity-salary-scope",
+          "group": "blogs"
+        },
+        {
+          "title": "Choosing an online MCA or BCA specialisation",
+          "href": "/blogs/best-online-mca-bca-specializations-high-paying-tech-jobs",
+          "group": "blogs"
+        },
+        {
+          "title": "Online and distance degrees: comparing study formats",
+          "href": "/blogs/online-degree-vs-distance-education-key-differences",
+          "group": "blogs"
+        },
+        {
+          "title": "Online degree recognition: questions to check before applying",
+          "href": "/blogs/is-online-degree-valid-for-govt-jobs-wes-foreign-visas",
+          "group": "blogs"
+        },
+        {
+          "title": "Compare programmes before you decide",
+          "href": "/blogs/programme-comparison-added-to-the-preview",
+          "group": "blogs"
+        },
+        {
+          "title": "Explore university programmes with RS Education",
+          "href": "/blogs/rs-education-local-platform-preview-is-ready",
+          "group": "blogs"
+        }
+      ]
+    }
+  },
+  "checks": [
+    "Public GET routes only; no forms submitted; offscreen lazy images not required to load."
+  ],
+  "routes": [
+    {
+      "key": "news",
+      "path": "/news",
+      "width": 1440,
+      "status": 200,
+      "title": "Education News | RS Education",
+      "observedCount": 3,
+      "firstPageRecords": 3,
+      "controls": [
+        {
+          "label": "q",
+          "width": 1180.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "header": {
+          "left": 80,
+          "right": 1360,
+          "top": 0,
+          "bottom": 48,
+          "width": 1280
+        },
+        "footer": {
+          "left": 80,
+          "right": 1360,
+          "top": 1018.75,
+          "bottom": 1212.546875,
+          "width": 1280
+        },
+        "content": {
+          "left": 80,
+          "right": 1360,
+          "top": 49,
+          "bottom": 999.75,
+          "width": 1280
+        },
+        "heading": {
+          "left": 80,
+          "right": 980,
+          "top": 121,
+          "bottom": 173.890625,
+          "width": 900
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=640&q=75",
+          "alt": "Illustration of students studying together"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=640&q=75",
+          "alt": "Illustration of students studying together"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 6
+    },
+    {
+      "key": "blogs",
+      "path": "/blogs",
+      "width": 1440,
+      "status": 200,
+      "title": "From the Blog | RS Education",
+      "observedCount": 8,
+      "firstPageRecords": 8,
+      "controls": [
+        {
+          "label": "q",
+          "width": 1180.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "header": {
+          "left": 80,
+          "right": 1360,
+          "top": 0,
+          "bottom": 48,
+          "width": 1280
+        },
+        "footer": {
+          "left": 80,
+          "right": 1360,
+          "top": 2227.90625,
+          "bottom": 2421.703125,
+          "width": 1280
+        },
+        "content": {
+          "left": 80,
+          "right": 1360,
+          "top": 49,
+          "bottom": 2208.90625,
+          "width": 1280
+        },
+        "heading": {
+          "left": 80,
+          "right": 980,
+          "top": 121,
+          "bottom": 173.890625,
+          "width": 900
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=640&q=75",
+          "alt": "Illustration of students studying together"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=640&q=75",
+          "alt": "Illustration of students studying together"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 11
+    },
+    {
+      "key": "exams",
+      "path": "/exams",
+      "width": 1440,
+      "status": 200,
+      "title": "Entrance Exams — Dates, Eligibility & Application | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 944.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "header": {
+          "left": 80,
+          "right": 1360,
+          "top": 0,
+          "bottom": 48,
+          "width": 1280
+        },
+        "footer": {
+          "left": 80,
+          "right": 1360,
+          "top": 1070.671875,
+          "bottom": 1264.46875,
+          "width": 1280
+        },
+        "content": {
+          "left": 80,
+          "right": 1360,
+          "top": 49,
+          "bottom": 1051.671875,
+          "width": 1280
+        },
+        "heading": {
+          "left": 80,
+          "right": 980,
+          "top": 121,
+          "bottom": 173.890625,
+          "width": 900
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 19
+    },
+    {
+      "key": "scholarships",
+      "path": "/scholarships",
+      "width": 1440,
+      "status": 200,
+      "title": "Scholarships in India — Eligibility, Amount & How to Apply | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 1180.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "header": {
+          "left": 80,
+          "right": 1360,
+          "top": 0,
+          "bottom": 48,
+          "width": 1280
+        },
+        "footer": {
+          "left": 80,
+          "right": 1360,
+          "top": 978.671875,
+          "bottom": 1172.46875,
+          "width": 1280
+        },
+        "content": {
+          "left": 80,
+          "right": 1360,
+          "top": 49,
+          "bottom": 959.671875,
+          "width": 1280
+        },
+        "heading": {
+          "left": 80,
+          "right": 980,
+          "top": 121,
+          "bottom": 173.890625,
+          "width": 900
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 5
+    },
+    {
+      "key": "search",
+      "path": "/search?q=MBA",
+      "width": 1440,
+      "status": 200,
+      "title": "Search | RS Education",
+      "observedCount": 20,
+      "controls": [
+        {
+          "label": "Search",
+          "width": 668.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "bodyWidth": 1440,
+        "header": {
+          "left": 80,
+          "right": 1360,
+          "top": 0,
+          "bottom": 48,
+          "width": 1280
+        },
+        "footer": {
+          "left": 80,
+          "right": 1360,
+          "top": 1928.28125,
+          "bottom": 2122.078125,
+          "width": 1280
+        },
+        "content": {
+          "left": 80,
+          "right": 1360,
+          "top": 49,
+          "bottom": 1909.28125,
+          "width": 1280
+        },
+        "heading": {
+          "left": 336,
+          "right": 1104,
+          "top": 77,
+          "bottom": 129.890625,
+          "width": 768
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 20
+    },
+    {
+      "key": "news",
+      "path": "/news",
+      "width": 390,
+      "status": 200,
+      "title": "Education News | RS Education",
+      "observedCount": 3,
+      "firstPageRecords": 3,
+      "controls": [
+        {
+          "label": "q",
+          "width": 354,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 354,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 2019.1875,
+          "bottom": 2732.0625,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 63,
+          "bottom": 1994.1875,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=640&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 6
+    },
+    {
+      "key": "blogs",
+      "path": "/blogs",
+      "width": 390,
+      "status": 200,
+      "title": "From the Blog | RS Education",
+      "observedCount": 8,
+      "firstPageRecords": 8,
+      "controls": [
+        {
+          "label": "q",
+          "width": 354,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 354,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 4691.6875,
+          "bottom": 5404.5625,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 63,
+          "bottom": 4666.6875,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=640&q=75",
+          "alt": "Illustration of students studying together"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 11
+    },
+    {
+      "key": "exams",
+      "path": "/exams",
+      "width": 390,
+      "status": 200,
+      "title": "Entrance Exams — Dates, Eligibility & Application | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 354,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 354,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 1780.1875,
+          "bottom": 2493.0625,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 63,
+          "bottom": 1755.1875,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 5
+    },
+    {
+      "key": "scholarships",
+      "path": "/scholarships",
+      "width": 390,
+      "status": 200,
+      "title": "Scholarships in India — Eligibility, Amount & How to Apply | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 354,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 354,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 1509.390625,
+          "bottom": 2222.265625,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 63,
+          "bottom": 1484.390625,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 5
+    },
+    {
+      "key": "search",
+      "path": "/search?q=MBA",
+      "width": 390,
+      "status": 200,
+      "title": "Search | RS Education",
+      "observedCount": 20,
+      "controls": [
+        {
+          "label": "Search",
+          "width": 254.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyWidth": 390,
+        "header": {
+          "left": 18,
+          "right": 372,
+          "top": 0,
+          "bottom": 62,
+          "width": 354
+        },
+        "footer": {
+          "left": 18,
+          "right": 372,
+          "top": 2287.390625,
+          "bottom": 3000.265625,
+          "width": 354
+        },
+        "content": {
+          "left": 18,
+          "right": 372,
+          "top": 63,
+          "bottom": 2262.390625,
+          "width": 354
+        },
+        "heading": {
+          "left": 18,
+          "right": 372,
+          "top": 83,
+          "bottom": 119.796875,
+          "width": 354
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 20
+    },
+    {
+      "key": "news",
+      "path": "/news",
+      "width": 360,
+      "status": 200,
+      "title": "Education News | RS Education",
+      "observedCount": 3,
+      "firstPageRecords": 3,
+      "controls": [
+        {
+          "label": "q",
+          "width": 324,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 324,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyWidth": 360,
+        "header": {
+          "left": 18,
+          "right": 342,
+          "top": 0,
+          "bottom": 62,
+          "width": 324
+        },
+        "footer": {
+          "left": 18,
+          "right": 342,
+          "top": 1990.4375,
+          "bottom": 2703.3125,
+          "width": 324
+        },
+        "content": {
+          "left": 18,
+          "right": 342,
+          "top": 63,
+          "bottom": 1965.4375,
+          "width": 324
+        },
+        "heading": {
+          "left": 18,
+          "right": 342,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 324
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fmedium_rs_campus_life_preview_07f1e1c390.png%3Fv%3D2026-10-11T12%253A15%253A34.609Z&w=384&q=75",
+          "alt": "Illustrative campus architecture, not a named university"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 6
+    },
+    {
+      "key": "blogs",
+      "path": "/blogs",
+      "width": 360,
+      "status": 200,
+      "title": "From the Blog | RS Education",
+      "observedCount": 8,
+      "firstPageRecords": 8,
+      "controls": [
+        {
+          "label": "q",
+          "width": 324,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 324,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyWidth": 360,
+        "header": {
+          "left": 18,
+          "right": 342,
+          "top": 0,
+          "bottom": 62,
+          "width": 324
+        },
+        "footer": {
+          "left": 18,
+          "right": 342,
+          "top": 4541.6875,
+          "bottom": 5254.5625,
+          "width": 324
+        },
+        "content": {
+          "left": 18,
+          "right": 342,
+          "top": 63,
+          "bottom": 4516.6875,
+          "width": 324
+        },
+        "heading": {
+          "left": 18,
+          "right": 342,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 324
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=http%3A%2F%2Flocalhost%3A1338%2Fuploads%2Fsmall_rs_student_life_preview_d745255933.png%3Fv%3D2026-10-11T12%253A14%253A11.751Z&w=384&q=75",
+          "alt": "Illustration of students studying together"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 11
+    },
+    {
+      "key": "exams",
+      "path": "/exams",
+      "width": 360,
+      "status": 200,
+      "title": "Entrance Exams — Dates, Eligibility & Application | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 324,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 324,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyWidth": 360,
+        "header": {
+          "left": 18,
+          "right": 342,
+          "top": 0,
+          "bottom": 62,
+          "width": 324
+        },
+        "footer": {
+          "left": 18,
+          "right": 342,
+          "top": 1780.1875,
+          "bottom": 2493.0625,
+          "width": 324
+        },
+        "content": {
+          "left": 18,
+          "right": 342,
+          "top": 63,
+          "bottom": 1755.1875,
+          "width": 324
+        },
+        "heading": {
+          "left": 18,
+          "right": 342,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 324
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 5
+    },
+    {
+      "key": "scholarships",
+      "path": "/scholarships",
+      "width": 360,
+      "status": 200,
+      "title": "Scholarships in India — Eligibility, Amount & How to Apply | RS Education",
+      "observedCount": 4,
+      "firstPageRecords": 4,
+      "controls": [
+        {
+          "label": "q",
+          "width": 324,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 324,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyWidth": 360,
+        "header": {
+          "left": 18,
+          "right": 342,
+          "top": 0,
+          "bottom": 62,
+          "width": 324
+        },
+        "footer": {
+          "left": 18,
+          "right": 342,
+          "top": 1509.390625,
+          "bottom": 2222.265625,
+          "width": 324
+        },
+        "content": {
+          "left": 18,
+          "right": 342,
+          "top": 63,
+          "bottom": 1484.390625,
+          "width": 324
+        },
+        "heading": {
+          "left": 18,
+          "right": 342,
+          "top": 127,
+          "bottom": 163.796875,
+          "width": 324
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 5
+    },
+    {
+      "key": "search",
+      "path": "/search?q=MBA",
+      "width": 360,
+      "status": 200,
+      "title": "Search | RS Education",
+      "observedCount": 20,
+      "controls": [
+        {
+          "label": "Search",
+          "width": 224.421875,
+          "height": 44
+        },
+        {
+          "label": "Search",
+          "width": 91.578125,
+          "height": 44
+        }
+      ],
+      "geometry": {
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyWidth": 360,
+        "header": {
+          "left": 18,
+          "right": 342,
+          "top": 0,
+          "bottom": 62,
+          "width": 324
+        },
+        "footer": {
+          "left": 18,
+          "right": 342,
+          "top": 2371.390625,
+          "bottom": 3084.265625,
+          "width": 324
+        },
+        "content": {
+          "left": 18,
+          "right": 342,
+          "top": 63,
+          "bottom": 2346.390625,
+          "width": 324
+        },
+        "heading": {
+          "left": 18,
+          "right": 342,
+          "top": 83,
+          "bottom": 119.796875,
+          "width": 324
+        },
+        "outliers": []
+      },
+      "images": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "footerImages": [
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        },
+        {
+          "src": "http://localhost:3001/_next/image?url=%2Fbranding%2Frs-education-logo.svg&w=256&q=75",
+          "alt": "RS Education"
+        }
+      ],
+      "visibleActionCount": 20
+    }
+  ],
+  "destinationChecks": [
+    {
+      "href": "/news/student-accounts-available-in-the-local-preview",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/news/student-accounts-available-in-the-local-preview"
+    },
+    {
+      "href": "/blogs/what-to-keep-ready-before-you-apply",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/blogs/what-to-keep-ready-before-you-apply"
+    },
+    {
+      "href": "/exams/jee-main-2026",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/exams/jee-main-2026"
+    },
+    {
+      "href": "/scholarship/central-sector-scholarship-for-college-students",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/scholarship/central-sector-scholarship-for-college-students"
+    },
+    {
+      "href": "/university/dpu-navi-mumbai-online",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/university/dpu-navi-mumbai-online"
+    },
+    {
+      "href": "/program/online-executive-mba-digital-business",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/online-executive-mba-digital-business"
+    },
+    {
+      "href": "/programs?course=mba",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/programs?course=mba"
+    },
+    {
+      "href": "/blogs/online-mba-vs-regular-mba-validity-salary-scope",
+      "status": 200,
+      "finalUrl": "http://localhost:3001/blogs/online-mba-vs-regular-mba-validity-salary-scope"
+    }
+  ],
+  "browserErrors": [],
+  "failedResponses": [],
+  "blockedMutations": [],
+  "defects": [
+    {
+      "route": "/login",
+      "width": 390,
+      "error": "AssertionError [ERR_ASSERTION]: 44px control target: Show password",
+      "stack": "AssertionError [ERR_ASSERTION]: 44px control target: Show password\n    at targetSizes (D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:77:35)\n    at async inspectAuth (D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:137:22)\n    at async D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:160:37"
+    },
+    {
+      "route": "/register",
+      "width": 390,
+      "error": "AssertionError [ERR_ASSERTION]: 44px control target: Show password",
+      "stack": "AssertionError [ERR_ASSERTION]: 44px control target: Show password\n    at targetSizes (D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:77:35)\n    at async inspectAuth (D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:137:22)\n    at async D:\\rs-education-frontend\\scripts\\verify-rs-secondary-pages.cjs:160:37"
+    }
+  ]
+}

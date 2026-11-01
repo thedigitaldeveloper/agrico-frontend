@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-31",
+  "disabled_hosts": [
+    {
+      "hostname": "agriculture.jrnrvu.edu.in",
+      "reason": "The agriculture subdomain exposes unrelated gambling outbound links and mixed-institution template content. Historical provenance is retained, but public links and uncorroborated claims from this subdomain are disabled.",
+      "checked_on": "2026-10-31"
+    },
+    {
+      "hostname": "pushkaram.in",
+      "reason": "The formerly referenced college domain now serves unrelated betting/login content. Historical provenance is retained, but student-facing links are disabled.",
+      "checked_on": "2026-10-31"
+    }
+  ]
+}

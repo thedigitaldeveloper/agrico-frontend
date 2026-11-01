@@ -1,0 +1,538 @@
+{
+  "id": 37,
+  "slug": "amrita-vishwa-vidyapeetham",
+  "name": "Amrita Vishwa Vidyapeetham",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "Amrita",
+    "ownership": "Privately managed deemed-to-be university",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "established": 2003,
+    "address": "Amrita School of Agricultural Sciences, J. P. Nagar, Arasampalayam, Myleripalayam via, Coimbatore 642109, Tamil Nadu, India",
+    "parent_university": null,
+    "website": "https://www.amrita.edu/",
+    "admissions_url": "https://www.amrita.edu/admissions/aeel/",
+    "phone": "9363401677",
+    "email": "agriculture@amrita.edu"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Amrita Vishwa Vidyapeetham",
+    "summary": "Amrita’s School of Agricultural Sciences is based at Arasampalayam near Coimbatore. Its undergraduate agriculture programme uses the Amrita Entrance Examination – Life Sciences admission route, while the school also lists agronomy postgraduate and research study within a farm-oriented educational setting.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural science at Arasampalayam",
+    "paragraphs": [
+      "Amrita offers the four-year agriculture degree through its School of Agricultural Sciences in Coimbatore. The school emphasises field-oriented learning and connects agricultural training with technology. Its course list also names postgraduate agronomy and doctoral agronomy, creating a subject pathway beyond the undergraduate degree without implying that every course shares the same accreditation scope.",
+      "The programme page provides eligibility, entrance and fee information, but several sections carry different years. The clearly labelled annual tuition table is for 2025-26, while hostel and mess information is labelled 2026-27. Applicants should use the dedicated AEEL 2026 page for the entrance route and request a single consolidated fee schedule for their own cohort."
+    ],
+    "highlights": [
+      {
+        "label": "Accredited unit",
+        "value": "Amrita School of Agricultural Sciences"
+      },
+      {
+        "label": "Location",
+        "value": "Coimbatore, Tamil Nadu"
+      }
+    ],
+    "source_ids": [
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "8 semesters",
+      "mode": null,
+      "summary": "The school’s undergraduate agriculture degree combines scientific study with field-focused learning.",
+      "eligibility": "AEEL 2026 handbook: pass 10+2 or equivalent with at least 60% aggregate in Physics, Chemistry and Biology, and at least 55% in each of those three subjects.",
+      "admission_route": "Valid rank in Amrita Entrance Examination – Life Sciences (AEEL).",
+      "fees": {
+        "amount_inr": 225000,
+        "period": "year",
+        "academic_year": "2025-26",
+        "includes": "Published tuition/course fee; additional charges must be checked separately.",
+        "note": "Historical scholarship/merit annual tuition. Non-scholarship tuition INR 3,00,000; not confirmed as 2026-27 tuition.",
+        "verification": "verified",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s2",
+        "s3",
+        "r2_aeel_handbook2026"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture — Agronomy",
+      "level": "Postgraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "Postgraduate agronomy is listed by the School of Agricultural Sciences.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated fee schedule for the intended admission year has not been verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "name": "Ph.D. Agronomy",
+      "level": "Doctoral",
+      "duration": null,
+      "mode": null,
+      "summary": "Agronomy research is listed as a separate doctoral option.",
+      "eligibility": "Official programme page: M.Sc. (Ag.) in Agronomy and minimum 7.00/10 CGPA; interview-based selection.",
+      "admission_route": "Programme selection by interview; published 2026 phase 2 deadline was 30 September 2026 and is past.",
+      "fees": {
+        "amount_inr": 50000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published annual tuition only; food, accommodation and caution deposit separate.",
+        "note": "Undated tuition figure on the PhD Agronomy page. Its 2026 admissions banner does not separately date the fee; obtain the intended intake offer.",
+        "verification": "verified",
+        "source_ids": [
+          "r2_phd_agronomy"
+        ]
+      },
+      "icar_scope_note": "Only the programme labels reproduced in the ICAR accreditation section are supported by the audited register; additional offerings are not automatically included.",
+      "source_ids": [
+        "s3",
+        "r2_phd_agronomy"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an agriculture application",
+    "intro": "The dedicated AEEL 2026 page includes undergraduate agriculture among its entrance programmes. The programme page states that admission depends on a valid AEEL rank. Reconfirm the final counselling notice and subject eligibility for the intended intake. The dated AEEL 2026 handbook specifies the agriculture PCB requirement and online application through applyug.amrita.edu. Its tentative 9–10 May 2026 examination dates are historical, not a current application opening.",
+    "eligibility_points": [
+      "The programme page’s main criteria allow PCMB/PCB/PCM with 60% aggregate and a 55% subject threshold.",
+      "Its FAQ narrows the wording to PCB; applicants with PCM should obtain clarification.",
+      "AEEL 2026 agriculture rule: 60% aggregate PCB and 55% in each subject, as stated in the handbook."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the course",
+        "text": "Use the official programme contact to confirm that the listed degree is taking applications for your intended intake."
+      },
+      {
+        "title": "Request the intake notice",
+        "text": "Ask for the applicable selection rules, fee breakdown and document checklist before submitting an application."
+      }
+    ],
+    "documents": [
+      "Original academic certificates are required at counselling under the programme FAQ; photocopies alone are not sufficient.",
+      "The programme FAQ asks the candidate and a parent/guardian to attend the counselling desk."
+    ],
+    "dates": [
+      {
+        "label": "AEEL 2026 tentative first examination day in handbook (past)",
+        "date": "2026-05-09",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "r2_aeel_handbook2026"
+        ]
+      },
+      {
+        "label": "AEEL 2026 tentative second examination day in handbook (past)",
+        "date": "2026-05-10",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "r2_aeel_handbook2026"
+        ]
+      },
+      {
+        "label": "PhD Agronomy phase 2 application deadline (past; PhD scope)",
+        "date": "2026-09-30",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "r2_phd_agronomy"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s2",
+      "s4",
+      "r2_aeel_handbook2026",
+      "r2_phd_agronomy"
+    ]
+  },
+  "campus": {
+    "heading": "Field learning and agricultural laboratories",
+    "intro": "The school describes a farm-centred teaching approach. Its 2023 brochure identifies soil science, agricultural chemistry, animal-science and farm learning resources; this historical inventory needs current operational confirmation.",
+    "facilities": [
+      {
+        "name": "Soil science and agricultural chemistry laboratory",
+        "description": "Named in the school’s 2023 brochure.",
+        "source_ids": [
+          "s5"
+        ]
+      },
+      {
+        "name": "Farm laboratory and storage",
+        "description": "The school brochure identifies farm learning and storage resources.",
+        "source_ids": [
+          "s5"
+        ]
+      }
+    ],
+    "practical_learning": [],
+    "source_ids": [
+      "s3",
+      "s5"
+    ],
+    "student_services": [
+      {
+        "name": "Coimbatore hostel and mess tariff, 2026–27",
+        "description": "The campus schedule lists old non-AC rooms at INR 52,000–60,000 per year by occupancy, and Kashyapa/Adithi rooms at INR 60,000–68,000. Annual mess is INR 62,500; caution deposit is INR 10,000. These separate campus costs do not confirm a particular room allotment.",
+        "source_ids": [
+          "r2_hostel2026"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The labelled 2025-26 tuition table distinguishes scholarship and non-scholarship annual fees. The checked material does not establish the current award conditions or guarantee continuation of a fee concession.",
+    "schemes": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The programme page identifies the Corporate and Industrial Relations Directorate as a placement-support channel. Its descriptions of possible government or banking roles are career possibilities, not verified appointment outcomes.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "ICAR lists Amrita School of Agricultural Sciences for 2024-06-20 to 2029-06-19. The exact degree labels appear below. Printed intake belongs to the accreditation record and does not establish current admission seat availability.",
+    "icar_units": [
+      {
+        "unit": "Amrita School of Agricultural Sciences",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture \n(Intake- 120)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A45:G45"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The school page names Prof. Sudheesh Manalil as dean and professor. The web listing is undated.",
+    "people": [
+      {
+        "name": "Prof. Sudheesh Manalil",
+        "role": "Dean and Professor, School of Agricultural Sciences (official web listing)",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is Amrita’s agricultural school located?",
+      "answer": "Its contact address is J. P. Nagar, Arasampalayam, near Coimbatore.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which entrance route is stated for agriculture?",
+      "answer": "Admission is based on a valid AEEL rank; the dedicated 2026 entrance page includes B.Sc. Agriculture.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "Are the published tuition amounts dated?",
+      "answer": "The explicit annual tuition table is labelled 2025-26: INR 2,25,000 scholarship and INR 3,00,000 non-scholarship.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Does Amrita list agronomy after the B.Sc.?",
+      "answer": "The school lists M.Sc. Agriculture in Agronomy and Ph.D. Agronomy.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Does the checked ICAR row cover all Amrita agricultural courses?",
+      "answer": "It explicitly prints B.Sc. (Hons.) Agriculture for 20 June 2024 to 19 June 2029. Other courses need separate evidence.",
+      "source_ids": [
+        "s1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Amrita Vishwa Vidyapeetham | Agriculture courses and admissions",
+    "description": "Explore Amrita agriculture at Arasampalayam, Coimbatore, AEEL admission, historical tuition, practical learning and the verified ICAR undergraduate course scope.",
+    "keywords": [
+      "Amrita Vishwa Vidyapeetham agriculture",
+      "Amrita Vishwa Vidyapeetham admissions",
+      "Amrita Vishwa Vidyapeetham ICAR accreditation"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://webfiles.amrita.edu/2019/06/4fW7dnkf-Banner-1384-agri-college-e1609590035197.jpg",
+    "logo_url": "https://webfiles.amrita.edu/2026/02/amrita-red-logo-new.svg",
+    "campus_alt": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+    "caption": "Amrita School of Agricultural Sciences building at the Coimbatore campus",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/amrita-vishwa-vidyapeetham/logo.svg",
+    "local_campus_image": "media/amrita-vishwa-vidyapeetham/campus-03.jpg",
+    "local_gallery": [
+      "media/amrita-vishwa-vidyapeetham/campus-03.jpg",
+      "media/amrita-vishwa-vidyapeetham/campus-02.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR List II accreditation register (locally audited 2026 workbook)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "recognition.icar_units",
+        "identity.kind",
+        "identity.state"
+      ],
+      "notes": "Programme labels, source range and validity copied exactly from the supplied count audit. Historical intake is not a current seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.amrita.edu/program/bsc-hons-agriculture/",
+      "title": "B.Sc. Agriculture programme",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "overview",
+        "programmes",
+        "admissions",
+        "scholarships",
+        "placements"
+      ],
+      "notes": "Mixed 2025-26 tuition, 2026-27 hostel/mess and older FAQ sections; subject wording inconsistent.",
+      "note": "Page mixes a historical2025 deadline/tuition table with2026 material; do not promote those older details to a current application calendar."
+    },
+    {
+      "id": "s3",
+      "url": "https://www.amrita.edu/school/agriculture/",
+      "title": "School of Agricultural Sciences",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.contact",
+        "overview",
+        "programmes",
+        "faculty",
+        "campus"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s4",
+      "url": "https://www.amrita.edu/admissions/aeel/",
+      "title": "AEEL 2026 admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "s5",
+      "url": "https://webfiles.amrita.edu/2023/04/brochure-school-agricultural-sciences.pdf",
+      "title": "School brochure 2023",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus"
+      ],
+      "notes": "Historical facilities inventory; PDF lacked extracted text."
+    },
+    {
+      "id": "s6",
+      "url": "https://webfiles.amrita.edu/2022/05/proforma-institution-eminence-deemed-to-be-university.pdf",
+      "title": "University basic institutional information",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established"
+      ],
+      "notes": "2003 is university establishment; engineering institutional origins date to 1994."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.amrita.edu/",
+      "title": "Amrita Vishwa Vidyapeetham — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/amrita-vishwa-vidyapeetham/logo.svg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.amrita.edu/school/agriculture/",
+      "title": "Amrita Vishwa Vidyapeetham — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/amrita-vishwa-vidyapeetham/campus-03.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.amrita.edu/school/agriculture/",
+      "title": "Amrita Vishwa Vidyapeetham — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/amrita-vishwa-vidyapeetham/campus-02.jpg. The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution."
+    },
+    {
+      "id": "r2_aeel_handbook2026",
+      "title": "Amrita AEEL information handbook 2026",
+      "url": "https://webfiles.amrita.edu/2026/03/aeel-information-handbook-2026.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.eligibility",
+        "admissions",
+        "admissions.dates"
+      ],
+      "notes": "2026 handbook read: agriculture PCB 60% aggregate/55% each; tentative 9–10 May exam dates, online application and INR 550 application fee. Scholarship terms referred to portal."
+    },
+    {
+      "id": "r2_phd_agronomy",
+      "title": "Amrita PhD Agronomy programme and 2026 phase 2 deadline",
+      "url": "https://www.amrita.edu/program/ph-d-in-agronomy/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "admissions.dates"
+      ],
+      "notes": "2026 phase 2 deadline is dated; tuition is not separately session-labelled, so its amount remains undated. Older living snippets are not preferred to the dedicated campus 2026 tariff."
+    },
+    {
+      "id": "r2_hostel2026",
+      "title": "Amrita Coimbatore hostel and mess tariff 2026–27",
+      "url": "https://webfiles.amrita.edu/2026/06/annual-fee-hostel-mess-2026-2027-coimbatore.pdf",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.student_services"
+      ],
+      "notes": "Campus-level tariff; room availability and programme allocation must follow the offer. Separate from tuition."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees.2026-27",
+      "reason": "Explicit tuition table remains labelled 2025-26 although hostel/mess headings say 2026-27.",
+      "next_source": "https://www.amrita.edu/program/bsc-hons-agriculture/"
+    },
+    {
+      "field": "programmes.eligibility",
+      "reason": "Dated AEEL 2026 handbook resolves undergraduate PCB requirements and PhD entry is now sourced. Later-intake and MSc entry criteria need their own notice.",
+      "next_source": "https://www.amrita.edu/admissions/aeel/"
+    },
+    {
+      "field": "programmes.fees",
+      "reason": "No fee schedule explicitly dated for the intended 2026-27 intake was verified for every listed programme. Undated figures are not treated as current fees.",
+      "next_source": "https://www.amrita.edu/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No agriculture-specific placement report with cohort, year and denominator was verified.",
+      "next_source": "https://www.amrita.edu/"
+    },
+    {
+      "field": "admissions.documents",
+      "reason": "Original-certificate and candidate/guardian counselling requirements are now sourced; a complete currentAEEL document checklist is still not established.",
+      "next_source": "https://www.amrita.edu/admissions/aeel/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Past tentative AEEL May 2026 dates and PhD 30 September deadline are recorded. No current undergraduate reopening or deadline is established.",
+      "next_source": "https://www.amrita.edu/admissions/aeel/"
+    },
+    {
+      "field": "recognition.other_recognitions",
+      "reason": "Other regulator or institutional accreditation claims were not independently checked with dated validity evidence in this profile.",
+      "next_source": "https://www.amrita.edu/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Only newly verified source-specific facts were added. Unknown current amounts, dates, placement guarantees and unsupported accreditation scope remain unquoted.",
+    "change_summary": [
+      "Added counselling verification requirements while preserving the published subject-eligibility contradiction.",
+      "Resolved the 2026 undergraduate subject ambiguity; added PhD entry/undated tuition, past dates and a current campus living tariff."
+    ]
+  },
+  "editorial_reviewed_on": "2026-10-31"
+}

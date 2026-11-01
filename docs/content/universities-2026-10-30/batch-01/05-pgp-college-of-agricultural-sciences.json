@@ -1,0 +1,534 @@
+{
+  "id": 5,
+  "slug": "pgp-college-of-agricultural-sciences",
+  "name": "PGP College of Agricultural Sciences",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "PGPCAS",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "Namakkal",
+    "state": "Tamil Nadu",
+    "established": 2013,
+    "address": "Palani Nagar, Namakkal 637407, Tamil Nadu",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://pgpagricollege.ac.in/",
+    "admissions_url": "https://pgpagricollege.ac.in/admission/",
+    "phone": "+91 89398 08571",
+    "email": "deanpgpcas@tnau.ac.in",
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "PGP College of Agricultural Sciences",
+    "summary": "PGPCAS offers agriculture education in Namakkal through TNAU-affiliated degree and diploma study. Its college site describes a farmland setting near the Kolli Hills and field training at the group’s Paramathi campus. The audited ICAR entry covers the undergraduate agriculture degree.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agriculture study with a Namakkal field setting",
+    "paragraphs": [
+      "PGP College of Agricultural Sciences was established in 2013 and is affiliated to Tamil Nadu Agricultural University. Its dedicated college website describes a campus near the Kolli Hills and additional field training at the group’s main campus in Paramathi.",
+      "The agriculture degree is taught over eight semesters and combines crop science with agricultural economics and practical subjects. Its published curriculum gives examples of seed treatment, sowing, nursery techniques and crop diagnosis. Applicants can explore how those practical elements develop through the programme while comparing the university counselling and management admission channels described by the college."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2029-06-19"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years (8 semesters)",
+      "mode": null,
+      "summary": "The four-year, eight-semester curriculum covers agronomy, plant protection, soil science and agricultural economics. Published practical examples include sowing, seed treatment, nursery work, crop diagnosis and farm machinery.",
+      "eligibility": "The official college admission page requires the applicable TNAU eligibility norms. Current subject combinations, category thresholds and equivalence rules were not independently verified.",
+      "admission_route": "The 2026–27 admission page describes TNAU single-window counselling and management admission, with TNAU online registration mandatory for both.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at PGP College of Agricultural Sciences, Namakkal, Tamil Nadu for 2024-06-20 to 2029-06-19. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to PGPCAS",
+    "intro": "PGPCAS publishes a 65% TNAU single-window and 35% management split. Its 2026–27 page says applicants seeking management seats must first register with TNAU, then contact the college. These instructions need confirmation for a later cycle.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Complete TNAU registration",
+        "text": "The college states that online submission to TNAU is mandatory for counselling and management channels."
+      },
+      {
+        "title": "Follow the relevant channel",
+        "text": "For counselling, allocation follows rank and preferences. For management admission, the page asks registered applicants to contact the college directly."
+      }
+    ],
+    "documents": [],
+    "dates": [
+      {
+        "label": "Published B.Sc. Agriculture application notification",
+        "date": "2026-05-06",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "s3"
+        ]
+      },
+      {
+        "label": "Published B.Sc. Agriculture application end date",
+        "date": "2026-06-17",
+        "academic_year": "2026–27",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "campus": {
+    "heading": "Practical subjects across the agriculture curriculum",
+    "intro": "The programme outline gives concrete examples of practical teaching: seed and sowing exercises, horticultural propagation, surveying and irrigation work. These are published curriculum components, not confirmation that every listed visit occurs for every cohort.",
+    "facilities": [
+      {
+        "name": "Agricultural field setting",
+        "description": "The college describes farmland around its Namakkal campus and additional training land at Paramathi.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Separate student hostels",
+        "description": "PGPCAS describes separate accommodation for male and female students, with ventilated rooms and regular maintenance. A current room-allocation and residential fee statement is still needed.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The curriculum lists seed treatment, tillage and sowing exercises.",
+      "Later-semester descriptions include specimen identification, seed-processing practice and machinery demonstrations."
+    ],
+    "source_ids": [
+      "s2",
+      "s4",
+      "r2_hostel"
+    ],
+    "student_services": [
+      {
+        "name": "Separate student hostels",
+        "description": "PGPCAS describes separate accommodation for male and female students, with ventilated rooms and regular maintenance. A current room-allocation and residential fee statement is still needed.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "The home page describes scholarships and awards and gives a group-wide annual award statement. It does not provide dated agriculture-specific award terms; no amount is represented here as an individual entitlement.",
+    "schemes": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The official programme page lists possible agricultural, research and rural-development careers. The home page links a placement cell, but neither fact establishes a measured agriculture employment rate. Request a recent cohort report before comparing outcomes.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2",
+      "s4"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records PGP College of Agricultural Sciences, Namakkal, Tamil Nadu and the programme labels below from 2024-06-20 through 2029-06-19. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "PGP College of Agricultural Sciences, Namakkal, Tamil Nadu",
+        "programmes_as_printed": [
+          "• B.Sc. (Hons) Agriculture\n(Intake- 120)"
+        ],
+        "valid_from": "2024-06-20",
+        "valid_until": "2029-06-19",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A12:G12"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "PGPCAS lists faculty by department and identifies heads for several subject groups. Selected teaching entries below cover management, improvement, protection, horticulture and social science.",
+    "people": [
+      {
+        "name": "Dr. M. Srinivasan",
+        "role": "Associate Professor, Agricultural Microbiology",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. D. Ravisankar",
+        "role": "Associate Professor, Agronomy",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. S. Vinithra",
+        "role": "Assistant Professor, Plant Breeding and Genetics; Head, Crop Improvement",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. N. Dharanipriya",
+        "role": "Assistant Professor, Agricultural Entomology; Head, Crop Protection",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. M. Dhivya",
+        "role": "Assistant Professor, Horticulture",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. C. Sowthanya",
+        "role": "Assistant Professor, Agricultural Economics; Head, Social Science",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "When did PGPCAS start?",
+      "answer": "The official college home page states 2013.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How long is its agriculture degree?",
+      "answer": "The college specifies four years and eight semesters, with English as the medium of instruction.",
+      "source_ids": [
+        "s2",
+        "s4"
+      ]
+    },
+    {
+      "question": "Is TNAU registration needed for management admission?",
+      "answer": "The college’s 2026–27 page says it is compulsory for management applicants as well as counselling applicants.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are the listed June 2026 dates current deadlines?",
+      "answer": "They are published dates for the 2026–27 cycle. Because the check occurred in October, they should be read as historical rather than an invitation to apply.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Is the diploma also covered by the audited ICAR row?",
+      "answer": "The college offers a diploma, but the audited row explicitly lists B.Sc. (Hons.) Agriculture. Diploma accreditation is not inferred.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for PGPCAS?",
+      "answer": "The official college admission page requires the applicable TNAU eligibility norms. Current subject combinations, category thresholds and equivalence rules were not independently verified.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "question": "What residential or welfare facilities does PGPCAS describe?",
+      "answer": "PGPCAS describes separate accommodation for male and female students, with ventilated rooms and regular maintenance. A current room-allocation and residential fee statement is still needed.",
+      "source_ids": [
+        "r2_hostel"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for PGPCAS?",
+      "answer": "PGPCAS lists faculty by department and identifies heads for several subject groups. Selected teaching entries below cover management, improvement, protection, horticulture and social science. Dr. M. Srinivasan — Associate Professor, Agricultural Microbiology; Dr. D. Ravisankar — Associate Professor, Agronomy; Dr. S. Vinithra — Assistant Professor, Plant Breeding and Genetics; Head, Crop Improvement.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for PGPCAS?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "question": "Where is the official application information for PGPCAS?",
+      "answer": "https://pgpagricollege.ac.in/admission/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "PGP College of Agricultural Sciences | Agriculture Courses & Admissions",
+    "description": "Explore PGPCAS in Namakkal: the four-year agriculture degree, practical curriculum, TNAU registration routes, dated admission information and ICAR scope.",
+    "keywords": [
+      "PGP College of Agricultural Sciences",
+      "PGPCAS agriculture",
+      "Namakkal agriculture admission",
+      "B.Sc. (Hons.) Agriculture PGP College of Agricultural Sciences"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://admistay.blr1.cdn.digitaloceanspaces.com/Institutes/gallery_images/infrastructure/pgp-college-of-agricultural-science_001.jpg",
+    "logo_url": "https://cache.careers360.mobi/media/colleges/social-media/logo/Logo_of_PGP_College_of_Agricultural_Sciences_Namakkal_Logo.png",
+    "campus_alt": "Named academic block of PGP College of Agricultural Sciences at Namakkal",
+    "caption": "Named academic block of PGP College of Agricultural Sciences at Namakkal",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/pgp-college-of-agricultural-sciences/logo-college.jpg",
+    "local_campus_image": "media/pgp-college-of-agricultural-sciences/campus-admistay-01.webp",
+    "local_gallery": [
+      "media/pgp-college-of-agricultural-sciences/campus-admistay-01.webp",
+      "media/pgp-college-of-agricultural-sciences/campus-careers-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://pgpagricollege.ac.in/",
+      "title": "PGPCAS official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "faqs.0",
+        "faqs.1",
+        "faqs.4",
+        "overview",
+        "placements",
+        "scholarships"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026.",
+      "note": "Public page HTML supplies its institution email via the site’s standard email-protection encoding; decoded as deanpgpcas@tnau.ac.in."
+    },
+    {
+      "id": "s3",
+      "url": "https://pgpagricollege.ac.in/admission/",
+      "title": "Admission 2026–27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "admissions.dates.0",
+        "admissions.dates.1",
+        "faqs.2",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Includes a 2026–27 calendar; stated June deadline is historical by the October check date."
+    },
+    {
+      "id": "s4",
+      "url": "https://pgpagricollege.ac.in/bachelor-of-science-in-agriculture/",
+      "title": "Bachelor of Science in Agriculture",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "faqs.1",
+        "overview",
+        "placements",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.careers360.com/colleges/pgp-college-of-agricultural-sciences-namakkal",
+      "title": "PGP College of Agricultural Sciences — logo source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/pgp-college-of-agricultural-sciences/logo-college.jpg. Secondary profile explicitly identifies PGP College of Agricultural Sciences at Namakkal; the shared PGP group mark is also used on the official parent agriculture page."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://admistay.com/admission/india/namakkal/college/pgp-college-of-agricultural-science-56277",
+      "title": "PGP College of Agricultural Sciences — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/pgp-college-of-agricultural-sciences/campus-admistay-01.webp. The Admistay photograph visibly names PGP College of Agricultural Sciences; the Careers360 photograph shows the same white academic block and is explicitly captioned as this Namakkal college."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.careers360.com/colleges/pgp-college-of-agricultural-sciences-namakkal?gallery=true",
+      "title": "PGP College of Agricultural Sciences — campus secondary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/pgp-college-of-agricultural-sciences/campus-careers-01.jpg. The Admistay photograph visibly names PGP College of Agricultural Sciences; the Careers360 photograph shows the same white academic block and is explicitly captioned as this Namakkal college."
+    },
+    {
+      "id": "r31_1",
+      "title": "PGPCAS departmental faculty",
+      "url": "https://pgpagricollege.ac.in/departmental-faculty/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Selected named heads/teachers from official page read 31 October."
+    },
+    {
+      "id": "r2_hostel",
+      "title": "PGPCAS — hostel accommodation",
+      "url": "https://pgpagricollege.ac.in/hostel/",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities",
+        "campus.student_services"
+      ],
+      "note": "Indexed official hostel description confirms separate boys/girls accommodation. Direct fetch returned 403; numeric charges and capacity were not established."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://pgpagricollege.ac.in/admission/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://pgpagricollege.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://pgpagricollege.ac.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://pgpagricollege.ac.in/admission/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/05-pgp-college-of-agricultural-sciences.json",
+  "audit_name": "PGP College of Agricultural Sciences, Namakkal, Tamil Nadu",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

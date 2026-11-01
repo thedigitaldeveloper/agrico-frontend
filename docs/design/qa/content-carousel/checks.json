@@ -1,0 +1,413 @@
+{
+  "date": "2026-10-11T19:49:02.629Z",
+  "fixture": "Actual RsContentCarousel and real CSS, seven synthetic content items and three grouped pages; no app server or CMS",
+  "sourceHashes": {
+    "src/components/rs/content-carousel.tsx": "95e60377ef0ffe59917eb0b95efe805d7c267c3ef8c596c67cc0e77b89dcb3c0",
+    "src/components/rs/content-carousel.css": "51e9c9511fc1283889a0e5705f13b3eb90425e85554b759e1c720221200a8615",
+    "src/app/rs.css": "4585f9901ecbcc38736242087d350a56e83cd002838229a1459fe104a265a2ab"
+  },
+  "results": [
+    {
+      "width": 1440,
+      "cards": {
+        "mode": "seven individual items",
+        "visible": 3,
+        "arrowSteps": 4,
+        "alignment": {
+          "trackBottom": 457.453125,
+          "right": 1360,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 461.453125,
+              "left": 1264,
+              "right": 1308
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 461.453125,
+              "left": 1316,
+              "right": 1360
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      },
+      "pages": {
+        "mode": "three grouped pages",
+        "visible": 1,
+        "arrowSteps": 2,
+        "alignment": {
+          "trackBottom": 923.84375,
+          "right": 1360,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 927.84375,
+              "left": 1264,
+              "right": 1308
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 927.84375,
+              "left": 1316,
+              "right": 1360
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      }
+    },
+    {
+      "width": 1031,
+      "cards": {
+        "mode": "seven individual items",
+        "visible": 3,
+        "arrowSteps": 4,
+        "alignment": {
+          "trackBottom": 507.1875,
+          "right": 979,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 511.1875,
+              "left": 883,
+              "right": 927
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 511.1875,
+              "left": 935,
+              "right": 979
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      },
+      "pages": {
+        "mode": "three grouped pages",
+        "visible": 1,
+        "arrowSteps": 2,
+        "alignment": {
+          "trackBottom": 917.578125,
+          "right": 979,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 921.578125,
+              "left": 883,
+              "right": 927
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 921.578125,
+              "left": 935,
+              "right": 979
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      }
+    },
+    {
+      "width": 768,
+      "cards": {
+        "mode": "seven individual items",
+        "visible": 2,
+        "arrowSteps": 5,
+        "alignment": {
+          "trackBottom": 473.25,
+          "right": 744,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 477.25,
+              "left": 648,
+              "right": 692
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 477.25,
+              "left": 700,
+              "right": 744
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      },
+      "pages": {
+        "mode": "three grouped pages",
+        "visible": 1,
+        "arrowSteps": 2,
+        "alignment": {
+          "trackBottom": 939.640625,
+          "right": 744,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 943.640625,
+              "left": 648,
+              "right": 692
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 943.640625,
+              "left": 700,
+              "right": 744
+            }
+          ]
+        },
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      }
+    },
+    {
+      "width": 390,
+      "cards": {
+        "mode": "seven individual items",
+        "visible": 1,
+        "arrowSteps": 6,
+        "alignment": {
+          "trackBottom": 523.25,
+          "right": 372,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 527.25,
+              "left": 276,
+              "right": 320
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 527.25,
+              "left": 328,
+              "right": 372
+            }
+          ]
+        },
+        "touchVisible": [
+          "item-2"
+        ],
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native swipe and inertia settling",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      },
+      "pages": {
+        "mode": "three grouped pages",
+        "visible": 1,
+        "arrowSteps": 2,
+        "alignment": {
+          "trackBottom": 1084.8125,
+          "right": 372,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 1088.8125,
+              "left": 276,
+              "right": 320
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 1088.8125,
+              "left": 328,
+              "right": 372
+            }
+          ]
+        },
+        "touchVisible": [
+          "page-2"
+        ],
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native swipe and inertia settling",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      }
+    },
+    {
+      "width": 360,
+      "cards": {
+        "mode": "seven individual items",
+        "visible": 1,
+        "arrowSteps": 6,
+        "alignment": {
+          "trackBottom": 608.71875,
+          "right": 342,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 612.71875,
+              "left": 246,
+              "right": 290
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 612.71875,
+              "left": 298,
+              "right": 342
+            }
+          ]
+        },
+        "touchVisible": [
+          "item-2"
+        ],
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native swipe and inertia settling",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      },
+      "pages": {
+        "mode": "three grouped pages",
+        "visible": 1,
+        "arrowSteps": 2,
+        "alignment": {
+          "trackBottom": 1170.28125,
+          "right": 342,
+          "controls": [
+            {
+              "width": 44,
+              "height": 44,
+              "top": 1174.28125,
+              "left": 246,
+              "right": 290
+            },
+            {
+              "width": 44,
+              "height": 44,
+              "top": 1174.28125,
+              "left": 298,
+              "right": 342
+            }
+          ]
+        },
+        "touchVisible": [
+          "page-2"
+        ],
+        "checks": [
+          "responsive visible geometry",
+          "ordered content",
+          "44px controls below content",
+          "previous/next and disabled ends",
+          "Home/End/arrow keys",
+          "native swipe and inertia settling",
+          "native nested controls",
+          "order-reset",
+          "fit-controls-hidden",
+          "empty-content-hidden",
+          "no document overflow"
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

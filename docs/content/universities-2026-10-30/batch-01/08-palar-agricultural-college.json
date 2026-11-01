@@ -1,0 +1,522 @@
+{
+  "id": 8,
+  "slug": "palar-agricultural-college",
+  "name": "Palar Agricultural College",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "PAC",
+    "ownership": "Private college established under RS Educational and Charitable Trust",
+    "city": "Kothamarikuppam",
+    "state": "Tamil Nadu",
+    "established": 2017,
+    "address": "Kothamarikuppam Village, Mailpatti Post, Vellore District, Tamil Nadu 635805",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": "https://palaragri.ac.in/",
+    "admissions_url": "https://palaragri.ac.in/admission/",
+    "phone": "+91 97410 21188",
+    "email": "deanpac@tnau.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Palar Agricultural College",
+    "summary": "Palar Agricultural College is a TNAU-affiliated college at Kothamarikuppam in Vellore district. Founded in 2017 under RS Educational and Charitable Trust, it offers a four-year agriculture degree. Its published admissions page explains TNAU ranking for both counselling and management applicants.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "A Vellore district college focused on agriculture",
+    "paragraphs": [
+      "Palar Agricultural College was established in 2017 under RS Educational and Charitable Trust. It is located at Kothamarikuppam Village, Mailpatti Post, in Vellore district and offers a four-year B.Sc. (Hons.) Agriculture under TNAU affiliation.",
+      "Its academic divisions cover crop science and associated subjects, with agricultural teaching units and student-support cells listed across the campus website. The extension department describes rural learning and farmer engagement through RAWE. Applicants can ask how the teaching units and village activities fit together across the degree, while confirming admission ranking requirements and the complete cost of attendance."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2031-03-15"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s4"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A four-year agriculture degree listed on the college site. The wider academic structure includes agronomy, crop improvement, plant protection, horticulture and soil-related divisions.",
+      "eligibility": "The official college admission page requires the applicable TNAU eligibility norms. Current subject combinations, category thresholds and equivalence rules were not independently verified.",
+      "admission_route": "The undated official page describes 65% through TNAU single-window counselling and 35% directly through PAC under TNAU eligibility and merit; TNAU ranking is requested for both.",
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "The official admission page says fees follow Government of Tamil Nadu prescriptions but provides no verified dated numeric schedule.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Palar Agricultural College, Vellore for 2026-03-16 to 2031-03-15. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Planning an application to PAC",
+    "intro": "PAC instructs candidates to register with TNAU and obtain ranking for counselling as well as management admission. Its fee section refers to the Government of Tamil Nadu’s prescribed structure without publishing a verified numeric schedule.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Obtain TNAU ranking",
+        "text": "The official page asks applicants for both admission channels to register through the TNAU admission website."
+      },
+      {
+        "title": "Confirm allocation and costs",
+        "text": "Ask the college for the current sanctioned seat allocation, applicable merit rules and a written fee breakdown."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching units listed by PAC",
+    "intro": "PAC’s official site lists agricultural teaching units, while its extension department describes rural engagement through RAWE and village appraisal. Confirm the current cohort’s fieldwork schedule and teaching-unit access.",
+    "facilities": [
+      {
+        "name": "Agricultural teaching units",
+        "description": "The official site lists an apiary, mushroom cultivation and vermicompost units.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Central library",
+        "description": "A dedicated central-library section is listed on the college website.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Student hostels and welfare spaces",
+        "description": "PAC publishes separate accommodation for male and female students. Its listed common facilities include a computer-equipped reading room, sick bay, guest room and television hall; hostel records cover entry/exit, complaints and medical matters.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The official site publishes activity material labelled mushroom cultivation and hand pollination in watermelon.",
+      "The extension department describes RAWE and village work, including participatory rural-appraisal exercises in Pallalakuppam."
+    ],
+    "source_ids": [
+      "s2",
+      "s4",
+      "r2_hostel"
+    ],
+    "student_services": [
+      {
+        "name": "Student hostels and welfare spaces",
+        "description": "PAC publishes separate accommodation for male and female students. Its listed common facilities include a computer-equipped reading room, sick bay, guest room and television hall; hostel records cover entry/exit, complaints and medical matters.",
+        "source_ids": [
+          "r2_hostel"
+        ]
+      }
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "Palar has a Scholarship Cell that helps students identify schemes, understand eligibility and prepare application documentation. The page does not publish an institution-specific award amount or a current scheme decision; ask for the exact authority notice before budgeting a concession.",
+    "schemes": [],
+    "source_ids": [
+      "s2",
+      "r31_2"
+    ],
+    "verification_scope": "support_cell_only",
+    "policy_verified": false
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The college lists a Career Guidance and Placements Cell and publishes civil-services awareness material. Individual postgraduate admission achievements and awareness activities should not be counted as a programme-wide employment rate. No dated agriculture placement statistics were verified.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Palar Agricultural College, Vellore and the programme labels below from 2026-03-16 through 2031-03-15. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Palar Agricultural College, Vellore",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+        ],
+        "valid_from": "2026-03-16",
+        "valid_until": "2031-03-15",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A15:G15"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "Palar’s official agronomy faculty directory names the members below. The page does not provide a recent appointment date or a full role/qualification record, so confirm current assignments before relying on a staffing count.",
+    "people": [
+      {
+        "name": "Dr. Y. Nandhini",
+        "role": "Listed agronomy faculty",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Mr. R. Azhagumurugan",
+        "role": "Listed agronomy faculty",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      },
+      {
+        "name": "Dr. Vanathi J.",
+        "role": "Listed agronomy faculty",
+        "qualification": null,
+        "source_ids": [
+          "r31_1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Where is PAC located?",
+      "answer": "PAC lists Kothamarikuppam Village, Mailpatti Post, Vellore District, Tamil Nadu 635805.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Who established Palar Agricultural College?",
+      "answer": "The official home page dates establishment to 2017 under RS Educational and Charitable Trust.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is TNAU registration required for direct college admission?",
+      "answer": "The published procedure asks candidates to obtain TNAU ranking for both counselling and management admission. Confirm the current cycle’s requirements.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Are numeric fees verified?",
+      "answer": "No. The fee page refers to government prescriptions without a verified dated amount in the readable text.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "When does the audited ICAR term end?",
+      "answer": "The register records 16 March 2026 to 15 March 2031 for B.Sc. (Hons.) Agriculture.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What entry qualification is published for PAC?",
+      "answer": "The official college admission page requires the applicable TNAU eligibility norms. Current subject combinations, category thresholds and equivalence rules were not independently verified.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "How long is B.Sc. (Hons.) Agriculture at PAC?",
+      "answer": "4 years. ",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "question": "What residential or welfare facilities does PAC describe?",
+      "answer": "PAC publishes separate accommodation for male and female students. Its listed common facilities include a computer-equipped reading room, sick bay, guest room and television hall; hostel records cover entry/exit, complaints and medical matters.",
+      "source_ids": [
+        "r2_hostel"
+      ]
+    },
+    {
+      "question": "Which named academic staff are listed for PAC?",
+      "answer": "Palar’s official agronomy faculty directory names the members below. The page does not provide a recent appointment date or a full role/qualification record, so confirm current assignments before relying on a staffing count. Dr. Y. Nandhini — Listed agronomy faculty; Mr. R. Azhagumurugan — Listed agronomy faculty; Dr. Vanathi J. — Listed agronomy faculty.",
+      "source_ids": [
+        "r31_1"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for PAC?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Palar Agricultural College | Agriculture Courses & Admissions",
+    "description": "Explore Palar Agricultural College in Vellore district: its four-year degree, TNAU ranking route, farm-learning notes, fees checks and ICAR scope.",
+    "keywords": [
+      "Palar Agricultural College",
+      "PAC agriculture",
+      "Kothamarikuppam agriculture admission",
+      "B.Sc. (Hons.) Agriculture Palar Agricultural College"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://palaragri.ac.in/wp-content/uploads/2023/12/BHA_4981.jpg",
+    "logo_url": "https://palaragri.ac.in/wp-content/uploads/2023/05/top-header.png",
+    "campus_alt": "Palar Agricultural College entrance gateway",
+    "caption": "Palar Agricultural College entrance gateway",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_card_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/palar-agricultural-college/logo-college.png",
+    "local_card_logo": "media/palar-agricultural-college/card-logo.png",
+    "local_campus_image": "media/palar-agricultural-college/campus-02.jpg",
+    "local_gallery": [
+      "media/palar-agricultural-college/campus-02.jpg",
+      "media/palar-agricultural-college/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://palaragri.ac.in/",
+      "title": "Palar Agricultural College official home",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "campus.facilities.0",
+        "campus.facilities.1",
+        "faqs.1",
+        "overview",
+        "placements",
+        "programmes.0",
+        "scholarships"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s3",
+      "url": "https://palaragri.ac.in/admission/",
+      "title": "Admission procedure",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "faqs.2",
+        "faqs.3",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "Undated institutional page; checked 30 October 2026."
+    },
+    {
+      "id": "s4",
+      "url": "https://palaragri.ac.in/agricultural-extension/",
+      "title": "PAC Agricultural Extension",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "campus",
+        "overview"
+      ],
+      "notes": "Includes dated historical RAWE and village-activity examples; current cohort schedule needs confirmation."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://palaragri.ac.in/",
+      "title": "Palar Agricultural College — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/palar-agricultural-college/logo-college.png. Official college header and seal explicitly name Palar Agricultural College; homepage alt text identifies College Entrance and Campus Inside photographs."
+    },
+    {
+      "id": "media_card_logo",
+      "url": "https://palaragri.ac.in/",
+      "title": "Palar Agricultural College — card logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/palar-agricultural-college/card-logo.png. Official college header and seal explicitly name Palar Agricultural College; homepage alt text identifies College Entrance and Campus Inside photographs."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://palaragri.ac.in/",
+      "title": "Palar Agricultural College — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/palar-agricultural-college/campus-02.jpg. Official college header and seal explicitly name Palar Agricultural College; homepage alt text identifies College Entrance and Campus Inside photographs."
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://palaragri.ac.in/",
+      "title": "Palar Agricultural College — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/palar-agricultural-college/campus-01.jpg. Official college header and seal explicitly name Palar Agricultural College; homepage alt text identifies College Entrance and Campus Inside photographs."
+    },
+    {
+      "id": "r31_1",
+      "title": "Palar Agricultural College agronomy faculty listing",
+      "url": "https://palaragri.ac.in/faculties-agronomy/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Undated official subject-directory page; the names are shown as agronomy faculty, without inferred professorial ranks or a total staffing claim."
+    },
+    {
+      "id": "r31_2",
+      "title": "Palar scholarship-cell support",
+      "url": "https://palaragri.ac.in/scholarship-cell/",
+      "kind": "official",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Describes application guidance and documentation support, not a grant amount or award policy."
+    },
+    {
+      "id": "r2_hostel",
+      "title": "Palar Agricultural College — student hostels",
+      "url": "https://palaragri.ac.in/hostel/",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "campus.facilities",
+        "campus.student_services"
+      ],
+      "note": "Official page checked 31 October 2026. The page is not a guarantee of current vacancy or intake-year pricing."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "The official admission page says fees follow Government of Tamil Nadu prescriptions but provides no verified dated numeric schedule.",
+      "next_source": "https://palaragri.ac.in/admission/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://palaragri.ac.in/admission/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "A documented Scholarship Cell and its application-support function are now sourced. Dated award rules, individual scheme eligibility and grant amounts remain unverified.",
+      "next_source": "https://palaragri.ac.in/scholarship-cell/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://palaragri.ac.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://palaragri.ac.in/admission/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/08-palar-agricultural-college.json",
+  "audit_name": "Palar Agricultural College, Vellore",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

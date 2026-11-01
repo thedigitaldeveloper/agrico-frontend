@@ -1,0 +1,12 @@
+{
+  "checked_on": "2026-10-31",
+  "checks": [
+    "All 58 profiles render every content section, FAQs and matching source register",
+    "Institution/acronym search, state filter and empty results work",
+    "Coverage and full page-content checklist render",
+    "No document overflow at 320, 390, 768, 1024 and 1440px",
+    "No browser runtime errors"
+  ],
+  "errors": [],
+  "profiles": 58
+}

@@ -1,0 +1,60 @@
+{
+  "id": 38,
+  "slug": "tantia-university",
+  "name": "Tantia University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/tantia-university/logo.jpg",
+      "source_page": "https://www.campusoption.com/college/tantia-university",
+      "download_url": "https://www.campusoption.com/images/colleges/logos/08_08_19_072805_tantia-university.jpg",
+      "source_kind": "secondary",
+      "description": "Tantia University Sri Ganganagar torch, microscope and open-book emblem",
+      "alt": "Tantia University Sri Ganganagar torch, microscope and open-book emblem",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.campusoption.com",
+      "review_status": "verified_source",
+      "notes": "Original 500 x 500 JPEG; unchanged downloaded bytes. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/tantia-university/campus-04.webp",
+      "source_page": "https://www.collegesearch.in/university/tantia-university",
+      "download_url": "https://d13loartjoc1yn.cloudfront.net/upload/institute/images/large/230509040954_Tantia_University_campus.webp",
+      "source_kind": "secondary",
+      "description": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+      "alt": "Tantia University Homoeopathy academic block and lawn at Sri Ganganagar",
+      "campus": "Sri Ganganagar, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "www.collegesearch.in",
+      "review_status": "verified_source",
+      "notes": "Original 680 x 387 WEBP; unchanged downloaded bytes. Below preferred 800px photo width; retained at source resolution without upscaling. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    },
+    {
+      "role": "campus_secondary",
+      "cms_field": "gallery_candidate",
+      "file": "media/tantia-university/campus-05.jpg",
+      "source_page": "https://psychoprodigy.in/TantiaUniversity",
+      "download_url": "https://psychoprodigy.in/sites/default/files/inline-images/images%20%2815%29_1.jpeg",
+      "source_kind": "secondary",
+      "description": "Tantia University red and cream academic buildings and landscaped grounds at Sri Ganganagar",
+      "alt": "Tantia University red and cream academic buildings and landscaped grounds at Sri Ganganagar",
+      "campus": "Sri Ganganagar, Rajasthan",
+      "agriculture_specific": false,
+      "identity_evidence": "The linked source explicitly identifies this university/college and location. The image shows the matching institutional emblem or named campus; visual review checked the selected asset.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "psychoprodigy.in",
+      "review_status": "verified_source",
+      "notes": "Original 700 x 400 JPEG; unchanged downloaded bytes. Below preferred 800px photo width; retained at source resolution without upscaling. Secondary provenance is explicit; no reuse license is asserted. Official sources were investigated first."
+    }
+  ],
+  "gaps": []
+}

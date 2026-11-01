@@ -1,0 +1,1165 @@
+{
+  "id": 55,
+  "slug": "itm-university-gwalior",
+  "source_page": "https://www.itmuniversity.ac.in/",
+  "candidates": [
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/favicon.png",
+      "kind": "link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/images/companylogo/Logo_2.png",
+      "kind": "img:src",
+      "alt": "ITM University logo",
+      "context": "desktop-logo lg-logo ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/284x400.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "col-md-6 d-none d-lg-block jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/leadership.png",
+      "kind": "img:src",
+      "alt": "University Leadership Program",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/recognition.png",
+      "kind": "img:src",
+      "alt": "University Awards Recognition",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/city.png",
+      "kind": "img:src",
+      "alt": "University City Campus",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/ecology.png",
+      "kind": "img:src",
+      "alt": "Campus Green Ecology",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/269_x_572_px.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "col-lg-5 pg-bg d-none d-lg-block jpdiv     "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/learning/Project Based Learning (PrBL) Model.png",
+      "kind": "image-link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/AI-quantum/768.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "col-md-6 d-none d-lg-block jpdiv     "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/533x296_px_a.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "redbox-applynow red-bg jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/eligibility.png",
+      "kind": "img:src",
+      "alt": "Course Eligibility Criteria",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/fee structure.png",
+      "kind": "img:src",
+      "alt": "Course Fee Structure",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/scholarship policy.png",
+      "kind": "img:src",
+      "alt": "Student Scholarship Policy",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/ph.d. notification.png",
+      "kind": "img:src",
+      "alt": "PhD Admission Notification",
+      "context": "   50 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/studentscorner/Student Charter- Dy. Registrar Office.png",
+      "kind": "image-link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/studentscorner/Student Charter-Examination.png",
+      "kind": "image-link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/student-resources/Student Charter (SAE Cell).png",
+      "kind": "image-link",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/533x296_px_b.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "redbox-applynow unlock-cg default-bg mb-3 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/training-program.png",
+      "kind": "img:src",
+      "alt": "Professional Training Program",
+      "context": "   45 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/leadership-development (1).png",
+      "kind": "img:src",
+      "alt": "Leadership Development Program",
+      "context": "   45 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/Industry-Speaks.png",
+      "kind": "img:src",
+      "alt": "Industry Expert Insights",
+      "context": "   45 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/collaborations.png",
+      "kind": "img:src",
+      "alt": "Academic Industry Collaboration",
+      "context": "   45 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/recent-placement.png",
+      "kind": "img:src",
+      "alt": "recent placement graphic",
+      "context": "   45 "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/newslider325052024-8.jpg",
+      "kind": "img:src",
+      "alt": "banner",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/newslider325052024-3.jpg",
+      "kind": "img:src",
+      "alt": "banner",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/newslider325052024.jpg",
+      "kind": "img:src",
+      "alt": "banner",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/newslider125052024.jpg",
+      "kind": "img:src",
+      "alt": "banner",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/newslider225052024.jpg",
+      "kind": "img:src",
+      "alt": "banner",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/mwos-dlailama.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "banner-img    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/mwos-mohamadYounish.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "banner-img    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/mwos-placements.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "banner-img    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/1_17062024_1.jpg",
+      "kind": "img:src",
+      "alt": "Ranking Banner",
+      "context": "w-100    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/2_17062024_1.jpg",
+      "kind": "img:src",
+      "alt": "Ranking Banner",
+      "context": "w-100    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/3_17062024_1.jpg",
+      "kind": "img:src",
+      "alt": "Ranking Banner",
+      "context": "w-100    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/4_17062024_1.jpg",
+      "kind": "img:src",
+      "alt": "Ranking Banner",
+      "context": "w-100    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/best-university2.jpeg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R7_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R6_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R3_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R5_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R4_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R2_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/R1_17062024_1.jpg",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "rankingsBlock__slider__item--image jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve1.png",
+      "kind": "img:src",
+      "alt": "approval certificate image",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve2.png",
+      "kind": "img:src",
+      "alt": "Google logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve3.png",
+      "kind": "img:src",
+      "alt": "Microsoft logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve5.png",
+      "kind": "img:src",
+      "alt": "Tech Mahindra logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve6.png",
+      "kind": "img:src",
+      "alt": "Amazon logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve8.png",
+      "kind": "img:src",
+      "alt": "Flipkart logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve9.png",
+      "kind": "img:src",
+      "alt": "Flipkart logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve10.png",
+      "kind": "img:src",
+      "alt": "Flipkart logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve11.png",
+      "kind": "img:src",
+      "alt": "Flipkart logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/approvals/approve12.png",
+      "kind": "img:src",
+      "alt": "Flipkart logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/04.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/05.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/06.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/02.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/kiran nadar.jpg.jpeg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/doctoraldegreerecipient/2025/01.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2024/vajantimala.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2024/Pt.%20Hariprasad%20Chaurasia%20(Padma%20Vibhushan)%20Eminent%20Fluitist,%20Composer%20and%20Music%20Director.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2024/Dr.%20Ajai%20Chowdhry%20(Padma%20Bhushan)%20Co-founder%20HCL%20and%20Chairman-Mission%20Governing%20Board,%20%20National%20Quantum%20Mission%20of%20India.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2024/Prof.%20Pushpesh%20Pant%20(Padma%20Shri)%20Academician,%20Food%20Critic%20and%20Historian.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2024/Shri%20Barry%20John%20Theatre%20Director,%20Actor,%20Writer%20and%20Acting%20Guru.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2023/Raghu%20Rai.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2023/Pradeep%20Chowbey.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2023/Manoj%20Bajpayee.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2022/Prabha%20Atre.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2022/Ustad%20Zakir%20Hussain.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2022/Vijay%20P.%20Bhatkar.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2022/Anju%20Bobby%20George.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2022/Vishal%20Bhardwaj.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2021/Anil%20Kakodkar.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2021/Sharmila%20Tagore.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2021/Mithali%20Raj.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2020/Krishnaswamy%20Kasturirangan.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2020/Subramanian%20Ramadorai.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2020/Ameen%20Sayani.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2019/Dr.%20Rajagopala%20Chidambaram.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2019/Birju%20Maharaj.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2018/Naseeruddin%20Shah.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2019/William%20Mark%20Tully.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2018/P.%20T.%20Usha.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2018/M.S.%20Swaminathan.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2018/Ratan%20Thiyam.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2019/Dalbir%20Singh%20Suhag.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2017/A.S.%20Kiran%20Kumar.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2017/Dr.%20Raghunath%20Anant%20Mashelkar.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2017/Yuvraj%20Singh.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/Convocations_img/2016/Shyam%20Benegal.jpg",
+      "kind": "img:src",
+      "alt": "",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-7.jpg",
+      "kind": "img:src",
+      "alt": "Achievement 1 image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/trophies4.webp",
+      "kind": "img:src",
+      "alt": "Government badges image",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-9.jpg",
+      "kind": "img:src",
+      "alt": "Achievement 2 image",
+      "context": "img-fluid w-100 ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/trophies2.webp",
+      "kind": "img:src",
+      "alt": "Government badges image",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/Engg.jpg",
+      "kind": "img:src",
+      "alt": "Highest number of patents image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/hompage29052024-533x296_1.jpg",
+      "kind": "img:src",
+      "alt": "Achievement 1 image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/hompage29052024-533x296_2.jpg",
+      "kind": "img:src",
+      "alt": "Achievement 2 image",
+      "context": "img-fluid w-100 ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/hompage29052024-1386x1140.jpg",
+      "kind": "img:src",
+      "alt": "Highest number of patents image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_1.png",
+      "kind": "img:src",
+      "alt": "NAAC A+ Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_3.png",
+      "kind": "img:src",
+      "alt": "QS I GAUGE Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_6.png",
+      "kind": "img:src",
+      "alt": "OutLook Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_7.png",
+      "kind": "img:src",
+      "alt": "OutLook Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_8.png",
+      "kind": "img:src",
+      "alt": "OutLook Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/Logo_9.png",
+      "kind": "img:src",
+      "alt": "OutLook Ranking",
+      "context": "img-fluid ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-4.jpg",
+      "kind": "img:src",
+      "alt": "Reasons to join image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-5.jpg",
+      "kind": "img:src",
+      "alt": "Reasons to join image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage-29052024-645x602.jpg",
+      "kind": "img:src",
+      "alt": "Global Tie Up image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-2.jpg",
+      "kind": "img:src",
+      "alt": "CUSAT",
+      "context": "img-fluid w-100 h-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/homepage04052024-1.jpg",
+      "kind": "img:src",
+      "alt": "The Father of Marketing",
+      "context": "img-fluid w-100 h-100 ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/jakir_husain_new.jpg",
+      "kind": "img:src",
+      "alt": "International Faculty Exchange Program",
+      "context": "jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon1.png",
+      "kind": "img:src",
+      "alt": "research icon one",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon2.png",
+      "kind": "img:src",
+      "alt": "research icon two",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon3.png",
+      "kind": "img:src",
+      "alt": "research icon three",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon4.png",
+      "kind": "img:src",
+      "alt": "research icon four",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon5.png",
+      "kind": "img:src",
+      "alt": "research icon five",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon6.png",
+      "kind": "img:src",
+      "alt": "research icon six",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon7.png",
+      "kind": "img:src",
+      "alt": "research icon seven",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon8.png",
+      "kind": "img:src",
+      "alt": "research icon eight",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon9.png",
+      "kind": "img:src",
+      "alt": "research icon nine",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/researchicon/researchicon10.png",
+      "kind": "img:src",
+      "alt": "research icon ten",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/soet/images/CS13.jpg",
+      "kind": "img:src",
+      "alt": "FMS lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/soet/images/CS14.jpg",
+      "kind": "img:src",
+      "alt": "XRD lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/420x320_c.jpg",
+      "kind": "img:src",
+      "alt": "Molecular Biology lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/sos/images/Biotechnology Lab_W.jpg",
+      "kind": "img:src",
+      "alt": "3D Printing lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/420x320_a.jpg",
+      "kind": "img:src",
+      "alt": "Genetics lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/sos/images/Forensic_W.jpg",
+      "kind": "img:src",
+      "alt": "SEM lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/sos/images/Nano Research Lab_W_2.jpg",
+      "kind": "img:src",
+      "alt": "SEM lab image",
+      "context": "img-fluid w-100 jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/1620x507.JPG",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "patent-section pt-0 building-multiply-bg jpdiv    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/amazon.png",
+      "kind": "img:src",
+      "alt": "amazon logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/adani.png",
+      "kind": "img:src",
+      "alt": "adani logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/capegemini.png",
+      "kind": "img:src",
+      "alt": "capegemini logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/cognizent.png",
+      "kind": "img:src",
+      "alt": "cognizent logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/ais.png",
+      "kind": "img:src",
+      "alt": "ais logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/infosys.png",
+      "kind": "img:src",
+      "alt": "infosys logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/hp.png",
+      "kind": "img:src",
+      "alt": "hp logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/microsoft.png",
+      "kind": "img:src",
+      "alt": "microsoft logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/tatasteel.png",
+      "kind": "img:src",
+      "alt": "tatasteel logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/tcs.png",
+      "kind": "img:src",
+      "alt": "tcs logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/wipro.png",
+      "kind": "img:src",
+      "alt": "wipro logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/toi.png",
+      "kind": "img:src",
+      "alt": "toi logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/zeenews.png",
+      "kind": "img:src",
+      "alt": "zeenews logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/thermax.png",
+      "kind": "img:src",
+      "alt": "thermax logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/dainikbhaskar.png",
+      "kind": "img:src",
+      "alt": "dainikbhaskar logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/dainikjagran.png",
+      "kind": "img:src",
+      "alt": "dainikjagran logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/placementlogo/visasteel.png",
+      "kind": "img:src",
+      "alt": "visasteel logo",
+      "context": "img-fluid ptrans m-2    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/ITM-White.png",
+      "kind": "img:src",
+      "alt": "itm university logo",
+      "context": "img-fluid    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/newicons/new.gif",
+      "kind": "img:src",
+      "alt": "new",
+      "context": "    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/includes/assets/images/virtual-tour-logo-w.webp",
+      "kind": "img:src",
+      "alt": "Virtual Tour 360",
+      "context": "w-50 ptrans  Virtual Tour 360  "
+    },
+    {
+      "url": "https://www.itmuniversity.ac.in/includes/assets/images/search-icon.webp",
+      "kind": "inline-background",
+      "alt": "",
+      "context": "se-btn ptrans    "
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/IFEP2.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/80x30_px.png",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_b.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_e.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_c.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_d.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_d.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_c.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_e.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_b.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_f.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_g.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_g.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/576x518_px_h.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/104x71_px_a.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/cu-author-logo.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/435x420_d.jpg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/partner-logos.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/rohitash-nagpal.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/manjot-singh.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/antesh-chopra.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/karthik-ibm.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/yunus.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/swethambri.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/anshdeep-singh.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/surbhi-gupta.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/urvi-khosla.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/naman-sharma-18.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/Parul-Asijaa.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/assets/upload/reviews/ankur-saini.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/reviewer1.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/reviewer2.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/reviewer3.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/conferences/job/jobfair.jpeg",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/itmu_newlogo.png",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://www.itmuniversity.ac.in/new-assets/images/cu-alumni-banner.webp",
+      "kind": "embedded",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/home/27-itmu.png",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/iqac-banner.webp",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/diwali-banner.webp",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/microsoft-placement-banner.webp",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/cuchd-banner.jpg",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/hero-bg1.webp",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    },
+    {
+      "url": "https://resources.itmuniversity.ac.in/newweb/images/hero-bg2.webp",
+      "kind": "background",
+      "alt": "",
+      "context": ""
+    }
+  ]
+}

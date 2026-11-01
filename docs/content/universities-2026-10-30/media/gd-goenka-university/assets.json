@@ -1,0 +1,57 @@
+{
+  "id": 30,
+  "slug": "gd-goenka-university",
+  "name": "GD Goenka University",
+  "checked_on": "2026-10-30",
+  "assets": [
+    {
+      "role": "logo",
+      "cms_field": "logo",
+      "file": "media/gd-goenka-university/logo.svg",
+      "source_page": "https://www.gdgoenkauniversity.com/",
+      "download_url": "https://www.gdgoenkauniversity.com/siteassets/images/gd-goenka-img/home-logo.svg",
+      "source_kind": "official",
+      "description": "GD Goenka University official wordmark and NAAC A plus brand strip",
+      "alt": "GD Goenka University official wordmark and NAAC A plus brand strip",
+      "campus": null,
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "GD Goenka University",
+      "review_status": "verified_source",
+      "notes": "Original 5496.0 x 786.0 SVG; unchanged downloaded bytes. Official header brand strip includes the university wordmark and accreditation badge. White university lettering requires a dark display container in the frontend/CMS preview. Official footer and application-portal logo variants also use white lettering. The official compact favicon is only 32 x 32 and was not selected as a card logo. No recolouring or modification performed.",
+      "display_background": "dark"
+    },
+    {
+      "role": "campus_primary",
+      "cms_field": "image",
+      "file": "media/gd-goenka-university/campus-02.webp",
+      "source_page": "https://www.gdgoenkauniversity.com/about-us/about-gd-goenka-university",
+      "download_url": "https://www.gdgoenkauniversity.com/siteassets/images/state_art1.webp",
+      "source_kind": "official",
+      "description": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+      "alt": "GD Goenka University campus buildings, paths and landscaped lawns at Gurugram",
+      "campus": "Gurugram, Haryana",
+      "agriculture_specific": false,
+      "identity_evidence": "The official institution page directly links this image; its campus/facility context and visual signage or architectural details confirm the named institution.",
+      "rights_status": "public_source_no_explicit_license",
+      "attribution": "GD Goenka University",
+      "review_status": "verified_source",
+      "notes": "Original 656 x 631 WEBP; unchanged downloaded bytes. Below preferred 800px photo width; retained at source resolution without upscaling."
+    }
+  ],
+  "gaps": [
+    {
+      "role": "card_logo",
+      "reason": "No suitable official coloured/compact mark for white backgrounds found in the public variants inspected. Header SVG, footer SVG and university-linked application portal logo use white lettering; public favicon is only 32 x 32. Retained original primary SVG explicitly requires a dark container.",
+      "attempted_sources": [
+        "https://www.gdgoenkauniversity.com/",
+        "https://www.gdgoenkauniversity.com/siteassets/images/gd-goenka-img/home-logo.svg",
+        "https://www.gdgoenkauniversity.com/siteassets/images/gd-goenka-img/footer-logo.svg",
+        "https://applications.gdgoenkauniversity.com/",
+        "https://cdn.npfs.co/uploads/template/429/1549/publish/images/logo.webp?1792063034",
+        "https://www.gdgoenkauniversity.com/favicon.ico"
+      ]
+    }
+  ]
+}

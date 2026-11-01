@@ -1,0 +1,317 @@
+.rs-programme-detail {
+  --rs-pd-ruby: #a22334;
+  --rs-pd-ivory: #fcfaf5;
+  --rs-pd-stone: #ede6de;
+  color: #6b6260;
+  background: var(--rs-pd-ivory);
+}
+.rs-programme-detail .container-page { width: min(1280px, calc(100% - 96px)); max-width: none; padding-inline: 0; margin-inline: auto; }
+@media (max-width:1100px) { .rs-programme-detail .container-page { width:calc(100% - 48px); } }
+@media (min-width:901px) and (max-width:1100px) { .rs-programme-detail .container-page { width:calc(100% - 104px); } }
+@media (max-width:640px) { .rs-programme-detail .container-page { width:calc(100% - 36px); } }
+.rs-programme-detail :is(h1, h2, h3) { color: #66514e; overflow-wrap: anywhere; }
+.rs-programme-detail :is(h1, h2) { font-family: var(--font-sans); font-weight: 500; text-wrap: balance; }
+.rs-programme-detail :is(button, a, select, summary):focus-visible { outline: 3px solid var(--rs-pd-ruby); outline-offset: 4px; }
+.rs-programme-detail :is(p, dd, li, a) { overflow-wrap: anywhere; }
+.rs-programme-detail .rs-pd-hero { padding: 22px 0 48px; border-bottom: 1px solid var(--rs-pd-stone); background: var(--rs-pd-ivory); }
+.rs-programme-detail .rs-pd-breadcrumbs { margin-bottom: 30px; }
+.rs-programme-detail .rs-pd-breadcrumbs ol { font-size: 12px; }
+.rs-programme-detail .rs-pd-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 350px; align-items: start; gap: clamp(30px, 5vw, 72px); }
+.rs-programme-detail .rs-pd-intro { min-width: 0; padding-top: 16px; }
+.rs-programme-detail .rs-pd-eyebrow { margin: 0 0 14px; color: var(--rs-pd-ruby); font-size: 11px; line-height: 1.5; letter-spacing: .14em; text-transform: uppercase; font-weight: 700; }
+.rs-programme-detail h1 { margin: 20px 0; font-size: clamp(34px, 3.5vw, 53px); line-height: 1.14; letter-spacing: -.035em; }
+.rs-programme-detail .rs-pd-tags { display: flex; flex-wrap: wrap; gap: 7px; }
+.rs-programme-detail .rs-pd-tags > span { display: inline-flex; align-items: center; border: 1px solid #e8ded4; border-radius: 5px; padding: 5px 9px; background: #f5f0e8; color: #74635c; font-size: 11px; font-weight: 600; line-height: 1.5; }
+.rs-programme-detail .rs-pd-hero-facts { display: flex; flex-wrap: wrap; gap: 12px 22px; margin: 22px 0; }
+.rs-programme-detail .rs-pd-hero-facts > span { display: inline-flex; gap: 8px; align-items: center; font-size: 13px; font-weight: 600; }
+.rs-programme-detail .rs-pd-hero-facts svg { color: var(--rs-pd-ruby); flex-shrink: 0; }
+.rs-programme-detail .rs-pd-summary { max-width: 66ch; margin: 18px 0; font-size: 15px; line-height: 1.8; }
+.rs-programme-detail .rs-pd-summary .prose { font-size: inherit; line-height: inherit; color: inherit; }
+.rs-programme-detail .rs-pd-summary p { margin: 0 0 12px; }
+.rs-programme-detail .rs-pd-rating { margin-top: 18px; }
+.rs-programme-detail .rs-pd-hero-links { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 27px; }
+.rs-programme-detail .rs-pd-button { min-height: 46px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; border: 1px solid transparent; border-radius: 6px; padding: 11px 17px; font-size: 13px; font-weight: 700; line-height: 1.4; text-align: center; text-decoration: none; cursor: pointer; transition: background-color .15s, border-color .15s; }
+.rs-programme-detail .rs-pd-button svg { flex-shrink: 0; }
+.rs-programme-detail .rs-pd-button-primary { background: var(--rs-pd-ruby); color: #fff; }
+.rs-programme-detail .rs-pd-button-primary:hover { background: #8f2130; }
+.rs-programme-detail .rs-pd-button-outline { border-color: #c6a6a5; color: var(--rs-pd-ruby); background: transparent; }
+.rs-programme-detail .rs-pd-button-outline:hover { background: #f6eeea; border-color: var(--rs-pd-ruby); }
+.rs-programme-detail .rs-pd-button-ivory { color: var(--rs-pd-ruby); background: var(--rs-pd-ivory); }
+.rs-programme-detail .rs-pd-button-ivory:hover { background: #f0e8dc; }
+.rs-programme-detail .rs-pd-button-light-outline { border-color: #d99ea4; background: transparent; color: #fff; }
+.rs-programme-detail .rs-pd-button-light-outline:hover { background: #b03847; }
+.rs-programme-detail .rs-pd-text-link { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; color: var(--rs-pd-ruby); font-size: 13px; line-height: 1.5; font-weight: 700; text-decoration: none; }
+.rs-programme-detail .rs-pd-text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.rs-programme-detail .rs-pd-text-link svg { flex-shrink: 0; }
+.rs-programme-detail .rs-pd-admission { min-width: 0; padding: 27px; border-radius: 12px; background: var(--rs-pd-ruby); color: #fff7f0; box-shadow: 0 14px 34px #a2233412; }
+.rs-programme-detail .rs-pd-admission .rs-pd-eyebrow { color: #f5d9d7; margin-bottom: 10px; }
+.rs-programme-detail .rs-pd-admission h2 { margin: 0 0 12px; color: var(--rs-pd-ivory); font-size: 29px; line-height: 1.15; }
+.rs-programme-detail .rs-pd-admission-intro { font-size: 13px; line-height: 1.7; color: #f4deda; }
+.rs-programme-detail .rs-pd-university-select { display: block; margin-top: 22px; font-size: 12px; font-weight: 600; }
+.rs-programme-detail .rs-pd-university-select select { display: block; width: 100%; min-width: 0; min-height: 44px; margin-top: 7px; padding: 10px; border: 1px solid #d9989f; border-radius: 5px; background: #fcfaf5; color: #6b6260; font-size: 12px; }
+.rs-programme-detail .rs-pd-admission-university { margin-top: 20px; padding: 10px 0; border-bottom: 1px solid #c66e78; font-size: 14px; font-weight: 600; }
+.rs-programme-detail .rs-pd-admission-fee { display: grid; gap: 8px; margin: 23px 0; }
+.rs-programme-detail .rs-pd-admission-fee > span { font-size: 11px; line-height: 1.5; color: #f6dcd8; }
+.rs-programme-detail .rs-pd-admission-fee strong { font-family: var(--font-sans); font-weight: 500; font-size: 29px; line-height: 1.15; color: #fff; }
+.rs-programme-detail .rs-pd-admission-fee p { margin: 0; font-size: 12px; line-height: 1.6; color: #f8e5de; }
+.rs-programme-detail .rs-pd-admission-actions { display: grid; gap: 9px; }
+.rs-programme-detail .rs-pd-admission-eligibility { margin-top: 13px; border-bottom: 1px solid #c66e78; font-size: 12px; }
+.rs-programme-detail .rs-pd-admission-eligibility summary { min-height: 44px; padding: 13px 0; cursor: pointer; font-weight: 600; }
+.rs-programme-detail .rs-pd-admission-eligibility ul { display: grid; gap: 9px; padding: 0 0 15px 17px; list-style: disc; line-height: 1.6; }
+.rs-programme-detail .rs-pd-admission-resources { display: grid; margin-top: 12px; }
+.rs-programme-detail .rs-pd-admission-resources a { display: flex; align-items: center; gap: 7px; min-height: 44px; padding: 5px 0; color: #fff4ed; font-size: 12px; }
+.rs-programme-detail .rs-pd-admission-resources a svg:last-child { margin-left: auto; }
+.rs-programme-detail .rs-pd-admission-whatsapp { display: flex; align-items: center; justify-content: space-between; gap: 10px; min-height: 44px; margin-top: 7px; font-size: 12px; font-weight: 600; color: #fff4ed; }
+.rs-programme-detail .rs-pd-admission :is(a, button, summary):focus-visible { outline-color: #fcfaf5; }
+.rs-programme-detail .rs-pd-specs { padding: 28px 0; background: #fff; border-bottom: 1px solid var(--rs-pd-stone); }
+.rs-programme-detail .rs-pd-facts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 22px; }
+.rs-programme-detail .rs-pd-facts > div { border-left: 2px solid #e7c6c4; padding-left: 14px; }
+.rs-programme-detail .rs-pd-facts dt { color: #827673; font-size: 11px; line-height: 1.5; margin-bottom: 6px; }
+.rs-programme-detail .rs-pd-facts dd { color: #6d5552; font-size: 15px; line-height: 1.5; font-weight: 600; }
+.rs-programme-detail .rs-pd-recognition { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; padding-top: 23px; margin-top: 24px; border-top: 1px solid var(--rs-pd-stone); }
+.rs-programme-detail .rs-pd-recognition > p { font-size: 11px; }
+.rs-programme-detail .rs-pd-recognition > div { display: flex; flex-wrap: wrap; gap: 7px; }
+.rs-programme-detail .rs-pd-recognition span { padding: 4px 8px; color: #805d54; border: 1px solid #ebdfd3; border-radius: 4px; font-size: 10px; }
+.rs-programme-detail .rs-pd-highlights { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; margin-top: 25px; }
+.rs-programme-detail .rs-pd-highlights > div { padding: 12px 15px; border-radius: 6px; background: var(--rs-pd-ivory); }
+.rs-programme-detail .rs-pd-highlights dt { font-size: 11px; margin-bottom: 5px; }
+.rs-programme-detail .rs-pd-highlights dd { font-size: 13px; font-weight: 600; }
+.rs-programme-detail .rs-pd-content-grid { display: grid; grid-template-columns: minmax(0, 1fr) 280px; gap: 28px; align-items: start; padding-block: 42px; }
+.rs-programme-detail .rs-pd-content { min-width: 0; border: 1px solid var(--rs-pd-stone); border-radius: 10px; padding: 28px; background: #fff; }
+.rs-programme-detail .rs-pd-content h2 { font-size: clamp(23px, 2.4vw, 31px); line-height: 1.25; letter-spacing: -.02em; }
+.rs-programme-detail .rs-pd-content h3 { font-weight: 600; }
+.rs-programme-detail .rs-pd-content [class*="bg-gradient-to"] { background-image: none; background-color: var(--rs-pd-ivory); }
+.rs-programme-detail .rs-pd-content [class*="bg-gradient-to"].text-white { background-color: var(--rs-pd-ruby); }
+.rs-programme-detail > nav[aria-label="Sections"] a { min-height: 44px; }
+.rs-programme-detail .rs-pd-fact-sidebar { display: grid; gap: 18px; position: sticky; top: 145px; }
+.rs-programme-detail .rs-pd-fact-sidebar:empty { display: none; }
+.rs-programme-detail .rs-pd-content-grid:has(> .rs-pd-fact-sidebar:empty) { grid-template-columns: minmax(0, 1fr); }
+.rs-programme-detail .rs-pd-universities { padding: 48px 0; background: #f3eee6; scroll-margin-top: 145px; }
+.rs-programme-detail .rs-pd-section-heading { max-width: 740px; margin-bottom: 28px; }
+.rs-programme-detail .rs-pd-section-heading h2 { font-size: clamp(28px, 3vw, 38px); line-height: 1.2; margin: 0 0 15px; }
+.rs-programme-detail .rs-pd-section-heading > p:last-child { font-size: 14px; line-height: 1.7; }
+.rs-programme-detail .rs-pd-explorer { min-width: 0; }
+.rs-programme-detail .rs-pd-explorer-toolbar :is(button, select) { min-height: 44px; }
+.rs-programme-detail .rs-pd-university-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.rs-programme-detail .rs-pd-university-grid > li { min-width: 0; }
+.rs-programme-detail .rs-pd-university-row { height: 100%; flex-direction: column; align-items: stretch; border-radius: 10px; padding: 22px; gap: 22px; }
+.rs-programme-detail .rs-pd-university-actions { width: 100%; border-top: 1px solid #ede6de; padding-top: 18px; margin-top: auto; }
+.rs-programme-detail .rs-pd-university-actions > div { text-align: left; margin-bottom: 6px; }
+.rs-programme-detail .rs-pd-university-actions > :is(a, label) { min-height: 44px; }
+.rs-programme-detail .rs-pd-explorer label:has(input[type="checkbox"]) { min-height: 44px; }
+.rs-programme-detail .rs-pd-explorer .fixed :is(button, a) { min-height: 44px; }
+.rs-programme-detail .rs-pd-closing { padding: 48px 0; background: #eee5da; border-top: 1px solid #e0d6ca; }
+.rs-programme-detail .rs-pd-closing-inner { display: flex; align-items: center; justify-content: space-between; gap: 30px; }
+.rs-programme-detail .rs-pd-closing-inner > div:first-child { max-width: 660px; }
+.rs-programme-detail .rs-pd-closing h2 { margin: 0 0 13px; font-size: clamp(28px, 3vw, 38px); line-height: 1.2; }
+.rs-programme-detail .rs-pd-closing p:last-child { font-size: 14px; line-height: 1.7; }
+.rs-programme-detail .rs-pd-closing-actions { display: grid; gap: 10px; min-width: 230px; }
+.rs-programme-detail .rs-pd-offering-university { display: inline-flex; align-items: center; gap: 13px; max-width: 100%; margin: 8px 0 2px; font-size: 14px; line-height: 1.4; font-weight: 600; color: #6b6260; }
+.rs-programme-detail .rs-pd-university-mark { width: 52px; height: 52px; flex-shrink: 0; position: relative; border: 1px solid #e6dfd6; border-radius: 7px; background: #fff; overflow: hidden; }
+.rs-programme-detail .rs-pd-university-mark img { object-fit: contain; padding: 5px; }
+.rs-programme-detail .rs-pd-university-mark[data-logo-kind="wordmark"][data-university*="chandigarh"] { background: #a22334; }
+.rs-programme-detail .rs-pd-offering-facts { display: grid; gap: 11px; border-top: 1px solid #c66e78; border-bottom: 1px solid #c66e78; padding: 16px 0; margin-bottom: 20px; }
+.rs-programme-detail .rs-pd-offering-facts > div { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 12px; font-size: 12px; }
+.rs-programme-detail .rs-pd-offering-facts dt { color: #f4deda; }
+.rs-programme-detail .rs-pd-offering-facts dd { text-align: right; font-weight: 600; }
+.rs-programme-detail .rs-pd-offering-fee > .rs-pd-button { width: 100%; }
+.rs-programme-detail .rs-pd-offering-main { display: grid; grid-template-columns: minmax(0, 1fr) 350px; gap: 28px; align-items: start; padding-block: 40px 56px; }
+.rs-programme-detail .rs-pd-offering-sections { min-width: 0; display: grid; gap: 24px; }
+.rs-programme-detail .rs-pd-section-tabs { display: flex; overflow-x: auto; max-width: 100%; gap: 5px; padding: 5px 1px 11px; scrollbar-width: thin; }
+.rs-programme-detail .rs-pd-section-tabs a { display: flex; align-items: center; flex-shrink: 0; min-height: 44px; padding: 10px 16px; border: 1px solid #dfd2c9; border-radius: 5px; font-size: 12px; font-weight: 600; color: #6b6260; }
+.rs-programme-detail .rs-pd-section-tabs a[aria-current] { color: #fff; background: var(--rs-pd-ruby); border-color: var(--rs-pd-ruby); }
+.rs-programme-detail :is(#programme-content, #offering-eligibility, #offering-enquiry) { scroll-margin-top: 110px; }
+.rs-programme-detail .rs-pd-panel { border: 1px solid var(--rs-pd-stone); border-radius: 10px; padding: 27px; background: #fff; }
+.rs-programme-detail .rs-pd-panel h2 { margin: 0 0 22px; font-size: 27px; line-height: 1.2; }
+.rs-programme-detail .rs-pd-panel > p:last-child { font-size: 14px; line-height: 1.7; }
+.rs-programme-detail .rs-pd-checklist { display: grid; gap: 13px; font-size: 14px; line-height: 1.7; }
+.rs-programme-detail .rs-pd-checklist li { display: flex; align-items: flex-start; gap: 11px; }
+.rs-programme-detail .rs-pd-checklist svg { flex-shrink: 0; color: var(--rs-pd-ruby); margin-top: 3px; }
+.rs-programme-detail .rs-pd-exam-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+.rs-programme-detail .rs-pd-exam-links h3 { width: 100%; margin-bottom: 4px; font-size: 13px; font-weight: 600; }
+.rs-programme-detail .rs-pd-exam-links :is(a, span) { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: var(--rs-pd-ruby); padding: 8px 11px; border: 1px solid #e5d9d4; border-radius: 5px; font-size: 12px; }
+.rs-programme-detail .rs-pd-recognition-group { margin-bottom: 20px; }
+.rs-programme-detail .rs-pd-recognition-group h3 { font-size: 12px; font-weight: 600; margin-bottom: 9px; }
+.rs-programme-detail .rs-pd-resource-grid { display: grid; gap: 10px; }
+.rs-programme-detail .rs-pd-resource-grid a { display: flex; align-items: center; gap: 12px; min-height: 60px; padding: 12px 15px; background: var(--rs-pd-ivory); border: 1px solid #e7dfd5; border-radius: 6px; color: var(--rs-pd-ruby); font-size: 13px; font-weight: 600; }
+.rs-programme-detail .rs-pd-resource-grid svg { flex-shrink: 0; }
+.rs-programme-detail .rs-pd-resource-grid svg:last-child { margin-left: auto; }
+.rs-programme-detail .rs-pd-enquiry-panel { position: sticky; top: 110px; min-width: 0; border: 1px solid #e4d7ce; border-top: 3px solid var(--rs-pd-ruby); border-radius: 10px; padding: 25px; background: #fff; }
+.rs-programme-detail .rs-pd-enquiry-panel h2 { font-size: 29px; line-height: 1.15; margin-bottom: 15px; }
+.rs-programme-detail .rs-pd-enquiry-context { display: grid; gap: 6px; padding-bottom: 20px; margin-bottom: 22px; border-bottom: 1px solid #ede6de; font-size: 13px; font-weight: 600; line-height: 1.5; }
+.rs-programme-detail .rs-pd-enquiry-context span { font-size: 12px; font-weight: 400; }
+.rs-programme-detail .rs-pd-enquiry-panel :is(input:not([type="checkbox"]), select, button[type="submit"]) { min-height: 44px; }
+@media (max-width: 1023px) {
+  .rs-programme-detail .rs-pd-hero-grid { grid-template-columns: minmax(0, 1fr) 310px; gap: 28px; }
+  .rs-programme-detail .rs-pd-admission { padding: 23px; }
+  .rs-programme-detail .rs-pd-content-grid { grid-template-columns: minmax(0, 1fr) 240px; gap: 20px; }
+  .rs-programme-detail .rs-pd-offering-main { grid-template-columns: minmax(0, 1fr) 310px; gap: 20px; }
+  .rs-programme-detail .rs-pd-content, .rs-programme-detail .rs-pd-panel { padding: 22px; }
+  .rs-programme-detail .rs-pd-closing-inner { align-items: start; }
+}
+@media (max-width: 767px) {
+  .rs-programme-detail .rs-pd-hero { padding: 16px 0 30px; }
+  .rs-programme-detail .rs-pd-breadcrumbs { margin-bottom: 20px; }
+  .rs-programme-detail .rs-pd-hero-grid { grid-template-columns: minmax(0, 1fr); gap: 27px; }
+  .rs-programme-detail .rs-pd-intro { padding-top: 0; }
+  .rs-programme-detail h1 { font-size: 35px; margin: 17px 0; }
+  .rs-programme-detail .rs-pd-summary { font-size: 14px; }
+  .rs-programme-detail .rs-pd-hero-facts { gap: 10px 17px; margin: 18px 0; }
+  .rs-programme-detail .rs-pd-hero-links { gap: 8px 18px; margin-top: 19px; }
+  .rs-programme-detail .rs-pd-admission { padding: 23px; }
+  .rs-programme-detail .rs-pd-admission h2 { font-size: 27px; }
+  .rs-programme-detail .rs-pd-admission-actions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rs-programme-detail .rs-pd-facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 15px; }
+  .rs-programme-detail .rs-pd-highlights { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .rs-programme-detail .rs-pd-content-grid { grid-template-columns: minmax(0, 1fr); padding-block: 28px; }
+  .rs-programme-detail .rs-pd-fact-sidebar { position: static; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .rs-programme-detail .rs-pd-content { padding: 20px; }
+  .rs-programme-detail .rs-pd-universities { padding: 32px 0; }
+  .rs-programme-detail .rs-pd-university-grid { grid-template-columns: minmax(0, 1fr); }
+  .rs-programme-detail .rs-pd-university-row { padding: 20px; }
+  .rs-programme-detail .rs-pd-closing { padding: 32px 0; }
+  .rs-programme-detail .rs-pd-closing-inner { flex-direction: column; gap: 23px; }
+  .rs-programme-detail .rs-pd-closing-actions { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); min-width: 0; }
+  .rs-programme-detail .rs-pd-offering-main { grid-template-columns: minmax(0, 1fr); padding-block: 26px 36px; gap: 27px; }
+  .rs-programme-detail .rs-pd-offering-sections { gap: 19px; }
+  .rs-programme-detail .rs-pd-enquiry-panel { position: static; }
+  .rs-programme-detail .rs-pd-panel { padding: 22px 20px; }
+  .rs-programme-detail .rs-pd-panel h2 { font-size: 25px; }
+}
+@media (max-width: 400px) {
+  .rs-programme-detail h1 { font-size: 31px; }
+  .rs-programme-detail .rs-pd-admission-actions, .rs-programme-detail .rs-pd-closing-actions, .rs-programme-detail .rs-pd-fact-sidebar { grid-template-columns: minmax(0, 1fr); }
+  .rs-programme-detail .rs-pd-admission, .rs-programme-detail .rs-pd-enquiry-panel { padding: 21px 18px; }
+  .rs-programme-detail .rs-pd-content { padding: 18px 15px; }
+  .rs-programme-detail .rs-pd-hero-links { align-items: stretch; flex-direction: column; }
+}
+
+/* Detail pages: keep the catalogue dense without shrinking reading text or tap targets. */
+.rs-programme-detail .rs-pd-hero { padding-block: 18px 32px; }
+@media (min-width: 901px) and (max-width: 1100px) {
+  .rs-programme-detail .container-page { width: calc(100% - 48px); }
+}
+.rs-programme-detail .rs-pd-breadcrumbs { margin-bottom: 18px; }
+.rs-programme-detail .rs-pd-breadcrumbs ol { font-size: 13px; }
+.rs-programme-detail .rs-pd-breadcrumbs a { display: inline-flex; align-items: center; min-height: 32px; }
+.rs-programme-detail .rs-pd-hero-grid { grid-template-columns: minmax(0, 1fr) minmax(320px, 370px); gap: clamp(22px, 3vw, 42px); }
+.rs-programme-detail .rs-pd-intro { padding-top: 0; }
+.rs-programme-detail .rs-pd-eyebrow { font-size: 12px; margin-bottom: 9px; }
+.rs-programme-detail h1 { margin: 12px 0; font-size: clamp(32px, 3vw, 46px); line-height: 1.18; }
+.rs-programme-detail .rs-pd-tags > span { font-size: 13px; padding: 5px 9px; }
+.rs-programme-detail .rs-pd-hero-facts { margin: 16px 0; gap: 9px 18px; }
+.rs-programme-detail .rs-pd-hero-facts > span { font-size: 14px; }
+.rs-programme-detail .rs-pd-summary { margin: 12px 0; font-size: 16px; line-height: 1.6; }
+.rs-programme-detail .rs-pd-summary p { margin-bottom: 8px; }
+.rs-programme-detail .rs-pd-rating { margin-top: 12px; }
+.rs-programme-detail .rs-pd-hero-links { margin-top: 18px; gap: 8px 18px; }
+.rs-programme-detail .rs-pd-button { min-height: 44px; font-size: 14px; }
+.rs-programme-detail .rs-pd-text-link { font-size: 14px; }
+.rs-programme-detail .rs-pd-admission { padding: 22px; }
+.rs-programme-detail .rs-pd-admission h2 { font-size: 25px; }
+.rs-programme-detail .rs-pd-admission .rs-pd-eyebrow { margin-bottom: 6px; }
+.rs-programme-detail .rs-pd-admission h2 { margin-bottom: 4px; }
+.rs-programme-detail .rs-pd-admission-intro,
+.rs-programme-detail .rs-pd-university-select,
+.rs-programme-detail .rs-pd-university-select select,
+.rs-programme-detail .rs-pd-admission-fee > span,
+.rs-programme-detail .rs-pd-admission-fee p,
+.rs-programme-detail .rs-pd-admission-eligibility,
+.rs-programme-detail .rs-pd-admission-resources a,
+.rs-programme-detail .rs-pd-admission-whatsapp { font-size: 14px; }
+.rs-programme-detail .rs-pd-university-select { margin-top: 15px; }
+.rs-programme-detail .rs-pd-admission-university { margin-top: 15px; }
+.rs-programme-detail .rs-pd-admission-fee { margin: 15px 0; gap: 5px; }
+.rs-programme-detail .rs-pd-admission-fee strong { font-size: 25px; }
+.rs-programme-detail .rs-pd-admission-actions { gap: 7px; }
+.rs-programme-detail .rs-pd-admission-eligibility { margin-top: 8px; }
+.rs-programme-detail .rs-pd-admission-resource-details { border-bottom: 1px solid #c66e78; font-size: 14px; }
+.rs-programme-detail .rs-pd-admission-resource-details summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; font-weight: 600; }
+.rs-programme-detail .rs-pd-admission-resource-details summary::after { content: '+'; font-size: 20px; line-height: 1; margin-left: auto; padding-left: 12px; }
+.rs-programme-detail .rs-pd-admission-resource-details[open] summary::after { content: '−'; }
+.rs-programme-detail .rs-pd-admission-resource-details .rs-pd-admission-resources { margin: 0 0 5px; }
+.rs-programme-detail .rs-pd-university-select select { font-size: 16px; }
+.rs-programme-detail :is(input, textarea, select):focus-visible { outline: 3px solid var(--rs-pd-ruby); outline-offset: 3px; }
+.rs-programme-detail .rs-pd-admission-resources { margin-top: 7px; }
+.rs-programme-detail .rs-pd-specs { padding-block: 22px; }
+.rs-programme-detail .rs-pd-facts { gap: 15px; }
+.rs-programme-detail .rs-pd-facts dt,
+.rs-programme-detail .rs-pd-recognition > p,
+.rs-programme-detail .rs-pd-recognition span,
+.rs-programme-detail .rs-pd-highlights dt { font-size: 13px; }
+.rs-programme-detail .rs-pd-facts dd { font-size: 15px; }
+.rs-programme-detail .rs-pd-recognition { padding-top: 15px; margin-top: 15px; }
+.rs-programme-detail .rs-pd-highlights { margin-top: 16px; gap: 10px; }
+.rs-programme-detail .rs-pd-highlights > div { padding: 10px 12px; }
+.rs-programme-detail .rs-pd-highlights dd { font-size: 14px; }
+.rs-programme-detail .rs-pd-content-grid { padding-block: 28px; gap: 22px; }
+.rs-programme-detail .rs-pd-content { padding: 22px; }
+.rs-programme-detail .rs-pd-content h2 { font-size: clamp(23px, 2.1vw, 29px); }
+.rs-programme-detail .rs-pd-content > .space-y-7,
+.rs-programme-detail .rs-pd-content > .space-y-7 > .space-y-9 { row-gap: 0; }
+.rs-programme-detail .rs-pd-content > .space-y-7 > :not(:first-child) { margin-top: 18px; }
+.rs-programme-detail .rs-pd-content > .space-y-7 > .space-y-9 > :not(:first-child) { margin-top: 22px; }
+.rs-programme-detail .rs-pd-fact-sidebar { gap: 12px; }
+.rs-programme-detail .rs-pd-universities,
+.rs-programme-detail .rs-pd-closing { padding-block: 34px; }
+.rs-programme-detail .rs-pd-section-heading { margin-bottom: 20px; }
+.rs-programme-detail .rs-pd-section-heading h2,
+.rs-programme-detail .rs-pd-closing h2 { font-size: clamp(26px, 2.6vw, 34px); margin-bottom: 8px; }
+.rs-programme-detail .rs-pd-section-heading > p:last-child,
+.rs-programme-detail .rs-pd-closing p:last-child { font-size: 15px; line-height: 1.6; }
+.rs-programme-detail .rs-pd-university-row { padding: 17px; gap: 15px; }
+.rs-programme-detail .rs-pd-university-actions { padding-top: 12px; }
+.rs-programme-detail .rs-pd-closing-inner { gap: 22px; }
+
+/* Institution-specific offering details use the same scale and tighter reading rhythm. */
+.rs-programme-detail .rs-pd-offering-university { min-height: 44px; font-size: 15px; margin: 2px 0; }
+.rs-programme-detail .rs-pd-offering-facts { gap: 8px; padding-block: 12px; margin-bottom: 14px; }
+.rs-programme-detail .rs-pd-offering-facts > div { grid-template-columns: minmax(90px, 1fr) minmax(0, 1fr); font-size: 14px; }
+.rs-programme-detail .rs-pd-offering-main { grid-template-columns: minmax(0, 1fr) 320px; gap: 22px; padding-block: 28px 40px; }
+.rs-programme-detail .rs-pd-offering-sections { gap: 16px; }
+.rs-programme-detail .rs-pd-section-tabs { padding-bottom: 7px; }
+.rs-programme-detail .rs-pd-section-tabs a { font-size: 14px; padding-inline: 13px; }
+.rs-programme-detail .rs-pd-panel { padding: 21px; }
+.rs-programme-detail .rs-pd-panel h2 { font-size: 24px; margin-bottom: 14px; }
+.rs-programme-detail .rs-pd-panel > p:last-child,
+.rs-programme-detail .rs-pd-checklist { font-size: 15px; line-height: 1.6; }
+.rs-programme-detail .rs-pd-exam-links { margin-top: 16px; }
+.rs-programme-detail .rs-pd-exam-links h3,
+.rs-programme-detail .rs-pd-exam-links :is(a, span),
+.rs-programme-detail .rs-pd-recognition-group h3,
+.rs-programme-detail .rs-pd-resource-grid a { font-size: 14px; }
+.rs-programme-detail .rs-pd-recognition-group { margin-bottom: 14px; }
+.rs-programme-detail .rs-pd-resource-grid a { min-height: 48px; padding-block: 9px; }
+.rs-programme-detail .rs-pd-enquiry-panel { padding: 21px; }
+.rs-programme-detail .rs-pd-enquiry-panel h2 { font-size: 25px; margin-bottom: 10px; }
+.rs-programme-detail .rs-pd-enquiry-context { font-size: 14px; padding-bottom: 13px; margin-bottom: 15px; }
+.rs-programme-detail .rs-pd-enquiry-context span { font-size: 14px; }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .rs-programme-detail .rs-pd-hero-grid { grid-template-columns: minmax(0, 1fr) 300px; }
+}
+@media (max-width: 767px) {
+  .rs-programme-detail .rs-pd-hero { padding-block: 14px 22px; }
+  .rs-programme-detail .rs-pd-breadcrumbs { margin-bottom: 12px; }
+  .rs-programme-detail .rs-pd-hero-grid,
+  .rs-programme-detail .rs-pd-offering-main { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .rs-programme-detail h1 { font-size: clamp(30px, 8vw, 38px); }
+  .rs-programme-detail .rs-pd-admission { padding: 19px; }
+  .rs-programme-detail .rs-pd-specs { padding-block: 19px; }
+  .rs-programme-detail .rs-pd-content-grid { padding-block: 20px; }
+  .rs-programme-detail .rs-pd-universities,
+  .rs-programme-detail .rs-pd-closing { padding-block: 26px; }
+  .rs-programme-detail .rs-pd-facts { gap: 14px 11px; }
+  .rs-programme-detail .rs-pd-closing-inner { gap: 15px; }
+  .rs-programme-detail .rs-pd-offering-main { padding-block: 20px 30px; }
+}
+@media (max-width: 640px) {
+  .rs-programme-detail .rs-pd-admission-actions,
+  .rs-programme-detail .rs-pd-closing-actions { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 400px) {
+  .rs-programme-detail .rs-pd-admission-actions,
+  .rs-programme-detail .rs-pd-closing-actions { grid-template-columns: minmax(0, 1fr); }
+  .rs-programme-detail .rs-pd-content,
+  .rs-programme-detail .rs-pd-panel { padding: 18px; }
+}

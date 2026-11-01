@@ -1,0 +1,441 @@
+{
+  "id": 6,
+  "slug": "pushkaram-college-of-agriculture-sciences",
+  "name": "Pushkaram College of Agriculture Sciences",
+  "identity": {
+    "kind": "private_college",
+    "short_name": "PCAS",
+    "ownership": "Private college in the audited ICAR register",
+    "city": "Pudukkottai",
+    "state": "Tamil Nadu",
+    "established": null,
+    "address": "Veppangudi Village, Thiruvarangulam Post, Alangudi Taluk, Pudukkottai 622303, Tamil Nadu",
+    "parent_university": "Tamil Nadu Agricultural University, Coimbatore",
+    "website": null,
+    "admissions_url": "https://tnau.ucanapply.com/",
+    "phone": null,
+    "email": "deanpcas@tnau.ac.in",
+    "website_status": "unverified_current_official_domain",
+    "website_note": "The former pushkaram.in college domain displayed unrelated betting content when checked on31October2026. Use the verified TNAU admission route while a current college domain is confirmed.",
+    "source_ids": [
+      "r31_1"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Agriculture education",
+    "title": "Pushkaram College of Agriculture Sciences",
+    "summary": "Pushkaram College of Agriculture Sciences appears in the audited ICAR agriculture register with a January 2025–January 2030 term. The TNAU 2024–25 prospectus identifies its B.Sc.(Hons.)Agriculture programme and Pudukkottai address. Current admission and campus arrangements require fresh confirmation through the verified TNAU channel.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "A Pudukkottai agriculture college near Vamban",
+    "paragraphs": [
+      "The audited ICAR register identifies Pushkaram College of Agriculture Sciences and its undergraduate agriculture accreditation term. TNAU’s 2024–25 prospectus separately lists the college at Veppangudi Village, Thiruvarangulam Post, Alangudi Taluk, Pudukkottai 622303. That dated directory is the address source used here; the different postcode printed in the accreditation record is preserved in its original context.",
+      "A current college-controlled website was not verified during this update. Applicants should confirm the intended programme, seat category and institutional contact through TNAU before arranging a visit or paying. No current laboratory, hostel or teaching-farm access is inferred from the old brochure or campus photographs."
+    ],
+    "highlights": [
+      {
+        "label": "Institution type",
+        "value": "Private college"
+      },
+      {
+        "label": "State",
+        "value": "Tamil Nadu"
+      },
+      {
+        "label": "ICAR term ends",
+        "value": "2030-01-26"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": null,
+      "mode": null,
+      "summary": "B.Sc. (Hons.) Agriculture is the relevant degree identified in both the TNAU prospectus and the audited ICAR entry. The detailed current curriculum and practical calendar should be obtained from PCAS before selection.",
+      "eligibility": null,
+      "admission_route": null,
+      "fees": {
+        "amount_inr": null,
+        "period": null,
+        "academic_year": null,
+        "includes": null,
+        "note": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+        "verification": "not_verified",
+        "source_ids": []
+      },
+      "icar_scope_note": "The audited ICAR row covers B.Sc. (Hons.) Agriculture at Pushkaram College of Agriculture Sciences, Veppangudi, Thiruvarankulam (Post), Pudukkotai, 322303 for 2025-01-27 to 2030-01-26. Printed intake is retained in recognition as historical scope.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying through TNAU counselling",
+    "intro": "Pushkaram College applicants should use the TNAU admission channel and confirm their exact programme, quota and current institutional contact. The former college domain is not used for admission enquiries because it did not present college content during the 31 October 2026 check.",
+    "eligibility_points": [],
+    "steps": [
+      {
+        "title": "Register with TNAU",
+        "text": "Submit a single online application."
+      },
+      {
+        "title": "Set course preferences",
+        "text": "Order eligible college and course combinations."
+      },
+      {
+        "title": "Follow counselling",
+        "text": "General-quota counselling runs online; special-reservation sessions may be offline."
+      }
+    ],
+    "documents": [],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "tnau_faq_2026",
+      "r31_1"
+    ],
+    "route_scope": "These steps describe the TNAU counselling channel. Any separate college-management route must be checked independently."
+  },
+  "campus": {
+    "heading": "An agricultural setting in Pudukkottai district",
+    "intro": "The TNAU 2024–25 directory places Pushkaram in the Veppangudi/Thiruvarangulam area of Pudukkottai district. A current teaching-farm, laboratory, hostel or transport inventory was not established, so the profile does not present an operational-facility list.",
+    "facilities": [],
+    "practical_learning": [],
+    "source_ids": [
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "A current agriculture-specific scholarship schedule for PCAS was not verified. Request the scheme name, funding authority, category rules, renewal conditions and net payable amount in writing before relying on a concession.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "The material retrieved did not contain a verified PCAS placement-cell description or agriculture cohort report. Ask the college for recent training, internship and graduate destination records, separating postgraduate progression from paid employment.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": []
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR List II records Pushkaram College of Agriculture Sciences, Veppangudi, Thiruvarankulam (Post), Pudukkotai, 322303 and the programme labels below from 2025-01-27 through 2030-01-26. This is the scope verified on 30 October 2026; it does not extend automatically to other qualifications or guarantee renewal. ",
+    "icar_units": [
+      {
+        "unit": "Pushkaram College of Agriculture Sciences, Veppangudi, Thiruvarankulam (Post), Pudukkotai, 322303",
+        "programmes_as_printed": [
+          "B. Sc. (Hons.) Agriculture programme (Intake- 120)"
+        ],
+        "valid_from": "2025-01-27",
+        "valid_until": "2030-01-26",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A13:G13"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "A current named agriculture teaching roster was not verified in the pages read. Request the department-wise faculty list, qualifications and teaching responsibilities from the institution.",
+    "people": [],
+    "source_ids": []
+  },
+  "faqs": [
+    {
+      "question": "Where is Pushkaram College located?",
+      "answer": "The TNAU 2024–25 prospectus lists Veppangudi Village, Thiruvarangulam Post, Alangudi Taluk, Pudukkottai 622303.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Why does the audited name show a different postcode?",
+      "answer": "The audited ICAR identity includes 322303, while the university prospectus gives 622303. The original audit is preserved and the address discrepancy is flagged for confirmation.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Which source establishes the college address?",
+      "answer": "The TNAU 2024–25 prospectus supplies Pushkaram’s Veppangudi, Thiruvarangulam, Alangudi address. It is a dated institutional directory record, not proof of a current admission opening.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Do the photographs establish current practical access?",
+      "answer": "No. A college image is not a current timetable or facility-access record. Pushkaram applicants should obtain the department’s actual practical arrangements from the verified admission channel.",
+      "source_ids": [
+        "s3",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "What is the verified ICAR period?",
+      "answer": "The audited Pushkaram agriculture entry runs from 27 January 2025 to 26 January 2030. This source term does not establish current seats or extend accreditation to a different programme.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "Which university is named as the affiliating institution for PCAS?",
+      "answer": "Tamil Nadu Agricultural University, Coimbatore is the affiliating institution named in this profile.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Where is the official application information for PCAS?",
+      "answer": "https://tnau.ucanapply.com/. Read the programme, campus and applicable intake instructions on this official channel.",
+      "source_ids": [
+        "s3",
+        "tnau_faq_2026",
+        "r31_1"
+      ]
+    },
+    {
+      "question": "How can applicants contact PCAS?",
+      "answer": "Public telephone: not established; Public email: deanpcas@tnau.ac.in. These are institutional contact details, not an Agrico admissions guarantee.",
+      "source_ids": [
+        "r31_1"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Pushkaram College of Agriculture Sciences | Agriculture Courses & Admissions",
+    "description": "Explore Pushkaram College in Pudukkottai: agriculture degree identity, TNAU affiliation, location evidence, admission verification needs and ICAR scope.",
+    "keywords": [
+      "Pushkaram College of Agriculture Sciences",
+      "PCAS agriculture",
+      "Pudukkottai agriculture admission",
+      "B.Sc. (Hons.) Agriculture Pushkaram College of Agriculture Sciences"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://cache.careers360.mobi/media/colleges/social-media/media-gallery/29634/2024/2/12/Campus%20Entrance%20View%20of%20Pushkaram%20College%20of%20Agricultural%20Sciences%20Pudukkottai_Campus-View.png",
+    "logo_url": "https://pbs.twimg.com/profile_images/1252168427499708416/t0J7QZlA.jpg",
+    "campus_alt": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+    "caption": "Pushkaram College of Agriculture Sciences named entrance gateway at Pudukkottai",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/pushkaram-college-of-agriculture-sciences/logo.jpg",
+    "local_campus_image": "media/pushkaram-college-of-agriculture-sciences/campus-01.jpg",
+    "local_gallery": [
+      "media/pushkaram-college-of-agriculture-sciences/campus-01.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited private institutions List II — locally audited workbook",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "faqs.1",
+        "faqs.4",
+        "overview",
+        "programmes.0",
+        "recognition"
+      ],
+      "notes": "Workbook read in the local input audit; this profile reuses the audited row. Intake is accreditation scope, not a confirmed current seat matrix."
+    },
+    {
+      "id": "s2",
+      "url": "https://pushkaram.in/pdf/Pushkaram_Brochure.pdf",
+      "title": "Pushkaram college brochure",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [],
+      "notes": "Historical brochure; direct fetch returned 404. Its old “ICAR applied” wording is superseded for scope by the audited register.",
+      "link_status": "untrusted_current_domain",
+      "note": "Rechecked 31 October 2026: this domain now serves unrelated betting/login content; it must not be used as a current college or admissions link.",
+      "link_checked_on": "2026-10-31"
+    },
+    {
+      "id": "s3",
+      "url": "https://pushkaramagricollege.ac.in/pdf/TNAU_UG_Brochure_2024_2025.pdf",
+      "title": "TNAU UG Information Brochure 2024–25",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions",
+        "faqs.0",
+        "faqs.1",
+        "overview",
+        "programmes.0"
+      ],
+      "notes": "University-authored prospectus hosted by the college; historical address and programme evidence, not current admission rules."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.careers360.com/colleges/pushkaram-college-of-agricultural-sciences-pudukkottai",
+      "title": "Pushkaram college directory",
+      "kind": "secondary",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview"
+      ],
+      "notes": "Consulted for discovery only; speculative admission descriptions not adopted."
+    },
+    {
+      "id": "tnau_faq_2026",
+      "url": "https://drive.google.com/file/d/1DeYey3rEeDAahl0yU9YG-xYgiT-74_E4/view",
+      "title": "TNAU and Annamalai University combined admissions FAQs 2026–2027",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions.steps"
+      ],
+      "notes": "Public PDF linked by the official TNAU 2026–27 portal; downloaded and text-read, with cover and counselling page visually inspected. Pages 2–4 and 19 support the TNAU counselling channel. Does not establish college-specific fees or management-quota availability."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://x.com/AgriPcas",
+      "title": "Pushkaram College of Agriculture Sciences — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/pushkaram-college-of-agriculture-sciences/logo.jpg. College name is legible in both the social-profile emblem and the photographed Pudukkottai entrance gateway."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.careers360.com/colleges/pushkaram-college-of-agricultural-sciences-pudukkottai",
+      "title": "Pushkaram College of Agriculture Sciences — campus primary source",
+      "kind": "secondary",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/pushkaram-college-of-agriculture-sciences/campus-01.jpg. College name is legible in both the social-profile emblem and the photographed Pudukkottai entrance gateway."
+    },
+    {
+      "id": "r31_1",
+      "title": "TNAU official undergraduate application portal",
+      "url": "https://tnau.ucanapply.com/",
+      "kind": "affiliating_university",
+      "checked_on": "2026-10-31",
+      "access": "page_read",
+      "note": "Verified authority route for affiliated-college applicants; not a claim that applications remain open."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.0.fees",
+      "reason": "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "A reliable current dated admission calendar was not verified; undated or promotional open-admission banners are not treated as deadlines.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "No dated institution-specific scholarship terms and award conditions were verified.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "No dated agriculture-specific placement report with cohort, denominator and salary definitions was verified.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "faculty.people",
+      "reason": "A current named agriculture faculty roster with roles was not verified from the sources read.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "programmes.0.eligibility",
+      "reason": "Current subject combinations, category thresholds and qualifying-examination rules need the official admission prospectus.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "identity.address",
+      "reason": "The audit includes postcode 322303; the TNAU 2024–25 prospectus gives 622303. Current postal details need confirmation.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "campus.facilities",
+      "reason": "The former college domain now contains unrelated betting material. Historical college newsletters demonstrate past activities, but no current campus-facility availability or capacity can be verified from that domain.",
+      "next_source": "https://tnau.ac.in/"
+    },
+    {
+      "field": "programmes.0.duration",
+      "reason": "A current course-specific institutional duration page was not retrieved.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "identity.phone",
+      "reason": "No sufficiently clear official value was established in the sources read.",
+      "next_source": "https://pushkaram.in/"
+    },
+    {
+      "field": "identity.admissions_url",
+      "reason": "TNAU’s verified affiliated-college application route is now supplied. A currently verified college-specific admission contact/page remains unavailable.",
+      "next_source": "https://tnau.ucanapply.com/"
+    },
+    {
+      "field": "identity.website",
+      "reason": "The historical college domain serves unrelated betting/login material. Alternate college domain hosts historical PDFs, but its current official homepage/contact was not verified.",
+      "next_source": "https://tnau.ac.in/"
+    },
+    {
+      "field": "identity.established",
+      "reason": "The former establishment-year statement relied on a historical brochure at a domain that now serves unrelated material. No independently corroborated founding year is published here.",
+      "next_source": "https://tnau.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "editorial_file": "batch-01/06-pushkaram-college-of-agriculture-sciences.json",
+  "audit_name": "Pushkaram College of Agriculture Sciences, Veppangudi, Thiruvarankulam (Post), Pudukkotai, 322303",
+  "related": [
+    {
+      "id": 1,
+      "name": "Adhiparasakthi Agricultural College",
+      "slug": "adhiparasakthi-agricultural-college",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 2,
+      "name": "Adhiyamaan College of Agriculture and Research",
+      "slug": "adhiyamaan-college-of-agriculture-and-research",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 3,
+      "name": "J.K.K. Munirajah College of Agricultural Science",
+      "slug": "j-k-k-munirajah-college-of-agricultural-science",
+      "selection": "Same-state researched option"
+    }
+  ],
+  "content_reviewed_on": "2026-10-31"
+}

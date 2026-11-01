@@ -1,0 +1,436 @@
+{
+  "id": 45,
+  "slug": "integral-university",
+  "name": "Integral University, Lucknow",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "Integral University",
+    "ownership": "Private university",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "established": 2004,
+    "address": "Integral Institute of Agricultural Science and Technology, Integral University, Kursi Road, Lucknow 226026, Uttar Pradesh",
+    "parent_university": null,
+    "website": "https://www.iul.ac.in/",
+    "admissions_url": "https://www.iul.ac.in/admissioninfo/Admission_Criteria.aspx",
+    "phone": "+91 9335177775",
+    "email": "info@iul.ac.in"
+  },
+  "hero": {
+    "eyebrow": "Agriculture and allied education",
+    "title": "Integral University, Lucknow",
+    "summary": "Integral’s agriculture institute in Lucknow combines a four-year bachelor’s degree with farm units for crop practicals, organic production, mushrooms, weather observation and integrated farming. Students study agriculture within a dedicated institute whose teaching setting includes vegetable, flower and orchard work alongside the scientific curriculum.",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "A network of teaching farms at IIAST",
+    "paragraphs": [
+      "Integral’s agriculture institute was founded in 2014, according to its own farm information page. Its teaching context combines crop production with applied work across several farm units. These include plots for vegetables and flowers, organic farming activity and units that demonstrate links between farm resources.",
+      "The institute’s teaching units extend from crop plots to orchard, processing and integrated-farming activity. These settings allow different agricultural subjects to be considered together: soils influence crops, weather informs production decisions, and farm products enter processing and markets. The programme page describes a four-year B.Sc. Agriculture route with science or agriculture entry combinations, while the university’s admissions criteria identify IUET for the 2026 session."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Integral Institute of Agricultural Science and Technology"
+      },
+      {
+        "label": "Location",
+        "value": "Lucknow, Uttar Pradesh"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3",
+      "s5"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": null,
+      "summary": "A four-year degree supported by a network of agricultural teaching units.",
+      "eligibility": "The official institute programme page states 10+2 with 50% in PCM, PCB, PCMB or Agriculture.",
+      "admission_route": "IUET is the university’s stated entrance route; check programme-specific requirements.",
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": null,
+        "includes": "Published annual programme fee in the Indian-applicant table; itemised inclusions are not specified.",
+        "note": "Undated official amount; intake-year applicability is not established. This is not verified as a current 2026–27 or 2027 payable quote. Request compulsory charges, hostel and other costs separately.",
+        "verification": "verified",
+        "source_ids": [
+          "s4"
+        ]
+      },
+      "icar_scope_note": "Listed under Integral Institute of Agricultural Science and Technology; accreditation term 2024-09-26 to 2029-09-25.",
+      "source_ids": [
+        "s1",
+        "s3",
+        "s5"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Applying to Integral University",
+    "intro": "Integral’s admissions criteria page identifies IUET for its programmes other than listed professional exceptions. Agriculture applicants should use the B.Sc. eligibility entry and the current IUET instructions together.",
+    "eligibility_points": [
+      "IIAST states a 50% threshold at 10+2 in its listed science/agriculture combinations."
+    ],
+    "steps": [
+      {
+        "title": "Confirm the agriculture entry criteria",
+        "text": "Check the B.Sc. programme page against the current entrance notice."
+      },
+      {
+        "title": "Prepare for document verification",
+        "text": "The admissions page asks for original qualifying marksheets and certificates at interview/reporting."
+      }
+    ],
+    "documents": [
+      "Transfer or migration certificate at reporting",
+      "Original qualifying examination marksheets and certificates"
+    ],
+    "dates": [],
+    "application_fee_inr": null,
+    "source_ids": [
+      "s3",
+      "s5"
+    ]
+  },
+  "campus": {
+    "heading": "Agricultural teaching and practical work",
+    "intro": "IIAST’s farm page distinguishes practical crop production, experiential learning and processing activity across separate units.",
+    "facilities": [
+      {
+        "name": "Mushroom unit",
+        "description": "Unit 5 describes button and oyster mushroom work.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Weather and compost demonstrations",
+        "description": "Unit 6 identifies an automatic weather station, vermicomposting, NADEP and Azolla.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Integral Krishi Vikas Kendra",
+        "description": "A mango-orchard setting includes an integrated farming demonstration.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "The farm page identifies undergraduate practical crop production and experiential learning."
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and financial support",
+    "text": "An agriculture-specific scholarship schedule for Integral University was not verified. Award availability, eligibility and renewal conditions need confirmation.",
+    "schemes": [],
+    "source_ids": []
+  },
+  "placements": {
+    "heading": "Career support and outcomes",
+    "text": "IIAST’s homepage records a placement-oriented training and skill-development guest lecture held on 24 April 2025. This verifies a support activity, not a graduate placement percentage.",
+    "statistics": [],
+    "recruiters": [],
+    "source_ids": [
+      "s6"
+    ]
+  },
+  "recognition": {
+    "heading": "Recognition and programme accreditation",
+    "text": "The audited ICAR register identifies Integral Institute of Agricultural Science and Technology with validity from 2024-09-26 to 2029-09-25. The programme labels below preserve the register’s scope; other institutional degrees are not covered by inference.",
+    "icar_units": [
+      {
+        "unit": "Integral Institute of Agricultural Science and Technology",
+        "programmes_as_printed": [
+          "•\tB.Sc. (Hons.) Agriculture (Intake- 120)"
+        ],
+        "valid_from": "2024-09-26",
+        "valid_until": "2029-09-25",
+        "source_url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+        "source_range": "Sheet1!A54:G54"
+      }
+    ],
+    "other_recognitions": [],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faculty": {
+    "intro": "The institute’s homepage lists Prof. Mohd Haris Siddiqui as Director; its programme page identifies the B.Sc. coordinator.",
+    "people": [
+      {
+        "name": "Prof. Mohd Haris Siddiqui",
+        "role": "Director, IIAST, as listed on the institute homepage",
+        "source_ids": [
+          "s6"
+        ]
+      },
+      {
+        "name": "Dr. Salman Ahmad",
+        "role": "B.Sc. Agriculture programme coordinator, as listed on the programme page",
+        "source_ids": [
+          "s3"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s3",
+      "s6"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is IIAST at Integral University?",
+      "answer": "It is the Integral Institute of Agricultural Science and Technology, which organises the university’s agriculture teaching.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "Which degree is covered by this ICAR entry?",
+      "answer": "B.Sc. (Hons.) Agriculture, for 26 September 2024 to 25 September 2029.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "How long does Integral list the bachelor’s degree?",
+      "answer": "The institute programme page lists four years.",
+      "source_ids": [
+        "s3"
+      ]
+    },
+    {
+      "question": "What makes the farm setting distinctive?",
+      "answer": "Separate units document activities including mushrooms, weather observation, organic production and integrated farming.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Is IUET relevant to agriculture applicants?",
+      "answer": "The university’s 2026 admission criteria identify IUET for its programmes apart from specified professional exceptions. Confirm the B.Sc. instructions before applying.",
+      "source_ids": [
+        "s5"
+      ]
+    },
+    {
+      "question": "Are agriculture placement figures verified?",
+      "answer": "No. A dated training event was found, but a cohort-based agriculture outcome report was not.",
+      "source_ids": [
+        "s6"
+      ]
+    },
+    {
+      "question": "What agriculture fee amount has Integral published?",
+      "answer": "The official Indian-applicant table lists ₹70,000 per year for B.Sc. Agriculture. Its academic year is unstated, so this is not verified as a current 2026–27 or 2027 quote; obtain a dated itemised statement.",
+      "source_ids": [
+        "s4"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Integral University, Lucknow | Agriculture Courses & Admissions",
+    "description": "Explore Integral University’s agriculture degree at IIAST Lucknow, its teaching farms, eligibility, admission checks and programme-specific ICAR accreditation.",
+    "keywords": [
+      "Integral University, Lucknow agriculture",
+      "Integral University, Lucknow admissions",
+      "Integral University, Lucknow ICAR accreditation",
+      "Integral University, Lucknow agriculture fees"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.iul.ac.in/img/aboutusimage.jpeg?v=190&format=webp",
+    "logo_url": "https://www.iul.ac.in/img/IntegralUniversityLogo.png?v=114122&format=webp",
+    "campus_alt": "Integral University Lucknow academic campus buildings",
+    "caption": "Integral University Lucknow academic campus buildings",
+    "rights_status": "downloaded_public_source_no_explicit_license",
+    "source_ids": [
+      "media_logo",
+      "media_card_logo",
+      "media_campus_primary"
+    ],
+    "local_logo": "media/integral-university/logo-verified.png",
+    "local_card_logo": "media/integral-university/card_logo-verified.png",
+    "local_campus_image": "media/integral-university/campus_primary-verified.jpg",
+    "local_gallery": [
+      "media/integral-university/campus_primary-verified.jpg"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "title": "ICAR accredited programmes register, audited source row",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.kind",
+        "recognition.icar_units",
+        "programmes.icar_scope_note"
+      ],
+      "notes": "Provenance transcribed from locally supplied count-audit.json; source range Sheet1!A54:G54. Intake is accreditation scope, not a current admission seat count."
+    },
+    {
+      "id": "s2",
+      "url": "https://iiast.iul.ac.in/iiastfarms",
+      "title": "IIAST farms",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.address",
+        "overview",
+        "campus"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s3",
+      "url": "https://iiast.iul.ac.in/Program",
+      "title": "IIAST programmes",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "programmes",
+        "faculty"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s4",
+      "url": "https://www.iul.ac.in/admissioninfo/FeeInd.aspx",
+      "title": "Indian applicant programme and fee information",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes.fees"
+      ],
+      "notes": "Page banner states 2026–27, but fee table itself has no independent academic-year label. Amount retained as unverified for a year-specific quote.",
+      "note": "Table states Fee (p.a.) and B.Sc. Agriculture ₹70,000; no governing intake year is printed for the row."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.iul.ac.in/admissioninfo/Admission_Criteria.aspx",
+      "title": "Admission criteria and IUET 2026",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "admissions"
+      ],
+      "notes": "Undated official page; checked on the stated date. No current-year fee or outcome inferred."
+    },
+    {
+      "id": "s6",
+      "url": "https://iiast.iul.ac.in/",
+      "title": "IIAST institute homepage and activity reports",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "overview",
+        "faculty",
+        "placements"
+      ],
+      "notes": "Includes dated 2025 activity reports."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.iul.ac.in/",
+      "title": "Official Integral University homepage",
+      "kind": "official",
+      "access": "search_excerpt",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "identity.established",
+        "identity.address",
+        "identity.phone",
+        "identity.email"
+      ],
+      "notes": "Search excerpt gives establishment 2004 and central contacts; full page timed out."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.iul.ac.in/Default.aspx",
+      "title": "Integral University, Lucknow — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/integral-university/logo-verified.png. Official homepage header logo."
+    },
+    {
+      "id": "media_card_logo",
+      "url": "https://www.iul.ac.in/Default.aspx",
+      "title": "Integral University, Lucknow — card logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/integral-university/card_logo-verified.png. Official homepage links this separate square-format circular emblem."
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.iul.ac.in/Default.aspx",
+      "title": "Integral University, Lucknow — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-30",
+      "supports": [
+        "media"
+      ],
+      "notes": "Unchanged image saved locally: media/integral-university/campus_primary-verified.jpg. Official homepage About Us campus image, alt integral university about us image."
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "programmes.fees.academic_year",
+      "reason": "The official annual ₹70,000 amount is now recorded, but a dated governing intake year and itemised inclusions are not established.",
+      "next_source": "https://www.iul.ac.in/"
+    },
+    {
+      "field": "admissions.dates",
+      "reason": "Current intake deadlines were not established from a dated official notice.",
+      "next_source": "https://www.iul.ac.in/"
+    },
+    {
+      "field": "scholarships.schemes",
+      "reason": "Agriculture-specific award terms and renewal rules were not verified.",
+      "next_source": "https://www.iul.ac.in/"
+    },
+    {
+      "field": "placements.statistics",
+      "reason": "A dated agriculture cohort outcome report was not verified.",
+      "next_source": "https://www.iul.ac.in/"
+    },
+    {
+      "field": "programmes.mode",
+      "reason": "A programme-specific delivery-mode statement was not verified for every listed route; no mode is inferred from a degree title.",
+      "next_source": "https://www.iul.ac.in/"
+    }
+  ],
+  "editorial_status": "research_draft"
+}

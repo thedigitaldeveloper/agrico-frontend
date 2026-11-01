@@ -1,0 +1,348 @@
+Sri Sri University | Pay fees
+Home
+Download Receipt
+Pay Fees Form
+(for Existing Students and Registered Candidates only)
+Fee Collection & Escalation Policy
+×
+Guidelines for making payments to the students towards all fees. This guideline is mandatory for all until any further changes & other modes of payment shall not be acceptable.
+1. For Existing Students Only: Qfix link [Payment Link]
+https://www.eduqfix.com/PayDirect/#/student
+2. For Backlog/ migration/ fine & penalty/other fees as University Gateway link
+https://srisriuniversity.edu.in/registration/pay_fees.php
+It was noticed that many students / parents are facing difficulty while making payment through debit card / credit card. This may be because of following reasons:
+a) If you are making the payment through credit card and debit card, your maximum transaction limit per day for on your card is under. 25,000/- 40,000/-).
+b) You could also make the payment through net banking and make sure that your payment limit is set appropriately.
+Payment Options:
+1. Credit card/ Debit card
+2. Net Banking
+3. Students who want to pay through offline mode in qfix portal like NEFT need to click on “Download Challan” option step-8. Then fill the NEFT details by taking Beneficiary name, Account number & IFSC code mentioned in the Qfix Challan and make the payment through any of your banker.
+The detailed procedure for making payment through Qfix / University gateway is available for your reference as attachment to this email. After successful payment of fees, a receipt will be generated automatically for the reference of the students.
+The receipt generated in the above procedure is the conclusive evidence regarding payment of fees by the students & no further confirmation is required from the finance department for the above purpose.
+In case the hostel & mess fees are not available on Qfix for the existing students then confirm availability from DSA office, and same needs to be paid in the link
+https://srisriuniversity.edu.in/registration/pay_fees.php
+by tick hostel fees, mess fees in the
+payment towards
+column.
+Note:
+The students availing the hostel facility for the first time need to pay security deposit of Rs.10,000/-. Hostel, Mess & Transport fees will be charged for the entire semester from 01/01/2021. There shall be no refund option or adjustment of the fees in the middle of the semester as per the policy guidelines (Please refer to student handbook) If you would like to opt for Mess card, please fill up your details in the following form: https://forms.gle/1KwsFHhv8UqgS8ex5
+Note:
+This form is ONLY relevant for those students who have paid for Mess Facility in Kaivalya for 1st time and are in campus physically, you shall be allowed inside the kaivalya for 3 days towards food facility until the card activation process completes.
+4. UPI Payments :-
+If you are Paying with UPI, Please Don't Forget to come back to the Website Payment page again to complete your Transaction and get the receipt.
+Please check the daily transaction limit of your card / UPI before paying Ex- Rs. 25,000 / per day, Rs. 50,000 / per day, Rs. 75,000 / per day, etc. If your limit is less please pay in instalments. to avoid the chance of failure transactions.  You can edit your desired amount on the payment page.
+As per RBI's directive, w.e.f October 01, 2020, any Indian debit/credit card not yet used for online e-commerce will be blocked for all online transactions. In case of such failure, please contact your card issuing bank to enable online usage.
+Please don't try to go back and pay again, always start fresh new Payments from the https://srisriuniversity,edu.in/  SSU Website to avoid broken Transactions.
+FAQ’s related to Finance Department
+The student profile, net dues, last date of fees submission & other details have already been updated in qfix portal for existing student reference.
+Fees Due & General Information: academic.coord@srisriuniversity.edu.in
+Any Fees Payment related Query : finance@srisriuniversity.edu.in
+All type of Hostel & Mess related Query: officeofdirectoratestudentaffairs@srisriuniversity.edu.in
+Other Query & Grievance: studentgrievance@srisriuniversity.edu.in
+Caution Money, Special Refund & NOC related Query: assistantregistrar@srisriuniversity.edu.in
+Backlog & Special Examination Fees Query : coe@srisriuniversity.edu.in
+Loan Letter, CLC, Migration & Other certificate query : eroffice@srisriuniversity.edu.in
+For your information penalty for late payment of fees by the students:
+S.no.
+Fee Slab (Rs.)
+Late Fee per Day (Rs.)
+Re-Admission* Fee (Rs.)
+1.
+10,000-15,000
+60
+2000
+2.
+15,001-25,000
+100
+3000
+3.
+25,001-50,000
+200
+6000
+4.
+50,001-10,0000
+400
+12000
+5.
+10,0001-20,0000
+800
+25000
+* Re-admission fees will be applicable after 25 days from the due date of payment of fees.
+FAQ1- How can I get the details of my Fees?
+Ans-1:
+Details of fees along with breakup for the upcoming semester and with the fees of previous semester are forwarded to the Academic Coordinators for the purpose of further circulation to students prior to the semester payment date. In addition, fees details are uploaded on Qfix portal where you can download the receipt instantly.
+FAQ-2: How do I make “Fees payment” through Qfix?
+Ans-2:
+Go through the step-by-step guidelines circulated by DSA Office / ER office / Academic Coordinator for making the fees payment through Qfix.
+FAQ-3: How do I get the “Password” for making Fees payment through Qfix?
+Ans-3:
+There is no password required. You need to enter the Student enrollment ID provided by the ER Office at the time of admission for making the Fees payment.
+FAQ-4: Is it mandatory to make the payment for Hostel, Mess & Transportation Fees?
+Ans-4:
+Hostel Fee is required to be paid by students those who want to avail and book the hostel in advance (The hostel has limited capacity and it is available against first come first serve basis). Mess & Transportation Fees need to be paid by students those who want to avail the same.
+FAQ-5: The mobile number provided by Finance is always busy, what should I do?
+Ans-5:
+There are number of calls being attended by finance department from many students. It is best recommended to write an email to (studentgrievance@srisriuniversity.edu.in) . The turnaround time of response to your mails 48 hours of the receipt.
+FAQ-6: How the excess payment made in the previous semester is adjusted?
+Ans-6:
+The excess payment made by the students in the previous semester is adjusted against the “Tuition Fees” of the student for the upcoming Semester. Those students whose Semester is already completed, the excess payment made will be refunded along with the caution money.
+FAQ-7: Whether I need to communicate to finance team with the details of Fees payments made using Qfix?
+Ans-7:
+There is no further communication required with the payment details to the finance department if you have made the payment through Qfix platform.
+FAQ-8: What is the Annual Fees shown in the Qfix portal?
+Ans-8:
+Annual Fees is the mandatory fees for all students and there is no breakup for this.
+FAQ-9: I have already withdrawn from the hostel & why fees has not been adjusted against my dues?
+Ans-9:
+If the student has not availed the hostel during the semester and withdrawn the same by following the standard procedures notified by DSA by 5th March 21 (as per the notification sent by DSA dated 24.02.21), only then the Hostel fees will be adjusted against the fees due.
+FAQ-10: I have already made the payment towards previous semester but I still see the payments due in the Qfix portal?
+Ans-10:
+If the payment has already been made by you for previous semester kindly send the transaction reference no. to Finance email ID mentioning the details. (finance@srisriuniversity.edu.in). and the same will be reconciled in our records.
+FAQ-11: When can I contact to the finance department?
+Ans-11:
+The Finance Team is always ready to assist students for any payment related queries during the office hours of University between 9:30 AM to 5:30 PM.
+FAQ-12: Whom should I contact for other queries of the University?
+Ans-12:
+Your first point of contact is always DSA office 
+(studentgrievance@srisriuniversity.edu.in) .However, queries related to policy will be addressed by ER Office and all other queries will be addressed by the DSA Office.
+Close
+×
+Step by Step Guidelines for payment through Qflix
+Step-1
+Login through URL as given below
+https://www.eduqfix.com/
+A window will be displayed as given below.
+Step-2
+Choose the option “PAY DIRECT”. A window will appear as given below.
+Step-3
+Type the Institute “Sri Sri University”.
+It will ask for Branch after typing the institution name. Choose: “Sri Sri University”
+Then it will ask for University Enrollment ID. University Enrollment ID is the ID given to the Student during Admission. It consists of YYYY (Year of Admission)-SSU-XXXXX(Numeric). e.g. 2019-SSU-00111
+Then enter Captcha and click on the search button.
+The Screenshot of the window has been given below for your reference.
+Step-4
+A screen will appear as given below.
+Step-5
+You need to scroll down where you will get the details of Fees “Unpaid”, “Paid” & “Additional Fees”
+The screen will appear as given below.
+Step-6
+You need to click the check box for which you want to pay the Fees. You can also edit the amount of payment by editing the amount shown beside “Partial payment”. Option for “Partial Payment” will only be enabled after clicking the Check Box for a particular Fees. The Screen will appear as below.
+Step-7
+After selecting a Check Box or Multiple Check box Scroll down below. And click on Pay Option.
+Step-8
+A “Payment Summary” will be displayed as below. Press on Proceed after verification of the details.
+Step-9
+You will find a payment Screen with the Options for payment through
+Credit Card
+Debit  Card
+Internet Banking
+choose the desired mode and click on “Proceed”, it will be Re directed to Bank Portal.
+Step-10
+Enter the necessary details and make the payment. After Successful payment the site will be redirected to Qflix Portal (Don’t press back/Refresh button in between) and a Qflix reference number will be displayed and the receipt of payment will be generated after successful completion of the process.
+Step-11
+Alternatively, you may also download the receipt after Step 2. Choose “Download Receipt”. Provide Qfix reference no. and enter Captcha. Enter the “Search button” and you will get your Receipt.
+Step-12
+Students those who want to pay through Offline Mode like NEFT (Receipt can be downloaded after 7 days only) need to click on “Download Challan” option after step-8.
+Step-13
+The Challan will look like as given below.
+Step-14
+Fill the NEFT details by taking Beneficiary name, Account no. & IFSC code mentioned in the Challan and make the payment. After seven days of payment the receipt can be downloaded as mentioned in the Step-11.
+Close
+Note: Star (*) marked fields are mandatory
+Course
+*
+Select Course
+3-Month Basic Certification in Geospatial Technologies
+Advanced Certification in Geospatial Technologies
+B Com (Hons.)
+B. Tech (Mechanical Engineering) (AI, Robotics & EV) (Mechanical) - L&T and Intel
+B. Tech in Computer Science & Engineering
+B. Tech in CSE - Specialization in Artificial intelligence & Machine Learning (IBM)
+B. Tech in CSE - Specialization in Cyber Security & Cyber Defense (Cyber Dojo) Apprentice Embedded
+B. Tech in CSE - Specialization in Data Science (IBM)
+B. Tech in Electrical Engineering - Specialization : AI and Electric Vehicle technology (Electrical)
+B. Tech in Electronics & Communication Engineering (Specialization: VLSI Chip Design, Artificial int
+B.Arch
+B.Sc Nursing
+B.Sc Osteopathy
+B.Sc Psychology
+B.Sc Yoga
+B.Sc. (AI) in Animation & VFX Visual Effects (Hi-Tech Animation)
+B.Sc. Forensic Science
+B.Tech in CSE - Animation & VFX
+BA (Hons.) English
+Bachelor of Ayurvedic Medicine and Surgery
+Bachelor of Interior Design
+Bachelor of Naturopathy and Yogic Science (BNYS)
+Bachelor of Physical Education and Sports (BPES)
+Bachelor of Physiotherapy (BPT)
+BBA
+BBA (Logistic Management)
+BBA 2+2 Global Pathway Program
+BCA Apprentice Embedded
+BCA in Data Science & Analytics
+BCA-AI
+BCA-Cyber Security
+BFA - Animation/Applied Arts/Painting
+BPA Hindustani Vocal Music
+BPA Odissi Dance
+BSC ( Hons.) Agriculture
+BSc (Hons.) Agribusiness
+BSc (Hons.) Computer Science Apprentice Embedded
+BSc (Hons.) Computer Science with Specialization in AI Application (Hi-Tech Animation)
+BSc (Hons.) Food, Nutrition and Dietetics
+BSc (Hons.) Horticulture
+BSc (Hons.) Physics
+BSc Optometry
+BTech CSE Data Science (NxtWave)
+Diploma in Proctology
+General Nursing and Midwifery
+Integrated MSc Osteopathy
+M.Sc. (Agriculture) Agriculture Economics
+M.Sc. (Agriculture) Agriculture Statistics
+M.Sc. (Agriculture) Entomology
+M.Sc. (Agriculture) Genetic Plant Breeding
+M.Sc. (Agriculture) Horticulture
+M.Sc. (Agriculture) Plant Pathology
+M.Sc. (Agriculture) Soil Science
+M.Sc. Agricultural Extension
+M.Sc. Exercise and Sports Physiology
+M.Sc. in AI/ML
+M.Sc. in Cyber Security & Digital Forensic
+M.Sc. in Psychology (Contemplative Studies )
+M.Sc. Osteopathy
+M.Sc. Yogic Science
+M.Sc.(Agriculture) Agronomy
+MA English
+MA Hindu Studies
+MA Sanskrit
+Master of Computer Applications (MCA)
+MBA (Fintech)
+MBA Agribussiness Management/ Entrepreneurship)
+MBA- General Management (HR/Marketing/Finance/Operations/Business Analytics/Good governace and Publi
+MCA - Cyber Security Apprentice Embedded
+MCA in Cyber Security & Incident Management
+MCA in Data Science & Analytics
+MCA-AI
+MPA - Odissi Dance
+MTech in AI/ML
+MTech in Cyber Security & Digital Forensic
+MTech in Cyber Security & Incident Management
+ODL - BBA
+ODL - BCom
+ODL - M.A. Yoga
+ODL - MA in Hindu Studies (MHS)
+ODL - MPA in Odissi Dance (MOD)
+P.B.B.Sc. Nursing
+PG Diploma in Geospatial Technologies
+Ph.D.
+Postgraduate Diploma in Chiropractic
+First Name
+*
+Last Name
+*
+Gender
+*
+Male
+Female
+Contact Number
+*
+Select
+New Student
+Existing Student
+Student ID / Application Number
+*
+Payment Towards
+*
+Particulars
+Examination
+Provisional Admission
+Revaluation
+Provisional Certificate
+Convocation
+Recognition / Eligibility / Migration / Genuineness/ Transcript
+Health screening
+Transport
+Ph.D. Admission Fee
+Ph.D. Coursework Fee
+Annual Fees & Other Fees
+Penalty/Fine
+Practical Record Fee
+Student Uniform Fee (2 Pairs uniform, 2 Apron, 1 Blazer)
+Tuition
+Special
+Laboratory/Computer
+Research / Res. Regn.
+MDP
+Mess
+Sports
+Library
+Ph.D. Semester Fee
+Ph.D. Thesis Evaluation and Viva-voce Fee
+B.Sc. PMCS
+Hostel Fee
+Readmission / Late fees
+Caution Deposit
+Donations for Guest Stay
+Backlog Examination
+Others (please specify)
+Relationship with Payer
+Self
+Parent
+Other Family
+Spouse/ Partner
+Friend
+Unknown
+Currency
+*
+INR
+USD
+Amount
+*
+Email
+*
+Address
+City
+*
+State
+*
+Country
+*
+Zip Code
+*
+Pan Card
+*
+Payment Option
+Pay with Credit/Debit Card/Wallets
+×
+Search Your Receipt
+Search
+Follow Us
+LEARN LEAD SERVE
+Get in Touch
+info@srisriuniversity.edu.in
+SRI SRI UNIVERSITY
+Sri Sri Vihar, Ward No - 3,
+Godi Sahi, Cuttack – 754006
+Odisha, India
+MANDATORY DISCLOSURES
+UGC Compliance
+AIU Membership Letter
+AICTE Approval
+Council of Architecture Extension of Approval (2018-19)
+RTI Disclosure
+All India Survey on Higher Education (AISHE) of MHRD
+National Academic Depository (NAD)
+Important Links
+IIA Certificate
+IGBC Membership
+SSU Code of Conduct
+© 2021 Sri Sri University |
+Disclaimer
+|
+Privacy Policy
+|
+Terms of Use
+Designed by
+❤
+iJurugSoft Pvt Ltd
