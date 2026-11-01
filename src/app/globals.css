@@ -292,10 +292,44 @@
 
 
 /* Bulletproof Agrico Publication & Programme Table Styling */
-.ag-eyebrow {
+dialog:not([open]),
+.ag-dialog:not([open]),
+.ag-mobile-menu:not([open]),
+.ag-detail-dialog:not([open]) {
+  display: none !important;
+}
+
+.ag-eyebrow:not(.ag-help-strip .ag-eyebrow) {
   display: flex !important;
   align-items: center !important;
   gap: 10px !important;
+}
+
+.ag-help-strip .ag-eyebrow {
+  display: block !important;
+  padding-right: 15px !important;
+  margin-bottom: 0 !important;
+  font-size: 12px !important;
+  color: #173b2e !important;
+  line-height: 1.7 !important;
+  letter-spacing: 1.8px !important;
+}
+
+.ag-help-strip .ag-eyebrow::before {
+  display: block !important;
+  margin-bottom: 8px !important;
+}
+
+@media (max-width: 1150px) {
+  .ag-help-strip .ag-eyebrow {
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ag-help-strip .ag-eyebrow {
+    display: none !important;
+  }
 }
 
 #sources-review,

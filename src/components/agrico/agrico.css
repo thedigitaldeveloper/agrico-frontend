@@ -456,7 +456,7 @@
 
 /* 02 — a shared guidance ribbon */
 .ag-help-strip { background: linear-gradient(110deg, #eaf2e8, #f3f8f3 70%, #eaf3ed); padding: 33px 0; }
-.ag-help-strip__inner { display: grid; grid-template-columns: .65fr 1.5fr 1.5fr 1.5fr; align-items: center; gap: 30px; }
+.ag-help-strip__inner { display: grid; grid-template-columns: .78fr 1.5fr 1.5fr 1.5fr; align-items: center; gap: 30px; }
 .ag-help-strip .ag-eyebrow { display: block; padding-right: 15px; margin-bottom: 0 !important; font-size: 12px; color: #173b2e; line-height: 1.7; letter-spacing: 1.8px; }
 .ag-help-strip .ag-eyebrow::before { display: block; margin-bottom: 8px; }
 .ag-service { display: flex; align-items: center; gap: 19px; padding-left: 29px; min-height: 70px; border-left: 1px solid #c7d8c9; color: var(--ag-ink); }
@@ -776,7 +776,7 @@
 }
 
 /* 09 — a student guide shelf */
-.ag-guides { padding-top: 14px; padding-bottom: 7px; }
+.ag-guides { padding-top: 22px; padding-bottom: 18px; }
 .ag-guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 17px; margin-top: 7px; }
 .ag-guide-card { position: relative; min-height: 204px; padding: 13px 19px 40px; overflow: hidden; border: 1px solid #e9efe4; border-radius: 7px; background: linear-gradient(115deg, #edf4e6, #f4f8ed); }
 .ag-guide-number { display: inline-block; position: relative; z-index: 1; min-width: 24px; padding: 0 6px; margin-bottom: 9px; border-radius: 10px; background: #dbe9b9; color: #2b4b2c; font-size: 11px; line-height: 1.5; font-weight: 750; text-align: center; }
@@ -786,7 +786,7 @@
 .ag-guide-card .ag-text-link { position: absolute; left: 20px; bottom: 17px; z-index: 1; font-size: 12px; }
 
 /* 10 — education updates, without fabricated current announcements */
-.ag-updates { padding-top: 5px; padding-bottom: 9px; }
+.ag-updates { padding-top: 18px; padding-bottom: 20px; }
 .ag-updates .ag-section-heading { margin-bottom: 10px; }
 .ag-updates-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 /* News & updates slider */
@@ -824,7 +824,7 @@
 .ag-update-copy .ag-text-link { font-size: 12px; }
 
 /* 11 — readable, keyboard-operable questions */
-.ag-faqs { padding-top: 5px; padding-bottom: 9px; }
+.ag-faqs { padding-top: 18px; padding-bottom: 24px; }
 .ag-faq-list { margin-top: 5px; border: 1px solid #d6e2d9; border-radius: 6px; overflow: hidden; }
 .ag-faq-list details + details { border-top: 1px solid #dae4dd; }
 .ag-faq-list details[open] { background: #f0f6ec; }
@@ -840,8 +840,8 @@
 .ag-faq-list details > p { margin: -1px 53px 10px !important; max-width: 1210px; color: var(--ag-text); font-size: 12.5px; line-height: 1.5; }
 
 /* 12 — the real existing server-action enquiry flow */
-.ag-counselling { padding-top: 8px; padding-bottom: 6px; background: linear-gradient(110deg, #eaf3e9, #f3f7ee 55%, #eaf3e8); }
-.ag-counselling__grid { display: grid; grid-template-columns: 1.36fr .53fr 1fr; align-items: center; gap: 28px; margin-top: 6px; }
+.ag-counselling { padding-top: 24px; padding-bottom: 24px; background: linear-gradient(110deg, #eaf3e9, #f3f7ee 55%, #eaf3e8); }
+.ag-counselling__grid { display: grid; grid-template-columns: 1.25fr .85fr .95fr; align-items: center; gap: 32px; margin-top: 10px; }
 .ag-callback-form { align-self: start; padding: 13px 18px 10px; border: 1px solid #e0e9dd; border-radius: 7px; background: #fff; }
 .ag-form-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; }
 .ag-form-grid > label { display: flex; min-width: 0; flex-direction: column; gap: 4px; color: var(--ag-ink); font-size: 11px; font-weight: 550; }
@@ -882,6 +882,11 @@
 .ag-footer__legal a { color: #d5e4da; }
 
 /* Native dialogs preserve focus trapping, Escape and accessible reading order. */
+.ag-dialog:not([open]),
+.ag-mobile-menu:not([open]),
+.ag-detail-dialog:not([open]) {
+  display: none !important;
+}
 .ag-dialog {
   position: fixed;
   inset: 0;
@@ -894,9 +899,12 @@
   background: #fff;
   color: var(--ag-ink);
   overflow: hidden;
+  display: none;
+  box-shadow: 0 24px 80px rgba(7, 43, 30, 0.32);
+}
+.ag-dialog[open] {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 24px 80px rgba(7, 43, 30, 0.32);
 }
 .ag-dialog--enquiry {
   width: min(580px, calc(100% - 32px));
