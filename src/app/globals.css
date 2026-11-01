@@ -292,6 +292,12 @@
 
 
 /* Bulletproof Agrico Publication & Programme Table Styling */
+.ag-eyebrow {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
 .ag-publication-table {
   width: 100% !important;
   max-width: 100% !important;
@@ -306,26 +312,34 @@
 
 .ag-publication-table table {
   width: 100% !important;
+  table-layout: auto !important;
   border-collapse: collapse !important;
   text-align: left !important;
   font-size: 13.5px !important;
   line-height: 1.6 !important;
-  min-width: 580px !important;
+  min-width: 0 !important;
   margin: 0 !important;
+}
+
+@media (max-width: 680px) {
+  .ag-publication-table table {
+    min-width: 540px !important;
+  }
 }
 
 .ag-publication-table thead th {
   background: #eaf2e7 !important;
   font-weight: 700 !important;
   color: #10382b !important;
-  padding: 13px 18px !important;
+  padding: 13px 16px !important;
   border-bottom: 2px solid #ccd8c2 !important;
   border-right: 1px solid #e1ecde !important;
-  white-space: nowrap !important;
-  word-break: keep-all !important;
-  overflow-wrap: normal !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
   hyphens: none !important;
-  font-size: 12px !important;
+  font-size: 11.5px !important;
+  line-height: 1.45 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.04em !important;
 }
@@ -336,30 +350,27 @@
 
 .ag-publication-table tbody th,
 .ag-publication-table tbody td {
-  padding: 13px 18px !important;
+  padding: 13px 16px !important;
   border-bottom: 1px solid #edf4eb !important;
   border-right: 1px solid #edf4eb !important;
   vertical-align: top !important;
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
 }
 
 .ag-publication-table tbody th {
-  width: 250px !important;
-  min-width: 220px !important;
-  max-width: 280px !important;
+  width: 26% !important;
+  min-width: 165px !important;
   font-weight: 650 !important;
   color: #123d2e !important;
   background: #fbfdfa !important;
-  white-space: nowrap !important;
-  word-break: keep-all !important;
-  overflow-wrap: normal !important;
   hyphens: none !important;
 }
 
 .ag-publication-table tbody td {
   color: #385145 !important;
   background: #ffffff !important;
-  word-break: normal !important;
-  overflow-wrap: break-word !important;
 }
 
 .ag-publication-table tbody td:last-child {

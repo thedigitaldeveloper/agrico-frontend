@@ -1,9 +1,12 @@
 @import '../agrico/agrico-programme-content.css';
 
-.rs-html-section{width:100%;min-width:0}
-.rs-html-section__content{width:100%;max-width:100%;min-width:0;overflow-x:auto;overflow-wrap:break-word}
-.rs-html-section__content [data-rs-html-root],.rs-html-section__content [data-rs-html-body]{min-width:0}
-.rs-html-section__content :is(input,button,select,textarea){font:inherit}
-.rs-html-section__content table :is(th,td){overflow-wrap:normal!important}
-.rs-html-section__content table thead th{white-space:nowrap!important;word-break:keep-all!important}
-.rs-html-section__content table tbody th{white-space:nowrap!important;word-break:keep-all!important}
+.rs-html-section { width: 100%; min-width: 0; }
+.rs-html-section__content { width: 100%; max-width: 100%; min-width: 0; overflow-x: auto; overflow-wrap: break-word; }
+.rs-html-section__content [data-rs-html-root],
+.rs-html-section__content [data-rs-html-body] { min-width: 0; }
+.rs-html-section__content :is(input, button, select, textarea) { font: inherit; }
+.rs-html-section__content table :is(th, td) {
+  white-space: normal !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}

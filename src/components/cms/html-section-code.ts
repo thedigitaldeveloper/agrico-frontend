@@ -12,10 +12,16 @@ const allowedTags = [...sanitizeHtml.defaults.allowedTags,
   'figure', 'figcaption', 'picture', 'source', 'img', 'button', 'details', 'summary',
   'table', 'thead', 'tbody', 'tfoot', 'tr', 'th', 'td', 'col', 'colgroup', 'time', 'small',
   'form', 'label', 'input', 'select', 'option', 'optgroup', 'textarea', 'fieldset', 'legend',
-  'progress', 'meter'];
+  'progress', 'meter', 'svg', 'path', 'polyline', 'line', 'circle', 'rect', 'g'];
 
 const attributes: sanitizeHtml.IOptions['allowedAttributes'] = {
   '*': ['class', 'id', 'title', 'role', 'aria-*', 'data-*', 'style', 'lang', 'dir', 'tabindex'],
+  svg: ['width', 'height', 'viewBox', 'viewbox', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin', 'class', 'style', 'aria-*'],
+  path: ['d', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin'],
+  polyline: ['points', 'fill', 'stroke', 'stroke-width', 'stroke-linecap', 'stroke-linejoin'],
+  line: ['x1', 'y1', 'x2', 'y2', 'stroke', 'stroke-width', 'stroke-linecap'],
+  circle: ['cx', 'cy', 'r', 'fill', 'stroke', 'stroke-width'],
+  rect: ['x', 'y', 'width', 'height', 'rx', 'ry', 'fill', 'stroke'],
   a: ['href', 'target', 'rel', 'class', 'id', 'title', 'aria-*', 'data-*', 'style'],
   img: ['src', 'srcset', 'sizes', 'alt', 'width', 'height', 'loading', 'class', 'style'],
   source: ['src', 'srcset', 'sizes', 'type', 'media'],

@@ -41,7 +41,9 @@
 
 /* Section Headings & Eyebrows */
 .ag-eyebrow {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
@@ -175,31 +177,34 @@
   font-size: 13.5px;
   line-height: 1.6;
   table-layout: auto;
-  min-width: 600px;
+  min-width: 0;
 }
 .ag-publication-table thead th {
   background: #eaf2e7;
   font-weight: 700;
   color: #10382b;
-  padding: 14px 18px;
+  padding: 13px 16px;
   border-bottom: 2px solid #d0e2cc;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 .ag-publication-table tbody th,
 .ag-publication-table tbody td {
-  padding: 14px 18px;
+  padding: 13px 16px;
   border-bottom: 1px solid #edf4eb;
   vertical-align: top;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
 .ag-publication-table tbody tr:last-child th,
 .ag-publication-table tbody tr:last-child td {
   border-bottom: none;
 }
-/* Left column (Header parameter) - prevent vertical word stacking */
 .ag-publication-table tbody th {
-  width: 250px;
-  min-width: 220px;
-  max-width: 280px;
+  width: 26%;
+  min-width: 165px;
   font-weight: 650;
   color: #123d2e;
   background: #fbfdfa;
@@ -209,7 +214,7 @@
   display: block;
   white-space: normal;
   word-break: normal;
-  overflow-wrap: normal;
+  overflow-wrap: break-word;
 }
 .ag-publication-table tbody td {
   color: #385145;
