@@ -185,14 +185,14 @@ html:has(.ag-detail) { scroll-padding-top: 0; }
 /* A campus profile and full-width course directory distinguish the university page. */
 .ag-detail-hero--university { position: relative; background: #edf4e8; }
 .ag-detail-university-hero-grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 35px; align-items: center; padding-bottom: 31px; }
-.ag-detail-university-identity { display: flex; align-items: center; gap: 20px; }
-.ag-detail-university-identity > span { display: grid; place-items: center; flex-shrink: 0; width: 84px; height: 84px; border: 1px solid #d6e3ca; border-radius: 6px; color: var(--ag-green); background: #fff; font-size: 26px; font-weight: 750; }
-.ag-detail-university-identity img { width: 78px; height: 78px; object-fit: contain; }
-.ag-detail-university-identity h1 { font-size: clamp(30px, 2.9vw, 43px); }
+.ag-detail-university-identity { display: flex; align-items: flex-start; gap: 18px; }
+.ag-detail-university-identity > span { display: grid; place-items: center; flex-shrink: 0; width: 76px; height: 76px; margin-top: 4px; border: 1px solid #d6e3ca; border-radius: 8px; color: var(--ag-green); background: #fff; font-size: 24px; font-weight: 750; padding: 6px; box-shadow: 0 2px 6px rgba(18, 55, 44, 0.05); }
+.ag-detail-university-identity img { width: 100%; height: 100%; object-fit: contain; }
+.ag-detail-university-identity h1 { font-size: clamp(27px, 2.55vw, 37px); line-height: 1.18; letter-spacing: -0.9px; margin: 0; }
 .ag-detail-location { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 15px; color: #55715c; font-size: 12px; }
 .ag-detail-location span { display: inline-flex; align-items: center; gap: 6px; }
-.ag-detail-university-visual { position: relative; height: 270px; padding: 5px 20px; border-left: 1px solid #d6e3cc; overflow: hidden; }
-.ag-detail-university-visual > img { object-fit: cover; border-radius: 6px; }
+.ag-detail-university-visual { position: relative; height: 270px; padding: 0; margin-left: 8px; border: 6px solid #fff; border-radius: 10px; overflow: hidden; background: #e0eadf; box-shadow: 0 6px 20px rgba(18, 55, 44, 0.08); }
+.ag-detail-university-visual > img { object-fit: cover; border-radius: 4px; }
 .ag-detail-university-visual .ag-art { height: 221px; max-width: 400px; margin-inline: auto; padding: 10px; }
 .ag-detail-university-visual > div { display: flex; justify-content: center; gap: 7px; margin-top: 9px; }
 .ag-detail-university-visual > div span { padding: 4px 9px; border: 1px solid #d5e1cb; border-radius: 4px; color: #547156; background: #f8faf3; font-size: 10px; }
@@ -271,8 +271,8 @@ html:has(.ag-detail) { scroll-padding-top: 0; }
   .ag-detail-university-hero-grid { grid-template-columns: 1.5fr 1fr; gap: 20px; }
   .ag-detail-university-identity { align-items: flex-start; }
   .ag-detail-university-identity > span { width: 68px; height: 68px; font-size: 22px; }
-  .ag-detail-university-identity img { width: 63px; height: 63px; }
-  .ag-detail-university-visual { height: 230px; padding-inline: 12px; }
+  .ag-detail-university-identity img { width: 100%; height: 100%; }
+  .ag-detail-university-visual { height: 230px; padding: 0; margin-left: 0; }
   .ag-detail-university-visual .ag-art { height: 187px; }
   .ag-detail-university-visual > div { flex-wrap: wrap; }
   .ag-detail-university-intro { grid-template-columns: minmax(0, 1fr) 270px; gap: 25px; }
@@ -301,7 +301,7 @@ html:has(.ag-detail) { scroll-padding-top: 0; }
   .ag-detail-directory__row:not(:has(.ag-detail-directory__fee)) .ag-detail-row-link { grid-row: 1; }
   .ag-detail-admission-grid { grid-template-columns: 1fr 1fr; }
   .ag-detail-university-hero-grid { grid-template-columns: minmax(0, 1fr) 220px; }
-  .ag-detail-university-visual { height: 220px; border-left: 0; }
+  .ag-detail-university-visual { height: 220px; }
   .ag-detail-university-visual .ag-art { height: 180px; }
   .ag-detail-university-visual > div { display: none; }
   .ag-detail-university-intro { grid-template-columns: 1fr; gap: 19px; }
