@@ -1,0 +1,286 @@
+{
+  "slug": "bvsc-animal-husbandry",
+  "name": "B.V.Sc. & A.H. (Bachelor of Veterinary Science and Animal Husbandry)",
+  "short_name": "B.V.Sc. & A.H.",
+  "level": "Undergraduate",
+  "discipline": "Veterinary Science",
+  "duration": "5.5 years (4.5 years academic + 1 year compulsory rotating internship)",
+  "duration_note": "Governed by Veterinary Council of India (VCI) MSVE Regulations. Includes 4.5 professional years of rigorous clinical and livestock coursework followed by a mandatory 12-month paid rotating internship at veterinary hospitals, diagnostic laboratories, and livestock farms.",
+  "mode": "Full-time, campus-based",
+  "regulator": "Veterinary Council of India (VCI)",
+  "hero": {
+    "eyebrow": "Professional veterinary degree",
+    "summary": "A 5.5-year clinical and livestock professional degree regulated by the Veterinary Council of India (VCI). Prepares registered veterinary doctors in animal medicine, surgery, reproduction, animal nutrition, pathology, and public health, concluding with a 1-year compulsory internship."
+  },
+  "overview": {
+    "heading": "What the B.V.Sc. & A.H. degree covers",
+    "paragraphs": [
+      "Bachelor of Veterinary Science and Animal Husbandry (B.V.Sc. & A.H.) is the statutory professional qualification required to practice veterinary medicine and surgery in India. The programme is strictly governed by the Veterinary Council of India (VCI) under the Minimum Standards of Veterinary Education (MSVE) Regulations.",
+      "The degree integrates veterinary medical sciences with animal husbandry and production management. Students undergo intensive training in veterinary anatomy, physiology, pharmacology, pathology, parasitology, microbiology, surgery, radiology, gynecology, obstetrics, and clinical medicine alongside livestock production management, animal genetics, and feeds and nutrition.",
+      "Practical clinical training takes place in Veterinary Clinical Complex (VCC) teaching hospitals and Instructional Livestock Farm Complexes (ILFC). In the final year, students complete a compulsory 12-month rotating internship spanning clinical practice, mobile veterinary clinics, slaughterhouse meat inspection, zoo / wildlife exposure, and farm placements."
+    ],
+    "highlights": [
+      { "label": "Duration", "value": "5.5 years (4.5 years + 1-year rotating internship)" },
+      { "label": "Statutory council", "value": "Veterinary Council of India (VCI)" },
+      { "label": "National entrance", "value": "NEET-UG (Mandatory for all admissions in India)" },
+      { "label": "Professional registration", "value": "Registration with State Veterinary Council & VCI" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Class 12 biology students passionate about animal health, clinical surgery, companion animal medicine, and wildlife conservation",
+    "Candidates qualified in NEET-UG who wish to build a professional medical career treating livestock, pets, poultry, and equine animals",
+    "Those keen on public health, zoonotic disease epidemiology, food safety inspection, and vaccine research",
+    "Students aiming for gazetted government service as Veterinary Assistant Surgeons or commission in the Indian Army Remount Veterinary Corps (RVC)"
+  ],
+  "curriculum": {
+    "heading": "Professional curriculum framework under VCI MSVE Regulations",
+    "intro": "The B.V.Sc. & A.H. curriculum is structured as a professional year-based system under VCI regulations, combining preclinical, paraclinical, and clinical subjects.",
+    "structure": [
+      {
+        "stage": "First Professional Year: Pre-Clinical & Husbandry Foundations",
+        "focus": "Gross and microscopic anatomy, animal physiology, biochemistry, and livestock production systems.",
+        "courses": [
+          "Veterinary Anatomy (osteology, arthrology, myology, neurology, histology)",
+          "Veterinary Physiology and Biochemistry",
+          "Livestock Production Management (cattle, buffalo, sheep, goat, pig, and horse management)",
+          "Instructional livestock farm management practicals"
+        ]
+      },
+      {
+        "stage": "Second Professional Year: Paraclinical Sciences & Breeding",
+        "focus": "Pathology, microbiology, parasitology, animal genetics, and animal nutrition.",
+        "courses": [
+          "Veterinary Pathology (general, systemic, and avian pathology, necropsy)",
+          "Veterinary Microbiology (bacteriology, virology, immunology, mycology)",
+          "Veterinary Parasitology (helminthology, entomology, protozoology)",
+          "Animal Genetics and Breeding (principles, population genetics, molecular breeding)",
+          "Animal Nutrition (ruminant and non-ruminant nutrition, feed technology)"
+        ]
+      },
+      {
+        "stage": "Third Professional Year: Pharmacology & Public Health",
+        "focus": "Drug actions, clinical pathology, public health, and livestock product technology.",
+        "courses": [
+          "Veterinary Pharmacology and Toxicology (chemotherapy, neuropharmacology)",
+          "Veterinary Public Health and Epidemiology (zoonoses, food hygiene)",
+          "Veterinary and Animal Husbandry Extension Education",
+          "Livestock Products Technology (meat, milk, and wool processing)",
+          "Veterinary clinical complex orientation and diagnostic practicals"
+        ]
+      },
+      {
+        "stage": "Fourth Professional Year (1.5 Years): Clinical Disciplines",
+        "focus": "Comprehensive medicine, anesthesia, surgery, radiology, and animal reproduction.",
+        "courses": [
+          "Veterinary Clinical Medicine (infectious and non-infectious animal diseases)",
+          "Veterinary Preventive Medicine and jurisprudence",
+          "Veterinary Surgery and Radiology (anesthesia, diagnostic imaging, orthopedic and soft-tissue surgery)",
+          "Veterinary Gynaecology and Obstetrics (infertility, artificial insemination, obstetrics)",
+          "Veterinary Clinical Complex (VCC) hands-on hospital rotations"
+        ]
+      },
+      {
+        "stage": "Fifth Year: Compulsory Rotating Internship (12 Months)",
+        "focus": "Full-time practical hospital rotations, field postings, and diagnostic laboratory exposure.",
+        "courses": [
+          "Clinical hospital rotations (medicine, surgery, gynecology)",
+          "Ambulatory and emergency veterinary care",
+          "Livestock and poultry farm management posting",
+          "Meat inspection and slaughterhouse hygiene training",
+          "Zoo, wild animal, and equine healthcare exposure"
+        ]
+      }
+    ],
+    "specialisations": [
+      "Veterinary Surgery & Radiology",
+      "Veterinary Gynaecology & Obstetrics",
+      "Veterinary Medicine",
+      "Veterinary Pathology",
+      "Veterinary Public Health & Epidemiology"
+    ],
+    "practical_learning": [
+      {
+        "name": "Veterinary Clinical Complex (VCC) Postings",
+        "description": "Daily rotations handling indoor and outdoor animal patients, performing physical examinations, diagnostic ultrasounds, radiography, surgical procedures, and intensive medical care."
+      },
+      {
+        "name": "Instructional Livestock Farm Complex (ILFC)",
+        "description": "Direct student management of dairy cattle, buffaloes, small ruminants, and poultry farms on university campuses, mastering milking, feed formulation, and artificial insemination."
+      },
+      {
+        "name": "Compulsory Rotating Internship",
+        "description": "One full calendar year of clinical postings across state veterinary hospitals, disease diagnostic laboratories, dairy processing plants, and zoo reserves."
+      }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "Must have passed the 10+2 qualifying examination with Physics, Chemistry, Biology (or Biotechnology), and English from a recognised education board.",
+      "Minimum 50% aggregate marks in Physics, Chemistry, Biology/Biotechnology, and English (47.5% for SC, ST, and designated reserved categories as per VCI norms).",
+      "Candidate must have qualified in the National Eligibility cum Entrance Test (NEET-UG) of the respective admission year.",
+      "Must have attained the minimum age of 17 years on or before 31 December of the year of admission.",
+      "Specific physical fitness standards for handling large animals apply."
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "admission": {
+    "routes": [
+      {
+        "name": "Veterinary Council of India (VCI) 15% All-India Quota",
+        "description": "Centralized online counselling conducted by VCI based on NEET-UG All-India Ranks for 15% seats across all recognised government veterinary colleges in India.",
+        "source_ids": ["s1", "s2"]
+      },
+      {
+        "name": "State Veterinary Counselling (85% State Quota)",
+        "description": "Conducted by respective state veterinary universities or state CET boards based on NEET-UG merit scores for state domicile candidates.",
+        "source_ids": ["s3"]
+      }
+    ],
+    "exams": [
+      {
+        "name": "NEET-UG",
+        "conducting_body": "NTA",
+        "url": "https://neet.nta.nic.in/",
+        "note": "Mandatory national entrance exam for 100% of B.V.Sc. & A.H. seats across all veterinary colleges in India."
+      }
+    ],
+    "steps": [
+      { "title": "Appear for NEET-UG", "text": "Register, appear, and qualify in NEET-UG with qualifying percentile." },
+      { "title": "Register for VCI / State Counselling", "text": "Register for 15% all-India counselling on the official VCI portal and for 85% state quota on your home-state veterinary university portal." },
+      { "title": "Choice Filling & Locking", "text": "Fill preferences of veterinary colleges based on rank and seat matrix." },
+      { "title": "Physical Reporting & Verification", "text": "Complete medical fitness examination, document scrutiny, and fee payment at the allotted veterinary college." }
+    ],
+    "documents": [
+      "Class 10 and 12 marksheet and passing certificates",
+      "NEET-UG admit card, rank card, and scorecard",
+      "VCI or State allotment letter",
+      "Category and PwBD certificates (if claiming quota)",
+      "State domicile certificate for state quota seats",
+      "Medical fitness certificate as per VCI format"
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "fees": {
+    "summary": "Tuition fees in government state veterinary universities (such as TANUVAS, GADVASU, LUVAS, MAFSU) are heavily subsidised, generally ranging from ₹20,000 to ₹55,000 per academic year. In private veterinary colleges approved by VCI, annual fees range between ₹3,50,000 to ₹6,50,000 under state quota and higher under management quotas. Interns receive a monthly stipend during their 12-month internship as per university/state norms.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Professional veterinary careers in healthcare, defense, and industry",
+    "intro": "B.V.Sc. & A.H. graduates become licensed veterinary doctors. The veterinary profession offers diverse opportunities in government animal husbandry departments, the armed forces, companion animal clinics, pharmaceutical research, and commercial dairy and poultry industries.",
+    "roles": [
+      { "title": "Veterinary Assistant Surgeon (VAS) / Veterinary Officer", "description": "Class-I / Gazetted medical officer in state animal husbandry departments running veterinary dispensaries and artificial insemination centres." },
+      { "title": "Remount Veterinary Corps (RVC) Officer", "description": "Commissioned officer (Captain) in the Indian Army responsible for the breeding, healthcare, and training of army horses, mules, and military working dogs." },
+      { "title": "Small Animal / Companion Veterinary Practitioner", "description": "Independent veterinary clinical practitioner treating domestic pets, performing surgeries, and providing preventative animal healthcare." },
+      { "title": "Dairy & Poultry Technical Consultant", "description": "Veterinary doctor supervising flock health, bio-security, vaccination, and nutrition in industrial poultry and dairy enterprises." },
+      { "title": "Wildlife & Zoo Veterinarian", "description": "Specialist providing healthcare, chemical immobilization, disease surveillance, and breeding management for captive and wild animals." },
+      { "title": "Quarantine / Food Safety Inspection Officer", "description": "Government officer checking livestock imports, animal disease outbreaks, and abattoir meat inspection at ports and borders." }
+    ],
+    "sectors": [
+      "State Government Animal Husbandry Departments",
+      "Indian Army (Remount Veterinary Corps - RVC)",
+      "Private Pet Hospitals & Veterinary Clinics",
+      "Commercial Dairy & Poultry Integrators (Amul, Venky's, Suguna)",
+      "Veterinary Pharmaceutical & Vaccine Manufacturers",
+      "Zoological Parks & Wildlife Sanctuaries"
+    ],
+    "public_sector_routes": [
+      "State Public Service Commission Veterinary Assistant Surgeon (VAS) recruitments",
+      "Indian Army Remount Veterinary Corps (RVC) Direct SSB Commission",
+      "Border Security Force (BSF) & ITBP Veterinary Cadre",
+      "Central Veterinary Officers (Department of Animal Husbandry & Dairying)",
+      "Agricultural Scientists Recruitment Board (ASRB - Animal Science disciplines)"
+    ],
+    "higher_study": [
+      "M.V.Sc. (Master of Veterinary Science) in Surgery, Medicine, Gynaecology, Pathology, etc.",
+      "Ph.D. in Veterinary & Animal Sciences",
+      "Post-Graduate Diplomas in Small Animal Practice / Wild Animal Health"
+    ],
+    "source_ids": ["s1", "s4"]
+  },
+  "skills": [
+    "Veterinary diagnostic clinical examination and case history taking",
+    "Soft-tissue and orthopedic veterinary surgery and general anesthesia",
+    "Artificial insemination and reproductive ultrasound diagnostics",
+    "Livestock herd disease outbreak investigation and biosecurity planning",
+    "Necropsy examination and histopathological tissue interpretation",
+    "Emergency critical care and fluid therapy in animals"
+  ],
+  "faqs": [
+    {
+      "question": "Is NEET-UG compulsory for admission to B.V.Sc. & A.H.?",
+      "answer": "Yes. As per the Veterinary Council of India regulations and Ministry of Fisheries, Animal Husbandry & Dairying guidelines, admission to 100% of B.V.Sc. & A.H. seats across all veterinary colleges in India is based strictly on NEET-UG scores."
+    },
+    {
+      "question": "Can B.V.Sc. & A.H. graduates use the title 'Dr.'?",
+      "answer": "Yes. Upon completing B.V.Sc. & A.H. and the compulsory 1-year internship, graduates register with the State Veterinary Council and the Veterinary Council of India, earning the statutory right to practice veterinary medicine and use the title 'Doctor' (Dr.)."
+    },
+    {
+      "question": "Can a veterinary graduate join the Indian Army directly?",
+      "answer": "Yes. The Indian Army conducts direct SSB interviews for male and female veterinary graduates to join as commissioned officers with the rank of Captain in the Remount Veterinary Corps (RVC)."
+    },
+    {
+      "question": "What is the duration of B.V.Sc. & A.H. under current regulations?",
+      "answer": "Under the VCI MSVE Regulations, the programme spans 5.5 years, comprising 4.5 professional academic years of coursework followed by a compulsory 12-month rotating internship."
+    }
+  ],
+  "seo": {
+    "title": "B.V.Sc. & A.H. — Veterinary Degree, NEET Eligibility, Syllabus & Colleges",
+    "description": "Complete guide to B.V.Sc. & A.H. (Bachelor of Veterinary Science): VCI regulations, 5.5-year syllabus, NEET eligibility, counselling, internship, and top veterinary universities.",
+    "keywords": [
+      "BVSc and AH",
+      "Bachelor of Veterinary Science",
+      "Veterinary Council of India",
+      "VCI NEET counselling",
+      "Veterinary colleges India",
+      "BVSc eligibility",
+      "Veterinary doctor course"
+    ]
+  },
+  "related": [
+    "bsc-agriculture",
+    "bfsc-fisheries-science"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "http://vci.dadf.gov.in/",
+      "title": "Veterinary Council of India - Minimum Standards of Veterinary Education (MSVE) Regulations",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "overview", "eligibility"]
+    },
+    {
+      "id": "s2",
+      "url": "https://vci.admissions.nic.in/",
+      "title": "VCI Online Counselling Portal - Information Bulletin for 15% All India Quota B.V.Sc. & A.H. Seats",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["admission", "eligibility"]
+    },
+    {
+      "id": "s3",
+      "url": "https://tanuvas.ac.in/",
+      "title": "Tamil Nadu Veterinary and Animal Sciences University (TANUVAS) - Academic Regulations",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "practical_learning", "overview"]
+    },
+    {
+      "id": "s4",
+      "url": "https://joinindianarmy.nic.in/",
+      "title": "Indian Army - Short Service Commission in Remount Veterinary Corps (RVC)",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["careers"]
+    }
+  ],
+  "verification_gaps": [],
+  "editorial_status": "research_draft"
+}

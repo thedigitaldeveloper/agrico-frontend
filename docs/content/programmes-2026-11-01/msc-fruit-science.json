@@ -1,0 +1,192 @@
+{
+  "slug": "msc-fruit-science",
+  "name": "M.Sc. (Horticulture) Fruit Science",
+  "short_name": "M.Sc. Fruit Science",
+  "level": "Postgraduate",
+  "discipline": "Horticulture",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "Coursework is usually concentrated in the first year, with the second year given largely to thesis research. Under the ICAR BSMA framework the master's credit load is 70, of which 30 credits are for thesis research.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Broad Subject Matter Area PG syllabi, Horticultural Sciences)",
+  "hero": {
+    "eyebrow": "Postgraduate horticulture degree",
+    "summary": "A two-year research master's in pomology covering how fruit crops are propagated, bred, grown, managed and handled after harvest. Students combine advanced coursework in tropical, subtropical and temperate fruits with a supervised thesis, preparing for research, horticulture department, nursery and orchard roles."
+  },
+  "overview": {
+    "heading": "What the Fruit Science master's covers",
+    "paragraphs": [
+      "M.Sc. (Horticulture) Fruit Science, sometimes called Pomology, is a specialisation within the horticulture faculty of Indian agricultural universities. It deals with the full life of a fruit crop: raising planting material in the nursery, choosing rootstocks and cultivars, planning orchards, managing canopy, nutrition and water, and handling fruit through harvest and ripening.",
+      "Most State Agricultural Universities and ICAR deemed universities follow the ICAR Broad Subject Matter Area (BSMA) PG syllabus for Horticultural Sciences, adapted by each university's academic council. The structure combines major courses in fruit science, minor and supporting courses from related departments, common courses, a seminar and a research thesis. Tamil Nadu Agricultural University, for example, describes a 70-credit load with 30 credits set aside for thesis research.",
+      "The programme is offered at many horticulture colleges. TNAU runs it at its Coimbatore horticulture college as well as Periyakulam and the Trichy college for women, and Dr YSP University of Horticulture and Forestry lists it at both Nauni and Neri. Seat numbers, crop focus and research facilities differ by region, so temperate-fruit work is more common in hill universities and tropical fruits in the plains and coastal states."
+    ],
+    "highlights": [
+      { "label": "Faculty", "value": "Horticulture (Horticultural Sciences BSMA group)" },
+      { "label": "Credit structure (ICAR BSMA)", "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30" },
+      { "label": "National entrance", "value": "ICAR AIEEA (PG), Horticulture subject group" },
+      { "label": "Typical entry degree", "value": "B.Sc. (Hons.) Horticulture; some universities also admit B.Sc. (Hons.) Agriculture" }
+    ],
+    "source_ids": ["s1", "s3", "s4", "s5"]
+  },
+  "who_should_apply": [
+    "Horticulture or agriculture graduates who enjoyed orchard, nursery and propagation practicals and want to specialise in fruit crops.",
+    "Students interested in plant breeding, rootstocks and crop improvement for perennial fruit trees.",
+    "Applicants planning a research or teaching career who are ready for a year-long field or laboratory thesis.",
+    "Those aiming to run or advise commercial nurseries, high-density orchards or export-oriented fruit enterprises."
+  ],
+  "curriculum": {
+    "heading": "Courses, research and field work",
+    "intro": "Course lists follow the ICAR BSMA Horticultural Sciences syllabus but each university adopts its own titles, codes and electives through its academic council, so subject names vary. The areas below are representative of fruit science major courses; minor and supporting courses are chosen with the student's advisory committee.",
+    "structure": [
+      {
+        "stage": "Major courses (fruit science)",
+        "focus": "Production, propagation and improvement of fruit crops across climatic zones.",
+        "courses": [
+          "Tropical and dryland fruit production",
+          "Subtropical and temperate fruit production",
+          "Propagation and nursery management of fruit crops",
+          "Breeding of fruit crops",
+          "Systematics of fruit crops",
+          "Canopy management in fruit crops",
+          "Growth, development and nutrition of fruit crops",
+          "Biotechnology, organic culture and export-oriented fruit production"
+        ]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Related disciplines that back the thesis, picked from other departments.",
+        "courses": [
+          "Statistical methods for applied sciences",
+          "Plant physiology or biochemistry",
+          "Postharvest management",
+          "Entomology, plant pathology or soil science"
+        ]
+      },
+      {
+        "stage": "Common courses and seminar",
+        "focus": "ICAR-mandated courses that build research and professional skills.",
+        "courses": [
+          "Library and information services",
+          "Technical writing and communication skills",
+          "Intellectual property and its management in agriculture",
+          "Agricultural research, research ethics and rural development programmes",
+          "Seminar"
+        ]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Thesis research", "description": "A supervised research project, usually begun after first-year coursework, under a major adviser and advisory committee, ending in a thesis and viva voce." },
+      { "name": "Orchard and nursery practicals", "description": "Hands-on work in university orchards and nurseries on propagation, training, pruning and crop regulation." },
+      { "name": "Seminars and short internships", "description": "Students present seminars and, at some universities, take short research attachments at other institutes." }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "A four-year bachelor's degree in horticulture is the standard qualification; several universities also accept B.Sc. (Hons.) Agriculture for this subject. Accepted degrees vary by university and year.",
+      "For ICAR AIEEA (PG), candidates apply under the Horticulture subject group; the qualifying degrees and minimum OGPA/percentage for each category are notified in that year's information bulletin.",
+      "Final-year undergraduates can usually apply provisionally if they complete the degree with the required marks by the admission deadline.",
+      "University seats have their own minimum OGPA, domicile and reservation rules, which differ between states."
+    ],
+    "source_ids": ["s2", "s5", "s6"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG)", "description": "A national NTA-conducted test used for ICAR's share of master's seats in agricultural universities and for seats at ICAR deemed universities. Rank also matters for the ICAR PG scholarship.", "source_ids": ["s2", "s5"] },
+      { "name": "University PG entrance test", "description": "Most state agricultural and horticultural universities fill their remaining seats through their own entrance test or merit list. Dr YSPUHF, for instance, used its PGET score for normal and self-financing seats in the 2023 cycle.", "source_ids": ["s5", "s6"] },
+      { "name": "Self-financing and other quotas", "description": "Some universities run self-financing, sports or in-service seats with separate rules; details appear in each year's prospectus.", "source_ids": ["s5"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test with a Horticulture subject paper; pattern, dates and scholarship rules change by year, so check the current bulletin." },
+      { "name": "University PG entrance tests", "conducting_body": "Individual agricultural/horticultural universities", "url": null, "note": "Names, syllabi and weightage vary by university." }
+    ],
+    "steps": [
+      { "title": "Check eligibility", "text": "Confirm that your bachelor's degree and OGPA match the subject list in the ICAR bulletin and the target university's prospectus." },
+      { "title": "Register for entrance tests", "text": "Apply for ICAR AIEEA (PG) through NTA and, separately, for the PG entrance of the universities you are interested in." },
+      { "title": "Take part in counselling", "text": "Use your rank in ICAR online counselling or the university's own counselling to choose subject and institution." },
+      { "title": "Complete admission formalities", "text": "Report to the allotted university with original documents and fees within the stated deadline." }
+    ],
+    "documents": [],
+    "source_ids": ["s2", "s5", "s6"]
+  },
+  "fees": {
+    "summary": "Fees depend on the type of institution and seat. State agricultural and horticultural universities generally charge less on regular seats than on self-financing seats, ICAR-quota and state-quota fees can differ within the same university, and hostel and examination charges are billed separately. Check the current prospectus of each university; no figures are given here because no dated official fee schedule was verified.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Where a Fruit Science master's can lead",
+    "intro": "Graduates work across public horticulture, research and the fruit value chain. Many go on to a Ph.D. or sit national eligibility tests for teaching and research posts. Job titles and recruitment rules vary by state and employer, and results depend on individual performance in competitive selection.",
+    "roles": [
+      { "title": "Horticulture officer / assistant director of horticulture", "description": "Implements state horticulture schemes, nursery programmes and grower advisory work through the state horticulture department." },
+      { "title": "Subject matter specialist (horticulture)", "description": "Delivers on-farm trials, demonstrations and training through a Krishi Vigyan Kendra." },
+      { "title": "Research fellow or associate", "description": "Supports funded projects in university or ICAR fruit research programmes." },
+      { "title": "Nursery or orchard manager", "description": "Plans propagation, planting systems and crop management for commercial nurseries and orchards." },
+      { "title": "Technical or field officer in agri-input companies", "description": "Advises growers on varieties, nutrition and crop protection for fruit crops." }
+    ],
+    "sectors": [
+      "State horticulture departments",
+      "ICAR institutes and agricultural universities",
+      "Krishi Vigyan Kendras",
+      "Commercial nurseries and orchards",
+      "Seed, fertiliser and agri-input companies",
+      "Fruit processing and export businesses"
+    ],
+    "public_sector_routes": [
+      "ICAR ASRB National Eligibility Test (NET) in Fruit Science for lecturer/assistant professor eligibility",
+      "ICAR ASRB Agricultural Research Service and related scientist recruitment",
+      "State public service commission horticulture officer examinations"
+    ],
+    "higher_study": [
+      "Ph.D. in Fruit Science (via ICAR AICE-JRF/SRF (PhD) or university entrance)",
+      "Ph.D. in allied horticulture disciplines such as postharvest management"
+    ],
+    "source_ids": ["s3", "s7"]
+  },
+  "skills": [
+    "Propagation, grafting and nursery management",
+    "Orchard planning, canopy and nutrient management",
+    "Fruit crop breeding and germplasm evaluation",
+    "Experimental design and statistical analysis",
+    "Scientific writing and seminar presentation"
+  ],
+  "faqs": [
+    { "question": "Can a B.Sc. Agriculture graduate join M.Sc. Fruit Science?", "answer": "At some universities, yes. Horticulture graduates are the main intake, but several universities also accept B.Sc. (Hons.) Agriculture. The ICAR AIEEA (PG) bulletin and each university prospectus list the accepted degrees for that year.", "source_ids": ["s2"] },
+    { "question": "Which exam is used for admission?", "answer": "ICAR AIEEA (PG), conducted by NTA, covers ICAR's share of seats in agricultural universities and seats at ICAR deemed universities. Other seats are filled through each university's own PG entrance or merit process.", "source_ids": ["s2", "s5"] },
+    { "question": "How is the programme structured?", "answer": "Under the ICAR BSMA framework the master's carries 70 credits: 20 major, 8 minor, 6 supporting, 5 common, 1 seminar and 30 for thesis research. Coursework usually comes first, followed by the thesis.", "source_ids": ["s1", "s3"] },
+    { "question": "Is Fruit Science the same as Pomology?", "answer": "Yes. Pomology is the older name for the same field, and some notices still list the subject as 'Fruit Science / Pomology'.", "source_ids": ["s2"] },
+    { "question": "What careers are open after the degree?", "answer": "Common paths include state horticulture department posts, KVK subject matter specialist roles, research fellowships, nursery and orchard management, and technical roles in agri-input companies. Each has its own recruitment rules.", "source_ids": ["s3"] },
+    { "question": "Can I teach or do research after M.Sc. Fruit Science?", "answer": "Fruit Science is a discipline in the ICAR ASRB National Eligibility Test, which is used for assistant professor eligibility in agricultural universities. A Ph.D. is the usual next step for research careers.", "source_ids": ["s7"] }
+  ],
+  "seo": {
+    "title": "M.Sc. Fruit Science: Course, Eligibility & Admission",
+    "description": "M.Sc. (Horticulture) Fruit Science explained: ICAR BSMA curriculum, eligibility, ICAR AIEEA-PG admission, thesis research, careers and Ph.D. options.",
+    "keywords": [
+      "M.Sc. Fruit Science",
+      "M.Sc. Horticulture Fruit Science eligibility",
+      "Pomology master's India",
+      "ICAR AIEEA PG horticulture",
+      "Fruit Science syllabus ICAR",
+      "Fruit Science career scope"
+    ]
+  },
+  "related": ["bsc-horticulture", "msc-vegetable-science", "msc-floriculture-landscaping", "msc-genetics-plant-breeding"],
+  "sources": [
+    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Horticultural Sciences", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct access to icar.org.in was blocked by a permission prompt; course areas and the 70-credit split were seen in search excerpts citing ICAR and university BSMA documents. Exact PDF URL not confirmed." },
+    { "id": "s2", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["eligibility", "admission", "faqs"], "notes": "Direct fetch failed with a TLS certificate error; subject group (Horticulture, incl. Fruit Science/Pomology) and seat-share details seen in search excerpts referencing the NTA information bulletin. Year-specific figures not confirmed." },
+    { "id": "s3", "url": "https://tnau.ac.in/m-sc-horticulture-fruit-science/", "title": "TNAU - M.Sc. (Horticulture) Fruit Science", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "careers"], "notes": "Institution-specific: 70 credits with 30 for thesis; offered at HC&RI Coimbatore, Periyakulam and HC&RI for Women, Trichy." },
+    { "id": "s4", "url": "https://tnau.ac.in/masters/", "title": "TNAU School of Post Graduate Studies - Masters programmes", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview"], "notes": null },
+    { "id": "s5", "url": "https://www.uhf.ac.in/adm-pg", "title": "Dr YSP University of Horticulture and Forestry - Master's programme admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "eligibility", "admission"], "notes": "Lists M.Sc. (Hort.) Fruit Science at Nauni and Neri; states 30% of normal seats for ICAR and PGET-2023 as basis of admission (may be outdated for later cycles)." },
+    { "id": "s6", "url": "https://www.uhf.ac.in/admissions", "title": "Dr YSPUHF - About admissions", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["eligibility", "admission"], "notes": "States admissions follow university academic regulations, state government and ICAR norms." },
+    { "id": "s7", "url": "https://www.asrb.org.in/", "title": "Agricultural Scientists Recruitment Board (ASRB)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers", "faqs"], "notes": "Site timed out; Fruit Science as an ASRB NET discipline seen only in search excerpts from secondary sites. Confirm against the current ASRB NET notification." }
+  ],
+  "verification_gaps": [
+    { "field": "curriculum.structure", "reason": "ICAR BSMA Horticulture PDF could not be opened (icar.org.in blocked); course areas are paraphrased from search excerpts and may not match exact ICAR titles or codes.", "next_source": "ICAR BSMA Horticultural Sciences PG syllabus PDF on icar.org.in" },
+    { "field": "eligibility.points", "reason": "Minimum OGPA/percentage by category and the full list of qualifying degrees for the Horticulture group in the latest ICAR AIEEA (PG) bulletin were not verified directly.", "next_source": "Current NTA ICAR AIEEA (PG) information bulletin" },
+    { "field": "admission.exams", "reason": "Current AIEEA (PG) exam pattern, ICAR seat share and PG scholarship numbers not confirmed from an official page this session.", "next_source": "https://exams.nta.ac.in/ICAR/" },
+    { "field": "admission.documents", "reason": "No official document checklist was read.", "next_source": "University PG prospectus / ICAR counselling brochure" },
+    { "field": "fees.observed_examples", "reason": "No dated official fee schedule verified.", "next_source": "Current PG prospectus of TNAU, Dr YSPUHF, PAU" },
+    { "field": "careers.public_sector_routes", "reason": "ASRB NET discipline list not read from ASRB directly.", "next_source": "Latest ASRB NET notification" }
+  ],
+  "editorial_status": "research_draft"
+}

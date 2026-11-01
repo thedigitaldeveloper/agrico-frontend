@@ -1,0 +1,288 @@
+{
+  "slug": "bsc-horticulture",
+  "name": "B.Sc. (Hons.) Horticulture",
+  "short_name": "B.Sc. Horticulture",
+  "level": "Undergraduate",
+  "discipline": "Horticulture",
+  "duration": "4 years (8 semesters)",
+  "duration_note": "Includes intensive practical learning, orchard establishment, nursery production, greenhouse management, and rural horticultural work experience (RHWE) alongside hands-on commercial horticulture modules in the final year under ICAR's Student READY framework.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Sixth Deans Committee)",
+  "hero": {
+    "eyebrow": "Undergraduate horticulture degree",
+    "summary": "A four-year professional degree focusing on the science, cultivation, post-harvest handling, and commercial production of fruits, vegetables, flowers, plantation crops, spices, and medicinal plants. Combines intensive nursery and field practicals with protected cultivation technology."
+  },
+  "overview": {
+    "heading": "What the B.Sc. (Hons.) Horticulture degree covers",
+    "paragraphs": [
+      "B.Sc. (Hons.) Horticulture is a four-year professional undergraduate degree designed under the recommendations of the ICAR Deans Committee. The programme equips students with scientific knowledge and technical skills in fruit science (pomology), vegetable science (olericulture), floriculture, landscape gardening, plantation crops, spices, aromatic and medicinal plants, and post-harvest technology.",
+      "The curriculum balances plant biology, soil management, plant protection, and breeding with hands-on production technologies such as greenhouse cultivation, drip irrigation, micropropagation, nursery management, and hydroponics. Students gain extensive field exposure on university orchards, commercial nurseries, and processing units.",
+      "In the final year, students undergo Rural Horticultural Work Experience (RHWE) and the Experiential Learning Programme (ELP) under the Student READY scheme, operating commercial enterprise units such as commercial floriculture, nursery production, or fruit and vegetable processing on an earn-while-you-learn basis."
+    ],
+    "highlights": [
+      { "label": "Duration", "value": "4 years / 8 semesters" },
+      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
+      { "label": "Final-year practical component", "value": "Student READY: RHWE, nursery and protected cultivation ELP" },
+      { "label": "National entrance", "value": "CUET-UG for ICAR all-India quota seats" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Students with Physics, Chemistry, Biology/Mathematics or Agriculture in Class 12 interested in plant production, genetics, and horticultural sciences",
+    "Those enthusiastic about orchard management, landscape design, greenhouse farming, and ornamental plant production",
+    "Applicants aspiring to establish commercial enterprises in protected cultivation, seed production, nursery management, or floriculture export",
+    "Students aiming for government roles as Horticulture Development Officers or for scientific careers in ICAR research institutes and universities"
+  ],
+  "curriculum": {
+    "heading": "How the four years are organised",
+    "intro": "The course structure follows the national curriculum formulated by the ICAR Deans Committee. While individual state agricultural and horticultural universities structure courses by semester, the core domains remain consistent across accredited institutions.",
+    "structure": [
+      {
+        "stage": "Years 1-2: Scientific Foundations & Basic Horticulture",
+        "focus": "Basic sciences, fundamentals of horticulture, soil fertility, plant anatomy, introductory genetics, and crop protection.",
+        "courses": [
+          "Fundamentals of horticulture",
+          "Plant propagation and nursery management",
+          "Fundamentals of soil science",
+          "Tropical and subtropical fruit production",
+          "Introductory crop physiology and biochemistry",
+          "Principles of plant breeding and genetics",
+          "Fundamentals of plant pathology and entomology in horticulture",
+          "Water management in horticultural crops"
+        ]
+      },
+      {
+        "stage": "Years 2-3: Core Production, Protection & Processing",
+        "focus": "Production technology of major crops, commercial floriculture, spices, landscape architecture, and post-harvest handling.",
+        "courses": [
+          "Temperate fruit production",
+          "Production technology of warm and cool season vegetables",
+          "Commercial floriculture and landscape architecture",
+          "Spices, aromatic and medicinal crop production",
+          "Breeding of horticultural crops and seed production",
+          "Protected cultivation and precision farming",
+          "Post-harvest management and value addition of fruits and vegetables",
+          "Horticultural marketing, export, and agribusiness finance"
+        ]
+      },
+      {
+        "stage": "Year 4: Student READY Practical Modules",
+        "focus": "Field attachment, village placement, commercial enterprise management, and industrial training.",
+        "courses": [
+          "Rural Horticultural Work Experience (RHWE)",
+          "Experiential Learning Programme (ELP) modules",
+          "Commercial nursery production and protected cultivation",
+          "Processing of horticultural produce and value addition",
+          "Industrial internship and report presentation"
+        ]
+      }
+    ],
+    "specialisations": [
+      "Fruit Science (Pomology)",
+      "Vegetable Science (Olericulture)",
+      "Floriculture & Landscaping",
+      "Post-Harvest Technology & Value Addition",
+      "Plantation, Spices, Medicinal & Aromatic Plants"
+    ],
+    "practical_learning": [
+      {
+        "name": "Rural Horticultural Work Experience (RHWE)",
+        "description": "Students spend structured time residing in rural farming communities, studying local horticultural practices, diagnosing field pest and disease issues, and advising growers on modern techniques."
+      },
+      {
+        "name": "Experiential Learning Programme (ELP)",
+        "description": "Students work in teams managing live commercial units such as polyhouses, tissue culture labs, mushroom cultivation, or fruit processing plants, managing production, packaging, and commercial sales."
+      },
+      {
+        "name": "Orchard & Nursery Training",
+        "description": "Hands-on mastery of budding, grafting, layering, pruning, training, potting mixtures, and certified nursery raising on university research farms."
+      }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "Pass in 10+2 (Senior Secondary) examination or equivalent from a recognised board with English, Physics, Chemistry, and Biology/Mathematics or Agriculture.",
+      "For ICAR all-India quota seats via CUET-UG, candidates must have passed 10+2 with at least 50% aggregate marks (40% for SC, ST, PwBD, and third-gender categories).",
+      "Candidates must be at least 16 years of age on 31 August of the admission year for ICAR quota admissions.",
+      "State-specific domicile and eligibility rules apply for state quota seats in state horticultural and agricultural universities (e.g. Dr YSRHU in Andhra Pradesh, SKLTSHU in Telangana, Dr YSPUHF in Himachal Pradesh)."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      {
+        "name": "CUET-UG (ICAR All-India Quota)",
+        "description": "Online national testing conducted by NTA followed by ICAR central counselling for 20% all-India quota seats in state universities and 100% seats in central universities.",
+        "source_ids": ["s2"]
+      },
+      {
+        "name": "State Horticultural / Agricultural Entrance Examinations",
+        "description": "State-level counselling based on state CETs such as AP EAPCET, TS EAMCET, KCET, MHT-CET, UPCATET, BCECE, or KEAM for 80% state quota seats.",
+        "source_ids": ["s3"]
+      },
+      {
+        "name": "Direct / University-Level Entrance",
+        "description": "Private universities and deemed institutions conduct university-level entrance tests or admit on qualifying 10+2 merit scores.",
+        "source_ids": []
+      }
+    ],
+    "exams": [
+      {
+        "name": "CUET-UG",
+        "conducting_body": "NTA",
+        "url": "https://cuet.nta.nic.in/",
+        "note": "Required for ICAR all-India quota seats. Domain subjects must match 10+2 qualifying subjects."
+      },
+      {
+        "name": "State Agricultural & Horticultural Common Entrance Tests",
+        "conducting_body": "Respective State Examination Authorities",
+        "url": null,
+        "note": "Examples include AP EAPCET, TS EAMCET, KCET, MHT-CET, UPCATET."
+      }
+    ],
+    "steps": [
+      { "title": "Check Entrance Criteria", "text": "Verify whether your chosen universities admit via CUET-UG (ICAR quota) or through state CET counselling." },
+      { "title": "Appear for Entrance", "text": "Take the relevant national or state entrance test with appropriate domain subjects (PCB/PCM/PCA)." },
+      { "title": "Register for Online Counselling", "text": "Submit choice preferences for horticulture colleges and campuses during the official counselling window." },
+      { "title": "Document Verification & Fee Payment", "text": "Verify academic certificates, category proof, and pay admission fees at the allotted college." }
+    ],
+    "documents": [
+      "Class 10 and Class 12 marksheet and passing certificates",
+      "Admit card and scorecard of CUET-UG or relevant state entrance exam",
+      "Category certificate (SC/ST/OBC-NCL/EWS/PwBD) if applicable",
+      "Domicile certificate for state quota seats",
+      "Transfer and character certificate from previous institution"
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "fees": {
+    "summary": "Fees vary significantly between government state horticultural universities and private institutions. State horticultural universities offer subsidised tuition (typically ₹15,000 to ₹45,000 per year for regular government quota seats), whereas private universities and self-financing quotas range between ₹80,000 to ₹2,50,000 per year. Hostel, mess, and examination fees are charged separately.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Career opportunities and professional pathways",
+    "intro": "India is the second-largest producer of fruits and vegetables globally, creating substantial employment across precision farming, seed production, post-harvest supply chains, government agricultural departments, and landscape development.",
+    "roles": [
+      { "title": "Horticulture Development Officer (HDO)", "description": "State government department officer implementing agricultural development schemes, orchard subsidies, and grower advisory services." },
+      { "title": "Plantation & Estate Manager", "description": "Supervises operations on commercial tea, coffee, rubber, cardamom, or oil palm estates." },
+      { "title": "Greenhouse / Polyhouse Production Specialist", "description": "Manages high-tech protected cultivation of exotic vegetables, cut flowers, and strawberry crops." },
+      { "title": "Landscape Designer & Urban Horticulturist", "description": "Plans and manages urban landscaping, golf courses, botanical gardens, and residential greenscapes." },
+      { "title": "Post-Harvest & Cold Chain Executive", "description": "Oversees grading, cold storage, packaging, and supply-chain logistics for retail chains and export firms." },
+      { "title": "Seed Production Specialist", "description": "Oversees hybrid seed production, quality testing, and field certification for seed multinationals." }
+    ],
+    "sectors": [
+      "State Horticulture & Agriculture Departments",
+      "Commercial Seed & Hybrid Companies",
+      "Floriculture Export & Greenhouse Firms",
+      "Food Processing & Post-Harvest Enterprises",
+      "Landscape Architecture & Golf Course Management",
+      "Agricultural Banking & Plantation Estates"
+    ],
+    "public_sector_routes": [
+      "IBPS Specialist Officer (Agricultural Field Officer - AFO)",
+      "State Public Service Commission Horticulture Officer (HDO / ADH) exams",
+      "National Horticulture Board (NHB) technical recruitments",
+      "NABARD Assistant Manager (Grade A - RDBS)",
+      "ICAR & SAU technical assistant and lab officer positions"
+    ],
+    "higher_study": [
+      "M.Sc. Horticulture (Fruit Science / Pomology)",
+      "M.Sc. Horticulture (Vegetable Science / Olericulture)",
+      "M.Sc. Horticulture (Floriculture & Landscape Architecture)",
+      "M.Sc. Post-Harvest Management",
+      "MBA Agribusiness Management"
+    ],
+    "source_ids": ["s1", "s4"]
+  },
+  "skills": [
+    "Plant propagation methods (grafting, budding, micropropagation)",
+    "Greenhouse design, fertigation, and climate automation",
+    "Crop nutrition diagnosis and integrated pest management (IPM)",
+    "Post-harvest sorting, grading, and cold chain handling",
+    "Landscape drafting, planting design, and turf management",
+    "Agri-input marketing and farm business financial planning"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between B.Sc. Agriculture and B.Sc. Horticulture?",
+      "answer": "B.Sc. Agriculture covers the broader scope of field crops, agronomy, soil science, farm machinery, livestock, and crop protection. B.Sc. Horticulture specialises deeply in high-value crops: fruits, vegetables, flowers, spices, plantation crops, protected greenhouse cultivation, and post-harvest technology."
+    },
+    {
+      "question": "Are B.Sc. Horticulture graduates eligible for IBPS AFO and state agriculture exams?",
+      "answer": "Yes. The Institute of Banking Personnel Selection (IBPS) explicitly lists B.Sc. Horticulture as an eligible qualifying degree for the Agricultural Field Officer (AFO) Scale-I recruitment. Most state agricultural exams also accept horticulture graduates alongside agriculture graduates."
+    },
+    {
+      "question": "Can I take admission with Physics, Chemistry, and Mathematics (PCM)?",
+      "answer": "Yes. Most national and state councils, including ICAR for CUET-UG, permit candidates with PCM in Class 12 to apply for B.Sc. Horticulture, though students must complete remedial biology coursework in their first semester."
+    },
+    {
+      "question": "What is the role of the RHWE programme in B.Sc. Horticulture?",
+      "answer": "Rural Horticultural Work Experience (RHWE) is an intensive semester-long hands-on training module in the final year where students live in farming villages, assist growers with pest and disease management, and study regional supply chains firsthand."
+    },
+    {
+      "question": "Which are the prominent specialised horticultural universities in India?",
+      "answer": "Prominent specialised state universities include Dr Yashwant Singh Parmar University of Horticulture and Forestry (Solan, HP), Dr Y.S.R. Horticultural University (Andhra Pradesh), Sri Konda Laxman Telangana State Horticultural University (Telangana), and University of Horticultural Sciences (Bagalkot, Karnataka)."
+    }
+  ],
+  "seo": {
+    "title": "B.Sc. Horticulture — Curriculum, Eligibility, Fees & Colleges",
+    "description": "Explore B.Sc. (Hons.) Horticulture: ICAR curriculum, 4-year syllabus, eligibility, entrance exams (CUET), careers, and top horticulture universities.",
+    "keywords": [
+      "BSc Horticulture",
+      "B.Sc. Hons Horticulture",
+      "Horticulture degree India",
+      "ICAR BSc Horticulture",
+      "BSc Horticulture syllabus",
+      "BSc Horticulture eligibility",
+      "Horticulture Officer careers"
+    ]
+  },
+  "related": [
+    "bsc-agriculture",
+    "msc-fruit-science",
+    "msc-vegetable-science",
+    "msc-floriculture-landscaping"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR Sixth Deans Committee Report - Minimum Standards and Curriculum for Undergraduate Degrees",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "overview", "who_should_apply"]
+    },
+    {
+      "id": "s2",
+      "url": "https://cuet.nta.nic.in/",
+      "title": "NTA CUET-UG Information Bulletin - ICAR All India Quota Admissions",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["eligibility", "admission"]
+    },
+    {
+      "id": "s3",
+      "url": "https://tnau.ac.in/academic-ug-programmes/",
+      "title": "TNAU Undergraduate Horticultural Academic Syllabus and Regulations",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "practical_learning", "overview"]
+    },
+    {
+      "id": "s4",
+      "url": "https://www.ibps.in/",
+      "title": "IBPS CRP Specialist Officers - Educational Qualifications for Agricultural Field Officer",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["careers"]
+    }
+  ],
+  "verification_gaps": [],
+  "editorial_status": "research_draft"
+}

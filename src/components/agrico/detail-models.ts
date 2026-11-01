@@ -6,6 +6,7 @@ import type { ContentSectionRef, UniversityCard, UniversityDetail } from '@/lib/
 import { durationLabel, offeringFee, offeringFeeSpread, offeringsByUniversity } from '@/components/program/program-facts';
 import { PROGRAMMES, type AgricultureProgramme } from './home-data';
 import { programmeGuidePath, UNIVERSITY_GUIDES, type UniversityGuide } from './detail-catalogue';
+import type { ProgrammeContent, ProgrammeUniversity } from '@/lib/agrico/programme-content';
 
 export interface DetailListing {
   name: string; href: string; description: string; level?: string; duration?: string;
@@ -22,6 +23,8 @@ export interface ProgrammeModel {
   universities: DetailListing[]; related: DetailListing[];
   section: ContentSection | null; sections: ContentSectionRef[]; activeSlug?: string | null;
   context: DetailContext; universityPath?: string; offeredAt?: string; offering?: boolean;
+  /** Researched programme content (docs/content/programmes-2026-11-01); enables the richer sections. */
+  content?: ProgrammeContent;
 }
 export interface UniversityModel {
   name: string; slug: string; mark: string; city: string; state: string; ownership: string;
@@ -54,6 +57,41 @@ export function guideProgrammeModel(guide: AgricultureProgramme): ProgrammeModel
     universities: UNIVERSITY_GUIDES.filter(u => u.programmeIds.includes(guide.id)).map(u => ({ name: u.name, href: '/university/' + u.slug, description: u.city + ', ' + u.state, mark: u.mark })),
     related: PROGRAMMES.filter(p => p.id !== guide.id).slice(0, 3).map(p => ({ name: p.name, href: programmeGuidePath(p.id), description: p.focus, level: p.level, duration: p.duration })),
     context: { programName: guide.name }, section: null, sections: [],
+  };
+}
+
+const ART_CYCLE = [6, 1, 3, 4, 2, 0, 7, 8];
+const firstSentence = (text?: string) => (text || '').split(/(?<=\.)\s/)[0] || '';
+
+/**
+ * Builds a programme page from researched content. The editorial guide (when the
+ * slug is one of the six homepage programmes) only fills gaps the research left.
+ */
+export function contentProgrammeModel(content: ProgrammeContent, universities: ProgrammeUniversity[], related: ProgrammeContent[], guide?: AgricultureProgramme): ProgrammeModel {
+  const path = '/' + content.slug;
+  const structure = content.curriculum?.structure || [];
+  const topics = structure.length
+    ? structure.slice(0, 6).map((stage, index) => ({ title: stage.stage, description: stage.focus || (stage.courses || []).slice(0, 4).join(', '), art: ART_CYCLE[index % ART_CYCLE.length] }))
+    : guide?.topics || [];
+  const officialSource = content.sources?.find(source => source.kind === 'regulator' || source.kind === 'official');
+  return {
+    name: content.name, slug: content.slug, path,
+    description: content.hero?.summary || guide?.description || content.overview?.paragraphs?.[0] || '',
+    level: content.level, duration: content.duration || guide?.duration || '', mode: content.mode || 'Campus learning',
+    focus: content.discipline || guide?.focus || '',
+    subjects: guide?.subjects || (content.curriculum?.specialisations || []).slice(0, 3).join(', ') || firstSentence(content.curriculum?.intro),
+    careers: guide?.careers || (content.careers?.sectors || []).slice(0, 3).join(', ') || 'Programme-specific career pathways',
+    topics, fee: null,
+    feeLabel: 'Varies by university',
+    feeNote: content.fees?.summary ? firstSentence(content.fees.summary) : null,
+    highlights: (content.overview?.highlights || []).filter(item => item.label && item.value).map(item => ({ key: item.label, value: item.value })),
+    eligibility: content.eligibility?.points || [],
+    exams: [],
+    resources: officialSource ? [{ name: officialSource.title, href: officialSource.url }] : guide ? [{ name: 'Official academic information', href: guide.source }] : [],
+    source: officialSource?.url || guide?.source,
+    universities: universities.map(u => ({ name: u.name, href: '/university/' + u.slug, description: [u.city, u.state].filter(Boolean).join(', '), logo: u.logo, mark: initials(u.name) })),
+    related: related.map(item => ({ name: item.name, href: '/' + item.slug, description: item.discipline || '', level: item.level, duration: item.duration || undefined })),
+    context: { programName: content.name }, section: null, sections: [], content,
   };
 }
 

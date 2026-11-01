@@ -421,3 +421,71 @@ html:has(.ag-detail) { scroll-padding-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   .ag-detail * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+/* Programme pages: researched content sections (programme-content-sections.tsx) */
+.ag-pc-paragraph { margin-top: 12px; color: var(--ag-text); font-size: 14px; line-height: 1.8; }
+.ag-pc-highlights { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 20px 0 0; }
+.ag-pc-highlights > div { padding: 13px 15px; border: 1px solid #dfe9dc; border-radius: 8px; background: #f7faf4; }
+.ag-pc-highlights dt { margin-bottom: 4px; font-size: 11px; color: #6c7c69; text-transform: uppercase; letter-spacing: .6px; }
+.ag-pc-highlights dd { margin: 0; color: var(--ag-ink); font-size: 13px; font-weight: 650; line-height: 1.45; }
+.ag-pc-fit { margin-top: 22px; padding: 20px 22px; border-radius: 10px; background: linear-gradient(120deg, #eef5e7, #f6f9f1); border: 1px solid #dde9d5; }
+.ag-pc-fit__head { display: flex; align-items: center; gap: 10px; margin-bottom: 13px; color: var(--ag-green); }
+.ag-pc-fit__head h3 { font-size: 16px; color: var(--ag-ink); }
+.ag-pc-timeline { list-style: none; margin: 20px 0 0; padding: 0; position: relative; }
+.ag-pc-timeline::before { content: ''; position: absolute; left: 15px; top: 8px; bottom: 8px; width: 2px; background: #dbe8d5; }
+.ag-pc-timeline > li { position: relative; display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 16px; padding-bottom: 20px; }
+.ag-pc-timeline > li:last-child { padding-bottom: 0; }
+.ag-pc-timeline__dot { position: relative; z-index: 1; display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--ag-green); color: #fff; font-size: 13px; font-weight: 700; }
+.ag-pc-timeline h3 { font-size: 15px; margin: 5px 0 4px; }
+.ag-pc-timeline p { font-size: 13px; color: var(--ag-text); line-height: 1.65; }
+.ag-pc-chips { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+.ag-pc-chips span { padding: 5px 10px; border-radius: 999px; border: 1px solid #d6e3d1; background: #fff; color: #2f4a33; font-size: 12px; line-height: 1.3; }
+.ag-pc-chips--soft span { background: #eff5e9; border-color: #dbe8d2; }
+.ag-pc-block { margin-top: 24px; }
+.ag-pc-block h3, .ag-pc-admission h3, .ag-pc-career-grid h3 { display: flex; align-items: center; gap: 8px; font-size: 15px; }
+.ag-pc-block h3 svg, .ag-pc-admission h3 svg, .ag-pc-career-grid h3 svg { color: var(--ag-green); flex-shrink: 0; }
+.ag-pc-practical { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-top: 22px; }
+.ag-pc-practical article { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 14px; align-items: start; padding: 14px; border: 1px solid #e1eadd; border-radius: 9px; background: #fff; }
+.ag-pc-practical .ag-art { height: 78px; border-radius: 6px; background: #f0f5e9; padding: 6px; }
+.ag-pc-practical h3 { display: flex; align-items: center; gap: 6px; font-size: 14px; margin-bottom: 5px; }
+.ag-pc-practical h3 svg { color: var(--ag-green); }
+.ag-pc-practical p { font-size: 12.5px; color: var(--ag-text); line-height: 1.6; }
+.ag-pc-note { display: flex; align-items: center; gap: 8px; margin-top: 18px; color: #61705e; font-size: 12px; }
+.ag-pc-admission { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 28px; margin-top: 18px; }
+.ag-pc-admission > div > h3 { margin-bottom: 13px; }
+.ag-pc-subhead { margin-top: 22px; }
+.ag-pc-routes { display: grid; gap: 10px; }
+.ag-pc-routes article { padding: 13px 15px; border-left: 3px solid var(--ag-green); border-radius: 0 8px 8px 0; background: #f4f8f0; }
+.ag-pc-routes h4 { font-size: 13.5px; margin-bottom: 4px; }
+.ag-pc-routes p { font-size: 12.5px; color: var(--ag-text); line-height: 1.6; }
+.ag-pc-exams { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.ag-pc-exams a, .ag-pc-exams span { display: inline-flex; align-items: center; gap: 7px; padding: 7px 11px; border: 1px solid #cfe0c9; border-radius: 6px; background: #fff; color: var(--ag-ink); font-size: 12px; font-weight: 650; text-decoration: none; }
+.ag-pc-exams a:hover { border-color: var(--ag-green); color: var(--ag-green); }
+.ag-pc-exams small { color: #6c7c69; font-weight: 500; }
+.ag-pc-docs { margin: 8px 0 0; padding-left: 18px; color: var(--ag-text); font-size: 13px; line-height: 1.75; }
+.ag-pc-steps { margin-top: 24px; }
+.ag-pc-fees { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 18px; align-items: center; margin-top: 16px; padding: 20px 22px; border-radius: 10px; border: 1px solid #dfe9dc; background: #fbfcf8; }
+.ag-pc-fees > svg { color: var(--ag-green); }
+.ag-pc-fees p { font-size: 13.5px; color: var(--ag-text); line-height: 1.7; }
+.ag-pc-fees__hint { margin-top: 8px; font-size: 12px !important; color: #6c7c69 !important; }
+.ag-pc-roles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 18px; }
+.ag-pc-roles article { padding: 15px; border: 1px solid #e1eadd; border-radius: 9px; background: #fff; transition: border-color .18s ease, transform .18s ease; }
+.ag-pc-roles article:hover { border-color: #b9d2b5; transform: translateY(-2px); }
+.ag-pc-roles svg { color: var(--ag-green); margin-bottom: 8px; }
+.ag-pc-roles h3 { font-size: 14px; margin-bottom: 5px; }
+.ag-pc-roles p { font-size: 12.5px; color: var(--ag-text); line-height: 1.6; }
+.ag-pc-career-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 28px; margin-top: 24px; }
+.ag-pc-career-cta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin-top: 24px; padding: 16px 20px; border-radius: 10px; background: #0f4c33; }
+.ag-pc-career-cta p { flex: 1 1 280px; color: #e5f0e3; font-size: 13px; }
+.ag-pc-career-cta .ag-button { background: #d7ef8a; color: #0f3d29; }
+.ag-detail-directory__mark.has-logo { background: #fff; border: 1px solid #e3ebe0; padding: 5px; }
+.ag-detail-directory__mark.has-logo img { width: 100%; height: 100%; object-fit: contain; }
+@media (max-width: 900px) {
+  .ag-pc-admission, .ag-pc-career-grid { grid-template-columns: 1fr; }
+  .ag-pc-roles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .ag-pc-practical, .ag-pc-roles { grid-template-columns: 1fr; }
+  .ag-pc-fees { grid-template-columns: 1fr; }
+  .ag-pc-practical article { grid-template-columns: 72px minmax(0, 1fr); }
+}

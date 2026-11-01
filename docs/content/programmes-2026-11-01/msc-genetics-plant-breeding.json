@@ -1,0 +1,155 @@
+{
+  "slug": "msc-genetics-plant-breeding",
+  "name": "M.Sc. (Agriculture) Genetics and Plant Breeding",
+  "short_name": "M.Sc. Genetics and Plant Breeding",
+  "level": "Postgraduate",
+  "discipline": "Agriculture",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "University regulations based on the ICAR framework commonly allow up to 5 academic years (10 semesters) to complete the degree; the exact maximum is set by each university.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (restructured PG curricula, BSMA 2021)",
+  "hero": {
+    "eyebrow": "Postgraduate crop improvement degree",
+    "summary": "A two-year master's degree on the genetics behind crop traits and the methods used to develop improved varieties. Coursework spans classical, cytological, quantitative and molecular genetics alongside breeding methods, and every student completes a supervised research thesis, usually on breeding populations or germplasm."
+  },
+  "overview": {
+    "heading": "Studying genetics and plant breeding at master's level",
+    "paragraphs": [
+      "Genetics and Plant Breeding (often shortened to GPB) is the discipline behind new crop varieties and hybrids. It explains how traits such as yield, quality and resistance to pests, diseases or drought are inherited, and uses that knowledge to select and combine better plant types. In India, the M.Sc. is offered by state agricultural universities, ICAR deemed universities, central agricultural universities and private universities that follow the ICAR syllabus.",
+      "ICAR's restructured postgraduate framework requires 70 credits for a master's degree: 20 major, 8 minor, 6 supporting, 5 common, a 1-credit seminar and 30 credits of thesis research. Compulsory major courses in published GPB syllabi include principles of genetics, cytogenetics, plant breeding and quantitative genetics, along with cell biology and molecular genetics and biotechnology for crop improvement.",
+      "Electives typically cover mutation and heterosis breeding, breeding for stress resistance and quality, crop-group breeding, maintenance breeding and seed production, and plant genetic resources. The exact list and course codes depend on the university."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
+      { "label": "Total credits (ICAR BSMA framework)", "value": "70, including 30 thesis research credits" },
+      { "label": "Typical entry degree", "value": "B.Sc. (Hons.) Agriculture or an accepted allied four-year degree" },
+      { "label": "National entrance", "value": "ICAR AIEEA (PG), conducted by NTA, Plant Sciences subject group" },
+      { "label": "Next step", "value": "Ph.D. Genetics and Plant Breeding or a related plant science" }
+    ],
+    "source_ids": ["s1", "s2", "s3", "s4"]
+  },
+  "who_should_apply": [
+    "Agriculture graduates who liked genetics, cytology and crop improvement courses at undergraduate level",
+    "Students patient enough for season-long work making crosses, raising generations and scoring plants",
+    "Applicants curious about molecular markers, biotechnology and how they speed up variety development",
+    "Those aiming for careers in seed companies, breeding programmes or crop research institutes",
+    "Learners comfortable with the statistics used to estimate heritability and genetic variance"
+  ],
+  "curriculum": {
+    "heading": "Course structure under the ICAR framework",
+    "intro": "Students take compulsory and elective GPB courses, a minor from a related plant science, supporting statistics or biotechnology courses, common research-skills courses and a thesis. The titles below come from published university syllabi aligned with ICAR BSMA; subject names, codes and electives vary by university.",
+    "structure": [
+      {
+        "stage": "Core GPB (major) courses",
+        "focus": "Compulsory foundations in inheritance, chromosomes, breeding methods and molecular tools.",
+        "courses": ["Principles of Genetics", "Principles of Cytogenetics", "Principles of Plant Breeding", "Principles of Quantitative Genetics", "Cell Biology and Molecular Genetics", "Biotechnology for Crop Improvement"]
+      },
+      {
+        "stage": "Optional major courses",
+        "focus": "Electives on specific breeding approaches, crop groups and genetic resources.",
+        "courses": ["Mutagenesis and Mutation Breeding", "Population Genetics", "Heterosis Breeding", "Breeding for Biotic and Abiotic Stress Resistance", "Breeding Cereals, Forages and Sugarcane", "Breeding Legumes, Oilseeds and Fibre Crops", "Breeding for Quality Traits", "Maintenance Breeding, Concepts of Variety Release and Seed Production", "Germplasm Collection, Exchange and Quarantine"]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Allied subjects such as plant physiology, seed science, biotechnology or plant pathology, plus statistics.",
+        "courses": ["Experimental Designs", "Statistical Methods for Applied Sciences", "Minor courses from a related department chosen with the advisory committee"]
+      },
+      {
+        "stage": "Common courses, seminar and thesis",
+        "focus": "Research-skills courses shared by all master's students, a seminar and thesis research.",
+        "courses": ["Library and Information Services", "Technical Writing and Communication Skills", "Intellectual Property and its Management in Agriculture", "Basic Concepts in Laboratory Techniques", "Agricultural Research, Research Ethics and Rural Development Programmes", "Master's Seminar", "Master's Research (thesis)"]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Thesis research", "description": "Students work on a breeding or genetics problem, such as evaluating germplasm, studying inheritance of a trait or testing hybrids, and defend a thesis at the end." },
+      { "name": "Field and laboratory practicals", "description": "Practical sessions cover emasculation and crossing, maintaining breeding records, chromosome preparation and basic molecular techniques." },
+      { "name": "Master's seminar", "description": "A one-credit seminar reviewing recent research on a chosen topic in crop improvement." }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "A four-year bachelor's degree in agriculture, typically B.Sc. (Hons.) Agriculture; the ICAR bulletin and some universities also accept certain allied degrees for this subject, so check the subject-wise eligibility list for the admission year.",
+      "A minimum overall grade point average or percentage in the bachelor's degree, with relaxation for reserved categories, as set in the ICAR AIEEA (PG) bulletin and each university's prospectus.",
+      "Requirements on the recognition or accreditation of the bachelor's degree vary; confirm them in the current bulletin.",
+      "Final-year students can usually apply but must complete the degree by the date the admitting university specifies."
+    ],
+    "source_ids": ["s2", "s4"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG)", "description": "National entrance test by NTA for ICAR. Genetics and Plant Breeding is one of the subjects under the Plant Sciences major subject group. The merit list is used for ICAR all-India quota seats and ICAR PG scholarships.", "source_ids": ["s4"] },
+      { "name": "State agricultural university entrance or merit", "description": "Remaining seats in state agricultural universities are filled through state or university entrance tests, interviews or merit lists, which differ by state.", "source_ids": ["s2"] },
+      { "name": "Private and other universities", "description": "Private universities following the ICAR syllabus generally hold their own entrance or merit-based admissions.", "source_ids": ["s2"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Candidates appear in the Plant Sciences subject group. Secondary reports describe a 120-question, 2-hour computer-based test with negative marking; confirm in the current bulletin." }
+    ],
+    "steps": [
+      { "title": "Confirm eligibility", "text": "Check the subject-wise eligibility annexure of the ICAR AIEEA (PG) bulletin and target university prospectuses for Genetics and Plant Breeding." },
+      { "title": "Apply for entrance tests", "text": "Register for ICAR AIEEA (PG) in the Plant Sciences group and for any state or university tests you plan to take." },
+      { "title": "Participate in counselling", "text": "After results, register for ICAR or university counselling and list your preferred universities and subjects." },
+      { "title": "Complete admission", "text": "Attend document verification and pay fees at the allotted university within the notified schedule." }
+    ],
+    "documents": [],
+    "source_ids": ["s4"]
+  },
+  "fees": {
+    "summary": "Fees differ sharply between state agricultural universities, ICAR deemed universities and private universities, and between ICAR quota, state quota and management or NRI seats where these exist. Hostel and examination charges are often extra. ICAR AIEEA (PG) qualifiers admitted on ICAR seats may receive an ICAR PG scholarship under that year's rules. Always check the admitting university's current fee notice.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Career directions in crop improvement",
+    "intro": "Plant breeding postgraduates are recruited by public breeding programmes, seed companies and biotechnology firms, and many go on to doctoral research. Public sector roles are filled through competitive examinations, so the degree provides eligibility rather than assured placement.",
+    "roles": [
+      { "title": "Assistant breeder or breeding associate", "description": "Manages nurseries, crossing blocks and yield trials within a seed company or public breeding programme." },
+      { "title": "Research fellow in crop improvement projects", "description": "Works on funded projects in ICAR institutes or universities, collecting phenotypic and genotypic data." },
+      { "title": "Seed production and quality officer", "description": "Supervises seed multiplication, maintains varietal purity and coordinates with certification agencies." },
+      { "title": "Germplasm or genebank assistant", "description": "Helps characterise, document and conserve plant genetic resources." },
+      { "title": "Assistant professor or scientist (with further qualifications)", "description": "Usually requires qualifying ASRB or UGC NET and, increasingly, a Ph.D." }
+    ],
+    "sectors": ["Seed industry", "Agricultural research institutes and universities", "Agri-biotechnology companies", "Plant genetic resources and genebanks", "Seed certification and testing", "State agriculture departments"],
+    "public_sector_routes": ["ASRB NET (Genetics and Plant Breeding)", "ASRB Agricultural Research Service (ARS) examination for ICAR scientist posts", "State public service commission agriculture officer recruitment", "IBPS Agricultural Field Officer (Specialist Officer) recruitment"],
+    "higher_study": ["Ph.D. Genetics and Plant Breeding", "Ph.D. in Seed Science and Technology, Plant Biotechnology or Plant Genetic Resources where eligibility allows"],
+    "source_ids": ["s5", "s6"]
+  },
+  "skills": [
+    "Planning crosses, managing segregating generations and keeping breeding records",
+    "Estimating genetic parameters such as variance, heritability and combining ability",
+    "Basic cytogenetic and molecular laboratory techniques",
+    "Designing and analysing multi-location varietal trials",
+    "Scientific writing and data presentation"
+  ],
+  "faqs": [
+    { "question": "Who can apply for M.Sc. Genetics and Plant Breeding?", "answer": "Mainly B.Sc. (Hons.) Agriculture graduates, with some allied degrees accepted by certain universities and in the ICAR bulletin. A minimum grade point average applies; check the subject-wise eligibility for the admission year.", "source_ids": ["s2", "s4"] },
+    { "question": "Which ICAR AIEEA (PG) subject group covers this course?", "answer": "Genetics and Plant Breeding falls under the Plant Sciences major subject group of ICAR AIEEA (PG).", "source_ids": ["s4"] },
+    { "question": "What are the core subjects?", "answer": "Published BSMA-based syllabi list principles of genetics, cytogenetics, plant breeding and quantitative genetics, together with cell biology and molecular genetics and biotechnology for crop improvement, as compulsory courses.", "source_ids": ["s3"] },
+    { "question": "How much of the degree is research?", "answer": "In ICAR's restructured framework, thesis research carries 30 of the 70 credits, and the student must submit and defend a thesis.", "source_ids": ["s1", "s2"] },
+    { "question": "Is this course only about molecular biology?", "answer": "No. Molecular tools are part of the syllabus, but much of the work involves field breeding: making crosses, evaluating populations and running trials over crop seasons.", "source_ids": ["s3"] },
+    { "question": "What can I do after the M.Sc.?", "answer": "Options include breeding and seed roles in industry, research project posts, competitive exams such as ASRB NET or ARS, and a Ph.D. through ICAR AICE-JRF/SRF or university entrance.", "source_ids": ["s4", "s6"] }
+  ],
+  "seo": {
+    "title": "M.Sc. Genetics and Plant Breeding: Eligibility & Admission",
+    "description": "M.Sc. (Agriculture) Genetics and Plant Breeding: ICAR syllabus, core courses, eligibility, ICAR AIEEA (PG) Plant Sciences admission, careers and Ph.D. options.",
+    "keywords": ["M.Sc. Genetics and Plant Breeding", "M.Sc. GPB syllabus", "plant breeding master's India", "ICAR AIEEA PG Plant Sciences", "M.Sc. Agriculture plant breeding eligibility", "GPB admission"]
+  },
+  "related": ["msc-plant-pathology", "msc-agronomy", "bsc-agriculture", "msc-vegetable-science"],
+  "sources": [
+    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Restructured and revised syllabi of post-graduate programmes (BSMA)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct page read was denied by the research environment; framework confirmed through s2." },
+    { "id": "s2", "url": "https://cutm.ac.in/", "title": "Academic Regulations for PG Degree Programme (M.Sc.) as per ICAR BSMA 2009 and 2021 - Centurion University of Technology and Management", "kind": "affiliating_university", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "eligibility", "duration", "faqs"], "notes": "PDF reached via a search redirect; exact path not captured. Gives the 70-credit structure and 4-10 semester residence; lists GPB under the Plant Sciences BSMA committee." },
+    { "id": "s3", "url": "https://www.ubkv.ac.in/", "title": "PG Syllabus, Department of Genetics and Plant Breeding - Uttar Banga Krishi Viswavidyalaya", "kind": "affiliating_university", "access": "page_read", "checked_on": "2026-11-01", "supports": ["curriculum", "faqs"], "notes": "PDF reached via a search redirect; exact path not captured. Lists compulsory and optional master's courses; it shows 20 research credits, suggesting it follows the earlier ICAR syllabus rather than BSMA 2021, so course titles are used as representative areas only." },
+    { "id": "s4", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) and AICE-JRF/SRF (Ph.D.)", "kind": "official", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["admission", "eligibility", "faqs"], "notes": "Page could not be fetched (TLS certificate error). Subject-group placement taken from search excerpts; exam pattern from secondary reports." },
+    { "id": "s5", "url": "https://www.iari.res.in/en/post-graduate-system.php", "title": "ICAR-IARI - The Graduate School System", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["careers"], "notes": "Confirms IARI's deemed-university status and award of M.Sc. and Ph.D. degrees." },
+    { "id": "s6", "url": "https://asrb.gov.in/", "title": "Agricultural Scientists Recruitment Board - NET and ARS notifications", "kind": "official", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers", "faqs"], "notes": "Discipline list seen only in search excerpts." }
+  ],
+  "verification_gaps": [
+    { "field": "eligibility.points", "reason": "Exact OGPA threshold and accepted bachelor's degrees for GPB in the current ICAR AIEEA (PG) bulletin not read directly.", "next_source": "Current ICAR AIEEA (PG) information bulletin" },
+    { "field": "curriculum.structure", "reason": "Course list drawn from a university syllabus that appears to follow the pre-2021 ICAR scheme; BSMA 2021 GPB volume could not be opened.", "next_source": "ICAR BSMA restructured PG syllabus (Plant Sciences) on icar.org.in" },
+    { "field": "admission.exams[0].note", "reason": "Exam pattern from secondary reports only.", "next_source": "Current ICAR AIEEA (PG) bulletin" },
+    { "field": "admission.documents", "reason": "No official document checklist was read.", "next_source": "ICAR counselling brochure" },
+    { "field": "fees.observed_examples", "reason": "No official dated fee notice was read.", "next_source": "Fee notices of selected universities" }
+  ],
+  "editorial_status": "research_draft"
+}

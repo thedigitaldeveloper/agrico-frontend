@@ -7,7 +7,8 @@ import { CourseDetailView } from '@/components/course/course-detail-view';
 import { ProgramDetailView } from '@/components/program/program-detail-view';
 import { AgricoProgrammeDetail } from '@/components/agrico/detail-pages';
 import { getProgrammeGuide, programmeGuideSlugs } from '@/components/agrico/detail-catalogue';
-import { guideProgrammeModel } from '@/components/agrico/detail-models';
+import { contentProgrammeModel, guideProgrammeModel } from '@/components/agrico/detail-models';
+import { getProgrammeContent, programmeContentSlugs, programmeUniversities } from '@/lib/agrico/programme-content';
 import { RichText } from '@/components/cms/rich-text';
 import { Breadcrumbs } from '@/components/ui/breadcrumbs';
 import { ButtonLink } from '@/components/ui/button';
@@ -47,7 +48,7 @@ export async function generateStaticParams() {
     getProgramSlugs(100),
   ]);
 
-  const unique = new Set([...standaloneSlugs, ...courseSlugs, ...programSlugs, ...programmeGuideSlugs()]);
+  const unique = new Set([...standaloneSlugs, ...courseSlugs, ...programSlugs, ...programmeGuideSlugs(), ...programmeContentSlugs()]);
   return Array.from(unique).map((slug) => ({ slug }));
 }
 
@@ -55,8 +56,14 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
   const { slug } = await params;
   const path = `/${slug}`;
 
-  // 1. Check if Program
-  const program = getProgrammeGuide(slug) ? await cmsFetchOptional(() => getProgramBySlug(slug), null) : await getProgramBySlug(slug);
+  // 1. Check if Researched Agrico Programme Content / Guide
+  const content = getProgrammeContent(slug);
+  const guide = getProgrammeGuide(slug);
+  if (content) return buildMetadata({ title: content.seo?.title || `${content.name} — Curriculum, Eligibility & Admission`, description: content.seo?.description || content.hero?.summary, path });
+  if (guide) return buildMetadata({ title: `${guide.name} — Curriculum, Eligibility & University Options`, description: guide.description, path });
+
+  // 2. Check if Program
+  const program = await getProgramBySlug(slug);
   if (program) {
     const programDisplayName =
       program.full_name || (program.course ? `${program.course.name} in ${program.name}` : program.name);
@@ -68,9 +75,6 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
       path,
     });
   }
-
-  const guide = getProgrammeGuide(slug);
-  if (guide) return buildMetadata({ title: guide.name + ' — Curriculum, Eligibility & University Options', description: guide.description, path });
 
   // 2. Check if Course
   const course = await getCourseBySlug(slug);
@@ -103,8 +107,32 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
 export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) {
   const { slug } = await params;
 
-  // 1. Try rendering Program
-  const program = getProgrammeGuide(slug) ? await cmsFetchOptional(() => getProgramBySlug(slug), null) : await getProgramBySlug(slug);
+  // 1. Priority: Researched Agrico Programme Content or Guide
+  const content = getProgrammeContent(slug);
+  const guide = getProgrammeGuide(slug);
+  if (content) {
+    return (
+      <AgricoProgrammeDetail
+        model={contentProgrammeModel(
+          content,
+          programmeUniversities(slug),
+          (content.related || [])
+            .flatMap((item) => {
+              const doc = getProgrammeContent(item);
+              return doc ? [doc] : [];
+            })
+            .slice(0, 3),
+          guide
+        )}
+      />
+    );
+  }
+  if (guide) {
+    return <AgricoProgrammeDetail model={guideProgrammeModel(guide)} />;
+  }
+
+  // 2. Try rendering Program
+  const program = await getProgramBySlug(slug);
   if (program) {
     const [section, related] = await Promise.all([
       getFirstContentSection('program', slug),
@@ -120,9 +148,6 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
       />
     );
   }
-
-  const guide = getProgrammeGuide(slug);
-  if (guide) return <AgricoProgrammeDetail model={guideProgrammeModel(guide)} />;
 
   // 2. Try rendering Course
   const course = await getCourseBySlug(slug);

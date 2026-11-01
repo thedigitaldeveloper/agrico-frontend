@@ -1,0 +1,275 @@
+{
+  "slug": "bfsc-fisheries-science",
+  "name": "Bachelor of Fisheries Science (B.F.Sc.)",
+  "short_name": "B.F.Sc. Fisheries Science",
+  "level": "Undergraduate",
+  "discipline": "Fisheries Science",
+  "duration": "4 years (8 semesters)",
+  "duration_note": "Includes 3 years of classroom, hatchery, and laboratory training followed by a full final year under ICAR's Student READY framework, comprising Rural Fisheries Work Experience (RFWE), hands-on experiential aquaculture enterprise modules, and in-plant seafood industrial training.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Sixth Deans Committee)",
+  "hero": {
+    "eyebrow": "Undergraduate fisheries degree",
+    "summary": "A four-year professional degree covering commercial aquaculture, marine biology, fish breeding, disease diagnostics, seafood processing, fishing vessel technology, and aquatic resource conservation under the ICAR Deans Committee curriculum."
+  },
+  "overview": {
+    "heading": "What the Bachelor of Fisheries Science (B.F.Sc.) covers",
+    "paragraphs": [
+      "Bachelor of Fisheries Science (B.F.Sc.) is a professional four-year undergraduate degree designed to prepare qualified specialists for India's blue economy. Developed under the guidelines of the ICAR Deans Committee, the programme addresses the scientific management of inland, brackishwater, and marine fisheries resources.",
+      "The curriculum integrates seven core academic divisions: Aquaculture (breeding and farming of carps, catfishes, shrimps, crabs, and seaweeds), Fisheries Resource Management (taxonomy, population dynamics, fish biology, and marine ecology), Aquatic Animal Health Management (microbiology, pathology, and disease diagnostics), Aquatic Environment Management (limnology, oceanography, aquatic pollution), Fish Processing Technology (seafood biochemistry, microbiology, freezing, canning, and value addition), Fisheries Engineering (fishing gear design, navigation, and aquaculture farm engineering), and Fisheries Extension & Economics.",
+      "Practical training is central to the curriculum, utilizing university fish farms, shrimp hatcheries, research vessels, and processing plants. Under the final-year Student READY scheme, students complete Rural Fisheries Work Experience (RFWE) and an intensive in-plant internship with commercial processing plants or hatcheries."
+    ],
+    "highlights": [
+      { "label": "Duration", "value": "4 years / 8 semesters" },
+      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
+      { "label": "Practical modules", "value": "Student READY: RFWE & in-plant commercial seafood training" },
+      { "label": "National entrance", "value": "CUET-UG (ICAR all-India quota) & State CETs" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Class 12 science students with Biology, Chemistry, and Physics interested in marine science, aquatic ecosystems, and aquaculture technology",
+    "Those seeking rewarding careers in the booming commercial shrimp farming, pearl culture, fish hatchery, and seafood export industries",
+    "Applicants aspiring to government technical roles as Fisheries Development Officers or research scientists in national fisheries institutes (CMFRI, CIFA, CIFT)",
+    "Candidates enthusiastic about coastal community development, fishing gear design, and marine conservation"
+  ],
+  "curriculum": {
+    "heading": "How the four years are organised",
+    "intro": "The B.F.Sc. curriculum is structured according to ICAR Deans Committee standards across eight academic semesters, blending theoretical foundation with coastal and inland field work.",
+    "structure": [
+      {
+        "stage": "Years 1-2: Foundations of Aquatic Sciences & Aquaculture",
+        "focus": "Fish taxonomy, anatomy, limnology, soil and water chemistry, aquaculture principles, and fish nutrition.",
+        "courses": [
+          "Principles of aquaculture and freshwater aquaculture",
+          "Taxonomy of finfish and shellfish",
+          "Anatomy and biology of finfish and shellfish",
+          "Soil and water quality management in aquaculture",
+          "Limnology and marine biology",
+          "Fish nutrition and feed technology",
+          "Fish physiology and biochemistry",
+          "Fisheries economics and basic statistics"
+        ]
+      },
+      {
+        "stage": "Years 2-3: Core Production, Processing & Health",
+        "focus": "Brackishwater farming, mariculture, aquatic pathology, fish processing, fishing gear design, and navigation.",
+        "courses": [
+          "Brackishwater aquaculture and mariculture",
+          "Fish immunology and aquatic microbiology",
+          "Fish and shellfish pathology and health management",
+          "Fish processing technology and seafood quality assurance",
+          "Fish products and value-added byproduct technology",
+          "Fishing craft and gear technology",
+          "Navigation and seamanship",
+          "Fisheries resource assessment and marine biodiversity"
+        ]
+      },
+      {
+        "stage": "Year 4: Student READY Programme",
+        "focus": "Village work experience, enterprise management, and commercial in-plant industrial training.",
+        "courses": [
+          "Rural Fisheries Work Experience (RFWE) with coastal/inland fishers",
+          "In-plant training in commercial seafood export processing plants",
+          "Experiential Learning Programme (ELP) in fish/shrimp hatchery management",
+          "Experiential learning in value-added fish products manufacturing",
+          "Seminar, project report, and comprehensive examination"
+        ]
+      }
+    ],
+    "specialisations": [
+      "Aquaculture & Hatchery Technology",
+      "Fish Processing Technology & Quality Control",
+      "Fisheries Resource Management",
+      "Aquatic Animal Health & Disease Diagnostics",
+      "Fisheries Engineering & Gear Technology"
+    ],
+    "practical_learning": [
+      {
+        "name": "Hatchery & Farm Operations",
+        "description": "Hands-on induced breeding of Indian major carps, catfish, and freshwater prawns; live feed culture (Artemia, rotifers); and nursery pond management."
+      },
+      {
+        "name": "Seafood In-Plant Training",
+        "description": "Semester placement inside export-oriented processing plants learning HACCP protocols, IQF freezing, canning, and laboratory microbiological testing."
+      },
+      {
+        "name": "Rural Fisheries Work Experience (RFWE)",
+        "description": "Living among coastal and inland fishing communities to study socioeconomic conditions, fish landing centers, auction dynamics, and co-operative societies."
+      }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "Pass in 10+2 (Senior Secondary) examination with Physics, Chemistry, and Biology from a recognised education board.",
+      "Minimum 50% aggregate marks in PCB (40% for SC, ST, PwBD, and designated reserved categories for ICAR quota admissions).",
+      "Minimum age of 16 years as of 31 August of the admission year for ICAR quota seats.",
+      "State-specific domicile conditions apply for state fisheries university quota admissions."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      {
+        "name": "CUET-UG (ICAR All-India Quota)",
+        "description": "Conducted by NTA with online ICAR seat allotment for all-India quota seats in state fisheries and agricultural universities.",
+        "source_ids": ["s2"]
+      },
+      {
+        "name": "State Fisheries / Agricultural University Counselling",
+        "description": "State-level admission via state CETs (e.g. KEAM in Kerala for KUFOS, TNJFU counselling in Tamil Nadu, AP EAPCET, TS EAMCET, KCET).",
+        "source_ids": ["s3"]
+      }
+    ],
+    "exams": [
+      {
+        "name": "CUET-UG",
+        "conducting_body": "NTA",
+        "url": "https://cuet.nta.nic.in/",
+        "note": "Required for ICAR all-India quota B.F.Sc. admissions."
+      },
+      {
+        "name": "State Common Entrance Tests (CETs)",
+        "conducting_body": "State Examination Authorities",
+        "url": null,
+        "note": "E.g. KEAM, AP EAPCET, KCET, MHT-CET, TS EAMCET."
+      }
+    ],
+    "steps": [
+      { "title": "Check Eligibility", "text": "Ensure you have Physics, Chemistry, and Biology in 10+2." },
+      { "title": "Appear for Entrance", "text": "Take CUET-UG (PCB domain) or your state common entrance test." },
+      { "title": "Apply for Counselling", "text": "Register on the ICAR portal or respective state fisheries university portal." },
+      { "title": "Seat Allotment & Document Verification", "text": "Verify academic certificates, pay fees, and report to the fisheries college campus." }
+    ],
+    "documents": [
+      "Class 10 and 12 marksheet and certificates",
+      "Entrance exam scorecard and rank card",
+      "Category certificate (if applicable)",
+      "Domicile certificate for state quota seats",
+      "Transfer and conduct certificates"
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "fees": {
+    "summary": "State fisheries universities (e.g. KUFOS, TNJFU, WBUAFS, CoF Mangalore) offer government-subsidised tuition fees ranging between ₹18,000 to ₹45,000 per academic year. In self-financing quotas or private universities, fees range from ₹80,000 to ₹2,20,000 per year. Hostel, vessel training, and mess fees are charged separately.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Career pathways in aquaculture, exports, and administration",
+    "intro": "India's seafood exports exceed ₹60,000 crore annually, driven by shrimp and fish farming. This generates strong demand for fisheries graduates across commercial hatcheries, seafood export units, feed manufacturing, and government departments.",
+    "roles": [
+      { "title": "Fisheries Development Officer (FDO)", "description": "State government fisheries department officer overseeing fish seed production, reservoir leasing, fishermen welfare schemes, and aquaculture subsidies." },
+      { "title": "Aquaculture Farm & Hatchery Manager", "description": "Manages commercial shrimp or fish breeding, water quality monitoring, bio-security, and larval rearing operations." },
+      { "title": "Quality Control (QC) & HACCP Technologist", "description": "Inspects seafood quality, cold storage temperatures, microbial compliance, and export documentation in processing plants." },
+      { "title": "Feed Formulation & Sales Specialist", "description": "Provides technical advisory and distribution services for commercial aquatic feed and probiotics companies." },
+      { "title": "Technical Officer (MPEDA / NFDB)", "description": "Government technical official supporting seafood export promotion, cold storage development, and coastal aquaculture licensing." },
+      { "title": "Fisheries Field Officer / Bank Technical Officer", "description": "Assesses loan proposals for fishing boats, cold storage units, fish ponds, and intensive aquaculture projects." }
+    ],
+    "sectors": [
+      "Commercial Shrimp & Fish Hatcheries",
+      "Seafood Export Processing Plants (US-FDA / EU certified)",
+      "State Fisheries Departments",
+      "Aquaculture Feed Manufacturers (CP Aqua, Avanti Feeds, Godrej Agrovet)",
+      "Marine Products Export Development Authority (MPEDA)",
+      "Commercial Banking & Agricultural Finance"
+    ],
+    "public_sector_routes": [
+      "State PSC Fisheries Development Officer (FDO) exams",
+      "IBPS Specialist Officer (Agricultural Field Officer - AFO - Fisheries eligible)",
+      "MPEDA & National Fisheries Development Board (NFDB) recruitments",
+      "Export Inspection Council (EIC) technical officer posts",
+      "ICAR Fisheries Institutes (CMFRI, CIFA, CIFT, CIBA, CIFE) technical positions"
+    ],
+    "higher_study": [
+      "M.F.Sc. (Master of Fisheries Science) in Aquaculture, Processing, Aquatic Animal Health, etc.",
+      "Ph.D. in Fisheries Science (at ICAR-CIFE Mumbai and state fisheries universities)",
+      "MBA in Agribusiness / Seafood Management"
+    ],
+    "source_ids": ["s1", "s4"]
+  },
+  "skills": [
+    "Induced fish breeding and larval hatchery management",
+    "Water quality testing (pH, dissolved oxygen, ammonia, salinity) and biofloc management",
+    "Fish pathogen identification, necropsy, and antimicrobial treatment",
+    "HACCP and food safety protocol implementation in seafood processing",
+    "Fishing gear design, net construction, and acoustic fish finding",
+    "Aquatic feed formulation and nutrient conversion ratio (FCR) calculation"
+  ],
+  "faqs": [
+    {
+      "question": "Is B.F.Sc. a 4-year degree?",
+      "answer": "Yes. B.F.Sc. is a professional four-year (eight-semester) undergraduate degree recognized by ICAR and UGC, equivalent in professional standing to B.Sc. Agriculture and B.Tech."
+    },
+    {
+      "question": "Are B.F.Sc. graduates eligible for IBPS AFO banking exams?",
+      "answer": "Yes. The Institute of Banking Personnel Selection (IBPS) explicitly lists a 4-year degree in Fisheries Science as an eligible qualification for the post of Agricultural Field Officer (AFO Scale-I)."
+    },
+    {
+      "question": "Which universities in India specialize exclusively in fisheries?",
+      "answer": "Kerala University of Fisheries and Ocean Studies (KUFOS, Kochi), Tamil Nadu Dr. J. Jayalalithaa Fisheries University (TNJFU, Nagapattinam), and dedicated fisheries colleges under state agricultural and animal science universities (such as College of Fisheries Mangalore, Ratnagiri, and Pantnagar)."
+    },
+    {
+      "question": "What is the difference between B.Sc. Zoology and B.F.Sc. Fisheries Science?",
+      "answer": "B.Sc. Zoology is a general biological science degree covering broad animal biology. B.F.Sc. is a professional applied technology degree covering commercial breeding, fish pathology, seafood industrial processing, navigation, and aquaculture farm engineering."
+    }
+  ],
+  "seo": {
+    "title": "B.F.Sc. Fisheries Science — Syllabus, Eligibility, Careers & Colleges",
+    "description": "Complete guide to Bachelor of Fisheries Science (B.F.Sc.): ICAR curriculum, 4-year syllabus, CUET eligibility, aquaculture careers, and top fisheries universities in India.",
+    "keywords": [
+      "BFSc Fisheries Science",
+      "Bachelor of Fisheries Science",
+      "Fisheries science syllabus",
+      "ICAR BFSc colleges",
+      "Fisheries Officer career",
+      "Aquaculture degree India"
+    ]
+  },
+  "related": [
+    "bsc-agriculture",
+    "bvsc-animal-husbandry",
+    "bsc-horticulture"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR Sixth Deans Committee Report - Minimum Standards and Syllabus for B.F.Sc.",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "overview", "who_should_apply"]
+    },
+    {
+      "id": "s2",
+      "url": "https://cuet.nta.nic.in/",
+      "title": "NTA CUET-UG Examination Bulletin - ICAR All India Quota B.F.Sc. Eligibility",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["eligibility", "admission"]
+    },
+    {
+      "id": "s3",
+      "url": "https://kufos.ac.in/",
+      "title": "Kerala University of Fisheries and Ocean Studies (KUFOS) - B.F.Sc. Academic Regulations",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "practical_learning", "overview"]
+    },
+    {
+      "id": "s4",
+      "url": "https://mpeda.gov.in/",
+      "title": "Marine Products Export Development Authority (MPEDA) - Indian Seafood Industry Overview",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["careers"]
+    }
+  ],
+  "verification_gaps": [],
+  "editorial_status": "research_draft"
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "msc-soil-science",
+  "name": "M.Sc. (Agriculture) Soil Science & Agricultural Chemistry",
+  "short_name": "M.Sc. Soil Science",
+  "level": "Postgraduate",
+  "discipline": "Natural Resource Management / Soil Science",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "A 2-year full-time master's degree (4 semesters) structured around advanced laboratory analytics, field experiments and an original research thesis.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (restructured PG curricula, BSMA 2021)",
+  "hero": {
+    "eyebrow": "Postgraduate soil physics, chemistry & fertility degree",
+    "summary": "A two-year master's programme exploring the physical, chemical and biological properties of soil ecosystems. Students develop expertise in instrumental soil and water analysis, precision nutrient management, soil health assessment, reclamation of problem soils, and GIS-based land evaluation."
+  },
+  "overview": {
+    "heading": "What an M.Sc. in Soil Science & Agricultural Chemistry covers",
+    "paragraphs": [
+      "Soil Science and Agricultural Chemistry is the foundational discipline focused on understanding soil as a living, dynamic natural body essential for plant nutrition, ecological stability and global food production. In the context of declining soil organic carbon, widespread multi-nutrient deficiencies, and soil salinity, trained soil scientists are in urgent demand to steward agricultural lands and formulate sustainable nutrition strategies.",
+      "Under ICAR's Broad Subject Matter Area (BSMA) restructured curriculum, the M.Sc. programme encompasses 70 total credits: 20 major credits, 8 minor credits (drawn from Agronomy, Environmental Sciences, or Agricultural Microbiology), 6 supporting credits (including experimental statistics and data tools), 5 common research credits, 1 master's seminar credit and 30 credits dedicated to supervised thesis research.",
+      "Students master soil chemistry, soil physics, soil biology and biochemistry, pedology and soil taxonomy, fertilizer manufacturing technology, radioisotopes in soil-plant studies, analytical chemistry instrumentation (AAS, ICP-OES, Flame Photometry, Spectrophotometry), and digital soil mapping using GIS and remote sensing."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
+      { "label": "Total credits (ICAR BSMA)", "value": "70 credits (with 30 thesis research credits)" },
+      { "label": "Typical entry qualification", "value": "4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture" },
+      { "label": "National entrance examination", "value": "ICAR AIEEA (PG) in the Physical Science subject group" },
+      { "label": "Analytical instrumentation", "value": "Atomic Absorption Spectrophotometry (AAS), flame photometry, spectrophotometry and GIS mapping" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Agriculture and horticulture graduates who excel in chemistry, laboratory instrumentation, geology and soil profiling",
+    "Students passionate about soil health, carbon sequestration, regenerative agriculture and fertilizer efficiency",
+    "Aspirants targeting scientific research in ICAR institutes (IISS Bhopal, CSSRI Karnal, IARI) through the Agricultural Research Service (ARS)",
+    "Candidates seeking careers in national fertilizer corporations (IFFCO, KRIBHCO), commercial soil testing laboratories, or environmental consultancies"
+  ],
+  "curriculum": {
+    "heading": "Course structure under ICAR BSMA 2021 guidelines",
+    "intro": "The curriculum balances chemical laboratory investigations with field soil pedon sampling and thesis research. Course codes and electives follow the BSMA curriculum guidelines implemented across agricultural universities.",
+    "structure": [
+      {
+        "stage": "Major core courses (Compulsory Soil Science)",
+        "focus": "Fundamental soil physics, chemistry, fertility and genesis.",
+        "courses": ["Soil Physics", "Soil Chemistry", "Soil Fertility & Fertilizer Use", "Soil Mineralogy, Genesis & Classification", "Analytical Techniques in Soil, Plant & Water Analysis"]
+      },
+      {
+        "stage": "Major elective courses (Specialised Soil Science)",
+        "focus": "Biological properties, problem soil remediation, fertilizer technology and digital mapping.",
+        "courses": ["Soil Biology & Biochemistry", "Management of Problem Soils & Waters", "Remote Sensing & GIS in Soil Resource Mapping & Land Use Planning", "Fertilizer Technology & Quality Control", "Soil, Water & Air Pollution & Remediation", "Micronutrients in Soils & Plants", "Soil Health & Quality Assessment"]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Agronomy, agricultural microbiology, experimental design and statistical packages.",
+        "courses": ["Modern Concepts in Crop Production", "Microbial Ecology of Soils", "Statistical Methods for Applied Sciences", "Experimental Designs & Field Plot Techniques"]
+      },
+      {
+        "stage": "Common skills, seminar & master's thesis",
+        "focus": "Research methodology, laboratory safety, intellectual property, seminar and 30-credit dissertation.",
+        "courses": ["Library & Information Services", "Technical Writing & Scientific Communication", "Basic Concepts in Laboratory Techniques", "Intellectual Property Rights in Agriculture", "Master's Seminar (1 credit)", "Master's Research / Thesis (30 credits)"]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Instrumental soil & water analysis", "description": "Hands-on calibration and operation of Atomic Absorption Spectrophotometer (AAS), Flame Photometer, UV-Vis Spectrophotometer, EC/pH meters and auto-nitrogen distillation units." },
+      { "name": "Soil profile digging & pedon description", "description": "Field digging of soil pits, identifying genetic horizons (A, B, C), recording soil colour using Munsell colour charts, soil texture and structure classification." },
+      { "name": "Soil health card generation", "description": "Formulating fertilizer recommendations using soil test crop response (STCR) calibrations and targeted yield equations for local crops." },
+      { "name": "Remote sensing & GIS laboratory", "description": "Digitizing watershed boundaries, interpreting satellite imagery for soil degradation, and producing soil fertility thematic maps using QGIS/ArcGIS." }
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "eligibility": {
+    "points": [
+      "Completion of a 4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture / Forestry from an ICAR-accredited or recognized agricultural institution.",
+      "Minimum required grade point average: 6.0/10.0 OGPA (or 60% aggregate) for General, OBC and EWS candidates; 5.0/10.0 OGPA (or 50% aggregate) for SC, ST and PwD candidates.",
+      "Final semester students awaiting graduation may appear provisionally in entrance examinations, provided they show proof of qualification during counselling."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG - Physical Science)", "description": "National entrance examination conducted by NTA for admission into postgraduate soil science seats in State Agricultural Universities, Central Universities, and ICAR institutes (IARI, IISS, CSSRI).", "source_ids": ["s3"] },
+      { "name": "State Agricultural University Entrances", "description": "Conducted by state bodies such as UPCATET (UP), MCAER (Maharashtra), OUAT (Odisha), Rajasthan Pre-PG, and individual university testing portals for domicile quotas.", "source_ids": ["s1"] },
+      { "name": "Private Agricultural Universities", "description": "Admissions through institutional entrance examinations or merit-based screening adhering to ICAR guidelines.", "source_ids": ["s1"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG - Physical Science)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based entrance test covering Soil Science, Agricultural Chemistry, Agricultural Physics, and Agricultural Meteorology." }
+    ],
+    "steps": [
+      { "title": "Check Physical Science eligibility", "text": "Confirm that your undergraduate degree matches ICAR AIEEA (PG) eligibility under the Physical Science group code." },
+      { "title": "Submit online application", "text": "Register on the NTA ICAR portal, upload necessary documents and choose preferred examination centres." },
+      { "title": "Appear for entrance examination", "text": "Take the 120-question computer-based exam covering basic soil science, general agriculture and chemistry fundamentals." },
+      { "title": "Participate in online counselling", "text": "Select participating agricultural universities and freeze seats based on your all-India merit rank." }
+    ],
+    "documents": [
+      "B.Sc. Agriculture / Horticulture degree certificate and transcript",
+      "ICAR AIEEA (PG) scorecard and rank card",
+      "Class 10 and 12 marksheets (birth date and basic qualification proof)",
+      "Category certificate (SC, ST, OBC-NCL, EWS, PwD)",
+      "Domicile certificate for state quota seats",
+      "Conduct and migration certificates"
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "fees": {
+    "summary": "State Agricultural Universities and ICAR deemed institutes provide affordable education with annual tuition fees ranging between ₹14,000 and ₹32,000 for merit quota seats. Candidates securing merit seats via ICAR AIEEA (PG) are eligible for the ICAR PG Scholarship / National Talent Scholarship (NTS). Private agricultural universities charge between ₹65,000 and ₹1,45,000 per academic year. Lab reagents and hostel costs are billed as per actual institutional norms.",
+    "observed_examples": [
+      { "institution": "State Agricultural Universities (e.g. TNAU, PAU, GBPUAT)", "amount_inr": 27000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "ICAR Deemed Universities (IARI New Delhi)", "amount_inr": 16000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Accredited Private Universities", "amount_inr": 92000, "period": "Per academic year", "academic_year": "2024-25" }
+    ],
+    "verification": "Check the exact postgraduate fee circular of the target university before admission."
+  },
+  "careers": {
+    "heading": "Career pathways in soil analysis, fertilizer industry and environmental management",
+    "intro": "Soil Science postgraduates are in demand across chemical testing laboratories, fertilizer manufacturing cooperatives, environmental research agencies and agricultural extension networks.",
+    "roles": [
+      { "title": "Scientist (Soil Science) via ASRB ARS", "description": "Conduct research on soil fertility, carbon sequestration, micronutrient dynamics and saline-alkali land reclamation in ICAR institutes and SAUs." },
+      { "title": "Soil Chemist / Soil Testing Officer", "description": "Manage district and regional soil testing laboratories, supervise automated chemical analysis, and issue Soil Health Cards with customized nutrient advisories." },
+      { "title": "Fertilizer Quality Control & Agronomy Officer", "description": "Ensure regulatory compliance under the Fertilizer Control Order (FCO), conduct laboratory testing of inorganic and biofertilizers, and run product demonstrations for fertilizer majors (IFFCO, KRIBHCO, Coromandel)." },
+      { "title": "GIS Soil Mapping Specialist", "description": "Analyse spatial soil data, create land capability maps and delineate micronutrient deficiency zones for precision farming projects." },
+      { "title": "Assistant Professor / KVK Subject Matter Specialist", "description": "Teach undergraduate and master's courses in soil science and educate farming communities on balanced fertilizer usage and organic amendments." },
+      { "title": "Environmental Soil Consultant", "description": "Assess soil and water contamination around industrial zones, mining sites and landfills, recommending phytoremediation and bio-char reclamation methods." }
+    ],
+    "sectors": [
+      "State Departments of Agriculture (Soil Testing Labs & Soil Survey)",
+      "Fertilizer, micro-nutrient and bio-stimulant corporations",
+      "ICAR institutes (IISS Bhopal, CSSRI Karnal, NBSS&LUP Nagpur, IARI New Delhi)",
+      "Geospatial mapping and digital agriculture firms",
+      "Environmental testing and land reclamation consulting firms"
+    ],
+    "public_sector_routes": [
+      "ASRB: Agricultural Research Service (ARS Scientist) & NET in Soil Science",
+      "State PSCs: Assistant Agricultural Chemist, Soil Testing Officer, Agricultural Officer",
+      "National Remote Sensing Centre (NRSC) / ISRO: Research Scientist (Land Resources)",
+      "National Fertilizers Limited (NFL) / IFFCO: Management Trainee (Agronomy / Chemistry)"
+    ],
+    "higher_study": [
+      "Ph.D. in Soil Science & Agricultural Chemistry (via ICAR AICE-JRF/SRF or university entrance)",
+      "Doctoral and postdoctoral fellowships in soil carbon dynamics, environmental geochemistry and soil microbiology abroad"
+    ]
+  },
+  "skills": [
+    "Proficiency with Atomic Absorption Spectrophotometry (AAS), Flame Photometry and Spectrophotometry",
+    "Soil sampling methodologies, profile characterization and pedological classification",
+    "Formulating targeted yield fertilizer prescriptions (STCR equations)",
+    "Reclamation planning for saline, sodic and acidic problem soils",
+    "GIS spatial interpolation and soil fertility thematic mapping",
+    "Standardized laboratory testing under Fertilizer Control Order (FCO) regulations"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between Agronomy and Soil Science?",
+      "answer": "Agronomy focuses broadly on field crop management, cropping systems, irrigation scheduling and weed control. Soil Science and Agricultural Chemistry focuses specifically on the physical, chemical, and biological properties of soil, nutrient transformations, laboratory chemical testing, fertilizer technology, and soil health management."
+    },
+    {
+      "question": "Can I work in the fertilizer industry after M.Sc. Soil Science?",
+      "answer": "Yes. Soil science postgraduates are preferred candidates for fertilizer manufacturers (such as IFFCO, KRIBHCO, Coromandel, Chambal) for roles in product promotion, field demonstrations, quality control laboratories, and regulatory compliance under the Fertilizer Control Order."
+    },
+    {
+      "question": "Is ASRB NET available in Soil Science?",
+      "answer": "Yes. The Agricultural Scientists Recruitment Board (ASRB) conducts the National Eligibility Test (NET) specifically in Soil Science, qualifying candidates for Assistant Professor and Subject Matter Specialist positions across agricultural universities."
+    },
+    {
+      "question": "How important is GIS in modern soil science?",
+      "answer": "GIS and remote sensing are increasingly central to modern soil science for digital soil mapping, predicting soil erosion, delineating micronutrient deficiency zones, and enabling precision agriculture applications."
+    }
+  ],
+  "seo": {
+    "title": "M.Sc. Soil Science & Agricultural Chemistry: Syllabus, Entrance, Jobs & Scope",
+    "description": "Complete guide to M.Sc. Soil Science and Agricultural Chemistry in India: ICAR BSMA syllabus, AIEEA-PG entrance, lab techniques, career scope and ASRB NET.",
+    "keywords": ["msc soil science", "soil science and agricultural chemistry", "icar aieea pg physical science", "soil testing officer jobs", "asrb net soil science", "soil science syllabus"]
+  },
+  "sources": [
+    { "id": "s1", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Natural Resource Management (Soil Science)", "kind": "regulator" },
+    { "id": "s2", "url": "https://tnau.ac.in/masters/", "title": "Tamil Nadu Agricultural University - Department of Soil Science and Agricultural Chemistry", "kind": "university_portal" },
+    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+  ],
+  "editorial_status": "verified"
+}

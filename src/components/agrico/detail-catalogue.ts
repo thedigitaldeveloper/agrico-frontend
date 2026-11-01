@@ -6,7 +6,7 @@ const programmeSlugs: Record<string, string> = {
   agronomy: 'msc-agronomy', diploma: 'diploma-agriculture',
 };
 
-export function programmeGuidePath(id: string) { return '/' + programmeSlugs[id]; }
+export function programmeGuidePath(id: string) { return '/' + (programmeSlugs[id] || id); }
 export function getProgrammeGuide(slug: string): AgricultureProgramme | undefined {
   return PROGRAMMES.find(item => programmeSlugs[item.id] === slug);
 }

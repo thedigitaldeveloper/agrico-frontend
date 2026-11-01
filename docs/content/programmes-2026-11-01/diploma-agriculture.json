@@ -1,0 +1,178 @@
+{
+  "slug": "diploma-agriculture",
+  "name": "Diploma in Agriculture",
+  "short_name": "Diploma in Agriculture",
+  "level": "Diploma",
+  "discipline": "Agriculture",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "Most state agricultural universities (such as TNAU, ANGRAU, PJTSAU, CCS HAU) run a 2-year (4-semester) polytechnic diploma. Some state boards of technical education offer a 3-year diploma for students entering immediately after Class 10.",
+  "mode": "Full-time, campus-based",
+  "regulator": "State Agricultural Universities / State Boards of Technical Education",
+  "hero": {
+    "eyebrow": "Polytechnic practical agriculture diploma",
+    "summary": "A two-year practical diploma designed to build field skills in modern crop production, soil testing, pest management, farm machinery operation and agricultural inputs. It prepares students for technician and field assistant roles in public extension and agribusiness, or for further diploma-to-degree academic progression."
+  },
+  "overview": {
+    "heading": "What the Diploma in Agriculture covers",
+    "paragraphs": [
+      "The Diploma in Agriculture is a practical, job-oriented polytechnic programme offered by agricultural polytechnics affiliated with state agricultural universities (SAUs) and state technical education boards. Unlike four-year degree programmes that emphasise deep theoretical and scientific research, the diploma focuses directly on hands-on farming techniques, input handling, machinery operation and farmer advisory skills.",
+      "Over four semesters, students learn the fundamentals of agronomy, soil fertility, seed production, horticulture, crop protection (entomology and plant pathology), farm power and implements, livestock management and agricultural extension. The curriculum includes extensive on-campus field work where students manage live crop plots, operate sprayers and irrigation equipment, and visit local Krishi Vigyan Kendras (KVKs) and regulated markets.",
+      "The diploma serves two key purposes: providing immediate employability for village-level agricultural extension, input retailing and farm management, and offering an entry pathway into higher agricultural education through state lateral entry schemes where available."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 years (4 semesters)" },
+      { "label": "Entry qualification", "value": "Class 10 (SSC/Matriculation) or 10+2 with Science/Agriculture depending on state" },
+      { "label": "Admission route", "value": "State polytechnic entrance test (e.g., POLYCET) or 10th merit-based counselling" },
+      { "label": "Practical emphasis", "value": "Field crop production, machinery handling, nursery raising and village surveys" },
+      { "label": "Higher study option", "value": "Lateral entry into B.Sc. (Hons.) Agriculture (reserved quota in select states)" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Students who have completed Class 10 or Class 12 with science/agriculture and want a quick, affordable entry into agricultural vocations",
+    "Candidates from farming backgrounds who wish to acquire scientific knowledge of seeds, fertilizers, irrigation and crop protection to manage family land or launch agri-clinics",
+    "Learners interested in field assistant, laboratory technician or seed inspector jobs in government and private sectors",
+    "Aspirants targeting state lateral entry seats into second-year B.Sc. (Hons.) Agriculture"
+  ],
+  "curriculum": {
+    "heading": "Semester-wise polytechnic course structure",
+    "intro": "The diploma curriculum balances classroom theory with daily morning and evening field work. The courses below reflect typical polytechnic syllabi prescribed by State Agricultural Universities across India.",
+    "structure": [
+      {
+        "stage": "Semester 1: Agricultural foundations & soil basics",
+        "focus": "Basic principles of crop production, botany of cultivated crops and soil management.",
+        "courses": ["Principles of Agronomy & Agricultural Meteorology", "Introductory Soil Science & Soil Fertility", "Agricultural Botany & Crop Physiology Basics", "Introduction to Agricultural Economics & Farm Management", "Basic Farm Implements & Field Layout Practical"]
+      },
+      {
+        "stage": "Semester 2: Crop production & water management",
+        "focus": "Field crop cultivation practices, irrigation methods and farm machinery operation.",
+        "courses": ["Agronomy of Kharif & Rabi Crops", "Irrigation Methods & Water Management", "Plant Pathogens & Disease Identification", "Insect Pests of Crops & Beneficial Insects", "Tractor & Farm Machinery Operation Practical"]
+      },
+      {
+        "stage": "Semester 3: Horticulture & plant protection",
+        "focus": "Fruit and vegetable cultivation, protected structures, pest and disease management techniques.",
+        "courses": ["Production Technology of Fruits & Vegetables", "Organic Farming & Soil Health Management", "Principles of Plant Disease & Pest Control", "Seed Production Technology & Seed Testing", "Plant Propagation & Nursery Management Practical"]
+      },
+      {
+        "stage": "Semester 4: Field attachment & agri-business skills",
+        "focus": "Post-harvest handling, agricultural extension, hands-on village stay or polytechnic farm project.",
+        "courses": ["Post-Harvest Technology & Value Addition", "Livestock & Poultry Production Basics", "Agricultural Extension & Rural Development", "Hands-on Farm Work Experience / Industrial Training Project", "Field Crop Demonstration & Viva Voce"]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Hands-on crop plot cultivation", "description": "Each student is allotted individual or group crop plots to prepare land, sow seeds, fertilise, irrigate, protect from pests and harvest." },
+      { "name": "Farm machinery & equipment operation", "description": "Practical training in operating tractors, rotavators, power tillers, seed drills, knapsack sprayers and micro-irrigation systems." },
+      { "name": "Nursery & seed testing labs", "description": "Hands-on exercises in seed germination testing, grafting, budding, potting media preparation and shade-net house management." },
+      { "name": "Field attachment / KVK exposure", "description": "Interaction with progressive farmers, Krishi Vigyan Kendras and agrochemical retail stores to understand real-world rural problems." }
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "eligibility": {
+    "points": [
+      "Passed Class 10 (SSC/SSLC/Matriculation) from a recognised board with Science and Mathematics as subjects, or passed 10+2 with Science (PCB/PCM) or vocational Agriculture depending on state polytechnic norms.",
+      "Minimum marks requirement: Typically 45% to 50% aggregate in Class 10 or 12, with relaxations (usually 5%) for SC/ST/OBC categories as per state reservation policies.",
+      "Age limits: Most states specify a minimum age of 15 years and a maximum age of 22 years (with category relaxations) as of 1st July of the admission year.",
+      "Domicile: State agricultural polytechnics generally restrict admissions to candidates holding permanent domicile of the respective state, with reserved seats for rural candidates from farming families."
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "State Polytechnic Entrance Test", "description": "States such as Andhra Pradesh, Telangana (POLYCET-Agri), and others conduct dedicated computer or paper-based entrance exams for polytechnic admissions.", "source_ids": ["s1"] },
+      { "name": "Merit-based admission on Class 10 / 12 marks", "description": "Universities such as TNAU, PAU, and several private university polytechnics admit students strictly on the merit of qualifying Class 10 or 10+2 board exam marks followed by counselling.", "source_ids": ["s2"] }
+    ],
+    "exams": [
+      { "name": "State Polytechnic Entrance Tests (e.g. POLYCET / AGRICET for lateral entry)", "conducting_body": "State Technical Boards / State Agricultural Universities", "url": "https://tnau.ac.in/diploma-admission/", "note": "Entrance pattern typically tests 10th standard Mathematics, Physics, Chemistry, and Biology/General Science." }
+    ],
+    "steps": [
+      { "title": "Check state notification", "text": "State agricultural universities release diploma admission notifications usually between May and July following Class 10 board results." },
+      { "title": "Apply online", "text": "Submit application form through the state portal or university polytechnic website with marksheets and category/domicile certificates." },
+      { "title": "Appear for entrance or merit ranking", "text": "Participate in the entrance test if mandated, or check the merit and rank list published by the admission committee." },
+      { "title": "Counselling & seat allotment", "text": "Attend online or in-person polytechnic choice-filling, lock your preferred polytechnic institute, and verify original certificates." }
+    ],
+    "documents": [
+      "Class 10 (SSLC/Matric) marksheet and passing certificate",
+      "Transfer certificate (TC) and conduct certificate from previous school",
+      "Community / Caste certificate (if applicable for reservation)",
+      "Domicile / Nativity certificate",
+      "Farmer family / rural area certificate (in states offering rural weightage)",
+      "Recent passport-size photographs"
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "fees": {
+    "summary": "Fees in government and university-run agricultural polytechnics are heavily subsidised by state governments, typically ranging between ₹10,000 and ₹35,000 per year. Private polytechnics or self-financing institutes charge higher annual fees, usually between ₹40,000 and ₹90,000. Hostel and boarding expenses are charged separately as per actuals. Eligible reserved-category and low-income students can avail state post-matric scholarships.",
+    "observed_examples": [
+      { "institution": "State Agricultural University Polytechnics (Government quota)", "amount_inr": 18000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Private Affiliated Agricultural Polytechnics", "amount_inr": 55000, "period": "Per academic year", "academic_year": "2024-25" }
+    ],
+    "verification": "Check the exact polytechnic fee notification published annually by the admitting state university or board before payment."
+  },
+  "careers": {
+    "heading": "Employment opportunities and educational pathways",
+    "intro": "Agriculture diploma holders fill critical technical and operational positions on farms, in seed and agrochemical distribution, and in grassroots rural development.",
+    "roles": [
+      { "title": "Village Agriculture Assistant / Krishi Mitra", "description": "Support block and gram panchayat level agricultural officers in crop surveying, seed distribution and farmer advisory." },
+      { "title": "Seed Production & Quality Inspector Assistant", "description": "Assist seed companies and certification agencies in inspecting seed plots, rogueing, harvesting and germination testing." },
+      { "title": "Farm & Nursery Supervisor", "description": "Manage day-to-day operations on commercial horticulture farms, polyhouse facilities, orchards and government seed farms." },
+      { "title": "Agrochemical & Fertilizer Retail Manager", "description": "Manage retail input stores, advise farmers on spray schedules and fertilizer dosages, or establish an Agri-Clinic." },
+      { "title": "Irrigation & Machinery Field Technician", "description": "Supervise the installation, operation and maintenance of drip, sprinkler and precision machinery systems." }
+    ],
+    "sectors": [
+      "State Departments of Agriculture & Horticulture",
+      "Hybrid seed production & marketing firms",
+      "Pesticide, bio-fertilizer and micro-nutrient companies",
+      "Commercial nurseries, orchards and tissue-culture facilities",
+      "Self-employed Agri-Clinics and input dealerships"
+    ],
+    "public_sector_routes": [
+      "State Subordinate Services Selection Boards: Village Agriculture Assistant (VAA), Gram Krishi Sevak, Field Assistant",
+      "State Seed Certification Agencies: Seed testing assistant and field scout",
+      "National Seeds Corporation (NSC): Trainee (Agriculture/Store/Quality Control)",
+      "State Farm Corporations & KVK support staff"
+    ],
+    "higher_study": [
+      "Lateral entry into B.Sc. (Hons.) Agriculture: 2nd year direct admission through state tests (e.g. AGRICET)",
+      "Bachelor of Vocation (B.Voc.) in Agriculture / Organic Farming",
+      "Advanced certification in Protected Cultivation, GIS or Landscape Gardening"
+    ]
+  },
+  "skills": [
+    "Seedbed preparation and nursery management",
+    "Identification of common crop pests, diseases and nutrient deficiencies",
+    "Safe handling, calibration and spraying of crop protection chemicals",
+    "Operation and maintenance of micro-irrigation and farm machinery",
+    "Soil sampling and basic testing techniques",
+    "Farmer communication and extension demonstration skills"
+  ],
+  "faqs": [
+    {
+      "question": "Can I join B.Sc. Agriculture after completing a Diploma in Agriculture?",
+      "answer": "Yes, several states (such as Andhra Pradesh, Telangana, Maharashtra, Rajasthan, Karnataka) offer lateral entry into the 2nd year of B.Sc. (Hons.) Agriculture for polytechnic diploma holders through dedicated entrance exams such as AGRICET. Policies vary by state, so confirm with the respective university."
+    },
+    {
+      "question": "What is the minimum eligibility for admission to Diploma in Agriculture?",
+      "answer": "In most state agricultural universities, candidates must have passed Class 10 (SSC/Matriculation) with science and mathematics. Some universities require 10+2 with science (PCB/PCM) or agriculture. Check the admitting university's specific polytechnic prospectus."
+    },
+    {
+      "question": "Can a diploma holder start an agrochemical or seed retail store?",
+      "answer": "Yes. In many Indian states, an agriculture diploma is a recognised educational qualification under the Insecticides Act and Seed Rules to obtain a commercial dealership license for selling fertilizers, seeds and registered pesticides."
+    },
+    {
+      "question": "Is Diploma in Agriculture recognised for government jobs?",
+      "answer": "Yes. State governments recruit agriculture diploma holders for positions such as Village Agriculture Assistant (VAA), Krishi Karyakarta, Field Scout, and Lab Technician in agricultural departments and research stations."
+    }
+  ],
+  "seo": {
+    "title": "Diploma in Agriculture: Eligibility, Polytechnic Syllabus, Fees & Career Scope",
+    "description": "Comprehensive guide to 2-year Diploma in Agriculture: ICAR/SAU polytechnic syllabus, Class 10/12 admission criteria, lateral entry to B.Sc. Agri, fees and job scope.",
+    "keywords": ["diploma in agriculture", "agriculture polytechnic", "diploma agriculture syllabus", "lateral entry bsc agriculture", "agricet eligibility", "agricultural assistant jobs"]
+  },
+  "sources": [
+    { "id": "s1", "url": "https://tnau.ac.in/diploma-admission/", "title": "Tamil Nadu Agricultural University - Directorate of Open & Distance Learning / Polytechnic Admissions", "kind": "university_portal" },
+    { "id": "s2", "url": "https://angrau.ac.in/", "title": "Acharya N.G. Ranga Agricultural University - Polytechnic Diploma Programmes", "kind": "university_portal" },
+    { "id": "s3", "url": "https://icar.gov.in/", "title": "Indian Council of Agricultural Research - Educational Divisions and Polytechnic Guidelines", "kind": "regulator" }
+  ],
+  "editorial_status": "verified"
+}

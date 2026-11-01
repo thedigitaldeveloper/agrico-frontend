@@ -1,0 +1,192 @@
+{
+  "slug": "msc-agricultural-extension",
+  "name": "M.Sc. (Agriculture) Agricultural Extension Education",
+  "short_name": "M.Sc. Agricultural Extension",
+  "level": "Postgraduate",
+  "discipline": "Agriculture (Social Sciences)",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "Coursework is usually completed in the first year and thesis research in the second. The ICAR BSMA master's framework totals 70 credits, including 30 credits of thesis research.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Broad Subject Matter Area PG syllabi, Social Sciences)",
+  "hero": {
+    "eyebrow": "Postgraduate agricultural social science degree",
+    "summary": "A two-year research master's on how farmers learn, adopt and benefit from new knowledge. It covers extension and advisory systems, behaviour change, communication and ICTs, capacity development and impact evaluation, with a social-science thesis that prepares students for KVK, development, research and teaching roles."
+  },
+  "overview": {
+    "heading": "What Agricultural Extension Education studies",
+    "paragraphs": [
+      "M.Sc. (Agriculture) Agricultural Extension Education is a social-science specialisation that studies the link between agricultural research and farming communities. Instead of a single crop or technology, it looks at people and institutions: how extension and advisory services are organised, how farmers make decisions, how innovations spread, and how training, media and digital tools can support change.",
+      "Agricultural universities generally follow the ICAR Broad Subject Matter Area (BSMA) PG syllabus for Social Sciences, adapted by each academic council. The BSMA extension courses move beyond the older transfer-of-technology model toward pluralistic advisory services, with attention to producer groups, gender, natural resource management, market access and climate change. Students also take minor and supporting courses, common courses and a seminar, and finish with a thesis based on field surveys or other social research methods.",
+      "TNAU offers the programme in its Department of Agricultural Extension and Rural Sociology at Coimbatore, and also at its Madurai and Killikulam agricultural colleges, describing a 70-credit load with 30 credits for thesis research. Many other state agricultural universities run similar programmes, sometimes under titles such as Extension Education or Agricultural Extension."
+    ],
+    "highlights": [
+      { "label": "Faculty", "value": "Agriculture - Social Sciences (BSMA group)" },
+      { "label": "Credit structure (ICAR BSMA)", "value": "70 credits: major 20, minor 8, supporting 6, common 5, seminar 1, thesis 30" },
+      { "label": "National entrance", "value": "ICAR AIEEA (PG), Social Sciences subject group" },
+      { "label": "Typical entry degrees", "value": "B.Sc. (Hons.) Agriculture and certain allied four-year degrees, as listed each year" }
+    ],
+    "source_ids": ["s1", "s2", "s3", "s4"]
+  },
+  "who_should_apply": [
+    "Agriculture and allied graduates more interested in working with farmers and communities than in laboratory research.",
+    "Students who enjoy communication, training, group facilitation and using media or digital tools.",
+    "Applicants curious about why technologies are or are not adopted, and how to measure programme impact.",
+    "Those aiming for KVK, rural development, NGO, farmer producer organisation or teaching and research roles."
+  ],
+  "curriculum": {
+    "heading": "Courses, field research and communication practice",
+    "intro": "Course lists follow the ICAR BSMA Social Sciences syllabus for extension, but titles, codes and electives are set by each university, so subject names vary. The areas below are representative; minor courses often come from agricultural economics, statistics or agronomy and are chosen with the advisory committee.",
+    "structure": [
+      {
+        "stage": "Major courses (extension education)",
+        "focus": "Extension systems, human behaviour, communication and evaluation.",
+        "courses": [
+          "Extension landscape: evolution, approaches and new functions of extension and advisory services",
+          "Applied behaviour change",
+          "Organisational behaviour and development",
+          "Research methodology in extension",
+          "Capacity development",
+          "ICTs for agricultural extension and advisory services",
+          "Evaluation and impact assessment",
+          "Enabling agricultural innovation and diffusion of innovations"
+        ]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Related disciplines chosen to support the thesis.",
+        "courses": [
+          "Statistical methods for applied sciences",
+          "Agricultural economics, marketing or rural development",
+          "Agronomy or another production subject relevant to the thesis"
+        ]
+      },
+      {
+        "stage": "Common courses and seminar",
+        "focus": "ICAR-mandated courses on research practice and communication.",
+        "courses": [
+          "Library and information services",
+          "Technical writing and communication skills",
+          "Intellectual property and its management in agriculture",
+          "Agricultural research, research ethics and rural development programmes",
+          "Seminar"
+        ]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Thesis research", "description": "A supervised social-science study, often based on structured surveys, interviews or scale development in farming communities, ending in a thesis and viva voce." },
+      { "name": "Field exposure", "description": "Visits to villages, KVKs and development agencies to observe extension delivery and farmer groups." },
+      { "name": "Communication and media work", "description": "Practicals on extension methods, audio-visual content and ICT tools; TNAU mentions media and video production within its programme." },
+      { "name": "Seminars and short internships", "description": "Seminars and, at some universities, short attachments at other institutes." }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "A four-year bachelor's degree in agriculture is the standard entry qualification. For the ICAR AIEEA (PG) extension subject, recent listings have also included allied degrees such as horticulture, forestry, sericulture and agricultural marketing and co-operation; confirm in the current bulletin.",
+      "Minimum OGPA/percentage requirements by category are set in that year's ICAR bulletin and in each university's prospectus.",
+      "Final-year students can usually apply provisionally if they complete the degree with required marks by the admission deadline.",
+      "Domicile, reservation and seat matrices differ by state and university."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG)", "description": "National NTA-conducted test, under the Social Sciences subject group, for ICAR's share of master's seats in agricultural universities and for ICAR deemed university seats; rank also governs the ICAR PG scholarship.", "source_ids": ["s2"] },
+      { "name": "University PG entrance test", "description": "Universities fill other seats through their own advertisement and entrance test. TNAU states that it screens through an entrance examination and applies EWS, community and ICAR quotas.", "source_ids": ["s3"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG)", "conducting_body": "National Testing Agency (NTA) for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test; Agricultural Extension sits in the Social Sciences group. Pattern and dates change by year." },
+      { "name": "University PG entrance tests", "conducting_body": "Individual agricultural universities", "url": null, "note": "Syllabus and selection weightage vary by university." }
+    ],
+    "steps": [
+      { "title": "Check eligibility", "text": "Confirm your degree and OGPA against the Social Sciences group in the ICAR bulletin and the target university prospectus." },
+      { "title": "Register for entrance tests", "text": "Apply for ICAR AIEEA (PG) through NTA and for the PG entrance tests of chosen universities." },
+      { "title": "Attend counselling", "text": "Use your rank in ICAR online counselling or university counselling to choose the subject and institution." },
+      { "title": "Complete admission", "text": "Report with original documents and fees at the allotted university within the deadline." }
+    ],
+    "documents": [],
+    "source_ids": ["s2", "s3"]
+  },
+  "fees": {
+    "summary": "Fees depend on the university and seat type. Regular seats at state agricultural universities usually cost less than self-financing seats, ICAR-quota and state-quota fees may differ, and hostel and examination charges are separate. No figures are given because no dated official fee schedule was verified; check the current prospectus.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Where extension graduates work",
+    "intro": "The degree leads to roles that connect research, government programmes and farmers, as well as research and teaching. TNAU points to work in banks, NGOs, media and policy-related analysis. Recruitment rules differ by employer and state, and selection is competitive.",
+    "roles": [
+      { "title": "Subject matter specialist (agricultural extension) at a KVK", "description": "Plans on-farm demonstrations, training and farmer outreach for a district Krishi Vigyan Kendra." },
+      { "title": "Extension or development officer", "description": "Delivers agricultural and rural development schemes through state departments or development agencies." },
+      { "title": "Programme or field coordinator in an NGO or FPO support agency", "description": "Organises farmer groups, training and project monitoring in community programmes." },
+      { "title": "Rural or agricultural banking officer", "description": "Works on agricultural lending and outreach where recruitment rules permit." },
+      { "title": "Research fellow or associate", "description": "Conducts surveys, evaluations and impact studies in university, ICAR or development research projects." },
+      { "title": "Agricultural communication or digital content specialist", "description": "Produces farmer-focused media and ICT advisory content." }
+    ],
+    "sectors": [
+      "Krishi Vigyan Kendras and agricultural universities",
+      "ICAR institutes",
+      "State agriculture and rural development departments",
+      "NGOs and farmer producer organisation support agencies",
+      "Banks and rural finance institutions",
+      "Agri-input, agritech and media organisations"
+    ],
+    "public_sector_routes": [
+      "ICAR ASRB National Eligibility Test (NET) in Agricultural Extension for lecturer/assistant professor eligibility",
+      "ICAR ASRB Agricultural Research Service and related scientist recruitment",
+      "State public service commission agriculture officer examinations, where the bachelor's degree qualifies"
+    ],
+    "higher_study": [
+      "Ph.D. in Agricultural Extension Education (via ICAR AICE-JRF/SRF (PhD) or university entrance)",
+      "Ph.D. in allied social sciences such as rural development, subject to university rules"
+    ],
+    "source_ids": ["s3", "s5"]
+  },
+  "skills": [
+    "Survey design, scaling and social research methods",
+    "Training needs assessment and programme design",
+    "Extension communication, media and ICT tools",
+    "Group facilitation and community mobilisation",
+    "Monitoring, evaluation and impact assessment",
+    "Report writing and presentation"
+  ],
+  "faqs": [
+    { "question": "Who is eligible for M.Sc. Agricultural Extension?", "answer": "Agriculture graduates are the main intake. For the ICAR AIEEA (PG) extension subject, recent listings have also admitted allied degrees such as horticulture, forestry and sericulture. Check the current bulletin and university prospectus for the exact list and minimum OGPA.", "source_ids": ["s2"] },
+    { "question": "Which ICAR AIEEA (PG) group covers extension?", "answer": "Agricultural Extension Education falls under the Social Sciences subject group, along with subjects such as agricultural economics.", "source_ids": ["s2"] },
+    { "question": "Is this a science or a social science programme?", "answer": "It is offered within the agriculture faculty but uses social-science methods. Students study behaviour, communication, institutions and evaluation, and their theses usually rely on surveys and field data from farming communities.", "source_ids": ["s1", "s3"] },
+    { "question": "What does the coursework cover?", "answer": "Representative BSMA areas include the extension landscape, behaviour change, organisational behaviour, research methodology, capacity development, ICTs for advisory services and impact assessment. Titles vary by university.", "source_ids": ["s1"] },
+    { "question": "How much of the degree is research?", "answer": "Under the ICAR BSMA framework, 30 of 70 credits are for thesis research, generally done in the second year under a major adviser.", "source_ids": ["s1", "s3"] },
+    { "question": "What jobs suit extension graduates?", "answer": "Common paths include KVK subject matter specialist posts, state extension and development roles, NGO and FPO programmes, rural banking, research projects and agricultural communication work.", "source_ids": ["s3"] },
+    { "question": "Can I go on to a Ph.D. or teaching?", "answer": "Yes. Ph.D. admission is via ICAR AICE-JRF/SRF (PhD) or university tests, and Agricultural Extension is an ASRB NET discipline for assistant professor eligibility.", "source_ids": ["s2", "s5"] }
+  ],
+  "seo": {
+    "title": "M.Sc. Agricultural Extension: Eligibility & Admission",
+    "description": "M.Sc. (Agriculture) Agricultural Extension Education: ICAR BSMA courses, eligibility, ICAR AIEEA-PG admission, thesis research, KVK and development careers.",
+    "keywords": [
+      "M.Sc. Agricultural Extension",
+      "M.Sc. Agricultural Extension Education eligibility",
+      "ICAR AIEEA PG social sciences",
+      "Agricultural Extension syllabus ICAR",
+      "extension education careers",
+      "M.Sc. Ag Extension admission"
+    ]
+  },
+  "related": ["bsc-agriculture", "msc-agricultural-economics", "mba-agribusiness", "msc-agronomy"],
+  "sources": [
+    { "id": "s1", "url": "https://icar.org.in/", "title": "ICAR - Broad Subject Matter Area (BSMA) PG and Ph.D. syllabi, Social Sciences (Agricultural Extension Education)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "faqs"], "notes": "Direct access to icar.org.in was blocked by a permission prompt; extension course areas (e.g. Extension Landscape) and the 70-credit split were seen in search excerpts citing ICAR, IARI and university BSMA documents. Exact titles and codes not confirmed." },
+    { "id": "s2", "url": "https://exams.nta.ac.in/ICAR/", "title": "NTA - ICAR AIEEA (PG) / AICE-JRF/SRF (PhD) portal", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["overview", "eligibility", "admission", "faqs"], "notes": "Direct fetch failed with a TLS certificate error; Social Sciences group placement and eligible allied degrees seen in search excerpts referencing NTA/ICAR deemed university bulletins. Year-specific details not confirmed." },
+    { "id": "s3", "url": "https://tnau.ac.in/m-sc-ag-in-agricultural-extension-education/", "title": "TNAU - M.Sc. (Ag.) in Agricultural Extension Education", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview", "curriculum", "eligibility", "admission", "careers"], "notes": "Institution-specific: Dept. of Agricultural Extension and Rural Sociology, Coimbatore, plus AC&RI Madurai and Killikulam; 70 credits with 30 for thesis; entrance exam and EWS/community/ICAR quotas." },
+    { "id": "s4", "url": "https://tnau.ac.in/masters/", "title": "TNAU School of Post Graduate Studies - Masters programmes", "kind": "official", "access": "page_read", "checked_on": "2026-11-01", "supports": ["overview"], "notes": null },
+    { "id": "s5", "url": "https://www.asrb.org.in/", "title": "Agricultural Scientists Recruitment Board (ASRB)", "kind": "regulator", "access": "search_excerpt", "checked_on": "2026-11-01", "supports": ["careers", "faqs"], "notes": "Site timed out; Agricultural Extension as an ASRB NET discipline seen only in secondary search excerpts. Confirm with current notification." }
+  ],
+  "verification_gaps": [
+    { "field": "curriculum.structure", "reason": "ICAR BSMA Social Sciences PDF not opened (icar.org.in blocked); extension course titles beyond 'Extension Landscape' are paraphrased from search excerpts and course codes are omitted.", "next_source": "ICAR BSMA Social Sciences PG syllabus PDF (Agricultural Extension Education)" },
+    { "field": "eligibility.points", "reason": "Current list of allied degrees accepted for the extension subject and category-wise minimum OGPA not verified from the latest bulletin.", "next_source": "Current NTA ICAR AIEEA (PG) information bulletin" },
+    { "field": "admission.exams", "reason": "Current exam pattern, ICAR seat share and scholarship rules not confirmed from an official page.", "next_source": "https://exams.nta.ac.in/ICAR/" },
+    { "field": "admission.documents", "reason": "No official document checklist read.", "next_source": "University PG prospectus / ICAR counselling brochure" },
+    { "field": "fees.observed_examples", "reason": "No dated official fee schedule verified.", "next_source": "Current PG prospectus of TNAU, PAU or other SAUs" },
+    { "field": "careers.public_sector_routes", "reason": "ASRB NET discipline name not read from ASRB directly; eligibility of extension master's holders for specific state posts not verified.", "next_source": "Latest ASRB NET notification; state PSC notifications" }
+  ],
+  "editorial_status": "research_draft"
+}

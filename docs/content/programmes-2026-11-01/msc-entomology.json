@@ -1,0 +1,179 @@
+{
+  "slug": "msc-entomology",
+  "name": "M.Sc. (Agriculture) Entomology",
+  "short_name": "M.Sc. Entomology",
+  "level": "Postgraduate",
+  "discipline": "Plant Protection / Agricultural Entomology",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "A 2-year full-time master's degree (4 semesters) requiring coursework and an experimental research thesis, with up to 8 to 10 semesters allowed under university academic regulations.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (restructured PG curricula, BSMA 2021)",
+  "hero": {
+    "eyebrow": "Postgraduate plant protection & insect science degree",
+    "summary": "A two-year master's programme exploring insect biodiversity, morphology, physiology, and pest dynamics in agricultural ecosystems. Students gain advanced laboratory and field skills in biological control, insecticide toxicology, integrated pest management (IPM), apiculture and plant quarantine compliance."
+  },
+  "overview": {
+    "heading": "What an M.Sc. in Entomology covers",
+    "paragraphs": [
+      "Agricultural Entomology is the scientific study of insects and their interactions with crops, natural environments, and humans. Because insects cause substantial pre- and post-harvest crop losses while also serving indispensable roles as pollinators and biocontrol agents, entomologists play a pivotal role in ensuring global food security and sustainable farming practices.",
+      "Under ICAR's Broad Subject Matter Area (BSMA) restructured curriculum, the two-year M.Sc. Entomology programme consists of 70 total credits: 20 major credits, 8 minor credits, 6 supporting credits (including statistics and experimental design), 5 common research-skills credits, 1 master's seminar credit and 30 credits dedicated to supervised thesis research.",
+      "The curriculum delves into advanced insect morphology, taxonomy and systematics, internal physiology, toxicology and mode of action of synthetic and botanical insecticides, biological control using parasitoids and predators, host plant resistance, stored grain pests, apiculture (beekeeping), sericulture, and non-insect pests like mites, rodents and birds."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
+      { "label": "Total credits (ICAR BSMA)", "value": "70 credits (including 30 thesis research credits)" },
+      { "label": "Typical entry qualification", "value": "4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture" },
+      { "label": "National entrance examination", "value": "ICAR AIEEA (PG) in the Plant Science / Entomology subject group" },
+      { "label": "Key research areas", "value": "IPM, insecticide resistance, biocontrol mass production, insect toxicology and pollinator health" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Agriculture or horticulture graduates who found plant protection, taxonomy and insect behavior engaging during undergraduate coursework",
+    "Students keen on microscopy, field scouting, insect rearing and biochemical laboratory bioassays",
+    "Aspirants aiming for research and teaching careers through ICAR-ARS (Agricultural Research Service) or ASRB NET in Entomology",
+    "Graduates interested in formulation development, registration toxicology and product testing within multinational agrochemical firms"
+  ],
+  "curriculum": {
+    "heading": "Course structure under ICAR BSMA 2021 guidelines",
+    "intro": "The programme combines rigorous coursework across insect taxonomy, physiology, ecology and toxicology with independent field or laboratory thesis research. Specific course codes and elective options are established by each state agricultural university.",
+    "structure": [
+      {
+        "stage": "Major core courses (Compulsory Entomology)",
+        "focus": "Fundamental insect science, taxonomy, anatomy and integrated pest management.",
+        "courses": ["Insect Morphology", "Insect Systematics & Taxonomy", "Insect Anatomy, Physiology & Nutrition", "Principles of Integrated Pest Management (IPM)", "Toxicology of Insecticides"]
+      },
+      {
+        "stage": "Major elective courses (Specialised Entomology)",
+        "focus": "Field crop pests, biological control, storage entomology and beneficial insects.",
+        "courses": ["Biological Control of Crop Pests & Weeds", "Pests of Field Crops & their Management", "Pests of Horticultural & Plantation Crops", "Stored Product Entomology & Pest Management", "Insect Ecology & Pest Forecasting", "Commercial Apiculture & Sericulture", "Plant Resistance to Insects", "Medical & Veterinary Entomology"]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Cross-disciplinary subjects such as plant pathology, genetics, and statistical data analysis.",
+        "courses": ["Plant Pathology Basics & Disease Interactions", "Statistical Methods for Applied Sciences", "Experimental Designs & Field Plot Techniques", "Computer Applications & Bio-statistical Packages"]
+      },
+      {
+        "stage": "Common skills, seminar & master's thesis",
+        "focus": "Core research methodology, laboratory ethics, one academic seminar and 30 credits of original thesis research.",
+        "courses": ["Library & Information Services", "Technical Writing & Scientific Communication", "Intellectual Property Rights & Agricultural Bioethics", "Basic Concepts in Laboratory Techniques", "Master's Seminar (1 credit)", "Master's Research / Dissertation (30 credits)"]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Insect collection, preservation & identification", "description": "Field collection of insect specimens across diverse agro-ecosystems, pinning, slide-mounting and taxonomic key identification up to family and genus level." },
+      { "name": "Bioassay & toxicology laboratory experiments", "description": "Testing insecticide formulations on insect target populations using precision micro-applicators, calculating LD50/LC50 values and assessing resistance mechanisms." },
+      { "name": "Biocontrol mass-rearing facilities", "description": "Mass rearing of host insects (e.g., Corcyra cephalonica) and beneficial parasitoids (e.g., Trichogramma) and predators (Chrysoperla) in biocontrol insectaries." },
+      { "name": "Supervised master's research thesis", "description": "Independent experimental research investigating pesticide efficacy, biocontrol dynamics, pest biology or molecular taxonomy over two consecutive crop seasons." }
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "eligibility": {
+    "points": [
+      "Graduation with a 4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture from an ICAR-accredited or recognized university.",
+      "Minimum qualifying score: 6.0/10.0 OGPA (or 60% aggregate) for General/OBC candidates, and 5.0/10.0 OGPA (or 50% aggregate) for SC/ST/PwD candidates in the bachelor's degree.",
+      "Candidates appearing in their final undergraduate semester are eligible to sit for entrance exams provisionally, subject to fulfilling all degree requirements at the time of counselling."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG)", "description": "Conducted annually by the National Testing Agency (NTA) for admission to all-India quota seats in State Agricultural Universities, Central Universities (CAUs), and premier ICAR institutes like IARI New Delhi.", "source_ids": ["s3"] },
+      { "name": "State Agricultural University Common Entrance", "description": "State-level admission tests such as UPCATET (Uttar Pradesh), MCAER (Maharashtra), OUAT (Odisha), BCKV/UBKV (West Bengal), and Rajasthan JET/Pre-PG for domicile candidates.", "source_ids": ["s1"] },
+      { "name": "Institutional Entrance & Merit", "description": "Private agricultural universities with ICAR recognition admit students through institutional entrance tests or undergraduate merit cutoffs.", "source_ids": ["s1"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG - Plant Science / Entomology)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test evaluating general agriculture, entomology, plant pathology, nematology, and microbiology." }
+    ],
+    "steps": [
+      { "title": "Check eligibility & subject code", "text": "Verify that your undergraduate degree matches ICAR AIEEA (PG) eligibility criteria under the Plant Science / Entomology subject group." },
+      { "title": "Apply online for NTA ICAR AIEEA (PG)", "text": "Submit application form, upload photograph and signature, and select exam cities during the registration window." },
+      { "title": "Take the entrance examination", "text": "Appear for the 120-question, 2-hour computer-based test covering domain subjects and core agricultural concepts." },
+      { "title": "Counseling and institute selection", "text": "Register for ICAR online counselling or state agricultural university portal to freeze discipline and university choices based on merit rank." }
+    ],
+    "documents": [
+      "B.Sc. Agriculture / Horticulture provisional or original degree certificate",
+      "Official academic transcripts and semester grade reports",
+      "ICAR AIEEA (PG) scorecard and admit card",
+      "Proof of date of birth (Class 10 certificate)",
+      "Category and domicile certificates where applicable",
+      "Migration and character certificates from undergraduate university"
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "fees": {
+    "summary": "State Agricultural Universities and ICAR institutes charge modest semester fees ranging from ₹12,000 to ₹35,000 per academic year for government quota seats. Students admitted through ICAR AIEEA (PG) who secure high ranks are awarded the ICAR PG Scholarship (NTS/Junior Fellowship) covering a monthly stipend. Private agricultural universities charge between ₹60,000 and ₹1,50,000 per academic year. Lab consumables, thesis evaluation charges and hostel amenities are billed separately.",
+    "observed_examples": [
+      { "institution": "State Agricultural Universities (e.g. PAU, TNAU, GBPUAT)", "amount_inr": 28000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "ICAR Deemed Universities (IARI New Delhi)", "amount_inr": 16000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Private Agricultural Universities", "amount_inr": 90000, "period": "Per academic year", "academic_year": "2024-25" }
+    ],
+    "verification": "Confirm exact tuition, library and laboratory fees in the current postgraduate bulletin of the admitting institution."
+  },
+  "careers": {
+    "heading": "Professional opportunities in research, crop protection and industry",
+    "intro": "M.Sc. Entomology graduates are critically required in agricultural chemical corporations, government quarantine services, academic research, and pest surveillance programmes.",
+    "roles": [
+      { "title": "Scientist / Assistant Professor (Entomology)", "description": "Conduct cutting-edge research on insect genetics, IPM and climate change impacts, and teach undergraduate and postgraduate agricultural classes." },
+      { "title": "Subject Matter Specialist (Plant Protection) at KVK", "description": "Diagnose pest outbreaks in farmers' fields, conduct front-line demonstrations, and provide advisories on sustainable crop protection." },
+      { "title": "Agrochemical Product Development & Regulatory Specialist", "description": "Evaluate novel molecules, conduct multi-location bio-efficacy trials, manage field testing data and secure Central Insecticides Board (CIB&RC) registrations." },
+      { "title": "Plant Quarantine Inspector / Officer", "description": "Inspect imported and exported agricultural commodities at sea ports, airports and dry ports to prevent the entry of exotic quarantine insect pests." },
+      { "title": "Biocontrol Production Manager", "description": "Oversee commercial insectaries producing Trichogramma cards, predatory mites, entomopathogenic fungi and pheromone lures." },
+      { "title": "Technical Officer in Warehousing (FCI / CWC)", "description": "Prevent stored grain damage from weevils, beetles and moths through fumigation, pest monitoring and scientific storage practices." }
+    ],
+    "sectors": [
+      "ICAR research institutes and State Agricultural Universities",
+      "Agrochemical, bio-pesticide and pheromone manufacturing companies",
+      "Directorate of Plant Protection, Quarantine & Storage (DPPQS)",
+      "Food Corporation of India (FCI) and Central/State Warehousing Corporations",
+      "Commercial beekeeping, sericulture and organic pest management firms"
+    ],
+    "public_sector_routes": [
+      "Agricultural Scientists Recruitment Board (ASRB): ARS Scientist & NET in Entomology",
+      "State Public Service Commissions (PSC): Assistant Director of Agriculture (Plant Protection), Agricultural Officer (AO)",
+      "Staff Selection Commission (SSC): Technical Officer / Quarantine Inspector in DPPQS",
+      "FCI / CWC / State Warehousing: Technical Assistant & Storage Quality Inspector"
+    ],
+    "higher_study": [
+      "Ph.D. in Agricultural Entomology (via ICAR AICE-JRF/SRF or university entrance)",
+      "Postdoctoral research in insect molecular genetics, chemical ecology or pollinator genomics abroad"
+    ]
+  },
+  "skills": [
+    "Taxonomic identification of agricultural pests and beneficial insects",
+    "Design and implementation of integrated pest management (IPM) protocols",
+    "Insecticide bioassay methodologies, dosage calculation and safety protocols",
+    "Pheromone trap placement and pest population surveillance techniques",
+    "Mass-multiplication of biological control agents and insect rearing",
+    "Statistical data analysis of field trial experiments using software tools"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between general Zoology Entomology and Agricultural Entomology?",
+      "answer": "While general Zoology Entomology focuses broadly on insect anatomy, evolutionary biology and medical entomology, M.Sc. Agricultural Entomology focuses specifically on insects affecting field and horticultural crops, agrochemical toxicology, pesticide management, biological control, plant quarantine laws and farming economics."
+    },
+    {
+      "question": "What are the job prospects after M.Sc. Entomology without a Ph.D.?",
+      "answer": "Graduates can readily join agrochemical and seed MNCs as product development officers, field trial specialists, and regulatory executives. In the public sector, they are eligible for Plant Quarantine Inspector (DPPQS), Technical Officer in FCI/CWC, and State Agricultural Officer (AO) roles."
+    },
+    {
+      "question": "Is ASRB NET required to teach or work as an Assistant Professor in Entomology?",
+      "answer": "Yes. Qualifying the ASRB National Eligibility Test (NET) in Agricultural Entomology is mandatory for appointment as an Assistant Professor or Subject Matter Specialist in State Agricultural Universities and ICAR-KVKs."
+    },
+    {
+      "question": "Do M.Sc. Entomology students receive scholarships?",
+      "answer": "Candidates securing top ranks in the ICAR AIEEA (PG) exam receive the ICAR PG Scholarship (NTS/JRF) with a monthly stipend. State universities also offer merit scholarships and laboratory research assistantships."
+    }
+  ],
+  "seo": {
+    "title": "M.Sc. Agriculture Entomology: BSMA Syllabus, ICAR PG Exam, Jobs & Scope",
+    "description": "Comprehensive guide to M.Sc. in Agricultural Entomology: ICAR BSMA 2021 curriculum, AIEEA-PG eligibility, plant protection career routes, ASRB NET and fees.",
+    "keywords": ["msc entomology", "msc agriculture entomology", "icar aieea pg entomology", "asrb net entomology", "plant protection jobs", "entomology syllabus"]
+  },
+  "sources": [
+    { "id": "s1", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Plant Protection (Entomology)", "kind": "regulator" },
+    { "id": "s2", "url": "https://tnau.ac.in/masters/", "title": "Tamil Nadu Agricultural University - Department of Agricultural Entomology PG Programme", "kind": "university_portal" },
+    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+  ],
+  "editorial_status": "verified"
+}

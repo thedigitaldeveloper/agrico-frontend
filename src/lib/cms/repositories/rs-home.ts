@@ -7,7 +7,7 @@ import { BLOG_SECTIONS, listBlogs, type BlogCard } from './blog';
 import { listMentors, type MentorCard } from './mentor';
 import { listTestimonials, type TestimonialCard } from './testimonial';
 import { getRsCatalogue } from './rs-catalogue';
-import { publicationUniversities } from '@/lib/agrico/publication';
+import { publicationPosts, publicationUniversities } from '@/lib/agrico/publication';
 import type { Offering, RsHomeData } from '@/components/rs/home-types';
 
 function resolveSelection(selection: HomeOfferingSelection | null | undefined, catalogue: Offering[]) {
@@ -33,6 +33,24 @@ const post = (p: BlogCard, section: 'news' | 'blogs' | 'articles') => {
     href: '/' + section + '/' + p.slug,
   };
 };
+
+/** Verified local editorial posts keep the homepage slider populated when the CMS feed is short. */
+const EDITORIAL_LABEL = { News: 'Admission update', Blog: 'Student guide', Articles: 'Guide' } as const;
+function editorialTopUp(existing: { href: string }[], limit = 9) {
+  if (existing.length >= limit) return [];
+  const seen = new Set(existing.map(item => item.href));
+  const ordered = [...publicationPosts].sort((a, b) => (a.kind === 'News' ? -1 : 0) - (b.kind === 'News' ? -1 : 0));
+  return ordered.filter(doc => !seen.has(doc.path)).slice(0, limit - existing.length).map(doc => {
+    const media = doc.hero_media?.find(m => m.role === 'campus_primary') || doc.hero_media?.[0];
+    return {
+      id: 'editorial-' + doc.slug, title: doc.title, summary: doc.summary || doc.description || '',
+      date: doc.published_on || doc.reviewed_on || null,
+      image: media?.src || null, imageAlt: media?.alt || doc.title,
+      category: EDITORIAL_LABEL[doc.kind as keyof typeof EDITORIAL_LABEL] || 'Guide',
+      href: doc.path,
+    };
+  });
+}
 
 async function curatedRecords<T extends { documentId: string }>(path: string, ids: string[], tag: Parameters<typeof collectionTag>[0]): Promise<T[]> {
   if (!ids.length) return [];
@@ -124,7 +142,11 @@ export async function getRsHomeData(): Promise<RsHomeData> {
     mentors, testimonials,
     news: news.map(p => post(p, 'news')),
     blogs: blogs.map(p => post(p, 'blogs')),
-    articles: articles.map(p => post(p, 'articles')),
+    articles: (() => {
+      const cmsArticles = articles.map(p => post(p, 'articles'));
+      const shown = [...news.map(p => post(p, 'news')), ...cmsArticles, ...blogs.map(p => post(p, 'blogs'))];
+      return [...cmsArticles, ...editorialTopUp(shown)];
+    })(),
     slides: home.slides.map(slide => {
       const picture = slide.media.kind === 'image' ? slide.media.picture
         : slide.media.kind === 'video' || slide.media.kind === 'youtube' ? slide.media.poster : null;

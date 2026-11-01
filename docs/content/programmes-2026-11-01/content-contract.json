@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "purpose": "Original English editorial content for Agrico programme detail pages (route /<slug>). Adapted from docs/content/universities-2026-10-30/content-contract.json and page-content-requirements.json. Content preparation only; do not seed CMS records.",
+  "checked_on": "2026-11-01",
+  "file_rule": "One JSON file per programme: docs/content/programmes-2026-11-01/<slug>.json. Valid JSON, UTF-8, no comments.",
+  "output_shape": {
+    "slug": "assigned slug, unchanged",
+    "name": "full programme name as commonly published in India, e.g. 'B.Sc. (Hons.) Agriculture'",
+    "short_name": "e.g. 'B.Sc. Agriculture'",
+    "level": "Undergraduate | Postgraduate | Doctoral | Diploma",
+    "discipline": "e.g. Agriculture, Horticulture, Agricultural Engineering, Veterinary Science, Fisheries Science, Agribusiness",
+    "duration": "verified normal duration string, e.g. '4 years (8 semesters)'",
+    "duration_note": "internship / extension notes or null",
+    "mode": "e.g. 'Full-time, campus-based'",
+    "regulator": "body whose curriculum/accreditation framework applies, e.g. 'ICAR (Sixth Deans Committee)', 'Veterinary Council of India'; null if unclear",
+    "hero": {
+      "eyebrow": "short label, e.g. 'Undergraduate agriculture degree'",
+      "summary": "original 35-55 word programme summary"
+    },
+    "overview": {
+      "heading": "original informative heading",
+      "paragraphs": ["2-3 original factual paragraphs, roughly 150-230 words total"],
+      "highlights": [{ "label": "fact label", "value": "supported fact" }],
+      "source_ids": []
+    },
+    "who_should_apply": ["3-5 original bullets describing student interests/strengths that fit"],
+    "curriculum": {
+      "heading": "original heading",
+      "intro": "original 40-80 word intro; say subject names vary by university",
+      "structure": [
+        { "stage": "e.g. 'Years 1-2: Foundations' or 'Core courses'", "focus": "one sentence", "courses": ["representative course/subject areas from the ICAR/regulator curriculum"] }
+      ],
+      "specialisations": ["electives / majors where supported, else empty"],
+      "practical_learning": [{ "name": "e.g. RAWE, Experiential Learning Programme, thesis research, internship", "description": "original short description" }],
+      "source_ids": []
+    },
+    "eligibility": {
+      "points": ["verified, regulator/typical entry requirements; say 'varies by university' where it does"],
+      "source_ids": []
+    },
+    "admission": {
+      "routes": [{ "name": "e.g. 'ICAR AIEEA (PG)', 'CUET-UG (ICAR quota seats)', 'State agricultural entrance / counselling', 'University entrance or merit'", "description": "original explanation", "source_ids": [] }],
+      "exams": [{ "name": "exam name", "conducting_body": "e.g. NTA", "url": "official URL or null", "note": "scope note" }],
+      "steps": [{ "title": "applicant step", "text": "general applicant action, not invented institutional procedure" }],
+      "documents": ["commonly requested documents, phrased as 'usually' — only if supported"],
+      "source_ids": []
+    },
+    "fees": {
+      "summary": "original explanation of how fees differ (state SAU vs private/deemed, government vs management quota). Do NOT state numeric fees unless an official source with academic year is cited in observed_examples.",
+      "observed_examples": [{ "institution": "name", "amount_inr": null, "period": "semester/year/total", "academic_year": "source year", "source_ids": [] }],
+      "verification": "not_verified unless every example is from an official dated source"
+    },
+    "careers": {
+      "heading": "original heading",
+      "intro": "original 40-80 words; no salary promises",
+      "roles": [{ "title": "role", "description": "original one-sentence description" }],
+      "sectors": ["sector names"],
+      "public_sector_routes": ["e.g. IBPS AFO, state agriculture officer exams, ICAR ASRB/ARS/NET — only where relevant and real"],
+      "higher_study": ["next qualifications"],
+      "source_ids": []
+    },
+    "skills": ["4-6 skills students build"],
+    "faqs": [{ "question": "applicant question", "answer": "original factual answer", "source_ids": [] }],
+    "seo": {
+      "title": "programme + course details/eligibility/admission; under 65 chars; no ranking claims",
+      "description": "original 140-165 characters",
+      "keywords": ["5-8 relevant searches"]
+    },
+    "related": ["2-4 slugs from the assigned slug list in this project"],
+    "sources": [
+      { "id": "s1", "url": "exact URL actually read or seen as search excerpt", "title": "source title", "kind": "regulator | official | affiliating_university | secondary", "access": "page_read | search_excerpt", "checked_on": "2026-11-01", "supports": ["sections"], "notes": "scope/date limitation or null" }
+    ],
+    "verification_gaps": [{ "field": "dotted path", "reason": "what is unverified", "next_source": "suggested official source or null" }],
+    "editorial_status": "research_draft"
+  },
+  "research_rules": [
+    "Use web search for every programme. Prefer regulator and official sources: ICAR (Sixth Deans Committee UG curricula, ICAR PG/PhD syllabi BSMA 2021/2022, ICAR AIEEA/CUET notices via NTA), VCI (MSVE 2016 for B.V.Sc. & A.H.), state agricultural universities (TNAU, PAU, GBPUAT, IARI, etc.) programme pages. Secondary sites (Shiksha, Collegedunia, Careers360) may only supply leads; confirm important facts with official sources.",
+    "Write original copy from factual notes. Do not copy or lightly paraphrase other publishers' distinctive wording. No testimonials, rankings, 'best/top' superlatives, placement percentages or salary figures.",
+    "Do not guess. Unknown scalar facts are null; unavailable arrays are empty and get a verification_gaps entry. Date volatile facts (exam patterns, seat quotas, fees) by the actual source year.",
+    "Keep the content programme-level (India-wide). Say clearly where eligibility, fees, admission route or subject names vary by university or state.",
+    "Target about 700-1100 useful original words per programme across all fields. Specificity over length; no filler.",
+    "5-7 FAQs per programme covering eligibility, admission/exams, curriculum/practical learning, careers and higher study.",
+    "Only write inside D:/agrico-frontend/docs/content/programmes-2026-11-01/. Do not modify application source, CMS records or other agents' files. Do not bypass any access block; record it as a verification gap."
+  ],
+  "assigned_slugs": {
+    "bsc-agriculture": "B.Sc. (Hons.) Agriculture",
+    "bsc-horticulture": "B.Sc. (Hons.) Horticulture",
+    "btech-agricultural-engineering": "B.Tech. Agricultural Engineering",
+    "bsc-agribusiness": "B.Sc. (Hons.) Agribusiness Management",
+    "bvsc-animal-husbandry": "B.V.Sc. & A.H.",
+    "bfsc-fisheries-science": "Bachelor of Fisheries Science (B.F.Sc.)",
+    "diploma-agriculture": "Diploma in Agriculture",
+    "mba-agribusiness": "MBA Agribusiness Management",
+    "msc-agronomy": "M.Sc. (Agriculture) Agronomy",
+    "msc-genetics-plant-breeding": "M.Sc. (Agriculture) Genetics and Plant Breeding",
+    "msc-entomology": "M.Sc. (Agriculture) Entomology",
+    "msc-plant-pathology": "M.Sc. (Agriculture) Plant Pathology",
+    "msc-soil-science": "M.Sc. (Agriculture) Soil Science",
+    "msc-agricultural-economics": "M.Sc. (Agriculture) Agricultural Economics",
+    "msc-agricultural-extension": "M.Sc. (Agriculture) Agricultural Extension Education",
+    "msc-fruit-science": "M.Sc. (Horticulture) Fruit Science",
+    "msc-vegetable-science": "M.Sc. (Horticulture) Vegetable Science",
+    "msc-floriculture-landscaping": "M.Sc. (Horticulture) Floriculture and Landscaping",
+    "phd-agronomy": "Ph.D. Agronomy"
+  }
+}
+

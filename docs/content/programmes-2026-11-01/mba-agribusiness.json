@@ -1,0 +1,194 @@
+{
+  "slug": "mba-agribusiness",
+  "name": "MBA Agribusiness Management",
+  "short_name": "MBA Agribusiness",
+  "level": "Postgraduate",
+  "discipline": "Agribusiness Management",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "A full-time, two-year residential programme divided into 4 semesters or 6 trimesters, including a mandatory 8-to-10 week corporate summer internship between the first and second years.",
+  "mode": "Full-time, campus-based",
+  "regulator": "AICTE / ICAR (BSMA Agribusiness Management Curriculum)",
+  "hero": {
+    "eyebrow": "Postgraduate management degree for agriculture & allied sectors",
+    "summary": "A specialized two-year MBA programme that bridges agricultural sciences with corporate management, marketing, commodity trading and supply chain logistics. Students learn how to build, scale and manage enterprises across seed, agrochemical, farm machinery, food retail, rural banking and agri-fintech sectors."
+  },
+  "overview": {
+    "heading": "What an MBA in Agribusiness covers",
+    "paragraphs": [
+      "Agribusiness management is an interdisciplinary field connecting agricultural production with post-harvest processing, logistics, input marketing, finance and international food trade. As the agricultural sector transforms through modernization, cold chain expansion, contract farming and agri-tech start-ups, organisations require managers who understand both biological crop cycles and modern business operations.",
+      "The MBA Agribusiness programme provides rigorous training in fundamental management disciplines—such as corporate finance, marketing management, operations research and strategic decision-making—while immersing students in agricultural business dynamics: agricultural supply chains, input marketing (seeds, fertilizers, pesticides), commodity derivative markets, food safety regulations and rural consumer behaviour.",
+      "Offered by premier institutions like IIM Ahmedabad (FABM), IIM Lucknow (ABM), MANAGE Hyderabad, CCS NIAM Jaipur, top State Agricultural Universities and accredited private universities, the degree prepares graduates for executive and leadership roles across multinational agri-enterprises, rural banking institutions and consulting firms."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 years (4 semesters / 6 trimesters)" },
+      { "label": "Regulatory approval", "value": "AICTE approved / ICAR BSMA aligned" },
+      { "label": "Typical entry degree", "value": "4-year B.Sc. (Hons.) Agriculture or allied disciplines (Engineering, Veterinary, Food Tech) or recognized bachelor's degree" },
+      { "label": "Entrance examinations", "value": "CAT, CMAT, MAT, ICAR AIEEA (PG - Agribusiness), XAT or university-specific tests" },
+      { "label": "Industry exposure", "value": "8-10 week mandatory summer corporate internship and live industry projects" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Agriculture, horticulture, forestry, dairy and agricultural engineering graduates wanting to transition from technical field roles to corporate leadership, marketing or finance",
+    "Graduates passionate about agricultural supply chains, food retail, commodity derivatives and farm-to-fork value systems",
+    "Aspiring agri-entrepreneurs seeking the business frameworks, financial modelling skills and market networks needed to launch sustainable agri-tech ventures",
+    "Candidates targeting managerial careers in rural banking, microfinance, development agencies (NABARD, World Bank) and multinational crop-science companies"
+  ],
+  "curriculum": {
+    "heading": "Curriculum structure under modern management standards",
+    "intro": "The first year builds core management competence across finance, marketing, accounting and statistics. The second year focuses on sectoral specialization in input marketing, procurement, trade, risk management and strategic entrepreneurship.",
+    "structure": [
+      {
+        "stage": "Semester 1: Foundation management principles",
+        "focus": "Core business concepts, quantitative methods and managerial economics.",
+        "courses": ["Managerial Economics & Agricultural Price Analysis", "Financial Accounting & Reporting", "Marketing Management Principles", "Quantitative Techniques & Business Statistics", "Organizational Behaviour & Human Resource Management", "Agribusiness Environment & Policy Framework"]
+      },
+      {
+        "stage": "Semester 2: Operational & sectoral fundamentals",
+        "focus": "Finance, supply chain basics, rural markets and research methodology.",
+        "courses": ["Corporate Financial Management", "Rural Marketing & Consumer Behaviour", "Operations Research & Production Management", "Agricultural Supply Chain & Logistics Management", "Business Research Methods & Market Analytics", "Agrochemicals & Seed Industry Management"]
+      },
+      {
+        "stage": "Summer Term: Corporate industry internship",
+        "focus": "Mandatory 8-10 week field or corporate project with an agribusiness firm, bank or food processor.",
+        "courses": ["Summer Internship Project (SIP)", "Corporate Project Report Presentation & Viva Voce"]
+      },
+      {
+        "stage": "Semester 3: Advanced agribusiness specialisations",
+        "focus": "Commodity trading, food technology management and specialized marketing.",
+        "courses": ["Commodity Futures, Options & Risk Management", "Procurement & Quality Management in Food Processing", "Farm Power & Agricultural Machinery Marketing", "International Agri-Trade & WTO Regulations", "Financing of Agribusiness & Priority Sector Lending"]
+      },
+      {
+        "stage": "Semester 4: Strategic leadership & venture creation",
+        "focus": "Corporate strategy, agri-tech innovation and master's capstone project.",
+        "courses": ["Strategic Agribusiness Management", "Agri-Entrepreneurship & Venture Capital", "Food Retail & E-Commerce Supply Chains", "Ethics, Corporate Governance & Sustainability", "Comprehensive Master's Thesis / Capstone Dissertation"]
+      }
+    ],
+    "specialisations": [
+      "Agricultural Input Marketing (Seeds, Crop Protection & Plant Nutrition)",
+      "Food Processing, Cold Chain & Retail Supply Chain Management",
+      "Commodity Derivatives, Trading & Warehousing",
+      "Rural Banking, Microfinance & Agri-Fintech",
+      "Agri-Entrepreneurship & Digital Agriculture Systems"
+    ],
+    "practical_learning": [
+      { "name": "Corporate summer internship", "description": "Hands-on immersion with leading agri-input companies, FMCG food processors or banks, solving real business challenges in sales territories, supply chains or credit evaluation." },
+      { "name": "Live market surveys & rural immersions", "description": "Field studies in rural mandis, weekly haats, farmer-producer organisations (FPOs) and processing clusters to study consumer buying behaviour and value distribution." },
+      { "name": "Commodity trading simulations", "description": "Hands-on exposure to commodity exchanges (NCDEX, MCX) for hedging agricultural price risks and warehouse receipt financing." }
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "eligibility": {
+    "points": [
+      "Bachelor's degree in Agriculture, Horticulture, Agricultural Engineering, Forestry, Dairy Technology, Veterinary Science, Fisheries, Food Technology or equivalent 4-year degree from a recognized university.",
+      "Many institutes also admit graduates with any 3-year or 4-year bachelor's degree (such as B.Sc., B.Com, B.A. Economics, B.Tech, BBA) with a minimum required aggregate percentage.",
+      "Minimum qualifying marks: 50% to 55% aggregate marks or equivalent CGPA (6.0/10.0), with standard relaxation of 5% for SC/ST/PwD candidates as per government guidelines.",
+      "A valid score in an approved national or university-level management entrance test (such as CAT, CMAT, MAT, XAT, or ICAR AIEEA-PG)."
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "National Management Entrance Tests (CAT / CMAT / MAT / XAT)", "description": "Premier agribusiness business schools (like MANAGE, NIAM, IIMs, and accredited universities) shortlist candidates based on national exam percentiles, followed by Written Ability Test (WAT), Group Discussion (GD) and Personal Interview (PI).", "source_ids": ["s1"] },
+      { "name": "ICAR AIEEA (PG - Agribusiness)", "description": "Conducted by NTA for admission into postgraduate agribusiness programmes across ICAR deemed and State Agricultural Universities.", "source_ids": ["s3"] },
+      { "name": "University-Specific Entrance & GD-PI", "description": "Private universities and autonomous management faculties conduct direct entrance examinations, psychometric profiling and personal interviews.", "source_ids": ["s2"] }
+    ],
+    "exams": [
+      { "name": "CAT (Common Admission Test)", "conducting_body": "Indian Institutes of Management (IIMs)", "url": "https://iimcat.ac.in", "note": "Used for IIM FABM/ABM, MANAGE, NIAM and top agribusiness business schools." },
+      { "name": "CMAT (Common Management Admission Test)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/CMAT/", "note": "Widely accepted by AICTE-approved agribusiness colleges and universities." },
+      { "name": "ICAR AIEEA (PG)", "conducting_body": "NTA for ICAR", "url": "https://exams.nta.ac.in/ICAR/", "note": "Computer-based test for agricultural university quota seats in Agribusiness Management." }
+    ],
+    "steps": [
+      { "title": "Appear for entrance examination", "text": "Register and sit for CAT, CMAT, MAT or ICAR AIEEA (PG) in the preceding autumn or winter." },
+      { "title": "Submit institutional application", "text": "Apply individually to target agribusiness management institutes with test registration numbers and academic credentials." },
+      { "title": "Participate in GD, WAT & Personal Interview", "text": "Shortlisted candidates undergo written analysis tests, group discussions and interviews assessing domain knowledge, rural insight and analytical ability." },
+      { "title": "Final offer & enrollment", "text": "Merit lists combine entrance scores, academic history, diversity points and interview performance for final seat allotment." }
+    ],
+    "documents": [
+      "Graduation marksheets (all semesters) and degree certificate",
+      "Entrance exam scorecard (CAT / CMAT / MAT / ICAR)",
+      "Class 10 and 10+2 marksheets and certificates",
+      "Work experience certificates (if applicable)",
+      "Category certificate (OBC-NCL / EWS / SC / ST / PwD) if claiming reservation",
+      "Government photo identity proof (Aadhaar / Passport)"
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "fees": {
+    "summary": "Tuition fees for MBA Agribusiness vary significantly by institution tier. State Agricultural Universities and central institutes offer affordable fees of ₹60,000 to ₹1,80,000 for the two-year programme. Premier specialised autonomous institutes (such as MANAGE, NIAM) typically charge ₹4,00,000 to ₹9,00,000, while top IIM programmes range from ₹15,00,000 to ₹25,00,000. Leading private universities usually charge between ₹3,00,000 and ₹7,50,000. Education loans with interest subvention are widely available from nationalised banks.",
+    "observed_examples": [
+      { "institution": "State Agricultural Universities (Tuition)", "amount_inr": 85000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Premier Autonomous Agri-Business Schools", "amount_inr": 375000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Accredited Private Universities", "amount_inr": 220000, "period": "Per academic year", "academic_year": "2024-25" }
+    ],
+    "verification": "Prospective applicants must verify the latest fee structure, hostel charges and refundable caution deposits in the official prospectus of the target institution."
+  },
+  "careers": {
+    "heading": "Corporate roles and career progression in agribusiness",
+    "intro": "Agribusiness management postgraduates are among the most sought-after specialists in corporate agriculture, consumer food companies, rural banking and consulting.",
+    "roles": [
+      { "title": "Product / Territory Manager (Seeds & Crop Protection)", "description": "Manage regional distributor networks, product launches, field trials and sales targets for leading multinational seed and agrochemical manufacturers." },
+      { "title": "Procurement & Sourcing Manager", "description": "Lead raw agricultural commodity procurement, vendor contracting and quality control for food processors, dairy cooperatives and retail chains." },
+      { "title": "Rural & Agricultural Banking Specialist Officer", "description": "Assess agricultural credit risk, structure warehouse receipt financing, priority sector lending and crop loan portfolios in commercial banks and NBFCs." },
+      { "title": "Commodity Trader & Risk Analyst", "description": "Monitor price fluctuations, execute hedging strategies on commodity exchanges, and manage physical storage and export-import operations." },
+      { "title": "Agri-Tech Business Development Manager", "description": "Scale farmer-onboarding, digital advisory platforms, farm-management SaaS and smart supply chain tools for high-growth agri-startups." }
+    ],
+    "sectors": [
+      "Multinational crop protection, seed and fertilizer enterprises",
+      "FMCG food processing, beverage and dairy corporations",
+      "Public and private commercial banks, NABARD, and microfinance institutions",
+      "Agricultural commodity trading, warehousing and logistics firms",
+      "Agri-tech startups, digital marketplace platforms and venture funds",
+      "Farmer Producer Organisations (FPO) apex federations and development consulting"
+    ],
+    "public_sector_routes": [
+      "NABARD (National Bank for Agriculture and Rural Development): Grade A Assistant Manager",
+      "IBPS Specialist Officer (SO - Agricultural Field Officer / Marketing Officer)",
+      "National Agricultural Cooperative Marketing Federation of India (NAFED): Assistant Manager",
+      "Food Corporation of India (FCI): Management Trainee (General / Depot / Movement)",
+      "Central Warehousing Corporation (CWC): Management Trainee"
+    ],
+    "higher_study": [
+      "Fellow Programme in Management (FPM) / Ph.D. in Agribusiness Management",
+      "Doctoral research in Agricultural Economics, Supply Chain or Rural Management",
+      "Global professional certifications in Supply Chain (CSCP) or Financial Risk (FRM)"
+    ]
+  },
+  "skills": [
+    "Financial analysis, budgeting and capital investment appraisal",
+    "Rural marketing, farmer behavior analysis and channel partner management",
+    "Agri-commodity price forecasting, hedging and derivatives trading",
+    "Food supply chain logistics, cold storage optimization and quality compliance",
+    "Business negotiation, enterprise sales and FPO engagement",
+    "Digital data analytics, CRM systems and ERP software usage"
+  ],
+  "faqs": [
+    {
+      "question": "Can non-agriculture graduates apply for MBA in Agribusiness?",
+      "answer": "Yes. While several institutions give preference or weightage to students with a four-year B.Sc. in Agriculture or allied sciences, major business schools (including MANAGE, NIAM, IIM Ahmedabad FABM, and various private universities) welcome graduates from engineering, commerce, economics and science streams who demonstrate an interest in agriculture and rural enterprise."
+    },
+    {
+      "question": "What is the key difference between a general MBA and an MBA in Agribusiness?",
+      "answer": "A general MBA covers cross-industry management broadly. An MBA in Agribusiness combines the same core management rigor (accounting, marketing, finance, HR) with deep contextual specialization in seasonal crop cycles, agricultural input distribution, commodity price volatility, rural consumer markets, food safety laws and farmer-producer dynamics."
+    },
+    {
+      "question": "What kind of placement packages do MBA Agribusiness graduates receive in India?",
+      "answer": "Placements vary by institution tier. Top institutes like IIM-A (FABM), IIM Lucknow (ABM), MANAGE, and NIAM report average domestic salary packages ranging between ₹12 LPA and ₹22 LPA. Established state agricultural universities and leading private universities typically see average placement packages between ₹5.5 LPA and ₹9.5 LPA, with top offers going higher."
+    },
+    {
+      "question": "Is an MBA in Agribusiness eligible for government and banking jobs?",
+      "answer": "Yes. Graduates are eligible for banking specialist officer posts (IBPS SO Marketing Officer/AFO with an agriculture degree base), NABARD Grade A/B officer cadres, FCI management trainee roles, and general civil service and PSU recruitment examinations."
+    }
+  ],
+  "seo": {
+    "title": "MBA Agribusiness Management: Syllabus, CAT/CMAT Entrance, Fees & Placements",
+    "description": "Complete guide to MBA in Agribusiness Management: eligibility criteria, curriculum, entrance tests (CAT, CMAT, ICAR), top colleges, fee structure and corporate job roles.",
+    "keywords": ["mba agribusiness", "agribusiness management", "manage hyderabad admission", "niam jaipur mba", "iim fabm", "mba agriculture placements", "agribusiness syllabus"]
+  },
+  "sources": [
+    { "id": "s1", "url": "https://www.manage.gov.in/", "title": "National Institute of Agricultural Extension Management (MANAGE) - PGDM (ABM) Regulations", "kind": "institution" },
+    { "id": "s2", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Agribusiness Management", "kind": "regulator" },
+    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+  ],
+  "editorial_status": "verified"
+}

@@ -1,0 +1,278 @@
+{
+  "slug": "bsc-agribusiness",
+  "name": "B.Sc. (Hons.) Agribusiness Management",
+  "short_name": "B.Sc. Agribusiness",
+  "level": "Undergraduate",
+  "discipline": "Agribusiness",
+  "duration": "4 years (8 semesters)",
+  "duration_note": "A specialised four-year professional degree integrating core agricultural sciences with modern business management, commodity trading, rural marketing, and a dedicated corporate in-plant industrial internship in the final year.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Sixth Deans Committee)",
+  "hero": {
+    "eyebrow": "Undergraduate agribusiness degree",
+    "summary": "A four-year degree combining agricultural science with business management, covering input marketing, commodity supply chains, farm finance, agricultural trade, food retail, and rural enterprise development."
+  },
+  "overview": {
+    "heading": "What the B.Sc. (Hons.) Agribusiness Management degree covers",
+    "paragraphs": [
+      "B.Sc. (Hons.) Agribusiness Management is an undergraduate degree formulated under ICAR Deans Committee guidelines to prepare professionals for the fast-evolving commercial agricultural and food business sectors. The programme bridges the gap between field agricultural science and modern corporate business operations.",
+      "The curriculum combines technical agriculture—crop production, crop protection, soil management, and seed technology—with core management principles including agricultural marketing, financial management, supply chain logistics, commodity derivatives, food quality standards, and rural consumer behavior.",
+      "Students gain hands-on commercial experience through case studies, market surveys, agribusiness incubator visits, and field attachments. During the final year under the Student READY framework, students complete a semester of corporate in-plant internship with seed companies, fertiliser firms, food processing enterprises, or agricultural commodity exchanges."
+    ],
+    "highlights": [
+      { "label": "Duration", "value": "4 years / 8 semesters" },
+      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee" },
+      { "label": "Industry exposure", "value": "Corporate in-plant internship & market survey modules" },
+      { "label": "Key focus", "value": "Supply chain, agri-input marketing, commodity trading, finance" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Class 12 science or agriculture students with a strong interest in commerce, marketing, finance, and corporate management within food and farm sectors",
+    "Students aiming to work with multinational seed, crop protection, farm machinery, and food retail corporations",
+    "Those interested in commodity trading, warehouse management, export-import operations, and agricultural supply chain logistics",
+    "Aspiring agri-entrepreneurs wanting to establish farmer producer companies (FPOs), farm-to-fork startups, or agri-logistics ventures"
+  ],
+  "curriculum": {
+    "heading": "How the four years are organised",
+    "intro": "The programme integrates agricultural technical subjects during the initial semesters, progressing into business administration, marketing, finance, and supply chain management in later semesters.",
+    "structure": [
+      {
+        "stage": "Years 1-2: Agricultural Sciences & Business Foundations",
+        "focus": "Foundations of agronomy, horticulture, soil science, principles of microeconomics, business accounting, and business communication.",
+        "courses": [
+          "Fundamentals of agronomic crop production",
+          "Fundamentals of horticultural science",
+          "Microeconomic theory and agricultural economics",
+          "Financial accounting and business mathematics",
+          "Principles of management and organisational behaviour",
+          "Agri-input technology (seeds, fertilisers, agrochemicals)",
+          "Business communication and digital office tools",
+          "Rural sociology and community development"
+        ]
+      },
+      {
+        "stage": "Years 2-3: Core Agribusiness Management & Marketing",
+        "focus": "Marketing of inputs and produce, supply chain management, agro-processing, farm business finance, and legal frameworks.",
+        "courses": [
+          "Agricultural input marketing (seeds, chemicals, fertilisers)",
+          "Agricultural marketing, trade, and price analysis",
+          "Supply chain management and logistics in food systems",
+          "Agri-finance, banking, and microfinance operations",
+          "Commodity trading, warehousing, and risk management",
+          "Food retail management and e-commerce in agriculture",
+          "Production and operations management in agro-industries",
+          "Agribusiness laws, business ethics, and IPR"
+        ]
+      },
+      {
+        "stage": "Year 4: Corporate In-Plant Internship & Projects",
+        "focus": "Corporate placement, market survey research, enterprise development, and business plan capstone.",
+        "courses": [
+          "Corporate in-plant internship with agribusiness enterprises",
+          "Field market research and consumer survey project",
+          "Farmer Producer Organisation (FPO) management attachment",
+          "Comprehensive business plan development and presentation"
+        ]
+      }
+    ],
+    "specialisations": [
+      "Agri-Input Marketing & Brand Management",
+      "Food Supply Chain & Cold Chain Logistics",
+      "Commodity Trading & Warehouse Management",
+      "Rural Banking & Agricultural Microfinance"
+    ],
+    "practical_learning": [
+      {
+        "name": "Corporate In-Plant Attachment",
+        "description": "Semester-long industrial placement with agrochemical, seed, fertiliser, food processing, or retail corporations to understand field marketing, procurement, and commercial distribution."
+      },
+      {
+        "name": "Market Intelligence & Field Surveys",
+        "description": "Direct student surveys in wholesale APMC mandis, retail supermarkets, and rural input dealer networks to analyse pricing, margins, and consumer preferences."
+      },
+      {
+        "name": "FPO / Cooperative Attachment",
+        "description": "Working with farmer producer companies and primary agricultural credit societies to study collective procurement, aggregation, and direct market linkages."
+      }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "Pass in 10+2 examination or equivalent from a recognised board with Physics, Chemistry, and Biology/Mathematics/Agriculture.",
+      "Minimum 50% aggregate marks in 10+2 (40% for SC, ST, PwBD, and reserved category candidates for ICAR quota admissions).",
+      "Age of candidate must be at least 16 years as of 31 August of the admission year for ICAR quota seats.",
+      "Select state agricultural universities and private institutions also permit Class 12 commerce students with mathematics to apply for specific agribusiness streams."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      {
+        "name": "CUET-UG (ICAR Quota)",
+        "description": "Conducted by NTA for admission to participating agricultural universities under ICAR quota counselling.",
+        "source_ids": ["s2"]
+      },
+      {
+        "name": "State Agricultural University Entrance / Counselling",
+        "description": "State-level counselling conducted by state agricultural universities or state CET authorities (e.g. TNAU, PAU, ANGRAU, SKRAU).",
+        "source_ids": ["s3"]
+      },
+      {
+        "name": "University-Specific Merit / Test",
+        "description": "Private and deemed universities admit students through institutional entrance exams or qualifying Class 12 merit.",
+        "source_ids": []
+      }
+    ],
+    "exams": [
+      {
+        "name": "CUET-UG",
+        "conducting_body": "NTA",
+        "url": "https://cuet.nta.nic.in/",
+        "note": "Required for ICAR quota admissions to participating agricultural universities."
+      },
+      {
+        "name": "State Agricultural University Common Tests",
+        "conducting_body": "State Authorities / SAUs",
+        "url": null,
+        "note": "State-specific admissions for agribusiness undergraduate seats."
+      }
+    ],
+    "steps": [
+      { "title": "Check University Prospectus", "text": "Confirm whether the university offers B.Sc. Agribusiness Management and check its entrance exam criteria." },
+      { "title": "Appear for Entrance", "text": "Take CUET-UG or the state agricultural university entrance test." },
+      { "title": "Register for Counselling", "text": "Submit application and choice preferences during university or state counselling." },
+      { "title": "Verification & Fee Payment", "text": "Complete certificate verification and pay initial semester fees to confirm the seat." }
+    ],
+    "documents": [
+      "Class 10 and 12 marksheets and certificates",
+      "Entrance exam scorecard and admit card",
+      "Category certificate (if claiming reservation)",
+      "Domicile certificate (for state quota seats)",
+      "Transfer and migration certificates"
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "fees": {
+    "summary": "State agricultural university tuition fees range from ₹25,000 to ₹60,000 per year for subsidised seats. In private and deemed universities, tuition fees range from ₹80,000 to ₹2,20,000 per year. Hostel, mess, and travel during field attachments are payable extra.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Career pathways and corporate placements",
+    "intro": "The modernisation of agricultural supply chains, expansion of organized food retail, growth of FPOs, and booming AgriTech investments have created robust career pathways for graduates with dual expertise in agriculture and business.",
+    "roles": [
+      { "title": "Agri-Input Sales & Marketing Executive", "description": "Manages territory sales, dealer networks, and product demonstration campaigns for seed, fertiliser, and pesticide firms." },
+      { "title": "Commodity Procurement Officer", "description": "Handles field sourcing, quality assessment, and procurement of grains, oilseeds, and pulses for agro-processing corporations." },
+      { "title": "Agricultural Supply Chain & Logistics Analyst", "description": "Manages warehousing, cold chain movements, inventory optimization, and distribution routes." },
+      { "title": "Rural Credit / Banking Officer", "description": "Evaluates agricultural loan applications, crop credit limits, and farm infrastructure financing for commercial and rural banks." },
+      { "title": "FPO Chief Executive Officer (CEO)", "description": "Manages business operations, collective purchasing, and forward market linkages for Farmer Producer Companies." },
+      { "title": "AgriTech Business Development Executive", "description": "Drives client onboarding, farmer adoption, and digital marketplace operations for AgriTech startups." }
+    ],
+    "sectors": [
+      "Agrochemical & Crop Protection Multinationals (Bayer, Syngenta, UPL)",
+      "Commercial Seed Corporations (Corteva, Advanta, Mahyco)",
+      "Food Processing & Commodity Trading (ITC, Cargill, Olam, Adani)",
+      "Organised Food Retail & Quick Commerce",
+      "Public & Private Commercial Banks (SBI, HDFC, ICICI, Axis)",
+      "AgriTech & Farm Fintech Startups"
+    ],
+    "public_sector_routes": [
+      "IBPS Specialist Officer (Agricultural Field Officer - AFO)",
+      "NABARD Assistant Manager (Grade A - RDBS)",
+      "Food Corporation of India (FCI) Management Trainee / Category II",
+      "Central Warehousing Corporation (CWC) Storage & Marketing Executives"
+    ],
+    "higher_study": [
+      "MBA Agribusiness Management (IIM Ahmedabad, IIM Lucknow, MANAGE, NIAM, IRMA)",
+      "M.Sc. Agricultural Economics",
+      "Postgraduate Diploma in Rural Management (PGDRM)",
+      "M.Sc. Supply Chain & Logistics Management"
+    ],
+    "source_ids": ["s1", "s4"]
+  },
+  "skills": [
+    "Market survey design and consumer behavior analysis",
+    "Agri-input distributor channel management and field promotions",
+    "Financial statement analysis and working capital budgeting",
+    "Commodity mandi pricing mechanisms and futures contract basics",
+    "Cold chain inventory control and warehouse receipt systems",
+    "Business plan modeling and pitch presentation"
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between B.Sc. Agriculture and B.Sc. Agribusiness?",
+      "answer": "B.Sc. Agriculture focuses heavily on biological and agronomic science: plant pathology, genetics, soil chemistry, and farming techniques. B.Sc. Agribusiness incorporates foundational agriculture but focuses primarily on business administration, input marketing, finance, retail supply chains, and management."
+    },
+    {
+      "question": "Can I pursue an MBA after B.Sc. Agribusiness Management?",
+      "answer": "Yes. B.Sc. Agribusiness graduates are prime candidates for prestigious MBA Agribusiness programmes at IIM Ahmedabad (FABM), IIM Lucknow, MANAGE Hyderabad, NIAM Jaipur, and IRMA Anand, as well as general MBA programmes."
+    },
+    {
+      "question": "Are B.Sc. Agribusiness graduates eligible for IBPS AFO banking jobs?",
+      "answer": "Under current IBPS SO recruitment guidelines, a 4-year degree in Agriculture or allied subjects including Agribusiness Management is generally accepted for the Agricultural Field Officer (Scale-I) post."
+    },
+    {
+      "question": "Do private companies recruit directly from campuses for agribusiness graduates?",
+      "answer": "Yes. Leading input multinationals (seed, pesticide, fertiliser), commodity trading houses, food processors, and AgriTech startups regularly hire agribusiness graduates for territory sales, supply chain, and procurement roles."
+    }
+  ],
+  "seo": {
+    "title": "B.Sc. Agribusiness Management — Syllabus, Eligibility, Careers & Colleges",
+    "description": "Complete guide to B.Sc. (Hons.) Agribusiness Management: ICAR curriculum, 4-year subjects, eligibility, admission routes, careers, and top colleges in India.",
+    "keywords": [
+      "BSc Agribusiness Management",
+      "B.Sc. Hons Agribusiness",
+      "Agribusiness degree India",
+      "Agribusiness syllabus ICAR",
+      "Agribusiness management careers",
+      "Agri marketing jobs India"
+    ]
+  },
+  "related": [
+    "bsc-agriculture",
+    "mba-agribusiness",
+    "msc-agricultural-economics"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR Sixth Deans Committee Report - B.Sc. (Hons.) Agribusiness Management Course Structure",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "overview", "who_should_apply"]
+    },
+    {
+      "id": "s2",
+      "url": "https://cuet.nta.nic.in/",
+      "title": "NTA CUET-UG Examination Bulletin - Subject Criteria",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["eligibility", "admission"]
+    },
+    {
+      "id": "s3",
+      "url": "https://tnau.ac.in/academic-ug-programmes/",
+      "title": "Tamil Nadu Agricultural University - Centre for Agricultural and Rural Development Studies (CARDS) Syllabus",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "practical_learning", "overview"]
+    },
+    {
+      "id": "s4",
+      "url": "https://www.manage.gov.in/",
+      "title": "National Institute of Agricultural Extension Management (MANAGE) - Agribusiness Industry Insights",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["careers"]
+    }
+  ],
+  "verification_gaps": [],
+  "editorial_status": "research_draft"
+}

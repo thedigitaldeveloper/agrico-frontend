@@ -339,7 +339,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     const cmsPosts = [...(data?.news ?? []), ...(data?.articles ?? []), ...(data?.blogs ?? [])];
     if (cmsPosts.length > 0) {
       const fallbackImages = ['/images/agrico/nursery-learning.png', '/images/agrico/agritech-workshop.png', '/images/agrico/hero-campus.png'];
-      return cmsPosts.slice(0, 3).map((item, index) => ({
+      return cmsPosts.slice(0, 9).map((item, index) => ({
         title: item.title,
         category: item.category || 'Education update',
         text: item.summary || 'Read the full guide on admissions, practical learning and curriculum insights.',
@@ -353,6 +353,34 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       { category: 'Campus insight', title: 'Exploring agricultural engineering', text: 'A closer look at how university labs and field projects help students understand real-world agricultural challenges.', image: '/images/agrico/agritech-workshop.png', alt: 'Engineering students learning with a teaching drone in a laboratory', href: '/articles' },
     ];
   }, [data?.news, data?.articles, data?.blogs]);
+
+  // News & updates slider: native scroll-snap (swipe/trackpad) plus arrow and dot controls.
+  const updatesRef = useRef<HTMLDivElement>(null);
+  const [updatesPage, setUpdatesPage] = useState(0);
+  const [updatesPageCount, setUpdatesPageCount] = useState(1);
+  const measureUpdates = useCallback(() => {
+    const track = updatesRef.current;
+    if (!track) return;
+    const pages = Math.max(1, Math.ceil((track.scrollWidth - 4) / track.clientWidth));
+    setUpdatesPageCount(pages);
+    setUpdatesPage(Math.min(pages - 1, Math.round(track.scrollLeft / track.clientWidth)));
+  }, []);
+  useEffect(() => {
+    measureUpdates();
+    window.addEventListener('resize', measureUpdates);
+    return () => window.removeEventListener('resize', measureUpdates);
+  }, [measureUpdates, displayUpdates.length]);
+  const syncUpdatesPage = () => {
+    const track = updatesRef.current;
+    if (!track) return;
+    const atEnd = track.scrollLeft + track.clientWidth >= track.scrollWidth - 4;
+    setUpdatesPage(atEnd ? updatesPageCount - 1 : Math.round(track.scrollLeft / track.clientWidth));
+  };
+  const goToUpdatesPage = (page: number) => {
+    const track = updatesRef.current;
+    if (track) track.scrollTo({ left: page * track.clientWidth, behavior: 'smooth' });
+  };
+  const scrollUpdates = (direction: 1 | -1) => goToUpdatesPage(Math.max(0, Math.min(updatesPageCount - 1, updatesPage + direction)));
 
   const serviceItems = useMemo(() => {
     if (data?.home?.serviceLinks && data.home.serviceLinks.length > 0) {
@@ -734,7 +762,27 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
 
     <section id="guides" className="ag-section ag-guides" aria-labelledby="ag-guides-title"><div className="ag-container"><Eyebrow>Student guides</Eyebrow><h2 id="ag-guides-title">Build a clearer shortlist.</h2><div className="ag-guide-grid">{GUIDES.map(guide => <article className="ag-guide-card" key={guide.id}><span className="ag-guide-number">{guide.number}</span><h3>{guide.title}</h3><p>{guide.description}</p><GuideArt variant={guide.id} /><TextButton onClick={() => setDialog({ type: 'guide', id: guide.id })}>Read guide</TextButton></article>)}</div></div></section>
 
-    <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container"><div className="ag-section-heading"><div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div><Link href="/articles" className="ag-text-link">View more updates <ArrowRight size={16} /></Link></div><div className="ag-updates-grid">{displayUpdates.map(post => <article className="ag-update-card" key={post.title}><div className="ag-update-image"><Image src={post.image} alt={post.alt} fill sizes="(max-width: 600px) 35vw, 220px" /></div><div className="ag-update-copy"><span className="ag-tag">{post.category}</span><h3>{post.title}</h3><p>{post.text}</p><Link className="ag-text-link" href={post.href}>Read update <ArrowRight size={15} /></Link></div></article>)}</div></div></section>
+    <section id="updates" className="ag-section ag-updates" aria-labelledby="ag-updates-title"><div className="ag-container">
+      <div className="ag-section-heading">
+        <div><Eyebrow>News &amp; updates</Eyebrow><h2 id="ag-updates-title">Agriculture education updates.</h2></div>
+        <div className="ag-updates-controls">
+          <Link href="/articles" className="ag-text-link">View all <ArrowRight size={16} /></Link>
+          {displayUpdates.length > 1 && <>
+            <button type="button" className="ag-updates-nav" aria-label="Previous updates" disabled={updatesPage === 0} onClick={() => scrollUpdates(-1)}><ChevronLeft size={18} /></button>
+            <button type="button" className="ag-updates-nav" aria-label="Next updates" disabled={updatesPage >= updatesPageCount - 1} onClick={() => scrollUpdates(1)}><ChevronRight size={18} /></button>
+          </>}
+        </div>
+      </div>
+      <div className="ag-updates-track" ref={updatesRef} onScroll={syncUpdatesPage} role="region" aria-roledescription="carousel" aria-label="News and updates" tabIndex={0}>
+        {displayUpdates.map((post, index) => <article className="ag-update-card" key={post.href + post.title} aria-roledescription="slide" aria-label={`${index + 1} of ${displayUpdates.length}`}>
+          <div className="ag-update-image"><Image src={post.image} alt={post.alt} fill sizes="(max-width: 600px) 85vw, (max-width: 1000px) 45vw, 380px" /></div>
+          <div className="ag-update-copy"><span className="ag-tag">{post.category}</span><h3>{post.title}</h3><p>{post.text}</p><Link className="ag-text-link" href={post.href}>Read update <ArrowRight size={15} /></Link></div>
+        </article>)}
+      </div>
+      {updatesPageCount > 1 && <div className="ag-updates-dots" role="tablist" aria-label="Choose updates page">
+        {Array.from({ length: updatesPageCount }, (_, i) => <button key={i} type="button" role="tab" aria-selected={i === updatesPage} aria-label={`Updates page ${i + 1}`} className={i === updatesPage ? 'is-active' : ''} onClick={() => goToUpdatesPage(i)} />)}
+      </div>}
+    </div></section>
 
     <section id="faqs" className="ag-section ag-faqs" aria-labelledby="ag-faqs-title"><div className="ag-container"><Eyebrow>Common questions</Eyebrow><h2 id="ag-faqs-title">Find quick answers.</h2><div className="ag-faq-list">{faqList.map((faq, index) => <details key={faq.question} open={index === 0}><summary><span className="ag-faq-symbol"><Plus className="ag-faq-plus" size={15} /><Minus className="ag-faq-minus" size={15} /></span>{faq.question}<ChevronDown size={17} className="ag-faq-chevron" /></summary><p>{faq.answer}</p></details>)}</div>
       <div className="ag-faq-cta">
@@ -813,18 +861,22 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
             </dl>
             <h3>What to check before applying</h3>
             <p>
-              Review the current curriculum, practical facilities, eligibility, fees and admission process with your chosen university. Requirements and study opportunities vary between institutions.
+              Review the detailed ICAR curriculum, practical facilities (RAWE/ELP), eligibility requirements, fees and participating universities on our dedicated programme guide.
             </p>
-            <a className="ag-text-link" href={dialogCourse.source} target="_blank" rel="noopener noreferrer">
-              Official programme information <ArrowRight size={16} />
-            </a>
-            <div className="ag-dialog-actions">
+            <div className="ag-dialog-actions ag-dialog-actions--programme">
+              <Link
+                href={programmeGuidePath(dialogCourse.id)}
+                className="ag-button ag-button--primary"
+                onClick={() => setDialog(null)}
+              >
+                View full programme guide &amp; syllabus <ArrowRight size={16} />
+              </Link>
               <button
                 type="button"
-                className="ag-button ag-button--primary"
+                className="ag-button ag-button--lime"
                 onClick={() => requestGuidance(dialogCourse.id, dialogCourse.name)}
               >
-                Get programme guidance <ArrowRight size={16} />
+                <Sprout size={15} /> Get admission guidance
               </button>
               <button
                 type="button"
@@ -837,6 +889,9 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
                 Add to comparison <Plus size={16} />
               </button>
             </div>
+            <a className="ag-text-link ag-dialog-source-link" href={dialogCourse.source} target="_blank" rel="noopener noreferrer">
+              Official university / regulatory portal <ArrowRight size={14} />
+            </a>
           </>
         )}
         {dialogGuide && (

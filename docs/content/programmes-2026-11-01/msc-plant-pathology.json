@@ -1,0 +1,179 @@
+{
+  "slug": "msc-plant-pathology",
+  "name": "M.Sc. (Agriculture) Plant Pathology",
+  "short_name": "M.Sc. Plant Pathology",
+  "level": "Postgraduate",
+  "discipline": "Plant Protection / Plant Pathology",
+  "duration": "2 years (4 semesters)",
+  "duration_note": "A two-year full-time postgraduate degree (4 semesters) combining laboratory and field coursework with a supervised master's research thesis.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (restructured PG curricula, BSMA 2021)",
+  "hero": {
+    "eyebrow": "Postgraduate plant disease science & diagnostics degree",
+    "summary": "A two-year master's programme investigating the causes, mechanisms and management of plant diseases caused by fungi, bacteria, viruses and abiotic stresses. Students master classical and molecular diagnostics, epidemiology, fungicide chemistry, biocontrol and resistance breeding to safeguard crop harvests."
+  },
+  "overview": {
+    "heading": "What an M.Sc. in Plant Pathology covers",
+    "paragraphs": [
+      "Plant Pathology is the branch of agricultural science dedicated to understanding plant health, the etiology and biology of plant diseases, and the methods used to protect crops against devastating pathogens. From historic famines to modern rust and blast outbreaks, plant diseases present constant threats to global food systems and agricultural trade.",
+      "Conforming to ICAR's Broad Subject Matter Area (BSMA) restructured curriculum, the M.Sc. Plant Pathology degree encompasses 70 credits: 20 major credits, 8 minor credits (often chosen from Entomology, Genetics & Plant Breeding, or Microbiology), 6 supporting credits including advanced experimental statistics, 5 common research credits, 1 master's seminar credit and 30 credits dedicated to thesis research.",
+      "The curriculum provides extensive laboratory and field training across mycology (fungal taxonomy and biology), plant virology, plant bacteriology, disease physiology, molecular diagnostics (PCR, RT-PCR, ELISA), disease forecasting, chemical fungicides, and biological control agents like Trichoderma and Pseudomonas."
+    ],
+    "highlights": [
+      { "label": "Normal duration", "value": "2 academic years (4 semesters)" },
+      { "label": "Total credits (ICAR BSMA)", "value": "70 credits (with 30 thesis research credits)" },
+      { "label": "Typical entry qualification", "value": "4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture" },
+      { "label": "National entrance examination", "value": "ICAR AIEEA (PG) in the Plant Science / Plant Pathology group" },
+      { "label": "Core laboratory areas", "value": "Pathogen isolation, molecular detection (PCR/ELISA), fungicide bioassays and culture collections" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Agriculture and horticulture graduates fascinated by plant disease symptoms, microscopic examination and microbiological lab techniques",
+    "Students eager to work in seed health testing, plant quarantine inspection and molecular disease diagnostics",
+    "Aspirants targeting scientific research careers through ICAR Agricultural Research Service (ARS) or university teaching via ASRB NET",
+    "Candidates interested in product development, clinical bio-efficacy trials and technical advisory in the crop protection industry"
+  ],
+  "curriculum": {
+    "heading": "Course structure under ICAR BSMA 2021 guidelines",
+    "intro": "The master's syllabus integrates foundational pathogen biology with advanced disease management and independent thesis research. Course codes and electives follow the BSMA curriculum guidelines adopted by agricultural universities.",
+    "structure": [
+      {
+        "stage": "Major core courses (Compulsory Plant Pathology)",
+        "focus": "Core organism groups, principles of pathogenesis and disease management.",
+        "courses": ["Mycology & Fungal Plant Pathogens", "Plant Bacteriology", "Plant Virology", "Principles of Plant Pathology", "Detection & Diagnosis of Plant Pathogens"]
+      },
+      {
+        "stage": "Major elective courses (Specialised Pathology)",
+        "focus": "Crop-specific diseases, epidemiology, fungicides and biocontrol agents.",
+        "courses": ["Diseases of Field & Medicinal Crops", "Diseases of Fruits, Vegetables & Ornamentals", "Epidemiology & Forecasting of Plant Diseases", "Chemicals & Bioagents in Plant Disease Management", "Post-Harvest Diseases of Agricultural Commodities", "Ecology of Soil-Borne Plant Pathogens", "Mushroom Production Technology", "Seed Health Testing & Certification"]
+      },
+      {
+        "stage": "Minor and supporting courses",
+        "focus": "Microbiology, plant breeding, biotechnology and statistics.",
+        "courses": ["Agricultural Microbiology", "Breeding for Disease Resistance", "Statistical Methods for Applied Sciences", "Experimental Designs & Bio-statistical Packages"]
+      },
+      {
+        "stage": "Common courses, seminar & master's thesis",
+        "focus": "Research tools, scientific communication, ethics, seminar presentation and 30-credit dissertation.",
+        "courses": ["Library & Information Services", "Technical Writing & Scientific Communication", "Intellectual Property & Bioethics in Agriculture", "Master's Seminar (1 credit)", "Master's Research / Thesis (30 credits)"]
+      }
+    ],
+    "specialisations": [],
+    "practical_learning": [
+      { "name": "Pure culture isolation & pathogen identification", "description": "Isolating fungal and bacterial pathogens from infected leaf, stem and root tissues, culturing on synthetic media, and microscopic classification." },
+      { "name": "Molecular & serological diagnostics", "description": "Conducting DNA extraction, polymerase chain reaction (PCR) amplification, gel electrophoresis and ELISA assays for viral and bacterial identification." },
+      { "name": "Fungicide bioassays & poison food technique", "description": "Evaluating the efficacy of systemic and contact fungicides against fungal mycelial growth using the poisoned food technique to determine EC50 values." },
+      { "name": "Controlled pot & field disease screening", "description": "Artificial inoculation of pathogen inoculum to evaluate crop germplasm for resistance against rusts, wilts, smuts and blights." }
+    ],
+    "source_ids": ["s1", "s2"]
+  },
+  "eligibility": {
+    "points": [
+      "Successful completion of a 4-year B.Sc. (Hons.) Agriculture or B.Sc. (Hons.) Horticulture from an ICAR-accredited or recognized agricultural institution.",
+      "Minimum required grade point average: 6.0 out of 10.0 OGPA (or 60% aggregate) for General, OBC, and EWS candidates; 5.0 out of 10.0 OGPA (or 50% aggregate) for SC, ST, and PwD candidates.",
+      "Final semester students awaiting results may apply provisionally, provided proof of completion is submitted at the time of final admission counselling."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      { "name": "ICAR AIEEA (PG)", "description": "All-India competitive entrance exam conducted by NTA for admission to master's seats in central agricultural universities, ICAR deemed institutes, and state agricultural university quotas.", "source_ids": ["s3"] },
+      { "name": "State Agricultural University PG Entrances", "description": "State exams such as UPCATET (UP), MCAER (Maharashtra), Rajasthan Pre-PG, and state university entrance portals for state domicile seats.", "source_ids": ["s1"] },
+      { "name": "Private Agricultural Universities", "description": "Institutions offering ICAR-aligned curricula admit through university-level tests or merit-based screening.", "source_ids": ["s1"] }
+    ],
+    "exams": [
+      { "name": "ICAR AIEEA (PG - Plant Science)", "conducting_body": "National Testing Agency (NTA)", "url": "https://exams.nta.ac.in/ICAR/", "note": "2-hour computer-based exam covering plant pathology, microbiology, genetics, and agricultural botany." }
+    ],
+    "steps": [
+      { "title": "Check eligibility criteria", "text": "Review the current ICAR AIEEA (PG) Information Bulletin for qualification requirements in the Plant Science group." },
+      { "title": "Register online", "text": "Submit the online application on the NTA ICAR portal and pay the examination fee before the deadline." },
+      { "title": "Appear for AIEEA (PG)", "text": "Take the nationwide CBT testing your grasp of plant pathology, general agriculture and allied biological sciences." },
+      { "title": "Counselling & choice locking", "text": "Participate in online counselling to select your preferred university and Department of Plant Pathology based on your all-India rank." }
+    ],
+    "documents": [
+      "B.Sc. Agriculture / Horticulture degree certificate and transcript",
+      "ICAR AIEEA (PG) scorecard and rank card",
+      "Class 10 and 12 certificates (date of birth and qualification verification)",
+      "Category / Caste certificate (SC, ST, OBC-NCL, EWS, PwD)",
+      "Domicile certificate as required by state institutions",
+      "Character certificate and college leaving / migration certificate"
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "fees": {
+    "summary": "State Agricultural Universities and ICAR institutes provide subsidized higher education with annual tuition fees typically between ₹15,000 and ₹35,000 for government quota seats. Students securing high ranks through ICAR AIEEA (PG) receive the ICAR PG Scholarship / National Talent Scholarship with monthly financial support. Private universities charge annual tuition between ₹60,000 and ₹1,40,000. Laboratory consumables and accommodation charges vary by campus.",
+    "observed_examples": [
+      { "institution": "State Agricultural Universities (e.g. GBPUAT, TNAU, PAU)", "amount_inr": 26000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "ICAR Deemed Universities (IARI New Delhi)", "amount_inr": 16000, "period": "Per academic year", "academic_year": "2024-25" },
+      { "institution": "Accredited Private Universities", "amount_inr": 85000, "period": "Per academic year", "academic_year": "2024-25" }
+    ],
+    "verification": "Refer to the specific fee structure published in the admitting university's postgraduate admission bulletin."
+  },
+  "careers": {
+    "heading": "Career pathways in research, diagnostics, regulatory and agro-industry",
+    "intro": "Postgraduates in Plant Pathology possess specialized skills essential for crop loss mitigation, seed health compliance, mushroom production, and pesticide development.",
+    "roles": [
+      { "title": "Scientist (Plant Pathology) via ARS", "description": "Lead research projects on crop disease resistance, pathogen genomics, epidemiology and climate-resilient management at ICAR research centres." },
+      { "title": "Assistant Professor / KVK Subject Matter Specialist", "description": "Educate undergraduate agricultural students and provide diagnostic field advisories to farmers facing disease outbreaks." },
+      { "title": "Plant Quarantine & Inspection Officer", "description": "Ensure consignments of imported seeds, plants and agricultural produce are free from foreign pathogens under the Plant Quarantine (Regulation of Import into India) Order." },
+      { "title": "Seed Health Analyst & Certification Officer", "description": "Conduct seed testing for seed-borne fungal, bacterial and viral pathogens in state seed certification labs and multinational seed corporations." },
+      { "title": "Fungicide Product Development Specialist", "description": "Direct bio-efficacy trials, resistance monitoring studies and registration dossiers for novel fungicidal molecules and biologicals." },
+      { "title": "Commercial Mushroom Cultivation Consultant", "description": "Design commercial spawn production facilities, compost formulations and environmental control systems for button, oyster and medicinal mushrooms." }
+    ],
+    "sectors": [
+      "ICAR institutes, State Agricultural Universities and CSIR laboratories",
+      "Seed health and seed multiplication companies",
+      "Crop protection chemical and biopesticide manufacturers",
+      "Directorate of Plant Protection, Quarantine & Storage (DPPQS)",
+      "Commercial mushroom spawn and cultivation enterprises"
+    ],
+    "public_sector_routes": [
+      "ASRB: Agricultural Research Service (ARS Scientist) & National Eligibility Test (NET)",
+      "State Public Service Commissions (PSC): Assistant Director of Agriculture (Plant Protection), Agricultural Officer",
+      "Ministry of Agriculture & Farmers Welfare: Technical Officer (DPPQS)",
+      "National Seeds Corporation (NSC): Assistant Manager (Quality Control / Seed Health)"
+    ],
+    "higher_study": [
+      "Ph.D. in Plant Pathology (via ICAR AICE-JRF/SRF or university entrance)",
+      "Doctoral and postdoctoral fellowships in molecular plant-microbe interactions and fungal genomics abroad"
+    ]
+  },
+  "skills": [
+    "Microscopic identification and taxonomic classification of fungi and bacteria",
+    "Molecular plant pathology techniques including PCR, DNA barcoding and ELISA",
+    "Fungicide bioassays, mode of action analysis and resistance screening",
+    "Field disease scoring and epidemiological survey methodologies",
+    "Seed pathology health testing according to ISTA regulations",
+    "Mushroom spawn production and substrate pasteurization protocols"
+  ],
+  "faqs": [
+    {
+      "question": "What is the scope of M.Sc. Plant Pathology compared to M.Sc. Agronomy?",
+      "answer": "While Agronomy focuses on overall field crop production, soil management and cultural practices, Plant Pathology is a specialized branch of plant protection dedicated to disease diagnostics, microbiological analysis, fungicide development and plant quarantine compliance."
+    },
+    {
+      "question": "Which government exams can I take after M.Sc. Plant Pathology?",
+      "answer": "Graduates can appear for ASRB ARS Scientist and NET exams, State PSC exams for Agricultural Officer and Assistant Director (Plant Protection), SSC examinations for Plant Quarantine Inspector (DPPQS), and National Seeds Corporation (NSC) Quality Control officers."
+    },
+    {
+      "question": "Can I work in seed companies after doing M.Sc. in Plant Pathology?",
+      "answer": "Yes. Seed corporations recruit plant pathologists extensively for seed health testing, seed treatment formulation, screening breeding germplasm for disease resistance, and ensuring domestic and export quarantine compliance."
+    },
+    {
+      "question": "Is laboratory work mandatory during M.Sc. Plant Pathology?",
+      "answer": "Yes. Plant Pathology involves significant laboratory work, including pathogen isolation, pure culture maintenance, staining, microscopy, molecular testing (PCR) and fungicide bioassays alongside field experimental plots."
+    }
+  ],
+  "seo": {
+    "title": "M.Sc. Agriculture Plant Pathology: Syllabus, ICAR PG Exam, Fees & Careers",
+    "description": "Complete guide to M.Sc. Plant Pathology in India: ICAR BSMA syllabus, eligibility, AIEEA-PG entrance, research thesis, career scope and ASRB NET path.",
+    "keywords": ["msc plant pathology", "msc agriculture plant pathology", "icar aieea pg plant science", "plant pathology syllabus", "asrb net plant pathology", "plant quarantine jobs"]
+  },
+  "sources": [
+    { "id": "s1", "url": "https://icar.gov.in/", "title": "ICAR BSMA - Restructured Post-Graduate Curricula for Plant Protection (Plant Pathology)", "kind": "regulator" },
+    { "id": "s2", "url": "https://tnau.ac.in/masters/", "title": "Tamil Nadu Agricultural University - Department of Plant Pathology PG Programme", "kind": "university_portal" },
+    { "id": "s3", "url": "https://exams.nta.ac.in/ICAR/", "title": "National Testing Agency - ICAR AIEEA (PG) Information Bulletin", "kind": "exam_portal" }
+  ],
+  "editorial_status": "verified"
+}

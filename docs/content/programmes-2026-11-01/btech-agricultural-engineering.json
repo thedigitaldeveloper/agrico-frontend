@@ -1,0 +1,294 @@
+{
+  "slug": "btech-agricultural-engineering",
+  "name": "B.Tech. Agricultural Engineering",
+  "short_name": "B.Tech. Agri Engineering",
+  "level": "Undergraduate",
+  "discipline": "Agricultural Engineering",
+  "duration": "4 years (8 semesters)",
+  "duration_note": "A full four-year professional engineering degree including workshop training, CAD design, farm machinery field operation, hydrological modeling, and in-plant industrial training under ICAR's Student READY component in the final year.",
+  "mode": "Full-time, campus-based",
+  "regulator": "ICAR (Sixth Deans Committee) / AICTE",
+  "hero": {
+    "eyebrow": "Undergraduate engineering degree",
+    "summary": "A four-year engineering programme applying mechanical, civil, electrical, and data engineering principles to farm mechanisation, micro-irrigation, post-harvest processing, renewable energy, and precision agriculture technologies like drones and IoT."
+  },
+  "overview": {
+    "heading": "What the B.Tech. Agricultural Engineering degree covers",
+    "paragraphs": [
+      "B.Tech. Agricultural Engineering is an interdisciplinary engineering discipline that addresses the technological modernization of agriculture and food production. Developed under the guidelines of ICAR and AICTE, the programme applies classical engineering disciplines—mechanical design, thermodynamics, fluid mechanics, and structural analysis—to agricultural production and value chains.",
+      "The curriculum spans four core pillars: Farm Machinery and Power Engineering (tractors, automated implements, robotic harvesting, agricultural drones), Soil and Water Conservation Engineering (watershed management, micro-irrigation, GIS, hydrological modeling), Agricultural Processing and Food Engineering (grain drying, cold chain storage, dairy processing, milling), and Renewable Energy Sources (biomass energy, solar pumping, bio-fuels).",
+      "During the four years, students acquire rigorous technical competencies in CAD design, workshop manufacturing, hydraulic circuits, digital sensor integration, and land surveying. In the final year, students complete a semester of in-plant industrial internship with farm machinery, irrigation, or food processing manufacturers under the Student READY scheme."
+    ],
+    "highlights": [
+      { "label": "Duration", "value": "4 years / 8 semesters" },
+      { "label": "Curriculum framework", "value": "ICAR Sixth Deans Committee & AICTE aligned" },
+      { "label": "Technical focus", "value": "Farm machinery, precision irrigation, food processing, agri-drones" },
+      { "label": "National entrance", "value": "CUET-UG (ICAR quota) & State Engineering CETs / JEE Main" }
+    ],
+    "source_ids": ["s1", "s2", "s3"]
+  },
+  "who_should_apply": [
+    "Students with Physics, Chemistry, and Mathematics (PCM) in Class 12 who want to pursue an engineering career dedicated to sustainable food systems and mechanisation",
+    "Those interested in farm machinery design, tractor technology, robotics, and agricultural automation",
+    "Applicants passionate about water engineering, watershed conservation, GIS mapping, and climate-smart irrigation technologies",
+    "Engineers aiming to enter the rapidly expanding AgriTech startup sector, drone manufacturing, and commercial food engineering"
+  ],
+  "curriculum": {
+    "heading": "How the four years are organised",
+    "intro": "The course structure follows the national curriculum formulated by the ICAR Deans Committee for Agricultural Engineering. Course names and semester sequences may vary slightly across state agricultural universities and technological institutes.",
+    "structure": [
+      {
+        "stage": "Years 1-2: Engineering Sciences & Foundations",
+        "focus": "Engineering mathematics, physics, mechanics, workshop technology, thermodynamics, surveying, and introductory agricultural sciences.",
+        "courses": [
+          "Engineering mathematics and computational methods",
+          "Engineering mechanics and strength of materials",
+          "Workshop technology and manufacturing processes",
+          "Fluid mechanics and open channel hydraulics",
+          "Surveying and leveling for agricultural engineering",
+          "Thermodynamics, refrigeration, and air conditioning",
+          "Theory of machines and machine drawing (CAD)",
+          "Soil science and agronomic crop production basics"
+        ]
+      },
+      {
+        "stage": "Years 2-3: Core Agricultural Engineering Disciplines",
+        "focus": "Tractors, tillage machinery, soil and water conservation, pressurized irrigation, crop processing, and renewable energy systems.",
+        "courses": [
+          "Farm power and tractor systems",
+          "Farm machinery and equipment design",
+          "Soil and water conservation engineering",
+          "Pressurized irrigation systems (drip and sprinkler design)",
+          "Post-harvest engineering of cereals, pulses, and oilseeds",
+          "Dairy and food process engineering",
+          "Groundwater wells and pumping equipment",
+          "Renewable energy sources and biomass gasification"
+        ]
+      },
+      {
+        "stage": "Year 4: Advanced Technologies & In-Plant Training",
+        "focus": "Precision farming, drone technology, industrial attachments, experiential learning, and major capstone design projects.",
+        "courses": [
+          "Precision farming, remote sensing, and GIS applications",
+          "Agricultural drone operations and sensor telemetry",
+          "In-plant industrial training (tractor / implement / food / irrigation industry)",
+          "Experiential learning and product development project",
+          "Comprehensive viva-voce and seminar"
+        ]
+      }
+    ],
+    "specialisations": [
+      "Farm Machinery & Power Engineering",
+      "Soil & Water Conservation Engineering",
+      "Agricultural Processing & Food Engineering",
+      "Renewable Energy & Biomass Technology",
+      "Precision Agriculture, IoT & Agri-Drones"
+    ],
+    "practical_learning": [
+      {
+        "name": "In-Plant Industrial Attachment",
+        "description": "Structured semester internship with tractor manufacturers, pump and micro-irrigation companies, food processing plants, or precision farming enterprises to gain hands-on industrial workflow experience."
+      },
+      {
+        "name": "Tractor & Implement Workshop Training",
+        "description": "Practical engine overhaul, hydraulic diagnostic testing, laser land leveler operation, seed drill calibration, and combined harvester field operation."
+      },
+      {
+        "name": "Irrigation Design & Field Hydrology Labs",
+        "description": "Hands-on survey and design of automated micro-irrigation networks, soil infiltration tests, contour bunding layout, and GIS watershed delineation."
+      }
+    ],
+    "source_ids": ["s1", "s3"]
+  },
+  "eligibility": {
+    "points": [
+      "Pass in 10+2 (Senior Secondary) examination with Physics, Chemistry, and Mathematics (PCM) from a recognised education board.",
+      "Candidates must have passed 10+2 with at least 50% marks in aggregate (40% for SC, ST, PwBD, and reserved category candidates for ICAR quota admissions).",
+      "Mathematics is compulsory for admission into B.Tech. Agricultural Engineering across all agricultural universities.",
+      "Candidates must have attained a minimum age of 16 years as of 31 August of the admission year for ICAR quota seats."
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "admission": {
+    "routes": [
+      {
+        "name": "CUET-UG (ICAR All-India Quota)",
+        "description": "NTA-administered entrance examination for ICAR all-India quota seats (PCM domain subjects required).",
+        "source_ids": ["s2"]
+      },
+      {
+        "name": "State Engineering / Agricultural Entrance (CET / EAPCET / KEAM)",
+        "description": "State engineering admission counselling (e.g. AP EAPCET, TS EAMCET, KCET, MHT-CET, WBJEE, UPCATET) for state quota engineering seats.",
+        "source_ids": ["s3"]
+      },
+      {
+        "name": "JEE Main / University Entrance",
+        "description": "Several central institutes and private universities admit students through JEE Main scores or dedicated institutional engineering tests.",
+        "source_ids": []
+      }
+    ],
+    "exams": [
+      {
+        "name": "CUET-UG",
+        "conducting_body": "NTA",
+        "url": "https://cuet.nta.nic.in/",
+        "note": "For ICAR all-India quota seats. Requires PCM domain papers."
+      },
+      {
+        "name": "JEE Main",
+        "conducting_body": "NTA",
+        "url": "https://jeemain.nta.nic.in/",
+        "note": "Accepted by select central universities, IIT Kharagpur (Dual Degree), and private engineering colleges."
+      },
+      {
+        "name": "State Engineering Common Entrance Tests",
+        "conducting_body": "State Examination Authorities",
+        "url": null,
+        "note": "E.g. AP EAPCET, TS EAMCET, KCET, MHT-CET, UPCATET."
+      }
+    ],
+    "steps": [
+      { "title": "Check Mathematics Eligibility", "text": "Ensure you have Physics, Chemistry, and Mathematics in Class 12." },
+      { "title": "Appear for Entrance Examination", "text": "Register for CUET-UG (with PCM domain) or state engineering CET." },
+      { "title": "Participate in Engineering Counselling", "text": "Fill choices for Agricultural Engineering colleges and branches during national or state seat allocation." },
+      { "title": "Document Verification & Joining", "text": "Complete document validation, pay the seat acceptance fee, and report to the engineering college campus." }
+    ],
+    "documents": [
+      "Class 10 and 12 marksheet and passing certificates with Mathematics",
+      "CUET-UG or State CET admit card and scorecard",
+      "Domicile / residence certificate for state-quota engineering seats",
+      "Category certificate (SC/ST/OBC-NCL/EWS/PwBD) where applicable",
+      "Medical fitness and character certificates"
+    ],
+    "source_ids": ["s2", "s3"]
+  },
+  "fees": {
+    "summary": "Tuition fees in state agricultural university engineering colleges are government-subsidised, ranging between ₹25,000 to ₹65,000 per year. In private universities and self-financing engineering institutes, tuition ranges from ₹90,000 to ₹2,50,000 annually. Hostel, workshop safety kits, and mess charges are payable separately.",
+    "observed_examples": [],
+    "verification": "not_verified"
+  },
+  "careers": {
+    "heading": "Career pathways in engineering, technology, and governance",
+    "intro": "Agricultural engineers play a vital role in food security and environmental conservation. Demand has increased rapidly with the growth of precision agriculture, automated machinery, drone-based surveying, and commercial food supply chains.",
+    "roles": [
+      { "title": "Design & R&D Engineer (Farm Machinery)", "description": "Designs tractors, implements, automated seeders, and smart harvesters for agricultural equipment companies." },
+      { "title": "Irrigation Systems Engineer", "description": "Plans, calculates hydraulic layouts, and installs micro-irrigation, telemetry fertigation, and solar pumping networks." },
+      { "title": "Food Process & Cold Chain Engineer", "description": "Oversees grain elevators, fruit grading lines, dairy plants, and automated packaging systems." },
+      { "title": "Agricultural Drone Specialist", "description": "Manages drone telemetry, aerial crop health multispectral mapping, and automated pesticide spraying operations." },
+      { "title": "Assistant Engineer (Irrigation / Agricultural Engineering)", "description": "State government engineer managing watershed structures, farm mechanisation subsidies, and rural soil conservation projects." },
+      { "title": "Technical Officer / Banking Agricultural Engineer", "description": "Appraises agricultural machinery loans, warehouse infrastructure financing, and rural industrial projects in commercial banks." }
+    ],
+    "sectors": [
+      "Farm Equipment & Tractor Manufacturers (Mahindra, John Deere, TAFE, Escorts)",
+      "Micro-Irrigation & Water Technologies (Jain Irrigation, Netafim)",
+      "Food & Beverage Processing Industries (ITC, Nestlé, Adani Wilmar)",
+      "AgriTech Startups & Precision Drone Companies",
+      "State Agriculture & Irrigation Departments",
+      "Public Sector Banks & NABARD"
+    ],
+    "public_sector_routes": [
+      "State Public Service Commission Assistant Engineer (Agricultural Engineering) exams",
+      "IBPS Specialist Officer (Agricultural Field Officer - AFO)",
+      "GATE (Agricultural Engineering - AG paper) for PSU recruitments & IIT / NIT admissions",
+      "NABARD Assistant Manager (Grade A - RDBS)",
+      "Central Ground Water Board (CGWB) & watershed project authorities"
+    ],
+    "higher_study": [
+      "M.Tech. Farm Machinery & Power Engineering",
+      "M.Tech. Soil & Water Conservation Engineering",
+      "M.Tech. Processing & Food Engineering",
+      "M.Tech. Renewable Energy Engineering",
+      "MBA Agribusiness Management",
+      "M.S. / Ph.D. in Biosystems & Precision Engineering"
+    ],
+    "source_ids": ["s1", "s4"]
+  },
+  "skills": [
+    "Computer-Aided Design (CAD) for farm machinery components",
+    "Hydraulic network design and pressurized irrigation calculations",
+    "Tractor engine diagnostics and implement field calibration",
+    "Geographic Information Systems (GIS) and remote sensing data processing",
+    "Thermal and mass transfer calculations in post-harvest processing",
+    "Automation with microcontrollers, IoT sensors, and drone flight telemetry"
+  ],
+  "faqs": [
+    {
+      "question": "Can biology students without Mathematics take B.Tech. Agricultural Engineering?",
+      "answer": "No. Mathematics is a mandatory qualifying subject at the 10+2 level for B.Tech. Agricultural Engineering across all ICAR and AICTE-accredited universities."
+    },
+    {
+      "question": "Is B.Tech. Agricultural Engineering approved by AICTE as well as ICAR?",
+      "answer": "Yes. Agricultural Engineering is a recognised engineering branch evaluated by both AICTE for technical engineering standards and ICAR for agricultural university affiliation."
+    },
+    {
+      "question": "What is the scope of GATE for Agricultural Engineering graduates?",
+      "answer": "Graduates can appear for the GATE examination with the 'AG' (Agricultural Engineering) paper code. High scores qualify students for M.Tech. admissions at IIT Kharagpur, IIT Roorkee, and premier agricultural universities, as well as recruitment in selected public sector enterprises."
+    },
+    {
+      "question": "How does Agricultural Engineering differ from Mechanical Engineering?",
+      "answer": "Mechanical Engineering focuses broadly on general machines, automobiles, and manufacturing. Agricultural Engineering applies mechanical principles directly to biological materials, soil mechanics, crop-machine interactions, micro-irrigation systems, and food processing."
+    },
+    {
+      "question": "Are agricultural engineers eligible for IT and general engineering roles?",
+      "answer": "Yes. Students learn programming, CAD modeling, and data analytics, enabling many graduates to work in general engineering firms, software testing, GIS mapping companies, and technical consulting."
+    }
+  ],
+  "seo": {
+    "title": "B.Tech. Agricultural Engineering — Syllabus, Eligibility, Careers & Colleges",
+    "description": "Comprehensive guide to B.Tech. Agricultural Engineering: ICAR & AICTE curriculum, 4-year subjects, eligibility (PCM), entrance exams, careers, and top colleges.",
+    "keywords": [
+      "BTech Agricultural Engineering",
+      "B.Tech Agri Engineering",
+      "Agricultural Engineering colleges India",
+      "ICAR Agricultural Engineering syllabus",
+      "AgriTech engineering careers",
+      "Farm machinery engineering degree",
+      "GATE Agricultural Engineering"
+    ]
+  },
+  "related": [
+    "bsc-agriculture",
+    "bsc-horticulture",
+    "diploma-agriculture"
+  ],
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://icar.org.in/",
+      "title": "ICAR Sixth Deans Committee Report - Syllabus for B.Tech. (Agricultural Engineering)",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "overview", "who_should_apply"]
+    },
+    {
+      "id": "s2",
+      "url": "https://cuet.nta.nic.in/",
+      "title": "NTA CUET-UG Information Bulletin - Subject Eligibility for B.Tech. Agri Engineering",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["eligibility", "admission"]
+    },
+    {
+      "id": "s3",
+      "url": "https://pau.edu/",
+      "title": "Punjab Agricultural University - College of Agricultural Engineering and Technology Academic Bulletin",
+      "kind": "affiliating_university",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["curriculum", "practical_learning", "overview"]
+    },
+    {
+      "id": "s4",
+      "url": "https://gate2025.iitr.ac.in/",
+      "title": "GATE Information Brochure - Agricultural Engineering (AG) Syllabus and Opportunities",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-11-01",
+      "supports": ["careers"]
+    }
+  ],
+  "verification_gaps": [],
+  "editorial_status": "research_draft"
+}
