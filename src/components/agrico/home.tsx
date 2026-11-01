@@ -40,6 +40,16 @@ interface OfficialUniversityItem {
   href: string;
   external: boolean;
   match: string[];
+  logo?: string | null;
+  cardLogo?: string | null;
+  image?: string | null;
+  degrees?: string[];
+  ownership?: string;
+  approvals?: string[];
+  rankings?: string[];
+  establishedYear?: string;
+  rating?: number | null;
+  programmeCount?: number;
 }
 function scrollToSection(id: string) {
   document.getElementById(id)?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
@@ -129,6 +139,16 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
           href: '/university/' + u.slug,
           external: false,
           match: [normalise(u.name), normalise(mark), normalise(state)],
+          logo: u.cardLogo || u.logo,
+          cardLogo: u.cardLogo || u.logo,
+          image: u.image,
+          degrees: u.degrees,
+          ownership: u.ownership,
+          approvals: u.approvals,
+          rankings: u.rankings,
+          establishedYear: u.establishedYear,
+          rating: u.rating,
+          programmeCount: u.programmeCount,
         };
       });
     }
@@ -548,19 +568,74 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
                   onChange={() => toggleUniversity(university.id)}
                 />
               </label>
-              <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
-              <div className="ag-university-row__identity">
-                <h3>{university.name}</h3>
-                <p>{university.location || university.state}</p>
+
+              <div className="ag-university-brand">
+                {university.logo ? (
+                  <div className="ag-university-logo-box">
+                    <Image
+                      src={university.logo}
+                      alt={university.name + ' logo'}
+                      width={68}
+                      height={48}
+                      className="ag-university-logo-img"
+                      unoptimized={university.logo.endsWith('.svg') || university.logo.endsWith('.webp')}
+                    />
+                  </div>
+                ) : (
+                  <span className="ag-university-mark" aria-hidden="true">{university.mark}</span>
+                )}
               </div>
+
+              <div className="ag-university-row__identity">
+                <div className="ag-uni-title-line">
+                  <h3>
+                    <Link href={university.href}>{university.name}</Link>
+                  </h3>
+                </div>
+
+                <div className="ag-uni-meta-line">
+                  <span className="ag-uni-location">
+                    <MapPin size={12} /> {university.location || university.state}
+                  </span>
+                  {university.establishedYear && (
+                    <span className="ag-uni-pill">Est. {university.establishedYear}</span>
+                  )}
+                  {university.ownership && (
+                    <span className="ag-uni-pill ag-uni-pill--ownership">{university.ownership}</span>
+                  )}
+                  {university.approvals && university.approvals.length > 0 ? (
+                    <span className="ag-uni-pill ag-uni-pill--accent">
+                      {university.approvals.slice(0, 2).join(' · ')}
+                    </span>
+                  ) : (
+                    <span className="ag-uni-pill ag-uni-pill--accent">ICAR / UGC Approved</span>
+                  )}
+                  {university.degrees && university.degrees.length > 0 && (
+                    <span className="ag-uni-pill ag-uni-pill--degrees">
+                      {university.degrees.slice(0, 2).join(', ')}
+                    </span>
+                  )}
+                </div>
+              </div>
+
               <div className="ag-university-links">
                 <Link href={`${university.href}#courses`}>Programmes</Link>
                 <Link href={university.href}>Campus profile</Link>
                 <Link href={`${university.href}#admission`}>Admissions</Link>
               </div>
-              <Link href={university.href} className="ag-university-view">
-                View university <ArrowRight size={16} />
-              </Link>
+
+              <div className="ag-university-actions">
+                <button
+                  type="button"
+                  className="ag-button ag-button--outline ag-uni-enquire-btn"
+                  onClick={() => requestGuidance(undefined, university.name)}
+                >
+                  Enquire
+                </button>
+                <Link href={university.href} className="ag-university-view">
+                  View <ArrowRight size={15} />
+                </Link>
+              </div>
             </article>
           ))}
           <div className="ag-directory-footer">
@@ -673,7 +748,15 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
         {dialogGuide && <><Eyebrow>Student guide</Eyebrow><h2 id="ag-dialog-title">{dialogGuide.title}</h2><p className="ag-dialog-lead">{dialogGuide.description}</p>{dialogGuide.sections.map(section => <section className="ag-reading-section" key={section.title}><h3>{section.title}</h3><p>{section.text}</p></section>)}<a className="ag-text-link" href={dialogGuide.source} target="_blank" rel="noopener noreferrer">Explore official education information <ArrowRight size={16} /></a><div className="ag-dialog-actions"><button className="ag-button" onClick={() => requestGuidance(undefined, dialogGuide.title)}>Talk to a counsellor <ArrowRight size={16} /></button></div></>}
         {dialogGuide?.id === 'counselling' && <div className="ag-official-resources"><h3>Official admission resources</h3>{ADMISSION_RESOURCES.map(resource => <a key={resource.title} href={resource.href} target="_blank" rel="noopener noreferrer"><span><strong>{resource.title}</strong><small>{resource.description}</small></span><ArrowRight size={17} /></a>)}</div>}
         {dialog?.type === 'comparison' && <><Eyebrow>Programme comparison</Eyebrow><h2 id="ag-dialog-title">Compare your study pathways.</h2><div className="ag-full-comparison"><table><thead><tr><th>What to compare</th>{selectedCourses.map(course => <th key={course.id}>{course.name}</th>)}</tr></thead><tbody><tr><th>Study level</th>{selectedCourses.map(course => <td key={course.id}>{course.level}</td>)}</tr>{comparisonRows.map(row => <tr key={row.key}><th>{row.label}</th>{selectedCourses.map(course => <td key={course.id}>{course[row.key]}</td>)}</tr>)}<tr><th>Admission details</th>{selectedCourses.map(course => <td key={course.id}><a href={course.source} target="_blank" rel="noopener noreferrer">Official requirements ↗</a></td>)}</tr></tbody></table></div><p className="ag-dialog-note">Use this as a starting point, then check programme-specific details with the university.</p><button className="ag-button" onClick={() => requestGuidance(undefined, 'Programme Comparison')}>Discuss your options <ArrowRight size={16} /></button></>}
-        {dialog?.type === 'universities' && <><Eyebrow>Your university shortlist</Eyebrow><h2 id="ag-dialog-title">Compare your university options.</h2><div className="ag-university-modal-grid">{officialUniversities.filter(university => selectedUniversities.includes(university.id)).map(university => <article key={university.id}><span className="ag-university-mark">{university.mark}</span><h3>{university.name}</h3><p><MapPin size={15} />{university.state}</p><ul><li>Review the programme curriculum</li><li>Explore laboratories and campus facilities</li><li>Check current fees and eligibility</li><li>Confirm the official admission process</li></ul><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined} className="ag-text-link">View university <ArrowRight size={15} /></a></article>)}</div><button className="ag-button" onClick={() => requestGuidance(undefined, 'University Shortlist')}>Get help with your shortlist <ArrowRight size={16} /></button></>}
+        {dialog?.type === 'universities' && <><Eyebrow>Your university shortlist</Eyebrow><h2 id="ag-dialog-title">Compare your university options.</h2><div className="ag-university-modal-grid">{officialUniversities.filter(university => selectedUniversities.includes(university.id)).map(university => <article key={university.id}>
+          {university.logo ? (
+            <div className="ag-university-logo-box" style={{ width: '70px', height: '50px', margin: '0 auto 12px' }}>
+              <Image src={university.logo} alt={university.name} width={60} height={42} className="ag-university-logo-img" unoptimized={university.logo.endsWith('.svg') || university.logo.endsWith('.webp')} />
+            </div>
+          ) : (
+            <span className="ag-university-mark">{university.mark}</span>
+          )}
+          <h3>{university.name}</h3><p><MapPin size={15} />{university.location || university.state}</p><ul><li>Review the programme curriculum</li><li>Explore laboratories and campus facilities</li><li>Check current fees and eligibility</li><li>Confirm the official admission process</li></ul><a href={university.href} target={university.external ? '_blank' : undefined} rel={university.external ? 'noopener noreferrer' : undefined} className="ag-text-link">View university <ArrowRight size={15} /></a></article>)}</div><button className="ag-button" onClick={() => requestGuidance(undefined, 'University Shortlist')}>Get help with your shortlist <ArrowRight size={16} /></button></>}
       </div>
     </dialog>
   </div>;

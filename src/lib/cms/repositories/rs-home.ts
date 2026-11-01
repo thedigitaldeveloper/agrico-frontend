@@ -7,6 +7,7 @@ import { BLOG_SECTIONS, listBlogs, type BlogCard } from './blog';
 import { listMentors, type MentorCard } from './mentor';
 import { listTestimonials, type TestimonialCard } from './testimonial';
 import { getRsCatalogue } from './rs-catalogue';
+import { publicationUniversities } from '@/lib/agrico/publication';
 import type { Offering, RsHomeData } from '@/components/rs/home-types';
 
 function resolveSelection(selection: HomeOfferingSelection | null | undefined, catalogue: Offering[]) {
@@ -78,21 +79,36 @@ export async function getRsHomeData(): Promise<RsHomeData> {
     programmeChoices: [...new Set(validPrograms.map(program => program.course?.name?.trim() || program.name.trim()))],
     offerings: selectedOfferings(home.featuredOfferings, catalogue),
     universities: targetUniversities.map(university => {
+      const pubDoc = publicationUniversities.find(p => p.slug === university.slug);
+      const pubLogo = pubDoc?.hero_media?.find(m => m.role === 'logo')?.src || null;
+      const pubCampus = pubDoc?.hero_media?.find(m => m.role === 'campus_primary')?.src || null;
       const image = resolveImage(university.image);
       const universityOfferings = catalogue.filter(item => item.universitySlug === university.slug);
       const rating = university.rating == null ? NaN : Number(university.rating);
+      const cmsLogo = resolveImage(university.logo)?.src;
+      const cmsCardLogo = resolveImage(university.card_logo)?.src;
+      const finalLogo = cmsLogo || cmsCardLogo || pubLogo || null;
+      const finalImage = image?.src || pubCampus || null;
+      const location = [university.city || pubDoc?.identity?.city, university.state || pubDoc?.identity?.state].filter(Boolean).join(', ');
+      const ownership = university.ownership_type?.name || pubDoc?.identity?.ownership || '';
+      const pubEst = (pubDoc?.identity as { established?: number | string | null } | undefined)?.established;
+      const establishedYear = university.established_year ? String(university.established_year) : university.establish?.slice(0, 4) || (pubEst ? String(pubEst) : '');
+
       return {
-        id: university.documentId, name: university.name, slug: university.slug,
-        location: [university.city, university.state].filter(Boolean).join(', '),
-        logo: resolveImage(university.logo)?.src || null,
-        cardLogo: resolveImage(university.card_logo)?.src || null,
-        image: image?.src || null, imageAlt: image?.alt || '',
+        id: university.documentId,
+        name: university.name,
+        slug: university.slug,
+        location,
+        logo: finalLogo,
+        cardLogo: cmsCardLogo || finalLogo,
+        image: finalImage,
+        imageAlt: image?.alt || pubDoc?.title || university.name,
         degrees: [...new Set(universityOfferings.map(item => item.degree))],
-        ownership: university.ownership_type?.name || '',
+        ownership,
         approvals: (university.approvals ?? []).map(item => item.name).filter(Boolean),
         rankings: (university.rankings ?? []).map(item => item.name).filter(Boolean),
         modes: [...new Set([...(university.course_modes ?? []).map(item => item.name), ...universityOfferings.map(item => item.mode)].filter(value => value && value !== 'Mode to be confirmed'))],
-        establishedYear: university.established_year ? String(university.established_year) : university.establish?.slice(0, 4) || '',
+        establishedYear,
         rating: Number.isFinite(rating) && rating > 0 && rating <= 5 ? rating : null,
         programmeCount: universityOfferings.length,
       };
