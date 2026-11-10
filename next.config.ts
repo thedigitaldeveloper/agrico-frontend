@@ -1,9 +1,11 @@
 import type { NextConfig } from 'next';
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3003';
 const cmsUrl = process.env.NEXT_PUBLIC_CMS_URL ?? 'http://localhost:1340';
 const cmsOrigin = new URL(cmsUrl);
 const cmsHostOrigin = cmsOrigin.origin;
 const isLoopbackCms = cmsOrigin.hostname === 'localhost' || cmsOrigin.hostname === '127.0.0.1';
+const isHttpEnv = isLoopbackCms || siteUrl.startsWith('http://') || cmsOrigin.protocol === 'http:';
 const loopbackPort = cmsOrigin.port || '1340';
 // Strapi media URLs may be stored with either localhost or 127.0.0.1; allow
 // both in development so existing CMS uploads resolve regardless of which host
@@ -30,20 +32,19 @@ const contentSecurityPolicy = [
     ? "script-src 'self' 'unsafe-inline'"
     : "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
   "style-src 'self' 'unsafe-inline'",
-  `img-src 'self' data: blob: ${cmsHostOrigin} ${loopbackOrigins} https:`,
+  `img-src 'self' data: blob: ${cmsHostOrigin} ${loopbackOrigins} https: http:`,
   "font-src 'self' data:",
   `connect-src 'self' ${cmsHostOrigin} ${loopbackOrigins}`,
   `media-src 'self' ${cmsHostOrigin} ${loopbackOrigins}`,
   'frame-src https://www.youtube-nocookie.com https://www.youtube.com',
-  // Do not force HTTPS subresources when the configured CMS is local HTTP;
-  // otherwise Chrome upgrades http://localhost:1340/uploads/... to https:// and
-  // fails with ERR_SSL_PROTOCOL_ERROR.
-  isLoopbackCms ? '' : 'upgrade-insecure-requests',
+  // Do not force HTTPS subresources when the configured site or CMS is HTTP;
+  // otherwise Chrome upgrades http://... to https:// and fails with ERR_SSL_PROTOCOL_ERROR.
+  isHttpEnv ? '' : 'upgrade-insecure-requests',
 ].filter(Boolean).join('; ');
 
 const securityHeaders = [
   { key: 'Content-Security-Policy', value: contentSecurityPolicy },
-  ...(isLoopbackCms
+  ...(isHttpEnv
     ? []
     : [{ key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' }]),
   { key: 'X-Content-Type-Options', value: 'nosniff' },
