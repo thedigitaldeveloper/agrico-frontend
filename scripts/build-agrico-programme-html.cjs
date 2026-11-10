@@ -102,7 +102,7 @@ for (const file of programmeFiles) {
             city: u.identity?.city || '',
             state: u.identity?.state || '',
             ownership: u.identity?.ownership || 'ICAR-accredited institution',
-            logo: `/images/institutions/${u.slug}/logo.png`,
+            logo: u.media?.local_logo ? `/images/institutions/${u.slug}/${path.basename(u.media.local_logo)}` : `/images/institutions/${u.slug}/logo.png`,
             summary: prog.summary || `Offers ICAR-recognized ${p.name}`
           });
           break;
