@@ -48,7 +48,7 @@ export interface ProgramOffering extends StrapiEntry {
 }
 
 export interface ProgramCard extends StrapiEntry {
-  universities?: Array<Pick<UniversityCard, 'name' | 'slug' | 'documentId'>>;
+  universities?: Array<Pick<UniversityCard, 'name' | 'slug' | 'documentId'> & Partial<Pick<UniversityCard, 'logo' | 'card_logo'>>>;
   name: string;
   full_name: string | null;
   slug: string;

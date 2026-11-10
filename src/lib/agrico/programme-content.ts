@@ -182,23 +182,24 @@ function offeredIndex() {
       index.set(progSlug, list);
     }
   }
-  if (existsSync(universityDirectory)) {
-    for (const batch of readdirSync(universityDirectory).filter(name => name.startsWith('batch-'))) {
-      for (const file of readdirSync(path.join(universityDirectory, batch)).filter(name => name.endsWith('.json'))) {
-        try {
-          const doc = JSON.parse(readFileSync(path.join(universityDirectory, batch, file), 'utf8')) as { slug: string; programmes?: { name: string; summary?: string | null }[] };
-          for (const programme of doc.programmes || []) {
-            const name = normalise(programme.name);
-            for (const [slug, matcher] of Object.entries(MATCHERS)) {
-              if (!matcher.test(name)) continue;
-              const list = index.get(slug) || [];
-              if (!list.some(item => item.slug === doc.slug)) list.push({ slug: doc.slug, summary: programme.summary || null });
-              index.set(slug, list);
-            }
+  const institutionsFile = path.join(universityDirectory, 'institutions.json');
+  if (existsSync(institutionsFile)) {
+    try {
+      const pack = JSON.parse(readFileSync(institutionsFile, 'utf8')) as {
+        institutions?: { slug: string; programmes?: { name: string; summary?: string | null }[] }[];
+      };
+      for (const doc of pack.institutions || []) {
+        for (const programme of doc.programmes || []) {
+          const name = normalise(programme.name);
+          for (const [slug, matcher] of Object.entries(MATCHERS)) {
+            if (!matcher.test(name)) continue;
+            const list = index.get(slug) || [];
+            if (!list.some(item => item.slug === doc.slug)) list.push({ slug: doc.slug, summary: programme.summary || null });
+            index.set(slug, list);
           }
-        } catch { /* skip unreadable research file */ }
+        }
       }
-    }
+    } catch { /* skip unreadable research file */ }
   }
   return (offeredCache = index);
 }
