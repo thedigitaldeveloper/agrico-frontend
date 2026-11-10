@@ -31,17 +31,19 @@ export interface CourseDetail extends CourseCard {
 }
 
 export async function getCourseBySlug(slug: string): Promise<CourseDetail | null> {
-  try {
-    const json = await cmsFetch<{ data: CourseDetail }>(
-      `/courses/slug/${encodeURIComponent(slug)}`,
-      undefined,
-      { tags: [collectionTag('course'), entryTag('course', slug)] }
-    );
-    return json.data ?? null;
-  } catch (error) {
-    if (error instanceof Error && 'status' in error && error.status === 404) return null;
-    throw error;
-  }
+  return cmsFetchOptional(async () => {
+    try {
+      const json = await cmsFetch<{ data: CourseDetail }>(
+        `/courses/slug/${encodeURIComponent(slug)}`,
+        undefined,
+        { tags: [collectionTag('course'), entryTag('course', slug)] }
+      );
+      return json.data ?? null;
+    } catch (error) {
+      if (error instanceof Error && 'status' in error && error.status === 404) return null;
+      throw error;
+    }
+  }, null);
 }
 
 export async function listCourses(pageSize = 100): Promise<CourseCard[]> {
