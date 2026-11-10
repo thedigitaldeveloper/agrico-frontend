@@ -467,26 +467,30 @@ export async function listQuestions({
     filters.$or = [{ title: { $containsi: term } }, { body: { $containsi: term } }];
   }
 
-  const { data, meta } = await cmsCollection<QuestionCard>(
-    '/questions',
-    {
-      filters,
-      populate: {
-        streams: true,
-        courses: true,
-        answers: true,
+  try {
+    const { data, meta } = await cmsCollection<QuestionCard>(
+      '/questions',
+      {
+        filters,
+        populate: {
+          streams: true,
+          courses: true,
+          answers: true,
+        },
+        sort: 'createdAt:desc',
+        pagination: { page, pageSize: Math.min(pageSize, 50) },
       },
-      sort: 'createdAt:desc',
-      pagination: { page, pageSize: Math.min(pageSize, 50) },
-    },
-    {
-      tags: [collectionTag('question')],
-      revalidate: term ? 0 : undefined,
-    }
-  );
+      {
+        tags: [collectionTag('question')],
+        revalidate: term ? 0 : undefined,
+      }
+    );
 
-  if (data.length > 0) {
-    return { questions: data, pagination: meta.pagination };
+    if (data.length > 0) {
+      return { questions: data, pagination: meta.pagination };
+    }
+  } catch {
+    // Fall through to LOCAL_QUESTIONS when CMS is unreachable
   }
 
   const filtered = LOCAL_QUESTIONS.filter((q) => {
