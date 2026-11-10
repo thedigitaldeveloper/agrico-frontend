@@ -1,0 +1,71 @@
+{
+  "id": "hostel-mess-budget-blog",
+  "cms_type": "Blog",
+  "slug": "budgeting-for-hostel-mess-and-field-costs-in-agriculture-degrees",
+  "title": "Budgeting for hostel, mess and field-work expenses during a 4-year agriculture degree",
+  "description": "Build a realistic 8-semester budget covering tuition, hostel accommodation, mess charges, caution deposits and RAWE field travel.",
+  "summary": "Tuition is only one part of a four-year agriculture budget. Families should calculate residential hostel tiers, mess charges, one-time security deposits, examination fees and final-year RAWE travel expenses across all eight semesters.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "eight-semester-cashflow",
+      "heading": "Why semester tuition alone understates the 4-year cost",
+      "paragraphs": [
+        "When comparing [G H Raisoni University, Chhindwara](/university/g-h-raisoni-university-chhindwara), [Jaipur National University](/university/jaipur-national-university), [Eternal University](/university/eternal-university) or [Lovely Professional University](/university/lovely-professional-university), notice whether the published fee is quoted per semester or per year. Over four years (eight semesters), residential accommodation and meals often equal or exceed base tuition.",
+        "Use [how to compare agriculture fees, quotas and living costs](/articles/agriculture-fee-budget) and [reading an agriculture fee letter before paying](/blogs/reading-an-agriculture-fee-letter) to separate academic tuition from living expenses."
+      ]
+    },
+    {
+      "id": "agriculture-specific-expenses",
+      "heading": "Account for field tours, RAWE attachments and lab records",
+      "paragraphs": [
+        "Unlike desk-based degrees, agriculture and veterinary programmes involve early-morning farm practicals, regional study tours, herbarium/insect-collection kits, and off-campus village or clinical attachments during the final year. Ask the admissions office which of these are covered by the semester laboratory fee and which are billed separately."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are hostel and mess charges usually included in the headline B.Sc. Agriculture tuition fee?",
+      "answer": "Almost never. Unless an institution explicitly publishes a consolidated residential fee, hostel rent, electricity and mess charges are billed separately by room occupancy and AC/non-AC tier."
+    },
+    {
+      "question": "How can I check if a scholarship reduces hostel fees?",
+      "answer": "Most institutional merit scholarships apply only to base tuition and exclude hostel, mess, examination and deposit charges. Verify the exact waiver scope in writing."
+    }
+  ],
+  "related_institution_ids": [
+    16,
+    18,
+    20,
+    24,
+    27,
+    30,
+    31,
+    34,
+    40,
+    41,
+    43,
+    47,
+    51,
+    56
+  ],
+  "related_topic_ids": [
+    "fee-budget",
+    "fee-letter",
+    "scholarship-questions"
+  ],
+  "sources": [
+    {
+      "id": "lpu-agri-fees",
+      "title": "Lovely Professional University B.Sc. (Hons.) Agriculture programme and fee details",
+      "url": "https://www.lpu.in/programmes/agriculture/bsc-agriculture",
+      "checked_on": "2026-10-30",
+      "note": "Illustrates separate semester tuition, examination and residential fee components."
+    }
+  ],
+  "verification_notes": [
+    "Provides a structured 8-semester budgeting framework without inventing unverified hostel figures."
+  ]
+}

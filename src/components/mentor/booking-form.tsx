@@ -220,7 +220,7 @@ export function BookingForm({
           <TextField
             name="topic"
             label="What would you like guidance on?"
-            placeholder="e.g. Comparing Manipal vs Amity Online MCA or Fee EMI"
+            placeholder="e.g. Comparing TNAU vs PAU B.Sc. Agriculture or ICAR Accreditation"
             required
           />
 

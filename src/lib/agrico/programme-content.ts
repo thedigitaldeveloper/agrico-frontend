@@ -1,6 +1,9 @@
 import 'server-only';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
+import type { ContentSection } from '@/lib/cms/repositories/content';
+import type { ContentSectionRef } from '@/lib/cms/repositories/university';
+import { toCleanSectionSuffix } from '@/lib/cms/paths';
 import { publicationUniversities } from './publication';
 
 /**
@@ -87,10 +90,98 @@ const MATCHERS: Record<string, RegExp> = {
 const normalise = (value: string) => value.toLowerCase().replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, ' ').replace(/\b(agri|ag)\b/g, 'agriculture').replace(/\bhort\b/g, 'horticulture').replace(/\s+/g, ' ').trim()
   .replace(/^b sc/, 'bsc').replace(/^m sc/, 'msc').replace(/^b tech/, 'btech').replace(/^ph d/, 'phd').replace(/^b v sc/, 'bvsc').replace(/^b f sc/, 'bfsc');
 
+const FLAGSHIP_GUIDES: Array<{
+  slug: string;
+  name: string;
+  city: string;
+  state: string;
+  programmes: string[];
+}> = [
+  {
+    slug: 'punjab-agricultural-university',
+    name: 'Punjab Agricultural University (PAU)',
+    city: 'Ludhiana',
+    state: 'Punjab',
+    programmes: [
+      'bsc-agriculture',
+      'btech-agricultural-engineering',
+      'bsc-horticulture',
+      'mba-agribusiness',
+      'msc-agronomy',
+      'phd-agronomy',
+      'msc-genetics-plant-breeding',
+      'msc-soil-science',
+    ],
+  },
+  {
+    slug: 'tamil-nadu-agricultural-university',
+    name: 'Tamil Nadu Agricultural University (TNAU)',
+    city: 'Coimbatore',
+    state: 'Tamil Nadu',
+    programmes: [
+      'bsc-agriculture',
+      'btech-agricultural-engineering',
+      'bsc-horticulture',
+      'bsc-agribusiness',
+      'mba-agribusiness',
+      'msc-agronomy',
+      'phd-agronomy',
+      'msc-entomology',
+      'msc-plant-pathology',
+      'diploma-agriculture',
+    ],
+  },
+  {
+    slug: 'indian-agricultural-research-institute',
+    name: 'ICAR–Indian Agricultural Research Institute (IARI)',
+    city: 'New Delhi',
+    state: 'Delhi',
+    programmes: [
+      'bsc-agriculture',
+      'msc-agronomy',
+      'phd-agronomy',
+      'msc-genetics-plant-breeding',
+      'msc-entomology',
+      'msc-plant-pathology',
+      'msc-soil-science',
+      'msc-agricultural-economics',
+      'msc-agricultural-extension',
+      'msc-fruit-science',
+      'msc-vegetable-science',
+      'msc-floriculture-landscaping',
+    ],
+  },
+  {
+    slug: 'lovely-professional-university',
+    name: 'Lovely Professional University (LPU)',
+    city: 'Phagwara',
+    state: 'Punjab',
+    programmes: [
+      'bsc-agriculture',
+      'bsc-horticulture',
+      'mba-agribusiness',
+      'msc-agronomy',
+      'msc-genetics-plant-breeding',
+    ],
+  },
+];
+
 let offeredCache: Map<string, { slug: string; summary: string | null }[]> | null = null;
 function offeredIndex() {
   if (offeredCache) return offeredCache;
   const index = new Map<string, { slug: string; summary: string | null }[]>();
+  for (const guide of FLAGSHIP_GUIDES) {
+    for (const progSlug of guide.programmes) {
+      const list = index.get(progSlug) || [];
+      if (!list.some((item) => item.slug === guide.slug)) {
+        list.push({
+          slug: guide.slug,
+          summary: `ICAR-aligned on-campus programme at ${guide.name}, ${guide.city}.`,
+        });
+      }
+      index.set(progSlug, list);
+    }
+  }
   if (existsSync(universityDirectory)) {
     for (const batch of readdirSync(universityDirectory).filter(name => name.startsWith('batch-'))) {
       for (const file of readdirSync(path.join(universityDirectory, batch)).filter(name => name.endsWith('.json'))) {
@@ -114,11 +205,141 @@ function offeredIndex() {
 
 /** Researched institutions that list this programme, with verified local logos. */
 export function programmeUniversities(slug: string): ProgrammeUniversity[] {
-  return (offeredIndex().get(slug) || []).flatMap(({ slug: universitySlug, summary }) => {
+  const matched = (offeredIndex().get(slug) || []).flatMap(({ slug: universitySlug, summary }) => {
     const doc = publicationUniversities.find(item => item.slug === universitySlug);
-    if (!doc) return [];
-    const logo = doc.hero_media?.find(m => m.role === 'card_logo')?.src || doc.hero_media?.find(m => m.role === 'logo')?.src || null;
-    return [{ slug: universitySlug, name: doc.name || doc.title, city: doc.identity?.city || '', state: doc.identity?.state || '', logo, summary }];
+    if (doc) {
+      const logo = doc.hero_media?.find(m => m.role === 'card_logo')?.src || doc.hero_media?.find(m => m.role === 'logo')?.src || null;
+      return [{ slug: universitySlug, name: doc.name || doc.title, city: doc.identity?.city || '', state: doc.identity?.state || '', logo, summary }];
+    }
+    const flagship = FLAGSHIP_GUIDES.find(item => item.slug === universitySlug);
+    if (flagship) {
+      return [{ slug: flagship.slug, name: flagship.name, city: flagship.city, state: flagship.state, logo: null, summary }];
+    }
+    return [];
   });
+  if (matched.length > 0) return matched;
+  return publicationUniversities.slice(0, 8).map(doc => ({
+    slug: doc.slug,
+    name: doc.name || doc.title,
+    city: doc.identity?.city || '',
+    state: doc.identity?.state || '',
+    logo: doc.hero_media?.find(m => m.role === 'card_logo')?.src || doc.hero_media?.find(m => m.role === 'logo')?.src || null,
+    summary: doc.summary || null,
+  }));
+}
+
+export function programmesForUniversitySlug(universitySlug: string): string[] {
+  const idx = offeredIndex();
+  const slugs: string[] = [];
+  for (const [progSlug, entries] of idx.entries()) {
+    if (entries.some((e) => e.slug === universitySlug)) {
+      slugs.push(progSlug);
+    }
+  }
+  return slugs.length > 0 ? slugs : ['bsc-agriculture'];
+}
+
+interface StoredTabItem {
+  key: string;
+  display: string;
+  sectionKey: string;
+  heading: string;
+  titleSuffix: string;
+  metaDesc: string;
+  html: string;
+}
+
+interface StoredTabBundle {
+  css: string;
+  tabs: StoredTabItem[];
+}
+
+const tabBundleCache = new Map<string, StoredTabBundle | null>();
+
+function loadProgrammeTabBundle(slug: string): StoredTabBundle | null {
+  if (tabBundleCache.has(slug)) return tabBundleCache.get(slug) ?? null;
+  const filePath = path.join(directory, 'tab-pages', `${slug}.json`);
+  if (!existsSync(filePath)) {
+    tabBundleCache.set(slug, null);
+    return null;
+  }
+  try {
+    const parsed = JSON.parse(readFileSync(filePath, 'utf8')) as StoredTabBundle;
+    tabBundleCache.set(slug, parsed);
+    return parsed;
+  } catch {
+    tabBundleCache.set(slug, null);
+    return null;
+  }
+}
+
+export function getProgrammeSectionRefs(slug: string): ContentSectionRef[] {
+  const bundle = loadProgrammeTabBundle(slug);
+  if (!bundle?.tabs?.length) return [];
+  return bundle.tabs.map((tab, idx) => ({
+    id: 95000 + idx,
+    documentId: `prog-tab-${slug}-${tab.key}`,
+    name: tab.display,
+    slug: `${slug}--${tab.key}`,
+    secondary_slug: tab.key,
+    display_name: tab.display,
+    heading: tab.heading,
+    position: idx + 1,
+  }));
+}
+
+export function getProgrammeAuthoredSection(
+  slug: string,
+  sectionSlug = 'overview'
+): ContentSection | null {
+  const bundle = loadProgrammeTabBundle(slug);
+  if (!bundle?.tabs?.length) return null;
+  const cleanKey = toCleanSectionSuffix(sectionSlug);
+  const tab =
+    bundle.tabs.find(
+      (t) =>
+        t.key === cleanKey ||
+        t.key === sectionSlug ||
+        `${slug}--${t.key}` === sectionSlug
+    ) ?? (sectionSlug === 'overview' ? bundle.tabs[0] : null);
+
+  if (!tab) return null;
+  const idx = bundle.tabs.indexOf(tab);
+  const TS = '2026-11-01T00:00:00.000Z';
+  const canonicalPath = tab.key === 'overview' ? `/${slug}` : `/${slug}-${tab.key}`;
+
+  return {
+    id: 95000 + idx,
+    documentId: `prog-tab-${slug}-${tab.key}`,
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+    name: `${slug} · ${tab.display}`,
+    slug: `${slug}--${tab.key}`,
+    secondary_slug: tab.key,
+    display_name: tab.display,
+    heading: tab.heading,
+    seo: {
+      metaTitle: `${tab.heading} — ${tab.titleSuffix} | Agrico`,
+      metaDescription: tab.metaDesc,
+      keywords: `${slug}, ${tab.display}, agriculture education`,
+      metaRobots: 'index,follow',
+      metaViewport: null,
+      canonicalURL: `https://agrico.in${canonicalPath}`,
+      structuredData: null,
+      metaImage: null,
+    },
+    content: [
+      {
+        id: 97000 + idx,
+        __component: 'common.html-section',
+        name: `${slug} · ${tab.display}`,
+        code: {
+          html: tab.html,
+          css: bundle.css,
+        },
+      },
+    ],
+  };
 }
 

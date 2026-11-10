@@ -6,9 +6,9 @@
 .rs-home .rs-content-pages .rs-content-track{--rs-content-cols:1}
 .rs-home .rs-content-controls{display:flex;justify-content:flex-end;gap:8px;margin-top:4px}
 .rs-home .rs-content-controls[hidden]{display:none}
-.rs-home .rs-content-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #c99a9e;border-radius:50%;background:#fff;color:#a22334;cursor:pointer}
-.rs-home .rs-content-controls button:hover:enabled{background:#f2eee8;border-color:#a22334}
+.rs-home .rs-content-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #c99a9e;border-radius:50%;background:#fff;color:#124b3b;cursor:pointer}
+.rs-home .rs-content-controls button:hover:enabled{background:#f2eee8;border-color:#124b3b}
 .rs-home .rs-content-controls button:disabled{color:#a98e8f;border-color:#e6ded5;cursor:default}
-.rs-home .rs-content-carousel :where(button,a,.rs-content-track):focus-visible{outline:2px solid #a22334;outline-offset:2px}
+.rs-home .rs-content-carousel :where(button,a,.rs-content-track):focus-visible{outline:2px solid #124b3b;outline-offset:2px}
 @media(min-width:641px) and (max-width:900px){.rs-home .rs-content-track{--rs-content-cols:2}}
 @media(max-width:640px){.rs-home .rs-content-track{--rs-content-cols:1}}

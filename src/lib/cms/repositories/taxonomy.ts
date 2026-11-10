@@ -47,11 +47,56 @@ const MODEL_FOR_PATH = {
   tags: 'tag',
 } as const;
 
+const TS = '2026-10-30T00:00:00.000Z';
+
+function term(id: number, documentId: string, name: string, slug: string): TaxonomyTerm {
+  return { id, documentId, name, slug, createdAt: TS, updatedAt: TS, publishedAt: TS };
+}
+
+const FALLBACK_TAXONOMIES: Partial<Record<TaxonomyPath, TaxonomyTerm[]>> = {
+  streams: [
+    term(9101, 'stream-agri', 'Agriculture & Allied Sciences', 'agriculture-allied-sciences'),
+    term(9102, 'stream-hort', 'Horticulture & Forestry', 'horticulture-forestry'),
+    term(9103, 'stream-eng', 'Agricultural Engineering & Tech', 'agricultural-engineering'),
+    term(9104, 'stream-abm', 'Agribusiness Management', 'agribusiness-management'),
+    term(9105, 'stream-vet', 'Veterinary, Dairy & Fisheries', 'veterinary-dairy-fisheries'),
+  ],
+  'ownership-types': [
+    term(9201, 'own-sau', 'State Agricultural University (SAU)', 'state-agricultural-university'),
+    term(9202, 'own-central-icar', 'Central / ICAR Deemed University', 'central-icar-deemed-university'),
+    term(9203, 'own-private', 'Private University / College', 'private-university'),
+    term(9204, 'own-public', 'Public Agricultural Institution', 'public-state-university'),
+  ],
+  approvals: [
+    term(9301, 'app-icar', 'ICAR Accredited', 'icar'),
+    term(9302, 'app-ugc', 'UGC Recognized', 'ugc'),
+    term(9303, 'app-aicte', 'AICTE Approved', 'aicte'),
+    term(9304, 'app-vci', 'VCI Recognized', 'vci'),
+  ],
+  'course-modes': [
+    term(9601, 'mode-regular', 'On-Campus (Regular)', 'regular'),
+  ],
+  levels: [
+    term(9701, 'lvl-ug', 'Undergraduate (UG)', 'undergraduate'),
+    term(9702, 'lvl-pg', 'Postgraduate (PG)', 'postgraduate'),
+    term(9703, 'lvl-diploma', 'Diploma', 'diploma'),
+    term(9704, 'lvl-phd', 'Doctoral (Ph.D.)', 'doctoral'),
+  ],
+  courses: [
+    term(9801, 'crs-bsc-agri', 'B.Sc. (Hons.) Agriculture', 'bsc-agriculture'),
+    term(9802, 'crs-btech-ag', 'B.Tech. Agricultural Engineering', 'btech-agricultural-engineering'),
+    term(9803, 'crs-bsc-hort', 'B.Sc. (Hons.) Horticulture', 'bsc-horticulture'),
+    term(9804, 'crs-mba-abm', 'MBA Agribusiness Management', 'mba-agribusiness'),
+    term(9805, 'crs-msc-agro', 'M.Sc. Agriculture (Agronomy)', 'msc-agronomy'),
+    term(9806, 'crs-bvsc', 'B.V.Sc. & A.H.', 'bvsc-animal-husbandry'),
+  ],
+};
+
 export async function listTaxonomy(
   path: TaxonomyPath,
   limit = 100
 ): Promise<TaxonomyTerm[]> {
-  return cmsFetchOptional(async () => {
+  const cmsTerms = await cmsFetchOptional(async () => {
     const { data } = await cmsCollection<TaxonomyTerm>(
       `/${path}`,
       {
@@ -63,6 +108,9 @@ export async function listTaxonomy(
     );
     return data;
   }, []);
+
+  if (cmsTerms.length > 0) return cmsTerms;
+  return (FALLBACK_TAXONOMIES[path] ?? []).slice(0, limit);
 }
 
 /** Everything the header and footer need, in one pass. */

@@ -1,0 +1,75 @@
+{
+  "id": "icar-jrf-msc-prep-blog",
+  "cms_type": "Blog",
+  "slug": "planning-for-icar-aieea-pg-and-msc-agronomy-during-bsc-agriculture",
+  "title": "How B.Sc. Agriculture undergraduates can plan for ICAR AIEEA-PG and M.Sc. Agronomy",
+  "description": "A semester-by-semester roadmap for undergraduate agriculture students preparing for M.Sc. Agriculture / Agronomy and ICAR AIEEA-PG admission.",
+  "summary": "Students aiming for M.Sc. Agriculture (Agronomy, Genetics & Plant Breeding, Soil Science or Entomology) should verify their undergraduate college’s ICAR accreditation early and align their third- and fourth-year coursework with postgraduate entrance requirements.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "accreditation-check-for-pg",
+      "heading": "Start by confirming your UG degree’s postgraduate eligibility",
+      "paragraphs": [
+        "Many public State Agricultural Universities and the central ICAR AIEEA-PG counselling process stipulate that applicants must graduate from an ICAR-accredited programme or institution. Before or during your undergraduate studies, verify your institution’s status in [how to check ICAR accreditation for an agriculture programme](/articles/icar-accreditation-how-to-check).",
+        "Students can also explore postgraduate programmes directly at researched universities offering [M.Sc. Agronomy](/msc-agronomy) and allied specialisations, including [Lovely Professional University](/university/lovely-professional-university), [Siksha ‘O’ Anusandhan](/university/siksha-o-anusandhan), [Centurion University of Technology and Management, Odisha](/university/centurion-university-of-technology-and-management), [ITM University, Gwalior](/university/itm-university-gwalior) and [Tilak Dhari P.G. College, Jaunpur](/university/tilak-dhari-pg-college)."
+      ]
+    },
+    {
+      "id": "choosing-your-subject-group",
+      "heading": "Aligning major subject groups with your thesis interest",
+      "paragraphs": [
+        "Postgraduate entrance tests group closely related disciplines (such as Plant Sciences, Physical Science/Soil Science, Agronomy, Entomology & Nematology, and Social Sciences). Read [choosing an M.Sc. Agriculture specialisation](/articles/msc-agriculture-specialisations) to compare qualifying degrees and research focus before your seventh-semester RAWE attachment."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is M.Sc. Agronomy a two-year thesis-based programme?",
+      "answer": "Yes. Across ICAR-aligned universities, M.Sc. Agriculture (Agronomy) is a four-semester (two-year) postgraduate degree combining advanced coursework, field trials and a research dissertation."
+    },
+    {
+      "question": "Can a 3-year general B.Sc. graduate apply for M.Sc. Agriculture at all universities?",
+      "answer": "Many SAUs and ICAR-aligned programmes specifically require a 4-year B.Sc. (Hons.) Agriculture or allied degree. Always check the target university’s postgraduate eligibility table."
+    }
+  ],
+  "related_institution_ids": [
+    21,
+    23,
+    24,
+    26,
+    28,
+    29,
+    30,
+    31,
+    34,
+    35,
+    37,
+    38,
+    40,
+    42,
+    43,
+    50,
+    55,
+    58
+  ],
+  "related_topic_ids": [
+    "msc-pathways",
+    "icar-check",
+    "career-choice"
+  ],
+  "sources": [
+    {
+      "id": "soa-msc-2026",
+      "title": "Siksha ‘O’ Anusandhan M.Sc. Agriculture eligibility criteria 2026",
+      "url": "https://www.admission.soa.ac.in/agriculture-2026",
+      "checked_on": "2026-10-30",
+      "note": "Documented postgraduate eligibility requirements for M.Sc. Agriculture disciplines."
+    }
+  ],
+  "verification_notes": [
+    "Links undergraduate accreditation verification with M.Sc. Agriculture specialisation planning."
+  ]
+}

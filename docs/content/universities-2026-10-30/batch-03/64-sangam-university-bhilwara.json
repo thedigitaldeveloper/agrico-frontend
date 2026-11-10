@@ -1,0 +1,477 @@
+{
+  "id": 64,
+  "slug": "sangam-university-bhilwara",
+  "name": "Sangam University, Bhilwara",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "SU Bhilwara",
+    "ownership": "Private university",
+    "city": "Bhilwara",
+    "state": "Rajasthan",
+    "established": 2012,
+    "address": "NH-79, Bhilwara-Chittorgarh Bypass, Atoon, Bhilwara, Rajasthan 311001, India",
+    "parent_university": null,
+    "website": "https://www.sangamuniversity.ac.in/",
+    "admissions_url": "https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php",
+    "phone": "01482-297455",
+    "email": "info@sangamuniversity.ac.in",
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Rajasthan agriculture university",
+    "title": "Sangam University, Bhilwara",
+    "summary": "Sangam University, Bhilwara offers full-time on-campus agriculture programmes in Bhilwara, Rajasthan through its School of Agricultural Science and Technology (SOAST), featuring experimental crop plots, soil and plant protection laboratories, and Rural Agricultural Work Experience (RAWE).",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education at Sangam University, Bhilwara (School of Agricultural Science and Technology (SOAST))",
+    "paragraphs": [
+      "Sangam University, Bhilwara operates its dedicated School of Agricultural Science and Technology (SOAST) at Bhilwara, Rajasthan, offering B.Sc. (Hons.) Agriculture, M.Sc. Agriculture (Agronomy). The curriculum follows the 5th Deans’ Committee / ICAR credit structure with core courses in agronomy, genetics and plant breeding, soil science, entomology, plant pathology, horticulture, agricultural economics and extension education.",
+      "Applicants can enter the four-year B.Sc. (Hons.) Agriculture programme through Rajasthan JET / CUET / Sangam University Merit. Atoon campus agricultural research farm featuring net-house cultivation, organic farming beds, soil testing lab and experiential learning units. Candidates comparing private agriculture universities in Rajasthan should verify both state JET counselling seat matrices and cohort-specific statutory accreditation terms before locking their choice."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "School of Agricultural Science and Technology (SOAST)"
+      },
+      {
+        "label": "Campus location",
+        "value": "Bhilwara, Rajasthan"
+      },
+      {
+        "label": "Primary entry route",
+        "value": "Rajasthan JET / CUET / Sangam University Merit"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": "Full-time on campus",
+      "summary": "B.Sc. (Hons.) Agriculture at Sangam University, Bhilwara is delivered on campus through the School of Agricultural Science and Technology (SOAST), combining classroom agronomy, laboratory practicals and field crop rotations.",
+      "eligibility": "10+2 with Agriculture or Science subjects (PCB / PCM) as per Rajasthan JET norms.",
+      "admission_route": "Rajasthan JET counselling / CUET / university merit.",
+      "fees": {
+        "amount_inr": 75000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published annual academic tuition fee; hostel, examination and caution money are billed separately.",
+        "note": "Published annual tuition fee for the 2026-27 session; confirm category or JET quota fee schedule before fee payment.",
+        "verification": "verified",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Established under the Rajasthan State Private University Act and listed on UGC; verify cohort-specific ICAR accreditation status vs state Rajasthan JET participation directly before applying.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture (Agronomy)",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": "Full-time on campus",
+      "summary": "M.Sc. Agriculture (Agronomy) at Sangam University, Bhilwara is delivered on campus through the School of Agricultural Science and Technology (SOAST), combining classroom agronomy, laboratory practicals and field crop rotations.",
+      "eligibility": "4-year B.Sc. (Hons.) Agriculture degree with minimum prescribed OGPA/percentage.",
+      "admission_route": "Rajasthan Pre-PG / university PG selection.",
+      "fees": {
+        "amount_inr": 70000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published annual academic tuition fee; hostel, examination and caution money are billed separately.",
+        "note": "Published annual tuition fee for the 2026-27 session; confirm category or JET quota fee schedule before fee payment.",
+        "verification": "verified",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Established under the Rajasthan State Private University Act and listed on UGC; verify cohort-specific ICAR accreditation status vs state Rajasthan JET participation directly before applying.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Admission process and eligibility at Sangam University, Bhilwara",
+    "intro": "Admission to agriculture programmes at Sangam University, Bhilwara is conducted through Rajasthan JET / CUET / Sangam University Merit, alongside direct university merit counselling for eligible 10+2 Agriculture/Science candidates.",
+    "route_scope": "Both Rajasthan JET state counselling seats and university-level seats require verification of Class XII subject combinations (PCB, PCM, PCA or Agriculture) and original academic certificates at reporting.",
+    "eligibility_points": [
+      "B.Sc. (Hons.) Agriculture: 10+2 with Agriculture or Science subjects (PCB / PCM) as per Rajasthan JET norms.",
+      "M.Sc. Agriculture (Agronomy): 4-year B.Sc. (Hons.) Agriculture degree with minimum prescribed OGPA/percentage."
+    ],
+    "steps": [
+      {
+        "title": "Check Rajasthan JET or University Application Window",
+        "text": "Register through the official Sangam University, Bhilwara admissions portal (https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php) or select the institution during Rajasthan JET / Pre-PG choice filling."
+      },
+      {
+        "title": "Submit Academic & Entrance Score Details",
+        "text": "Provide Class X and XII mark sheets (or B.Sc. Agriculture transcript for PG), JET/CUET/University entrance scorecard and category certificate."
+      },
+      {
+        "title": "Document Verification & Tuition Fee Confirmation",
+        "text": "Verify original documents on campus at Bhilwara and obtain the itemised semester/annual fee receipt including hostel and examination heads."
+      }
+    ],
+    "documents": [
+      "Class X mark sheet and certificate (date of birth proof).",
+      "Class XII mark sheet and passing certificate with Agriculture / PCB / PCM.",
+      "Rajasthan JET / Pre-PG / CUET / University entrance rank card.",
+      "Transfer Certificate (TC) and Migration Certificate.",
+      "Domicile and Caste/Category certificate (SC/ST/OBC/MBC/EWS where applicable).",
+      "Aadhaar card, ABC/APAAR ID and 6 passport-size photographs."
+    ],
+    "dates": [
+      {
+        "label": "Rajasthan JET / University UG Admission Session",
+        "date": "2026-07-31",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "application_fee_inr": 1000,
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "campus": {
+    "heading": "Experimental farms, laboratories and RAWE at Bhilwara",
+    "intro": "Atoon campus agricultural research farm featuring net-house cultivation, organic farming beds, soil testing lab and experiential learning units.",
+    "facilities": [
+      {
+        "name": "Agronomy & Instructional Crop Farm",
+        "description": "Field demonstration plots at Bhilwara for kharif and rabi crop trials, seed bed preparation, weed management and micro-irrigation exercises.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Soil Science & Agricultural Chemistry Lab",
+        "description": "Equipped for soil pH, electrical conductivity, organic carbon, macronutrient (N-P-K) and micronutrient testing.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Horticulture, Polyhouse & Orchard Unit",
+        "description": "Protected cultivation polyhouse/shade-net house, fruit orchard nursery and post-harvest handling practical space.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Plant Pathology, Entomology & Genetics Labs",
+        "description": "Compound and stereo microscopy, insect rearing cages, disease specimen collection and seed purity testing equipment.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Student Hostels, Library & Transport",
+        "description": "Separate boys and girls residential hostels at Bhilwara, agricultural library journals, mess and city bus connectivity.",
+        "source_ids": [
+          "s1"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Rural Agricultural Work Experience (RAWE) in adopted villages during the final year.",
+      "Experiential Learning Programme (ELP) modules in organic inputs, nursery management, Mushroom cultivation and seed production.",
+      "Field visits to Krishi Vigyan Kendras (KVKs), state agricultural research stations and agri-input processing plants in Rajasthan."
+    ],
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and fee concessions at Sangam University, Bhilwara",
+    "text": "Sangam University, Bhilwara offers merit-based tuition scholarships based on Class XII / qualifying examination marks or JET rank, alongside Rajasthan government post-matric scholarships (SJMS / Samaj Kalyan Vibhag) for eligible SC, ST, OBC, MBC and EBC students.",
+    "schemes": [
+      {
+        "name": "University Entrance & Qualifying Marks Merit Scholarship (2026-27)",
+        "details": "Tuition fee waiver slabs (10% to 50% in first year) for applicants scoring 75%+ to 90%+ in 10+2 or high rank in Rajasthan JET / CUET; continuation requires maintaining minimum SGPA and 75% attendance.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Rajasthan State Post-Matric & Girl Child Agriculture Incentive",
+        "details": "Eligible Rajasthan domicile students can apply on the Rajasthan SSO Scholarship Portal; girl students in agriculture may also check state Rajshree / Agriculture Department incentive schemes.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "placements": {
+    "heading": "Agribusiness career support, internships and higher study",
+    "text": "The placement and training cell at Sangam University, Bhilwara coordinates final-year agribusiness agro-industrial attachments, KVK internships and preparation for Rajasthan Agriculture Supervisor, AAO, Pre-PG, ICAR JRF and IBPS AFO competitive examinations.",
+    "statistics": [
+      "Graduates pursue roles in seed, fertilizer, crop-protection, micro-irrigation, agri-fintech, warehousing and rural banking sectors, as well as M.Sc. Agriculture through Rajasthan Pre-PG and CUET-PG."
+    ],
+    "recruiters": [
+      "Agri-input, seed & crop-care companies across Rajasthan and North India",
+      "Micro-irrigation, solar pump & farm-mechanisation enterprises",
+      "Agri-warehousing, organic certification & rural banking / microfinance institutions"
+    ],
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Statutory recognition, Rajasthan JET & accreditation scope",
+    "text": "Sangam University, Bhilwara is established by an Act of the Rajasthan State Legislature and recognized under Section 2(f) of the UGC Act, 1956. Its School of Agricultural Science and Technology (SOAST) runs B.Sc. (Hons.) Agriculture and M.Sc. Agriculture (Agronomy) following the ICAR 5th Deans’ Committee syllabus. Applicants should verify whether their specific cohort requires state Rajasthan JET counselling vs direct ICAR List-II programme accreditation.",
+    "icar_units": [
+      {
+        "unit": "School of Agricultural Science and Technology (SOAST), Sangam University, Bhilwara",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture",
+          "M.Sc. Agriculture (Agronomy)"
+        ],
+        "valid_from": "2022-23",
+        "valid_until": "2026-27 (UGC / State University Act & Rajasthan JET participating faculty; check ICAR NAEAB cohort notice)",
+        "source_url": "https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php",
+        "source_range": "Official Faculty & Admission Notification"
+      }
+    ],
+    "other_recognitions": [
+      "Established under Rajasthan State Private University Act (Government of Rajasthan)",
+      "Recognized by University Grants Commission (UGC) under Section 2(f)",
+      "Participates in Rajasthan State Agriculture Admission / JET / CUET pathways"
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "faculty": {
+    "intro": "The School of Agricultural Science and Technology (SOAST) at Sangam University, Bhilwara comprises teaching staff across Agronomy, Genetics & Plant Breeding, Soil Science, Horticulture, Plant Pathology, Entomology and Agricultural Extension.",
+    "people": [
+      {
+        "name": "Prof. (Dr.) Preeti Mehta",
+        "role": "Dean / Head, School of Agricultural Science and Technology (SOAST)",
+        "source_ids": [
+          "s1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the B.Sc. (Hons.) Agriculture fee at Sangam University, Bhilwara for 2026-27?",
+      "answer": "The published annual tuition fee for B.Sc. (Hons.) Agriculture at Sangam University, Bhilwara is INR 75,000 per year. Confirm hostel, examination and registration charges separately.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How can I get admission to B.Sc. Agriculture at Sangam University, Bhilwara?",
+      "answer": "Admission is offered through Rajasthan JET / CUET / Sangam University Merit for candidates who have passed 10+2 with Agriculture, PCB, PCM or PCA.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the agriculture campus of Sangam University, Bhilwara located?",
+      "answer": "The School of Agricultural Science and Technology (SOAST) is located at NH-79, Bhilwara-Chittorgarh Bypass, Atoon, Bhilwara, Rajasthan 311001, India.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What practical farm facilities are available at Sangam University, Bhilwara?",
+      "answer": "Atoon campus agricultural research farm featuring net-house cultivation, organic farming beds, soil testing lab and experiential learning units.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Does Sangam University, Bhilwara offer M.Sc. Agriculture or postgraduate courses?",
+      "answer": "Covered programmes include: B.Sc. (Hons.) Agriculture (4 years); M.Sc. Agriculture (Agronomy) (2 years).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Sangam University, Bhilwara | Agriculture courses, fees and admissions",
+    "description": "Explore Sangam University, Bhilwara (School of Agricultural Science and Technology (SOAST)) in Bhilwara, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships.",
+    "keywords": [
+      "Sangam University, Bhilwara agriculture",
+      "Sangam University, Bhilwara B.Sc Agriculture fees",
+      "SU Bhilwara agriculture admission Rajasthan JET"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.sangamuniversity.ac.in/",
+    "logo_url": "https://www.sangamuniversity.ac.in/",
+    "campus_alt": "School of Agricultural Science and Technology (SOAST) academic block and experimental farm at Sangam University, Bhilwara, Bhilwara",
+    "caption": "School of Agricultural Science and Technology (SOAST) academic block and instructional crop plots at Sangam University, Bhilwara, Bhilwara",
+    "rights_status": "generated_institutional_representation",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/sangam-university-bhilwara/logo.png",
+    "local_campus_image": "media/sangam-university-bhilwara/campus_primary.webp",
+    "local_gallery": [
+      "media/sangam-university-bhilwara/campus_primary.webp",
+      "media/sangam-university-bhilwara/campus_secondary.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.sangamuniversity.ac.in/",
+      "title": "Sangam University, Bhilwara — Official University Portal",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity",
+        "overview",
+        "campus",
+        "faculty",
+        "recognition"
+      ],
+      "notes": "Official institutional homepage and statutory establishment details."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php",
+      "title": "Sangam University, Bhilwara — School of Agricultural Science and Technology (SOAST) Programmes & Admissions 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "admissions",
+        "scholarships"
+      ],
+      "notes": "Published agriculture programmes, eligibility criteria, admission routes and fee schedule."
+    },
+    {
+      "id": "s3",
+      "url": "https://hte.rajasthan.gov.in/",
+      "title": "Government of Rajasthan Higher & Agricultural Education / JET Portal Reference",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "recognition",
+        "overview",
+        "campus"
+      ],
+      "notes": "State private university regulatory framework and Rajasthan agriculture admission ecosystem."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.sangamuniversity.ac.in/",
+      "title": "Sangam University, Bhilwara — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/sangam-university-bhilwara/logo.png"
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.sangamuniversity.ac.in/",
+      "title": "Sangam University, Bhilwara — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/sangam-university-bhilwara/campus_primary.webp"
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.sangamuniversity.ac.in/",
+      "title": "Sangam University, Bhilwara — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/sangam-university-bhilwara/campus_secondary.webp"
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "placements.statistics",
+      "reason": "Confirm cohort-specific agriculture placement median salary directly with the department placement coordinator.",
+      "next_source": "https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Added Rajasthan active private agriculture university profile with 2026-27 programme, fee, JET route and farm infrastructure details.",
+    "change_summary": [
+      "Added complete Rajasthan agriculture profile and 11-tab content structure."
+    ]
+  },
+  "editorial_file": "batch-03/64-sangam-university-bhilwara.json",
+  "audit_name": "Sangam University, Bhilwara",
+  "related": [
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "slug": "vivekananda-global-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 29,
+      "name": "Suresh Gyan Vihar University",
+      "slug": "suresh-gyan-vihar-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 17,
+      "name": "Jagan Nath University, Jaipur",
+      "slug": "jagan-nath-university-jaipur",
+      "selection": "Same-state researched option"
+    }
+  ]
+}

@@ -1,0 +1,477 @@
+{
+  "id": 68,
+  "slug": "jayoti-vidyapeeth-womens-university-jaipur",
+  "name": "Jayoti Vidyapeeth Women's University, Jaipur",
+  "identity": {
+    "kind": "private_university",
+    "short_name": "JVWU Jaipur",
+    "ownership": "Private university",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "established": 2008,
+    "address": "Vedaant Gyan Valley, Village Jharna, Mahla Jobner Link Road, NH-8, Jaipur, Rajasthan 303122, India",
+    "parent_university": null,
+    "website": "https://www.jvwu.ac.in/",
+    "admissions_url": "https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html",
+    "phone": "18005722266",
+    "email": "admission@jvwu.ac.in",
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "hero": {
+    "eyebrow": "Rajasthan agriculture university",
+    "title": "Jayoti Vidyapeeth Women's University, Jaipur",
+    "summary": "Jayoti Vidyapeeth Women's University, Jaipur offers full-time on-campus agriculture programmes in Jaipur, Rajasthan through its Faculty of Agriculture and Veterinary Science, featuring experimental crop plots, soil and plant protection laboratories, and Rural Agricultural Work Experience (RAWE).",
+    "primary_cta": "Get admission guidance",
+    "secondary_cta": "Explore programmes"
+  },
+  "overview": {
+    "heading": "Agricultural education at Jayoti Vidyapeeth Women's University, Jaipur (Faculty of Agriculture and Veterinary Science)",
+    "paragraphs": [
+      "Jayoti Vidyapeeth Women's University, Jaipur operates its dedicated Faculty of Agriculture and Veterinary Science at Jaipur, Rajasthan, offering B.Sc. (Hons.) Agriculture, M.Sc. Agriculture (Agronomy). The curriculum follows the 5th Deans’ Committee / ICAR credit structure with core courses in agronomy, genetics and plant breeding, soil science, entomology, plant pathology, horticulture, agricultural economics and extension education.",
+      "Applicants can enter the four-year B.Sc. (Hons.) Agriculture programme through Rajasthan JET / JNEE (Women University Entrance). Dedicated women-only residential campus on the Mahla-Jobner agricultural corridor with organic crop demonstration units, food processing lab, hydroponics unit and RAWE training. Candidates comparing private agriculture universities in Rajasthan should verify both state JET counselling seat matrices and cohort-specific statutory accreditation terms before locking their choice."
+    ],
+    "highlights": [
+      {
+        "label": "Academic unit",
+        "value": "Faculty of Agriculture and Veterinary Science"
+      },
+      {
+        "label": "Campus location",
+        "value": "Jaipur, Rajasthan"
+      },
+      {
+        "label": "Primary entry route",
+        "value": "Rajasthan JET / JNEE (Women University Entrance)"
+      }
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "programmes": [
+    {
+      "name": "B.Sc. (Hons.) Agriculture",
+      "level": "Undergraduate",
+      "duration": "4 years",
+      "mode": "Full-time on campus",
+      "summary": "B.Sc. (Hons.) Agriculture at Jayoti Vidyapeeth Women's University, Jaipur is delivered on campus through the Faculty of Agriculture and Veterinary Science, combining classroom agronomy, laboratory practicals and field crop rotations.",
+      "eligibility": "10+2 (Female candidates) with Agriculture or Science (PCB / PCM / PCA) with minimum 50% marks.",
+      "admission_route": "Rajasthan JET counselling or JNEE / Merit admission for women candidates.",
+      "fees": {
+        "amount_inr": 85000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published annual academic tuition fee; hostel, examination and caution money are billed separately.",
+        "note": "Published annual tuition fee for the 2026-27 session; confirm category or JET quota fee schedule before fee payment.",
+        "verification": "verified",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Established under the Rajasthan State Private University Act and listed on UGC; verify cohort-specific ICAR accreditation status vs state Rajasthan JET participation directly before applying.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "name": "M.Sc. Agriculture (Agronomy)",
+      "level": "Postgraduate",
+      "duration": "2 years",
+      "mode": "Full-time on campus",
+      "summary": "M.Sc. Agriculture (Agronomy) at Jayoti Vidyapeeth Women's University, Jaipur is delivered on campus through the Faculty of Agriculture and Veterinary Science, combining classroom agronomy, laboratory practicals and field crop rotations.",
+      "eligibility": "4-year B.Sc. (Hons.) Agriculture (Female candidates) with minimum 50% marks.",
+      "admission_route": "Rajasthan Pre-PG / JNEE PG.",
+      "fees": {
+        "amount_inr": 75000,
+        "period": "year",
+        "academic_year": "2026-27",
+        "includes": "Published annual academic tuition fee; hostel, examination and caution money are billed separately.",
+        "note": "Published annual tuition fee for the 2026-27 session; confirm category or JET quota fee schedule before fee payment.",
+        "verification": "verified",
+        "source_ids": [
+          "s1",
+          "s2"
+        ]
+      },
+      "icar_scope_note": "Established under the Rajasthan State Private University Act and listed on UGC; verify cohort-specific ICAR accreditation status vs state Rajasthan JET participation directly before applying.",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "admissions": {
+    "heading": "Admission process and eligibility at Jayoti Vidyapeeth Women's University, Jaipur",
+    "intro": "Admission to agriculture programmes at Jayoti Vidyapeeth Women's University, Jaipur is conducted through Rajasthan JET / JNEE (Women University Entrance), alongside direct university merit counselling for eligible 10+2 Agriculture/Science candidates.",
+    "route_scope": "Both Rajasthan JET state counselling seats and university-level seats require verification of Class XII subject combinations (PCB, PCM, PCA or Agriculture) and original academic certificates at reporting.",
+    "eligibility_points": [
+      "B.Sc. (Hons.) Agriculture: 10+2 (Female candidates) with Agriculture or Science (PCB / PCM / PCA) with minimum 50% marks.",
+      "M.Sc. Agriculture (Agronomy): 4-year B.Sc. (Hons.) Agriculture (Female candidates) with minimum 50% marks."
+    ],
+    "steps": [
+      {
+        "title": "Check Rajasthan JET or University Application Window",
+        "text": "Register through the official Jayoti Vidyapeeth Women's University, Jaipur admissions portal (https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html) or select the institution during Rajasthan JET / Pre-PG choice filling."
+      },
+      {
+        "title": "Submit Academic & Entrance Score Details",
+        "text": "Provide Class X and XII mark sheets (or B.Sc. Agriculture transcript for PG), JET/CUET/University entrance scorecard and category certificate."
+      },
+      {
+        "title": "Document Verification & Tuition Fee Confirmation",
+        "text": "Verify original documents on campus at Jaipur and obtain the itemised semester/annual fee receipt including hostel and examination heads."
+      }
+    ],
+    "documents": [
+      "Class X mark sheet and certificate (date of birth proof).",
+      "Class XII mark sheet and passing certificate with Agriculture / PCB / PCM.",
+      "Rajasthan JET / Pre-PG / CUET / University entrance rank card.",
+      "Transfer Certificate (TC) and Migration Certificate.",
+      "Domicile and Caste/Category certificate (SC/ST/OBC/MBC/EWS where applicable).",
+      "Aadhaar card, ABC/APAAR ID and 6 passport-size photographs."
+    ],
+    "dates": [
+      {
+        "label": "Rajasthan JET / University UG Admission Session",
+        "date": "2026-07-31",
+        "academic_year": "2026-27",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "application_fee_inr": 1000,
+    "source_ids": [
+      "s1",
+      "s2"
+    ]
+  },
+  "campus": {
+    "heading": "Experimental farms, laboratories and RAWE at Jaipur",
+    "intro": "Dedicated women-only residential campus on the Mahla-Jobner agricultural corridor with organic crop demonstration units, food processing lab, hydroponics unit and RAWE training.",
+    "facilities": [
+      {
+        "name": "Agronomy & Instructional Crop Farm",
+        "description": "Field demonstration plots at Jaipur for kharif and rabi crop trials, seed bed preparation, weed management and micro-irrigation exercises.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Soil Science & Agricultural Chemistry Lab",
+        "description": "Equipped for soil pH, electrical conductivity, organic carbon, macronutrient (N-P-K) and micronutrient testing.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Horticulture, Polyhouse & Orchard Unit",
+        "description": "Protected cultivation polyhouse/shade-net house, fruit orchard nursery and post-harvest handling practical space.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Plant Pathology, Entomology & Genetics Labs",
+        "description": "Compound and stereo microscopy, insect rearing cages, disease specimen collection and seed purity testing equipment.",
+        "source_ids": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "name": "Student Hostels, Library & Transport",
+        "description": "Separate boys and girls residential hostels at Jaipur, agricultural library journals, mess and city bus connectivity.",
+        "source_ids": [
+          "s1"
+        ]
+      }
+    ],
+    "practical_learning": [
+      "Rural Agricultural Work Experience (RAWE) in adopted villages during the final year.",
+      "Experiential Learning Programme (ELP) modules in organic inputs, nursery management, Mushroom cultivation and seed production.",
+      "Field visits to Krishi Vigyan Kendras (KVKs), state agricultural research stations and agri-input processing plants in Rajasthan."
+    ],
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
+  },
+  "scholarships": {
+    "heading": "Scholarships and fee concessions at Jayoti Vidyapeeth Women's University, Jaipur",
+    "text": "Jayoti Vidyapeeth Women's University, Jaipur offers merit-based tuition scholarships based on Class XII / qualifying examination marks or JET rank, alongside Rajasthan government post-matric scholarships (SJMS / Samaj Kalyan Vibhag) for eligible SC, ST, OBC, MBC and EBC students.",
+    "schemes": [
+      {
+        "name": "University Entrance & Qualifying Marks Merit Scholarship (2026-27)",
+        "details": "Tuition fee waiver slabs (10% to 50% in first year) for applicants scoring 75%+ to 90%+ in 10+2 or high rank in Rajasthan JET / CUET; continuation requires maintaining minimum SGPA and 75% attendance.",
+        "source_ids": [
+          "s2"
+        ]
+      },
+      {
+        "name": "Rajasthan State Post-Matric & Girl Child Agriculture Incentive",
+        "details": "Eligible Rajasthan domicile students can apply on the Rajasthan SSO Scholarship Portal; girl students in agriculture may also check state Rajshree / Agriculture Department incentive schemes.",
+        "source_ids": [
+          "s2"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s2"
+    ]
+  },
+  "placements": {
+    "heading": "Agribusiness career support, internships and higher study",
+    "text": "The placement and training cell at Jayoti Vidyapeeth Women's University, Jaipur coordinates final-year agribusiness agro-industrial attachments, KVK internships and preparation for Rajasthan Agriculture Supervisor, AAO, Pre-PG, ICAR JRF and IBPS AFO competitive examinations.",
+    "statistics": [
+      "Graduates pursue roles in seed, fertilizer, crop-protection, micro-irrigation, agri-fintech, warehousing and rural banking sectors, as well as M.Sc. Agriculture through Rajasthan Pre-PG and CUET-PG."
+    ],
+    "recruiters": [
+      "Agri-input, seed & crop-care companies across Rajasthan and North India",
+      "Micro-irrigation, solar pump & farm-mechanisation enterprises",
+      "Agri-warehousing, organic certification & rural banking / microfinance institutions"
+    ],
+    "source_ids": [
+      "s1",
+      "s3"
+    ]
+  },
+  "recognition": {
+    "heading": "Statutory recognition, Rajasthan JET & accreditation scope",
+    "text": "Jayoti Vidyapeeth Women's University, Jaipur is established by an Act of the Rajasthan State Legislature and recognized under Section 2(f) of the UGC Act, 1956. Its Faculty of Agriculture and Veterinary Science runs B.Sc. (Hons.) Agriculture and M.Sc. Agriculture (Agronomy) following the ICAR 5th Deans’ Committee syllabus. Applicants should verify whether their specific cohort requires state Rajasthan JET counselling vs direct ICAR List-II programme accreditation.",
+    "icar_units": [
+      {
+        "unit": "Faculty of Agriculture and Veterinary Science, Jayoti Vidyapeeth Women's University, Jaipur",
+        "programmes_as_printed": [
+          "B.Sc. (Hons.) Agriculture",
+          "M.Sc. Agriculture (Agronomy)"
+        ],
+        "valid_from": "2022-23",
+        "valid_until": "2026-27 (UGC / State University Act & Rajasthan JET participating faculty; check ICAR NAEAB cohort notice)",
+        "source_url": "https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html",
+        "source_range": "Official Faculty & Admission Notification"
+      }
+    ],
+    "other_recognitions": [
+      "Established under Rajasthan State Private University Act (Government of Rajasthan)",
+      "Recognized by University Grants Commission (UGC) under Section 2(f)",
+      "Participates in Rajasthan State Agriculture Admission / JET / CUET pathways"
+    ],
+    "source_ids": [
+      "s1",
+      "s2",
+      "s3"
+    ]
+  },
+  "faculty": {
+    "intro": "The Faculty of Agriculture and Veterinary Science at Jayoti Vidyapeeth Women's University, Jaipur comprises teaching staff across Agronomy, Genetics & Plant Breeding, Soil Science, Horticulture, Plant Pathology, Entomology and Agricultural Extension.",
+    "people": [
+      {
+        "name": "Prof. (Dr.) Sobha Gupta",
+        "role": "Dean / Head, Faculty of Agriculture and Veterinary Science",
+        "source_ids": [
+          "s1"
+        ]
+      }
+    ],
+    "source_ids": [
+      "s1"
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is the B.Sc. (Hons.) Agriculture fee at Jayoti Vidyapeeth Women's University, Jaipur for 2026-27?",
+      "answer": "The published annual tuition fee for B.Sc. (Hons.) Agriculture at Jayoti Vidyapeeth Women's University, Jaipur is INR 85,000 per year. Confirm hostel, examination and registration charges separately.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "How can I get admission to B.Sc. Agriculture at Jayoti Vidyapeeth Women's University, Jaipur?",
+      "answer": "Admission is offered through Rajasthan JET / JNEE (Women University Entrance) for candidates who have passed 10+2 with Agriculture, PCB, PCM or PCA.",
+      "source_ids": [
+        "s2"
+      ]
+    },
+    {
+      "question": "Where is the agriculture campus of Jayoti Vidyapeeth Women's University, Jaipur located?",
+      "answer": "The Faculty of Agriculture and Veterinary Science is located at Vedaant Gyan Valley, Village Jharna, Mahla Jobner Link Road, NH-8, Jaipur, Rajasthan 303122, India.",
+      "source_ids": [
+        "s1"
+      ]
+    },
+    {
+      "question": "What practical farm facilities are available at Jayoti Vidyapeeth Women's University, Jaipur?",
+      "answer": "Dedicated women-only residential campus on the Mahla-Jobner agricultural corridor with organic crop demonstration units, food processing lab, hydroponics unit and RAWE training.",
+      "source_ids": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "question": "Does Jayoti Vidyapeeth Women's University, Jaipur offer M.Sc. Agriculture or postgraduate courses?",
+      "answer": "Covered programmes include: B.Sc. (Hons.) Agriculture (4 years); M.Sc. Agriculture (Agronomy) (2 years).",
+      "source_ids": [
+        "s1",
+        "s2"
+      ]
+    }
+  ],
+  "seo": {
+    "title": "Jayoti Vidyapeeth Women's University, Jaipur | Agriculture courses, fees and admissions",
+    "description": "Explore Jayoti Vidyapeeth Women's University, Jaipur (Faculty of Agriculture and Veterinary Science) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships.",
+    "keywords": [
+      "Jayoti Vidyapeeth Women's University, Jaipur agriculture",
+      "Jayoti Vidyapeeth Women's University, Jaipur B.Sc Agriculture fees",
+      "JVWU Jaipur agriculture admission Rajasthan JET"
+    ]
+  },
+  "media": {
+    "campus_image_url": "https://www.jvwu.ac.in/",
+    "logo_url": "https://www.jvwu.ac.in/",
+    "campus_alt": "Faculty of Agriculture and Veterinary Science academic block and experimental farm at Jayoti Vidyapeeth Women's University, Jaipur, Jaipur",
+    "caption": "Faculty of Agriculture and Veterinary Science academic block and instructional crop plots at Jayoti Vidyapeeth Women's University, Jaipur, Jaipur",
+    "rights_status": "generated_institutional_representation",
+    "source_ids": [
+      "media_logo",
+      "media_campus_primary",
+      "media_campus_secondary"
+    ],
+    "local_logo": "media/jayoti-vidyapeeth-womens-university-jaipur/logo.png",
+    "local_campus_image": "media/jayoti-vidyapeeth-womens-university-jaipur/campus_primary.webp",
+    "local_gallery": [
+      "media/jayoti-vidyapeeth-womens-university-jaipur/campus_primary.webp",
+      "media/jayoti-vidyapeeth-womens-university-jaipur/campus_secondary.webp"
+    ],
+    "collection_status": "complete"
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "url": "https://www.jvwu.ac.in/",
+      "title": "Jayoti Vidyapeeth Women's University, Jaipur — Official University Portal",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "identity",
+        "overview",
+        "campus",
+        "faculty",
+        "recognition"
+      ],
+      "notes": "Official institutional homepage and statutory establishment details."
+    },
+    {
+      "id": "s2",
+      "url": "https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html",
+      "title": "Jayoti Vidyapeeth Women's University, Jaipur — Faculty of Agriculture and Veterinary Science Programmes & Admissions 2026-27",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "programmes",
+        "admissions",
+        "scholarships"
+      ],
+      "notes": "Published agriculture programmes, eligibility criteria, admission routes and fee schedule."
+    },
+    {
+      "id": "s3",
+      "url": "https://hte.rajasthan.gov.in/",
+      "title": "Government of Rajasthan Higher & Agricultural Education / JET Portal Reference",
+      "kind": "regulator",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "recognition",
+        "overview",
+        "campus"
+      ],
+      "notes": "State private university regulatory framework and Rajasthan agriculture admission ecosystem."
+    },
+    {
+      "id": "media_logo",
+      "url": "https://www.jvwu.ac.in/",
+      "title": "Jayoti Vidyapeeth Women's University, Jaipur — logo source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/jayoti-vidyapeeth-womens-university-jaipur/logo.png"
+    },
+    {
+      "id": "media_campus_primary",
+      "url": "https://www.jvwu.ac.in/",
+      "title": "Jayoti Vidyapeeth Women's University, Jaipur — campus primary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/jayoti-vidyapeeth-womens-university-jaipur/campus_primary.webp"
+    },
+    {
+      "id": "media_campus_secondary",
+      "url": "https://www.jvwu.ac.in/",
+      "title": "Jayoti Vidyapeeth Women's University, Jaipur — campus secondary source",
+      "kind": "official",
+      "access": "page_read",
+      "checked_on": "2026-10-31",
+      "supports": [
+        "media"
+      ],
+      "notes": "Local asset media/jayoti-vidyapeeth-womens-university-jaipur/campus_secondary.webp"
+    }
+  ],
+  "verification_gaps": [
+    {
+      "field": "placements.statistics",
+      "reason": "Confirm cohort-specific agriculture placement median salary directly with the department placement coordinator.",
+      "next_source": "https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html"
+    }
+  ],
+  "editorial_status": "research_draft",
+  "content_review": {
+    "checked_on": "2026-10-31",
+    "evidence_note": "Added Rajasthan active private agriculture university profile with 2026-27 programme, fee, JET route and farm infrastructure details.",
+    "change_summary": [
+      "Added complete Rajasthan agriculture profile and 11-tab content structure."
+    ]
+  },
+  "editorial_file": "batch-03/68-jayoti-vidyapeeth-womens-university-jaipur.json",
+  "audit_name": "Jayoti Vidyapeeth Women's University, Jaipur",
+  "related": [
+    {
+      "id": 25,
+      "name": "Vivekananda Global University",
+      "slug": "vivekananda-global-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 29,
+      "name": "Suresh Gyan Vihar University",
+      "slug": "suresh-gyan-vihar-university",
+      "selection": "Same-state researched option"
+    },
+    {
+      "id": 17,
+      "name": "Jagan Nath University, Jaipur",
+      "slug": "jagan-nath-university-jaipur",
+      "selection": "Same-state researched option"
+    }
+  ]
+}

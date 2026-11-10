@@ -1,0 +1,80 @@
+{
+  "id": "rawe-field-training-checklist-blog",
+  "cms_type": "Blog",
+  "slug": "evaluating-instructional-farms-and-rawe-training-before-joining-bsc-agriculture",
+  "title": "Evaluating instructional farms, polyhouses and RAWE training before joining B.Sc. Agriculture",
+  "description": "Use this practical field-learning checklist to evaluate crop plots, soil labs, livestock units and Final Year RAWE/ELP modules at any agriculture college.",
+  "summary": "B.Sc. (Hons.) Agriculture is an applied field science. Before choosing a campus, verify how students use instructional farms, soil and plant-pathology laboratories, and final-year RAWE/ELP placements week by week.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "beyond-brochure-photos",
+      "heading": "Look past brochure photographs to weekly plot allocation",
+      "paragraphs": [
+        "Nearly every agriculture brochure shows green fields and greenhouse structures. What matters for your learning is whether first-, second- and third-year undergraduates are assigned individual or small-group crop plots for sowing, irrigation, pest scouting and harvesting.",
+        "Compare documented facilities at institutions such as [Centurion University of Technology and Management, Odisha](/university/centurion-university-of-technology-and-management), [AKS University](/university/aks-university), [Karunya Institute of Technology and Sciences](/university/karunya-institute-of-technology-and-sciences) and [SR University](/university/sr-university) alongside [RAWE and experiential learning in B.Sc. Agriculture](/articles/rawe-and-experiential-learning)."
+      ]
+    },
+    {
+      "id": "five-questions-for-campus-visit",
+      "heading": "Five practical-learning questions to ask the department",
+      "paragraphs": [
+        "Take these five questions to your campus visit or faculty interaction and combine them with [compare two agriculture campuses using a useful checklist](/blogs/compare-agriculture-campuses):"
+      ],
+      "bullets": [
+        "How far is the instructional farm from the main lecture halls, and how do students travel there?",
+        "Does each student receive an individual crop-production plot during agronomy and horticulture practicals?",
+        "Which Experiential Learning Programme (ELP) enterprise units—such as mushroom, seed production, bio-inputs, apiculture or food processing—operated for the latest fourth-year batch?",
+        "How are host villages and Krishi Vigyan Kendras (KVKs) assigned during the RAWE semester, and are travel or living allowances involved?",
+        "Are soil-testing, pathology and entomology laboratories equipped for hands-on undergraduate experiments?"
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the difference between RAWE and ELP in the fourth year of B.Sc. (Hons.) Agriculture?",
+      "answer": "RAWE (Rural Agricultural Work Experience) places students in villages, KVKs and agro-input centres to study real farming conditions, while ELP (Experiential Learning Programme) trains students in campus-based commercial enterprise modules."
+    },
+    {
+      "question": "Do all colleges pay a stipend during RAWE?",
+      "answer": "Stipend policies differ between State Agricultural Universities and private institutions. Never assume a RAWE stipend without checking the institution’s written academic rules."
+    }
+  ],
+  "related_institution_ids": [
+    1,
+    4,
+    8,
+    11,
+    15,
+    21,
+    26,
+    28,
+    33,
+    35,
+    36,
+    42,
+    45,
+    48,
+    53,
+    55
+  ],
+  "related_topic_ids": [
+    "rawe",
+    "campus-compare",
+    "college-questions"
+  ],
+  "sources": [
+    {
+      "id": "cutm-agri-source",
+      "title": "Centurion University School of Agriculture practical learning modules",
+      "url": "https://cutm.ac.in/department/school-of-agriculture/",
+      "checked_on": "2026-10-30",
+      "note": "Documented example of ELP and instructional farm infrastructure."
+    }
+  ],
+  "verification_notes": [
+    "Connects ICAR Deans’ Committee practical components (RAWE/ELP) with actionable student verification questions."
+  ]
+}

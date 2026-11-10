@@ -167,7 +167,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
         match: [...university.match],
       };
     });
-  }, [data?.universities, data?.universityOptions]);
+  }, [data]);
 
   const allUniversityOptions = useMemo<OfficialUniversityItem[]>(() => {
     if (data?.universityOptions && data.universityOptions.length > 0) {
@@ -187,7 +187,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       });
     }
     return officialUniversities;
-  }, [data?.universityOptions, officialUniversities]);
+  }, [data, officialUniversities]);
 
   const courseOffering = (course: AgricultureProgramme) => catalogue.find(offering => courseMatches(course, offering.degree + ' ' + offering.fullName + ' ' + offering.program));
   const [leftCourse, rightCourse] = selectedCourses;
@@ -271,6 +271,20 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     return () => { document.body.style.overflow = previous; };
   }, [dialog]);
 
+  const requestGuidance = useCallback((id?: string, sourceTitle?: string) => {
+    setDialog(current => {
+      if (current && current.type !== 'enquiry') {
+        setPreviousDialog(current);
+      }
+      return {
+        type: 'enquiry',
+        programmeId: id,
+        sourceTitle: sourceTitle || (id ? PROGRAMMES.find(p => p.id === id)?.name : undefined),
+      };
+    });
+    if (id) setInterest(id);
+  }, []);
+
   useEffect(() => {
     const handleOpenEnquiry = (event: Event) => {
       const customEvent = event as CustomEvent<{ programmeId?: string; sourceTitle?: string }>;
@@ -278,7 +292,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     };
     window.addEventListener('agrico:open-enquiry', handleOpenEnquiry);
     return () => window.removeEventListener('agrico:open-enquiry', handleOpenEnquiry);
-  }, []);
+  }, [requestGuidance]);
 
   const chooseCourse = (id: string, scroll = false) => {
     const course = PROGRAMMES.find(item => item.id === id);
@@ -309,17 +323,6 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
   const openComparison = () => {
     if (compareIds.length === 1) { setAnnouncement('Select one more programme to compare your choices.'); scrollToSection('programmes'); }
     else setDialog({ type: 'comparison' });
-  };
-  const requestGuidance = (id?: string, sourceTitle?: string) => {
-    if (dialog && dialog.type !== 'enquiry') {
-      setPreviousDialog(dialog);
-    }
-    if (id) setInterest(id);
-    setDialog({
-      type: 'enquiry',
-      programmeId: id,
-      sourceTitle: sourceTitle || (id ? PROGRAMMES.find(p => p.id === id)?.name : undefined),
-    });
   };
   const viewCourse = (course: AgricultureProgramme, className = 'ag-button') => {
     const offering = courseOffering(course);
@@ -352,7 +355,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       { category: 'Learning', title: 'Precision learning and student projects', text: 'How hands-on projects and real-world learning help students build practical skills in agriculture.', image: '/images/agrico/nursery-learning.png', alt: 'University students studying plants in a teaching greenhouse', href: '/articles' },
       { category: 'Campus insight', title: 'Exploring agricultural engineering', text: 'A closer look at how university labs and field projects help students understand real-world agricultural challenges.', image: '/images/agrico/agritech-workshop.png', alt: 'Engineering students learning with a teaching drone in a laboratory', href: '/articles' },
     ];
-  }, [data?.news, data?.articles, data?.blogs]);
+  }, [data]);
 
   // News & updates slider: native scroll-snap (swipe/trackpad) plus arrow and dot controls.
   const updatesRef = useRef<HTMLDivElement>(null);
@@ -396,14 +399,14 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       { icon: Building2, title: 'Compare universities', text: 'Look at programmes, campus life and admission details side by side.', href: '#universities' },
       { icon: UsersRound, title: 'Admission guidance', text: 'Get expert support at every step of your application journey.', href: '#guidance' },
     ];
-  }, [data?.home?.serviceLinks]);
+  }, [data]);
 
   const faqList = useMemo(() => {
     if (data?.faqs && data.faqs.length > 0) {
       return data.faqs;
     }
     return FAQS;
-  }, [data?.faqs]);
+  }, [data]);
 
   const dialogCourse = dialog?.type === 'programme' ? PROGRAMMES.find(course => course.id === dialog.id) : null;
   const dialogGuide = dialog?.type === 'guide' ? GUIDES.find(guide => guide.id === dialog.id) : null;
@@ -669,9 +672,9 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
               </div>
 
               <div className="ag-university-links">
-                <Link href={`${university.href}#courses`}>Programmes</Link>
+                <Link href={UNIVERSITY_GUIDES.some(g => `/university/${g.slug}` === university.href) ? `${university.href}#programmes` : `${university.href}/course-fee`}>Programmes</Link>
                 <Link href={university.href}>Campus profile</Link>
-                <Link href={`${university.href}#admission`}>Admissions</Link>
+                <Link href={UNIVERSITY_GUIDES.some(g => `/university/${g.slug}` === university.href) ? `${university.href}#admissions` : `${university.href}/admission-process`}>Admissions</Link>
               </div>
 
               <div className="ag-university-actions">
@@ -732,7 +735,7 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       <div><Eyebrow>Admission guidance</Eyebrow><h2 id="ag-admissions-title">Plan your admission, step by step.</h2><ol className="ag-admission-steps">{[
         { icon: BookOpen, title: 'Choose a programme', text: 'Explore degree options, understand subject areas and find the right fit for your interests.', action: () => chooseCourse('agriculture', true) },
         { icon: Building2, title: 'Compare universities', text: 'Look at curricula, campus life, facilities and admission details side by side.', action: () => scrollToSection('universities') },
-        { icon: UsersRound, title: 'Get counselling', text: 'Talk to our counsellors about your options and clarify your next steps.', action: () => requestGuidance() },
+        { icon: UsersRound, title: 'Get counselling', text: 'Talk to our counsellors about your options and clarify your next steps.', action: () => { scrollToSection('guidance'); document.getElementById('ag-full-name')?.focus(); } },
       ].map((step, index) => <li key={step.title}><span className="ag-step-number">{index + 1}</span><button className="ag-step-icon" onClick={step.action} aria-label={step.title}><step.icon size={30} strokeWidth={1.7} /></button><div><button className="ag-step-title" onClick={step.action}>{step.title}</button><p>{step.text}</p></div></li>)}</ol></div>
       <aside className="ag-question-sheet"><h3>Prepare your questions.</h3><p>Use this checklist to have a more informed conversation with universities and counsellors.</p>{[
         { icon: BookOpen, title: 'Curriculum', text: 'What subjects are covered? Can I choose electives? Is there practical learning?' },

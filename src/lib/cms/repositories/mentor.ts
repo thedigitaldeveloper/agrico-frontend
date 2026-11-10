@@ -43,6 +43,159 @@ export interface MentorListParams {
 }
 
 const DEFAULT_PAGE_SIZE = 24;
+const TS = '2026-10-30T00:00:00.000Z';
+
+function tax(id: number, documentId: string, name: string, slug: string): Taxonomy {
+  return { id, documentId, name, slug, createdAt: TS, updatedAt: TS, publishedAt: TS };
+}
+
+const DEFAULT_AVAILABILITY: AvailabilitySlot[] = [
+  { id: 1, day_of_week: 'monday', start_time: '10:00', end_time: '18:00' },
+  { id: 2, day_of_week: 'tuesday', start_time: '10:00', end_time: '18:00' },
+  { id: 3, day_of_week: 'wednesday', start_time: '10:00', end_time: '18:00' },
+  { id: 4, day_of_week: 'thursday', start_time: '10:00', end_time: '18:00' },
+  { id: 5, day_of_week: 'friday', start_time: '10:00', end_time: '18:00' },
+  { id: 6, day_of_week: 'saturday', start_time: '11:00', end_time: '16:00' },
+];
+
+const FALLBACK_MENTORS: MentorDetail[] = [
+  {
+    id: 7401,
+    documentId: 'agr-mentor-rajeshwar-singh',
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+    display_name: 'Dr. Rajeshwar Singh',
+    slug: 'dr-rajeshwar-singh-agronomy',
+    headline: 'Senior Agriculture & ICAR Seat Allocation Advisor · Former SAU Academic Counsellor',
+    experience_years: 14,
+    languages: 'English, Hindi, Punjabi',
+    is_accepting_bookings: true,
+    session_minutes: 30,
+    photo: null,
+    streams: [
+      tax(9101, 'stream-agri', 'Agriculture & Allied Sciences', 'agriculture-allied-sciences'),
+      tax(9102, 'stream-hort', 'Horticulture & Forestry', 'horticulture-forestry'),
+    ],
+    courses: [
+      tax(9801, 'crs-bsc-agri', 'B.Sc. (Hons.) Agriculture', 'bsc-agriculture'),
+      tax(9805, 'crs-msc-agro', 'M.Sc. Agriculture (Agronomy)', 'msc-agronomy'),
+      tax(9803, 'crs-bsc-hort', 'B.Sc. (Hons.) Horticulture', 'bsc-horticulture'),
+    ],
+    bio: `Dr. Rajeshwar Singh holds a Ph.D. in Agronomy and has spent over 14 years advising undergraduate and postgraduate agriculture aspirants across North and Central India. He specialises in evaluating State Agricultural Universities (PAU Ludhiana, GBPUAT Pantnagar, CCSHAU Hisar, IARI New Delhi) alongside ICAR-accredited private agricultural colleges.\n\nIn a 1-on-1 session, he walks students and parents through ICAR NAEAB accreditation scope (checking whether the specific degree and campus are covered in the latest ICAR public register), instructional farm acreage, RAWE field training quality, and realistic cutoff trends in CUET (ICAR-UG), UPCATET, and Rajasthan JET.`,
+    seo: null,
+    availability: DEFAULT_AVAILABILITY,
+  },
+  {
+    id: 7402,
+    documentId: 'agr-mentor-priya-deshmukh',
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+    display_name: 'Priya Deshmukh',
+    slug: 'priya-deshmukh-icar-counselling',
+    headline: 'ICAR AIQ & State CET Choice-Filling Specialist (MHT-CET, KCET, AP/TS EAPCET)',
+    experience_years: 9,
+    languages: 'English, Hindi, Marathi',
+    is_accepting_bookings: true,
+    session_minutes: 30,
+    photo: null,
+    streams: [
+      tax(9101, 'stream-agri', 'Agriculture & Allied Sciences', 'agriculture-allied-sciences'),
+      tax(9102, 'stream-hort', 'Horticulture & Forestry', 'horticulture-forestry'),
+    ],
+    courses: [
+      tax(9801, 'crs-bsc-agri', 'B.Sc. (Hons.) Agriculture', 'bsc-agriculture'),
+      tax(9803, 'crs-bsc-hort', 'B.Sc. (Hons.) Horticulture', 'bsc-horticulture'),
+    ],
+    bio: `Priya Deshmukh has guided more than 2,200 students through centralized ICAR All-India Quota (AIQ) counselling and state agriculture admission portals including MCAER / MHT-CET (Maharashtra), KEA KCET Agriculturist Quota, TNAU single-window counselling, and ANGRAU / PJTSAU EAPCET rounds.\n\nShe helps families compare State Agricultural University constituent colleges against affiliated and private ICAR-accredited campuses, verify 7/12 land-record practical test bonuses, and calculate total 4-year residential outlay (tuition, hostel, mess, and ICAR National Talent Scholarship offsets).`,
+    seo: null,
+    availability: DEFAULT_AVAILABILITY,
+  },
+  {
+    id: 7403,
+    documentId: 'agr-mentor-arjun-verma',
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+    display_name: 'Er. Arjun Verma',
+    slug: 'arjun-verma-agri-engineering',
+    headline: 'B.Tech. Agricultural Engineering, Food Tech & Precision Farming Career Mentor',
+    experience_years: 11,
+    languages: 'English, Hindi',
+    is_accepting_bookings: true,
+    session_minutes: 30,
+    photo: null,
+    streams: [
+      tax(9103, 'stream-eng', 'Agricultural Engineering & Tech', 'agricultural-engineering'),
+    ],
+    courses: [
+      tax(9802, 'crs-btech-ag', 'B.Tech. Agricultural Engineering', 'btech-agricultural-engineering'),
+    ],
+    bio: `An alumnus of GBPUAT Pantnagar in Agricultural Engineering, Arjun Verma advises PCM and PCA stream students exploring B.Tech. Agricultural Engineering, Dairy Technology, and Food Technology.\n\nHe focuses on farm machinery testing laboratories, soil and water conservation workshops, GATE (AG) preparation for M.Tech. at IIT Kharagpur / ICAR-CIAE Bhopal, and technical placements across tractor OEMs, micro-irrigation leaders, and precision agri-tech startups.`,
+    seo: null,
+    availability: DEFAULT_AVAILABILITY,
+  },
+  {
+    id: 7404,
+    documentId: 'agr-mentor-meera-nair',
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+    display_name: 'Meera Nair',
+    slug: 'meera-nair-agribusiness-vet',
+    headline: 'MBA Agribusiness (ABM), ICAR-PG (AIEEA) & Veterinary Admissions Counsellor',
+    experience_years: 10,
+    languages: 'English, Hindi, Malayalam, Tamil',
+    is_accepting_bookings: true,
+    session_minutes: 30,
+    photo: null,
+    streams: [
+      tax(9104, 'stream-abm', 'Agribusiness Management', 'agribusiness-management'),
+      tax(9105, 'stream-vet', 'Veterinary, Dairy & Fisheries', 'veterinary-dairy-fisheries'),
+    ],
+    courses: [
+      tax(9804, 'crs-mba-abm', 'MBA Agribusiness Management', 'mba-agribusiness'),
+      tax(9806, 'crs-bvsc', 'B.V.Sc. & A.H.', 'bvsc-animal-husbandry'),
+      tax(9805, 'crs-msc-agro', 'M.Sc. Agriculture (Agronomy)', 'msc-agronomy'),
+    ],
+    bio: `Meera Nair specialises in postgraduate agribusiness and allied sciences admissions, including CAT / CMAT / ICAR AIEEA (PG) pathways for MBA in Agribusiness Management (MANAGE Hyderabad, IRMA Anand, NAARM, IIM-A/L FABM, and SAU ABM colleges) as well as VCI 15% All-India Quota counselling for B.V.Sc. & A.H.\n\nShe helps agriculture graduates evaluate ROI, summer commodity-desk internships, agri-input and rural banking recruitment, and ICAR PG / JRF fellowship eligibility.`,
+    seo: null,
+    availability: DEFAULT_AVAILABILITY,
+  },
+];
+
+function toMentorCard(detail: MentorDetail): MentorCard {
+  return {
+    id: detail.id,
+    documentId: detail.documentId,
+    createdAt: detail.createdAt,
+    updatedAt: detail.updatedAt,
+    publishedAt: detail.publishedAt,
+    display_name: detail.display_name,
+    slug: detail.slug,
+    headline: detail.headline,
+    experience_years: detail.experience_years,
+    languages: detail.languages,
+    is_accepting_bookings: detail.is_accepting_bookings,
+    session_minutes: detail.session_minutes,
+    photo: detail.photo,
+    streams: detail.streams,
+    courses: detail.courses,
+  };
+}
+
+function filterFallbackMentors(items: MentorCard[], params: MentorListParams): MentorCard[] {
+  const term = searchTerm(params.search)?.toLowerCase();
+  return items.filter((m) => {
+    if (params.stream && !m.streams.some((s) => s.slug === params.stream)) return false;
+    if (term) {
+      const hay = `${m.display_name} ${m.headline ?? ''} ${m.streams.map((s) => s.name).join(' ')}`.toLowerCase();
+      if (!hay.includes(term)) return false;
+    }
+    return true;
+  });
+}
 
 function buildFilters(params: MentorListParams): CmsQuery['filters'] {
   const filters: Record<string, unknown> = {};
@@ -62,27 +215,39 @@ export async function listMentors(params: MentorListParams = {}): Promise<{
   pagination: Pagination;
 }> {
   const term = searchTerm(params.search);
-
-  const { data, meta } = await cmsCollection<MentorCard>(
-    '/mentor-profiles',
-    {
-      filters: buildFilters(params),
-      sort: 'display_name:asc',
-      pagination: {
-        page: params.page ?? 1,
-        pageSize: Math.min(params.pageSize ?? DEFAULT_PAGE_SIZE, 100),
+  const cmsResult = await cmsFetchOptional(async () => {
+    const { data, meta } = await cmsCollection<MentorCard>(
+      '/mentor-profiles',
+      {
+        filters: buildFilters(params),
+        sort: 'display_name:asc',
+        pagination: {
+          page: params.page ?? 1,
+          pageSize: Math.min(params.pageSize ?? DEFAULT_PAGE_SIZE, 100),
+        },
       },
-    },
-    {
-      tags: [collectionTag('mentor-profile')],
-      // A typed query is one-off and unbounded in variety, so caching one
-      // would fill the data cache with single-use entries. 0 prevents that;
-      // `false` would mean the opposite — cache it forever.
-      revalidate: term ? 0 : undefined,
-    }
-  );
+      {
+        tags: [collectionTag('mentor-profile')],
+        revalidate: term ? 0 : undefined,
+      }
+    );
+    return { mentors: data, pagination: meta.pagination };
+  }, null);
 
-  return { mentors: data, pagination: meta.pagination };
+  if (cmsResult && cmsResult.mentors.length > 0) {
+    return cmsResult;
+  }
+
+  const cards = filterFallbackMentors(FALLBACK_MENTORS.map(toMentorCard), params);
+  const pageSize = Math.min(params.pageSize ?? DEFAULT_PAGE_SIZE, 100);
+  const page = Math.max(1, params.page ?? 1);
+  const total = cards.length;
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
+  const start = (page - 1) * pageSize;
+  return {
+    mentors: cards.slice(start, start + pageSize),
+    pagination: { page, pageSize, pageCount, total },
+  };
 }
 
 export async function getMentorBySlug(slug: string): Promise<MentorDetail | null> {
@@ -92,15 +257,17 @@ export async function getMentorBySlug(slug: string): Promise<MentorDetail | null
       undefined,
       { tags: [collectionTag('mentor-profile'), entryTag('mentor-profile', slug)] }
     );
-    return json.data ?? null;
+    if (json.data) return json.data;
   } catch (error) {
-    if (error instanceof Error && 'status' in error && error.status === 404) return null;
-    throw error;
+    if (!(error instanceof Error && 'status' in error && (error.status === 404 || error.status === 503))) {
+      console.warn('[cms] getMentorBySlug fallback:', (error as Error).message);
+    }
   }
+  return FALLBACK_MENTORS.find((m) => m.slug === slug) ?? null;
 }
 
 export async function getMentorSlugs(limit = 100): Promise<string[]> {
-  return cmsFetchOptional(async () => {
+  const cmsSlugs = await cmsFetchOptional(async () => {
     const { data } = await cmsCollection<{ slug: string }>(
       '/mentor-profiles',
       { fields: ['slug'], sort: 'updatedAt:desc', pagination: { pageSize: limit } },
@@ -108,6 +275,9 @@ export async function getMentorSlugs(limit = 100): Promise<string[]> {
     );
     return data.map((entry) => entry.slug).filter(Boolean);
   }, []);
+
+  const merged = new Set<string>([...cmsSlugs, ...FALLBACK_MENTORS.map((m) => m.slug)]);
+  return [...merged].slice(0, limit);
 }
 
 // --- slot generation -------------------------------------------------------

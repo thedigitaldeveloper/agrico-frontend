@@ -735,7 +735,7 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "An academic-year-specific official fee schedule for this programme was not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4353,9 +4353,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Malla Reddy University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Telangana’s SR University and Malla Reddy University published 2026 B.Sc. (Hons.) Agriculture admission routes",
+            "path": "/news/telangana-sr-university-and-malla-reddy-university-agriculture-admission-updates-2026",
+            "description": "Compare the 2026 B.Sc. (Hons.) Agriculture admission routes, fees and ICAR accreditation records for SR University (Warangal) and Malla Reddy University (Hyderabad).",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

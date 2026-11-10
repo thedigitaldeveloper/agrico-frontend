@@ -7,17 +7,17 @@
  */
 @theme {
   /* --- brand: RS ruby --------------------------------------- */
-  --color-brand-50: #fcfaf5;
-  --color-brand-100: #f2eee8;
-  --color-brand-200: #e6ded5;
-  --color-brand-300: #d6c6bd;
-  --color-brand-400: #b9a29d;
-  --color-brand-500: #b73748;
-  --color-brand-600: #b02c3e;
-  --color-brand-700: #a72a3c;
-  --color-brand-800: #a22334; /* RS ruby */
-  --color-brand-900: #882638;
-  --color-brand-950: #762535;
+  --color-brand-50: #f1f7f4;
+  --color-brand-100: #dcece3;
+  --color-brand-200: #badac9;
+  --color-brand-300: #8dc0a7;
+  --color-brand-400: #5ea083;
+  --color-brand-500: #398364;
+  --color-brand-600: #1e684c;
+  --color-brand-700: #16563f;
+  --color-brand-800: #124b3b; /* Agrico primary green */
+  --color-brand-900: #0f3d30;
+  --color-brand-950: #09261e;
 
   /* --- legacy accent: neutral stone ------------------------ */
   --color-gold-50: #fcfaf5;
@@ -85,14 +85,14 @@
 
   /* Shadows are tinted with the brand hue rather than pure black, so cards sit
      on the page instead of looking cut out of it. */
-  --shadow-card: 0 1px 2px rgb(43 12 19 / 0.04), 0 4px 12px rgb(43 12 19 / 0.06);
-  --shadow-card-hover: 0 2px 4px rgb(43 12 19 / 0.06), 0 12px 28px rgb(43 12 19 / 0.1);
-  --shadow-header: 0 1px 0 rgb(43 12 19 / 0.06);
+  --shadow-card: 0 1px 2px rgb(18 75 59 / 0.04), 0 4px 12px rgb(18 75 59 / 0.06);
+  --shadow-card-hover: 0 2px 4px rgb(18 75 59 / 0.06), 0 12px 28px rgb(18 75 59 / 0.1);
+  --shadow-header: 0 1px 0 rgb(18 75 59 / 0.06);
 
   /* Hero copy sits directly on editor-uploaded imagery with no scrim behind
      it. The tight layer defines the letterform edges, the wide one lifts the
      text off a bright background. */
-  --text-shadow-hero: 0 1px 2px rgb(43 12 19 / 0.55), 0 2px 14px rgb(43 12 19 / 0.45);
+  --text-shadow-hero: 0 1px 2px rgb(18 75 59 / 0.55), 0 2px 14px rgb(18 75 59 / 0.45);
 
   /* --- layout ------------------------------------------------------------- */
   --container-page: 80rem;

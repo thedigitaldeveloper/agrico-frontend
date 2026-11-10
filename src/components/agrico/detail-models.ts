@@ -1,12 +1,13 @@
 import { blocksToText, type BlocksContent } from '@/lib/cms/blocks';
 import { mediaUrl, resolveImage } from '@/lib/cms/media';
+import { offeringHref } from '@/lib/cms/paths';
 import type { ContentSection } from '@/lib/cms/repositories/content';
 import type { ProgramCard, ProgramDetail } from '@/lib/cms/repositories/program';
 import type { ContentSectionRef, UniversityCard, UniversityDetail } from '@/lib/cms/repositories/university';
 import { durationLabel, offeringFee, offeringFeeSpread, offeringsByUniversity } from '@/components/program/program-facts';
 import { PROGRAMMES, type AgricultureProgramme } from './home-data';
 import { programmeGuidePath, UNIVERSITY_GUIDES, type UniversityGuide } from './detail-catalogue';
-import type { ProgrammeContent, ProgrammeUniversity } from '@/lib/agrico/programme-content';
+import { getProgrammeAuthoredSection, getProgrammeContent, getProgrammeSectionRefs, type ProgrammeContent, type ProgrammeUniversity } from '@/lib/agrico/programme-content';
 
 export interface DetailListing {
   name: string; href: string; description: string; level?: string; duration?: string;
@@ -74,13 +75,15 @@ const firstSentence = (text?: string) => {
  * Builds a programme page from researched content. The editorial guide (when the
  * slug is one of the six homepage programmes) only fills gaps the research left.
  */
-export function contentProgrammeModel(content: ProgrammeContent, universities: ProgrammeUniversity[], related: ProgrammeContent[], guide?: AgricultureProgramme): ProgrammeModel {
+export function contentProgrammeModel(content: ProgrammeContent, universities: ProgrammeUniversity[], related: ProgrammeContent[], guide?: AgricultureProgramme, activeSlug: string | null = 'overview'): ProgrammeModel {
   const path = '/' + content.slug;
   const structure = content.curriculum?.structure || [];
   const topics = structure.length
     ? structure.slice(0, 6).map((stage, index) => ({ title: stage.stage, description: stage.focus || (stage.courses || []).slice(0, 4).join(', '), art: ART_CYCLE[index % ART_CYCLE.length] }))
     : guide?.topics || [];
   const officialSource = content.sources?.find(source => source.kind === 'regulator' || source.kind === 'official');
+  const section = getProgrammeAuthoredSection(content.slug, activeSlug || 'overview');
+  const sections = getProgrammeSectionRefs(content.slug);
   return {
     name: content.name, slug: content.slug, path,
     description: content.hero?.summary || guide?.description || content.overview?.paragraphs?.[0] || '',
@@ -98,7 +101,7 @@ export function contentProgrammeModel(content: ProgrammeContent, universities: P
     source: officialSource?.url || guide?.source,
     universities: universities.map(u => ({ name: u.name, href: '/university/' + u.slug, description: [u.city, u.state].filter(Boolean).join(', '), logo: u.logo, mark: initials(u.name) })),
     related: related.map(item => ({ name: item.name, href: '/' + item.slug, description: item.discipline || '', level: item.level, duration: item.duration || undefined })),
-    context: { programName: content.name }, section: null, sections: [], content,
+    context: { programName: content.name, programSlug: content.slug }, section, sections, activeSlug: section?.secondary_slug || activeSlug || 'overview', content,
   };
 }
 
@@ -133,11 +136,76 @@ export function cmsProgrammeModel(program: ProgramDetail, section: ContentSectio
 }
 
 export function guideUniversityModel(guide: UniversityGuide): UniversityModel {
+  const TS = '2026-11-01T00:00:00.000Z';
+  const programmes: DetailListing[] = (guide.programmeSlugs || []).map((progSlug) => {
+    const content = getProgrammeContent(progSlug);
+    if (content) {
+      return {
+        name: content.name,
+        href: `/university/${guide.slug}/${progSlug}`,
+        description: content.hero?.summary || content.discipline || 'Explore syllabus, eligibility, and campus training.',
+        level: content.level,
+        duration: content.duration || undefined,
+      };
+    }
+    return {
+      name: progSlug,
+      href: `/university/${guide.slug}/${progSlug}`,
+      description: 'Explore curriculum and admission requirements.',
+    };
+  });
+
+  const section: ContentSection | null = guide.authoredHtml
+    ? {
+        id: 98001,
+        documentId: `guide-sec-${guide.slug}`,
+        createdAt: TS,
+        updatedAt: TS,
+        publishedAt: TS,
+        name: `${guide.name} · Academic & Admission Overview`,
+        slug: `${guide.slug}--overview`,
+        secondary_slug: 'overview',
+        display_name: 'Academic & Admission Profile',
+        heading: `${guide.name} (${guide.mark}) — Institutional Profile & Academic Pathways`,
+        seo: null,
+        content: [
+          {
+            id: 98101,
+            __component: 'common.html-section',
+            name: `${guide.name} Overview`,
+            code: {
+              html: guide.authoredHtml,
+              css: `.ag-guide-rich h3 { margin: 1.35rem 0 0.55rem; font-size: 1.18rem; color: #13281c; } .ag-guide-rich p { margin: 0 0 0.9rem; line-height: 1.72; color: #2f4236; } .ag-guide-rich ul { margin: 0 0 1.1rem 1.2rem; line-height: 1.7; color: #2f4236; } .ag-guide-rich li { margin-bottom: 0.45rem; }`,
+            },
+          },
+        ],
+      }
+    : null;
+
   return {
-    ...guide, approvals: [], highlights: [], resources: [{ name: 'Official university website', href: guide.source }, { name: 'Official admission information', href: guide.admissions }],
-    programmes: PROGRAMMES.filter(p => guide.programmeIds.includes(p.id)).map(p => ({ name: p.name, href: programmeGuidePath(p.id), description: p.focus, level: p.level, duration: p.duration })),
-    related: UNIVERSITY_GUIDES.filter(u => u.slug !== guide.slug).slice(0, 3).map(u => ({ name: u.name, href: '/university/' + u.slug, description: u.city + ', ' + u.state, mark: u.mark })),
-    context: { universityName: guide.name }, section: null, sections: [], editorial: true,
+    ...guide,
+    established: guide.established,
+    address: guide.address,
+    approvals: guide.approvals,
+    rankings: guide.rankings,
+    highlights: guide.highlights,
+    resources: [
+      { name: 'Official university website', href: guide.source },
+      { name: 'Official admission portal', href: guide.admissions },
+    ],
+    programmes,
+    related: UNIVERSITY_GUIDES.filter((u) => u.slug !== guide.slug)
+      .slice(0, 3)
+      .map((u) => ({
+        name: u.name,
+        href: '/university/' + u.slug,
+        description: u.city + ', ' + u.state,
+        mark: u.mark,
+      })),
+    context: { universityName: guide.name, universitySlug: guide.slug },
+    section,
+    sections: [],
+    editorial: false,
   };
 }
 
@@ -151,7 +219,7 @@ export function cmsUniversityModel(university: UniversityDetail, section: Conten
     approvals: (university.approvals || []).map(a => a.name), affiliations: (university.affiliations || []).map(a => a.name), rankings: (university.rankings || []).map(a => a.name),
     highlights: (university.highlights || []).filter((h): h is typeof h & { key: string; value: string } => !!h.key && !!h.value),
     resources: university.brochure ? [{ name: 'University brochure', href: mediaUrl(university.brochure.url)! }] : [],
-    programmes: programs.map(p => ({ ...programmeListing(p), href: '/offering/' + university.slug + '/' + p.slug, fee: feeRows.get(p.slug)?.fee ?? null, feeNote: feeRows.get(p.slug)?.note })),
+    programmes: programs.map(p => ({ ...programmeListing(p), href: offeringHref(university, p.slug), fee: feeRows.get(p.slug)?.fee ?? null, feeNote: feeRows.get(p.slug)?.note })),
     related: related.map(universityListing), faculties: university.faculties, recruiters: university.recruiters,
     context: { universityName: university.name, universitySlug: university.slug }, section, sections: university.university_contents || [], activeSlug,
   };

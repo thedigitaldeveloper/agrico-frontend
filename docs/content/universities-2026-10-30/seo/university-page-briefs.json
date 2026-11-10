@@ -15144,5 +15144,3671 @@
         "next_source": "https://tdcollege.ac.in/"
       }
     ]
+  },
+  {
+    "id": 59,
+    "name": "Apex University, Jaipur",
+    "slug": "apex-university-jaipur",
+    "primary_page": "/university/apex-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Apex University, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Apex University, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Apex University, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Apex University, Jaipur (School of Agricultural Sciences) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/apex-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/apex-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "MBA Agribusiness Management",
+        "general_guide_url": "/mba-agribusiness",
+        "offering_url_pattern": "/offering/apex-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.apexuniversity.co.in/school-of-agricultural-sciences/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 60,
+    "name": "NIMS University Rajasthan, Jaipur",
+    "slug": "nims-university-jaipur",
+    "primary_page": "/university/nims-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "NIMS University Rajasthan, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "NIMS University Rajasthan, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "NIMS University Rajasthan, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore NIMS University Rajasthan, Jaipur (NIMS Institute of Agricultural Sciences) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/nims-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/nims-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "MBA Agribusiness Management",
+        "general_guide_url": "/mba-agribusiness",
+        "offering_url_pattern": "/offering/nims-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.nimsuniversity.org/nims-institute-of-agricultural-sciences/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 61,
+    "name": "Career Point University, Kota",
+    "slug": "career-point-university-kota",
+    "primary_page": "/university/career-point-university-kota",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Career Point University, Kota agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Career Point University, Kota: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Career Point University, Kota | Agriculture courses and admissions",
+      "existing_description": "Explore Career Point University, Kota (School of Agricultural Sciences) in Kota, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/career-point-university-kota/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/career-point-university-kota/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://cpur.in/schools/school-of-agricultural-sciences/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 62,
+    "name": "Mewar University, Chittorgarh",
+    "slug": "mewar-university-chittorgarh",
+    "primary_page": "/university/mewar-university-chittorgarh",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Mewar University, Chittorgarh agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Mewar University, Chittorgarh: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Mewar University, Chittorgarh | Agriculture courses and admissions",
+      "existing_description": "Explore Mewar University, Chittorgarh (Faculty of Agriculture and Veterinary Sciences) in Chittorgarh, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/mewar-university-chittorgarh/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/mewar-university-chittorgarh/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.mewaruniversity.org/pages/Agriculture_and_Veterinary_Science.aspx",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 63,
+    "name": "Pacific University, Udaipur",
+    "slug": "pacific-university-udaipur",
+    "primary_page": "/university/pacific-university-udaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Pacific University, Udaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Pacific University, Udaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Pacific University, Udaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Pacific University, Udaipur (College of Agriculture (Faculty of Agricultural Sciences)) in Udaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/pacific-university-udaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/pacific-university-udaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.pacific-university.ac.in/College-of-Agriculture",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 64,
+    "name": "Sangam University, Bhilwara",
+    "slug": "sangam-university-bhilwara",
+    "primary_page": "/university/sangam-university-bhilwara",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Sangam University, Bhilwara agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Sangam University, Bhilwara: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Sangam University, Bhilwara | Agriculture courses and admissions",
+      "existing_description": "Explore Sangam University, Bhilwara (School of Agricultural Science and Technology (SOAST)) in Bhilwara, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/sangam-university-bhilwara/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/sangam-university-bhilwara/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.sangamuniversity.ac.in/school-of-agricultural-science-and-technology.php",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 65,
+    "name": "Mahatma Jyoti Rao Phoole University, Jaipur",
+    "slug": "mahatma-jyoti-rao-phoole-university-jaipur",
+    "primary_page": "/university/mahatma-jyoti-rao-phoole-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Mahatma Jyoti Rao Phoole University, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Mahatma Jyoti Rao Phoole University, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Mahatma Jyoti Rao Phoole University, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Mahatma Jyoti Rao Phoole University, Jaipur (Faculty of Agriculture & Veterinary Science) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/mahatma-jyoti-rao-phoole-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/mahatma-jyoti-rao-phoole-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "MBA Agribusiness Management",
+        "general_guide_url": "/mba-agribusiness",
+        "offering_url_pattern": "/offering/mahatma-jyoti-rao-phoole-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://mjrpuniversity.ac.in/department/agriculture",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 66,
+    "name": "Bhagwant University, Ajmer",
+    "slug": "bhagwant-university-ajmer",
+    "primary_page": "/university/bhagwant-university-ajmer",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Bhagwant University, Ajmer agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Bhagwant University, Ajmer: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Bhagwant University, Ajmer | Agriculture courses and admissions",
+      "existing_description": "Explore Bhagwant University, Ajmer (Faculty of Agriculture) in Ajmer, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/bhagwant-university-ajmer/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "B.Tech. Agricultural Engineering",
+        "general_guide_url": "/btech-agricultural-engineering",
+        "offering_url_pattern": "/offering/bhagwant-university-ajmer/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/bhagwant-university-ajmer/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://bhagwantuniversity.ac.in/agriculture/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 67,
+    "name": "Nirwan University, Jaipur",
+    "slug": "nirwan-university-jaipur",
+    "primary_page": "/university/nirwan-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Nirwan University, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Nirwan University, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Nirwan University, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Nirwan University, Jaipur (School of Agricultural Sciences) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/nirwan-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/nirwan-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.nirwanuniversity.ac.in/school/school-of-agricultural-sciences",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 68,
+    "name": "Jayoti Vidyapeeth Women's University, Jaipur",
+    "slug": "jayoti-vidyapeeth-womens-university-jaipur",
+    "primary_page": "/university/jayoti-vidyapeeth-womens-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Jayoti Vidyapeeth Women's University, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Jayoti Vidyapeeth Women's University, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Jayoti Vidyapeeth Women's University, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Jayoti Vidyapeeth Women's University, Jaipur (Faculty of Agriculture and Veterinary Science) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/jayoti-vidyapeeth-womens-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/jayoti-vidyapeeth-womens-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.jvwu.ac.in/faculty-of-agriculture-and-veterinary-science.html",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 69,
+    "name": "Amity University Rajasthan, Jaipur",
+    "slug": "amity-university-jaipur",
+    "primary_page": "/university/amity-university-jaipur",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Amity University Rajasthan, Jaipur agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Amity University Rajasthan, Jaipur: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Amity University Rajasthan, Jaipur | Agriculture courses and admissions",
+      "existing_description": "Explore Amity University Rajasthan, Jaipur (Amity Institute of Organic Agriculture (AIOA)) in Jaipur, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/amity-university-jaipur/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.amity.edu/jaipur/uga-agriculture-courses",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 70,
+    "name": "Shyam University, Dausa",
+    "slug": "shyam-university-dausa",
+    "primary_page": "/university/shyam-university-dausa",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Shyam University, Dausa agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Shyam University, Dausa: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Shyam University, Dausa | Agriculture courses and admissions",
+      "existing_description": "Explore Shyam University, Dausa (Department of Agriculture) in Dausa, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/shyam-university-dausa/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/shyam-university-dausa/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://shyamuniversity.in/agriculture/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 71,
+    "name": "Lords University, Alwar",
+    "slug": "lords-university-alwar",
+    "primary_page": "/university/lords-university-alwar",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Lords University, Alwar agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Lords University, Alwar: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Lords University, Alwar | Agriculture courses and admissions",
+      "existing_description": "Explore Lords University, Alwar (Faculty of Agriculture) in Alwar, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/lords-university-alwar/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/lords-university-alwar/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.lordsuni.edu.in/department/faculty-of-agriculture",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 72,
+    "name": "Madhav University, Sirohi",
+    "slug": "madhav-university-sirohi",
+    "primary_page": "/university/madhav-university-sirohi",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Madhav University, Sirohi agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Madhav University, Sirohi: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Madhav University, Sirohi | Agriculture courses and admissions",
+      "existing_description": "Explore Madhav University, Sirohi (Faculty of Agriculture) in Sirohi, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/madhav-university-sirohi/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/madhav-university-sirohi/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://madhavuniversity.edu.in/faculty-of-agriculture.html",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 73,
+    "name": "Sunrise University, Alwar",
+    "slug": "sunrise-university-alwar",
+    "primary_page": "/university/sunrise-university-alwar",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Sunrise University, Alwar agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Sunrise University, Alwar: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Sunrise University, Alwar | Agriculture courses and admissions",
+      "existing_description": "Explore Sunrise University, Alwar (School of Agriculture) in Alwar, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/sunrise-university-alwar/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/sunrise-university-alwar/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.sunriseuniversity.in/schools/school-of-agriculture",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
+  },
+  {
+    "id": 74,
+    "name": "Shridhar University, Pilani",
+    "slug": "shridhar-university-pilani",
+    "primary_page": "/university/shridhar-university-pilani",
+    "status": "structured_content_written_local_frontend_implemented",
+    "primary_intent": "Shridhar University, Pilani agriculture and allied study courses, fees and admission requirements",
+    "suggested_h1": "Shridhar University, Pilani: Agriculture Courses and Admission Information",
+    "metadata": {
+      "source": "Existing unique profile SEO title/description can be retained and refined for this specific intent.",
+      "existing_title": "Shridhar University, Pilani | Agriculture courses and admissions",
+      "existing_description": "Explore Shridhar University, Pilani (Department of Agriculture) in Pilani, Rajasthan: B.Sc. (Hons.) Agriculture fees, Rajasthan JET admission route, experimental farm facilities and scholarships."
+    },
+    "toc": [
+      {
+        "id": "overview",
+        "title": "Agriculture study at this institution",
+        "href": "#overview",
+        "source_field": "overview",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "quick-facts",
+        "title": "Key facts at a glance",
+        "href": "#quick-facts",
+        "source_field": "identity",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "programmes-fees",
+        "title": "Agriculture programmes, fees and eligibility",
+        "href": "#programmes-fees",
+        "source_field": "programmes",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "admission-process",
+        "title": "How to apply and which route applies",
+        "href": "#admission-process",
+        "source_field": "admissions",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "icar-accreditation",
+        "title": "ICAR accreditation: course, unit and validity",
+        "href": "#icar-accreditation",
+        "source_field": "recognition",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "curriculum-practical",
+        "title": "Curriculum and practical learning",
+        "href": "#curriculum-practical",
+        "source_field": "campus.practical_learning",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "campus-facilities",
+        "title": "Campus, laboratories and student facilities",
+        "href": "#campus-facilities",
+        "source_field": "campus",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "scholarships",
+        "title": "Scholarships and cost support",
+        "href": "#scholarships",
+        "source_field": "scholarships",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "career-placements",
+        "title": "Career support and reported outcomes",
+        "href": "#career-placements",
+        "source_field": "placements",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "compare-options",
+        "title": "Other agriculture institutions to compare",
+        "href": "#compare-options",
+        "source_field": "related",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "updates-guides",
+        "title": "Admission updates and useful guides",
+        "href": "#updates-guides",
+        "source_field": "new_editorial_relations",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "faqs",
+        "title": "Applicant questions answered",
+        "href": "#faqs",
+        "source_field": "faqs",
+        "next_step": "implemented_with_source_scoped_content"
+      },
+      {
+        "id": "sources-review",
+        "title": "Sources and content review date",
+        "href": "#sources-review",
+        "source_field": "sources",
+        "next_step": "implemented_with_source_scoped_content"
+      }
+    ],
+    "programme_links": [
+      {
+        "name": "B.Sc. (Hons.) Agriculture",
+        "general_guide_url": "/bsc-agriculture",
+        "offering_url_pattern": "/offering/shridhar-university-pilani/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      },
+      {
+        "name": "M.Sc. Agriculture (Agronomy)",
+        "general_guide_url": "/msc-agronomy",
+        "offering_url_pattern": "/offering/shridhar-university-pilani/bsc-agriculture",
+        "activation": "Only after the matching programme and institution are published; no draft 404 links."
+      }
+    ],
+    "guide_links": [
+      {
+        "topic_id": "icar-check",
+        "anchor": "How to check ICAR accreditation for an agriculture programme",
+        "proposed_url": "/articles/icar-accreditation-how-to-check",
+        "target_status": "written_local_route_available",
+        "placement": "icar-accreditation"
+      },
+      {
+        "topic_id": "fee-budget",
+        "anchor": "How to compare agriculture fees, quotas and living costs",
+        "proposed_url": "/articles/agriculture-fee-budget",
+        "target_status": "written_local_route_available",
+        "placement": "programmes-fees"
+      },
+      {
+        "topic_id": "college-questions",
+        "anchor": "Questions to ask before choosing an agriculture college",
+        "proposed_url": "/blogs/questions-before-choosing-agriculture-college",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "counselling-prep",
+        "anchor": "Prepare for agriculture admission counselling",
+        "proposed_url": "/blogs/prepare-for-agriculture-counselling",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "bsc-eligibility",
+        "anchor": "B.Sc. Agriculture eligibility: subjects and admission routes",
+        "proposed_url": "/articles/bsc-agriculture-eligibility",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "agri-v-engineering",
+        "anchor": "B.Sc. Agriculture or Agricultural Engineering: compare the study paths",
+        "proposed_url": "/articles/bsc-agriculture-vs-agricultural-engineering",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "career-choice",
+        "anchor": "Plan an agriculture study pathway after Class 12",
+        "proposed_url": "/blogs/agriculture-study-plan-after-class-12",
+        "target_status": "written_local_route_available",
+        "placement": "updates-guides"
+      },
+      {
+        "topic_id": "rajasthan-jet",
+        "anchor": "Rajasthan JET and agriculture college admission routes",
+        "proposed_url": "/articles/rajasthan-jet-agriculture-admission",
+        "target_status": "written_local_route_available",
+        "placement": "admission-process"
+      },
+      {
+        "topic_id": "scholarship-questions",
+        "anchor": "Check agriculture scholarship conditions before budgeting",
+        "proposed_url": "/blogs/agriculture-scholarship-conditions",
+        "target_status": "written_local_route_available",
+        "placement": "scholarships"
+      }
+    ],
+    "location_hub": "/agriculture-colleges/rajasthan",
+    "related_institutions": [
+      {
+        "id": 25,
+        "name": "Vivekananda Global University",
+        "proposed_url": "/university/vivekananda-global-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 29,
+        "name": "Suresh Gyan Vihar University",
+        "proposed_url": "/university/suresh-gyan-vihar-university",
+        "activation": "Published target required"
+      },
+      {
+        "id": 17,
+        "name": "Jagan Nath University, Jaipur",
+        "proposed_url": "/university/jagan-nath-university-jaipur",
+        "activation": "Published target required"
+      }
+    ],
+    "news": {
+      "status": "event_driven_not_fabricated",
+      "official_admission_source": "https://www.shridharuniversity.ac.in/department-of-agriculture/",
+      "trigger_types": [
+        "Official admission calendar or revised deadline",
+        "Published fee revision",
+        "Dated ICAR decision",
+        "Documented curriculum or programme change"
+      ],
+      "public_empty_state": "Omit an empty news block rather than fabricate an update.",
+      "written_historical_updates": []
+    },
+    "engagement": [
+      "Working TOC and active section state",
+      "Programme and fee comparison table",
+      "Actual logo/campus photos with useful captions",
+      "Compare relevant institutions",
+      "Ask for eligibility/admission guidance with the selected institution preserved",
+      "Useful related reading and official references"
+    ],
+    "facts_to_resolve": []
   }
 ]

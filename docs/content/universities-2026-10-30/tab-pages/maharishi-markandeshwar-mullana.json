@@ -787,8 +787,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "First-year tuition component. Published total academic fee is INR 1,40,000 in year 1 and INR 6,01,453 across four years; tuition rises 7% annually; hostel/transport extra.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "First-year tuition component. Published total academic fee is INR 1,40,000 in year 1 and INR 6,01,453 across four years; tuition rises 7% annually; hostel/transport extra."
             ],
             "source_ids": [
               "s3"
@@ -797,8 +797,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Published annual tuition component; programme academic total INR 1,67,900, additional living costs excluded.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Published annual tuition component; programme academic total INR 1,67,900, additional living costs excluded."
             ],
             "source_ids": [
               "s3"
@@ -807,8 +807,8 @@
           {
             "heading": "M.Sc. Agriculture — Entomology",
             "paragraphs": [
-              "University fee table has a combined M.Sc. Agriculture row; confirm specialisation-specific offer charges.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "University fee table has a combined M.Sc. Agriculture row; confirm specialisation-specific offer charges."
             ],
             "source_ids": [
               "s3"
@@ -4494,9 +4494,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Maharishi Markandeshwar (Deemed to be University), Mullana. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GD Goenka University recorded a 31 October 2026 scholarship-form deadline for current applicants",
+            "path": "/news/gd-goenka-october-2026-scholarship-deadline-and-haryana-agriculture-admission-checks",
+            "description": "Review the 31 October 2026 scholarship evidence deadline at GD Goenka University and compare Haryana’s three ICAR-listed agriculture universities.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

@@ -1,0 +1,65 @@
+{
+  "id": "mp-private-universities-icar-2026",
+  "cms_type": "News",
+  "slug": "madhya-pradesh-private-universities-icar-accreditation-and-admission-verification-2026",
+  "title": "Madhya Pradesh private universities recorded multi-year ICAR accreditation terms for B.Sc. (Hons.) Agriculture",
+  "description": "Check the audited ICAR accreditation terms and admission verification steps across six private universities in Madhya Pradesh.",
+  "summary": "In the audited ICAR List II register, six private universities across Bhopal, Gwalior, Satna, Chhindwara, Raisen and Sehore in Madhya Pradesh hold specific unit-level accreditation windows for B.Sc. (Hons.) Agriculture.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-08-20",
+  "published_on": "2026-08-20",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "six-mp-institutions-in-icar-register",
+      "heading": "Six Madhya Pradesh private universities in the ICAR register",
+      "paragraphs": [
+        "Madhya Pradesh accounts for six private universities in Agrico’s 58-institution ICAR-audited collection: [G H Raisoni University, Chhindwara](/university/g-h-raisoni-university-chhindwara), [AKS University](/university/aks-university) in Satna, [Rabindranath Tagore University](/university/rabindranath-tagore-university) in Raisen (Bhopal region), [Sri Satya Sai University of Technology and Medical Sciences](/university/sri-satya-sai-university-of-technology-and-medical-sciences) in Sehore, [ITM University, Gwalior](/university/itm-university-gwalior) and [RKDF University, Bhopal](/university/rkdf-university-bhopal).",
+        "Each entry in the ICAR National Agricultural Education Accreditation Board (NAEAB) List II specifies the exact faculty or school name, the accredited degree (B.Sc. (Hons.) Agriculture) and the start and end dates of the accreditation cycle."
+      ]
+    },
+    {
+      "id": "verifying-unit-and-campus",
+      "heading": "Why MP applicants must verify the exact school and campus",
+      "paragraphs": [
+        "Several university groups operate multiple campuses across Madhya Pradesh and neighbouring states, while ICAR accreditation applies only to the specific unit and location named in the official register. Use [how to check ICAR accreditation for an agriculture programme](/articles/icar-accreditation-how-to-check) and [RAWE and experiential learning in B.Sc. Agriculture](/articles/rawe-and-experiential-learning) when comparing these six institutions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does ICAR accreditation for B.Sc. (Hons.) Agriculture at an MP private university cover all other degrees at that university?",
+      "answer": "No. ICAR List II accreditation is strictly limited to the named agricultural unit and the specific degree programme(s) printed in the official register."
+    },
+    {
+      "question": "Do Madhya Pradesh private universities accept CUET or conduct their own admission processes?",
+      "answer": "Routes vary by institution: some accept CUET/ICAR or state scores alongside university-level entrance tests (such as ITM NEST) or Class 12 merit. Check each university’s admission tab."
+    }
+  ],
+  "related_institution_ids": [
+    16,
+    21,
+    34,
+    47,
+    55,
+    56
+  ],
+  "related_topic_ids": [
+    "icar-check",
+    "rawe",
+    "bsc-eligibility"
+  ],
+  "sources": [
+    {
+      "id": "icar-list-ii-mp",
+      "title": "ICAR Accredited Private Colleges Affiliated to SAUs / General Universities — List II",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "checked_on": "2026-10-30",
+      "note": "Audited source workbook documenting unit-level accreditation windows for all 6 MP private universities."
+    }
+  ],
+  "verification_notes": [
+    "Covers all 6 Madhya Pradesh institutions using verified ICAR List II workbook provenance."
+  ]
+}

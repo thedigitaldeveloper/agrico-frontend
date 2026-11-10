@@ -871,8 +871,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
-              "Charge scope: Tuition per semester."
+              "Charge scope: Tuition per semester.",
+              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately."
             ],
             "source_ids": [
               "o31_course0"
@@ -881,8 +881,8 @@
           {
             "heading": "B.Sc. (Hons.) Horticulture",
             "paragraphs": [
-              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
-              "Charge scope: Tuition per semester."
+              "Charge scope: Tuition per semester.",
+              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately."
             ],
             "source_ids": [
               "o31_course1"
@@ -891,8 +891,8 @@
           {
             "heading": "B.Sc. (Hons.) Agribusiness",
             "paragraphs": [
-              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately.",
-              "Charge scope: Tuition per semester."
+              "Charge scope: Tuition per semester.",
+              "Undated official tuition amount per semester. Intake-year applicability is not established; this is not a confirmed current 2026/2027 quotation. Other charges must be checked separately."
             ],
             "source_ids": [
               "o31_course2"
@@ -5095,9 +5095,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Sri Sri University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Siksha ‘O’ Anusandhan announced SAAT 2026 agriculture stray-vacancy results in August 2026",
+            "path": "/news/soa-saat-stray-vacancy-results-and-odisha-private-agriculture-admissions-august-2026",
+            "description": "Read the August 2026 SAAT stray-vacancy admission milestone at SOA alongside Odisha private agriculture university admission checks.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

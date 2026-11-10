@@ -733,8 +733,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official amount; intake-year applicability is not established. This is not verified as a current 2026–27 or 2027 payable quote. Request compulsory charges, hostel and other costs separately.",
-              "Charge scope: Published annual programme fee in the Indian-applicant table; itemised inclusions are not specified."
+              "Charge scope: Published annual programme fee in the Indian-applicant table; itemised inclusions are not specified.",
+              "Undated official amount; intake-year applicability is not established. This is not verified as a current 2026–27 or 2027 payable quote. Request compulsory charges, hostel and other costs separately."
             ],
             "source_ids": [
               "s4"
@@ -4256,9 +4256,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Integral University, Lucknow. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Udai Pratap College recorded its June 2026 entrance application window alongside UP agriculture updates",
+            "path": "/news/uttar-pradesh-udai-pratap-college-june-2026-entrance-window-and-up-agriculture-checks",
+            "description": "Read the June 2026 entrance application timeline at Udai Pratap College, Varanasi and compare admission routes across Uttar Pradesh’s five ICAR-listed institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

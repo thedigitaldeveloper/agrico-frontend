@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { CheckCircle2, ExternalLink } from 'lucide-react';
 
 import { SectionBody } from '@/components/cms/section-body';
 import { Breadcrumbs } from '@/components/ui/breadcrumbs';
@@ -38,7 +39,7 @@ export function ScholarshipDetailView({
           customSchema(section?.seo ?? scholarship.seo),
         ]}
       />
-      <section className="surface-inverse bg-brand-900 text-white">
+      <section className="surface-inverse bg-[#10281E] text-white">
         <div className="container-page py-8 lg:py-12">
           <Breadcrumbs items={trail} tone="hero" className="mb-6" />
 
@@ -62,7 +63,7 @@ export function ScholarshipDetailView({
                   {scholarship.name}
                 </h1>
                 {scholarship.full_name && scholarship.full_name !== scholarship.name ? (
-                  <p className="mt-1.5 text-white/70">{scholarship.full_name}</p>
+                  <p className="mt-1.5 text-white/75">{scholarship.full_name}</p>
                 ) : null}
 
                 <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-white/75">
@@ -91,10 +92,6 @@ export function ScholarshipDetailView({
               </ButtonLink>
             ) : null}
           </div>
-
-          {/* No fact strip here, unlike the university, program and exam heroes:
-              a scheme carries no schedule or highlight data, so the strip could
-              only restate the meta line directly above it. */}
         </div>
       </section>
 
@@ -105,8 +102,127 @@ export function ScholarshipDetailView({
       />
 
       <div className="container-page py-10 lg:py-14">
-        <article className="min-w-0 max-w-4xl">
-          <SectionBody section={section} heading={heading} />
+        <article className="min-w-0 max-w-4xl space-y-8">
+          {scholarship.summary && !section ? (
+            <>
+              <div className="rounded-2xl border border-ink-200 bg-white p-6 sm:p-8 shadow-2xs space-y-6">
+                {scholarship.benefit_amount ? (
+                  <div className="rounded-xl border border-emerald-200 bg-emerald-50/70 p-4">
+                    <p className="text-2xs font-extrabold uppercase tracking-wider text-emerald-900">
+                      Stipend / Financial Benefit
+                    </p>
+                    <p className="mt-1 font-display text-lg font-extrabold text-emerald-950">
+                      {scholarship.benefit_amount}
+                    </p>
+                  </div>
+                ) : null}
+
+                <div>
+                  <h2 className="font-display text-xl font-bold text-ink-950 mb-2.5">
+                    About This Agriculture Scholarship Scheme
+                  </h2>
+                  <p className="text-base leading-relaxed text-ink-700">{scholarship.summary}</p>
+                </div>
+
+                {scholarship.eligibility_notes?.length ? (
+                  <div className="pt-4 border-t border-ink-150">
+                    <h3 className="font-display text-base font-bold text-ink-950 mb-3">
+                      Key Eligibility &amp; Continuation Rules
+                    </h3>
+                    <ul className="space-y-2.5">
+                      {scholarship.eligibility_notes.map((note) => (
+                        <li key={note} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-700">
+                          <CheckCircle2 className="size-4 shrink-0 text-emerald-700 mt-0.5" />
+                          <span>{note}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : null}
+
+                <div className="pt-4 border-t border-ink-150 flex flex-wrap items-center gap-3">
+                  <ButtonLink
+                    href={`/common-application-form?scholarship=${scholarship.slug}`}
+                    variant="primary"
+                    size="sm"
+                  >
+                    Request Scholarship Guidance
+                  </ButtonLink>
+                  {scholarship.official_portal ? (
+                    <a
+                      href={scholarship.official_portal}
+                      target={scholarship.official_portal.startsWith('http') ? '_blank' : undefined}
+                      rel={scholarship.official_portal.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      className="inline-flex items-center gap-1.5 text-sm font-semibold text-emerald-800 underline underline-offset-2 hover:text-emerald-700"
+                    >
+                      <span>Official Portal / Reference</span>
+                      <ExternalLink className="size-3.5" />
+                    </a>
+                  ) : null}
+                </div>
+              </div>
+
+              {scholarship.application_steps && scholarship.application_steps.length > 0 ? (
+                <div className="rounded-2xl border border-ink-200 bg-white p-6 sm:p-8 shadow-2xs space-y-4">
+                  <h2 className="font-display text-xl font-bold text-ink-950">
+                    Step-by-Step Scholarship Application &amp; Disbursement Process
+                  </h2>
+                  <ol className="space-y-4">
+                    {scholarship.application_steps.map((step) => (
+                      <li
+                        key={step.title}
+                        className="rounded-xl border border-ink-150 bg-ink-50/40 p-4 space-y-1"
+                      >
+                        <h3 className="font-display text-base font-bold text-ink-900">
+                          {step.title}
+                        </h3>
+                        <p className="text-sm leading-relaxed text-ink-700">{step.detail}</p>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              ) : null}
+
+              {scholarship.documents_required && scholarship.documents_required.length > 0 ? (
+                <div className="rounded-2xl border border-ink-200 bg-white p-6 sm:p-8 shadow-2xs space-y-4">
+                  <h2 className="font-display text-xl font-bold text-ink-950">
+                    Mandatory Documents Checklist
+                  </h2>
+                  <ul className="grid gap-3 sm:grid-cols-2">
+                    {scholarship.documents_required.map((doc) => (
+                      <li
+                        key={doc}
+                        className="flex items-start gap-2.5 rounded-xl border border-ink-150 bg-ink-50/40 p-3.5 text-sm leading-relaxed text-ink-800"
+                      >
+                        <CheckCircle2 className="size-4 shrink-0 text-emerald-700 mt-0.5" />
+                        <span>{doc}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+
+              {scholarship.faqs && scholarship.faqs.length > 0 ? (
+                <div className="rounded-2xl border border-ink-200 bg-white p-6 sm:p-8 shadow-2xs space-y-4">
+                  <h2 className="font-display text-xl font-bold text-ink-950">
+                    Frequently Asked Questions — {scholarship.name}
+                  </h2>
+                  <div className="space-y-4">
+                    {scholarship.faqs.map((faq) => (
+                      <div key={faq.question} className="border-b border-ink-150 pb-4 last:border-b-0 last:pb-0">
+                        <h3 className="font-display text-base font-bold text-ink-900">
+                          {faq.question}
+                        </h3>
+                        <p className="mt-1.5 text-sm leading-relaxed text-ink-700">{faq.answer}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+            </>
+          ) : null}
+
+          {section ? <SectionBody section={section} heading={heading} /> : null}
         </article>
       </div>
     </>

@@ -1,0 +1,62 @@
+{
+  "id": "veterinary-vs-agriculture-blog",
+  "cms_type": "Blog",
+  "slug": "bvsc-veterinary-vs-bsc-agriculture-regulatory-and-admission-differences",
+  "title": "B.V.Sc. & A.H. versus B.Sc. (Hons.) Agriculture: regulatory, duration and admission differences",
+  "description": "Compare the 5.5-year VCI-regulated B.V.Sc. & A.H. veterinary degree with the 4-year ICAR-aligned B.Sc. (Hons.) Agriculture programme.",
+  "summary": "Applicants interested in animal health and crop sciences should compare two distinct professional frameworks: the 5.5-year B.V.Sc. & A.H. degree regulated by the Veterinary Council of India (VCI) and the 4-year B.Sc. (Hons.) Agriculture degree aligned with ICAR norms.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "duration-and-regulator",
+      "heading": "VCI clinical licensing versus ICAR agricultural education",
+      "paragraphs": [
+        "A Bachelor of Veterinary Science and Animal Husbandry (B.V.Sc. & A.H.)—such as the programme profiled at [Khalsa College of Veterinary and Animal Sciences](/university/khalsa-college-of-veterinary-and-animal-sciences) under GADVASU, Ludhiana—spans five and a half years, including a compulsory one-year rotational clinical and livestock internship, and is governed by the Veterinary Council of India (VCI) minimum standards.",
+        "By contrast, [B.Sc. (Hons.) Agriculture](/bsc-agriculture) at institutions like [Khalsa College, Amritsar](/university/khalsa-college-amritsar) or [Guru Kashi University](/university/guru-kashi-university) is a four-year (eight-semester) degree focused on agronomy, soil science, genetics, plant protection, agricultural economics and final-year RAWE/ELP field modules."
+      ]
+    },
+    {
+      "id": "admission-and-fee-comparison",
+      "heading": "Comparing NEET-UG/university veterinary counselling with agriculture entry routes",
+      "paragraphs": [
+        "Veterinary admissions typically require Physics, Chemistry, Biology and English in Class 12 alongside NEET-UG or state veterinary university counselling (such as GADVASU), and carry distinct clinical and management-quota fee structures. Read [plan an agriculture study pathway after Class 12](/blogs/agriculture-study-plan-after-class-12) and [how to compare agriculture fees](/articles/agriculture-fee-budget)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a B.Sc. (Hons.) Agriculture graduate practice as a licensed veterinarian?",
+      "answer": "No. Veterinary clinical practice and registration with a State Veterinary Council require a recognised B.V.Sc. & A.H. qualification under the Indian Veterinary Council Act."
+    },
+    {
+      "question": "Why is B.V.Sc. & A.H. 5.5 years long while B.Sc. Agriculture is 4 years?",
+      "answer": "Under VCI regulations, B.V.Sc. & A.H. comprises 4.5專業 academic years plus a mandatory 12-month rotational clinical internship."
+    }
+  ],
+  "related_institution_ids": [
+    14,
+    15,
+    19,
+    43,
+    51
+  ],
+  "related_topic_ids": [
+    "career-choice",
+    "bsc-eligibility",
+    "fee-budget"
+  ],
+  "sources": [
+    {
+      "id": "kcvas-profile-source",
+      "title": "Khalsa College of Veterinary and Animal Sciences official admission and fee details",
+      "url": "https://kcvas.org/",
+      "checked_on": "2026-10-30",
+      "note": "Documented B.V.Sc. & A.H. profile under GADVASU Ludhiana."
+    }
+  ],
+  "verification_notes": [
+    "Contrasts VCI-regulated B.V.Sc. & A.H. (ID 14) with 4-year B.Sc. Agriculture programmes."
+  ]
+}

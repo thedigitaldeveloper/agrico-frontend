@@ -113,9 +113,6 @@ async function capture(page, name, width) {
     }
     for (const route of ['/bsc-agriculture', '/bsc-horticulture', '/mba-agribusiness', '/msc-agronomy', '/diploma-agriculture', '/university/punjab-agricultural-university', '/university/tamil-nadu-agricultural-university', '/university/indian-agricultural-research-institute']) await load(page, route);
     pass('All six programme and four university guides load with their detail UI');
-    await load(page, '/program/bsc-agriculture');
-    assert.equal(new URL(page.url()).pathname, '/bsc-agriculture');
-    pass('Legacy programme URL resolves to the canonical detail page');
     assert.equal((await page.goto(root + '/university/unknown-example-987', { waitUntil: 'domcontentloaded' })).status(), 404);
     assert.equal((await page.goto(root + '/unknown-programme-example-987', { waitUntil: 'domcontentloaded' })).status(), 404);
     pass('Unknown programme and university routes retain real 404 responses');

@@ -776,8 +776,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Published annual amount for the agriculture bachelor’s degree. Obtain a complete payable statement; adjacent Life Sciences examination/OJT charges do not establish agriculture charges.",
-              "Charge scope: Annual programme fee in the 2026–27 agriculture table; itemised compulsory, residential and other charges are not specified in this row."
+              "Charge scope: Annual programme fee in the 2026–27 agriculture table; itemised compulsory, residential and other charges are not specified in this row.",
+              "Published annual amount for the agriculture bachelor’s degree. Obtain a complete payable statement; adjacent Life Sciences examination/OJT charges do not establish agriculture charges."
             ],
             "source_ids": [
               "completion_aus_prospectus_2026"
@@ -4513,9 +4513,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Arunachal University of Studies. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "Himalayan and Eastern India private universities recorded ICAR-accredited agriculture programmes for 2026",
+            "path": "/news/himalayan-and-eastern-india-private-agriculture-universities-admission-updates-2026",
+            "description": "Explore 2026 admission and ICAR accreditation records for Eternal University (HP), Shri Guru Ram Rai University (Uttarakhand), The Neotia University (WB) and Arunachal University of Studies.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

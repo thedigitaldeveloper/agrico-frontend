@@ -735,8 +735,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Published later-year academic fees are ₹85,000, ₹87,000 and ₹89,000. Examination, alumni, refundable caution and accommodation charges are separate; obtain the complete payable statement.",
-              "Charge scope: First-year academic fee for B.Sc. (Hons.) Agriculture, Mathura campus."
+              "Charge scope: First-year academic fee for B.Sc. (Hons.) Agriculture, Mathura campus.",
+              "Published later-year academic fees are ₹85,000, ₹87,000 and ₹89,000. Examination, alumni, refundable caution and accommodation charges are separate; obtain the complete payable statement."
             ],
             "source_ids": [
               "s4"
@@ -4269,9 +4269,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for GLA University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Udai Pratap College recorded its June 2026 entrance application window alongside UP agriculture updates",
+            "path": "/news/uttar-pradesh-udai-pratap-college-june-2026-entrance-window-and-up-agriculture-checks",
+            "description": "Read the June 2026 entrance application timeline at Udai Pratap College, Varanasi and compare admission routes across Uttar Pradesh’s five ICAR-listed institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

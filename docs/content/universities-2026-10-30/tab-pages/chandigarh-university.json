@@ -743,7 +743,7 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "A dated official fee schedule with tuition, compulsory charges and residential costs was not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4233,9 +4233,28 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Chandigarh University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "GADVASU notified fourth B.V.Sc. & A.H. counselling on 30 October 2026 alongside Punjab admission updates",
+            "path": "/news/gadvasu-fourth-bvsc-counselling-and-punjab-agriculture-notices-october-2026",
+            "description": "Review the 30 October 2026 GADVASU fourth B.V.Sc. & A.H. counselling notice and how Punjab veterinary and agriculture applicants verify admission rounds.",
+            "kind": "News"
+          },
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

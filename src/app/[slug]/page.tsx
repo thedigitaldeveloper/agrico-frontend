@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { notFound } from 'next/navigation';
+import { notFound, permanentRedirect } from 'next/navigation';
 import { ShieldCheck, Scale, FileText, Mail, Calendar, CheckCircle2 } from 'lucide-react';
 
 import { CourseDetailView } from '@/components/course/course-detail-view';
@@ -14,8 +14,9 @@ import { Breadcrumbs } from '@/components/ui/breadcrumbs';
 import { ButtonLink } from '@/components/ui/button';
 import { EmptyState } from '@/components/ui/empty-state';
 import { resolveImage } from '@/lib/cms/media';
+import { splitHyphenatedProgramSectionSlug, toCleanSectionSuffix } from '@/lib/cms/paths';
 import { getCourseBySlug, getCourseSlugs } from '@/lib/cms/repositories/course';
-import { getFirstContentSection } from '@/lib/cms/repositories/content';
+import { getContentSection, getFirstContentSection } from '@/lib/cms/repositories/content';
 import {
   getProgramBySlug,
   getProgramSlugs,
@@ -27,7 +28,6 @@ import { buildMetadata } from '@/lib/metadata';
 import { JsonLdGraph } from '@/lib/seo/json-ld';
 import { breadcrumbSchema } from '@/lib/seo/schemas';
 import { SITE_NAME } from '@/lib/env';
-import { cmsFetchOptional } from '@/lib/cms/client';
 
 const QUICK_LEGAL_LINKS = [
   { name: 'Privacy Policy', slug: 'privacy-policy', icon: ShieldCheck },
@@ -37,9 +37,11 @@ const QUICK_LEGAL_LINKS = [
 
 /**
  * Universal root dynamic slug router:
- * 1. Programs / Specializations (e.g. /online-mba-finance-management)
- * 2. Courses / Degrees (e.g. /online-mba)
- * 3. Standalone Pages (e.g. /privacy-policy, /terms-and-conditions)
+ * 1. Programs / Specializations (e.g. /bsc-agriculture)
+ * 2. Researched Agriculture Programme Guides (e.g. /btech-agricultural-engineering)
+ * 3. Courses / Degrees
+ * 4. Standalone Pages (e.g. /privacy-policy, /terms-and-conditions)
+ * 5. Hyphenated Program Section Tabs (e.g. /bsc-agriculture-syllabus, /bsc-agriculture-fees)
  */
 export async function generateStaticParams() {
   const [standaloneSlugs, courseSlugs, programSlugs] = await Promise.all([
@@ -48,7 +50,13 @@ export async function generateStaticParams() {
     getProgramSlugs(100),
   ]);
 
-  const unique = new Set([...standaloneSlugs, ...courseSlugs, ...programSlugs, ...programmeGuideSlugs(), ...programmeContentSlugs()]);
+  const unique = new Set([
+    ...standaloneSlugs,
+    ...courseSlugs,
+    ...programSlugs,
+    ...programmeGuideSlugs(),
+    ...programmeContentSlugs(),
+  ]);
   return Array.from(unique).map((slug) => ({ slug }));
 }
 
@@ -65,7 +73,9 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
     return buildMetadata({
       seo: program.seo,
       title: program.seo?.metaTitle || `${programDisplayName} — Fees, Duration, Eligibility & Top Colleges`,
-      description: program.seo?.metaDescription || `Everything about ${programDisplayName}: fees, duration, eligibility, entrance exams, syllabus and the top approved universities that offer it.`,
+      description:
+        program.seo?.metaDescription ||
+        `Everything about ${programDisplayName}: fees, duration, eligibility, entrance exams, syllabus and the top approved agriculture universities that offer it.`,
       path,
     });
   }
@@ -73,21 +83,33 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
   // 2. Fallback: Researched Agrico Programme Content / Guide
   const content = getProgrammeContent(slug);
   const guide = getProgrammeGuide(slug);
-  if (content) return buildMetadata({ title: content.seo?.title || `${content.name} — Curriculum, Eligibility & Admission`, description: content.seo?.description || content.hero?.summary, path });
-  if (guide) return buildMetadata({ title: `${guide.name} — Curriculum, Eligibility & University Options`, description: guide.description, path });
+  if (content) {
+    return buildMetadata({
+      title: content.seo?.title || `${content.name} — Curriculum, Eligibility & Admission`,
+      description: content.seo?.description || content.hero?.summary,
+      path,
+    });
+  }
+  if (guide) {
+    return buildMetadata({
+      title: `${guide.name} — Curriculum, Eligibility & University Options`,
+      description: guide.description,
+      path,
+    });
+  }
 
-  // 2. Check if Course
+  // 3. Check if Course
   const course = await getCourseBySlug(slug);
   if (course) {
     return buildMetadata({
       seo: course.seo,
       title: `${course.name} — Specialisations, Fees & Colleges`,
-      description: `Compare every ${course.name} specialisation: fees, duration and the universities that offer each one.`,
+      description: `Compare every ${course.name} specialisation: fees, duration and the agriculture universities that offer each one.`,
       path,
     });
   }
 
-  // 3. Check if Standalone Page
+  // 4. Check if Standalone Page
   const page = await getStandalonePage(slug);
   if (page) {
     return buildMetadata({
@@ -99,6 +121,29 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>) {
           : `Read the official ${page.name} for ${SITE_NAME}. Statutory compliance, data protection, and student rights.`,
       path,
     });
+  }
+
+  // 5. Check if hyphenated Program Section (e.g. `/bsc-agriculture-syllabus`)
+  const parsed = splitHyphenatedProgramSectionSlug(slug);
+  if (parsed) {
+    const [secProgram, section] = await Promise.all([
+      getProgramBySlug(parsed.programSlug),
+      getContentSection('program', parsed.programSlug, parsed.sectionSuffix),
+    ]);
+    if (secProgram && section) {
+      const label = section.display_name || section.name || parsed.sectionSuffix;
+      const programDisplayName =
+        secProgram.full_name ||
+        (secProgram.course ? `${secProgram.course.name} in ${secProgram.name}` : secProgram.name);
+      const cleanSuffix = toCleanSectionSuffix(section.secondary_slug || section.slug);
+
+      return buildMetadata({
+        seo: section.seo,
+        title: section.heading || `${programDisplayName} — ${label}`,
+        description: `${label} details, syllabus and admission guidelines for ${programDisplayName}.`,
+        path: cleanSuffix === 'overview' ? `/${secProgram.slug}` : `/${secProgram.slug}-${cleanSuffix}`,
+      });
+    }
   }
 
   return buildMetadata({ title: 'Not found', path });
@@ -197,18 +242,15 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
     return <AgricoProgrammeDetail model={guideProgrammeModel(guide)} />;
   }
 
-  // 2. Try rendering Course
+  // 3. Try rendering Course
   const course = await getCourseBySlug(slug);
   if (course) {
     return <CourseDetailView course={course} />;
   }
 
-  // 3. Try rendering Standalone Page (Legal / Master)
+  // 4. Try rendering Standalone Page (Legal / Master)
   const page = await getStandalonePage(slug);
   if (page) {
-    // The grievance-officer address below is a statutory contact, so it comes
-    // from the CMS like every other contact detail rather than being pinned to
-    // whatever domain the site had when this page was written.
     const { contactEmail } = await getSiteSettings();
     const hero = page.kind === 'master' ? resolveImage(page.image, page.name) : null;
     const body = page.kind === 'legal' ? page.description : page.long_description;
@@ -340,6 +382,29 @@ export default async function DynamicSlugPage({ params }: PageProps<'/[slug]'>) 
     );
   }
 
-  // 4. Not found
+  // 5. Try rendering hyphenated Program Section (e.g. `/bsc-agriculture-syllabus`)
+  const parsed = splitHyphenatedProgramSectionSlug(slug);
+  if (parsed) {
+    if (parsed.sectionSuffix === 'overview') {
+      permanentRedirect(`/${parsed.programSlug}`);
+    }
+    const [secProgram, section] = await Promise.all([
+      getProgramBySlug(parsed.programSlug),
+      getContentSection('program', parsed.programSlug, parsed.sectionSuffix),
+    ]);
+    if (secProgram && section) {
+      const related = await listRelatedPrograms(secProgram);
+      return (
+        <ProgramDetailView
+          program={secProgram}
+          section={section}
+          activeSlug={section.secondary_slug || section.slug}
+          related={related}
+        />
+      );
+    }
+  }
+
+  // 6. Not found
   notFound();
 }

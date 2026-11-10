@@ -1,5 +1,5 @@
 .rs-programme-detail {
-  --rs-pd-ruby: #a22334;
+  --rs-pd-ruby: #124b3b;
   --rs-pd-ivory: #fcfaf5;
   --rs-pd-stone: #ede6de;
   color: #6b6260;
@@ -43,7 +43,7 @@
 .rs-programme-detail .rs-pd-text-link { display: inline-flex; align-items: center; gap: 9px; min-height: 44px; color: var(--rs-pd-ruby); font-size: 13px; line-height: 1.5; font-weight: 700; text-decoration: none; }
 .rs-programme-detail .rs-pd-text-link:hover { text-decoration: underline; text-underline-offset: 4px; }
 .rs-programme-detail .rs-pd-text-link svg { flex-shrink: 0; }
-.rs-programme-detail .rs-pd-admission { min-width: 0; padding: 27px; border-radius: 12px; background: var(--rs-pd-ruby); color: #fff7f0; box-shadow: 0 14px 34px #a2233412; }
+.rs-programme-detail .rs-pd-admission { min-width: 0; padding: 27px; border-radius: 12px; background: var(--rs-pd-ruby); color: #fff7f0; box-shadow: 0 14px 34px #124b3b12; }
 .rs-programme-detail .rs-pd-admission .rs-pd-eyebrow { color: #f5d9d7; margin-bottom: 10px; }
 .rs-programme-detail .rs-pd-admission h2 { margin: 0 0 12px; color: var(--rs-pd-ivory); font-size: 29px; line-height: 1.15; }
 .rs-programme-detail .rs-pd-admission-intro { font-size: 13px; line-height: 1.7; color: #f4deda; }
@@ -109,7 +109,7 @@
 .rs-programme-detail .rs-pd-offering-university { display: inline-flex; align-items: center; gap: 13px; max-width: 100%; margin: 8px 0 2px; font-size: 14px; line-height: 1.4; font-weight: 600; color: #6b6260; }
 .rs-programme-detail .rs-pd-university-mark { width: 52px; height: 52px; flex-shrink: 0; position: relative; border: 1px solid #e6dfd6; border-radius: 7px; background: #fff; overflow: hidden; }
 .rs-programme-detail .rs-pd-university-mark img { object-fit: contain; padding: 5px; }
-.rs-programme-detail .rs-pd-university-mark[data-logo-kind="wordmark"][data-university*="chandigarh"] { background: #a22334; }
+.rs-programme-detail .rs-pd-university-mark[data-logo-kind="wordmark"][data-university*="chandigarh"] { background: #124b3b; }
 .rs-programme-detail .rs-pd-offering-facts { display: grid; gap: 11px; border-top: 1px solid #c66e78; border-bottom: 1px solid #c66e78; padding: 16px 0; margin-bottom: 20px; }
 .rs-programme-detail .rs-pd-offering-facts > div { display: grid; grid-template-columns: 100px minmax(0, 1fr); gap: 12px; font-size: 12px; }
 .rs-programme-detail .rs-pd-offering-facts dt { color: #f4deda; }

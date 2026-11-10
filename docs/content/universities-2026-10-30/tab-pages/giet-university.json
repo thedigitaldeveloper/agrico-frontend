@@ -842,8 +842,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Historical B.Sc. Agriculture annual fee, also shown as INR80,000 per semester. Other charges separate; current applicability not established.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Historical B.Sc. Agriculture annual fee, also shown as INR80,000 per semester. Other charges separate; current applicability not established."
             ],
             "source_ids": [
               "o31_fee2024"
@@ -852,8 +852,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Historical combined M.Sc. Agriculture row, also INR60,000 per semester. Confirm Agronomy-specific current offer. It is not assigned to the separately named Horticulture course.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Historical combined M.Sc. Agriculture row, also INR60,000 per semester. Confirm Agronomy-specific current offer. It is not assigned to the separately named Horticulture course."
             ],
             "source_ids": [
               "o31_fee2024"
@@ -862,7 +862,7 @@
           {
             "heading": "M.Sc. Horticulture — Fruit Science",
             "paragraphs": [
-              "A dated fee schedule for the intended admission year has not been verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4989,9 +4989,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for GIET University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Siksha ‘O’ Anusandhan announced SAAT 2026 agriculture stray-vacancy results in August 2026",
+            "path": "/news/soa-saat-stray-vacancy-results-and-odisha-private-agriculture-admissions-august-2026",
+            "description": "Read the August 2026 SAAT stray-vacancy admission milestone at SOA alongside Odisha private agriculture university admission checks.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

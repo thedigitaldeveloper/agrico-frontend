@@ -1,0 +1,72 @@
+{
+  "id": "icar-validity-window-blog",
+  "cms_type": "Blog",
+  "slug": "how-to-read-icar-accreditation-validity-dates-on-admission-offers",
+  "title": "How to read ICAR accreditation validity dates before accepting an admission offer",
+  "description": "Learn how to match the academic unit, degree title and five-year validity window in ICAR’s accreditation register against your admission offer letter.",
+  "summary": "An ICAR accreditation claim should be checked against three specifics in the official register: the exact school or college name, the printed degree title, and the start and end dates of the accreditation term.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "three-column-check",
+      "heading": "Match the unit, degree and validity dates together",
+      "paragraphs": [
+        "When a brochure or counsellor states that an institution is \"ICAR accredited\", open the institution’s profile on Agrico and inspect the ICAR accreditation table. In the official NAEAB register, accreditation is granted to a named academic unit (for example, the specific Faculty or School of Agriculture) and lists the exact programme title and validity period.",
+        "Compare examples such as [Lovely Professional University](/university/lovely-professional-university), [Centurion University of Technology and Management, Odisha](/university/centurion-university-of-technology-and-management) and [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) alongside [how to check ICAR accreditation for an agriculture programme](/articles/icar-accreditation-how-to-check)."
+      ]
+    },
+    {
+      "id": "questions-for-admissions-office",
+      "heading": "What to ask if a validity term is approaching renewal",
+      "paragraphs": [
+        "ICAR accreditation cycles are awarded for fixed multi-year terms. If an institution’s recorded term ends during your planned study period, ask the university for official documentation of its renewal application or latest NAEAB decision rather than relying on verbal assurances."
+      ],
+      "bullets": [
+        "Check that the college/school name on your offer letter matches the ICAR-listed unit.",
+        "Confirm the exact degree nomenclature—such as B.Sc. (Hons.) Agriculture—matches the accredited programme.",
+        "Keep a PDF copy of the official ICAR register row in your personal admission folder."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does university-level NAAC or UGC recognition replace ICAR programme accreditation?",
+      "answer": "No. UGC recognition establishes the university’s legal degree-awarding status, while NAAC grades the institution overall. ICAR NAEAB accreditation specifically evaluates agricultural education standards."
+    },
+    {
+      "question": "Where can I view the exact ICAR unit and dates for all 58 institutions?",
+      "answer": "Every university overview page on Agrico includes an \"ICAR accreditation: programme, unit and validity\" table sourced from the official registers."
+    }
+  ],
+  "related_institution_ids": [
+    1,
+    11,
+    19,
+    28,
+    32,
+    37,
+    42,
+    43,
+    50,
+    58
+  ],
+  "related_topic_ids": [
+    "icar-check",
+    "college-questions",
+    "msc-pathways"
+  ],
+  "sources": [
+    {
+      "id": "icar-list-ii-blog",
+      "title": "ICAR Accredited Private Colleges and Universities — List II",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "checked_on": "2026-10-30",
+      "note": "Official register used to verify unit names, programmes and validity windows."
+    }
+  ],
+  "verification_notes": [
+    "Practical checklist grounded in the official ICAR List II and List III registers."
+  ]
+}

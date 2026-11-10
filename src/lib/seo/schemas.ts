@@ -138,7 +138,7 @@ export function programSchema(program: ProgramDetail): Schema {
       ? [
           compact({
             '@type': 'CourseInstance',
-            courseMode: program.course_mode?.name,
+            courseMode: program.course_mode?.name || 'Full-time, campus-based',
             // ISO 8601 duration: P2Y for two years.
             courseWorkload: `P${program.duration}${
               program.duration_type?.name?.toLowerCase().startsWith('month') ? 'M' : 'Y'

@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
   title: {
-    default: `${SITE_NAME} — Compare Universities, Programs & Entrance Exams`,
+    default: `${SITE_NAME} — Compare Agriculture Universities, Degrees & Entrance Exams`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    'Compare universities, programs and entrance exams in India, and get guidance you can trust.',
+    'Compare ICAR-aligned agriculture degrees, State Agricultural Universities, private farm campuses, entrance exams and fees in India.',
   formatDetection: { telephone: false },
 };
 

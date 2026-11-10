@@ -726,8 +726,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Category 1 tuition. Category 2: INR 1,95,000; Category 3: INR 2,25,000 annually. One-time refundable caution deposit INR 5,000.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Category 1 tuition. Category 2: INR 1,95,000; Category 3: INR 2,25,000 annually. One-time refundable caution deposit INR 5,000."
             ],
             "source_ids": [
               "s2"
@@ -4023,9 +4023,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Vellore Institute of Technology. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Tamil Nadu deemed universities recorded separate 2026 entrance, merit and scholarship deadlines",
+            "path": "/news/tamil-nadu-deemed-universities-agriculture-admission-and-scholarship-deadlines-2026",
+            "description": "Compare 2026 admission and scholarship timelines across Amrita Vishwa Vidyapeetham, Karunya, VIT, SRM and Kalasalingam in Tamil Nadu.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

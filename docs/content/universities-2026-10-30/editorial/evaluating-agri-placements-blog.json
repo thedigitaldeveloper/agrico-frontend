@@ -1,0 +1,73 @@
+{
+  "id": "evaluating-agri-placements-blog",
+  "cms_type": "Blog",
+  "slug": "how-to-verify-agriculture-placement-claims-and-agribusiness-recruiters",
+  "title": "How to read agriculture placement statistics, NIRF cohort tables and recruiter lists",
+  "description": "Learn how to distinguish university-wide placement banners from verified agriculture cohort outcomes, NIRF median salaries and higher-study progressions.",
+  "summary": "When evaluating career outcomes at an agriculture college, separate university-wide engineering or management placement headlines from verified cohort data for the School of Agriculture, and account for graduates who pursue M.Sc. or MBA Agribusiness.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "cohort-data-vs-logo-walls",
+      "heading": "Why cohort tables tell you more than a recruiter logo wall",
+      "paragraphs": [
+        "Multi-faculty private and deemed universities often display a single campus-wide recruiter banner covering B.Tech., MBA, Pharmacy and Agriculture together. A meaningful placement check asks how many students graduated in minimum time from the agriculture programme specifically, how many accepted job offers, what the median salary was, and how many progressed to higher studies.",
+        "On Agrico, when an institution such as [Vellore Institute of Technology](/university/vellore-institute-of-technology), [Amrita Vishwa Vidyapeetham](/university/amrita-vishwa-vidyapeetham), [SRM Institute of Science and Technology](/university/srm-institute-of-science-and-technology), [Lovely Professional University](/university/lovely-professional-university) or [Siksha ‘O’ Anusandhan](/university/siksha-o-anusandhan) has sourced cohort or recruiter records, the Training & Placements tab keeps the exact reporting year and programme scope visible."
+      ]
+    },
+    {
+      "id": "three-post-graduation-paths",
+      "heading": "Balancing campus placements, higher studies and competitive exams",
+      "paragraphs": [
+        "In agricultural sciences, a large share of graduates choose [M.Sc. Agronomy](/msc-agronomy), [MBA in Agribusiness Management](/mba-agribusiness), or public-sector examinations (such as IBPS AFO, NABARD, FCI and State Agriculture Officer posts) rather than immediate campus placement. Read [plan an agriculture study pathway after Class 12](/blogs/agriculture-study-plan-after-class-12) to align your college choice with your post-graduation goal."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does a highest-package headline on a university website apply to B.Sc. Agriculture?",
+      "answer": "Rarely. University-wide highest packages usually belong to engineering or management programmes. Always ask for the median salary and recruiter list specific to the B.Sc. (Hons.) Agriculture batch."
+    },
+    {
+      "question": "Why do NIRF tables show many agriculture graduates under \"Higher Studies\"?",
+      "answer": "Many B.Sc. (Hons.) Agriculture graduates immediately pursue M.Sc. Agriculture, MBA Agribusiness or research fellowships, which are recorded separately from campus job placements."
+    }
+  ],
+  "related_institution_ids": [
+    17,
+    19,
+    22,
+    25,
+    29,
+    32,
+    33,
+    37,
+    39,
+    42,
+    43,
+    45,
+    48,
+    50,
+    53,
+    54
+  ],
+  "related_topic_ids": [
+    "career-choice",
+    "msc-pathways",
+    "college-questions"
+  ],
+  "sources": [
+    {
+      "id": "vit-agri-source",
+      "title": "VIT B.Sc. (Hons.) Agriculture programme overview",
+      "url": "https://vit.ac.in/schools/school-of-agricultural-innovations-and-advanced-learning",
+      "checked_on": "2026-10-30",
+      "note": "Reference for multi-faculty university agriculture school structure."
+    }
+  ],
+  "verification_notes": [
+    "Helps applicants critically evaluate placement claims across all 58 institutions."
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "icar-naeab-accreditation-audit-2026",
+  "cms_type": "News",
+  "slug": "icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+  "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+  "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+  "summary": "ICAR’s published List II (private colleges and universities) and List III (constituent/affiliated colleges of public general universities) record exact unit names, accredited programmes and validity windows that applicants must verify before admission.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-09-10",
+  "published_on": "2026-09-10",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "list-ii-and-list-iii-explained",
+      "heading": "What ICAR List II and List III actually record",
+      "paragraphs": [
+        "The Indian Council of Agricultural Research (ICAR) publishes separate accreditation registers through its National Agricultural Education Accreditation Board (NAEAB). List II covers private agricultural colleges affiliated to State Agricultural Universities (such as [Adhiparasakthi Agricultural College](/university/adhiparasakthi-agricultural-college) and [SBVR Agricultural College](/university/sbvr-agricultural-college)) as well as private and deemed universities (such as [Lovely Professional University](/university/lovely-professional-university), [Centurion University of Technology and Management, Odisha](/university/centurion-university-of-technology-and-management) and [Vellore Institute of Technology](/university/vellore-institute-of-technology)).",
+        "List III records accredited constituent and affiliated colleges of public general universities, including [Udai Pratap College](/university/udai-pratap-college), [Khalsa College, Amritsar](/university/khalsa-college-amritsar) and [Tilak Dhari P.G. College, Jaunpur](/university/tilak-dhari-pg-college)."
+      ]
+    },
+    {
+      "id": "why-validity-windows-matter",
+      "heading": "Checking programme name and validity period before paying fees",
+      "paragraphs": [
+        "An institution’s presence in the ICAR workbook does not mean every course or every campus is accredited in perpetuity. Each row specifies the exact academic unit, the listed degree(s) and the five-year validity term. Read [how to check ICAR accreditation for an agriculture programme](/articles/icar-accreditation-how-to-check) for a step-by-step verification guide."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Why does ICAR accreditation matter for B.Sc. (Hons.) Agriculture students?",
+      "answer": "Many State Agricultural Universities and ICAR AIEEA-PG counselling brochures require graduates to hold a four-year degree from an ICAR-accredited institution/programme for postgraduate admission."
+    },
+    {
+      "question": "What is the difference between ICAR List II and List III?",
+      "answer": "List II covers private colleges and private/deemed universities, while List III covers constituent and affiliated colleges of public general universities."
+    }
+  ],
+  "related_institution_ids": [
+    1,
+    5,
+    10,
+    11,
+    15,
+    19,
+    21,
+    25,
+    28,
+    32,
+    37,
+    42,
+    43,
+    49,
+    50,
+    53,
+    55,
+    58
+  ],
+  "related_topic_ids": [
+    "icar-check",
+    "msc-pathways",
+    "college-questions"
+  ],
+  "sources": [
+    {
+      "id": "icar-list-ii-global",
+      "title": "ICAR Accredited Private Colleges and Universities — List II",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "checked_on": "2026-10-30",
+      "note": "Primary regulatory workbook for 55 of the 58 researched institutions."
+    },
+    {
+      "id": "icar-list-iii-global",
+      "title": "ICAR Accredited Constituent/Affiliated Colleges of Public General Universities — List III",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20ICAR%20Accredited%20Constituent%20affiliated%20Colleges%20Programmes%20of%20General%20Universities%20%28Public%29-%20List-III.xlsx",
+      "checked_on": "2026-10-30",
+      "note": "Primary regulatory workbook for Udai Pratap College, Khalsa College Amritsar and Tilak Dhari PG College."
+    }
+  ],
+  "verification_notes": [
+    "Explains the primary regulatory source workbooks (List II & List III) underpinning the entire 58-institution directory."
+  ]
+}

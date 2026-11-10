@@ -749,8 +749,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official amount; intake-year applicability is not established. This is not a verified current 2026–27/2027 payable quote. Obtain the complete dated charge schedule.",
-              "Charge scope: Published annual tuition figure for B.Sc. (Hons.) Agriculture; additional charges are not itemised in the row."
+              "Charge scope: Published annual tuition figure for B.Sc. (Hons.) Agriculture; additional charges are not itemised in the row.",
+              "Undated official amount; intake-year applicability is not established. This is not a verified current 2026–27/2027 payable quote. Obtain the complete dated charge schedule."
             ],
             "source_ids": [
               "s8"
@@ -4378,9 +4378,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Sri Satya Sai University of Technology and Medical Sciences. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Madhya Pradesh private universities recorded multi-year ICAR accreditation terms for B.Sc. (Hons.) Agriculture",
+            "path": "/news/madhya-pradesh-private-universities-icar-accreditation-and-admission-verification-2026",
+            "description": "Check the audited ICAR accreditation terms and admission verification steps across six private universities in Madhya Pradesh.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

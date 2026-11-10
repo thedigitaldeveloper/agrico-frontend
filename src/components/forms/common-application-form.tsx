@@ -345,7 +345,7 @@ export function CommonApplicationForm({
                 Step 1: Select Your Degree &amp; Specialization
               </h2>
               <p className="mt-1 text-xs text-ink-600">
-                Search or select the UGC-DEB entitled degree you want to pursue.
+                Search or select the ICAR-aligned agriculture or allied science degree you want to pursue.
               </p>
             </div>
 
@@ -358,7 +358,7 @@ export function CommonApplicationForm({
                 type="text"
                 value={programSearch}
                 onChange={(e) => setProgramSearch(e.target.value)}
-                placeholder="Search degree, specialization or domain (e.g. MBA, AI & ML, FinTech, MCA, BBA, Data Science)..."
+                placeholder="Search degree, specialization or domain (e.g. B.Sc. Agriculture, Agri Engineering, Horticulture, MBA Agribusiness)..."
                 className="w-full rounded-2xl border border-ink-250 bg-white py-3 pl-10 pr-10 text-sm text-ink-900 placeholder:text-ink-400 shadow-2xs transition-all focus:border-brand-800 focus:outline-none focus:ring-2 focus:ring-brand-800/15"
               />
               {programSearch && (
@@ -550,7 +550,7 @@ export function CommonApplicationForm({
                       Auto-Match Top 3 Universities (Recommended)
                     </p>
                     <p className="text-2xs text-ink-500">
-                      Advisor compares UGC approval, lowest semester fees &amp; placement records
+                      Advisor compares ICAR accreditation, UGC recognition, fee structures &amp; campus facilities
                     </p>
                   </div>
                 </div>
@@ -579,7 +579,7 @@ export function CommonApplicationForm({
                   type="text"
                   value={universitySearch}
                   onChange={(e) => setUniversitySearch(e.target.value)}
-                  placeholder="Search specific university (e.g. VGU, Manipal, DPU, Amity, Chandigarh, LPU)..."
+                  placeholder="Search specific university (e.g. PAU, TNAU, LPU, Centurion, SGT, Chandigarh University)..."
                   className="w-full rounded-xl border border-ink-250 bg-white py-2 pl-9 pr-3 text-xs text-ink-900 placeholder:text-ink-400 shadow-2xs focus:border-brand-800 focus:outline-none focus:ring-1 focus:ring-brand-800"
                 />
               </div>
@@ -607,7 +607,7 @@ export function CommonApplicationForm({
                             {uni.naac}
                           </span>
                           <span className="rounded bg-emerald-50 px-1.5 py-0.2 font-semibold text-emerald-800 border border-emerald-200">
-                            UGC-DEB
+                            ICAR / UGC
                           </span>
                         </div>
                       </div>

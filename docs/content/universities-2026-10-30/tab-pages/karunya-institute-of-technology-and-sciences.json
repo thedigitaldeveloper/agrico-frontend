@@ -878,8 +878,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Tuition for each of eight semesters in the 2026-30 cohort fee sheet; one-time admission fee INR 10,000; examination fees extra.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Tuition for each of eight semesters in the 2026-30 cohort fee sheet; one-time admission fee INR 10,000; examination fees extra."
             ],
             "source_ids": [
               "s6"
@@ -888,8 +888,8 @@
           {
             "heading": "M.Sc. (Agriculture) Agronomy",
             "paragraphs": [
-              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
-              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded."
+              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff."
             ],
             "source_ids": [
               "r2_pg_fee2026"
@@ -898,8 +898,8 @@
           {
             "heading": "M.Sc. (Agriculture) Genetics and Plant Breeding",
             "paragraphs": [
-              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
-              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded."
+              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff."
             ],
             "source_ids": [
               "r2_pg_fee2026"
@@ -908,8 +908,8 @@
           {
             "heading": "M.Sc. (Horticulture) Fruit Sciences",
             "paragraphs": [
-              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff.",
-              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded."
+              "Charge scope: Tuition for the 2026–28 Indian-national cohort; exam, professional-development and placement-training charges excluded.",
+              "Each of four semesters costs INR 60,750 tuition. One-time admission INR 5,000 is separate. The schedule explicitly names Agronomy, Genetics and Plant Breeding, and Fruit Science; this is not an NRI tariff."
             ],
             "source_ids": [
               "r2_pg_fee2026"
@@ -5245,9 +5245,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Karunya Institute of Technology and Sciences. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Tamil Nadu deemed universities recorded separate 2026 entrance, merit and scholarship deadlines",
+            "path": "/news/tamil-nadu-deemed-universities-agriculture-admission-and-scholarship-deadlines-2026",
+            "description": "Compare 2026 admission and scholarship timelines across Amrita Vishwa Vidyapeetham, Karunya, VIT, SRM and Kalasalingam in Tamil Nadu.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

@@ -3,6 +3,8 @@ import { Metadata } from 'next';
 import { Globe, GraduationCap, Building2, ShieldCheck } from 'lucide-react';
 import { listUniversities } from '@/lib/cms/repositories/university';
 import { buildMetadata } from '@/lib/metadata';
+import { listProgrammeContent } from '@/lib/agrico/programme-content';
+import { publicationUniversities } from '@/lib/agrico/publication';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Sitemap — Universities, Programmes & Resources',
@@ -13,6 +15,15 @@ export const metadata: Metadata = buildMetadata({
 
 export default async function SitemapPage() {
   const { universities } = await listUniversities({ pageSize: 50 });
+  const programmes = listProgrammeContent();
+  const directoryUniversities = [
+    ...new Map(
+      [
+        ...universities.map((u) => ({ slug: u.slug, name: u.name })),
+        ...publicationUniversities.map((u) => ({ slug: u.slug, name: u.name || u.title })),
+      ].map((u) => [u.slug, u])
+    ).values(),
+  ];
 
   return (
     <div className="bg-ink-50/50 py-12 lg:py-16">
@@ -42,6 +53,16 @@ export default async function SitemapPage() {
               <li>
                 <Link href="/" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
                   Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/agriculture-colleges" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
+                  Agriculture Colleges Directory
+                </Link>
+              </li>
+              <li>
+                <Link href="/articles" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
+                  Agriculture Study Guides
                 </Link>
               </li>
               <li>
@@ -109,45 +130,20 @@ export default async function SitemapPage() {
                   Explore all programmes &rarr;
                 </Link>
               </li>
-              <li>
-                <Link href="/online-mba" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online MBA (Master of Business Administration)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-mca" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online MCA (Master of Computer Applications)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-bba" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online BBA (Bachelor of Business Administration)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-bca" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online BCA (Bachelor of Computer Applications)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-b-com" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online B.Com (Bachelor of Commerce)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-m-sc" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online M.Sc (Master of Science)
-                </Link>
-              </li>
-              <li>
-                <Link href="/online-ma" className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors">
-                  Online MA (Master of Arts)
-                </Link>
-              </li>
+              {programmes.map((prog) => (
+                <li key={prog.slug}>
+                  <Link
+                    href={`/${prog.slug}`}
+                    className="inline-flex min-h-11 items-center text-ink-700 hover:text-brand-800 transition-colors"
+                  >
+                    {prog.name} ({prog.level})
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
-          {/* Top Online Universities */}
+          {/* Accredited Agriculture Universities */}
           <div className="rounded-2xl border border-ink-200 bg-white p-6 shadow-2xs">
             <div className="flex items-center gap-2.5 pb-4 border-b border-ink-150">
               <Building2 className="size-5 text-brand-700" />
@@ -155,12 +151,12 @@ export default async function SitemapPage() {
             </div>
             <ul className="mt-4 space-y-2.5 text-sm">
               <li>
-                <Link href="/universities" className="font-semibold text-brand-800 hover:underline">
-                  Browse All Universities &rarr;
+                <Link href="/agriculture-colleges" className="font-semibold text-brand-800 hover:underline">
+                  Browse All Agriculture Colleges &rarr;
                 </Link>
               </li>
-              {universities.slice(0, 10).map((u) => (
-                <li key={u.id}>
+              {directoryUniversities.slice(0, 24).map((u) => (
+                <li key={u.slug}>
                   <Link
                     href={`/university/${u.slug}`}
                     className="text-ink-700 hover:text-brand-800 transition-colors block break-words"

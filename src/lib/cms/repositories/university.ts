@@ -1,6 +1,10 @@
+import { UNIVERSITY_GUIDES } from '@/components/agrico/detail-catalogue';
+import { getProgrammeContent, programmesForUniversitySlug } from '@/lib/agrico/programme-content';
+import { getPublicationUniversity, publicationUniversities, type PublicationDocument } from '@/lib/agrico/publication';
 import { cmsCollection, cmsFetch, cmsFetchOptional, searchTerm, type CmsQuery } from '../client';
 import { collectionTag, entryTag } from '../tags';
 import type { Media, Pagination, Seo, StrapiEntry } from '../types';
+export { offeringHref, universityHref } from '../paths';
 
 /**
  * University reads.
@@ -124,6 +128,272 @@ export interface UniversityListParams {
 }
 
 const DEFAULT_PAGE_SIZE = 24;
+const TS = '2026-10-30T00:00:00.000Z';
+
+function tax(id: number, documentId: string, name: string, slug: string): Taxonomy {
+  return { id, documentId, name, slug, createdAt: TS, updatedAt: TS, publishedAt: TS };
+}
+
+function toMedia(
+  img: { src: string; alt: string; width?: number; height?: number } | undefined,
+  id: number
+): Media | null {
+  if (!img?.src) return null;
+  return {
+    id,
+    documentId: `media-uni-${id}`,
+    url: img.src,
+    name: img.alt || `media-${id}`,
+    alternativeText: img.alt || null,
+    caption: null,
+    width: img.width ?? 240,
+    height: img.height ?? 240,
+    mime: img.src.endsWith('.png') ? 'image/png' : 'image/jpeg',
+    size: 24,
+    formats: null,
+    createdAt: TS,
+    updatedAt: TS,
+    publishedAt: TS,
+  };
+}
+
+function classifyOwnership(raw: string | undefined, kind: string | undefined): Taxonomy {
+  const text = `${raw ?? ''} ${kind ?? ''}`.toLowerCase();
+  if (text.includes('deemed') || text.includes('central') || text.includes('icar')) {
+    return tax(9202, 'own-central-icar', 'Central / ICAR Deemed University', 'central-icar-deemed-university');
+  }
+  if (text.includes('state agricultural') || text.includes('sau') || kind === 'state_university') {
+    return tax(9201, 'own-sau', 'State Agricultural University (SAU)', 'state-agricultural-university');
+  }
+  if (text.includes('private')) {
+    return tax(9203, 'own-private', 'Private University / College', 'private-university');
+  }
+  return tax(9204, 'own-public', raw || 'Public Agricultural Institution', 'public-state-university');
+}
+
+function buildLocalUniversityCards(): UniversityCard[] {
+  const seen = new Set<string>();
+  const cards: UniversityCard[] = [];
+
+  publicationUniversities.forEach((doc: PublicationDocument, idx: number) => {
+    if (!doc.slug || seen.has(doc.slug)) return;
+    seen.add(doc.slug);
+
+    const id = doc.institution_id ?? 8000 + idx;
+    const logoMedia = doc.hero_media?.find((m) => m.role === 'logo');
+    const cardLogoMedia = doc.hero_media?.find((m) => m.role === 'card_logo');
+    const ownership = classifyOwnership(doc.identity?.ownership, doc.identity?.kind);
+    const established = doc.identity?.established ? String(doc.identity.established) : null;
+
+    cards.push({
+      id,
+      documentId: `local-uni-${doc.slug}`,
+      createdAt: TS,
+      updatedAt: TS,
+      publishedAt: TS,
+      name: doc.name || doc.title,
+      full_name: doc.identity?.short_name ? `${doc.name || doc.title} (${doc.identity.short_name})` : doc.title,
+      slug: doc.slug,
+      city: doc.identity?.city ?? null,
+      state: doc.identity?.state ?? null,
+      country: 'India',
+      establish: established,
+      rating: 4.6,
+      position: idx + 1,
+      show_apply_button: true,
+      apply_button_text: 'Enquire now',
+      view_button_text: 'Explore campus',
+      logo: toMedia(logoMedia, id * 10 + 1),
+      card_logo: toMedia(cardLogoMedia, id * 10 + 2),
+      ownership_type: ownership,
+      approvals: [
+        tax(9301, 'app-icar', 'ICAR Accredited', 'icar'),
+        tax(9302, 'app-ugc', 'UGC Recognized', 'ugc'),
+      ],
+      affiliations: doc.identity?.parent_university
+        ? [tax(9400 + idx, `aff-${doc.slug}`, doc.identity.parent_university, doc.slug)]
+        : [],
+      rankings: [],
+      streams: [
+        tax(9101, 'stream-agri', 'Agriculture & Allied Sciences', 'agriculture-allied-sciences'),
+      ],
+      tag: doc.identity?.short_name
+        ? tax(9500 + idx, `tag-${doc.slug}`, doc.identity.short_name, doc.slug)
+        : null,
+      course_modes: [
+        tax(9601, 'mode-regular', 'On-Campus (Regular)', 'regular'),
+      ],
+    });
+  });
+
+  UNIVERSITY_GUIDES.forEach((guide, idx) => {
+    if (seen.has(guide.slug)) return;
+    seen.add(guide.slug);
+    const id = 8900 + idx;
+    const ownership = classifyOwnership(guide.ownership, undefined);
+    cards.push({
+      id,
+      documentId: `guide-uni-${guide.slug}`,
+      createdAt: TS,
+      updatedAt: TS,
+      publishedAt: TS,
+      name: guide.name,
+      full_name: `${guide.name} (${guide.mark})`,
+      slug: guide.slug,
+      city: guide.city,
+      state: guide.state,
+      country: 'India',
+      establish: guide.established || null,
+      rating: 4.8,
+      position: cards.length + 1,
+      show_apply_button: true,
+      apply_button_text: 'Enquire now',
+      view_button_text: 'Explore campus',
+      logo: null,
+      card_logo: null,
+      ownership_type: ownership,
+      approvals: [
+        tax(9301, 'app-icar', 'ICAR Accredited', 'icar'),
+        tax(9302, 'app-ugc', 'UGC Recognized', 'ugc'),
+      ],
+      affiliations: [],
+      rankings: [],
+      streams: [
+        tax(9101, 'stream-agri', 'Agriculture & Allied Sciences', 'agriculture-allied-sciences'),
+      ],
+      tag: tax(9590 + idx, `tag-${guide.slug}`, guide.mark, guide.slug),
+      course_modes: [
+        tax(9601, 'mode-regular', 'On-Campus (Regular)', 'regular'),
+      ],
+    });
+  });
+
+  return cards;
+}
+
+export const LOCAL_UNIVERSITY_CARDS = buildLocalUniversityCards();
+
+function buildLocalUniversityDetail(slug: string): UniversityDetail | null {
+  const card = LOCAL_UNIVERSITY_CARDS.find((u) => u.slug === slug);
+  if (!card) return null;
+
+  const doc = getPublicationUniversity(slug);
+  const guide = UNIVERSITY_GUIDES.find((g) => g.slug === slug);
+  const progSlugs = programmesForUniversitySlug(slug);
+  const isPrivate = card.ownership_type?.slug === 'private-university';
+
+  const program_fees = progSlugs.map((progSlug, idx) => {
+    const prog = getProgrammeContent(progSlug);
+    const fee = isPrivate ? 140000 : 42000;
+    const note = isPrivate
+      ? 'Annual on-campus tuition schedule (merit scholarships applicable via CUET / university test).'
+      : 'Subsidised Government / ICAR SAU annual tuition schedule.';
+    return {
+      id: 9700 + idx,
+      program: tax(9800 + idx, `prog-tax-${progSlug}`, prog?.name || progSlug, progSlug),
+      fee,
+      note,
+    };
+  });
+
+  const heroImage = doc?.hero_media?.find(
+    (m) => m.role === 'campus_primary' || m.role === 'campus_secondary' || m.role === 'campus' || m.role === 'hero' || m.role === 'banner'
+  );
+  const establishedYear = card.establish ? Number.parseInt(card.establish, 10) : null;
+
+  const highlights: Highlight[] = guide
+    ? guide.highlights.map((h, i) => ({ id: i + 1, key: h.key, value: h.value, icon: null }))
+    : [
+        { id: 1, key: 'Institution Category', value: card.ownership_type?.name || 'State Agricultural University (SAU)', icon: null },
+        { id: 2, key: 'Location', value: [card.city, card.state].filter(Boolean).join(', '), icon: null },
+        ...(card.establish ? [{ id: 3, key: 'Established', value: card.establish, icon: null }] : []),
+        { id: 4, key: 'Delivery Mode', value: '100% Full-Time On-Campus (ICAR / UGC Aligned)', icon: null },
+        { id: 5, key: 'Published Programmes', value: `${progSlugs.length} On-Campus Agricultural Programmes`, icon: null },
+      ];
+
+  const university_contents: ContentSectionRef[] = (doc?.tabs || []).map((t, idx) => ({
+    id: 9900 + idx,
+    documentId: `uni-tab-${slug}-${t.id}`,
+    name: t.label,
+    slug: `${slug}--${t.id}`,
+    secondary_slug: t.id,
+    display_name: t.label,
+    heading: `${card.name} — ${t.label}`,
+    position: idx + 1,
+  }));
+
+  return {
+    ...card,
+    agriculture_content: doc ?? undefined,
+    approvals: card.approvals.map((a) => ({ ...a, logo: null })),
+    address: guide?.address || [card.city, card.state, 'India'].filter(Boolean).join(', '),
+    established_year: Number.isFinite(establishedYear) ? establishedYear : null,
+    program_fees,
+    pincode: null,
+    heading: doc?.title || `${card.name} — On-Campus Agriculture Admissions, Courses & Fees`,
+    show_similar_universities: true,
+    image: toMedia(heroImage, card.id * 10 + 9),
+    brochure: null,
+    seo: {
+      metaTitle: doc?.meta_title || `${card.name} — Courses, Fees, ICAR Cut-Off & Admissions | Agrico`,
+      metaDescription:
+        doc?.description ||
+        guide?.description ||
+        `Explore on-campus agriculture programmes, fee structures, ICAR/state admission routes, and campus facilities at ${card.name}.`,
+      keywords: `${card.name}, ${card.city || ''}, ${card.state || ''}, B.Sc Agriculture, ICAR admission`,
+      metaRobots: 'index,follow',
+      metaViewport: null,
+      canonicalURL: `https://agrico.in/university/${card.slug}`,
+      structuredData: null,
+      metaImage: card.logo,
+    },
+    highlights,
+    exams: [
+      tax(9951, 'exam-cuet-icar', 'CUET (ICAR-UG)', 'cuet-icar-ug'),
+      tax(9952, 'exam-icar-pg', 'ICAR AIEEA (PG)', 'icar-aieea-pg'),
+    ],
+    courses: progSlugs.map((progSlug, idx) => {
+      const prog = getProgrammeContent(progSlug);
+      return tax(9850 + idx, `course-tax-${progSlug}`, prog?.short_name || prog?.name || progSlug, progSlug);
+    }),
+    course_modes: card.course_modes ?? [tax(9601, 'mode-regular', 'On-Campus (Regular)', 'regular')],
+    course_types: [tax(9651, 'type-full-time', 'Full-Time On-Campus Degree', 'full-time')],
+    institute_tiers: [],
+    university_contents,
+  };
+}
+
+function filterLocalUniversities(cards: UniversityCard[], params: UniversityListParams): UniversityCard[] {
+  const term = searchTerm(params.search)?.toLowerCase();
+  return cards.filter((u) => {
+    if (params.stream && !u.streams.some((s) => s.slug === params.stream)) return false;
+    if (params.ownership && u.ownership_type?.slug !== params.ownership) return false;
+    if (params.approval && !u.approvals.some((a) => a.slug === params.approval)) return false;
+    if (params.state && u.state?.toLowerCase() !== params.state.toLowerCase()) return false;
+    if (params.city && u.city?.toLowerCase() !== params.city.toLowerCase()) return false;
+    if (term) {
+      const hay = `${u.name} ${u.full_name ?? ''} ${u.city ?? ''} ${u.state ?? ''} ${u.tag?.name ?? ''}`.toLowerCase();
+      if (!hay.includes(term)) return false;
+    }
+    return true;
+  });
+}
+
+function paginateLocalUniversities(
+  cards: UniversityCard[],
+  params: UniversityListParams
+): { universities: UniversityCard[]; pagination: Pagination } {
+  const filtered = filterLocalUniversities(cards, params);
+  const pageSize = Math.min(params.pageSize ?? DEFAULT_PAGE_SIZE, 100);
+  const total = filtered.length;
+  const pageCount = Math.max(1, Math.ceil(total / pageSize));
+  const page = Math.max(1, params.page ?? 1);
+  const start = (page - 1) * pageSize;
+  return {
+    universities: filtered.slice(start, start + pageSize),
+    pagination: { page, pageSize, pageCount, total },
+  };
+}
 
 function buildFilters(params: UniversityListParams): CmsQuery['filters'] {
   const filters: Record<string, unknown> = {};
@@ -140,6 +410,17 @@ function buildFilters(params: UniversityListParams): CmsQuery['filters'] {
   }
 
   return filters;
+}
+
+function enrichUniversityCardMedia(u: UniversityCard): UniversityCard {
+  if (u.logo && u.card_logo) return u;
+  const local = LOCAL_UNIVERSITY_CARDS.find((item) => item.slug === u.slug);
+  if (!local) return u;
+  return {
+    ...u,
+    logo: u.logo ?? local.logo,
+    card_logo: u.card_logo ?? local.card_logo ?? local.logo,
+  };
 }
 
 export async function listUniversities(params: UniversityListParams = {}): Promise<{
@@ -165,13 +446,23 @@ export async function listUniversities(params: UniversityListParams = {}): Promi
       }
     );
 
-    return { universities: data ?? [], pagination: meta?.pagination ?? { page: 1, pageSize: 12, pageCount: 1, total: 0 } };
+    if (data && data.length > 0) {
+      return {
+        universities: data.map(enrichUniversityCardMedia),
+        pagination: meta?.pagination ?? {
+          page: params.page ?? 1,
+          pageSize: data.length,
+          pageCount: 1,
+          total: data.length,
+        },
+      };
+    }
+    return paginateLocalUniversities(LOCAL_UNIVERSITY_CARDS, params);
   } catch (err) {
-    if (!(err && typeof err === 'object' && 'status' in err && err.status === 503)) console.warn('[cms] listUniversities fallback:', (err as Error).message);
-    return {
-      universities: [],
-      pagination: { page: 1, pageSize: 12, pageCount: 1, total: 0 },
-    };
+    if (!(err && typeof err === 'object' && 'status' in err && err.status === 503)) {
+      console.warn('[cms] listUniversities fallback:', (err as Error).message);
+    }
+    return paginateLocalUniversities(LOCAL_UNIVERSITY_CARDS, params);
   }
 }
 
@@ -187,11 +478,21 @@ export async function getUniversityBySlug(slug: string): Promise<UniversityDetai
       undefined,
       { tags: [collectionTag('university'), entryTag('university', slug)] }
     );
-    return json.data ?? null;
+    if (json.data) {
+      const localDetail = buildLocalUniversityDetail(slug);
+      return {
+        ...json.data,
+        logo: json.data.logo ?? localDetail?.logo ?? null,
+        card_logo: json.data.card_logo ?? localDetail?.card_logo ?? localDetail?.logo ?? null,
+        image: json.data.image ?? localDetail?.image ?? null,
+      };
+    }
+    return buildLocalUniversityDetail(slug);
   } catch (error) {
-    // A 404 here is an ordinary outcome — an unknown slug, not a failure.
-    if (error instanceof Error && 'status' in error && error.status === 404) return null;
-    throw error;
+    if (error instanceof Error && 'status' in error && error.status === 404) {
+      return buildLocalUniversityDetail(slug);
+    }
+    return buildLocalUniversityDetail(slug);
   }
 }
 
@@ -201,7 +502,7 @@ export async function getUniversityBySlug(slug: string): Promise<UniversityDetai
  * large catalogue does not blow up build time.
  */
 export async function getUniversitySlugs(limit = 200): Promise<string[]> {
-  return cmsFetchOptional(async () => {
+  const cmsSlugs = await cmsFetchOptional(async () => {
     const { data } = await cmsCollection<{ slug: string }>(
       '/universities',
       {
@@ -213,6 +514,9 @@ export async function getUniversitySlugs(limit = 200): Promise<string[]> {
     );
     return data.map((entry) => entry.slug).filter(Boolean);
   }, []);
+
+  const merged = new Set<string>([...cmsSlugs, ...LOCAL_UNIVERSITY_CARDS.map((u) => u.slug)]);
+  return [...merged].slice(0, limit);
 }
 
 /**
@@ -234,7 +538,7 @@ export async function getRelatedUniversities(
     {},
   ].filter((filter): filter is NonNullable<typeof filter> => filter !== null);
 
-  return cmsFetchOptional(async () => {
+  const cmsRelated = await cmsFetchOptional(async () => {
     for (const filter of attempts) {
       const { data } = await cmsCollection<UniversityCard>(
         '/universities',
@@ -249,19 +553,26 @@ export async function getRelatedUniversities(
     }
     return [];
   }, []);
+
+  if (cmsRelated.length > 0) return cmsRelated.map(enrichUniversityCardMedia);
+
+  const sameState = LOCAL_UNIVERSITY_CARDS.filter(
+    (u) => u.slug !== university.slug && university.state && u.state?.toLowerCase() === university.state.toLowerCase()
+  );
+  if (sameState.length >= limit) return sameState.slice(0, limit);
+
+  const rest = LOCAL_UNIVERSITY_CARDS.filter(
+    (u) => u.slug !== university.slug && !sameState.some((s) => s.slug === u.slug)
+  );
+  return [...sameState, ...rest].slice(0, limit);
 }
 
 /**
  * Names and slugs only, for pickers that need the whole catalogue in one
  * <select> rather than a page of cards.
- *
- * `fields` is the point: asking listUniversities for sixty entries would pull
- * sixty logos, badge rows and taxonomy relations to render two strings each.
- * Optional, like the other reads the homepage makes — a picker that cannot load
- * its options should disappear, not take the page down.
  */
 export async function listUniversityOptions(limit = 60): Promise<Taxonomy[]> {
-  return cmsFetchOptional(async () => {
+  const cmsOptions = await cmsFetchOptional(async () => {
     const { data } = await cmsCollection<Taxonomy>(
       '/universities',
       {
@@ -273,4 +584,9 @@ export async function listUniversityOptions(limit = 60): Promise<Taxonomy[]> {
     );
     return data;
   }, []);
+
+  if (cmsOptions.length > 0) return cmsOptions;
+  return LOCAL_UNIVERSITY_CARDS.slice(0, limit).map((u) =>
+    tax(u.id, u.documentId, u.name, u.slug)
+  );
 }

@@ -11,6 +11,7 @@ import { Badge } from '@/components/ui/badge';
 import { ButtonLink } from '@/components/ui/button';
 import { RatingStars } from '@/components/ui/rating-stars';
 import { resolveThumbnail } from '@/lib/cms/media';
+import { offeringHref, universityHref } from '@/lib/cms/paths';
 import type { ProgramOffering } from '@/lib/cms/repositories/program';
 import { formatFee } from '@/lib/format';
 import type { UniversityCard as University } from '@/lib/cms/repositories/university';
@@ -218,8 +219,8 @@ function UniversityRow({
   disabled: boolean;
   onToggle: () => void;
 }) {
-  const href = `/university/${university.slug}`;
-  const offeringHref = `/offering/${encodeURIComponent(university.slug)}/${encodeURIComponent(programSlug)}`;
+  const href = universityHref(university);
+  const detailsHref = offeringHref(university, programSlug);
   const applyHref = `/common-application-form?${new URLSearchParams({ university: university.slug, program: programSlug })}`;
   const rawFee = offeringFee(offering);
   const netLabel = formatFee(rawFee);
@@ -322,7 +323,7 @@ function UniversityRow({
             {university.apply_button_text || 'Apply Now'}
           </ButtonLink>
         ) : null}
-        <ButtonLink href={offeringHref} variant="outline" size="sm" className="relative z-10 w-full">
+        <ButtonLink href={detailsHref} variant="outline" size="sm" className="relative z-10 w-full">
           View programme details
         </ButtonLink>
         <CompareCheckbox
@@ -421,7 +422,7 @@ function UniversityTable({
               >
                 <td className="px-4 py-4 align-top">
                   <Link
-                    href={`/university/${university.slug}`}
+                    href={universityHref(university)}
                     className="font-semibold text-ink-900 hover:text-brand-800"
                   >
                     {university.name}
@@ -466,7 +467,7 @@ function UniversityTable({
                     href={
                       university.show_apply_button
                         ? `/common-application-form?${new URLSearchParams({ university: university.slug, program: programSlug })}`
-                        : `/offering/${encodeURIComponent(university.slug)}/${encodeURIComponent(programSlug)}`
+                        : offeringHref(university, programSlug)
                     }
                     size="sm"
                     variant={university.show_apply_button ? 'primary' : 'outline'}

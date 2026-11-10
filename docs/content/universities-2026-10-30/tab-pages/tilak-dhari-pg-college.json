@@ -899,49 +899,49 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Agronomy",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Agricultural Economics",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Agricultural Extension Education",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Entomology",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Genetics and Plant Breeding",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Ag) Plant Pathology",
             "paragraphs": [
-              "Current session’s programme fee not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -5004,9 +5004,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Tilak Dhari P.G. College, Jaunpur. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Udai Pratap College recorded its June 2026 entrance application window alongside UP agriculture updates",
+            "path": "/news/uttar-pradesh-udai-pratap-college-june-2026-entrance-window-and-up-agriculture-checks",
+            "description": "Read the June 2026 entrance application timeline at Udai Pratap College, Varanasi and compare admission routes across Uttar Pradesh’s five ICAR-listed institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

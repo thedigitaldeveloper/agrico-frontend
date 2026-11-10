@@ -1,0 +1,68 @@
+{
+  "id": "pcb-vs-pcm-eligibility-blog",
+  "cms_type": "Blog",
+  "slug": "pcb-pcm-or-agriculture-stream-in-class-12-which-degrees-can-you-apply-for",
+  "title": "PCB, PCM or Agriculture in Class 12: which undergraduate degrees can you apply for?",
+  "description": "Compare how Class 12 subject combinations (PCB, PCM, PCMB and Inter-Agriculture) affect eligibility for B.Sc. Agriculture, Horticulture and B.Tech. Agricultural Engineering.",
+  "summary": "Your Class 12 subject group determines which agricultural degrees and entrance routes are open to you. While B.Tech. Agricultural Engineering requires Mathematics, many B.Sc. (Hons.) Agriculture programmes accept PCB, PCMB, PCA or PCM depending on university rules.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "subject-combinations-by-degree",
+      "heading": "How subject rules differ between B.Sc. Agriculture and B.Tech. Agricultural Engineering",
+      "paragraphs": [
+        "If you completed Class 12 with Physics, Chemistry and Biology (PCB) or Agriculture, your primary undergraduate options are [B.Sc. (Hons.) Agriculture](/bsc-agriculture) and [B.Sc. (Hons.) Horticulture](/bsc-horticulture). By contrast, [B.Tech. Agricultural Engineering](/btech-agricultural-engineering) is an engineering degree that requires Physics, Chemistry and Mathematics (PCM) across virtually all state and private universities.",
+        "For B.Sc. (Hons.) Agriculture itself, subject acceptance varies by institution: check the programme eligibility tables for [Vellore Institute of Technology](/university/vellore-institute-of-technology), [Siksha ‘O’ Anusandhan](/university/siksha-o-anusandhan) and [Kalasalingam Academy of Research and Education](/university/kalasalingam-academy-of-research-and-education) alongside [B.Sc. Agriculture or Agricultural Engineering: compare the study paths](/articles/bsc-agriculture-vs-agricultural-engineering)."
+      ]
+    },
+    {
+      "id": "bridge-courses-in-first-year",
+      "heading": "Why first-year curricula include introductory biology and mathematics",
+      "paragraphs": [
+        "Under the ICAR Deans’ Committee curriculum framework, students entering B.Sc. (Hons.) Agriculture from a Biology background take Introductory Mathematics in the first year, while students entering from a Mathematics background (where permitted) take Introductory Biology. Read [B.Sc. Agriculture eligibility: subjects and admission routes](/articles/bsc-agriculture-eligibility) before applying."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can a PCB student without Mathematics apply for B.Tech. Agricultural Engineering?",
+      "answer": "Generally no. B.Tech. Agricultural Engineering requires Class 12 Mathematics (PCM/PCMB). Always verify the exact university prospectus."
+    },
+    {
+      "question": "Does every university accept PCM (without Biology) for B.Sc. (Hons.) Agriculture?",
+      "answer": "No. Some universities accept both PCB and PCM/PCMB, while others require Biology or Agriculture in Class 12. Check the institution’s specific eligibility table on Agrico."
+    }
+  ],
+  "related_institution_ids": [
+    5,
+    19,
+    21,
+    28,
+    32,
+    33,
+    37,
+    42,
+    43,
+    44,
+    50
+  ],
+  "related_topic_ids": [
+    "bsc-eligibility",
+    "agri-v-engineering",
+    "career-choice"
+  ],
+  "sources": [
+    {
+      "id": "soa-eligibility-2026",
+      "title": "Siksha ‘O’ Anusandhan eligibility criteria for agricultural sciences 2026",
+      "url": "https://www.admission.soa.ac.in/agriculture-2026",
+      "checked_on": "2026-10-30",
+      "note": "Documented example of explicit Class 12 subject combination rules."
+    }
+  ],
+  "verification_notes": [
+    "Clarifies PCB vs PCM eligibility across B.Sc. Agriculture, Horticulture and B.Tech. Agricultural Engineering."
+  ]
+}

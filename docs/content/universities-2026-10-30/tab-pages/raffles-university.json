@@ -765,8 +765,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Annual academic fee. One-time registration INR 1,000, admission INR 9,000 and refundable academic security INR 5,000 separately; hostel charges excluded.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Annual academic fee. One-time registration INR 1,000, admission INR 9,000 and refundable academic security INR 5,000 separately; hostel charges excluded."
             ],
             "source_ids": [
               "s10"
@@ -4517,9 +4517,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Raffles University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Rajasthan private universities recorded July 2026 UG reporting and admission closing dates",
+            "path": "/news/rajasthan-private-agriculture-universities-july-2026-reporting-and-jet-route-updates",
+            "description": "Examine the July 2026 reporting and closing notices at Vivekananda Global University and RNB Global University alongside Rajasthan’s 10 agriculture institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

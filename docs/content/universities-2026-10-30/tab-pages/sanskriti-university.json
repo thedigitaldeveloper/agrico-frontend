@@ -780,8 +780,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Annual course fee in the 2026-27 brochure; semester payment is separately shown as INR 47,000.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Annual course fee in the 2026-27 brochure; semester payment is separately shown as INR 47,000."
             ],
             "source_ids": [
               "s3"
@@ -790,8 +790,8 @@
           {
             "heading": "M.Sc. Agronomy",
             "paragraphs": [
-              "Annual course fee; additional charges must be checked.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Annual course fee; additional charges must be checked."
             ],
             "source_ids": [
               "s3"
@@ -800,8 +800,8 @@
           {
             "heading": "M.Sc. Horticulture",
             "paragraphs": [
-              "Annual course fee; additional charges must be checked.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Annual course fee; additional charges must be checked."
             ],
             "source_ids": [
               "s3"
@@ -4469,9 +4469,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Sanskriti University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Udai Pratap College recorded its June 2026 entrance application window alongside UP agriculture updates",
+            "path": "/news/uttar-pradesh-udai-pratap-college-june-2026-entrance-window-and-up-agriculture-checks",
+            "description": "Read the June 2026 entrance application timeline at Udai Pratap College, Varanasi and compare admission routes across Uttar Pradesh’s five ICAR-listed institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

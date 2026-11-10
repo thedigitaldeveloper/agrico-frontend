@@ -35,13 +35,13 @@ export const metadata: Metadata = buildMetadata({
 });
 
 const QUICK_TOPICS = [
-  { label: 'Govt Job Validity', query: 'valid' },
-  { label: 'Online MBA vs Regular', query: 'MBA' },
-  { label: 'WES & Foreign PR', query: 'WES' },
-  { label: 'Exam Proctoring', query: 'exam' },
-  { label: 'Dual Degree UGC Rule', query: 'degree' },
-  { label: 'Fees & Payment Options', query: 'EMI' },
-  { label: 'Work Without NOC', query: 'NOC' },
+  { label: 'ICAR Accreditation', query: 'ICAR' },
+  { label: 'B.Sc Agriculture vs Agri Engg', query: 'Agriculture' },
+  { label: 'CUET-ICAR Exam', query: 'CUET' },
+  { label: 'SAU vs Private University', query: 'Private' },
+  { label: 'RAWE & Practical Training', query: 'RAWE' },
+  { label: 'Hostel & Fee Structure', query: 'Fee' },
+  { label: 'AFO & Govt Jobs', query: 'Govt' },
 ];
 
 export default async function QnaPage({
@@ -90,7 +90,7 @@ export default async function QnaPage({
                 basePath={BASE}
                 current={params}
                 label="Search Community Q&A"
-                placeholder="Search queries by keywords (e.g. 'Govt job', 'WES', 'proctoring', 'online MBA')..."
+                placeholder="Search queries by keywords (e.g. 'ICAR', 'B.Sc Agriculture', 'CUET', 'RAWE', 'IBPS AFO')..."
                 className="my-0"
               />
             </div>

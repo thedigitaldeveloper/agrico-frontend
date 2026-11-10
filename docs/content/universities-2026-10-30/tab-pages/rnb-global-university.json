@@ -772,8 +772,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "The official 2026 schedule lists outside-Rajasthan tuition ₹45,000 plus examination ₹10,000 per semester; Rajasthan domicile tuition ₹35,000 plus examination ₹10,000, total ₹45,000. Non-refundable enrolment ₹10,000 is one time. Accommodation is separate.",
-              "Charge scope: Outside-Rajasthan programme page: ₹45,000 tuition and ₹10,000 examination fee."
+              "Charge scope: Outside-Rajasthan programme page: ₹45,000 tuition and ₹10,000 examination fee.",
+              "The official 2026 schedule lists outside-Rajasthan tuition ₹45,000 plus examination ₹10,000 per semester; Rajasthan domicile tuition ₹35,000 plus examination ₹10,000, total ₹45,000. Non-refundable enrolment ₹10,000 is one time. Accommodation is separate."
             ],
             "source_ids": [
               "s2",
@@ -4633,9 +4633,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for RNB Global University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Rajasthan private universities recorded July 2026 UG reporting and admission closing dates",
+            "path": "/news/rajasthan-private-agriculture-universities-july-2026-reporting-and-jet-route-updates",
+            "description": "Examine the July 2026 reporting and closing notices at Vivekananda Global University and RNB Global University alongside Rajasthan’s 10 agriculture institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

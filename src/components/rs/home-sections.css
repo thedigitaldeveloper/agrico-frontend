@@ -1,7 +1,7 @@
 /* One shared content guide and deliberate, compact rhythm throughout Home. */
 .rs-home{--rs-section-top:26px;--rs-section-bottom:24px}
 .rs-home .rs-section-heading{align-items:flex-end;gap:16px;margin-bottom:14px}
-.rs-home .rs-section-heading h2{font-size:clamp(28px,2.8vw,38px);line-height:1.13;margin:0;color:#a22334}
+.rs-home .rs-section-heading h2{font-size:clamp(28px,2.8vw,38px);line-height:1.13;margin:0;color:#124b3b}
 .rs-home .rs-section-heading p{font-size:15px;line-height:1.5;margin:5px 0 0}
 .rs-home .rs-section-heading>.rs-text-link{min-height:44px;flex-shrink:0}
 .rs-home .rs-home-optional{padding-block:var(--rs-section-top) var(--rs-section-bottom)}

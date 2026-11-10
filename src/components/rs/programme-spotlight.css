@@ -3,7 +3,7 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background: #a22334;
+  background: #124b3b;
   color: #fcfaf5;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .rs-home .rs-programme-spotlight__mark[data-university="chandigarh-university"][data-logo-kind="wordmark"] {
-  background: #a22334;
+  background: #124b3b;
 }
 
 .rs-home .rs-programme-spotlight__name {
@@ -155,7 +155,7 @@
   border: 1px solid #fcfaf5;
   border-radius: 5px;
   background: #fcfaf5;
-  color: #a22334;
+  color: #124b3b;
   font-size: 13px;
   font-weight: 600;
   line-height: 1.4;

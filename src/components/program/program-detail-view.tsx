@@ -1,17 +1,31 @@
 import { AgricoProgrammeDetail } from '@/components/agrico/detail-pages';
 import { cmsProgrammeModel } from '@/components/agrico/detail-models';
-import type { ContentSection } from '@/lib/cms/repositories/content';
+import { blocksToText } from '@/lib/cms/blocks';
+import { toCleanSectionSuffix } from '@/lib/cms/paths';
+import { sectionFaqs, type ContentSection } from '@/lib/cms/repositories/content';
 import type { ProgramCard, ProgramDetail } from '@/lib/cms/repositories/program';
 import { JsonLdGraph } from '@/lib/seo/json-ld';
 import { breadcrumbSchema, customSchema, faqSchema, programSchema } from '@/lib/seo/schemas';
 import { getProgrammeContent } from '@/lib/agrico/programme-content';
 
-export function ProgramDetailView({ program, section, activeSlug, related }: {
-  program: ProgramDetail; section: ContentSection | null; activeSlug: string | null; related: ProgramCard[];
+export function ProgramDetailView({
+  program,
+  section,
+  activeSlug,
+  related,
+}: {
+  program: ProgramDetail;
+  section: ContentSection | null;
+  activeSlug: string | null;
+  related: ProgramCard[];
 }) {
   const researched = getProgrammeContent(program.slug);
   const model = cmsProgrammeModel(program, section, related, activeSlug, researched);
-  const faqs = researched?.faqs || [];
+  const cmsFaqs = sectionFaqs(section).map((faq) => ({
+    question: faq.title,
+    answer: blocksToText(faq.description),
+  }));
+  const faqs = cmsFaqs.length ? cmsFaqs : researched?.faqs || [];
 
   const courseSchema = {
     '@context': 'https://schema.org',
@@ -33,12 +47,23 @@ export function ProgramDetailView({ program, section, activeSlug, related }: {
 
   const faqLd = faqs.length ? faqSchema(faqs) : null;
 
-  const isSubTab = Boolean(activeSlug && activeSlug !== 'overview' && (section?.display_name || section?.name));
+  const isSubTab = Boolean(
+    activeSlug &&
+      toCleanSectionSuffix(activeSlug) !== 'overview' &&
+      (section?.display_name || section?.name)
+  );
   const breadcrumbTrail = [
     { name: 'Home', path: '/' },
     { name: 'Programmes', path: '/#programmes' },
     { name: model.name, path: model.path },
-    ...(isSubTab ? [{ name: section!.display_name || section!.name!, path: `${model.path}/${activeSlug}` }] : []),
+    ...(isSubTab
+      ? [
+          {
+            name: section!.display_name || section!.name!,
+            path: `${model.path}-${toCleanSectionSuffix(activeSlug!)}`,
+          },
+        ]
+      : []),
   ];
 
   return (

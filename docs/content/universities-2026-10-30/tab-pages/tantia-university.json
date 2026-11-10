@@ -799,8 +799,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Historical JET tuition row: INR 58,000/year; CUET row: INR 70,000/year. Admission INR 4,650 and processing INR 10,000 listed separately.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Historical JET tuition row: INR 58,000/year; CUET row: INR 70,000/year. Admission INR 4,650 and processing INR 10,000 listed separately."
             ],
             "source_ids": [
               "s4"
@@ -809,8 +809,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Historical tuition for MScAgronomy; INR4,650 admission plus INR10,000 processing are separate. Published two-year total INR154,650. Current2026-27 applicability remains unverified.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Historical tuition for MScAgronomy; INR4,650 admission plus INR10,000 processing are separate. Published two-year total INR154,650. Current2026-27 applicability remains unverified."
             ],
             "source_ids": [
               "s4"
@@ -819,8 +819,8 @@
           {
             "heading": "M.Sc. Agriculture — Genetics and Plant Breeding",
             "paragraphs": [
-              "Historical tuition for MScAgriculture Genetics and Plant Breeding; INR4,650 admission plus INR10,000 processing separate. Published two-year total INR154,650. Not a2026-27 quotation.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Historical tuition for MScAgriculture Genetics and Plant Breeding; INR4,650 admission plus INR10,000 processing separate. Published two-year total INR154,650. Not a2026-27 quotation."
             ],
             "source_ids": [
               "s4"
@@ -4527,9 +4527,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Tantia University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "Rajasthan private universities recorded July 2026 UG reporting and admission closing dates",
+            "path": "/news/rajasthan-private-agriculture-universities-july-2026-reporting-and-jet-route-updates",
+            "description": "Examine the July 2026 reporting and closing notices at Vivekananda Global University and RNB Global University alongside Rajasthan’s 10 agriculture institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

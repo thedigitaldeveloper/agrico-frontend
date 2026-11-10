@@ -751,8 +751,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official annual amount; intake-year applicability is not established. Not a confirmed 2026/2027 quotation. The separate B.Sc. course page shows INR87,500 per semester.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Undated official annual amount; intake-year applicability is not established. Not a confirmed 2026/2027 quotation. The separate B.Sc. course page shows INR87,500 per semester."
             ],
             "source_ids": [
               "s3"
@@ -761,8 +761,8 @@
           {
             "heading": "M.Sc. (Agriculture) Agronomy",
             "paragraphs": [
-              "Undated official annual amount; not a confirmed 2026/2027 quotation. The dedicated masters landing shows INR125,000 per semester for Agronomy.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Undated official annual amount; not a confirmed 2026/2027 quotation. The dedicated masters landing shows INR125,000 per semester for Agronomy."
             ],
             "source_ids": [
               "s3"
@@ -4456,9 +4456,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for SGT University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GD Goenka University recorded a 31 October 2026 scholarship-form deadline for current applicants",
+            "path": "/news/gd-goenka-october-2026-scholarship-deadline-and-haryana-agriculture-admission-checks",
+            "description": "Review the 31 October 2026 scholarship evidence deadline at GD Goenka University and compare Haryana’s three ICAR-listed agriculture universities.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

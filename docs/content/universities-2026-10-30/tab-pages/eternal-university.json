@@ -774,8 +774,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official amount, not a verified 2026–27/2027 quote. The fee table lists BSc(Hons)Agriculture₹45,600 for the first semester and₹40,600 from the second semester onward, with₹5,000 one-time refundable caution money noted. Hostel, mess and a complete current charge statement need separate confirmation.",
-              "Charge scope: Published first-semester programme fee; includes the page’s₹5,000 one-time refundable caution-money note."
+              "Charge scope: Published first-semester programme fee; includes the page’s₹5,000 one-time refundable caution-money note.",
+              "Undated official amount, not a verified 2026–27/2027 quote. The fee table lists BSc(Hons)Agriculture₹45,600 for the first semester and₹40,600 from the second semester onward, with₹5,000 one-time refundable caution money noted. Hostel, mess and a complete current charge statement need separate confirmation."
             ],
             "source_ids": [
               "r31_1"
@@ -4555,9 +4555,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Eternal University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Himalayan and Eastern India private universities recorded ICAR-accredited agriculture programmes for 2026",
+            "path": "/news/himalayan-and-eastern-india-private-agriculture-universities-admission-updates-2026",
+            "description": "Explore 2026 admission and ICAR accreditation records for Eternal University (HP), Shri Guru Ram Rai University (Uttarakhand), The Neotia University (WB) and Arunachal University of Studies.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

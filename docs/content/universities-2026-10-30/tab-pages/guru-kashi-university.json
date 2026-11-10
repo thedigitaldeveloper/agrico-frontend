@@ -740,7 +740,7 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "An academic-year-specific official fee schedule for this programme was not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4378,9 +4378,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Guru Kashi University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GADVASU notified fourth B.V.Sc. & A.H. counselling on 30 October 2026 alongside Punjab admission updates",
+            "path": "/news/gadvasu-fourth-bvsc-counselling-and-punjab-agriculture-notices-october-2026",
+            "description": "Review the 30 October 2026 GADVASU fourth B.V.Sc. & A.H. counselling notice and how Punjab veterinary and agriculture applicants verify admission rounds.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

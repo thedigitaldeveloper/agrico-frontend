@@ -36,7 +36,7 @@ export async function submitEnquiry(
 
   const invalid: string[] = [];
   if (name.length < 2) invalid.push('name');
-  const phoneFirstCallback = source === 'homepage-callback';
+  const phoneFirstCallback = source === 'homepage-callback' || source === 'homepage-modal-callback';
   if ((!phoneFirstCallback || email) && !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
     invalid.push('email');
   }
@@ -73,7 +73,7 @@ export async function submitEnquiry(
       city: city || undefined,
       state: stateVal || undefined,
       message: formattedMessage || undefined,
-      source,
+      source: source === 'homepage-modal-callback' ? 'homepage-callback' : source,
       university: university || undefined,
       program: program || undefined,
       consent: true,

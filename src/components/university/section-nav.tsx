@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
+import { toCleanSectionSuffix } from '@/lib/cms/paths';
 import type { ContentSectionRef } from '@/lib/cms/repositories/university';
 import { cn } from '@/lib/cn';
 
@@ -24,7 +25,7 @@ function getSectionOrderWeight(slug?: string | null, name?: string | null): numb
   return 10;
 }
 
-function getDefaultBadge(slug?: string | null, name?: string | null): string | null {
+function getDefaultBadge(): string | null {
   return null;
 }
 
@@ -33,19 +34,24 @@ export function SectionNav({
   sections,
   activeSlug,
   counts,
+  slugMode = 'path',
 }: {
-  /** e.g. "/university/iit-delhi" */
+  /** e.g. "/university/punjab-agricultural-university" or "/bsc-agriculture" */
   basePath: string;
   sections: ContentSectionRef[];
   activeSlug: string | null;
   counts?: Record<string, string | number>;
+  /**
+   * 'path':   `${basePath}/${rawSlug}` (default, used for university sections)
+   * 'hyphen': `${basePath}-${cleanSuffix}` (Shiksha-style, used for program & offering sections)
+   */
+  slugMode?: 'path' | 'hyphen';
 }) {
   const scrollRef = useRef<HTMLUListElement>(null);
   const activeItemRef = useRef<HTMLLIElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(false);
 
-  // Overview is always the 1st primary landing tab, followed by courses, admission, placements, support, faqs.
   const ordered = [...sections].sort((a, b) => {
     const weightA = getSectionOrderWeight(a.secondary_slug || a.slug, a.display_name || a.name);
     const weightB = getSectionOrderWeight(b.secondary_slug || b.slug, b.display_name || b.name);
@@ -68,7 +74,6 @@ export function SectionNav({
     el.addEventListener('scroll', checkScroll, { passive: true });
     window.addEventListener('resize', checkScroll);
 
-    // Auto-scroll active tab into view smoothly
     if (activeItemRef.current) {
       activeItemRef.current.scrollIntoView({
         behavior: 'smooth',
@@ -97,7 +102,6 @@ export function SectionNav({
       className="sticky top-16 z-40 border-b border-ink-200/90 bg-white/95 shadow-2xs backdrop-blur-md lg:top-[4.5rem]"
     >
       <div className="container-page relative">
-        {/* Left Scroll Gradient & Micro Arrow for Mobile/Tablet */}
         {canScrollLeft ? (
           <div className="pointer-events-none absolute top-0 bottom-0 left-0 z-10 flex w-12 items-center justify-start bg-gradient-to-r from-white via-white/90 to-transparent pl-1">
             <button
@@ -111,19 +115,26 @@ export function SectionNav({
           </div>
         ) : null}
 
-        {/* Tab Items List */}
         <ul
           ref={scrollRef}
           className="-mb-px flex items-center gap-1 overflow-x-auto scrollbar-none scroll-smooth py-1"
         >
           {ordered.map((section, index) => {
             const rawSlug = section.secondary_slug || section.slug;
+            const cleanSuffix = toCleanSectionSuffix(rawSlug);
             const isFirst = index === 0;
-            const href = isFirst ? basePath : `${basePath}/${rawSlug}`;
+            const href = isFirst
+              ? basePath
+              : slugMode === 'hyphen'
+                ? cleanSuffix === 'overview'
+                  ? basePath
+                  : `${basePath}-${cleanSuffix}`
+                : `${basePath}/${rawSlug}`;
             const isActive =
               activeSlug === null
                 ? isFirst
                 : activeSlug === rawSlug ||
+                  toCleanSectionSuffix(activeSlug) === cleanSuffix ||
                   (isFirst && (activeSlug === 'overview' || activeSlug === 'about'));
 
             const normalizedKey = (rawSlug || section.slug || section.name || '').toLowerCase();
@@ -133,7 +144,7 @@ export function SectionNav({
               (counts
                 ? Object.entries(counts).find(([k]) => normalizedKey.includes(k.toLowerCase()))?.[1]
                 : null) ??
-              getDefaultBadge(rawSlug, section.name);
+              getDefaultBadge();
 
             return (
               <li
@@ -155,7 +166,6 @@ export function SectionNav({
                     {section.display_name || section.name || rawSlug}
                   </span>
 
-                  {/* Micro-Counter / Pill Badge */}
                   {badgeValue ? (
                     <span
                       className={cn(
@@ -174,7 +184,6 @@ export function SectionNav({
           })}
         </ul>
 
-        {/* Right Scroll Gradient & Micro Arrow for Mobile/Tablet */}
         {canScrollRight ? (
           <div className="pointer-events-none absolute top-0 bottom-0 right-0 z-10 flex w-12 items-center justify-end bg-gradient-to-l from-white via-white/90 to-transparent pr-1">
             <button

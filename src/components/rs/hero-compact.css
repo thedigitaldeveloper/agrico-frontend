@@ -73,12 +73,12 @@
   scroll-snap-align: start;
 }
 .rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button[aria-pressed="true"] {
-  border-color: #a22334;
-  background: #a22334;
+  border-color: #124b3b;
+  background: #124b3b;
   color: #fff;
 }
 .rs-home .rs-hero.rs-hero-compact .rs-hero-tabs button:focus-visible {
-  outline: 2px solid #a22334;
+  outline: 2px solid #124b3b;
   outline-offset: 2px;
 }
 .rs-home .rs-hero.rs-hero-compact .rs-hero-finder > .rs-finder-hint {

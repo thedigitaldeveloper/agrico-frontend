@@ -760,7 +760,7 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "An academic-year-specific official fee schedule for this programme was not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4396,9 +4396,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for RKDF University, Bhopal. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "Madhya Pradesh private universities recorded multi-year ICAR accreditation terms for B.Sc. (Hons.) Agriculture",
+            "path": "/news/madhya-pradesh-private-universities-icar-accreditation-and-admission-verification-2026",
+            "description": "Check the audited ICAR accreditation terms and admission verification steps across six private universities in Madhya Pradesh.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

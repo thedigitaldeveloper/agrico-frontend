@@ -11,12 +11,12 @@ interface HeaderSearchProps {
 }
 
 const TRENDING_SEARCHES = [
-  { label: 'Online MBA in Business Analytics', href: '/programs?course=mba&search=business-analytics' },
-  { label: 'Online MCA in AI & Cloud', href: '/programs?course=mca&search=ai' },
-  { label: 'Manipal University Online', href: '/university/manipal-university-online' },
-  { label: 'Amity University Online', href: '/university/amity-university-online' },
-  { label: 'UGC-DEB Govt Job Validity', href: '/articles/is-online-degree-valid-for-govt-jobs-wes-foreign-visas' },
-  { label: 'Compare Online Universities', href: '/compare' },
+  { label: 'B.Sc. (Hons.) Agriculture', href: '/bsc-agriculture' },
+  { label: 'B.Tech. Agricultural Engineering', href: '/btech-agricultural-engineering' },
+  { label: 'Punjab Agricultural University (PAU)', href: '/university/pau-ludhiana' },
+  { label: 'Tamil Nadu Agricultural University (TNAU)', href: '/university/tnau-coimbatore' },
+  { label: 'How to Check ICAR Accreditation', href: '/articles/icar-accreditation-how-to-check' },
+  { label: 'Compare Agriculture Colleges', href: '/compare' },
 ];
 
 export function HeaderSearch({ quickLinks }: HeaderSearchProps) {
@@ -77,7 +77,7 @@ export function HeaderSearch({ quickLinks }: HeaderSearchProps) {
         className="group hidden h-9 shrink-0 items-center gap-2 rounded-full border border-ink-200/90 bg-ink-50/70 px-3 text-xs font-medium text-ink-500 shadow-2xs transition-all duration-200 hover:border-brand-300 hover:bg-white hover:text-ink-800 hover:shadow-xs sm:flex sm:w-36 lg:w-40 xl:h-10 xl:w-52 2xl:w-60"
       >
         <Search className="size-3.5 shrink-0 text-ink-400 transition-colors group-hover:text-brand-700" />
-        <span className="truncate text-left">Search colleges, MBA...</span>
+        <span className="truncate text-left">Search colleges, B.Sc Agri...</span>
         <kbd className="ml-auto hidden shrink-0 rounded border border-ink-200 bg-white px-1.5 py-0.5 text-3xs font-semibold text-ink-400 shadow-3xs xl:inline-block">
           ⌘K
         </kbd>
@@ -103,7 +103,7 @@ export function HeaderSearch({ quickLinks }: HeaderSearchProps) {
                   type="search"
                   value={query}
                   onChange={(e) => setQuery(e.target.value)}
-                  placeholder="Search 100+ colleges, Online MBA, MCA, AI Specializations..."
+                  placeholder="Search 60+ agriculture colleges, B.Sc. Agriculture, M.Sc. Agronomy, ICAR..."
                   className="ml-3 h-9 w-full text-sm font-semibold text-ink-900 placeholder:text-ink-400 focus:outline-hidden"
                 />
                 {query ? (

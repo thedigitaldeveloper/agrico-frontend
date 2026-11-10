@@ -14,7 +14,7 @@ export function AgricoBrand({ inverse = false }: { inverse?: boolean }) {
 }
 
 const navigation = [
-  { label: 'Programmes', href: '/#programmes', items: [['B.Sc. Agriculture', '/#programmes'], ['Agricultural Engineering', '/#programmes'], ['Horticulture & Agribusiness', '/#programmes'], ['All programmes', '/programs']] },
+  { label: 'Programmes', href: '/#programmes', items: [['B.Sc. Agriculture', '/bsc-agriculture'], ['Agricultural Engineering', '/btech-agricultural-engineering'], ['Horticulture & Agribusiness', '/bsc-horticulture'], ['All programmes', '/programs']] },
   { label: 'Universities', href: '/#universities', items: [['Explore agriculture universities', '/#universities'], ['University directory', '/agriculture-colleges']] },
   { label: 'Compare', href: '/#compare' },
   { label: 'Admissions', href: '/#admissions', items: [['Your admission journey', '/#admissions'], ['Entrance exams', '/exams'], ['Scholarships', '/scholarships'], ['Talk to a counsellor', '/#guidance']] },
@@ -47,7 +47,7 @@ function AgricoHeader() {
           {item.items && openNav === item.label && <div className="ag-nav-dropdown" onKeyDown={event => { if (event.key === 'Escape') setOpenNav(null); }}>{item.items.map(([label, href]) => <Link key={label} href={href} onClick={() => setOpenNav(null)}>{label}<ArrowRight size={14} /></Link>)}</div>}
         </div>)}
       </nav>
-      <form action="/#programmes" className="ag-header-search" role="search"><Search size={15} /><input name="q" aria-label="Search programmes and universities" placeholder="Search programmes, universities…" /></form>
+      <form action="/search" className="ag-header-search" role="search"><Search size={15} /><input name="q" aria-label="Search programmes and universities" placeholder="Search programmes, universities…" /></form>
       <Link href="/login" className="ag-sign-in">Sign in</Link>
       <button
         type="button"
@@ -66,7 +66,7 @@ function AgricoHeader() {
     </div>
     <dialog ref={menuRef} id="ag-mobile-menu" className="ag-mobile-menu" aria-label="Navigation" onCancel={closeMenu} onClose={() => setMenuOpen(false)} onClick={event => { if (event.target === event.currentTarget) closeMenu(); }}>
       <div className="ag-mobile-menu__top"><Link href="/" onClick={closeMenu}><AgricoBrand /></Link><button className="ag-icon-button" aria-label="Close navigation" onClick={closeMenu}><X size={22} /></button></div>
-      <form action="/#programmes" role="search" className="ag-mobile-search" onSubmit={closeMenu}><input name="q" placeholder="Search programmes or universities" aria-label="Mobile search" /><button className="ag-icon-button" aria-label="Search"><Search size={19} /></button></form>
+      <form action="/search" role="search" className="ag-mobile-search" onSubmit={closeMenu}><input name="q" placeholder="Search programmes or universities" aria-label="Mobile search" /><button className="ag-icon-button" aria-label="Search"><Search size={19} /></button></form>
       <nav aria-label="Mobile navigation">{navigation.map(item => <div key={item.label}><Link href={item.href} onClick={closeMenu}>{item.label}<ArrowRight size={17} /></Link>{item.items && <div className="ag-mobile-sublinks">{item.items.map(([label, href]) => <Link key={label} href={href} onClick={closeMenu}>{label}</Link>)}</div>}</div>)}</nav>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '14px' }}>
         <button
@@ -92,11 +92,11 @@ function AgricoHeader() {
 function AgricoFooter() {
   return <footer className="ag-footer"><div className="ag-container ag-footer__grid">
     <Link href="/" aria-label="Agrico home"><AgricoBrand inverse /></Link>
-    <div><h2>Programmes</h2><a href="/#programmes">B.Sc. Agriculture</a><a href="/#programmes">Agricultural Engineering</a><a href="/#programmes">Horticulture</a><a href="/#programmes">Agribusiness</a></div>
-    <div><h2>Universities</h2><a href="/#universities">Explore universities</a><a href="/#universities">Compare universities</a><a href="/#learning">Campus life &amp; learning</a><Link href="/agriculture-colleges">Campus details</Link></div>
+    <div><h2>Programmes</h2><Link href="/bsc-agriculture">B.Sc. Agriculture</Link><Link href="/btech-agricultural-engineering">Agricultural Engineering</Link><Link href="/bsc-horticulture">Horticulture</Link><Link href="/mba-agribusiness">Agribusiness</Link></div>
+    <div><h2>Universities</h2><Link href="/#universities">Explore universities</Link><Link href="/compare">Compare universities</Link><Link href="/#learning">Campus life &amp; learning</Link><Link href="/agriculture-colleges">Campus details</Link></div>
     <div><h2>Admission guides</h2><Link href="/articles/bsc-agriculture-vs-agricultural-engineering">Choosing a degree</Link><Link href="/blogs/compare-agriculture-campuses">Comparing universities</Link><Link href="/blogs/prepare-for-agriculture-counselling">Preparing for counselling</Link><Link href="/articles">All guides</Link></div>
-    <div><h2>Contact</h2><a href="/#guidance">Talk to a counsellor</a><Link href="/contact-us">Get in touch</Link><Link href="/about-us">About Agrico</Link><a href="/#faqs">FAQs</a></div>
-    <div className="ag-footer__end"><a href="https://icar.gov.in/en" target="_blank" rel="noopener noreferrer" className="ag-footer-resource" aria-label="Official ICAR education resources"><Globe size={20} /></a><p>© {new Date().getFullYear()} Agrico.<br />All rights reserved.</p><div className="ag-footer__legal"><Link href="/privacy-policy">Privacy policy</Link><Link href="/terms-and-conditions">Terms of use</Link><Link href="/sitemap">Sitemap</Link></div></div>
+    <div><h2>Contact</h2><Link href="/#guidance">Talk to a counsellor</Link><Link href="/contact-us">Get in touch</Link><Link href="/about-us">About Agrico</Link><Link href="/#faqs">FAQs</Link></div>
+    <div className="ag-footer__end"><a href="https://icar.gov.in/en" target="_blank" rel="noopener noreferrer" className="ag-footer-resource" aria-label="Official ICAR education resources"><Globe size={20} /></a><p>© {new Date().getFullYear()} Agrico.<br />All rights reserved.</p><div className="ag-footer__legal"><Link href="/privacy-policy">Privacy policy</Link><Link href="/terms-and-conditions">Terms of use</Link><Link href="/disclaimer">Disclaimer</Link><Link href="/sitemap">Sitemap</Link></div></div>
   </div></footer>;
 }
 

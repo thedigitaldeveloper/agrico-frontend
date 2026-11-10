@@ -749,8 +749,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Historical official table also lists one-time admission fee ₹10,000, other fee ₹12,000 and application cost ₹600. Not verified as 2026-2027 fees.",
-              "Charge scope: Annual programme fee for resident Indian B.Sc. Agriculture applicants."
+              "Charge scope: Annual programme fee for resident Indian B.Sc. Agriculture applicants.",
+              "Historical official table also lists one-time admission fee ₹10,000, other fee ₹12,000 and application cost ₹600. Not verified as 2026-2027 fees."
             ],
             "source_ids": [
               "s4"
@@ -4450,9 +4450,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Kalasalingam Academy of Research and Education. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Tamil Nadu deemed universities recorded separate 2026 entrance, merit and scholarship deadlines",
+            "path": "/news/tamil-nadu-deemed-universities-agriculture-admission-and-scholarship-deadlines-2026",
+            "description": "Compare 2026 admission and scholarship timelines across Amrita Vishwa Vidyapeetham, Karunya, VIT, SRM and Kalasalingam in Tamil Nadu.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

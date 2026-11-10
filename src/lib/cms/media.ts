@@ -16,6 +16,9 @@ import type { Media } from './types';
 export function mediaUrl(url: string | null | undefined): string | null {
   if (!url) return null;
   if (url.startsWith('http://') || url.startsWith('https://')) return url;
+  if (url.startsWith('/images/') || url.startsWith('/icons/') || url.startsWith('/fonts/')) {
+    return url;
+  }
   return `${CMS_PUBLIC_URL}${url.startsWith('/') ? url : `/${url}`}`;
 }
 
@@ -29,7 +32,7 @@ export interface ResolvedImage {
 /** A replacement can keep its upload URL; give the image cache a new key. */
 function versionedImageUrl(media: Media, url: string): string | null {
   const src = mediaUrl(url);
-  if (!src || !media.updatedAt) return src;
+  if (!src || !media.updatedAt || src.startsWith('/')) return src;
   const parsed = new URL(src);
   // Leave external (potentially signed) provider URLs untouched.
   if (parsed.origin !== CMS_PUBLIC_URL || !parsed.pathname.startsWith('/uploads/')) return src;

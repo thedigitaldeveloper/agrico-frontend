@@ -1,0 +1,63 @@
+{
+  "id": "himalayan-eastern-agri-notices-2026",
+  "cms_type": "News",
+  "slug": "himalayan-and-eastern-india-private-agriculture-universities-admission-updates-2026",
+  "title": "Himalayan and Eastern India private universities recorded ICAR-accredited agriculture programmes for 2026",
+  "description": "Explore 2026 admission and ICAR accreditation records for Eternal University (HP), Shri Guru Ram Rai University (Uttarakhand), The Neotia University (WB) and Arunachal University of Studies.",
+  "summary": "Four regional universities across Himachal Pradesh, Uttarakhand, West Bengal and Arunachal Pradesh provide ICAR-listed agriculture programmes tailored to hill, sub-Himalayan and coastal agro-climatic zones.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-08-05",
+  "published_on": "2026-08-05",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "regional-agro-climatic-campuses",
+      "heading": "Four regional institutions across Northern Hills and Eastern India",
+      "paragraphs": [
+        "Students seeking ICAR-listed private agricultural education in the Himalayan states, West Bengal or the North-East can examine four profiled universities: [Eternal University](/university/eternal-university) at Baru Sahib in Himachal Pradesh (a residential women’s university at undergraduate level), [Shri Guru Ram Rai University](/university/shri-guru-ram-rai-university) in Dehradun, Uttarakhand, [The Neotia University](/university/the-neotia-university) at Sarisha (Diamond Harbour Road) in West Bengal, and [Arunachal University of Studies](/university/arunachal-university-of-studies) in Namsai, Arunachal Pradesh.",
+        "Each campus operates within a distinct agro-ecological zone, shaping crop practicals, polyhouse cultivation, soil management and local village attachments."
+      ]
+    },
+    {
+      "id": "specific-eligibility-and-residential-checks",
+      "heading": "Checking gender rules, residential norms and domicile fee tiers",
+      "paragraphs": [
+        "Before applying, note institution-specific policies—for example, Eternal University’s Akal College of Agriculture admits women candidates for B.Sc. (Hons.) Agriculture in a fully residential hill setting, while Arunachal University of Studies and The Neotia University serve eastern and north-eastern cohorts with specific entrance or CUET/merit criteria. Read [compare two agriculture campuses](/blogs/compare-agriculture-campuses) and [questions to ask before choosing an agriculture college](/blogs/questions-before-choosing-agriculture-college)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is Eternal University’s B.Sc. (Hons.) Agriculture programme open to all applicants?",
+      "answer": "Eternal University at Baru Sahib operates as a women’s residential institution for undergraduate programmes; confirm programme-specific eligibility before applying."
+    },
+    {
+      "question": "How should out-of-state students plan for hill or eastern campuses?",
+      "answer": "Check nearest rail/air connectivity, winter or monsoon academic calendars, compulsory hostel rules and total annual living expenses."
+    }
+  ],
+  "related_institution_ids": [
+    20,
+    31,
+    41,
+    52
+  ],
+  "related_topic_ids": [
+    "campus-compare",
+    "college-questions",
+    "icar-check"
+  ],
+  "sources": [
+    {
+      "id": "icar-list-ii-regional",
+      "title": "ICAR Accredited Private Colleges and Universities — List II",
+      "url": "https://icar.org.in/sites/default/files/Circulars/List%20of%20%20ICAR%20Accredited%20Private%20Colleges%20Affliated%20to%20SAUs%20General%20Universities%20%28Private%20and%20Public%29-List-II.xlsx",
+      "checked_on": "2026-10-30",
+      "note": "Documents ICAR accreditation for Eternal University, SGRRU, The Neotia University and Arunachal University of Studies."
+    }
+  ],
+  "verification_notes": [
+    "Covers IDs 20, 31, 41 and 52 so all regional Himalayan, West Bengal and North-East profiles have verified news coverage."
+  ]
+}

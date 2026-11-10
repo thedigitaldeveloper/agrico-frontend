@@ -1,135 +1,98 @@
 import type { NextConfig } from 'next';
-import catalogueRedirects from './src/config/catalogue-programme-redirects.json';
+
+const cmsUrl = process.env.NEXT_PUBLIC_CMS_URL ?? 'http://localhost:1340';
+const cmsOrigin = new URL(cmsUrl);
+const cmsHostOrigin = cmsOrigin.origin;
+const isLoopbackCms = cmsOrigin.hostname === 'localhost' || cmsOrigin.hostname === '127.0.0.1';
+const loopbackPort = cmsOrigin.port || '1340';
+// Strapi media URLs may be stored with either localhost or 127.0.0.1; allow
+// both in development so existing CMS uploads resolve regardless of which host
+// was used when the file was uploaded.
+const loopbackOrigins = isLoopbackCms
+  ? `http://localhost:${loopbackPort} http://127.0.0.1:${loopbackPort}`
+  : '';
 
 /**
- * Origins are read from the environment and reused for both the image allow-list
- * and the CSP, so pointing the app at a different CMS or domain is a one-line
- * env change. The previous build hard-coded these in ~70 places.
+ * Content-Security-Policy.
+ *
+ * Next's App Router still emits small inline bootstrap scripts and style tags
+ * unless a per-request nonce middleware is wired up (which defeats static
+ * rendering), so `script-src` and `style-src` carry `'unsafe-inline'`. Every
+ * other directive is locked to `self` plus the CMS origin that serves uploads.
  */
-const CMS_URL = new URL(process.env.NEXT_PUBLIC_CMS_URL ?? 'http://localhost:1340');
-const cms = CMS_URL.origin;
-const isLoopbackCms = ['localhost', '127.0.0.1', '[::1]'].includes(CMS_URL.hostname);
+const contentSecurityPolicy = [
+  "default-src 'self'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "frame-ancestors 'none'",
+  "object-src 'none'",
+  process.env.NODE_ENV === 'production'
+    ? "script-src 'self' 'unsafe-inline'"
+    : "script-src 'self' 'unsafe-inline' 'unsafe-eval'",
+  "style-src 'self' 'unsafe-inline'",
+  `img-src 'self' data: blob: ${cmsHostOrigin} ${loopbackOrigins} https:`,
+  "font-src 'self' data:",
+  `connect-src 'self' ${cmsHostOrigin} ${loopbackOrigins}`,
+  `media-src 'self' ${cmsHostOrigin} ${loopbackOrigins}`,
+  'frame-src https://www.youtube-nocookie.com https://www.youtube.com',
+  // Do not force HTTPS subresources when the configured CMS is local HTTP;
+  // otherwise Chrome upgrades http://localhost:1340/uploads/... to https:// and
+  // fails with ERR_SSL_PROTOCOL_ERROR.
+  isLoopbackCms ? '' : 'upgrade-insecure-requests',
+].filter(Boolean).join('; ');
 
-const analytics = [
-  'https://www.googletagmanager.com',
-  'https://www.google-analytics.com',
-  'https://analytics.google.com',
+const securityHeaders = [
+  { key: 'Content-Security-Policy', value: contentSecurityPolicy },
+  ...(isLoopbackCms
+    ? []
+    : [{ key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains; preload' }]),
+  { key: 'X-Content-Type-Options', value: 'nosniff' },
+  { key: 'X-Frame-Options', value: 'DENY' },
+  { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+  {
+    key: 'Permissions-Policy',
+    value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
+  },
 ];
 
-/**
- * YouTube's thumbnail host. A hero slide pointing at a YouTube video falls back
- * to the video's own still when the editor uploads no poster image, so the
- * carousel never shows a bare rectangle behind the play button.
- */
-const youtubeThumbnails = 'https://i.ytimg.com';
-
-const csp = [
-  `default-src 'self'`,
-  // 'unsafe-inline' stays only for scripts because Next's inline bootstrap needs
-  // it; 'unsafe-eval' is dev-only, where React refresh requires it.
-  `script-src 'self' 'unsafe-inline' ${process.env.NODE_ENV === 'production' ? '' : "'unsafe-eval'"} ${analytics.join(' ')} https://maps.googleapis.com https://maps.gstatic.com`,
-  `style-src 'self' 'unsafe-inline' https://fonts.googleapis.com`,
-  `font-src 'self' data: https://fonts.gstatic.com`,
-  `img-src 'self' data: blob: ${cms} ${youtubeThumbnails} ${analytics.join(' ')} https://maps.googleapis.com https://maps.gstatic.com`,
-  `connect-src 'self' ${cms} ${analytics.join(' ')}`,
-  `frame-src 'self' https://www.google.com https://maps.google.com https://www.youtube.com https://www.youtube-nocookie.com`,
-  `media-src 'self' ${cms}`,
-  `object-src 'none'`,
-  `base-uri 'self'`,
-  `form-action 'self'`,
-  `frame-ancestors 'self'`,
-  `upgrade-insecure-requests`,
-]
-  .filter(Boolean)
-  .join('; ');
-
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  // Catalogue pages share a CMS. Bound build-time fan-out so static generation
-  // does not overwhelm a small database with dozens of simultaneous renders.
-  experimental: { cpus: 2, staticGenerationMaxConcurrency: 1 },
-  devIndicators: false,
   poweredByHeader: false,
-  compress: true,
-  outputFileTracingIncludes: {
-    '/*': ['./docs/content/universities-2026-10-30/publication-runtime.json', './docs/content/universities-2026-10-30/tab-pages/*.json'],
-  },
-
   images: {
-    // Media is served straight from the CMS. The old build rewrote /uploads/*
-    // through the Next server, so every image cost an extra proxy hop.
-    remotePatterns: [
+    dangerouslyAllowSVG: true,
+    localPatterns: [
       {
-        protocol: CMS_URL.protocol.replace(':', '') as 'http' | 'https',
-        hostname: CMS_URL.hostname,
-        port: CMS_URL.port || undefined,
-        pathname: '/uploads/**',
-      },
-      {
-        protocol: 'https',
-        hostname: new URL(youtubeThumbnails).hostname,
-        pathname: '/vi/**',
+        pathname: '/**',
       },
     ],
-    formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 60 * 60 * 24 * 30,
-    dangerouslyAllowSVG: true,
-    contentDispositionType: 'attachment',
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-
-    // A local production preview also serves CMS media from loopback. Allow
-    // that explicitly configured CMS, not every development/private address.
-    // The exact origin and /uploads path remain constrained above; redirects
-    // cannot turn an allowed local image URL into another internal endpoint.
+    // Local Strapi resolves to 127.0.0.1, which Next's image optimizer blocks
+    // by default to prevent SSRF. Only relax this when the configured CMS is
+    // actually on loopback — production builds against a public host keep the
+    // protection on.
     dangerouslyAllowLocalIP: isLoopbackCms,
-    ...(isLoopbackCms ? { maximumRedirects: 0 } : {}),
+    remotePatterns: [
+      {
+        protocol: cmsOrigin.protocol.replace(':', '') as 'http' | 'https',
+        hostname: cmsOrigin.hostname,
+        port: cmsOrigin.port,
+        pathname: '/uploads/**',
+      },
+      ...(isLoopbackCms
+        ? [
+            {
+              protocol: 'http' as const,
+              hostname: cmsOrigin.hostname === 'localhost' ? '127.0.0.1' : 'localhost',
+              port: loopbackPort,
+              pathname: '/uploads/**',
+            },
+          ]
+        : []),
+    ],
   },
-
   async headers() {
     return [
       {
         source: '/:path*',
-        headers: [
-          { key: 'Content-Security-Policy', value: csp },
-          { key: 'X-Content-Type-Options', value: 'nosniff' },
-          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
-          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
-          {
-            key: 'Permissions-Policy',
-            value: 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
-          },
-          {
-            key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload',
-          },
-        ],
-      },
-    ];
-  },
-
-  async redirects() {
-    return [
-      ...catalogueRedirects.flatMap(({ oldProgrammeSlug, newProgrammeSlug, universitySlug }) => [
-        { source: '/' + oldProgrammeSlug, destination: '/' + newProgrammeSlug, permanent: true },
-        { source: '/' + oldProgrammeSlug + '/:section', destination: '/' + newProgrammeSlug + '/:section', permanent: true },
-        { source: '/program/' + oldProgrammeSlug, destination: '/' + newProgrammeSlug, permanent: true },
-        { source: '/program/' + oldProgrammeSlug + '/:section', destination: '/' + newProgrammeSlug + '/:section', permanent: true },
-        { source: '/offering/' + universitySlug + '/' + oldProgrammeSlug, destination: '/offering/' + universitySlug + '/' + newProgrammeSlug, permanent: true },
-      ]),
-      {
-        source: '/course/:slug',
-        destination: '/:slug',
-        permanent: true,
-      },
-      {
-        source: '/program/:slug',
-        destination: '/:slug',
-        permanent: true,
-      },
-      {
-        source: '/program/:slug/:section',
-        destination: '/:slug/:section',
-        permanent: true,
+        headers: securityHeaders,
       },
     ];
   },

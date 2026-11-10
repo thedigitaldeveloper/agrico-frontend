@@ -769,8 +769,8 @@
           {
             "heading": "B.V.Sc. & A.H.",
             "paragraphs": [
-              "KCVAS table 2.2.5(C), printedp 13: six-monthly tuition is ₹1,80,000 for University Quota, ₹3,80,000 forManagement Quota and ₹4,37,500 forSpecial Management Quota. Other six-monthly charges are ₹31,500. The published entry-time totals include one-time charges/security; hostel/mess and category terms must be read separately. Tuition applies to 4½ years of course work; KCVAS other charges continue during internship. No flat five-year total is inferred.",
-              "Charge scope: University-quota tuition only; other six-monthly charges, one-time fees, securities and accommodation are separate."
+              "Charge scope: University-quota tuition only; other six-monthly charges, one-time fees, securities and accommodation are separate.",
+              "KCVAS table 2.2.5(C), printedp 13: six-monthly tuition is ₹1,80,000 for University Quota, ₹3,80,000 forManagement Quota and ₹4,37,500 forSpecial Management Quota. Other six-monthly charges are ₹31,500. The published entry-time totals include one-time charges/security; hostel/mess and category terms must be read separately. Tuition applies to 4½ years of course work; KCVAS other charges continue during internship. No flat five-year total is inferred."
             ],
             "source_ids": [
               "r31_1"
@@ -4494,9 +4494,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Khalsa College of Veterinary and Animal Sciences. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GADVASU notified fourth B.V.Sc. & A.H. counselling on 30 October 2026 alongside Punjab admission updates",
+            "path": "/news/gadvasu-fourth-bvsc-counselling-and-punjab-agriculture-notices-october-2026",
+            "description": "Review the 30 October 2026 GADVASU fourth B.V.Sc. & A.H. counselling notice and how Punjab veterinary and agriculture applicants verify admission rounds.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

@@ -68,9 +68,11 @@ export default async function UniversityPage({ params }: PageProps<'/university/
     const state = publicationHtmlState(withRelatedEditorial(authored, (university?.editorial_posts || []).filter(post => post.publishedAt).map(post => ({ title: post.name, path: canonicalPostPath(post), description: post.description || '', kind: post.type || 'Article' }))), section, university?.university_contents);
     return <AgricoPublicationPage doc={state.doc} htmlBlock={state.htmlBlock} university={university} />;
   }
+  const guide = getUniversityGuide(slug);
+  if (guide) {
+    return <AgricoUniversityDetail model={guideUniversityModel(guide)} />;
+  }
   if (!university) {
-    const guide = getUniversityGuide(slug);
-    if (guide) return <AgricoUniversityDetail model={guideUniversityModel(guide)} />;
     notFound();
   }
 

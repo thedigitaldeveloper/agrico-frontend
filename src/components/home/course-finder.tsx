@@ -432,7 +432,7 @@ export function CourseFinder({ intents, courses, config }: CourseFinderData) {
               </p>
               <span className="hidden items-center gap-1 text-2xs text-ink-500 sm:inline-flex">
                 <ShieldCheck className="size-3.5 text-emerald-600" />
-                <span>UGC-DEB & NAAC A++ Verified</span>
+                <span>ICAR &amp; SAU Verified</span>
               </span>
             </div>
 

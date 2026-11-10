@@ -1,0 +1,71 @@
+{
+  "id": "tamil-nadu-deemed-agri-notices-2026",
+  "cms_type": "News",
+  "slug": "tamil-nadu-deemed-universities-agriculture-admission-and-scholarship-deadlines-2026",
+  "title": "Tamil Nadu deemed universities recorded separate 2026 entrance, merit and scholarship deadlines",
+  "description": "Compare 2026 admission and scholarship timelines across Amrita Vishwa Vidyapeetham, Karunya, VIT, SRM and Kalasalingam in Tamil Nadu.",
+  "summary": "Unlike TNAU-affiliated colleges, Tamil Nadu’s deemed-to-be universities published independent 2026 agriculture admission calendars, including Amrita’s May 2026 AEEL examination dates and Karunya’s 29 May 2026 scholarship deadline.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-09-30",
+  "published_on": "2026-09-30",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "deemed-university-dates",
+      "heading": "Sourced 2026 dates across Tamil Nadu deemed universities",
+      "paragraphs": [
+        "In Tamil Nadu, deemed-to-be universities conduct their own admissions outside the TNAU single-window system. [Amrita Vishwa Vidyapeetham](/university/amrita-vishwa-vidyapeetham) scheduled its tentative AEEL 2026 entrance examination on 9 and 10 May 2026 and later recorded a Phase 2 Ph.D. Agronomy application deadline on 30 September 2026. Meanwhile, [Karunya Institute of Technology and Sciences](/university/karunya-institute-of-technology-and-sciences) published a 29 May 2026 deadline for its Founder’s Scholarship applications.",
+        "[Vellore Institute of Technology](/university/vellore-institute-of-technology) operated its dedicated 2026 B.Sc. (Hons.) Agriculture merit-admission portal without an entrance exam, while [SRM Institute of Science and Technology](/university/srm-institute-of-science-and-technology) and [Kalasalingam Academy of Research and Education](/university/kalasalingam-academy-of-research-and-education) published their own institution-specific entry and fee schedules."
+      ]
+    },
+    {
+      "id": "what-applicants-should-check",
+      "heading": "How to compare deemed-university offers with state colleges",
+      "paragraphs": [
+        "When comparing these five deemed universities, check the exact ICAR-accredited academic unit in [how to check ICAR accreditation](/articles/icar-accreditation-how-to-check) and verify whether a scholarship deadline (such as Karunya’s 29 May date) closes earlier than general admission counselling. Read [agriculture scholarship conditions](/blogs/agriculture-scholarship-conditions) before subtracting any waiver from your budget."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do VIT, SRM, Amrita, Karunya and Kalasalingam admit students through TNAU counselling?",
+      "answer": "No. They are deemed-to-be universities with independent admission portals, eligibility rules and fee structures."
+    },
+    {
+      "question": "Does missing a scholarship deadline mean general admissions are closed?",
+      "answer": "Not necessarily. Karunya’s 29 May 2026 date was specific to its Founder’s Scholarship scope; check the main admission office for seat availability."
+    }
+  ],
+  "related_institution_ids": [
+    28,
+    32,
+    33,
+    37,
+    44
+  ],
+  "related_topic_ids": [
+    "icar-check",
+    "scholarship-questions",
+    "bsc-eligibility"
+  ],
+  "sources": [
+    {
+      "id": "amrita-2026",
+      "title": "Amrita Vishwa Vidyapeetham B.Sc. (Hons.) Agriculture & Ph.D. admissions 2026",
+      "url": "https://www.amrita.edu/program/b-sc-honours-agriculture/",
+      "checked_on": "2026-10-30",
+      "note": "Records AEEL 2026 May exam dates and 30 September 2026 Ph.D. Agronomy Phase 2 deadline."
+    },
+    {
+      "id": "karunya-2026",
+      "title": "Karunya Institute of Technology and Sciences scholarships and admissions 2026",
+      "url": "https://www.karunya.edu/scholarships",
+      "checked_on": "2026-10-30",
+      "note": "Records 29 May 2026 Founder scholarship deadline."
+    }
+  ],
+  "verification_notes": [
+    "Synthesises verified 2026 dates from Amrita (9–10 May, 30 Sept 2026), Karunya (29 May 2026) and VIT 2026 portal records across the 5 Tamil Nadu deemed universities."
+  ]
+}

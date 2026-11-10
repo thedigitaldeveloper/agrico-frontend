@@ -5,7 +5,13 @@ import Link from 'next/link';
 import { ArrowRight, CheckCircle2, ChevronRight, LoaderCircle, Search, Sprout, X } from 'lucide-react';
 import { submitEnquiry } from '@/lib/actions';
 import { IDLE, type FormState } from '@/lib/form-state';
-import { feeText, type DetailContext, type DetailListing } from './detail-models';
+import type { DetailContext, DetailListing } from './detail-models';
+
+function feeText(value?: number | null) {
+  return value !== null && value !== undefined && Number.isFinite(Number(value)) && Number(value) >= 0
+    ? new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(Number(value))
+    : 'Request current fees';
+}
 
 const EnquiryContext = createContext<{ open: () => void; context: DetailContext } | null>(null);
 

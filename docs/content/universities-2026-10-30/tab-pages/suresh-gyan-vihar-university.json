@@ -759,8 +759,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
-              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established."
+              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices."
             ],
             "source_ids": [
               "r2_fees2025"
@@ -769,8 +769,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
-              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established."
+              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices."
             ],
             "source_ids": [
               "r2_fees2025"
@@ -779,8 +779,8 @@
           {
             "heading": "M.Sc. Horticulture — Vegetable Science",
             "paragraphs": [
-              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices.",
-              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established."
+              "Charge scope: Historical annual programme fee in the official 2025 booklet; additional and living charges not established.",
+              "Historical 2025 booklet: B.Sc. Agriculture INR 1,20,000, M.Sc. Agronomy and Horticulture INR 80,000/year. A separate undated MSc page quotes INR 75,000/year. Obtain a consistent current offer; these older amounts are not 2026–27 prices."
             ],
             "source_ids": [
               "r2_fees2025"
@@ -4399,9 +4399,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Suresh Gyan Vihar University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "Rajasthan private universities recorded July 2026 UG reporting and admission closing dates",
+            "path": "/news/rajasthan-private-agriculture-universities-july-2026-reporting-and-jet-route-updates",
+            "description": "Examine the July 2026 reporting and closing notices at Vivekananda Global University and RNB Global University alongside Rajasthan’s 10 agriculture institutions.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

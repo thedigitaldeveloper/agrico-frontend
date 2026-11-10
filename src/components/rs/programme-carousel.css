@@ -7,8 +7,8 @@
 .rs-home .rs-programme-carousel-footer[hidden]{display:none}
 .rs-home .rs-programme-carousel-controls{display:flex;justify-content:flex-end;gap:8px;margin-left:auto;flex-shrink:0}
 .rs-home .rs-programme-carousel-controls[hidden]{display:none}
-.rs-home .rs-programme-carousel-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #c99a9e;border-radius:50%;color:#a22334;background:#fff;cursor:pointer}
-.rs-home .rs-programme-carousel-controls button:hover:enabled{background:#f2eee8;border-color:#a22334}
+.rs-home .rs-programme-carousel-controls button{display:grid;place-items:center;width:44px;height:44px;border:1px solid #c99a9e;border-radius:50%;color:#124b3b;background:#fff;cursor:pointer}
+.rs-home .rs-programme-carousel-controls button:hover:enabled{background:#f2eee8;border-color:#124b3b}
 .rs-home .rs-programme-carousel-controls button:disabled{color:#a98e8f;border-color:#e6ded5;box-shadow:none;cursor:default}
 .rs-home #programmes .rs-programme-more{display:flex;align-items:center;flex:1;min-height:44px;margin-top:0;padding-right:0}
 .rs-home #programmes .rs-section-heading h2{font-size:clamp(28px,2.8vw,38px);margin-bottom:4px}
@@ -18,8 +18,8 @@
 .rs-home #programmes .rs-study-mode-label{font-size:13px;font-weight:600;color:#615552;white-space:nowrap}
 .rs-home #programmes .rs-study-mode-options{display:flex;gap:3px;padding:3px;border:1px solid #e6ded5;border-radius:8px;background:#f6f3ef}
 .rs-home #programmes .rs-study-mode-options button{min-height:38px;padding:7px 15px;border:0;border-radius:5px;background:transparent;color:#615552;font-size:14px;font-weight:600;cursor:pointer}
-.rs-home #programmes .rs-study-mode-options button[aria-pressed="true"]{background:#a22334;color:#fff;box-shadow:0 1px 3px #6b626025}
-.rs-home #programmes .rs-study-mode-options button:focus-visible{outline:2px solid #a22334;outline-offset:2px}
+.rs-home #programmes .rs-study-mode-options button[aria-pressed="true"]{background:#124b3b;color:#fff;box-shadow:0 1px 3px #6b626025}
+.rs-home #programmes .rs-study-mode-options button:focus-visible{outline:2px solid #124b3b;outline-offset:2px}
 .rs-home #programmes .rs-tabs button{padding:7px 18px;min-height:44px}
 .rs-home #programmes .rs-offering-brand{padding:8px 12px}
 .rs-home #programmes .rs-offering-logo{width:40px;height:40px;flex-basis:40px}

@@ -1,15 +1,15 @@
 {
   "checked_on": "2026-10-31",
-  "institutions": 58,
-  "university_tab_pages": 580,
+  "institutions": 74,
+  "university_tab_pages": 740,
   "tabs_per_institution": 11,
-  "total_university_pages": 638,
-  "articles": 71,
-  "blogs": 6,
-  "news": 2,
+  "total_university_pages": 814,
+  "articles": 87,
+  "blogs": 14,
+  "news": 16,
   "state_collections": 8,
-  "contextual_links": 3395,
-  "body_words": 492011,
+  "contextual_links": 4450,
+  "body_words": 669198,
   "missing_topics": [],
   "issues": []
 }

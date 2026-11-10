@@ -787,8 +787,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "One-time fee ₹29,000; published course total ₹597,000. Confirm accommodation and any charges outside the listed course fee.",
-              "Charge scope: Published semester course fee for Indian students."
+              "Charge scope: Published semester course fee for Indian students.",
+              "One-time fee ₹29,000; published course total ₹597,000. Confirm accommodation and any charges outside the listed course fee."
             ],
             "source_ids": [
               "s6"
@@ -4724,9 +4724,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for The Neotia University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Himalayan and Eastern India private universities recorded ICAR-accredited agriculture programmes for 2026",
+            "path": "/news/himalayan-and-eastern-india-private-agriculture-universities-admission-updates-2026",
+            "description": "Explore 2026 admission and ICAR accreditation records for Eternal University (HP), Shri Guru Ram Rai University (Uttarakhand), The Neotia University (WB) and Arunachal University of Studies.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

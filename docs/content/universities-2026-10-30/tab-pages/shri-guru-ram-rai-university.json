@@ -798,8 +798,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Published whole-course total for the Uttarakhand-domicile column: four years/eight semesters. The other-state column totals INR 5,52,000. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
-              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule."
+              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+              "Published whole-course total for the Uttarakhand-domicile column: four years/eight semesters. The other-state column totals INR 5,52,000. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line."
             ],
             "source_ids": [
               "o31_fee2026_0"
@@ -808,8 +808,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
-              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule."
+              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+              "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line."
             ],
             "source_ids": [
               "o31_fee2026_1"
@@ -818,8 +818,8 @@
           {
             "heading": "M.Sc. Agriculture — Horticulture",
             "paragraphs": [
-              "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line.",
-              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule."
+              "Charge scope: The published TOTAL includes listed tuition and academic/one-time charges, including refundable security; living costs are not established by this schedule.",
+              "Published whole-course total for the Uttarakhand-domicile column: two years/four semesters. The other-state column totals INR 2,49,600. These are category-specific published totals, not annual tuition. Confirm domicile and any concession conditions; the B.Sc. other-state table explicitly includes a Special Concession line."
             ],
             "source_ids": [
               "o31_fee2026_2"
@@ -4665,9 +4665,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Shri Guru Ram Rai University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Himalayan and Eastern India private universities recorded ICAR-accredited agriculture programmes for 2026",
+            "path": "/news/himalayan-and-eastern-india-private-agriculture-universities-admission-updates-2026",
+            "description": "Explore 2026 admission and ICAR accreditation records for Eternal University (HP), Shri Guru Ram Rai University (Uttarakhand), The Neotia University (WB) and Arunachal University of Studies.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

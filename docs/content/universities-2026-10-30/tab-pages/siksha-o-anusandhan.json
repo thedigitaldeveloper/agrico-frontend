@@ -945,63 +945,63 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Agricultural Economics",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Agronomy",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Entomology",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Agricultural Extension Education",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Hort.) Vegetable Science",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Genetics and Plant Breeding",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Plant Pathology",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "M.Sc. (Agri.) Soil Science",
             "paragraphs": [
-              "Dated programme tuition not verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -5156,9 +5156,28 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Siksha ‘O’ Anusandhan. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Siksha ‘O’ Anusandhan announced SAAT 2026 agriculture stray-vacancy results in August 2026",
+            "path": "/news/soa-saat-stray-vacancy-results-and-odisha-private-agriculture-admissions-august-2026",
+            "description": "Read the August 2026 SAAT stray-vacancy admission milestone at SOA alongside Odisha private agriculture university admission checks.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

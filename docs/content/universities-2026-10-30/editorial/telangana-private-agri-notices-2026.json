@@ -1,0 +1,68 @@
+{
+  "id": "telangana-private-agri-notices-2026",
+  "cms_type": "News",
+  "slug": "telangana-sr-university-and-malla-reddy-university-agriculture-admission-updates-2026",
+  "title": "Telangana’s SR University and Malla Reddy University published 2026 B.Sc. (Hons.) Agriculture admission routes",
+  "description": "Compare the 2026 B.Sc. (Hons.) Agriculture admission routes, fees and ICAR accreditation records for SR University (Warangal) and Malla Reddy University (Hyderabad).",
+  "summary": "SR University in Warangal and Malla Reddy University in Hyderabad represent Telangana’s two ICAR-accredited private universities in the research set, offering distinct campus settings and direct/entrance admission pathways.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-07-18",
+  "published_on": "2026-07-18",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "telangana-two-icar-private-universities",
+      "heading": "Comparing Warangal and Hyderabad private agriculture options",
+      "paragraphs": [
+        "In Telangana, two private universities appear in the audited ICAR List II register for B.Sc. (Hons.) Agriculture: [SR University](/university/sr-university) at Ananthasagar in Hanumakonda (Warangal) and [Malla Reddy University](/university/malla-reddy-university) at Maisammaguda in Hyderabad.",
+        "Both institutions publish dedicated School of Agriculture pages outlining four-year Honours curricula, instructional farm training, and semester/annual fee structures separate from PJTSAU state convenor counselling."
+      ]
+    },
+    {
+      "id": "what-to-confirm-before-joining",
+      "heading": "Fee period, hostel charges and subject eligibility checks",
+      "paragraphs": [
+        "Applicants comparing SR University and Malla Reddy University should verify whether quoted tuition figures are per semester or per year, confirm compulsory admission and examination fees, and review practical field-plot access using [reading an agriculture fee letter before paying](/blogs/reading-an-agriculture-fee-letter) and [RAWE and experiential learning](/articles/rawe-and-experiential-learning)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are SR University and Malla Reddy University affiliated with PJTSAU?",
+      "answer": "No. Both are state-enacted private universities in Telangana with their own degree-awarding authority and ICAR-accredited School of Agriculture units."
+    },
+    {
+      "question": "Can MPC (Mathematics, Physics, Chemistry) students apply for B.Sc. (Hons.) Agriculture at these universities?",
+      "answer": "Check each university’s current eligibility table on its admission-process tab to confirm whether both BiPC and MPC streams are accepted for the intended intake."
+    }
+  ],
+  "related_institution_ids": [
+    53,
+    54
+  ],
+  "related_topic_ids": [
+    "fee-letter",
+    "rawe",
+    "icar-check"
+  ],
+  "sources": [
+    {
+      "id": "sru-agri-2026",
+      "title": "SR University School of Agriculture — B.Sc. (Hons.) Agriculture",
+      "url": "https://www.sru.edu.in/schools/bsc-in-agriculture",
+      "checked_on": "2026-10-30",
+      "note": "Official SR University programme and fee source."
+    },
+    {
+      "id": "mru-agri-2026",
+      "title": "Malla Reddy University School of Agricultural Sciences",
+      "url": "https://www.mallareddyuniversity.ac.in/school/school-of-agriculture-sciences",
+      "checked_on": "2026-10-30",
+      "note": "Official Malla Reddy University School of Agricultural Sciences source."
+    }
+  ],
+  "verification_notes": [
+    "Covers Telangana’s two ICAR-accredited private universities (IDs 53 and 54) with official school URLs."
+  ]
+}

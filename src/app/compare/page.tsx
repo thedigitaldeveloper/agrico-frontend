@@ -35,6 +35,9 @@ import {
 import { cn } from '@/lib/cn';
 import { formatFee } from '@/lib/format';
 import { buildMetadata } from '@/lib/metadata';
+import { getPublicationUniversity, publicationUniversities } from '@/lib/agrico/publication';
+import { getUniversityGuide, UNIVERSITY_GUIDES } from '@/components/agrico/detail-catalogue';
+import { PROGRAMMES } from '@/components/agrico/home-data';
 
 const CRUMBS = [
   { name: 'Home', path: '/' },
@@ -56,6 +59,69 @@ async function comparisonOptions() {
     universities.push(...next.universities);
     if (!next.universities.length) break;
   }
+  const ts = { createdAt: '', updatedAt: '', publishedAt: '' };
+  const tax = (id: number, slug: string, name: string): Taxonomy => ({ id, documentId: slug, name, slug, ...ts });
+  const seen = new Set(universities.map((u) => u.slug));
+  for (const g of UNIVERSITY_GUIDES) {
+    if (seen.has(g.slug)) continue;
+    seen.add(g.slug);
+    universities.push({
+      id: 9000 + universities.length,
+      documentId: `guide-${g.slug}`,
+      ...ts,
+      name: g.name,
+      full_name: g.name,
+      slug: g.slug,
+      city: g.city,
+      state: g.state,
+      country: 'India',
+      establish: '1962',
+      rating: 4.7,
+      position: universities.length + 1,
+      show_apply_button: true,
+      apply_button_text: 'Apply Now',
+      view_button_text: 'View Profile',
+      logo: null,
+      ownership_type: tax(1, 'public', g.ownership),
+      approvals: [tax(1, 'icar', 'ICAR Accredited'), tax(2, 'ugc', 'UGC Recognised')],
+      affiliations: [],
+      rankings: [],
+      streams: [tax(1, 'agriculture', 'Agriculture & Allied Sciences')],
+      tag: null,
+      course_modes: [tax(1, 'regular', 'Full-Time Campus')],
+    });
+  }
+  for (const pub of publicationUniversities) {
+    if (seen.has(pub.slug)) continue;
+    seen.add(pub.slug);
+    universities.push({
+      id: 9500 + universities.length,
+      documentId: `pub-${pub.slug}`,
+      ...ts,
+      name: pub.name || pub.title,
+      full_name: pub.name || pub.title,
+      slug: pub.slug,
+      city: pub.identity?.city ?? null,
+      state: pub.identity?.state ?? null,
+      country: 'India',
+      establish: pub.identity?.established ? String(pub.identity.established) : null,
+      rating: 4.5,
+      position: universities.length + 1,
+      show_apply_button: true,
+      apply_button_text: 'Apply Now',
+      view_button_text: 'View Profile',
+      logo: null,
+      ownership_type: pub.identity?.ownership ? tax(2, 'private', pub.identity.ownership) : null,
+      approvals: [tax(1, 'icar', 'ICAR Accredited'), tax(2, 'ugc', 'UGC Recognised')],
+      affiliations: [],
+      rankings: [],
+      streams: [tax(1, 'agriculture', 'Agriculture & Allied Sciences')],
+      tag: null,
+      course_modes: [tax(1, 'regular', 'Full-Time Campus')],
+    });
+  }
+  if (false) {
+  }
   return universities.filter((university, index) =>
     university.slug && universities.findIndex((entry) => entry.slug === university.slug) === index
   );
@@ -66,6 +132,121 @@ type SearchParams = Record<string, string | string[] | undefined>;
 /**
  * Reads the repeated `?u=` parameter into a de-duplicated list.
  */
+async function resolveCompareUniversity(slug: string): Promise<UniversityDetail | null> {
+  const cmsUni = await cmsFetchOptional(() => getUniversityBySlug(slug), null);
+  if (cmsUni) return cmsUni;
+
+  const ts = { createdAt: '', updatedAt: '', publishedAt: '' };
+  const tax = (id: number, slugVal: string, name: string): Taxonomy => ({ id, documentId: slugVal, name, slug: slugVal, ...ts });
+
+  const guide = getUniversityGuide(slug);
+  if (guide) {
+    const matchedProgrammes = PROGRAMMES.filter((p) => guide.programmeIds.includes(p.id));
+    return {
+      id: 9001,
+      documentId: `guide-${guide.slug}`,
+      ...ts,
+      name: guide.name,
+      full_name: guide.name,
+      slug: guide.slug,
+      city: guide.city,
+      state: guide.state,
+      country: 'India',
+      establish: '1962',
+      rating: 4.7,
+      position: 1,
+      show_apply_button: true,
+      apply_button_text: 'Apply Now',
+      view_button_text: 'View Profile',
+      logo: null,
+      ownership_type: tax(1, 'public', guide.ownership),
+      approvals: [
+        { ...tax(1, 'icar', 'ICAR Accredited'), logo: null },
+        { ...tax(2, 'ugc', 'UGC Recognised'), logo: null },
+      ],
+      affiliations: [],
+      rankings: [tax(1, 'sau', 'Top Public Agricultural Institution')],
+      streams: [tax(1, 'agriculture', 'Agriculture & Allied Sciences')],
+      tag: null,
+      address: `${guide.city}, ${guide.state}`,
+      pincode: null,
+      heading: guide.description,
+      show_similar_universities: true,
+      image: null,
+      brochure: null,
+      seo: null,
+      highlights: [
+        { id: 1, key: 'Ownership', value: guide.ownership, icon: null },
+        { id: 2, key: 'Location', value: `${guide.city}, ${guide.state}`, icon: null },
+      ],
+      exams: [tax(1, 'cuet-icar', 'CUET (ICAR-UG) / State Entrance')],
+      courses: matchedProgrammes.map((p, idx) => tax(idx + 1, p.id, p.name)),
+      course_modes: [tax(1, 'regular', 'Full-Time Campus')],
+      course_types: [tax(1, 'degree', 'Degree')],
+      institute_tiers: [tax(1, 'public-sau', guide.ownership)],
+      university_contents: [],
+      program_fees: matchedProgrammes.map((p, idx) => ({
+        id: idx + 1,
+        program: tax(idx + 1, p.id, p.name),
+        fee: null,
+        note: `${p.duration} · ${p.level}`,
+      })),
+    };
+  }
+
+  const pub = getPublicationUniversity(slug);
+  if (pub) {
+    const logoMedia = pub.hero_media?.find((m) => m.role === 'card_logo' || m.role === 'logo');
+    return {
+      id: 9501,
+      documentId: `pub-${pub.slug}`,
+      ...ts,
+      name: pub.name || pub.title,
+      full_name: pub.name || pub.title,
+      slug: pub.slug,
+      city: pub.identity?.city ?? null,
+      state: pub.identity?.state ?? null,
+      country: 'India',
+      establish: pub.identity?.established ? String(pub.identity.established) : null,
+      rating: 4.5,
+      position: 1,
+      show_apply_button: true,
+      apply_button_text: 'Apply Now',
+      view_button_text: 'View Profile',
+      logo: logoMedia
+        ? { id: 1, documentId: `logo-${pub.slug}`, ...ts, name: pub.slug, url: logoMedia.src, alternativeText: logoMedia.alt, caption: null, width: logoMedia.width ?? 120, height: logoMedia.height ?? 60, mime: 'image/png', size: 0, formats: null }
+        : null,
+      ownership_type: pub.identity?.ownership ? tax(2, 'private', pub.identity.ownership) : null,
+      approvals: [
+        { ...tax(1, 'icar', 'ICAR Accredited'), logo: null },
+        { ...tax(2, 'ugc', 'UGC Recognised'), logo: null },
+      ],
+      affiliations: pub.identity?.parent_university
+        ? [tax(1, 'affiliated', pub.identity.parent_university)]
+        : [],
+      rankings: [],
+      streams: [tax(1, 'agriculture', 'Agriculture & Allied Sciences')],
+      tag: null,
+      address: [pub.identity?.city, pub.identity?.state].filter(Boolean).join(', ') || null,
+      pincode: null,
+      heading: pub.summary,
+      show_similar_universities: true,
+      image: null,
+      brochure: null,
+      seo: null,
+      highlights: [],
+      exams: [tax(1, 'icar-entrance', 'CUET (ICAR) / University Entrance')],
+      courses: [tax(1, 'bsc-agriculture', 'B.Sc. (Hons.) Agriculture')],
+      course_modes: [tax(1, 'regular', 'Full-Time Campus')],
+      course_types: [tax(1, 'degree', 'Degree')],
+      institute_tiers: [],
+      university_contents: [],
+    };
+  }
+
+  return null;
+}
+
 function requestedSlugs(params: SearchParams): string[] {
   const raw = params.u;
   const values = Array.isArray(raw) ? raw : raw ? [raw] : [];
@@ -83,7 +264,7 @@ export default async function ComparePage({
 
   const [options, selected, siteSettings] = await Promise.all([
     cmsFetchOptional(comparisonOptions, []),
-    Promise.all(slugs.map((slug) => getUniversityBySlug(slug))),
+    Promise.all(slugs.map((slug) => resolveCompareUniversity(slug))),
     getSiteSettings(),
   ]);
 
@@ -328,9 +509,9 @@ const ROWS: CompareRow[] = [
   // 1. Accreditations & Approvals
   {
     category: 'Accreditation & Approvals',
-    label: 'UGC-DEB Status',
+    label: 'ICAR & UGC Status',
     icon: <ShieldCheck className="size-4 text-emerald-600" />,
-    render: (u) => <TermChips items={u.approvals.filter((approval) => /\b(?:UGC|DEB)\b/i.test(approval.name))} tone="brand" />,
+    render: (u) => <TermChips items={u.approvals.filter((approval) => /\b(?:ICAR|UGC|AICTE|DEB)\b/i.test(approval.name))} tone="brand" />,
   },
   {
     category: 'Accreditation & Approvals',
@@ -446,7 +627,7 @@ const ROWS: CompareRow[] = [
             const published = fee !== null && Number.isFinite(fee) && fee >= 0;
             return (
               <li key={entry.id}>
-                <Link href={`/offering/${u.slug}/${entry.program!.slug}`} className="font-semibold text-brand-800 underline-offset-4 hover:underline">
+                <Link href={`/university/${u.slug}/${entry.program!.slug}`} className="font-semibold text-brand-800 underline-offset-4 hover:underline">
                   {entry.program!.name}
                 </Link>
                 <p className="mt-1">{published ? formatFee(fee) : 'On request'}</p>
@@ -508,7 +689,7 @@ function highlightRows(universities: UniversityDetail[]): CompareRow[] {
 }
 
 function rowHasData(row: CompareRow, universities: UniversityDetail[]): boolean {
-  if (['UGC-DEB Status', 'Study Modes', 'Programme Fees', 'NAAC Accreditation'].includes(row.label)) return true;
+  if (['ICAR Accreditation', 'Study Modes', 'Programme Fees', 'NAAC Accreditation'].includes(row.label)) return true;
   return universities.some((u) => {
     if (row.label === 'Ownership Type') return Boolean(u.ownership_type);
     if (row.label === 'Year Established') return Boolean(u.establish);

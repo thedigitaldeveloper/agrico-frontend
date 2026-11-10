@@ -760,8 +760,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official amount; intake-year applicability is not established. Separate table charges: enrolment ₹5,000 and one-time admission ₹25,000. Do not treat this as a current2026–27/2027 payable quote or an all-inclusive attendance cost.",
-              "Charge scope: Tuition only in the published B.Sc. (Hons.) Agriculture table."
+              "Charge scope: Tuition only in the published B.Sc. (Hons.) Agriculture table.",
+              "Undated official amount; intake-year applicability is not established. Separate table charges: enrolment ₹5,000 and one-time admission ₹25,000. Do not treat this as a current2026–27/2027 payable quote or an all-inclusive attendance cost."
             ],
             "source_ids": [
               "s4"
@@ -4467,9 +4467,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for SR University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Telangana’s SR University and Malla Reddy University published 2026 B.Sc. (Hons.) Agriculture admission routes",
+            "path": "/news/telangana-sr-university-and-malla-reddy-university-agriculture-admission-updates-2026",
+            "description": "Compare the 2026 B.Sc. (Hons.) Agriculture admission routes, fees and ICAR accreditation records for SR University (Warangal) and Malla Reddy University (Hyderabad).",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

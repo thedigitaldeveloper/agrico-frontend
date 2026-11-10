@@ -1,0 +1,71 @@
+{
+  "id": "cuet-icar-counselling-verification-2026",
+  "cms_type": "News",
+  "slug": "cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+  "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+  "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+  "summary": "While NTA’s CUET (ICAR-UG) examination serves as the gateway for ICAR All-India Quota seats, many private and deemed universities also accept CUET scorecards through their own separate institutional application portals.",
+  "byline": "Agrico Editorial",
+  "event_date": "2026-09-25",
+  "published_on": "2026-09-25",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "two-ways-cuet-scores-are-used",
+      "heading": "Central ICAR allotment versus university-level CUET admission",
+      "paragraphs": [
+        "Applicants holding a 2026 CUET (ICAR-UG) scorecard encounter two distinct admission pathways: central ICAR online counselling for All-India Quota seats at participating universities, and direct institutional applications where universities such as [Lovely Professional University](/university/lovely-professional-university), [Chandigarh University](/university/chandigarh-university), [Suresh Gyan Vihar University](/university/suresh-gyan-vihar-university), [Tantia University](/university/tantia-university), [RKDF University, Bhopal](/university/rkdf-university-bhopal) and [Arunachal University of Studies](/university/arunachal-university-of-studies) consider CUET scores alongside their own entrance or merit criteria.",
+        "Submitting a CUET scorecard directly to a private university’s admission office is an institutional admission route, not an ICAR All-India Quota allotment."
+      ]
+    },
+    {
+      "id": "checking-subject-mapping-and-scholarships",
+      "heading": "Verify domain-subject combinations and CUET scholarship slabs",
+      "paragraphs": [
+        "Before relying on a CUET score for admission or a tuition waiver, read [CUET and ICAR UG counselling: understand the admission route](/articles/cuet-icar-agriculture-admission-route) and confirm the required domain subjects (such as Physics, Chemistry, Biology/Mathematics/Agriculture) on the university’s official admission page."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Does applying for CUET (ICAR-UG) on the NTA website automatically enter me into a private university’s merit list?",
+      "answer": "No. Whether applying through central ICAR counselling or directly to a private university that accepts CUET scores, you must complete the respective counselling or institutional registration separately."
+    },
+    {
+      "question": "Do some private universities offer fee waivers based on CUET percentiles?",
+      "answer": "Yes, several private universities publish scholarship slabs linked to CUET scores, subject to programme applicability and renewal rules."
+    }
+  ],
+  "related_institution_ids": [
+    17,
+    19,
+    21,
+    29,
+    33,
+    37,
+    38,
+    42,
+    43,
+    50,
+    52,
+    56
+  ],
+  "related_topic_ids": [
+    "cuet-icar",
+    "counselling-prep",
+    "scholarship-questions"
+  ],
+  "sources": [
+    {
+      "id": "nta-cuet-icar-2026",
+      "title": "NTA / ICAR examination and admission portal reference",
+      "url": "https://icar.org.in/",
+      "checked_on": "2026-10-30",
+      "note": "Regulatory reference for ICAR All-India Quota admission framework."
+    }
+  ],
+  "verification_notes": [
+    "Clarifies the distinction between central ICAR counselling and institutional acceptance of CUET scorecards."
+  ]
+}

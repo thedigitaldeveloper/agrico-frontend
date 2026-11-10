@@ -100,7 +100,7 @@ export default async function QuestionPage({ params }: PageProps<'/qna/[slug]'>)
                     ))
                   ) : (
                     <span className="inline-flex items-center rounded-md bg-ink-100 px-2.5 py-1 text-2xs font-bold text-ink-700">
-                      General Online Education
+                      Agriculture &amp; Allied Admissions
                     </span>
                   )}
 
@@ -176,7 +176,7 @@ export default async function QuestionPage({ params }: PageProps<'/qna/[slug]'>)
                       ) : null}
                     </div>
                     <p className="text-3xs text-ink-500 mt-0.5">
-                      Reviewed against current UGC-DEB Regulations & Gazette Notifications · {formatDate(acceptedAnswer.createdAt)}
+                      Reviewed against official ICAR NAEAB, VCI &amp; State Agricultural University norms · {formatDate(acceptedAnswer.createdAt)}
                     </p>
                   </div>
                 </div>
@@ -190,7 +190,7 @@ export default async function QuestionPage({ params }: PageProps<'/qna/[slug]'>)
                 <div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50/60 p-4 flex items-start gap-3">
                   <ShieldCheck className="size-5 text-emerald-700 shrink-0 mt-0.5" />
                   <div className="text-2xs text-emerald-950 leading-relaxed">
-                    <strong>Statutory Compliance Confirmation:</strong> The guidance provided above strictly aligns with the University Grants Commission (Open and Distance Learning Programmes and Online Programmes) Regulations and subsequent official Gazette notifications.
+                    <strong>Regulatory &amp; Source Verification:</strong> The guidance above reflects official ICAR National Agricultural Education Accreditation Board (NAEAB) registers, 6th Deans’ Committee curriculum frameworks, and published university admission notifications.
                   </div>
                 </div>
               </section>
@@ -279,17 +279,39 @@ export default async function QuestionPage({ params }: PageProps<'/qna/[slug]'>)
                   size="md"
                   className="w-full justify-center rounded-xl border border-white/20 bg-white/10 hover:bg-white/20 text-xs"
                 >
-                  <span>Compare Top Online Universities</span>
+                  <span>Compare Agriculture Universities</span>
                 </ButtonLink>
               </div>
             </div>
+
+            {question.universities && question.universities.length > 0 ? (
+              <div className="rounded-3xl border border-ink-200 bg-white p-5 sm:p-6 shadow-card">
+                <h4 className="font-display text-xs font-extrabold uppercase tracking-wider text-ink-900 mb-3 flex items-center gap-2">
+                  <Building2 className="size-4 text-brand-700" />
+                  Institutions Discussed
+                </h4>
+                <ul className="divide-y divide-ink-100">
+                  {question.universities.map((uni) => (
+                    <li key={uni.documentId} className="py-2.5 first:pt-0 last:pb-0">
+                      <Link
+                        href={`/university/${uni.slug}`}
+                        className="group flex items-center justify-between gap-2 text-xs font-semibold text-ink-800 hover:text-brand-800 transition-colors"
+                      >
+                        <span>{uni.name}</span>
+                        <ArrowRight className="size-3.5 shrink-0 text-brand-700 transition-transform group-hover:translate-x-0.5" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : null}
 
             {/* Related Questions Strip */}
             {relatedQuestions.length > 0 ? (
               <div className="rounded-3xl border border-ink-200 bg-white p-5 sm:p-6 shadow-card">
                 <h4 className="font-display text-xs font-extrabold uppercase tracking-wider text-ink-900 mb-3 flex items-center gap-2">
                   <HelpCircle className="size-4 text-brand-700" />
-                  Related UGC-DEB Discussions
+                  Related Agriculture Q&amp;A
                 </h4>
 
                 <ul className="divide-y divide-ink-100">
@@ -320,23 +342,26 @@ export default async function QuestionPage({ params }: PageProps<'/qna/[slug]'>)
             {/* Quick Explore Streams */}
             <div className="rounded-3xl border border-ink-200 bg-white p-5 sm:p-6 shadow-card">
               <h4 className="font-display text-xs font-extrabold uppercase tracking-wider text-ink-900 mb-3">
-                Browse by Academic Discipline
+                Browse by Agriculture Discipline
               </h4>
               <div className="flex flex-wrap gap-1.5">
-                <Link href="/qna?stream=management" className={cn(CHIP, CHIP_LINK)}>
-                  Management (MBA / BBA)
+                <Link href="/qna?stream=agriculture-allied-sciences" className={cn(CHIP, CHIP_LINK)}>
+                  Agriculture &amp; Allied Sciences
                 </Link>
-                <Link href="/qna?stream=computer-applications" className={cn(CHIP, CHIP_LINK)}>
-                  IT & Software (MCA / BCA)
+                <Link href="/qna?stream=horticulture-forestry" className={cn(CHIP, CHIP_LINK)}>
+                  Horticulture &amp; Forestry
                 </Link>
-                <Link href="/qna?stream=commerce" className={cn(CHIP, CHIP_LINK)}>
-                  Commerce (M.Com / B.Com)
+                <Link href="/qna?stream=agricultural-engineering" className={cn(CHIP, CHIP_LINK)}>
+                  Agricultural Engineering
                 </Link>
-                <Link href="/qna?stream=arts-humanities" className={cn(CHIP, CHIP_LINK)}>
-                  Arts & Humanities (MA / BA)
+                <Link href="/qna?stream=agribusiness-management" className={cn(CHIP, CHIP_LINK)}>
+                  Agribusiness Management
+                </Link>
+                <Link href="/qna?stream=veterinary-dairy-fisheries" className={cn(CHIP, CHIP_LINK)}>
+                  Veterinary, Dairy &amp; Fisheries
                 </Link>
                 <Link href="/qna" className={cn(CHIP, CHIP_LINK)}>
-                  All Q&A Discussions
+                  All Q&amp;A Discussions
                 </Link>
               </div>
             </div>

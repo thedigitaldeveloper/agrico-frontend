@@ -786,8 +786,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Base fee. Published General/OBC university scholarship reduces this to INR 48,000; category conditions and additional charges need confirmation. Non-refundable registration INR 4,900.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Base fee. Published General/OBC university scholarship reduces this to INR 48,000; category conditions and additional charges need confirmation. Non-refundable registration INR 4,900."
             ],
             "source_ids": [
               "s7"
@@ -796,8 +796,8 @@
           {
             "heading": "M.Sc. (Agriculture) Agronomy",
             "paragraphs": [
-              "Base fee. Published General/OBC scholarship reduces this to INR 40,000; registration INR 4,900 separately.",
-              "Charge scope: Published tuition/course fee; additional charges must be checked separately."
+              "Charge scope: Published tuition/course fee; additional charges must be checked separately.",
+              "Base fee. Published General/OBC scholarship reduces this to INR 40,000; registration INR 4,900 separately."
             ],
             "source_ids": [
               "s7"
@@ -4541,9 +4541,28 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for AKS University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          },
+          {
+            "title": "Madhya Pradesh private universities recorded multi-year ICAR accreditation terms for B.Sc. (Hons.) Agriculture",
+            "path": "/news/madhya-pradesh-private-universities-icar-accreditation-and-admission-verification-2026",
+            "description": "Check the audited ICAR accreditation terms and admission verification steps across six private universities in Madhya Pradesh.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

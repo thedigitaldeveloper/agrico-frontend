@@ -1,10 +1,12 @@
 import type { BlocksContent } from '../blocks';
 import type { CustomSectionBlock } from '@/components/cms/custom-section';
 import type { HtmlSectionBlock } from '@/components/cms/html-section';
+import { getProgrammeAuthoredSection, getProgrammeSectionRefs } from '@/lib/agrico/programme-content';
 
-import { cmsCollection, cmsFirst } from '../client';
+import { cmsCollection, cmsFetchOptional, cmsFirst } from '../client';
 import { collectionTag, entryTag } from '../tags';
 import type { DynamicZoneComponent, Seo, StrapiEntry } from '../types';
+export { splitHyphenatedProgramSectionSlug, toCleanSectionSuffix } from '../paths';
 
 /**
  * Dynamic Zone Component Types for University Contents
@@ -140,20 +142,69 @@ export async function listContentSectionRefs(
   owner: Owner,
   ownerSlug: string
 ): Promise<StrapiEntry[]> {
-  const { data } = await cmsCollection<StrapiEntry>(
-    '/university-contents',
-    {
-      filters: {
-        [owner]: { slug: { $eqi: ownerSlug } },
+  const cmsRefs = await cmsFetchOptional(async () => {
+    const { data } = await cmsCollection<StrapiEntry>(
+      '/university-contents',
+      {
+        filters: {
+          [owner]: { slug: { $eqi: ownerSlug } },
+        },
+        sort: 'position:asc',
+        pagination: { pageSize: 20 },
       },
-      sort: 'position:asc',
-      pagination: { pageSize: 20 },
-    },
-    {
-      tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)],
-    }
-  );
-  return data;
+      {
+        tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)],
+      }
+    );
+    return data;
+  }, []);
+
+  if (cmsRefs.length > 0) return cmsRefs;
+  if (owner === 'program') {
+    const TS = '2026-11-01T00:00:00.000Z';
+    return getProgrammeSectionRefs(ownerSlug).map((ref) => ({
+      ...ref,
+      createdAt: TS,
+      updatedAt: TS,
+      publishedAt: TS,
+    }));
+  }
+  return [];
+}
+
+/**
+ * Common section-slug alias groups across Strapi university/program content.
+ */
+const SECTION_SLUG_ALIASES: Record<string, string[]> = {
+  courses: ['courses', 'course-fee', 'courses-fees', 'program-and-fees', 'fee-structure', 'fees'],
+  'course-fee': ['course-fee', 'courses', 'courses-fees', 'program-and-fees', 'fee-structure', 'fees'],
+  'courses-fees': ['courses-fees', 'courses', 'course-fee', 'program-and-fees', 'fee-structure', 'fees'],
+  'program-and-fees': ['program-and-fees', 'courses', 'course-fee', 'courses-fees', 'fee-structure', 'fees'],
+  'fee-structure': ['fee-structure', 'courses', 'course-fee', 'courses-fees', 'program-and-fees', 'fees'],
+  fees: ['fees', 'fee-structure', 'course-fee', 'courses', 'courses-fees', 'program-and-fees'],
+  admission: ['admission', 'admissions', 'admission-process', 'eligibility-criteria', 'eligibility', 'how-to-apply'],
+  admissions: ['admissions', 'admission', 'admission-process', 'eligibility-criteria', 'eligibility', 'how-to-apply'],
+  'admission-process': ['admission-process', 'admission', 'admissions', 'eligibility-criteria', 'eligibility', 'how-to-apply'],
+  'eligibility-criteria': ['eligibility-criteria', 'eligibility', 'admission', 'admissions', 'admission-process'],
+  eligibility: ['eligibility', 'eligibility-criteria', 'admission', 'admissions', 'admission-process'],
+  curriculum: ['curriculum', 'syllabus', 'curriculum-syllabus', 'course-syllabus'],
+  syllabus: ['syllabus', 'curriculum', 'curriculum-syllabus', 'course-syllabus'],
+  'curriculum-syllabus': ['curriculum-syllabus', 'curriculum', 'syllabus', 'course-syllabus'],
+  universities: ['universities', 'colleges'],
+  colleges: ['colleges', 'universities'],
+  placement: ['placement', 'placements', 'career-prospects', 'careers', 'job-opportunities'],
+  placements: ['placements', 'placement', 'career-prospects', 'careers', 'job-opportunities'],
+  'career-prospects': ['career-prospects', 'placement', 'placements', 'careers', 'job-opportunities'],
+  careers: ['careers', 'career-prospects', 'placement', 'placements', 'job-opportunities'],
+  faqs: ['faqs', 'faq', 'frequently-asked-questions'],
+  faq: ['faq', 'faqs', 'frequently-asked-questions'],
+  scholarship: ['scholarship', 'scholarships', 'financial-aid'],
+  scholarships: ['scholarships', 'scholarship', 'financial-aid'],
+};
+
+function expandSectionCandidates(sectionSlug: string): string[] {
+  const normalized = sectionSlug.trim().toLowerCase();
+  return SECTION_SLUG_ALIASES[normalized] ?? [sectionSlug];
 }
 
 /**
@@ -164,25 +215,37 @@ export async function getContentSection(
   ownerSlug: string,
   sectionSlug: string
 ): Promise<ContentSection | null> {
-  return cmsFirst<ContentSection>(
-    '/university-contents',
-    {
-      filters: {
-        [owner]: { slug: { $eqi: ownerSlug } },
-        $or: [
-          { secondary_slug: { $eqi: sectionSlug } },
-          { slug: { $eqi: sectionSlug } },
-        ],
-      },
-      populate: CONTENT_POPULATE,
-    },
-    {
-      tags: [
-        collectionTag('university-content'),
-        entryTag(owner, ownerSlug),
-      ],
-    }
+  const candidates = expandSectionCandidates(sectionSlug);
+
+  const cmsSection = await cmsFetchOptional(
+    () =>
+      cmsFirst<ContentSection>(
+        '/university-contents',
+        {
+          filters: {
+            [owner]: { slug: { $eqi: ownerSlug } },
+            $or: [
+              { secondary_slug: { $in: candidates } },
+              { slug: { $in: candidates } },
+            ],
+          },
+          populate: CONTENT_POPULATE,
+        },
+        {
+          tags: [
+            collectionTag('university-content'),
+            entryTag(owner, ownerSlug),
+          ],
+        }
+      ),
+    null
   );
+
+  if (cmsSection) return cmsSection;
+  if (owner === 'program') {
+    return getProgrammeAuthoredSection(ownerSlug, sectionSlug);
+  }
+  return null;
 }
 
 /** The first section of an entity — what the bare detail route shows (Prioritizes Overview). */
@@ -190,35 +253,41 @@ export async function getFirstContentSection(
   owner: Owner,
   ownerSlug: string
 ): Promise<ContentSection | null> {
-  // 1. Attempt to fetch Overview section first
-  const overview = await cmsFirst<ContentSection>(
-    '/university-contents',
-    {
-      filters: {
-        [owner]: { slug: { $eqi: ownerSlug } },
-        $or: [
-          { secondary_slug: { $in: ['overview', 'about'] } },
-          { slug: { $in: ['overview', 'about'] } },
-          { name: { $containsi: 'overview' } },
-        ],
+  const cmsSection = await cmsFetchOptional(async () => {
+    const overview = await cmsFirst<ContentSection>(
+      '/university-contents',
+      {
+        filters: {
+          [owner]: { slug: { $eqi: ownerSlug } },
+          $or: [
+            { secondary_slug: { $in: ['overview', 'about'] } },
+            { slug: { $in: ['overview', 'about'] } },
+            { name: { $containsi: 'overview' } },
+          ],
+        },
+        populate: CONTENT_POPULATE,
       },
-      populate: CONTENT_POPULATE,
-    },
-    { tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)] }
-  );
+      { tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)] }
+    );
 
-  if (overview) return overview;
+    if (overview) return overview;
 
-  // 2. Fallback to id:asc
-  return cmsFirst<ContentSection>(
-    '/university-contents',
-    {
-      filters: { [owner]: { slug: { $eqi: ownerSlug } } },
-      sort: 'id:asc',
-      populate: CONTENT_POPULATE,
-    },
-    { tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)] }
-  );
+    return cmsFirst<ContentSection>(
+      '/university-contents',
+      {
+        filters: { [owner]: { slug: { $eqi: ownerSlug } } },
+        sort: 'id:asc',
+        populate: CONTENT_POPULATE,
+      },
+      { tags: [collectionTag('university-content'), entryTag(owner, ownerSlug)] }
+    );
+  }, null);
+
+  if (cmsSection) return cmsSection;
+  if (owner === 'program') {
+    return getProgrammeAuthoredSection(ownerSlug, 'overview');
+  }
+  return null;
 }
 
 export function isRichText(block: DynamicZoneComponent): block is RichTextBlock {

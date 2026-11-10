@@ -40,7 +40,7 @@ export function UniversityTile({ university }: { university: University }) {
           <div className="flex flex-col items-end gap-1">
             <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] sm:text-2xs font-semibold text-emerald-700 ring-1 ring-emerald-200/60 ring-inset">
               <CheckCircle2 className="size-2.5 sm:size-3 text-emerald-600" />
-              <span>UGC-DEB</span>
+              <span>ICAR / SAU</span>
             </span>
 
             {ranking ? (

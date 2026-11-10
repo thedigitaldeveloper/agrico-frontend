@@ -10,7 +10,7 @@ import type { Seo } from '@/lib/cms/types';
  */
 
 const DEFAULT_DESCRIPTION =
-  'Compare universities, programs and entrance exams in India, and get guidance you can trust.';
+  'Compare ICAR-aligned agriculture degrees, State Agricultural Universities, private farm campuses, entrance exams and fees in India.';
 
 interface BuildMetadataInput {
   seo?: Seo | null;

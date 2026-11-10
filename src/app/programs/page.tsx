@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 
 import { OfferingCard } from '@/components/rs/offering-card';
 import { ActiveFilters } from '@/components/ui/active-filters';
@@ -21,6 +22,7 @@ import { cn } from '@/lib/cn';
 import { buildMetadata } from '@/lib/metadata';
 import { JsonLdGraph } from '@/lib/seo/json-ld';
 import { breadcrumbSchema } from '@/lib/seo/schemas';
+import { listProgrammeContent } from '@/lib/agrico/programme-content';
 
 const BASE = '/programs';
 
@@ -68,6 +70,17 @@ export default async function ProgramsPage({
   ]);
 
   const courseLabel = courses.find(term => term.slug === course)?.name ?? course;
+  const degreeGuides = listProgrammeContent().filter((guide) => {
+    if (level && !guide.level.toLowerCase().includes(level.toLowerCase())) return false;
+    if (!query) return true;
+    const q = query.toLowerCase();
+    return (
+      guide.name.toLowerCase().includes(q) ||
+      (guide.short_name ?? '').toLowerCase().includes(q) ||
+      (guide.discipline ?? '').toLowerCase().includes(q) ||
+      (guide.hero?.summary ?? '').toLowerCase().includes(q)
+    );
+  });
 
   // The taxonomy reads are optional, so a slug that resolves to nothing still
   // gets a readable chip: itself. Never an empty one.
@@ -242,6 +255,52 @@ export default async function ProgramsPage({
           )}
 
           <Pagination basePath={BASE} page={pagination.page} pageCount={pagination.pageCount} current={params} />
+
+          {degreeGuides.length > 0 && (
+            <section className="mt-10 border-t border-ink-200 pt-8" aria-labelledby="ag-degree-guides-heading">
+              <div className="mb-5">
+                <p className="text-2xs font-extrabold uppercase tracking-wider text-brand-800">
+                  ICAR-Aligned Curriculum &amp; Career Guides
+                </p>
+                <h2 id="ag-degree-guides-heading" className="font-display text-xl font-bold text-ink-900 mt-1">
+                  Explore {degreeGuides.length} Agriculture &amp; Allied Science Degree Guides
+                </h2>
+                <p className="text-xs text-ink-600 mt-1">
+                  Review semester-wise syllabus, eligibility criteria, entrance exams, fee ranges and career pathways.
+                </p>
+              </div>
+              <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+                {degreeGuides.map((guide) => (
+                  <Link
+                    key={guide.slug}
+                    href={`/${guide.slug}`}
+                    className="group flex flex-col justify-between rounded-2xl border border-ink-200 bg-white p-5 shadow-2xs transition-all hover:border-brand-400 hover:shadow-md"
+                  >
+                    <div>
+                      <div className="flex flex-wrap items-center gap-1.5 text-2xs font-bold">
+                        <span className="rounded-md bg-brand-50 px-2 py-0.5 text-brand-800 border border-brand-200/60">
+                          {guide.level}
+                        </span>
+                        <span className="rounded-md bg-ink-100 px-2 py-0.5 text-ink-700">
+                          {guide.duration}
+                        </span>
+                      </div>
+                      <h3 className="mt-3 font-display text-base font-bold text-ink-900 group-hover:text-brand-800 transition-colors">
+                        {guide.name}
+                      </h3>
+                      <p className="mt-1.5 text-xs text-ink-600 line-clamp-2">
+                        {guide.hero?.summary || guide.discipline}
+                      </p>
+                    </div>
+                    <div className="mt-4 pt-3 border-t border-ink-100 flex items-center justify-between text-xs font-semibold text-brand-800">
+                      <span>{guide.regulator || 'ICAR Aligned'}</span>
+                      <span className="group-hover:translate-x-0.5 transition-transform">View guide &rarr;</span>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
       </div>
     </div>

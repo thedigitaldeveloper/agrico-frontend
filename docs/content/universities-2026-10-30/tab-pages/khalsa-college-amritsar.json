@@ -741,8 +741,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "2026–27 officialtable lists Part-I₹1,20,210 in instalments₹62,375 and₹57,835; Part-II₹1,09,100; Part-III₹99,970; Part-IV₹93,100. These are year-specific published totals, not a single annual price applied across all four years. Read separately applicable hostel/mess/deposit rules.",
-              "Charge scope: Published B.Sc.(Hons.)AgriculturePart-I total academic fee; not the whole-degree or living-cost total."
+              "Charge scope: Published B.Sc.(Hons.)AgriculturePart-I total academic fee; not the whole-degree or living-cost total.",
+              "2026–27 officialtable lists Part-I₹1,20,210 in instalments₹62,375 and₹57,835; Part-II₹1,09,100; Part-III₹99,970; Part-IV₹93,100. These are year-specific published totals, not a single annual price applied across all four years. Read separately applicable hostel/mess/deposit rules."
             ],
             "source_ids": [
               "s5"
@@ -4257,9 +4257,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Khalsa College, Amritsar. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GADVASU notified fourth B.V.Sc. & A.H. counselling on 30 October 2026 alongside Punjab admission updates",
+            "path": "/news/gadvasu-fourth-bvsc-counselling-and-punjab-agriculture-notices-october-2026",
+            "description": "Review the 30 October 2026 GADVASU fourth B.V.Sc. & A.H. counselling notice and how Punjab veterinary and agriculture applicants verify admission rounds.",
+            "kind": "News"
+          },
+          {
+            "title": "How ICAR’s List II and List III accreditation registers define valid degree scope for 2026 applicants",
+            "path": "/news/icar-naeab-list-ii-and-list-iii-accreditation-register-verification-2026",
+            "description": "Understand the official ICAR NAEAB List II and List III accreditation workbooks and why unit-level validity dates matter for postgraduate and career eligibility.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

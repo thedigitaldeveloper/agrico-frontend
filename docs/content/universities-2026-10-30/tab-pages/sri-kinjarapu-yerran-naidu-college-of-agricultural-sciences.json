@@ -720,8 +720,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Official 2026–27 ANGRAU prospectus page 7. Management-quota maximum is up to ₹257,400 per year. Convenor fee excludes hostel, transport and mess charges.",
-              "Charge scope: Total annual academic fee for convenor-quota admission at SKYCAS, Etcherla."
+              "Charge scope: Total annual academic fee for convenor-quota admission at SKYCAS, Etcherla.",
+              "Official 2026–27 ANGRAU prospectus page 7. Management-quota maximum is up to ₹257,400 per year. Convenor fee excludes hostel, transport and mess charges."
             ],
             "source_ids": [
               "s3",
@@ -4001,9 +4001,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for Sri Kinjarapu Yerran Naidu College of Agricultural Sciences. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "ANGRAU scheduled AP EAPCET manual and spot counselling rounds for November 2026",
+            "path": "/news/angrau-ap-eapcet-manual-spot-counselling-november-2026",
+            "description": "Read the sourced ANGRAU November 2026 manual and spot counselling schedule for affiliated Andhra Pradesh agriculture colleges.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

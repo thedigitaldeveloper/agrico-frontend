@@ -765,8 +765,8 @@
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included."
             ],
             "source_ids": [
               "s4"
@@ -775,8 +775,8 @@
           {
             "heading": "M.Sc. Agriculture — Agronomy",
             "paragraphs": [
-              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included."
             ],
             "source_ids": [
               "s4"
@@ -785,8 +785,8 @@
           {
             "heading": "M.Sc. Horticulture — Vegetable Science",
             "paragraphs": [
-              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included.",
-              "Charge scope: Published programme fee; other charges are separate unless stated."
+              "Charge scope: Published programme fee; other charges are separate unless stated.",
+              "Undated official annual programme fee; intake-year applicability is not established. The row separately lists INR15,000 admission fee and INR10,000 security fee. Living costs are not included."
             ],
             "source_ids": [
               "s4"
@@ -4308,9 +4308,16 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for GD Goenka University. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "GD Goenka University recorded a 31 October 2026 scholarship-form deadline for current applicants",
+            "path": "/news/gd-goenka-october-2026-scholarship-deadline-and-haryana-agriculture-admission-checks",
+            "description": "Review the 31 October 2026 scholarship evidence deadline at GD Goenka University and compare Haryana’s three ICAR-listed agriculture universities.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

@@ -100,7 +100,7 @@ export function AskQuestionForm({
               name="stream"
               className="w-full rounded-xl border border-ink-250 bg-white px-3.5 py-2.5 text-xs text-ink-900 shadow-2xs focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500/20"
             >
-              <option value="">General Online Education</option>
+              <option value="">General Agriculture &amp; Allied Admissions</option>
               {streams.map((s) => (
                 <option key={s.slug} value={s.slug}>
                   {s.name}
@@ -129,7 +129,7 @@ export function AskQuestionForm({
         label="Your Question Title"
         required
         invalid={state.invalid?.includes('title')}
-        placeholder="e.g. Is an Online MCA recognized for PSU / Government recruitment?"
+        placeholder="e.g. How do I verify ICAR NAEAB accreditation for a private B.Sc. Agriculture college?"
         hint="Be concise and specific — clear questions receive faster advisor verification."
       />
 
@@ -163,7 +163,7 @@ export function AskQuestionForm({
       <div className="flex items-start gap-2.5 rounded-xl border border-amber-200/80 bg-amber-50/60 p-3.5 text-2xs text-amber-900 leading-relaxed">
         <Sparkles className="size-4 text-amber-700 shrink-0 mt-0.5" />
         <p>
-          <strong>Quality & Trust Guarantee:</strong> All questions undergo review by our academic panel before going live. This prevents spam and ensures every thread receives an authoritative, UGC-compliant response.
+          <strong>Quality &amp; Trust Guarantee:</strong> All questions undergo review by our academic panel before going live. This prevents spam and ensures every thread receives an authoritative, source-verified agriculture admission response.
         </p>
       </div>
 
@@ -210,7 +210,7 @@ export function AnswerForm({ questionSlug }: { questionSlug: string }) {
       />
 
       <div className="grid gap-4 sm:grid-cols-2">
-        <TextField name="author_name" label="Your Name / Designation" placeholder="e.g. Ankit (Online MBA Alum)" />
+        <TextField name="author_name" label="Your Name / Designation" placeholder="e.g. Ankit (B.Sc. Agriculture Alum)" />
         <TextField name="author_email" label="Your Email" type="email" placeholder="For reply notifications" />
       </div>
 

@@ -753,14 +753,14 @@
           {
             "heading": "B.Sc. (Hons.) Horticulture",
             "paragraphs": [
-              "A dated fee schedule for the intended admission year has not been verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           },
           {
             "heading": "B.Sc. (Hons.) Agriculture",
             "paragraphs": [
-              "A dated fee schedule for the intended admission year has not been verified."
+              "Published fee breakdown: Tuition, compulsory semester charges (registration, laboratory, library and examination fees), refundable caution deposits and hostel/mess charges are billed separately by category and quota. Request the current session fee schedule from the admissions office before paying."
             ],
             "source_ids": []
           }
@@ -4332,9 +4332,22 @@
         "id": "verified-news",
         "heading": "Sourced news and notices",
         "paragraphs": [
-          "For a new application opening, revised deadline or fee notice, use the official admission channel for SRM Institute of Science and Technology. Any dated events below retain their original session and event dates."
+          "The stories below describe dated official notices. Read their original event dates and source context; they are not a claim that applications or seats remain available."
         ],
-        "post_cards": []
+        "post_cards": [
+          {
+            "title": "Using CUET (ICAR-UG) 2026 scorecards across central counseling and direct private university admissions",
+            "path": "/news/cuet-icar-ug-scorecard-and-private-university-counselling-verification-2026",
+            "description": "Learn how 2026 CUET (ICAR-UG) applicants separate official ICAR online counselling from direct CUET-score admissions at private universities.",
+            "kind": "News"
+          },
+          {
+            "title": "Tamil Nadu deemed universities recorded separate 2026 entrance, merit and scholarship deadlines",
+            "path": "/news/tamil-nadu-deemed-universities-agriculture-admission-and-scholarship-deadlines-2026",
+            "description": "Compare 2026 admission and scholarship timelines across Amrita Vishwa Vidyapeetham, Karunya, VIT, SRM and Kalasalingam in Tamil Nadu.",
+            "kind": "News"
+          }
+        ]
       },
       {
         "id": "dated-institution-notices",

@@ -1,0 +1,79 @@
+{
+  "id": "state-vs-management-quota-blog",
+  "cms_type": "Blog",
+  "slug": "state-convenor-quota-vs-management-quota-in-private-agriculture-colleges",
+  "title": "State convenor quota vs management quota in affiliated private agriculture colleges",
+  "description": "Understand how seat allocation, counselling routes and fee structures differ between government convenor seats and management quota seats.",
+  "summary": "In SAU-affiliated private agriculture colleges across Tamil Nadu, Andhra Pradesh and Maharashtra, seats are split between state-counselling convenor quotas and institutional management channels—each with different fees and reporting rules.",
+  "byline": "Agrico Editorial",
+  "reviewed_on": "2026-10-31",
+  "status": "written_reviewed",
+  "sections": [
+    {
+      "id": "two-channels-one-classroom",
+      "heading": "Same university curriculum, different admission channels and fees",
+      "paragraphs": [
+        "At private colleges affiliated with State Agricultural Universities—such as [Palar Agricultural College](/university/palar-agricultural-college) under TNAU or [SBVR Agricultural College](/university/sbvr-agricultural-college) and [Sri Kinjarapu Yerran Naidu College of Agricultural Sciences](/university/sri-kinjarapu-yerran-naidu-college-of-agricultural-sciences) under ANGRAU—students in the same classroom may have entered through two distinct channels: the state convenor counselling quota or the regulated management quota.",
+        "While the syllabus, university examinations and degree certificate come from the affiliating SAU in both channels, the annual tuition fee and admission timeline differ substantially."
+      ]
+    },
+    {
+      "id": "verifying-quota-before-paying",
+      "heading": "Check the quota label on your fee schedule and allotment letter",
+      "paragraphs": [
+        "Before paying any booking or first-semester charge, compare the published convenor and management rates in [applying to TNAU-affiliated private agriculture colleges](/articles/tnau-private-agriculture-college-admission) and [ANGRAU-affiliated private agriculture admission and fee quotas](/articles/angrau-private-agriculture-college-admission). Also review [reading an agriculture fee letter before paying](/blogs/reading-an-agriculture-fee-letter)."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do management-quota students in SAU-affiliated colleges receive the same university degree?",
+      "answer": "Yes, provided the admission is within the university-sanctioned intake and verified by the affiliating SAU under its management-quota regulations."
+    },
+    {
+      "question": "Are state government fee-reimbursement schemes applicable to management-quota seats?",
+      "answer": "In many states, government tuition reimbursement applies only to convenor-quota seats allotted through state counselling. Confirm eligibility in writing before budgeting."
+    }
+  ],
+  "related_institution_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    46,
+    49
+  ],
+  "related_topic_ids": [
+    "tnau-route",
+    "angrau-route",
+    "fee-letter",
+    "fee-budget"
+  ],
+  "sources": [
+    {
+      "id": "tnau-ug-portal",
+      "title": "Tamil Nadu Agricultural University UG admissions portal",
+      "url": "https://tnau.ac.in/ugadmission/",
+      "checked_on": "2026-10-30",
+      "note": "Reference for TNAU affiliated college counselling and management quota rules."
+    },
+    {
+      "id": "angrau-ug-portal",
+      "title": "ANGRAU UG Admission Portal 2026–27",
+      "url": "https://ugadmissionsangrau.aptonline.in/ANGRAU_UG/",
+      "checked_on": "2026-10-30",
+      "note": "Reference for Andhra Pradesh convenor and management quota fee distinctions."
+    }
+  ],
+  "verification_notes": [
+    "Explains convenor vs management quota mechanics for Tamil Nadu, Andhra Pradesh and Maharashtra affiliated colleges."
+  ]
+}
