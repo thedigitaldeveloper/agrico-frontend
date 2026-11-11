@@ -1,0 +1,40 @@
+.sm-admission-card{min-width:0;overflow:hidden;border:1px solid #c9d9ce;border-radius:12px;background:#fff;color:#183a31;box-shadow:0 8px 22px rgba(18,55,44,.07);font-family:var(--font-dm-sans),var(--font-sans),sans-serif}
+.rs-ud-admissions>.sm-admission-card{padding:0;border:1px solid #c9d9ce;border-radius:12px;box-shadow:0 8px 22px rgba(18,55,44,.07)}
+.sm-admission-header{position:relative;isolation:isolate;overflow:hidden;padding:12px 15px 11px;background:linear-gradient(125deg,#124b3b,#0d382b);color:#fff}
+.sm-admission-header:after{position:absolute;z-index:-1;content:'';width:120px;height:120px;right:-68px;top:-62px;border:1px solid #ffffff26;border-radius:50%;box-shadow:0 0 0 18px #ffffff09,0 0 0 36px #ffffff05;pointer-events:none}
+.sm-admission-eyebrow{display:flex;align-items:center;gap:7px;font-size:10px;font-weight:600;letter-spacing:.11em;text-transform:uppercase;color:#dce9bb}
+.sm-admission-eyebrow>span{display:grid;place-items:center;width:24px;height:24px;border:1px solid #ffffff35;border-radius:6px;background:#ffffff0d;color:#dce9bb}
+.sm-admission-eyebrow>span svg{width:14px;height:14px}
+.sm-admission-card .sm-admission-header h2{font:700 clamp(17.5px,1.5vw,20px)/1.18 var(--font-dm-sans),sans-serif;letter-spacing:-.02em;color:#fff;margin:5px 0 3px}
+.sm-admission-header>p{max-width:310px;color:#dbe9e1;font-size:12px;line-height:1.45;margin:0}
+.sm-admission-body{padding:11px 15px 12px}
+.sm-admission-university{display:flex;align-items:flex-start;gap:8px;margin-bottom:9px;padding-bottom:8px;border-bottom:1px solid #e2ece5}
+.sm-admission-university>svg{flex-shrink:0;width:16px;height:16px;color:#124b3b;margin-top:2px}
+.sm-admission-university p{margin:0;min-width:0;line-height:1.35}
+.sm-admission-university span{display:block;font-size:10.5px;font-weight:500;color:#5c7065;margin-bottom:1px}
+.sm-admission-university strong{display:block;font-size:12.5px;line-height:1.38;font-weight:600;color:#183a31}
+.sm-admission-fee-chip{display:flex;align-items:center;gap:8px;margin-bottom:9px;padding:7px 10px;border-radius:8px;background:#f1f7ed;border:1px solid #cfe0d1}
+.sm-admission-fee-chip>svg{flex-shrink:0;width:16px;height:16px;color:#124b3b}
+.sm-admission-fee-chip>div{min-width:0;line-height:1.25}
+.sm-admission-fee-chip span{display:block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:#4f685a;margin-bottom:1px}
+.sm-admission-fee-chip strong{display:block;font-size:14.5px;font-weight:700;color:#124b3b}
+.sm-admission-field{margin-bottom:9px}.sm-admission-field>label{display:block;font-size:12px;font-weight:600;color:#183a31;margin-bottom:4px}.sm-admission-field>div{position:relative}
+.sm-admission-card .sm-admission-field select{appearance:none;display:block;width:100%;min-height:36px;padding:6px 32px 6px 10px;border:1px solid #8ea899;border-radius:6px;background:#fff;color:#183a31;font:400 13px/1.4 var(--font-dm-sans),sans-serif;cursor:pointer}
+.sm-admission-field>div>svg{position:absolute;right:10px;top:10px;width:15px;height:15px;pointer-events:none;color:#5c7065}
+.sm-admission-card .sm-admission-primary{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:38px;border:1px solid #124b3b;border-radius:6px;background:#124b3b;color:#fff;padding:7px 12px;font-size:13.5px;font-weight:600;line-height:1.35;cursor:pointer;box-shadow:0 2px 6px rgba(18,75,59,.15)}
+.sm-admission-primary>svg{flex-shrink:0;width:16px;height:16px}.sm-admission-card .sm-admission-primary:hover{background:#0d382b}
+.sm-admission-support{display:grid;gap:6px;margin-top:9px}.sm-admission-support>span{font-size:11px;color:#5c7065;margin-bottom:0}
+.sm-admission-card .sm-admission-contact{display:flex;align-items:center;gap:8px;width:100%;min-height:36px;border:1px solid #cfe0d4;border-radius:6px;background:#fff;color:#183a31;padding:5px 10px;text-align:left;text-decoration:none;font-size:12.5px;font-weight:500;line-height:1.35;cursor:pointer}
+.sm-admission-contact>span:nth-child(2){flex:1;min-width:0}.sm-admission-contact>svg{flex-shrink:0;width:15px;height:15px;color:#4f685a}.sm-admission-contact-icon{display:grid;place-items:center;width:25px;height:25px;flex-shrink:0;border-radius:6px;background:#eaf3ec;color:#124b3b}.sm-admission-contact-icon svg{width:14px;height:14px}.sm-admission-card .sm-admission-contact:hover{border-color:#7ca890;background:#f6faf7;color:#124b3b}
+.sm-admission-resources{display:flex;align-items:center;flex-wrap:wrap;gap:2px 12px;margin-top:8px;padding-top:6px;border-top:1px solid #e2ece5}.sm-admission-resources a{display:inline-flex;align-items:center;gap:5px;min-height:30px;color:#124b3b;font-size:12px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.sm-admission-eligibility{margin-top:6px;border-top:1px solid #e2ece5;padding-top:4px}.sm-admission-eligibility summary{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:32px;font-size:12.5px;font-weight:500;cursor:pointer;list-style:none}.sm-admission-eligibility summary::-webkit-details-marker{display:none}.sm-admission-eligibility ul{margin:5px 0 2px;padding-left:16px;font-size:12px;line-height:1.5;color:#4d5d58}.sm-admission-eligibility li+li{margin-top:4px}
+.sm-admission-card :is(button,a,select,summary):focus-visible{outline:2px solid #124b3b;outline-offset:3px}
+.rs-ud-sidebar-stack{display:grid;gap:10px}
+.rs-pd-inline-callback{border:1px solid #c9d9ce;border-radius:10px;background:#fff;box-shadow:0 4px 14px -4px rgba(18,55,44,.08);overflow:hidden}
+.rs-pd-inline-callback summary{display:flex;align-items:center;justify-content:space-between;padding:9px 13px;font-size:12px;font-weight:600;color:#183a31;cursor:pointer;list-style:none;background:#f1f7ed}
+.rs-pd-inline-callback summary::-webkit-details-marker{display:none}
+.rs-pd-inline-callback summary::after{content:'+';font-size:16px;font-weight:700;color:#124b3b}
+.rs-pd-inline-callback[open] summary::after{content:'−'}
+.rs-pd-inline-callback-body{padding:12px 13px;border-top:1px solid #d8e6dc}
+@media(max-width:1023px){.sm-admission-card{max-width:560px;margin-inline:auto}.sm-admission-header{padding:15px 18px}.sm-admission-body{padding:14px 18px}}
+@media(max-width:400px){.sm-admission-header{padding:14px 15px}.sm-admission-body{padding:13px 15px}.sm-admission-card .sm-admission-header h2{font-size:20px}}

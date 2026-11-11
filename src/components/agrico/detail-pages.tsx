@@ -7,6 +7,8 @@ import { mediaUrl } from '@/lib/cms/media';
 import { toCleanSectionSuffix } from '@/lib/cms/paths';
 import { AcademicArt } from './academic-art';
 import { GuideArt } from './guide-art';
+import { AdmissionPanel } from '@/components/university/admission-panel';
+import { WHATSAPP_NUMBER } from '@/lib/env';
 import { DetailAskButton, DetailExplorer, DetailLeadForm, DetailNavigation, DetailProvider } from './detail-client';
 import { feeText, type ProgrammeModel, type UniversityModel } from './detail-models';
 import { PROGRAMME_CONTENT_LINKS, ProgrammeContentSections } from './programme-content-sections';
@@ -57,13 +59,72 @@ function Faqs({ university = false }: { university?: boolean }) {
   ];
   return <div className="ag-detail-faqs">{items.map(([question, answer], index) => <details key={question} open={index === 0}><summary><span>{question}</span><ChevronDown size={17} /></summary><p>{answer}</p></details>)}</div>;
 }
-function LeadSidebar({ name, fee, feeNote, feeLabel, resources }: { name: string; fee?: number | null; feeNote?: string | null; feeLabel?: string; resources: { name: string; href: string }[] }) {
-  return <aside className="ag-detail-sidebar" aria-label="Admission guidance">
-    {fee !== undefined && <div className="ag-detail-fee-card"><p className="ag-eyebrow ag-eyebrow--light">Fees &amp; admission</p><small>Programme fee</small><strong>{feeLabel || feeText(fee)}</strong><p>{feeNote || (fee == null ? 'Discuss university-specific fees, eligibility and application steps.' : 'Check the fee period and included charges with the university before applying.')}</p><DetailAskButton variant="ag-button--lime">Discuss your options</DetailAskButton></div>}
-    <div id="detail-enquiry" className="ag-detail-enquiry-card"><p className="ag-eyebrow">Personal guidance</p><h2>Let’s find your next step.</h2><p className="ag-detail-enquiry-context">{name}</p><DetailLeadForm /></div>
-    {resources.length > 0 && <div className="ag-detail-resource-card"><h3>Useful resources</h3>{resources.map(resource => <a key={resource.href + resource.name} href={resource.href} target="_blank" rel="noopener noreferrer"><FileText size={18} /><span>{resource.name}</span><ExternalLink size={15} /></a>)}</div>}
-    <div className="ag-detail-shortlist-tip"><GuideArt variant="degree-choice" /><h3>Choose with a clearer picture.</h3><p>Look at what you’ll study, how you’ll learn and where you want to go.</p><Link href="/#compare">Compare study pathways<ArrowRight size={15} /></Link></div>
-  </aside>;
+function LeadSidebar({
+  name,
+  programSlug,
+  universitySlug,
+  universityName,
+  fee,
+  feeNote,
+  feeLabel,
+  eligibility = [],
+  resources,
+}: {
+  name: string;
+  programSlug?: string;
+  universitySlug?: string;
+  universityName?: string;
+  fee?: number | null;
+  feeNote?: string | null;
+  feeLabel?: string;
+  eligibility?: string[];
+  resources: { name: string; href: string }[];
+}) {
+  const computedFee = feeLabel || (fee !== undefined ? feeText(fee) : 'Request current fees');
+  return (
+    <aside className="ag-detail-sidebar" aria-label="Admission guidance">
+      <AdmissionPanel
+        name={name}
+        universitySlug={universitySlug || ''}
+        universityName={universityName || 'ICAR & Partner Universities'}
+        programSlug={programSlug}
+        programTitle={name}
+        feeLabel={computedFee}
+        feeSubtext={feeNote || 'Verified tuition fee'}
+        showApply
+        applyLabel={`Apply for ${name}`}
+        eligibility={eligibility}
+        whatsapp={WHATSAPP_NUMBER}
+      />
+      <details id="detail-enquiry" className="rs-pd-inline-callback" open>
+        <summary>Request a quick callback instead</summary>
+        <div className="rs-pd-inline-callback-body">
+          <DetailLeadForm compact />
+        </div>
+      </details>
+      {resources.length > 0 && (
+        <div className="ag-detail-resource-card">
+          <h3>Useful resources</h3>
+          {resources.map(resource => (
+            <a key={resource.href + resource.name} href={resource.href} target="_blank" rel="noopener noreferrer">
+              <FileText size={18} />
+              <span>{resource.name}</span>
+              <ExternalLink size={15} />
+            </a>
+          ))}
+        </div>
+      )}
+      <div className="ag-detail-shortlist-tip">
+        <GuideArt variant="degree-choice" />
+        <h3>Choose with a clearer picture.</h3>
+        <p>Look at what you’ll study, how you’ll learn and where you want to go.</p>
+        <Link href="/#compare">
+          Compare study pathways
+          <ArrowRight size={15} />
+        </Link>
+      </div>
+    </aside>
+  );
 }
 function Closing() {
   return <section className="ag-detail-closing"><div className="ag-container"><div><p className="ag-eyebrow ag-eyebrow--light">Your next step</p><h2>A clearer choice starts<br />with a conversation.</h2><p>Talk through your interests, university options and admission questions.</p></div><DetailAskButton variant="ag-button--lime">Talk to a counsellor</DetailAskButton></div></section>;
@@ -118,7 +179,7 @@ export function AgricoProgrammeDetail({ model }: { model: ProgrammeModel }) {
       <section id="careers" className="ag-detail-section ag-detail-careers">{heading('From degree to next step', 'Connect your studies with your ambitions.')}<div><AcademicArt cell={8} /><div><h3>{model.careers}</h3>{model.averagePackage && <p className="ag-detail-published-package"><strong>Published average package: {model.averagePackage}</strong></p>}<p>Explore roles that match your subjects and practical skills. Career requirements and further study options depend on the role, qualification and institution.</p><DetailAskButton variant="ag-button--outline">Discuss your study pathway</DetailAskButton></div></div></section>
       <section id="faqs" className="ag-detail-section">{heading('Common questions', 'A few things you might be wondering.')}<Faqs /></section>
       </>}
-    </article><LeadSidebar name={model.name} fee={model.fee} feeNote={model.feeNote} feeLabel={model.feeLabel} resources={model.resources} /></div>
+    </article><LeadSidebar name={model.name} programSlug={model.context.programSlug} universitySlug={model.context.universitySlug} universityName={model.offeredAt || model.context.universityName} fee={model.fee} feeNote={model.feeNote} feeLabel={model.feeLabel} eligibility={model.eligibility} resources={model.resources} /></div>
     {model.related.length > 0 && <section className="ag-detail-related"><div className="ag-container">{heading('Keep exploring', 'More ways to study agriculture.')}<div>{model.related.map(item => <Link key={item.href} href={item.href}><span><GraduationCap size={25} /></span><h3>{item.name}</h3><p>{[item.level, item.duration].filter(Boolean).join(' · ')}</p><strong>Explore programme<ArrowRight size={16} /></strong></Link>)}</div></div></section>}
     <Closing /><div className="ag-detail-mobile-bar"><span>{model.name}</span><DetailAskButton>Get guidance</DetailAskButton></div>
   </DetailProvider>;
@@ -134,7 +195,24 @@ export function AgricoUniversityDetail({ model }: { model: UniversityModel }) {
     <DetailNavigation links={links} current={model.activeSlug} label="University sections" />
     <div className="ag-container ag-detail-university-main">
       <section id="overview" className="ag-detail-section ag-detail-university-intro"><div>{heading('Look beyond the name', 'Get to know your university.')}{model.section?.content?.length ? <div className="ag-detail-authored"><SectionBody section={model.section} heading={model.section.heading || model.section.display_name || model.section.name} /></div> : <><p className="ag-detail-lead">{model.description}</p><div className="ag-detail-overview-grid"><div><BookOpen size={24} /><h3>Academic pathways</h3><p>Explore subjects, degrees and specialisations that match your interests.</p></div><div><FlaskConical size={24} /><h3>Learning experience</h3><p>Look at practical study, projects and the facilities used in your programme.</p></div><div><UsersRound size={24} /><h3>Your university fit</h3><p>Consider location, campus life and the support you need while studying.</p></div></div></>}{model.highlights.length > 0 && <dl className="ag-detail-university-facts">{model.highlights.map(f => <div key={f.key}><dt>{f.key}</dt><dd>{f.value}</dd></div>)}</dl>}</div>
-        <aside className="ag-detail-university-summary"><h3>University at a glance</h3><dl>{[{ key: 'Location', value: [model.city, model.state].filter(Boolean).join(', ') }, { key: 'Institution', value: model.ownership }, { key: 'Established', value: model.established }, { key: model.editorial ? 'Explore study areas' : 'Published programmes', value: String(model.programmes.length) }, { key: 'Address', value: model.address }].filter(item => item.value).map(item => <div key={item.key}><dt>{item.key}</dt><dd>{item.value}</dd></div>)}</dl>{model.resources.map(resource => <a href={resource.href} target="_blank" rel="noopener noreferrer" key={resource.name}><FileText size={17} />{resource.name}<ExternalLink size={14} /></a>)}</aside>
+        <div className="rs-ud-sidebar-stack">
+          <AdmissionPanel
+            name={model.name}
+            universitySlug={model.slug}
+            universityName={model.name}
+            courses={model.programmes.map(p => p.name)}
+            showApply
+            applyLabel={`Apply to ${model.name}`}
+            whatsapp={WHATSAPP_NUMBER}
+          />
+          <details className="rs-pd-inline-callback">
+            <summary>Request a quick callback instead</summary>
+            <div className="rs-pd-inline-callback-body">
+              <DetailLeadForm compact />
+            </div>
+          </details>
+          <aside className="ag-detail-university-summary"><h3>University at a glance</h3><dl>{[{ key: 'Location', value: [model.city, model.state].filter(Boolean).join(', ') }, { key: 'Institution', value: model.ownership }, { key: 'Established', value: model.established }, { key: model.editorial ? 'Explore study areas' : 'Published programmes', value: String(model.programmes.length) }, { key: 'Address', value: model.address }].filter(item => item.value).map(item => <div key={item.key}><dt>{item.key}</dt><dd>{item.value}</dd></div>)}</dl>{model.resources.map(resource => <a href={resource.href} target="_blank" rel="noopener noreferrer" key={resource.name}><FileText size={17} />{resource.name}<ExternalLink size={14} /></a>)}</aside>
+        </div>
       </section>
       <section id="programmes" className="ag-detail-section">{heading('Find your academic pathway', model.editorial ? 'Explore the programme areas.' : 'Programmes & fees, in one place.')}<p>{model.editorial ? 'Explore these degree guides, then confirm the exact programme and current requirements on the university’s official website.' : 'Explore the university’s published programmes and programme-specific fees.'}</p>{model.programmes.length ? <DetailExplorer items={model.programmes} kind="programmes" /> : <div className="ag-detail-question-box"><BookOpen size={28} /><div><h3>Find your programme options.</h3><p>Ask about the current courses, curriculum and entry requirements.</p></div><DetailAskButton>Get programme guidance</DetailAskButton></div>}</section>
       <section id="admissions" className="ag-detail-section ag-detail-university-admissions"><div>{heading('Your admission journey', 'Plan your application, step by step.')}<Journey /><div className="ag-detail-admission-note"><ShieldCheck size={23} /><p>Confirm the current requirements and dates for your chosen programme and campus.</p></div></div><aside><h3>Prepare your questions.</h3><p>A few useful things to ask before making your choice.</p><ul>{[['Curriculum', 'What subjects are covered? How much practical learning is included?'], ['Eligibility & fees', 'What are the academic requirements, admission route and total charges?'], ['Campus experience', 'What learning facilities, accommodation and student support are available?']].map(([title, text]) => <li key={title}><strong>{title}</strong><p>{text}</p></li>)}</ul>{model.admissions ? <a className="ag-button" href={model.admissions} target="_blank" rel="noopener noreferrer">Official admission information<ExternalLink size={15} /></a> : <DetailAskButton>Discuss your questions</DetailAskButton>}</aside></section>

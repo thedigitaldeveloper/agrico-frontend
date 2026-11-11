@@ -1697,3 +1697,6 @@
 @media (prefers-reduced-motion: reduce) {
   .ag-home *, .ag-header *, .ag-footer * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }
 }
+
+.ag-uni-wa-btn{display:inline-grid;place-items:center;width:32px;height:32px;border-radius:6px;border:1px solid #b7e4c7;background:#edfaf2;color:#15803d;text-decoration:none;transition:background .15s,border-color .15s,color .15s;flex-shrink:0}
+.ag-uni-wa-btn:hover{background:#16a34a;border-color:#16a34a;color:#fff}

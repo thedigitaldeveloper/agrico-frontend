@@ -4,6 +4,7 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ArrowRight, ChevronDown, Globe, Menu, Search, X } from 'lucide-react';
+import { useOptionalEnquiryModal } from '@/components/university/university-enquiry-modal';
 import './agrico.css';
 
 export function AgricoBrand({ inverse = false }: { inverse?: boolean }) {
@@ -23,6 +24,7 @@ const navigation = [
 
 function AgricoHeader() {
   const pathname = usePathname();
+  const enquiryModal = useOptionalEnquiryModal();
   const [menuOpen, setMenuOpen] = useState(false);
   const [openNav, setOpenNav] = useState<string | null>(null);
   const menuRef = useRef<HTMLDialogElement>(null);
@@ -53,7 +55,16 @@ function AgricoHeader() {
         type="button"
         className="ag-button ag-header-cta"
         onClick={() => {
-          if (pathname === '/') {
+          if (enquiryModal) {
+            enquiryModal.openModal({
+              universitySlug: '',
+              universityName: 'Agrico Admission Desk',
+              programName: 'Agriculture & AgriTech Degree Guidance',
+              source: 'counselling',
+              title: 'Talk to an Agriculture Counsellor',
+              subtitle: 'Compare ICAR-aligned universities, fee structures, scholarships and eligibility with a personal counsellor.',
+            });
+          } else if (pathname === '/') {
             window.dispatchEvent(new CustomEvent('agrico:open-enquiry', { detail: { sourceTitle: 'Header Counselling' } }));
           } else {
             window.location.href = '/#guidance';
@@ -74,7 +85,16 @@ function AgricoHeader() {
           className="ag-button"
           onClick={() => {
             closeMenu();
-            if (pathname === '/') {
+            if (enquiryModal) {
+              enquiryModal.openModal({
+                universitySlug: '',
+                universityName: 'Agrico Admission Desk',
+                programName: 'Agriculture & AgriTech Degree Guidance',
+                source: 'counselling',
+                title: 'Talk to an Agriculture Counsellor',
+                subtitle: 'Compare ICAR-aligned universities, fee structures, scholarships and eligibility with a personal counsellor.',
+              });
+            } else if (pathname === '/') {
               window.dispatchEvent(new CustomEvent('agrico:open-enquiry', { detail: { sourceTitle: 'Mobile Nav Counselling' } }));
             } else {
               window.location.href = '/#guidance';

@@ -4,6 +4,8 @@ import { createContext, useActionState, useContext, useEffect, useId, useRef, us
 import Link from 'next/link';
 import { ArrowRight, CheckCircle2, ChevronRight, LoaderCircle, Search, Sprout, X } from 'lucide-react';
 import { submitEnquiry } from '@/lib/actions';
+import { EnquiryForm } from '@/components/forms/enquiry-form';
+import { useOptionalEnquiryModal } from '@/components/university/university-enquiry-modal';
 import { IDLE, type FormState } from '@/lib/form-state';
 import type { DetailContext, DetailListing } from './detail-models';
 
@@ -16,8 +18,24 @@ function feeText(value?: number | null) {
 const EnquiryContext = createContext<{ open: () => void; context: DetailContext } | null>(null);
 
 export function DetailProvider({ children, context, kind }: { children: ReactNode; context: DetailContext; kind: string }) {
+  const globalModal = useOptionalEnquiryModal();
   const [open, setOpen] = useState(false);
   const dialogRef = useRef<HTMLDialogElement>(null);
+  const triggerOpen = () => {
+    if (globalModal) {
+      globalModal.openModal({
+        universitySlug: context.universitySlug || '',
+        universityName: context.universityName || 'Agrico Partner Universities',
+        programSlug: context.programSlug,
+        programName: context.programName,
+        source: 'counselling',
+        title: context.programName ? `Apply / Enquire for ${context.programName}` : `Admission Guidance — ${context.universityName || 'Agrico'}`,
+        subtitle: [context.programName, context.universityName].filter(Boolean).join(' at ') || 'Discuss course options, fees, eligibility and admission steps.',
+      });
+      return;
+    }
+    setOpen(true);
+  };
   useEffect(() => {
     const dialog = dialogRef.current;
     if (open && dialog && !dialog.open) dialog.showModal();
@@ -27,7 +45,7 @@ export function DetailProvider({ children, context, kind }: { children: ReactNod
     document.body.style.overflow = 'hidden';
     return () => { document.body.style.overflow = previous; };
   }, [open]);
-  return <div className="ag-detail" data-detail-kind={kind}><EnquiryContext.Provider value={{ open: () => setOpen(true), context }}>
+  return <div className="ag-detail" data-detail-kind={kind}><EnquiryContext.Provider value={{ open: triggerOpen, context }}>
     {children}
     <dialog className="ag-detail-dialog" ref={dialogRef} aria-labelledby="ag-detail-dialog-title" onCancel={() => setOpen(false)} onClose={() => setOpen(false)} onClick={event => { if (event.target === event.currentTarget) setOpen(false); }}>
       <div className="ag-detail-dialog__intro"><span className="ag-eyebrow">Admission guidance</span><button className="ag-icon-button" type="button" aria-label="Close enquiry" onClick={() => setOpen(false)}><X size={22} /></button><h2 id="ag-detail-dialog-title">Let’s plan your next step.</h2><p>{[context.programName, context.universityName].filter(Boolean).join(' · ')}</p></div>
@@ -41,20 +59,19 @@ export function DetailAskButton({ children = 'Talk to a counsellor', variant = '
   return <button type="button" className={'ag-button ' + variant + ' ' + className} onClick={() => enquiry?.open()}>{children}<ArrowRight size={16} /></button>;
 }
 
-export function DetailLeadForm() {
+export function DetailLeadForm({ compact = true }: { compact?: boolean }) {
   const enquiry = useContext(EnquiryContext);
-  const id = useId();
-  const [state, action, pending] = useActionState<FormState, FormData>(submitEnquiry, IDLE);
   const context = enquiry?.context || {};
-  if (state.status === 'success') return <div className="ag-detail-success" role="status"><CheckCircle2 size={30} /><h3>We’ve received your enquiry.</h3><p>{state.message}</p></div>;
-  return <form className="ag-detail-lead-form" action={action}>
-    <input type="hidden" name="source" value="counselling" /><input type="hidden" name="program" value={context.programSlug || ''} /><input type="hidden" name="university" value={context.universitySlug || ''} />
-    <input type="hidden" name="message" value={'Agrico admission guidance: ' + [context.programName, context.universityName].filter(Boolean).join(' at ')} />
-    <div className="ag-detail-fields">{[{ key: 'name', label: 'Full name', type: 'text', placeholder: 'Enter your full name', auto: 'name' }, { key: 'phone', label: 'Mobile number', type: 'tel', placeholder: 'Enter your mobile number', auto: 'tel' }, { key: 'email', label: 'Email address', type: 'email', placeholder: 'you@example.com', auto: 'email' }].map(field => <label key={field.key} htmlFor={id + field.key}>{field.label}<input id={id + field.key} name={field.key} type={field.type} placeholder={field.placeholder} autoComplete={field.auto} required aria-invalid={state.invalid?.includes(field.key) || undefined} /></label>)}</div>
-    <label className="ag-detail-consent"><input name="consent" type="checkbox" required aria-invalid={state.invalid?.includes('consent') || undefined} /><span>I agree to be contacted for counselling and guidance. <Link href="/privacy-policy">Privacy policy</Link></span></label>
-    {state.status === 'error' && <p className="ag-detail-form-error" role="alert">{state.message}</p>}
-    <button className="ag-button" type="submit" disabled={pending}>{pending ? <><LoaderCircle className="ag-spin" size={16} />Sending…</> : <>Request a callback<ArrowRight size={16} /></>}</button>
-  </form>;
+  return (
+    <EnquiryForm
+      source="counselling"
+      universitySlug={context.universitySlug}
+      programSlug={context.programSlug}
+      courseName={context.programName}
+      submitLabel="Request a callback"
+      compact={compact}
+    />
+  );
 }
 
 export function DetailExplorer({ items, kind }: { items: DetailListing[]; kind: 'programmes' | 'universities' }) {

@@ -3,7 +3,9 @@
 import { Fragment, useActionState, useCallback, useEffect, useMemo, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowDown, ArrowLeftRight, ArrowRight, BookOpen, Building2, CheckCircle2, ChevronDown, ChevronLeft, ChevronRight, ClipboardCheck, Compass, Drone, Factory, FlaskConical, Layers3, Leaf, LoaderCircle, MapPin, Minus, Plus, Search, Sprout, UsersRound, Waves, X } from 'lucide-react';
+import { ArrowDown, ArrowLeftRight, ArrowRight, BookOpen, Building2, CheckCircle2, ChevronDown, ChevronLeft, ChevronRight, ClipboardCheck, Compass, Drone, Factory, FlaskConical, Layers3, Leaf, LoaderCircle, MapPin, MessageCircle, Minus, Plus, Search, Sprout, UsersRound, Waves, X } from 'lucide-react';
+import { useSiteSettings } from '@/components/providers/site-settings-provider';
+import { useOptionalEnquiryModal } from '@/components/university/university-enquiry-modal';
 import { submitEnquiry } from '@/lib/actions';
 import type { FormState } from '@/lib/form-state';
 import type { Offering, RsHomeData } from '@/components/rs/home-types';
@@ -106,6 +108,11 @@ function TextButton({ children, onClick, className = '' }: { children: ReactNode
 }
 
 export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | null; initialQuery?: string }) {
+  const globalEnquiryModal = useOptionalEnquiryModal();
+  const { whatsappNumber, contactPhone } = useSiteSettings();
+  const rawWa = whatsappNumber || contactPhone || (typeof process !== 'undefined' && process.env?.NEXT_PUBLIC_WHATSAPP_NUMBER) || '919876543210';
+  const waDigits = rawWa.replace(/\D/g, '');
+  const fullWa = waDigits.length === 10 ? '91' + waDigits : waDigits;
   const initialCourse = PROGRAMMES.find(course => initialQuery && normalise(course.name + ' ' + course.navName).includes(normalise(initialQuery))) ?? PROGRAMMES[1];
   const [level, setLevel] = useState<StudyLevel>(initialCourse.level);
   const [activeId, setActiveId] = useState(initialCourse.id);
@@ -271,7 +278,22 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
     return () => { document.body.style.overflow = previous; };
   }, [dialog]);
 
-  const requestGuidance = useCallback((id?: string, sourceTitle?: string) => {
+  const requestGuidance = useCallback((id?: string, sourceTitle?: string, uniSlug?: string) => {
+    const matchedCourse = id ? PROGRAMMES.find(p => p.id === id) : undefined;
+    if (globalEnquiryModal) {
+      setDialog(null);
+      globalEnquiryModal.openModal({
+        universitySlug: uniSlug || '',
+        universityName: sourceTitle && !matchedCourse ? sourceTitle : 'Agrico Admission Desk',
+        programSlug: id,
+        programName: matchedCourse?.name || sourceTitle || 'Agriculture & AgriTech Degree Guidance',
+        source: 'application-form',
+        title: sourceTitle ? `Apply / Enquire — ${sourceTitle}` : 'Get Free Admission Guidance',
+        subtitle: 'Compare ICAR-aligned agriculture universities, fee structures, scholarships and eligibility with a personal counsellor.',
+      });
+      if (id) setInterest(id);
+      return;
+    }
     setDialog(current => {
       if (current && current.type !== 'enquiry') {
         setPreviousDialog(current);
@@ -279,11 +301,11 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
       return {
         type: 'enquiry',
         programmeId: id,
-        sourceTitle: sourceTitle || (id ? PROGRAMMES.find(p => p.id === id)?.name : undefined),
+        sourceTitle: sourceTitle || matchedCourse?.name,
       };
     });
     if (id) setInterest(id);
-  }, []);
+  }, [globalEnquiryModal]);
 
   useEffect(() => {
     const handleOpenEnquiry = (event: Event) => {
@@ -585,8 +607,18 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
               className="ag-button ag-button--sage"
               onClick={() => requestGuidance(active.id, active.name)}
             >
-              Get guidance <ArrowRight size={15} />
+              Apply / Enquire <ArrowRight size={15} />
             </button>
+            {fullWa ? (
+              <a
+                className="ag-button ag-button--outline"
+                href={`https://wa.me/${fullWa}?text=${encodeURIComponent('Hi Agrico, I would like admission guidance & fee details for ' + active.name + '.')}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <MessageCircle size={15} /> WhatsApp
+              </a>
+            ) : null}
             <label className="ag-check">
               <input
                 type="checkbox"
@@ -681,10 +713,22 @@ export function AgricoHome({ data, initialQuery = '' }: { data: RsHomeData | nul
                 <button
                   type="button"
                   className="ag-button ag-button--outline ag-uni-enquire-btn"
-                  onClick={() => requestGuidance(undefined, university.name)}
+                  onClick={() => requestGuidance(undefined, university.name, university.id)}
                 >
-                  Enquire
+                  Apply / Enquire
                 </button>
+                {fullWa ? (
+                  <a
+                    className="ag-uni-wa-btn"
+                    href={`https://wa.me/${fullWa}?text=${encodeURIComponent('Hi Agrico, I would like admission guidance for ' + university.name + '.')}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Chat on WhatsApp about ${university.name}`}
+                    title="Chat on WhatsApp"
+                  >
+                    <MessageCircle size={14} />
+                  </a>
+                ) : null}
                 <Link href={university.href} className="ag-university-view">
                   View <ArrowRight size={15} />
                 </Link>

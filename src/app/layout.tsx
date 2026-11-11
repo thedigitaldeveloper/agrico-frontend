@@ -5,6 +5,7 @@ import { SiteFooter } from '@/components/layout/site-footer';
 import { SiteHeader } from '@/components/layout/site-header';
 import { AgricoSiteChrome } from '@/components/agrico/chrome';
 import { SiteSettingsProvider } from '@/components/providers/site-settings-provider';
+import { EnquiryModalProvider } from '@/components/university/university-enquiry-modal';
 import { getSiteSettings } from '@/lib/cms/repositories/settings';
 import { SITE_NAME, SITE_URL } from '@/lib/env';
 import { JsonLdGraph } from '@/lib/seo/json-ld';
@@ -46,9 +47,11 @@ export default async function RootLayout({ children }: LayoutProps<'/'>) {
           Skip to content
         </a>
         <SiteSettingsProvider settings={siteSettings}>
-          <AgricoSiteChrome legacyHeader={<SiteHeader />} legacyFooter={<SiteFooter />}>
-            {children}
-          </AgricoSiteChrome>
+          <EnquiryModalProvider autoOpenFirstVisit>
+            <AgricoSiteChrome legacyHeader={<SiteHeader />} legacyFooter={<SiteFooter />}>
+              {children}
+            </AgricoSiteChrome>
+          </EnquiryModalProvider>
         </SiteSettingsProvider>
         {/* Site-wide identity and the sitelinks search box, emitted once. */}
         <JsonLdGraph items={[organizationSchema(), websiteSchema()]} />
